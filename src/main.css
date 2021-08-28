@@ -170,8 +170,10 @@ body {
 	width: 10px;
 	height: 10px;
 }
-.role-2irmRk:hover .roleRemoveIcon-2-TeGW,
-.roleRemoveIconFocused-2ynLxl .roleRemoveIcon-2-TeGW {
+.role-2irmRk:hover,
+.roleRemoveIcon-2-TeGW,
+.roleRemoveIconFocused-2ynLxl,
+.roleRemoveIcon-2-TeGW {
 	display: block;
 }
 .roleName-32vpEy {
@@ -264,4 +266,21 @@ body {
 }
 .theme-dark .overflowRolesPopout-140n9i {
 	color: hsla(0, 0%, 100%, 0.8);
+}
+.bannerOverlayProfile-31VOgt {
+	background-color: #202225 !important;
+	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881260162072055838/unknown.png&quot;) !important;
+}
+.body-r6_QPy,
+.header-4zuFdR {
+	background-color: #2f3136;
+}
+.topSection-y3p-_D {
+	background-color: #202225;
+}
+.bannerOverlayProfile-31VOgt {
+	display: none;
+}
+.customStatus-oN4ZZY {
+	background-color: #202225;
 }
