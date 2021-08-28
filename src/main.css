@@ -8,6 +8,7 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css");
+@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 body {
 	--old-green-transparent: #43b58133;
 }
@@ -110,7 +111,7 @@ body {
 .headerTop-3vNv-a {
 	background: #202225;
 }
-.headerTop-3vNv-a headerTopWithCustomStatus-1DHAjX {
+.headerTop-3vNv-a .headerTopWithCustomStatus-1DHAjX {
 	background: #202225;
 }
 .textBadge-1iylP6 {
