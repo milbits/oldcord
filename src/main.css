@@ -170,10 +170,7 @@ body {
 	width: 10px;
 	height: 10px;
 }
-.role-2irmRk:hover,
-.roleRemoveIcon-2-TeGW,
-.roleRemoveIconFocused-2ynLxl,
-.roleRemoveIcon-2-TeGW {
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW .roleRemoveIconFocused-2ynLxl .roleRemoveIcon-2-TeGW {
 	display: block;
 }
 .roleName-32vpEy {
