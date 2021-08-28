@@ -5,6 +5,10 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css');
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
 body {
 	--old-green-transparent: #43b58133;
 }
