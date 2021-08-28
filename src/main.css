@@ -1,3 +1,4 @@
+@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css");
@@ -8,7 +9,6 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 body {
 	--old-green-transparent: #43b58133;
 }
