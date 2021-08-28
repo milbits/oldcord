@@ -1,10 +1,10 @@
 # OldCord
 
-Reverts almost everything like it was in 2020
+A [BetterDiscord](https://betterdiscord.app " ") theme that reverts almost everything like it was in 2020
 
 # Install
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css "just click it") and move it to theme folder
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it to theme folder
 
 ## Or
 
