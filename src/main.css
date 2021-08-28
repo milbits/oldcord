@@ -17,13 +17,9 @@ body {
 	background-color: var(--old-green-transparent) !important;
 }
 
-/* Manual fixes */
-
-/* Fix hardcoded unread bar not being red */
 .isUnread-3Ef-o9 {
 	border-color: var(--divider-color) !important;
 }
-/* Revert all other green elements to the old green */
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY {
 	background: #43b581;
 }
@@ -97,16 +93,13 @@ body {
 	background: var(--brand-experiment-15a);
 	text-decoration: none;
 }
-/* Fixed "Add Friend" button to correct colors when selected */
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
 	color: var(--old-green) !important;
 	background-color: var(--old-green-transparent) !important;
 }
-/* (Hopefully) Revert loading logo */
 [src="/assets/3b0d96ed8113994f3d139088726cfecd.webm"] {
 	content: url(https://discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm);
 }
-/* user popout*/
 .body-3HBlXn,
 .popoutInfo-pKbpvG {
 	background: #2f3136;
