@@ -4,11 +4,13 @@
 @import url("https://moyaiu.github.io/OldCord/src/components/reactions.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/profilepics.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/folder.css");
-@import url("https://moyaiu.github.io/OldCord/src/components/workmark.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/wordmark.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/bd.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/input.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/svg.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/other.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/profile.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/roles.css");
 body {
 	--old-green-transparent: #43b58133;
 }
@@ -98,186 +100,11 @@ body {
 	background-color: var(--old-green-transparent) !important;
 }
 [src="/assets/3b0d96ed8113994f3d139088726cfecd.webm"] {
-	content: url(https://canary.discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm);
-}
-.body-3HBlXn,
-.popoutInfo-pKbpvG {
-	background: #2f3136;
-}
-.bodyInnerWrapper-26fQXj,
-.footer-3UKYOU {
-	background: #2f3136;
-}
-.headerTop-3vNv-a {
-	background: #202225;
-}
-.headerTop-3vNv-a .headerTopWithCustomStatus-1DHAjX {
-	background: #202225;
-}
-.textBadge-1iylP6 {
-	display: none;
-}
-.avatar-37jOim {
-	background: #202225;
-}
-#app-mount .mention.iconMentionText-8GCluA {
-	padding-left: 1.2rem;
-}
-#app-mount .mention.iconMention-1_KJ_B {
-	padding-left: 1.3rem;
-}
-.banner-2QYc2d {
-	background-color: #202225 !important;
-}
-.bannerOverlayPopout-1clJ34 {
-	display: none;
-}
-.bannerPremium-2hSAwz {
-	height: 110px;
-	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881195483631058984/unknown.png&quot;) !important;
+	content: url(https://canary.discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm) !important;
 }
 #app-mount .mention.iconMentionText-8GCluA {
 	padding-left: 1.1rem;
 }
 #app-mount .mention.iconMention-1_KJ_B {
 	padding-left: 1.1rem;
-}
-.root-3-B5F3 {
-	position: relative;
-	margin-top: 2px;
-}
-.role-2irmRk {
-	font-size: 12px;
-	font-weight: 500;
-	border: 1px solid;
-	border-radius: 11px;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	height: 22px;
-	margin: 0 4px 4px 0;
-	padding: 4px;
-	background-color: #2f3136;
-}
-.roleCircle-3xAZ1j {
-	border-radius: 50%;
-	width: 12px;
-	height: 12px;
-	padding: 0;
-	margin-right: 4px;
-}
-.roleRemoveIcon-2-TeGW {
-	display: none;
-	width: 10px;
-	height: 10px;
-}
-.role-2irmRk:hover .roleRemoveIcon-2-TeGW .roleRemoveIconFocused-2ynLxl .roleRemoveIcon-2-TeGW {
-	display: block;
-}
-.roleName-32vpEy {
-	max-width: 200px;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	margin-right: 4px;
-}
-.actionButton-VzECiy {
-	font-size: 11px;
-	line-height: 11px;
-}
-.overflowButton-1SCpCf {
-	padding: 4px 8px;
-}
-.addButton-pcyyf6 {
-	padding: 4px 5px;
-}
-.addButtonIcon-1NMJ8u {
-	cursor: pointer;
-	width: 10px;
-	height: 10px;
-}
-.overflowRolesPopout-140n9i {
-	border-radius: 3px;
-	padding: 8px;
-	width: 200px;
-}
-.overflowRolesPopoutArrowWrapper-2Dx30g {
-	margin-left: -8px;
-	overflow: hidden;
-	width: 16px;
-	height: 12px;
-}
-.overflowRolesPopoutArrow-2O66oH {
-	width: 8px;
-	height: 8px;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.popoutBottom-2BJWty .overflowRolesPopoutArrowWrapper-2Dx30g {
-	position: absolute;
-	bottom: 100%;
-	left: 50%;
-}
-.popoutBottom-2BJWty .overflowRolesPopoutArrow-2O66oH {
-	position: absolute;
-	bottom: -4px;
-	left: 4px;
-}
-.popoutTop-1WcJ06 .overflowRolesPopoutArrowWrapper-2Dx30g {
-	position: absolute;
-	top: 100%;
-	left: 50%;
-}
-.popoutTop-1WcJ06 .overflowRolesPopoutArrow-2O66oH {
-	position: absolute;
-	top: -4px;
-	left: 4px;
-}
-.overflowRolesPopoutHeader-ciqDLE {
-	margin-bottom: 8px;
-}
-.popoutRoleDot-1XPcoA {
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-	margin-right: 8px;
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.overflowRolesPopoutHeaderIcon-6PNEZA {
-	margin-right: 4px;
-	width: 12px;
-	height: 12px;
-}
-.overflowRolesPopoutHeaderText-1SW-y3 {
-	font-size: 12px;
-	font-weight: 700;
-	color: #72767d;
-	text-transform: uppercase;
-}
-.theme-dark .actionButton-VzECiy {
-	border-color: #4f545c;
-	color: #b9bbbe;
-	background: transparent;
-}
-.theme-dark .overflowRolesPopout-140n9i {
-	color: hsla(0, 0%, 100%, 0.8);
-}
-.bannerOverlayProfile-31VOgt {
-	background-color: #202225 !important;
-	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881260162072055838/unknown.png&quot;) !important;
-}
-.body-r6_QPy,
-.header-4zuFdR {
-	background-color: #2f3136;
-}
-.topSection-y3p-_D {
-	background-color: #202225;
-}
-.bannerOverlayProfile-31VOgt {
-	display: none;
-}
-.customStatus-oN4ZZY {
-	background-color: #202225;
 }
