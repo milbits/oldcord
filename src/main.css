@@ -104,6 +104,9 @@ body {
 #app-mount .mention.iconMention-1_KJ_B {
 	padding-left: 1.1rem;
 }
-[src="/assets/3b0d96ed8113994f3d139088726cfecd.webm"] {
-	content: url(https://canary.discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm) !important;
+.icon-3Povsy {
+	display: none;
+}
+[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+	fill: var(--old-green);
 }

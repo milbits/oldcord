@@ -8,6 +8,7 @@ body {
 	--info-danger-foreground: var(--old-red);
 	--status-danger-background: var(--old-red);
 	--font-display: var(--font-primary);
+	--control-brand-foreground: #7289da;
 	--brand-experiment-100: #f8f9fd;
 	--brand-experiment-130: #f2f4fc;
 	--brand-experiment-160: #ebeefa;
@@ -20,9 +21,7 @@ body {
 	--brand-experiment-400: #8ea1e1;
 	--brand-experiment-430: #869adf;
 	--brand-experiment-460: #7d92dd;
-
 	--brand-experiment: #7289da;
-
 	--brand-experiment-500: #7289da;
 	--brand-experiment-530: #687dc6;
 	--brand-experiment-560: #5c6fb1;
@@ -36,7 +35,6 @@ body {
 	--brand-experiment-830: #1a2032;
 	--brand-experiment-860: #111521;
 	--brand-experiment-900: #06070b;
-
 	--brand-experiment-05a: rgba(114, 137, 218, 0.05);
 	--brand-experiment-10a: rgba(114, 137, 218, 0.1);
 	--brand-experiment-15a: rgba(114, 137, 218, 0.15);
