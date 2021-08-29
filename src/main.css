@@ -1,3 +1,6 @@
+[src="/assets/3b0d96ed8113994f3d139088726cfecd.webm"] {
+	content: url(https://canary.discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm) !important;
+}
 @import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/hardcoded.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/pings.css");
@@ -98,9 +101,6 @@ body {
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
 	color: var(--old-green) !important;
 	background-color: var(--old-green-transparent) !important;
-}
-[src="/assets/3b0d96ed8113994f3d139088726cfecd.webm"] {
-	content: url(https://canary.discord.com/assets/0bdc0497eb3a19e66f2b1e3d5741634c.webm) !important;
 }
 #app-mount .mention.iconMentionText-8GCluA {
 	padding-left: 1.1rem;

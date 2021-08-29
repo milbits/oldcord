@@ -1,3 +1,4 @@
+/* Restyle the create server and discovery buttons to the old green */
 .circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
 	color: var(--old-green);
 }
@@ -5,13 +6,21 @@
 	color: white;
 	background-color: var(--old-green);
 }
-.container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
+
+/* On switches to old green */
+.container-3auIfb[style="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
+.container-3auIfb[style="opacity: 1; background-color: hsl(151, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+	background-color: var(--old-green) !important;
+}
+/* Text input focus border color is now focus / link, change back to original brand color */
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
 	border-color: var(--brand-experiment);
 }
+
+/* Restyle the create server and discovery buttons to the old green */
 .circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
 	color: var(--old-green);
 }
@@ -19,29 +28,46 @@
 	color: white;
 	background-color: var(--old-green);
 }
-.container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
+
+/* On switches to old green */
+.container-3auIfb[style="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
+
+/* Text input focus border color is now focus / link, change back to original brand color */
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
 	border-color: var(--brand-experiment);
 }
+
+/* Change all radio bars with the new green to the old green */
+/* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
 .radioBar-bMNUI-[style*="--radio-bar-accent-color:#3ba55c"] {
 	--radio-bar-accent-color: var(--old-green) !important;
 }
+
+/* Revert ping mention button being link colored (used to be brand) */
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
 	color: var(--brand-experiment) !important;
 }
+
+/* Change the 'get nitro' button in the emoji popup back to the old green */
 .lookFilled-1Gx00P.colorGreen-29iAKY {
 	background-color: var(--old-green);
 }
+
+/* Revert the 'Add Friend' button to the old green*/
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: var(--old-green) !important;
 }
+
+/* Fixed "Add Friend" button to correct colors when selected */
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
 	color: var(--old-green) !important;
 	background-color: var(--old-green-transparent) !important;
 }
+
+/* Color picker default to blurple instead of new brand color */
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
 	background-color: var(--brand-experiment) !important;
 }
