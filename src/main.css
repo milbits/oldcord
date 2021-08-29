@@ -1,14 +1,14 @@
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/hardcoded.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/pings.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/reactions.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/profilepics.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/folder.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/workmark.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/bd.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/input.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/svg.css");
+@import url("https://moyaiu.github.io/OldCord/src/components/other.css");
 body {
 	--old-green-transparent: #43b58133;
 }
