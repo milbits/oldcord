@@ -110,3 +110,6 @@ body {
 [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
 	fill: var(--old-green);
 }
+[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
+	fill: var(--brand-experiment);
+}
