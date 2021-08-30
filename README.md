@@ -1,22 +1,21 @@
 <img src="https://cdn.discordapp.com/attachments/852275565654442006/881814040874221578/image1.jpg" alt="a" style="border-radius: 3px" >
 
 ---
+# What is OldCord?
+OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were before the 2021 Rebrand!
 
-A [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more like they were before the 2021 Rebrand!
+# Installation
 
-# Install
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it to theme folder
+## Or
 
-### Or
-
-Put this to custom CSS
+Put this into the custom CSS tab
 
 ```css
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
 ```
-
-### Better discord will automatically update the theme when there's a new commit
+Better discord will automatically update the theme when there's a new commit
 
 ---
 
