@@ -1,6 +1,6 @@
-# OldCord
+<img src="https://cdn.discordapp.com/attachments/852275565654442006/881814040874221578/image1.jpg" alt="a" style="border-radius: 3px" >
 
-A [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more like they were before the 2020 Rebrand!
+A [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more like they were before the 2021 Rebrand!
 
 # Install
 
@@ -25,30 +25,27 @@ Put this to custom CSS
 
 ### Profile Card
 
-![Role List](https://cdn.discordapp.com/attachments/827938615958831134/881479785245720616/unknown.png)
+
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881479785245720616/unknown.png" alt="a" style="border-radius: 3px" >
+
 
 ### Profile Info
-
-![Info](https://cdn.discordapp.com/attachments/827938615958831134/881480343255937024/unknown.png)
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881480343255937024/unknown.png" alt="a" style="border-radius: 3px" >
 
 ### Home and Wordmark
-
-![Hi](https://cdn.discordapp.com/attachments/827938615958831134/881480610663772160/unknown.png)
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881480610663772160/unknown.png" alt="a" style="border-radius: 3px" >
 
 ### Reactions
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881481121240604682/unknown.png" alt="a" style="border-radius: 3px" >
 
-![](https://cdn.discordapp.com/attachments/827938615958831134/881481121240604682/unknown.png)
 
 ### Pings
-
-![](https://cdn.discordapp.com/attachments/827938615958831134/881481487390736384/unknown.png)
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881481487390736384/unknown.png" alt="a" style="border-radius: 3px" >
 
 ### Blurple Buttons
-
-![btn](https://cdn.discordapp.com/attachments/827938615958831134/881481868787216424/unknown.png)
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881481868787216424/unknown.png" alt="a" style="border-radius: 3px" >
 
 ### On Switch
-
-![](https://cdn.discordapp.com/attachments/827938615958831134/881482227802841138/unknown.png)
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/881482227802841138/unknown.png" alt="a" style="border-radius: 3px" >
 
 </details>
