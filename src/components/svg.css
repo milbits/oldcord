@@ -1,1 +1,34 @@
-[fill="#3ba55c"]{fill:var(--old-green)}.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");']{background-image:url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg)!important}.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");']{background-image:url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg)!important}.lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"]{content:url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg)!important}.permissionCheckmark-1SeKr2{background:url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat}.channelNotice-1-XFjC.invite-OjTXrW{background:url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg) no-repeat center 20px}.profileBadge22-LJmn9o[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"]{content:url(https://moyaiu.github.io/OldCord/src/assets/mod.svg)!important}.profileBadge22-LJmn9o[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"]{content:url(https://moyaiu.github.io/OldCord/src/assets/partner.svg)!important}.profileBadge24-179Xm3[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"]{content:url(https://moyaiu.github.io/OldCord/src/assets/mod.svg)!important}.profileBadge24-179Xm3[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"]{content:url(https://moyaiu.github.io/OldCord/src/assets/partner.svg)!important}.profileBadge24-179Xm3[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"]{content:url(https://moyaiu.github.io/OldCord/src/assets/employee.svg)!important}
+[fill="#3ba55c"] {
+	fill: var(--old-green);
+}
+.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
+	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg) !important;
+}
+.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");'] {
+	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg) !important;
+}
+.lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
+	content: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg) !important;
+}
+.permissionCheckmark-1SeKr2 {
+	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat;
+}
+.channelNotice-1-XFjC.invite-OjTXrW {
+	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg) no-repeat center
+		20px;
+}
+.profileBadge22-LJmn9o[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+	content: url(https://moyaiu.github.io/OldCord/src/assets/mod.svg) !important;
+}
+.profileBadge22-LJmn9o[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+	content: url(https://moyaiu.github.io/OldCord/src/assets/partner.svg) !important;
+}
+.profileBadge24-179Xm3[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+	content: url(https://moyaiu.github.io/OldCord/src/assets/mod.svg) !important;
+}
+.profileBadge24-179Xm3[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+	content: url(https://moyaiu.github.io/OldCord/src/assets/partner.svg) !important;
+}
+.profileBadge24-179Xm3[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+	content: url(https://moyaiu.github.io/OldCord/src/assets/employee.svg) !important;
+}

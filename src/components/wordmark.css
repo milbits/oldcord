@@ -1,1 +1,6 @@
-.wordmarkWindows-1v0lYD path:not(:first-child){display:none}.wordmarkWindows-1v0lYD g{transform:translateY(3px)}
+.wordmarkWindows-1v0lYD path:not(:first-child) {
+	display: none;
+}
+.wordmarkWindows-1v0lYD g {
+	transform: translateY(3px);
+}

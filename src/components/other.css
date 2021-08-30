@@ -1,1 +1,41 @@
-.colorable-1bkp8v.green-plH-Mj{background-color:var(--old-green)}.colorable-1bkp8v.green-plH-Mj.active-1QRrIS,.colorable-1bkp8v.green-plH-Mj:hover{background:var(--old-green)}.verified-1eC5dy{color:var(--old-green)}.avatarSpeaking-2c8-9i{box-shadow:inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136}.speaking-B2MXPi.border-Jn5IOt{box-shadow:inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136}.border-3dQmSY.speaking-WDn8Wm{box-shadow:inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #000}.premiumTabItem-1QTfBr .icon-Zc-uZZ{display:none}.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]){fill:var(--old-green)}.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]){fill:var(--old-green)}.wrapper-3t9DeA svg.cursorDefault-dsQJ1n>rect[fill="#3ba55c"]{fill:var(--old-green)}.tipTitle-GL9qAt{color:var(--brand-experiment)!important}.commandName-1klrjB.clickable-1bVtEA,.ephemeralMessage-1fEWtQ .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB[role=button]{color:var(--brand-experiment)}.attachButtonPlay-3iJ0mf{color:var(--old-green)}
+.colorable-1bkp8v.green-plH-Mj {
+	background-color: var(--old-green);
+}
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS,
+.colorable-1bkp8v.green-plH-Mj:hover {
+	background: var(--old-green);
+}
+.verified-1eC5dy {
+	color: var(--old-green);
+}
+.avatarSpeaking-2c8-9i {
+	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
+}
+.speaking-B2MXPi.border-Jn5IOt {
+	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
+}
+.border-3dQmSY.speaking-WDn8Wm {
+	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;
+}
+.premiumTabItem-1QTfBr .icon-Zc-uZZ {
+	display: none;
+}
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
+	fill: var(--old-green);
+}
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
+	fill: var(--old-green);
+}
+.wrapper-3t9DeA svg.cursorDefault-dsQJ1n > rect[fill="#3ba55c"] {
+	fill: var(--old-green);
+}
+.tipTitle-GL9qAt {
+	color: var(--brand-experiment) !important;
+}
+.commandName-1klrjB.clickable-1bVtEA,
+.ephemeralMessage-1fEWtQ .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB[role="button"] {
+	color: var(--brand-experiment);
+}
+.attachButtonPlay-3iJ0mf {
+	color: var(--old-green);
+}
