@@ -146,3 +146,13 @@
 {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/testers.png);
 }
+[style="background-color: rgb(88, 101, 242);"] {
+	background-color: rgb(114, 137, 218) !important;
+	color: rgb(114, 137, 218) !important;
+}
+[style="border-color: rgba(88, 101, 242, 0.6);"] {
+	border-color: rgb(114, 137, 218, 0.6) !important;
+}
+[style="color: rgb(88, 101, 242);"] {
+	color: rgb(114, 137, 218) !important;
+}
