@@ -4,18 +4,18 @@
 .icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg) !important;
 }
-.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");'] {
+.icon-2Po-VO.iconSize-2tmqqh[style="background-image: url(&quot;/assets/e06a573355c490f7ce6e3125ac01db81.svg&quot; );"] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg) !important;
 }
-.lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
+.lockIcon-2Hj8Tq[src="/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg"] {
 	content: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg) !important;
 }
 .permissionCheckmark-1SeKr2 {
-	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat;
+	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat !important;
 }
 .channelNotice-1-XFjC.invite-OjTXrW {
 	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg) no-repeat center
-		20px;
+		20px !important;
 }
 .profileBadge22-LJmn9o[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/mod.svg) !important;
@@ -39,5 +39,11 @@
 	content: url("https://moyaiu.github.io/OldCord/src/assets/system.svg") !important;
 }
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-	fill: #7289da;
+	fill: #7289da !important;
+}
+.updateIconForeground-3tnNZn[fill="currentColor"] {
+	fill: var(--old-green) !important;
+}
+.lockIcon-2Hj8Tq[src="/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg"] {
+	content: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg) !important;
 }
