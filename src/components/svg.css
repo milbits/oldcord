@@ -38,3 +38,6 @@
 .image-3XsqGc[src="/assets/5a6c298c68b5963581a107d420352d07.svg"] {
 	content: url("https://moyaiu.github.io/OldCord/src/assets/system.svg") !important;
 }
+[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
+	fill: #7289da;
+}
