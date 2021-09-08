@@ -1,4 +1,4 @@
-<img src="https://cdn.discordapp.com/attachments/852275565654442006/881814040874221578/image1.jpg" alt="a" style="border-radius: 3px" >
+<img src="https://cdn.discordapp.com/attachments/852275565654442006/881814040874221578/image1.jpg" alt="a" style="border-radius: 3px" height="400" >
 
 ---
 
@@ -11,11 +11,10 @@ _Requires dark theme to work properly_
 
 # Installation
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder
-
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`C:\Users\current user name\AppData\Roaming\BetterDiscord\themes`)
 ## Or
 
-Put this into the custom CSS tab
+Put this into the custom CSS tab:
 
 ```css
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
