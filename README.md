@@ -23,6 +23,8 @@ Put this into the custom CSS tab:
 Better discord will automatically update the theme when there's a new commit!
 
 ---
+# Found a bug?
+report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 <details>
 <summary><strong>Preview</strong></summary>
