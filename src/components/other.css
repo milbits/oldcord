@@ -71,25 +71,19 @@
 	background: #66c69a;
 }
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
-	.header-4zuFdR
-	.horizontal-1ae9ci
-	.colorGreen-29iAKY:active {
-	background: #3ca374;
-}
-.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
 	.relationshipButtons-pUQVkf
 	.actionButton-3vN-m0.colorGreen-29iAKY {
-	background: #43b581;
+	background: var(--old-green);
 }
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
 	.relationshipButtons-pUQVkf
 	.actionButton-3vN-m0.colorGreen-29iAKY:hover {
-	background: #66c69a;
+	background: var(--green-hover);
 }
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
 	.relationshipButtons-pUQVkf
 	.actionButton-3vN-m0.colorGreen-29iAKY:active {
-	background: #3ca374;
+	background: var(--green-hover);
 }
 .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
 	.relationshipButtons-pUQVkf
@@ -158,4 +152,19 @@
 }
 [style="background-color: rgb(88, 101, 242);"] {
 	background-color: rgb(114, 137, 218) !important;
+}
+.button-1YfofB:hover .buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+	background-color: var(--green-hover);
+	color: #fff;
+}
+.button-1YfofB:hover .buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp {
+	background-color: var(--old-green);
+	color: #fff;
+}
+.button-1YfofB:hover .buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:active {
+	background-color: var(--green-active);
+	color: #fff;
 }
