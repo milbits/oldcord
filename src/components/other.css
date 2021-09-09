@@ -55,9 +55,17 @@
 }
 
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+	background-color: #3e4249 !important;
+	color: #fff !important;
+}
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"][aria-selected="true"] {
 	color: var(--old-green) !important;
 	background-color: var(--old-green-transparent) !important;
 }
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"] {
+	background-color: var(--old-green) !important;
+}
+
 .isUnread-3Ef-o9 {
 	border-color: var(--divider-color) !important;
 }
@@ -129,8 +137,15 @@
 	text-decoration: none;
 }
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+	background-color: #3e4249 !important;
+	color: #fff !important;
+}
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"][aria-selected="true"] {
 	color: var(--old-green) !important;
 	background-color: var(--old-green-transparent) !important;
+}
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"] {
+	background-color: var(--old-green) !important;
 }
 .icon-27yU2q[src="https://cdn.discordapp.com/icons/169256939211980800/0afde43e532ad75e55e65deb0396442a.webp?size=256"]
 {
