@@ -10,9 +10,9 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts P
 ###### _Requires dark theme to work properly_
 
 # Installation
-
+## Better Discord
 Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`C:\Users\current user name\AppData\Roaming\BetterDiscord\themes`)
-## Or
+### Or
 
 Put this into the custom CSS tab:
 
@@ -20,8 +20,10 @@ Put this into the custom CSS tab:
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
 ```
 
-Better discord will automatically update the theme when there's a new commit!
+## Powercord
 
+- In Discord's settings, go to `Themes > Open CMD / Powershell / Terminal / Gitbash`
+- Clone the theme via: `git clone https://github.com/moyaiu/OldCord`
 ---
 # Found a bug?
 report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
