@@ -4,7 +4,9 @@ body {
 	--status-positive-background: var(--old-green);
 	--text-positive: var(--old-green);
 	--old-red: #f04747;
-	--green-hover: #3CA374;
+	--old-red-hover: #c03537;
+	--old-red-active: #a12d2f;
+	--green-hover: #3ca374;
 	--green-active: #369167;
 	--text-danger: var(--old-red);
 	--info-danger-foreground: var(--old-red);

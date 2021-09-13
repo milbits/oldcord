@@ -183,3 +183,7 @@
 	background-color: var(--green-active);
 	color: #fff;
 }
+.colorDanger-2qLCe1.focused-3afm-j:active {
+	background-color: var(--old-red-active);
+	color: var(--interactive-active);
+}
