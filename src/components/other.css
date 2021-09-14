@@ -187,3 +187,9 @@
 	background-color: var(--old-red-active);
 	color: var(--interactive-active);
 }
+[style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
+	background-color: #7289da !important;
+}
+[style="background-color: rgb(59, 165, 92);"] {
+	background-color: var(--old-green) !important;
+}
