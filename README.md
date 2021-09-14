@@ -4,14 +4,16 @@
 
 # What is OldCord?
 
-OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were before the 2021 Rebrand!
-##### even reverts small details!
+OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were in 2020!
 
 ###### _Requires dark theme to work properly_
 
 # Installation
+
 ## Better Discord
+
 Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`C:\Users\current user name\AppData\Roaming\BetterDiscord\themes`)
+
 ### Or
 
 Put this into the custom CSS tab:
@@ -22,10 +24,13 @@ Put this into the custom CSS tab:
 
 ## Powercord
 
-- In Discord's settings, go to `Themes > Open CMD / Powershell / Terminal / Gitbash`
-- Clone the theme via: `git clone https://github.com/moyaiu/OldCord`
+-    In Discord's settings, go to `Themes > Open CMD / Powershell / Terminal / Gitbash`
+-    Clone the theme via: `git clone https://github.com/moyaiu/OldCord`
+
 ---
+
 # Found a bug?
+
 report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 <details>
