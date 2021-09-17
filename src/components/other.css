@@ -228,3 +228,35 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
 	background-color: #7289da;
 }
+.buttonColor-7qQbGO,
+.button-1YfofB .buttonColor-7qQbGO {
+	background-color: var(--background-primary);
+	color: var(--interactive-active);
+}
+.button-1YfofB.buttonColor-7qQbGO:hover,
+.button-1YfofB .buttonColor-7qQbGO:hover {
+	background-color: var(--background-secondary);
+}
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
+	background-color: var(--old-green);
+	color: #fff;
+}
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover,
+.button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+	background-color: var(--green-hover);
+}
+.button-1YfofB.buttonColor-7qQbGO.fauxDisabled-2ik0Vw,
+.button-1YfofB .buttonColor-7qQbGO.fauxDisabled-2ik0Vw,
+.button-1YfofB.buttonColor-7qQbGO:disabled,
+.button-1YfofB .buttonColor-7qQbGO:disabled {
+	background-color: var(--background-primary);
+	color: var(--interactive-active);
+	opacity: 0.3;
+}
+.buttonActive-3FrkXp.buttonColor-7qQbGO:hover {
+	background-color: var(--green-hover) !important;
+}
+.buttonActive-3FrkXp.buttonColor-7qQbGO:active {
+	background-color: var(--green-active) !important;
+}
