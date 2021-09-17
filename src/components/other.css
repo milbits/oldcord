@@ -196,3 +196,35 @@
 .progressBar-3u8FBM {
 	background-color: hsl(227, 58%, 65%) !important;
 }
+.colorBrand-ROmMP1 {
+	color: #677bc4;
+}
+.foreground-2aE44H {
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 10;
+	stroke-linecap: round;
+	-webkit-transition: stroke 0.3s ease, stroke-dasharray 0.3s ease-out;
+	transition: stroke 0.3s ease, stroke-dasharray 0.3s ease-out;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+	color: #fff;
+	background-color: #f04747;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+	background-color: #d84040;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:active {
+	background-color: #c03939;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+	background-color: #677bc4;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+	background-color: #5b6eae;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 .spinnerItem-3GlVyU {
+	background-color: #fff;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+	background-color: #7289da;
+}
