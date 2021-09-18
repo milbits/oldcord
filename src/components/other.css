@@ -260,3 +260,122 @@
 .buttonActive-3FrkXp.buttonColor-7qQbGO:active {
 	background-color: var(--green-active) !important;
 }
+.background-1QDuV2 {
+	border-radius: 8px;
+	background-color: var(--background-secondary);
+	padding: 16px;
+}
+.profile-1eT9hT {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.avatarUploaderInner-2EvNMg {
+	width: 80px;
+	height: 80px;
+}
+.details-2fkb7l {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 16px;
+	overflow: hidden;
+}
+.detailsInner-1VPlWl {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--header-primary);
+}
+.username-1fQw19 {
+	font-weight: 600;
+}
+.badgeList-HtCfKd {
+	margin-top: 4px;
+}
+.fieldList-21DyL8 {
+	border-radius: 8px;
+	background-color: var(--background-primary);
+	padding: 16px;
+	margin-top: 16px;
+}
+.field-1HUseB {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.fieldSpacer-wgewFh {
+	margin-top: 24px;
+}
+.fieldTitle-3h2iLW {
+	margin-bottom: 4px;
+}
+.fieldButtonList-16Wn0S {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.fieldButton-27bJrp {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.removeButton-3vophT {
+	margin-right: 8px;
+}
+.menu-319q29,
+.uploadButton-3kjtMm {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-left: auto;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+.menu-319q29 {
+	margin-right: 16px;
+	color: var(--interactive-normal);
+	cursor: pointer;
+}
+.avatarError-10Cg1R {
+	margin-top: 8px;
+}
+.constrainedRow-2GB6Ki {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	overflow: hidden;
+	margin-right: 16px;
+}
+.usernameRow-2Lu_-c {
+	overflow: hidden;
+}
+.usernameInnerRow-ZlFnET {
+	overflow: hidden;
+	color: var(--header-primary);
+	text-overflow: ellipsis;
+}
