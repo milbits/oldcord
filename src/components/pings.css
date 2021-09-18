@@ -11,10 +11,13 @@
 #app-mount .mention.iconMentionText-8GCluA {
 	padding-left: 1.1rem;
 }
-
 .mentioned-xhSam7 {
 	position: relative;
 	background-color: var(--background-mentioned) !important;
+}
+.mentioned-xhSam7:hover {
+	position: relative;
+	background-color: var(--background-mentioned-hover) !important;
 }
 .wrapper-3WhCwL {
 	border-radius: 3px;
@@ -25,4 +28,34 @@
 	color: #7289da;
 	background: rgba(114, 137, 218, 0.1);
 	position: relative;
+}
+.wrapper-3WhCwL {
+	border-radius: 3px;
+	padding: 0 2px;
+	font-weight: 500;
+	unicode-bidi: -moz-plaintext;
+	unicode-bidi: plaintext;
+	color: #7289da;
+	background: rgba(114, 137, 218, 0.1);
+	position: relative;
+}
+.interactive {
+	-webkit-transition: background-color 50ms ease-out, color 50ms ease-out;
+	transition: background-color 50ms ease-out, color 50ms ease-out;
+	cursor: pointer;
+}
+.interactive:hover {
+	color: #fff;
+	background-color: #7289da;
+}
+.mentioned-xhSam7 {
+	position: relative;
+	background-color: var(--background-mentioned) !important;
+}
+.mentioned-xhSam7:hover {
+	position: relative;
+	background-color: var(--background-mentioned-hover) !important;
+}
+.iconMention-1_KJ_B {
+	padding-left: 1.25rem !important;
 }
