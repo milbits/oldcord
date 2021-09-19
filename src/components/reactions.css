@@ -30,3 +30,340 @@
 .reaction-1hd86g.reactionMe-wv5HKu:hover {
 	background-color: var(--brand-experiment-40a);
 }
+.reactionInner-15NvIl {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0 0.375rem;
+}
+.reactionCount-2mvXRV {
+	font-size: 0.875rem;
+	font-weight: 500;
+	margin-left: 0.375rem;
+	text-align: center;
+	color: var(--text-muted);
+}
+.reaction-1hd86g:hover .reactionCount-2mvXRV {
+	color: var(--interactive-hover);
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+	color: #7289da;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+	background-color: rgba(114, 137, 218, 0.3);
+}
+.background-opacity-high .reactionCount-2mvXRV,
+.background-opacity-low .reactionCount-2mvXRV,
+.background-opacity-medium .reactionCount-2mvXRV {
+	color: #b9bbbe;
+}
+.background-opacity-high .reactionMe-wv5HKu .reactionCount-2mvXRV,
+.background-opacity-low .reactionMe-wv5HKu .reactionCount-2mvXRV,
+.background-opacity-medium .reactionMe-wv5HKu .reactionCount-2mvXRV {
+	color: #c7d0f0;
+}
+.container-1ov-mD {
+	display: grid;
+	grid-auto-flow: row;
+	grid-row-gap: 0.25rem;
+	text-indent: 0;
+	min-height: 0;
+	min-width: 0;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+	position: relative;
+}
+.container-1ov-mD:empty {
+	display: none;
+}
+.container-1ov-mD > * {
+	justify-self: start;
+	-ms-flex-item-align: start;
+	align-self: start;
+}
+.gifFavoriteButton-2SKrBk {
+	display: block;
+	margin: 0 0 0 auto;
+	opacity: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transform: translateY(-16px);
+	transform: translateY(-16px);
+	-webkit-transition: opacity 0.1s ease, -webkit-transform 0.2s ease;
+	transition: opacity 0.1s ease, -webkit-transform 0.2s ease;
+	transition: transform 0.2s ease, opacity 0.1s ease;
+	transition: transform 0.2s ease, opacity 0.1s ease, -webkit-transform 0.2s ease;
+}
+.embedWrapper-lXpS3L:hover .gifFavoriteButton-2SKrBk {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.giftCodeContainer-1fbmAS {
+	width: 100%;
+}
+.confirmText-hRazmx {
+	margin-bottom: 12px;
+}
+.container-1sFeqf {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.keybind-KpFkfr {
+	margin-top: 8px;
+	font-weight: 600;
+	font-size: 13px;
+	text-align: center;
+}
+.closeButton-1tv5uR {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 36px;
+	flex: 0 0 36px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+}
+.closeButton-1tv5uR:active {
+	-webkit-transform: translateY(1px);
+	transform: translateY(1px);
+}
+.reactions-12N0jA {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: -0.25rem;
+	padding-bottom: 0.125rem;
+}
+.icon-2uw6mp,
+.reactionBtn-3N03Zj {
+	width: 1rem;
+	height: 1rem;
+}
+.reactionBtn-3N03Zj {
+	cursor: pointer;
+	visibility: hidden;
+	color: var(--interactive-normal);
+}
+.reactionBtn-3N03Zj:hover .icon-2uw6mp {
+	color: var(--interactive-hover);
+}
+.reactionBtn-3N03Zj.active-1pv5EN .icon-2uw6mp,
+.reactionBtn-3N03Zj:active .icon-2uw6mp {
+	color: var(--interactive-active);
+}
+.reactionBtn-3N03Zj.active-1pv5EN,
+.reactions-12N0jA:hover .reactionBtn-3N03Zj {
+	visibility: visible;
+}
+.reaction-1hd86g {
+	border-radius: 0.25rem;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: background-color 0.1s ease;
+	transition: background-color 0.1s ease;
+	background: var(--background-modifier-accent);
+}
+.reaction-1hd86g.reactionReadOnly-bYgwi9 {
+	cursor: not-allowed;
+}
+.reaction-1hd86g .emoji {
+	width: 1rem;
+	height: 1rem;
+	margin: 0.125rem 0;
+	min-width: auto;
+	min-height: auto;
+}
+.reaction-1hd86g .emoji-text {
+	color: var(--text-normal);
+	vertical-align: -0.125rem;
+	display: inline-block;
+}
+.reactionInner-15NvIl {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0 0.375rem;
+}
+.reactionCount-2mvXRV {
+	font-size: 0.875rem;
+	font-weight: 500;
+	margin-left: 0.375rem;
+	text-align: center;
+	color: var(--text-muted);
+}
+.reaction-1hd86g:hover .reactionCount-2mvXRV {
+	color: var(--interactive-hover);
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+	color: #7289da;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+	background-color: rgba(114, 137, 218, 0.3);
+}
+.background-opacity-high .reactionCount-2mvXRV,
+.background-opacity-low .reactionCount-2mvXRV,
+.background-opacity-medium .reactionCount-2mvXRV {
+	color: #b9bbbe;
+}
+.background-opacity-high .reactionMe-wv5HKu .reactionCount-2mvXRV,
+.background-opacity-low .reactionMe-wv5HKu .reactionCount-2mvXRV,
+.background-opacity-medium .reactionMe-wv5HKu .reactionCount-2mvXRV {
+	color: #c7d0f0;
+}
+.container-1ov-mD {
+	display: grid;
+	grid-auto-flow: row;
+	grid-row-gap: 0.25rem;
+	text-indent: 0;
+	min-height: 0;
+	min-width: 0;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+	position: relative;
+}
+.container-1ov-mD:empty {
+	display: none;
+}
+.container-1ov-mD > * {
+	justify-self: start;
+	-ms-flex-item-align: start;
+	align-self: start;
+}
+.gifFavoriteButton-2SKrBk {
+	display: block;
+	margin: 0 0 0 auto;
+	opacity: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transform: translateY(-16px);
+	transform: translateY(-16px);
+	-webkit-transition: opacity 0.1s ease, -webkit-transform 0.2s ease;
+	transition: opacity 0.1s ease, -webkit-transform 0.2s ease;
+	transition: transform 0.2s ease, opacity 0.1s ease;
+	transition: transform 0.2s ease, opacity 0.1s ease, -webkit-transform 0.2s ease;
+}
+.embedWrapper-lXpS3L:hover .gifFavoriteButton-2SKrBk {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.giftCodeContainer-1fbmAS {
+	width: 100%;
+}
+.confirmText-hRazmx {
+	margin-bottom: 12px;
+}
+.container-1sFeqf {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.keybind-KpFkfr {
+	margin-top: 8px;
+	font-weight: 600;
+	font-size: 13px;
+	text-align: center;
+}
+.closeButton-1tv5uR {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 36px;
+	flex: 0 0 36px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+}
+.closeButton-1tv5uR:active {
+	-webkit-transform: translateY(1px);
+	transform: translateY(1px);
+}
+.theme-light .keybind-KpFkfr {
+	color: #dcddde;
+}
+.theme-light .closeButton-1tv5uR {
+	border-color: #dcddde;
+}
+.theme-light .closeButton-1tv5uR:hover {
+	background-color: #f6f6f7;
+}
+.theme-dark .keybind-KpFkfr {
+	color: #72767d;
+}
+.theme-dark .closeButton-1tv5uR {
+	border-color: #72767d;
+}
+.theme-dark .closeButton-1tv5uR:hover {
+	background-color: rgba(114, 118, 125, 0.3);
+}
+.theme-dark .keybindBold-1942Wp {
+	color: #b9bbbe;
+}
+.theme-dark .closeButtonBold-8kKURP {
+	border-color: #b9bbbe;
+}
+.theme-dark .closeButtonBold-8kKURP:hover {
+	background-color: rgba(185, 187, 190, 0.3);
+}
