@@ -296,9 +296,6 @@
 	text-overflow: ellipsis;
 	color: var(--header-primary);
 }
-.username-1fQw19 {
-	font-weight: 600;
-}
 .badgeList-HtCfKd {
 	margin-top: 4px;
 }
@@ -307,36 +304,6 @@
 	background-color: var(--background-primary);
 	padding: 16px;
 	margin-top: 16px;
-}
-.field-1HUseB {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-.fieldSpacer-wgewFh {
-	margin-top: 24px;
-}
-.fieldTitle-3h2iLW {
-	margin-bottom: 4px;
-}
-.fieldButtonList-16Wn0S {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-.fieldButton-27bJrp {
-	margin-top: auto;
-	margin-bottom: auto;
-}
-.removeButton-3vophT {
-	margin-right: 8px;
 }
 .menu-319q29,
 .uploadButton-3kjtMm {
@@ -358,9 +325,6 @@
 	color: var(--interactive-normal);
 	cursor: pointer;
 }
-.avatarError-10Cg1R {
-	margin-top: 8px;
-}
 .constrainedRow-2GB6Ki {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -378,4 +342,20 @@
 	overflow: hidden;
 	color: var(--header-primary);
 	text-overflow: ellipsis;
+}
+.colorDanger-2qLCe1:active:not(.hideInteraction-1iHO1O) {
+	background-color: #d84040;
+	color: #fff;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+	background-color: #68727f;
+}
+.colorBrandNew-g5lmBU {
+	background-color: #7289da !important;
+}
+.colorBrandNew-g5lmBU:hover {
+	background-color: var(--blurple-hover) !important;
+}
+.colorBrandNew-g5lmBU:active {
+	background-color: var(--blurple-active) !important;
 }
