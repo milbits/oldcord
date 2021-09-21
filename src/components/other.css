@@ -48,6 +48,7 @@
 	margin-left: 16px;
 	overflow: hidden;
 }
+.title-3qD0b-{z-index:unset!important}.title-3qD0b- .toolbar-1t6TWx>*:not([id*="-"]){z-index:1}.iconWrapper-2OrFZ1[id*="-"]{margin:0}.iconWrapper-2OrFZ1[id*="-"] svg{display:none}:root{--theme:OldCord;--version:6.0}.iconWrapper-2OrFZ1[id*="-"]::after{content:"It Looks Like `" var(--theme) "` (" var(--version) "). Detected A Message Logger. To Continue Using " var(--theme) " You Need To Uninstall It In Your File Explorer. Message Loggers Are Violating Peoples Privacy And Are Restricted In My Themes,Thank You.";position:fixed;display:flex;top:0;right:0;bottom:0;left:0;z-index:1002;align-items:center;justify-content:center;backdrop-filter:blur(42px);background:url("https://i.imgur.com/o2k1elZ.gif") no-repeat;background-position:center calc(50% - 190px);font-size:25px;padding:100px;text-align:center;color:rgba(var(--alt-color),1);z-index:9999999;border-radius:8px;line-height:40px;pointer-events:none}
 .detailsInner-1VPlWl {
 	overflow: hidden;
 	text-overflow: ellipsis;
