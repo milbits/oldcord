@@ -2,10 +2,13 @@
   * @name OldCord
   * @author DaSussy
   * @description Brings back the old discord design from 2020
-  * @version 4.0.2
+  * @version 5.0.2
   * @authorId 525379333951324190
   * @invite 9KXweuYp
   * @source https://moyaiu.github.io/OldCord/
   * @updateUrl https://moyaiu.github.io/OldCord/src/main.css 
 */
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
+:root {
+	--version1_0: none;
+}

@@ -12,3 +12,14 @@
 @import url("https://moyaiu.github.io/OldCord/src/components/roles.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/color.css");
 @import url("https://moyaiu.github.io/OldCord/src/components/pings.css");
+#app-mount .app-2rEoOp::before {
+	content: "A new version of OldCord is available! Please restart";
+	display: var(--version2_0, block);
+	background-color: #4a90e2;
+	color: #fff;
+	font-size: 14px;
+	line-height: 36px;
+	font-weight: 500;
+	text-align: center;
+	z-index: 101;
+}
