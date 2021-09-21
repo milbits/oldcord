@@ -5,19 +5,19 @@
 	color: #fff;
 	background-color: var(--old-green);
 }
-.container-3auIfb[style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
-.container-3auIfb[style="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"] {
+.container-3auIfb[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"] {
 	background-color: var(--old-green) !important;
 }
-.container-3auIfb[style="opacity: 1; background-color: hsl(143.964, calc(var(--saturation-factor, 1) * 44.6167%), 44.0885%);"] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(143.964, calc(var(--saturation-factor, 1) * 44.6167%), 44.0885%);"] {
 	background-color: var(--old-green) !important;
 }
-.container-3auIfb[style="opacity: 1; background-color: hsl(138.413, calc(var(--saturation-factor, 1) * 47.6171%), 43.8777%);"] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(138.413, calc(var(--saturation-factor, 1) * 47.6171%), 43.8777%);"] {
 	background-color: var(--old-green) !important;
 }
-.container-3auIfb[style="opacity: 1; background-color: hsl(138.452, calc(var(--saturation-factor, 1) * 47.5964%), 43.8792%);"] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(138.452, calc(var(--saturation-factor, 1) * 47.5964%), 43.8792%);"] {
 	background-color: var(--old-green) !important;
 }
 .input-cIJ7To.focused-1mmYsC,
@@ -31,7 +31,7 @@
 	color: #fff;
 	background-color: var(--old-green);
 }
-.container-3auIfb[style="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
 .input-cIJ7To.focused-1mmYsC,

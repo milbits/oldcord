@@ -68,17 +68,17 @@
 .buttonActive-3FrkXp.buttonColor-7qQbGO:active {
 	background-color: var(--green-active) !important;
 }
-[style="background-color: rgb(88, 101, 242);"] {
+[style*="background-color: rgb(88, 101, 242);"] {
 	background-color: rgb(114, 137, 218) !important;
 	color: rgb(114, 137, 218) !important;
 }
-[style="border-color: rgba(88, 101, 242, 0.6);"] {
+[style*="border-color: rgba(88, 101, 242, 0.6);"] {
 	border-color: rgb(114, 137, 218, 0.6) !important;
 }
-[style="color: rgb(88, 101, 242);"] {
+[style*="color: rgb(88, 101, 242);"] {
 	color: rgb(114, 137, 218) !important;
 }
-[style="background-color: rgb(88, 101, 242);"] {
+[style*="background-color: rgb(88, 101, 242);"] {
 	background-color: rgb(114, 137, 218) !important;
 }
 .button-1YfofB:hover .buttonColor-7qQbGO.buttonActive-3FrkXp,
@@ -100,10 +100,10 @@
 	background-color: var(--old-red-active);
 	color: var(--interactive-active);
 }
-[style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
+[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
 	background-color: #7289da !important;
 }
-[style="background-color: rgb(59, 165, 92);"] {
+[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: var(--old-green) !important;
 }
 .progressBar-3u8FBM {
