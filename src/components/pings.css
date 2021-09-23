@@ -56,6 +56,17 @@
 	position: relative;
 	background-color: var(--background-mentioned-hover) !important;
 }
+.channelIcon-1MN1lz {
+	display: none;
+}
+
+.iconMention-1_KJ_B::before {
+	content: "#";
+}
+
+.appMount-3lHmkl .iconMention-1_KJ_B {
+	padding-left: 2px;
+}
 .iconMention-1_KJ_B {
-	padding-left: 1.25rem !important;
+	padding-left: 2px !important;
 }
