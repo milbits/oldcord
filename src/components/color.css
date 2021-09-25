@@ -107,7 +107,7 @@
 	background-color: var(--old-green) !important;
 }
 .progressBar-3u8FBM {
-	background-color: hsl(227, 58%, 65%) !important;
+	background-color: #7289da !important;
 }
 .colorBrand-ROmMP1 {
 	color: #677bc4;
@@ -242,10 +242,10 @@
 	color: var(--old-green);
 }
 .avatarSpeaking-2c8-9i {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
+	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
 }
 .speaking-B2MXPi.border-Jn5IOt {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
+	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
 }
 .border-3dQmSY.speaking-WDn8Wm {
 	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;

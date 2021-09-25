@@ -1,42 +1,42 @@
 .bannerOverlayProfile-31VOgt {
-	background-color: #202225 !important;
+	background-color: var(--background-tertiary) !important;
 	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881260162072055838/unknown.png&quot;) !important;
 }
 .body-r6_QPy,
 .header-4zuFdR {
-	background-color: #2f3136;
+	background-color: var(--background-secondary);
 }
 .topSection-y3p-_D {
-	background-color: #202225;
+	background-color: var(--background-tertiary);
 }
 .bannerOverlayProfile-31VOgt {
 	display: none;
 }
 .customStatus-oN4ZZY {
-	background-color: #202225;
+	background-color: var(--background-tertiary);
 }
 .body-3HBlXn,
 .popoutInfo-pKbpvG {
-	background: #2f3136;
+	background: var(--background-secondary);
 }
 .bodyInnerWrapper-26fQXj,
 .footer-3UKYOU {
-	background: #2f3136;
+	background: var(--background-secondary);
 }
 .headerTop-3vNv-a {
-	background: #202225;
+	background: var(--background-tertiary);
 }
 .headerTop-3vNv-a .headerTopWithCustomStatus-1DHAjX {
-	background: #202225;
+	background: var(--background-tertiary);
 }
 .textBadge-1iylP6 {
 	display: none;
 }
 .avatar-37jOim {
-	background: #202225;
+	background: var(--background-tertiary);
 }
 .banner-2QYc2d {
-	background-color: #202225 !important;
+	background-color: var(--background-tertiary) !important;
 }
 .bannerOverlayPopout-1clJ34 {
 	display: none;
