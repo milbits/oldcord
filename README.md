@@ -6,7 +6,7 @@
 
 OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were in 2020!
 
-###### _Requires dark theme to work properly_
+###### _Works with both dark and light theme_
 
 # Installation
 
