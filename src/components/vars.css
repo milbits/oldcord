@@ -110,9 +110,8 @@
 	--deprecated-text-input-border-disabled: #dcddde;
 	--deprecated-text-input-prefix: #b9bbbe;
 }
-
 body {
-	--version: "6.0.1";
+	--version: "7.0";
 	--old-green: #43b581;
 	--info-positive-foreground: var(--old-green);
 	--status-positive-background: var(--old-green);
@@ -175,4 +174,7 @@ body {
 	--old-green-transparent: #43b58133;
 	--blurple-hover: #677bc4;
 	--blurple-active: #5b6eae;
+	/*Mods*/
+	--bdfdb-blurple: #7289da;
+	--bdfdb-green: var(--old-green);
 }

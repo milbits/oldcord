@@ -46,3 +46,72 @@
 	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881195483631058984/unknown.png&quot;) !important;
 }
 */
+.nickname-3M3Jfa.fontDisplay-1dagSA.base-1x0h_U.size20-17Iy80,
+.headerTagWithNickname-3l_x6x.headerTag-3GFl76.nameTag-m8r81H,
+.headerTagNoNickname-3qrd77.headerTag-3GFl76.nameTag-m8r81H {
+	text-align: center;
+}
+.headerTop-3vNv-a > .profileBadges-ohc0Vu {
+	display: none;
+}
+.avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionPremium-3We5Ho.clickable-1rcWFe,
+.avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionNormal-aZjAsn.clickable-1rcWFe {
+	left: 35%;
+}
+.customStatusEmoji-3a2-Zo {
+	margin-right: 4px;
+	width: 16px;
+	height: 16px;
+}
+.body-3HBlXn.thin-1ybCId.scrollerBase-289Jih {
+	padding: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.customStatus-oN4ZZY {
+	text-align: center;
+	width: 100%;
+	overflow-wrap: break-word;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+.customStatusSoloEmoji-1tDhmL {
+	padding-left: 40%;
+}
+.setIdentityLink-1t8Ahd {
+	display: none;
+}
+.customStatus-oN4ZZY .customStatusEmoji-3a2-Zo {
+	width: 20px;
+	height: 20px;
+}
+.customStatus-oN4ZZY .customStatusEmoji-3a2-Zo:not(:last-child) {
+	margin-right: 8px;
+}
+.customStatus-oN4ZZY .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL {
+	width: 48px;
+	height: 48px;
+}
+.customStatusEmoji-3a2-Zo {
+	align-items: center;
+}
+.customStatusText-3YJeRZ {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+.headerNormal-T_seeN .customStatus-1bh2V9 {
+	color: var(--header-secondary);
+}
+.theme-dark .headerNormal-T_seeN {
+	background-color: #202225;
+}
+.aboutMeSection-1Fw5Ia {
+	padding: 0px 0px 14px 16px;
+	margin: 0px 0px 2px;
+}
+.bodyInnerWrapper-26fQXj {
+	padding: 0px 0px 14px 16px;
+}
