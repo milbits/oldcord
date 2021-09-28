@@ -58,6 +58,11 @@
 .avatarWrapperNormal-26WQIb.avatarWrapper-3r9PdD.avatarPositionNormal-aZjAsn.clickable-1rcWFe {
 	left: 35%;
 }
+.avatar-AvHqJA.wrapper-3t9DeA,
+.avatar-37jOim.wrapper-3t9DeA {
+	border-color: var(--background-tertiary);
+	background-color: var(--background-tertiary);
+}
 .customStatusEmoji-3a2-Zo {
 	margin-right: 4px;
 	width: 16px;
