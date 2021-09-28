@@ -106,5 +106,5 @@
 }
 
 .info-1VyQPT .size12-3cLvbJ:last-child::after {
-	content: "\a""OldCord " var(--version) !important;
+	content: "\a""OldCord " var(--oldcord-version) !important;
 }

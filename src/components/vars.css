@@ -75,7 +75,7 @@
 	--background-mobile-secondary: #fff;
 	--background-modifier-hover: rgba(116, 127, 141, 0.08);
 	--background-modifier-active: rgba(116, 127, 141, 0.16);
-	--background-modifier-selected: rgba(116, 127, 141, 0.24);
+	--background-modifier-selected: #747f8d3d;
 	--background-modifier-accent: rgba(6, 6, 7, 0.08);
 	--background-mentioned: rgba(250, 166, 26, 0.1);
 	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
@@ -111,7 +111,7 @@
 	--deprecated-text-input-prefix: #b9bbbe;
 }
 body {
-	--version: "7.0";
+	--oldcord-version: "7.0.1";
 	--old-green: #43b581;
 	--info-positive-foreground: var(--old-green);
 	--status-positive-background: var(--old-green);

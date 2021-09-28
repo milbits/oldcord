@@ -139,8 +139,7 @@
 	fill: var(--brand-experiment);
 }
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
-	background-color: #3e4249 !important;
-	color: #fff !important;
+	background-color: var(--background-modifier-selected) !important;
 }
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls="add_friend-tab"][aria-selected="true"] {
 	color: var(--old-green) !important;
