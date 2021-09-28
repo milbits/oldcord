@@ -6,7 +6,7 @@
 
 OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were in 2020!
 
-###### _Works with both dark and light theme_
+###### _Works with almost every theme!_
 
 # Installation
 
@@ -16,7 +16,7 @@ Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe2
 
 ### Or
 
-Put this into the custom CSS tab:
+Put this at the top of the custom CSS tab:
 
 ```css
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
@@ -43,6 +43,7 @@ report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/891988529792577536/unknown.png" alt="a" style="border-radius: 3px" >
 
 #### With custom status
+
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/891988944978313246/unknown.png">
 
 _Note: only color banners are invisible_
@@ -58,7 +59,6 @@ _Note: only color banners are invisible_
 ### Reactions and Pings
 
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/891988048508756009/unknown.png" alt="a" style="border-radius: 3px" >
-
 
 ### Blurple Buttons
 
