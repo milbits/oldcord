@@ -10,8 +10,6 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts P
 
 # Installation
 
-## Better Discord
-
 Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord\themes`)
 
 ### Or
@@ -22,18 +20,15 @@ Put this at the top of the custom CSS tab:
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
 ```
 
-## Powercord
-
--    In Discord's settings, go to `Themes > Open CMD / Powershell / Terminal / Gitbash`
--    Clone the theme via: `git clone https://github.com/moyaiu/OldCord`
-
 ---
 
 # Test experimental changes
 
 To test experimental/unfinished changes, download [OldCord_Canary.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord_Canary.theme.css)
+
 ### Or
-add this to custom css 
+
+add this to custom css
 
 ```css
 @import url("https://moyaiu.github.io/OldCord/src/experimental.css");

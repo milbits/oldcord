@@ -1,8 +1,0 @@
-{
-	"name": "OldCord",
-	"description": "Brings back the discord design from 2020",
-	"version": "6.9",
-	"author": "DaSussy",
-	"license": "MIT",
-	"theme": "main.scss"
-}
