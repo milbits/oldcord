@@ -12,7 +12,7 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts P
 
 ## Better Discord
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/a2db5454ffe228be48dee215c1dbeda3b3f71b41/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`C:\Users\current user name\AppData\Roaming\BetterDiscord\themes`)
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord\themes`)
 
 ### Or
 
@@ -31,7 +31,9 @@ Put this at the top of the custom CSS tab:
 
 # Test experimental changes
 
-To test experimental/unfinished changes, do this in custom css:
+To test experimental/unfinished changes, download [OldCord_Canary.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord_Canary.theme.css)
+### Or
+add this to custom css 
 
 ```css
 @import url("https://moyaiu.github.io/OldCord/src/experimental.css");
