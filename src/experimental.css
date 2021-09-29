@@ -1,5 +1,7 @@
-body{
-    --oldcord-version: 8.0 build 1
+@import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
+
+body {
+	--oldcord-version: "Canary 8.0 build 2";
 }
 /*Old user popout */
 .userPopout-xaxa6l .body-3HBlXn {
