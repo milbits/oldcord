@@ -29,9 +29,19 @@ Put this at the top of the custom CSS tab:
 
 ---
 
+# Test experimental changes
+
+To test experimental/unfinished changes, do this in custom css:
+
+```css
+@import url("https://moyaiu.github.io/OldCord/src/experimental.css");
+```
+
+---
+
 # Found a bug?
 
-report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
+Report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 <details>
 <summary><strong>Preview</strong></summary>
