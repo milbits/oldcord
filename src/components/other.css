@@ -108,3 +108,6 @@
 .info-1VyQPT .size12-3cLvbJ:last-child::after {
 	content: "\a""OldCord " var(--oldcord-version) !important;
 }
+.fontHeadline-3CnT7y {
+	font-family: var(--font-primary);
+}
