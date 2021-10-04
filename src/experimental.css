@@ -1,7 +1,7 @@
 @import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
 
 body {
-	--oldcord-version: "Canary 9.0 build 5";
+	--oldcord-version: "Canary 9.0 build 6";
 }
 /*Old user popout */
 .userPopout-xaxa6l .body-3HBlXn {
@@ -330,32 +330,63 @@ html.newBrand {
 .item-PXvHYJ .icon-3Povsy {
 	display: none;
 }
-
-.item-26Dhrx {
-	border-radius: 5px;
-	color: var(--interactive-active) !important;
-	background: #0000 !important;
-}
-.item-26Dhrx .title-3BE6m5 {
-	font-weight: 500;
-}
-.item-26Dhrx[aria-checked="false"] .title-3BE6m5 {
-	color: var(--radio-bar-accent-color);
-}
 .item-26Dhrx[aria-checked="true"] {
-	color: #fff !important;
+	background-color: var(--background-tertiary);
+	color: var(--interactive-active);
 }
-.theme-dark {
-	--checkbox-fill: #72767d;
+.radioIconForeground-XwlXQN {
+	color: var(--radio-group-dot-foreground);
 }
-.theme-light {
-	--checkbox-fill: #b9bbbe;
+.item-26Dhrx {
+	background-color: var(--background-secondary);
+	color: var(--interactive-normal);
+	cursor: pointer;
+	border-radius: 3px;
+	display: block;
 }
-.radioBar-bMNUI- > svg > path {
-	d: path(
-		"M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z"
-	);
-	fill: var(--checkbox-fill);
+.item-26Dhrx:hover:not([aria-checked="true"]) {
+	background-color: var(--background-modifier-hover);
+	color: var(--interactive-hover);
+}
+.item-26Dhrx:active:not([aria-checked="true"]) {
+	background-color: var(--background-modifier-active);
+	color: var(--interactive-active);
+}
+.tooltipWrapper-3VcaN6 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.tooltipWrapper-3VcaN6:last-child {
+	margin: 0;
+}
+.disabled-1FsPTr {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+.info-3LOr12 {
+	margin-right: 8px;
+	width: 100%;
+	display: grid;
+	grid-gap: 4px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.title-3BE6m5 {
+	font-weight: 600;
+}
+
+.radioBar-bMNUI- {
+	border-left: 3px solid var(--radio-bar-accent-color);
+	border-radius: 4px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-gap: 8px;
 }
 .item-26Dhrx[aria-checked="true"] .radioBar-bMNUI- > svg > path {
 	d: path(
@@ -363,32 +394,9 @@ html.newBrand {
 	);
 	fill: #fff;
 }
-.radioBar-bMNUI- circle {
-	display: none;
-}
-.radioBar-bMNUI- {
-	border: solid 1px var(--background-tertiary);
-	background: var(--deprecated-card-editable-bg);
-}
-.radioBar-bMNUI- {
-	--radio-bar-accent-color: var(--interactive-active);
-}
-[aria-checked="true"] > .radioBar-bMNUI- {
-	--radio-bar-accent-color: #7289da;
-}
-[aria-checked="true"] > .radioBar-bMNUI- {
-	background: var(--radio-bar-accent-color);
-	border-color: var(--radio-bar-accent-color);
-}
-[aria-checked="false"] > .radioBar-bMNUI- .size14-e6ZScH {
-	color: var(--interactive-normal);
-}
-.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] {
-	--radio-bar-accent-color: var(--green) !important;
-}
-.radioBar-bMNUI-[style="--radio-bar-accent-color:#cb8615; padding: 10px;"] {
-	--radio-bar-accent-color: var(--yellow) !important;
-}
+
+
+
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
 	border-color: #7289da;
@@ -504,9 +512,19 @@ html.newBrand {
 	border: none;
 }
 .item-1yAxl1 {
-	cursor: pointer;
-	width: 36px;
-	border: solid 1px #18191c;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: var(--background-primary);
+}
+.item-1yAxl1:hover {
+	background-color: var(--background-modifier-hover);
 }
 .item-1yAxl1 path,
 .item-1yAxl1 g {
