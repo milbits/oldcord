@@ -502,12 +502,7 @@ html.newBrand {
 		"M115.878 5.27809C115.878 1.74904 113.034 0.213867 110 0.213867H104.336V6.57472L108.11 9.9631V3.78573H110.128C111.413 3.78573 112.031 4.40347 112.031 5.38818V10.116C112.031 11.1007 111.431 11.7613 110.128 11.7613H104.336V15.3515H110C113.034 15.3698 115.878 13.853 115.878 10.3729V5.27809Z"
 	);
 }
-.stickersHero-rhTlUd {
-	background-image: url(https://discord.com/assets/953a588c2cc63f745e55f562ae0e93d0.svg) !important;
-}
-.hero-EvfTTA {
-	background-image: url(https://discord.com/assets/a821f6c69ee5729cec9e82246c2cd63a.svg) !important;
-}
+
 .group-1WdBVp {
 	border: none;
 }
@@ -551,33 +546,4 @@ html.newBrand {
 .item-1yAxl1:not(.selected-2YhbGh):hover {
 	background: none;
 }
-.item-1yAxl1 svg {
-	background: url(https://discord.com/assets/bbc9e257da833d4b7d22c82a1de8a0a0.svg) center;
-}
-.item-1yAxl1.selected-2YhbGh svg {
-	background: url(https://discord.com/assets/f081fef9b7d9610309e65b5282bd0ca9.svg) center;
-}
-.allow-1PzSY3 svg {
-	background: url(https://discord.com/assets/ffeba954d48c1ac993679084cee38746.svg) center;
-}
-.allow-1PzSY3.selected-2YhbGh svg {
-	background: url(https://discord.com/assets/7b5b950896ff4214b058f76ba0e84a7b.svg) center;
-}
-.deny-3nAuT6 svg {
-	background: url(https://discord.com/assets/132b1ce1c085ff84256f3b16943bc782.svg) center;
-}
-.deny-3nAuT6.selected-2YhbGh svg {
-	background: url(https://discord.com/assets/46eac82bb5b3ccd5049e8b3a96910327.svg) center;
-}
-[src="https://discord.com/assets/4697ec960e57790ad4f6251af4c246b4.svg"]
-{
-	content: url(https://discord.com/assets/5fb477ca84edd15d9a2888ac28365acd.svg);
-}
-[src="https://discord.com/assets/fd7c94580512371af3a5bb3bf25299e9.svg"]
-{
-	content: url(https://discord.com/assets/b3d9ebeb2259945abe78c49206f5b62d.svg);
-}
-[src="https://discord.com/assets/c23c8cecd8ba616bebacb3d498aac9ee.svg"]
-{
-	content: url(https://discord.com/assets/f7b34f4e16ab3d5807bbb6f4a3c2ac71.svg);
-}
+
