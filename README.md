@@ -22,18 +22,6 @@ Put this at the top of the custom CSS tab:
 
 ---
 
-# Test experimental changes
-
-To test experimental/unfinished changes, download [OldCord_Canary.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord_Canary.theme.css)
-
-### Or
-
-add this to custom css
-
-```css
-@import url("https://moyaiu.github.io/OldCord/src/experimental.css");
-```
-
 ---
 
 # Found a bug?

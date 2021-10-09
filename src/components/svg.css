@@ -1,15 +1,13 @@
-[fill="#3ba55c"] {
+*[fill="#3ba55c"] {
 	fill: var(--old-green) !important;
 }
 .icon-2Po-VO.iconSize-2tmqqh[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg) !important;
 }
-.icon-2Po-VO.iconSize-2tmqqh[style*="background-image: url(&quot;/assets/e06a573355c490f7ce6e3125ac01db81.svg&quot; );"] {
+.icon-2Po-VO.iconSize-2tmqqh[style*="assets/d1382af8d9e755bc44811b1fd92990a8"] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg) !important;
 }
-.lockIcon-2Hj8Tq[src*="/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg"] {
-	content: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg) !important;
-}
+
 .permissionCheckmark-1SeKr2 {
 	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat !important;
 }
