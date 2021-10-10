@@ -175,3 +175,12 @@
 .premiumIconWrapper-1A-UH5 {
 	display: none;
 }
+.userPopout-xaxa6l[style^="width: 300px;"] .customStatus-oN4ZZY {
+	text-align: center;
+	margin-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	justify-content: center;
+	display: flex;
+}
