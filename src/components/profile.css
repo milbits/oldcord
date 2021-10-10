@@ -29,7 +29,6 @@
 .headerTop-3vNv-a .headerTopWithCustomStatus-1DHAjX {
 	background: var(--background-tertiary);
 }
-
 .avatar-37jOim {
 	background: var(--background-tertiary);
 }
@@ -39,11 +38,6 @@
 .bannerOverlayPopout-1clJ34 {
 	display: none;
 }
-/*.bannerPremium-2hSAwz {
-	height: 110px;
-	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881195483631058984/unknown.png&quot;) !important;
-}
-*/
 .nickname-3M3Jfa.fontDisplay-1dagSA.base-1x0h_U.size20-17Iy80,
 .headerTagWithNickname-3l_x6x.headerTag-3GFl76.nameTag-m8r81H,
 .headerTagNoNickname-3qrd77.headerTag-3GFl76.nameTag-m8r81H {
@@ -67,9 +61,9 @@
 	height: 16px;
 }
 .body-3HBlXn.thin-1ybCId.scrollerBase-289Jih {
-	padding: 0px;
-	padding-right: 0px;
-	margin-right: 0px;
+	padding: 0;
+	padding-right: 0;
+	margin-right: 0;
 }
 .customStatus-oN4ZZY {
 	text-align: center;
@@ -111,11 +105,11 @@
 	background-color: #202225;
 }
 .aboutMeSection-1Fw5Ia {
-	padding: 0px 0px 14px 16px;
-	margin: 0px 0px 2px;
+	padding: 0 0 14px 16px;
+	margin: 0 0 2px;
 }
 .bodyInnerWrapper-26fQXj {
-	padding: 0px 0px 14px 16px;
+	padding: 0 0 14px 16px;
 }
 .userPopout-xaxa6l .body-3HBlXn::-webkit-scrollbar {
 	width: 0;
@@ -127,7 +121,7 @@
 .theme-light .userPopout-xaxa6l {
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(186, 188, 191, 0.3);
 }
-.userPopout-xaxa6l[style^="width: 300px;"] .customStatus-oN4ZZY {
+.userPopout-xaxa6l[style^="width:300px;"] .customStatus-oN4ZZY {
 	text-align: center;
 	margin-bottom: 0;
 	padding-left: 10px;
@@ -164,7 +158,6 @@
 .textarea-2r0oV8:focus {
 	background-color: var(--background-tertiary);
 }
-
 .userPopout-xaxa6l .body-3HBlXn .note-1oo11U {
 	padding-right: 14px;
 }
