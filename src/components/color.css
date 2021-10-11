@@ -274,3 +274,14 @@
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
 	color: var(--brand-experiment);
 }
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+	background-color: var(--background-modifier-selected) !important;
+	color: #fff !important;
+}
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls="add_friend-tab"][aria-selected="true"] {
+	color: var(--old-green) !important;
+	background-color: var(--old-green-transparent) !important;
+}
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls="add_friend-tab"] {
+	background-color: var(--old-green) !important;
+}
