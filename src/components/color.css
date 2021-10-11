@@ -2,9 +2,6 @@
 	background-color: #d84040;
 	color: #fff;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-	background-color: #68727f;
-}
 .colorBrandNew-g5lmBU {
 	background-color: #7289da !important;
 }
@@ -177,25 +174,11 @@
 	.actionButton-3vN-m0.colorGreen-29iAKY:active {
 	background: var(--green-active);
 }
-.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
-	.relationshipButtons-pUQVkf
-	.actionButton-3vN-m0.colorGreen-29iAKY[disabled] {
-	border: solid 1px currentColor;
-	background: none;
-	color: #43b581;
-	opacity: 1;
-	cursor: default;
-}
-.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y
-	.relationshipButtons-pUQVkf
-	.actionButton-3vN-m0.colorGreen-29iAKY[disabled]:hover {
-	color: #369167;
-}
 .lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
 	border-color: #43b5814d;
 }
 .lookOutlined-3sRXeN.colorGreen-29iAKY {
-	color: var(#43b581);
+	color: var(--old-green);
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
 	background-color: #43b581;
@@ -209,28 +192,7 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
 	background-color: #43b581;
 }
-#app-mount .wrapper-3WhCwL:hover {
-	color: #ffffff;
-	background: var(--brand-experiment);
-	text-decoration: none;
-	transition: 0s;
-}
-#app-mount .wrapper-3WhCwL {
-	color: var(--brand-experiment);
-	background: var(--brand-experiment-15a);
-	text-decoration: none;
-}
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
-	background-color: #3e4249 !important;
-	color: #fff !important;
-}
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"][aria-selected="true"] {
-	color: var(--old-green) !important;
-	background-color: var(--old-green-transparent) !important;
-}
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-label="Add friend"] {
-	background-color: var(--old-green) !important;
-}
+
 .colorable-1bkp8v.green-plH-Mj {
 	background-color: var(--old-green);
 }
@@ -310,15 +272,5 @@
 	--radio-bar-accent-color: var(--old-green) !important;
 }
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
-	color: var(--brand-experiment) !important;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-	background-color: var(--old-green);
-}
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
-	background-color: var(--old-green) !important;
-}
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
-	color: var(--old-green) !important;
-	background-color: var(--old-green-transparent) !important;
+	color: var(--brand-experiment);
 }
