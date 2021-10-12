@@ -71,7 +71,7 @@ body {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .container-3auIfb .input-rwLH4i:checked:before {
-	background: #7289da;
+	background: var(--brand-experiment);
 }
 .container-3auIfb .input-rwLH4i:checked:after {
 	transform: translate3d(18px, 0, 0);
@@ -208,19 +208,19 @@ html.newBrand {
 .theme-dark .wrapper-3WhCwL,
 .theme-light .wrapper-3WhCwL {
 	background: rgba(144, 137, 218, 0.1);
-	color: #7289da;
+	color: var(--brand-experiment);
 }
 .theme-dark .wrapper-3WhCwL:hover,
 .theme-light .wrapper-3WhCwL:hover {
-	background: #7289da;
+	background: var(--brand-experiment);
 	color: #fff;
 }
 .barFill-23-gu- {
-	background: #7289da;
+	background: var(--brand-experiment);
 }
 
 .partnered-3nJayh:not(.disableColor-2z9rkr) {
-	color: #7289da;
+	color: var(--brand-experiment);
 }
 .tooltip-2QfLtc.tooltipBlack-PPG47z,
 .tooltip-2QfLtc.tooltipPrimary-1d1ph4 {
@@ -298,7 +298,7 @@ html.newBrand {
 
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
-	border-color: #7289da;
+	border-color: var(--brand-experiment);
 }
 
 .searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {

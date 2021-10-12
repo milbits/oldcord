@@ -14,7 +14,7 @@
 	font-weight: 500;
 	unicode-bidi: -moz-plaintext;
 	unicode-bidi: plaintext;
-	color: #7289da;
+	color: var(--brand-experiment);
 	background: #7289da1a;
 	position: relative;
 }
@@ -25,7 +25,7 @@
 }
 .interactive:hover {
 	color: #fff;
-	background-color: #7289da;
+	background-color: var(--brand-experiment);
 }
 .mentioned-xhSam7 {
 	position: relative;

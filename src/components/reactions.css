@@ -51,7 +51,7 @@
 }
 .reactionMe-wv5HKu .reactionCount-2mvXRV,
 .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
-	color: #7289da;
+	color: var(--brand-experiment);
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
 	background-color: rgba(114, 137, 218, 0.3);
@@ -240,7 +240,7 @@
 }
 .reactionMe-wv5HKu .reactionCount-2mvXRV,
 .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
-	color: #7289da;
+	color: var(--brand-experiment);
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
 	background-color: rgba(114, 137, 218, 0.3);

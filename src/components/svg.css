@@ -49,7 +49,7 @@
 	content: url("https://moyaiu.github.io/OldCord/src/assets/system.svg") !important;
 }
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-	fill: #7289da !important;
+	fill: var(--brand-experiment) !important;
 }
 .updateIconForeground-3tnNZn[fill="currentColor"] {
 	fill: var(--old-green) !important;
@@ -61,7 +61,7 @@
 	background-image: url(https://canary.discord.com/assets/a821f6c69ee5729cec9e82246c2cd63a.svg) !important;
 }
 .eventStatusBrand-1RBas5 {
-	color: #7289da !important;
+	color: var(--brand-experiment) !important;
 }
 .homeIcon-FuNwkv > path {
 	d: path(
