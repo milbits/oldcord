@@ -1,7 +1,7 @@
 @import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
 
 body {
-	--oldcord-version: "Canary 9.0 build 8";
+	--oldcord-version: "Canary 9.0 build 9";
 }
 /*Old user popout */
 .userPopout-xaxa6l .body-3HBlXn {
@@ -144,9 +144,6 @@ html.newBrand {
 	--brand-experiment-90a: rgba(114, 137, 218, 0.9);
 	--brand-experiment-95a: rgba(114, 137, 218, 0.95);
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--blurple: #7289da;
-	--blurple-hover: #677bc4;
-	--blurple-active: #5b6eae;
 	--red: #f04747;
 	--red-hover: #d84040;
 	--red-active: #c03939;
@@ -165,19 +162,6 @@ html.newBrand {
 	--background-mentioned: rgba(250, 166, 26, 0.1);
 	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
 }
-.attachButton-2WznTc {
-	padding: 10px;
-	border-right: solid 1px var(--background-primary);
-	border-radius: 0;
-	margin-right: 11px;
-}
-
-.audioMetadata-3zOuGv:before {
-	background-image: url(https://discord.com/assets/5b0da31dc2b00717c1e35fb1f84f9b9b.svg);
-}
-.secured-1Yihly:before {
-	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
-}
 
 .unreadPillCap-3_K2q2 path {
 	fill: var(--background-primary);
@@ -191,20 +175,6 @@ html.newBrand {
 	color: var(--red);
 }
 
-[fill="#3ba55c"],
-.updateIconForeground-3tnNZn {
-	fill: var(--green);
-}
-[style="background-color: rgb(237, 66, 69);"] {
-	background-color: var(--red) !important;
-}
-[fill="#ed4245"] {
-	fill: var(--red);
-}
-.colorBrand-ROmMP1 {
-	color: var(--blurple);
-}
-
 .theme-dark .wrapper-3WhCwL,
 .theme-light .wrapper-3WhCwL {
 	background: rgba(144, 137, 218, 0.1);
@@ -215,13 +185,7 @@ html.newBrand {
 	background: var(--brand-experiment);
 	color: #fff;
 }
-.barFill-23-gu- {
-	background: var(--brand-experiment);
-}
 
-.partnered-3nJayh:not(.disableColor-2z9rkr) {
-	color: var(--brand-experiment);
-}
 .tooltip-2QfLtc.tooltipBlack-PPG47z,
 .tooltip-2QfLtc.tooltipPrimary-1d1ph4 {
 	background-color: #000;
@@ -281,7 +245,6 @@ html.newBrand {
 .title-3BE6m5 {
 	font-weight: 600;
 }
-
 .radioBar-bMNUI- {
 	border-left: 3px solid var(--radio-bar-accent-color);
 	border-radius: 4px;
@@ -299,57 +262,6 @@ html.newBrand {
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
 	border-color: var(--brand-experiment);
-}
-
-.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {
-	background: var(--background-secondary);
-	box-shadow: var(--elevation-low);
-	height: 48px;
-	padding: 0 20px;
-}
-.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 .tab-2j5AEF {
-	height: 48px;
-	border-radius: 0;
-	background: none;
-	color: var(--text-normal);
-	font-size: 14px;
-}
-.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 .tab-2j5AEF:hover,
-.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 .tab-2j5AEF.selected-2LAck8 {
-	box-shadow: inset 0 -2px var(--interactive-active);
-	color: var(--interactive-active);
-}
-.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 .totalResults--dyAxF .colorHeaderPrimary-26Jzh- {
-	font-weight: 400;
-	font-size: 14px;
-	color: var(--text-normal);
-}
-.searchResultsWrap-3-pOjs .searchResult-9tQ1uo {
-	border: solid 1px var(--background-tertiary);
-	border-radius: 4px;
-}
-.searchResultsWrap-3-pOjs .button-11zvza {
-	background: var(--background-secondary);
-	color: var(--interactive-normal);
-	padding: 2px 8px;
-	height: 20px;
-}
-.pageControl-xGOf_S .roundButton-CEHyUp,
-.pageControl-xGOf_S .pageButton-2ruNwd {
-	border-radius: 3px;
-	transition: 0.3s;
-	border: solid 1px #0000;
-	color: var(--interactive-active);
-}
-.pageControl-xGOf_S .roundButton-CEHyUp:hover,
-.pageControl-xGOf_S .pageButton-2ruNwd:hover {
-	border: solid 1px var(--interactive-muted);
-	background: none;
-}
-.pageControl-xGOf_S .activeButton-rvKcqq,
-.pageControl-xGOf_S .pageButton-2ruNwd:active {
-	background: none;
-	border: solid 1px var(--interactive-active);
 }
 
 .group-1WdBVp {

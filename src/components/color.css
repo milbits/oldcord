@@ -22,10 +22,10 @@
 	background-color: #c03939;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-	background-color: #677bc4;
+	background-color: var(--blurple-hover);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:active {
-	background-color: #5b6eae;
+	background-color: var(--blurple-active);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91 .spinnerItem-3GlVyU {
 	background-color: #fff;
@@ -107,7 +107,7 @@
 	background-color: var(--brand-experiment) !important;
 }
 .colorBrand-ROmMP1 {
-	color: #677bc4;
+	color: var(--blurple-hover);
 }
 .wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
 	fill: var(--old-green);
@@ -273,4 +273,25 @@
 }
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls="add_friend-tab"] {
 	background-color: var(--old-green) !important;
+}
+[fill="#3ba55c"],
+.updateIconForeground-3tnNZn {
+	fill: var(--old-green);
+}
+[style="background-color: rgb(237, 66, 69);"] {
+	background-color: var(--old-red) !important;
+}
+[fill="#ed4245"] {
+	fill: var(--red);
+}
+.colorBrand-ROmMP1 {
+	color: var(--blurple);
+}
+.barFill-23-gu- {
+	background: var(--brand-experiment);
+	height: 100%;
+}
+
+.partnered-3nJayh:not(.disableColor-2z9rkr) {
+	color: var(--brand-experiment);
 }

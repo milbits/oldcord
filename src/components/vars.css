@@ -171,7 +171,7 @@ body {
 	--yellow-inverted-active: #feedd1;
 	--green-inverted: #f6fbf9;
 	--green-inverted-active: #d9f0e6;
-	--oldcord-version: "8.4";
+	--oldcord-version: "8.5";
 	--old-green: #43b581;
 	--info-positive-foreground: var(--old-green);
 	--status-positive-background: var(--old-green);
@@ -186,7 +186,6 @@ body {
 	--status-danger-background: var(--old-red);
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
-
 	--old-green-transparent: #43b58133;
 	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--old-green);
