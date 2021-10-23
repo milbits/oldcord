@@ -59,8 +59,8 @@ _Note: only color banners are invisible_
 
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/881481868787216424/unknown.png" alt="a" style="border-radius: 3px" >
 
-### On Switch
+### Switches
 
-<img src="https://cdn.discordapp.com/attachments/827938615958831134/881482227802841138/unknown.png" alt="a" style="border-radius: 3px" >
+<img src="https://cdn.discordapp.com/attachments/827938615958831134/901495609188560918/unknown.png" alt="a" style="border-radius: 3px" >
 
 </details>
