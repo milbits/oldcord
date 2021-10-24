@@ -156,3 +156,82 @@
 .container-3auIfb svg {
 	display: none;
 }
+.channelTextAreaInner-1WnnRS.channelTextAreaInnerFocused-M_uztw.scrollableContainer-2NUZem.webkit-HjD9Er {
+	border-color: #7289da;
+}
+[aria-label="USER_SETTINGS"]
+	.contentColumn-2hrIYH.contentColumnDefault-1VQkGM
+	> div
+	> .sectionTitle-2vauyC
+	+ .children-rWhLdy
+	> .container-cMG81i.large-laZJpW
+	+ .group-2TdL0v.marginTop20-3TxNs6:before {
+	content: 'While you\'re here, search "repositioning marketing experiment" and override it to control';
+	color: var(--brand-experiment);
+	margin: 0 0 20px;
+	display: block;
+	font-weight: 500;
+}
+.card-3Qj_Yx {
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.bd-switch .input-rwLH4i {
+	opacity: 1;
+	width: 0;
+}
+.bd-switch .input-rwLH4i:before,
+.bd-switch .input-rwLH4i:after {
+	transition: 0.1s;
+}
+.bd-switch .input-rwLH4i:before {
+	content: "";
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+	width: 42px;
+	height: 24px;
+	background: #72767d;
+	display: block;
+	border-radius: 50px;
+	margin-top: -3px;
+	margin-left: -6px;
+}
+.bd-switch .input-rwLH4i:after {
+	content: "";
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 0px;
+	left: -3px;
+	background: #fff;
+	border-radius: 50px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.container-3auIfb .input-rwLH4i:checked:before {
+	background: var(--brand-experiment);
+}
+.bd-switch .input-rwLH4i:checked:after {
+	transform: translate3d(18px, 0, 0);
+}
+.bd-switch .input-rwLH4i:active:before {
+	background: #676a71;
+}
+.bd-switch .input-rwLH4i:active:after {
+	width: 26px;
+}
+.bd-switch .input-rwLH4i:checked:active:before {
+	background: #677cc5;
+}
+.bd-switch .input-rwLH4i:checked:active:after {
+	left: -11px;
+	width: 26px;
+}
+.bd-switch {
+	background: #0000 !important;
+}
+.bd-switch svg {
+	display: none;
+}
