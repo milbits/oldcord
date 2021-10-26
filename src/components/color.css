@@ -292,7 +292,9 @@
 	background: var(--brand-experiment);
 	height: 100%;
 }
-
 .partnered-3nJayh:not(.disableColor-2z9rkr) {
 	color: var(--brand-experiment);
+}
+[fill="#5865f2"] {
+	fill: #7289da;
 }

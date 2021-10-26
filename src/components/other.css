@@ -235,3 +235,29 @@
 .bd-switch svg {
 	display: none;
 }
+.artwork-1adZW0 {
+	display: none;
+}
+.appMount-3lHmkl {
+	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s linear 0.2s;
+	transition: opacity 0.2s linear 0.2s;
+}
+.logo-2iEHEq {
+	background: url(https://discord.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg);
+}
+.image-2jyRAK {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear 0.2s;
+	transition: opacity 0.2s linear 0.2s;
+}
+.image-2jyRAK.loaded-3PtF_J {
+	opacity: 1;
+}
