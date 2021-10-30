@@ -208,11 +208,11 @@
 	color: var(--brand-experiment);
 }
 
-.circleIconButton-1XqULR.circleButtonBase-33sh5_.selected-2jcQaY {
+.circleIconButton-hZmpE8.selected-3mFF3I {
 	background-color: var(--old-green);
 	color: #fff;
 }
-.circleIconButton-1XqULR.circleButtonBase-33sh5_ {
+.circleIconButton-hZmpE8 {
 	color: var(--old-green);
 }
 .expandedFolderIconWrapper-Huv7rA > svg[style*="color:rgb(88,101,242);"] {
@@ -297,4 +297,10 @@
 }
 [fill="#5865f2"] {
 	fill: #7289da;
+}
+.container-2R1ffg .betaTag-282ajR {
+	background-color: var(--brand-experiment-600) !important;
+}
+.container-2R1ffg {
+	background-color: var(--brand-experiment);
 }
