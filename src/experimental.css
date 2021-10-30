@@ -1,109 +1,80 @@
 @import url("https://moyaiu.github.io/OldCord/src/components/vars.css");
 
 body {
-	--oldcord-version: "Canary 9.1 build 0";
-}
-/*Old user popout */
-
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
-	color: var(--old-green);
-	background-color: var(--old-green-transparent);
+	--oldcord-version: "Canary 9.3 build 1";
 }
 
 /*! work in progress reverts */
-html,
-html.newBrand {
-	--brand-experiment-100: #f8f9fd;
-	--brand-experiment-130: #f2f4fc;
-	--brand-experiment-160: #ebeefa;
-	--brand-experiment-200: #e3e7f8;
-	--brand-experiment-230: #dbe0f5;
-	--brand-experiment-260: #d2d9f3;
-	--brand-experiment-300: #c7d0f0;
-	--brand-experiment-330: #b5c1ec;
-	--brand-experiment-360: #a4b3e7;
-	--brand-experiment-400: #8ea1e1;
-	--brand-experiment-430: #869adf;
-	--brand-experiment-460: #7d92dd;
-	--brand-experiment: #7289da;
-	--brand-experiment-500: #7289da;
-	--brand-experiment-530: #687dc6;
-	--brand-experiment-560: #5d6fb1;
-	--brand-experiment-600: #4d5d94;
-	--brand-experiment-630: #435180;
-	--brand-experiment-660: #3b4670;
-	--brand-experiment-700: #2e3757;
-	--brand-experiment-730: #2b3453;
-	--brand-experiment-760: #272f4a;
-	--brand-experiment-800: #222942;
-	--brand-experiment-830: #1a2032;
-	--brand-experiment-860: #111420;
-	--brand-experiment-900: #06070b;
-	--brand-experiment-05a: rgba(114, 137, 218, 0.05);
-	--brand-experiment-10a: rgba(114, 137, 218, 0.1);
-	--brand-experiment-15a: rgba(114, 137, 218, 0.15);
-	--brand-experiment-20a: rgba(114, 137, 218, 0.2);
-	--brand-experiment-25a: rgba(114, 137, 218, 0.25);
-	--brand-experiment-30a: rgba(114, 137, 218, 0.3);
-	--brand-experiment-35a: rgba(114, 137, 218, 0.35);
-	--brand-experiment-40a: rgba(114, 137, 218, 0.4);
-	--brand-experiment-45a: rgba(114, 137, 218, 0.45);
-	--brand-experiment-50a: rgba(114, 137, 218, 0.5);
-	--brand-experiment-55a: rgba(114, 137, 218, 0.55);
-	--brand-experiment-60a: rgba(114, 137, 218, 0.6);
-	--brand-experiment-65a: rgba(114, 137, 218, 0.65);
-	--brand-experiment-70a: rgba(114, 137, 218, 0.7);
-	--brand-experiment-75a: rgba(114, 137, 218, 0.75);
-	--brand-experiment-80a: rgba(114, 137, 218, 0.8);
-	--brand-experiment-85a: rgba(114, 137, 218, 0.85);
-	--brand-experiment-90a: rgba(114, 137, 218, 0.9);
-	--brand-experiment-95a: rgba(114, 137, 218, 0.95);
-	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--red: #f04747;
-	--red-hover: #d84040;
-	--red-active: #c03939;
-	--yellow: #faa61a;
-	--yellow-hover: #e19517;
-	--yellow-active: #c88515;
-	--green: #43b581;
-	--green-hover: #3ca374;
-	--green-active: #369167;
-}
-.theme-dark {
-	--background-mentioned: rgba(250, 166, 26, 0.05);
-	--background-mentioned-hover: rgba(250, 166, 26, 0.08);
-}
-.theme-light {
-	--background-mentioned: rgba(250, 166, 26, 0.1);
-	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
-}
 
-.unreadPillCap-3_K2q2 path {
-	fill: var(--background-primary);
+/*/assets/f6af0869894912b0d08e2729fd9c22c9.svg*/
+.hero-209Qgc {
+	background-image: url(https://moyaiu.github.io/oldcord/src/assets/sky.svg);
 }
-.unreadPillCap-3_K2q2 {
-	margin-top: -1px;
+.hero-209Qgc {
+	background-color: #2f3136;
 }
 .unreadPill-2HyYtt {
-	background: var(--background-primary);
-	border: solid 1px var(--red);
-	color: var(--red);
-}
-
-.theme-dark .wrapper-3WhCwL,
-.theme-light .wrapper-3WhCwL {
-	background: rgba(144, 137, 218, 0.1);
-	color: var(--brand-experiment);
-}
-.theme-dark .wrapper-3WhCwL:hover,
-.theme-light .wrapper-3WhCwL:hover {
-	background: var(--brand-experiment);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	top: -7px;
+	right: 0;
+	font-size: 10px;
+	line-height: 9px;
+	font-weight: 700;
+	padding: 0 4px 0 1px;
+	border-radius: 0 4px 4px 0;
+	text-transform: uppercase;
 	color: #fff;
+	background-color: #f04747;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-left: none;
+}
+.unreadPill-2HyYtt,
+.unreadPillCap-3_K2q2 {
+	position: absolute;
+	height: 13px;
+}
+.unreadPillCap-3_K2q2 {
+	display: block;
+	left: -8px;
+	top: 0;
+}
+.unreadPillCapStroke-7rkHbg {
+	color: #f04747;
+	fill: #f04747;
+}
+.content-1o0f9g {
+	display: block;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	padding: 2px 4px;
+	color: var(--text-muted);
+	background: var(--background-primary);
+	line-height: 13px;
+	font-size: 12px;
+	margin-top: -1px;
+	font-weight: 600;
+	border-radius: 8px;
 }
 
-.tooltip-2QfLtc.tooltipBlack-PPG47z,
-.tooltip-2QfLtc.tooltipPrimary-1d1ph4 {
-	background-color: #000;
+.wrapper-3WhCwL {
+	border-radius: 3px;
+	padding: 0 2px;
+	font-weight: 500;
+	unicode-bidi: -moz-plaintext;
+	unicode-bidi: plaintext;
+	color: #7289da;
+	background: rgba(114, 137, 218, 0.1);
+	position: relative;
 }
 
 .item-PXvHYJ .icon-Zc-uZZ,
@@ -157,9 +128,7 @@ html.newBrand {
 	-ms-flex-align: center;
 	align-items: center;
 }
-.title-3BE6m5 {
-	font-weight: 600;
-}
+
 .radioBar-bMNUI- {
 	border-left: 3px solid var(--radio-bar-accent-color);
 	border-radius: 4px;
@@ -172,11 +141,6 @@ html.newBrand {
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
 	);
 	fill: #fff;
-}
-
-.input-cIJ7To.focused-1mmYsC,
-.input-cIJ7To:focus {
-	border-color: var(--brand-experiment);
 }
 
 .group-1WdBVp {
