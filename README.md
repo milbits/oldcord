@@ -33,6 +33,9 @@ Report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 # Preview
 
+A live preview can be found [here](https://gibbu.github.io/ThemePreview/?file=https://moyaiu.github.io/OldCord/src/main.css)
+
+
 ### Profile Card
 
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/891988529792577536/unknown.png" alt="a" style="border-radius: 3px" >
