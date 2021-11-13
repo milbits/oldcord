@@ -188,11 +188,15 @@
 .bd-switch input:checked:active + .bd-switch-body {
 	--switch-color: #677cc5;
 }
-
+.canvas-3XuBXe,
+.fallbackImage-31Sk4m,
+.image-2jyRAK {
+	display: none;
+}
 .artwork-1adZW0 {
 	display: none;
 }
-.appMount-3lHmkl {
+.characterBackground-2itjYF {
 	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
 	position: absolute;
 	top: 0;
@@ -200,6 +204,8 @@
 	opacity: 1;
 	-webkit-transition: opacity 0.2s linear 0.2s;
 	transition: opacity 0.2s linear 0.2s;
+	background-size: cover;
+	background-position: center;
 }
 .logo-2iEHEq {
 	background: url(https://discord.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg);
