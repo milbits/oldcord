@@ -166,25 +166,22 @@
 .lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
 	border-color: #43b5814d;
 }
-.lookOutlined-3sRXeN.colorGreen-29iAKY {
-	color: var(--old-green);
+.lookOutlined-3sRXeN.colorGreen-29iAKY,
+.eventStatusGreen-3jNYOT {
+	color: var(--old-green) !important;
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-	background-color: #43b581;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-	background-color: #3ca374;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY:active {
-	background-color: #369167;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
-	background-color: #43b581;
-}
-
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
 .colorable-1bkp8v.green-plH-Mj {
 	background-color: var(--old-green);
 }
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+	background-color: var(--green-hover);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+	background-color: var(--green-active);
+}
+
 .colorable-1bkp8v.green-plH-Mj.active-1QRrIS,
 .colorable-1bkp8v.green-plH-Mj:hover {
 	background: var(--old-green);
@@ -238,15 +235,7 @@
 .container-3auIfb[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"] {
 	background-color: var(--old-green) !important;
 }
-.container-3auIfb[style*="opacity: 1; background-color: hsl(143.964, calc(var(--saturation-factor, 1) * 44.6167%), 44.0885%);"] {
-	background-color: var(--old-green) !important;
-}
-.container-3auIfb[style*="opacity: 1; background-color: hsl(138.413, calc(var(--saturation-factor, 1) * 47.6171%), 43.8777%);"] {
-	background-color: var(--old-green) !important;
-}
-.container-3auIfb[style*="opacity: 1; background-color: hsl(138.452, calc(var(--saturation-factor, 1) * 47.5964%), 43.8792%);"] {
-	background-color: var(--old-green) !important;
-}
+
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
 	border-color: var(--brand-experiment);
