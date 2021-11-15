@@ -10,14 +10,14 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts P
 
 # Installation
 
-Download [OldCord.theme.css](https://github.com/dasussy/OldCord/blob/main/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord\themes`)
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord\themes`)
 
 ### Or
 
 Put this at the top of the custom CSS tab:
 
 ```css
-@import url("https://dasussy.github.io/OldCord/src/main.css");
+@import url("https://moyaiu.github.io/OldCord/src/main.css");
 ```
 
 ---
@@ -26,14 +26,14 @@ Put this at the top of the custom CSS tab:
 
 # Found a bug?
 
-Report it [here](https://github.com/dasussy/OldCord/issues/new/choose)
+Report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 <details>
 <summary><strong>Preview</strong></summary>
 
 # Preview
 
-A live preview can be found [here](https://gibbu.github.io/ThemePreview/?file=https://dasussy.github.io/OldCord/src/main.css)
+A live preview can be found [here](https://gibbu.github.io/ThemePreview/?file=https://moyaiu.github.io/OldCord/src/main.css)
 
 ### Profile Card
 
