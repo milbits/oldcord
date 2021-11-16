@@ -1,3 +1,9 @@
+[fill="#3ba55c"] {
+	fill: var(--old-green) !important;
+}
+[fill="#3BA55C"] {
+	fill: var(--old-green) !important;
+}
 .colorDanger-2qLCe1:active:not(.hideInteraction-1iHO1O) {
 	background-color: #d84040;
 	color: #fff;
