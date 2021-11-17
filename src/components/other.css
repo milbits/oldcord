@@ -221,3 +221,35 @@
 .image-2jyRAK.loaded-3PtF_J {
 	opacity: 1;
 }
+.bannerUpsellContainer-2TFDRm {
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+}
+.clamped-IwJfxR {
+	-webkit-line-clamp: 190;
+	max-height: 112px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.clamped-IwJfxR:hover::-webkit-scrollbar {
+	width: 5px;
+}
+.clamped-IwJfxR::-webkit-scrollbar {
+	width: 5px;
+}
+.clamped-IwJfxR:hover::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 10px;
+	margin-right: 69px;
+	border: solid 3px transparent;
+	padding-right: 17px;
+}
+.clamped-IwJfxR:hover::-webkit-scrollbar-thumb {
+	background: #202225;
+	border-radius: 9999px;
+	max-height: 20px;
+	padding-right: 17px;
+}

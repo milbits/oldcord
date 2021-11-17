@@ -66,3 +66,16 @@ _Note: only color banners are invisible_
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/901495609188560918/unknown.png" alt="a" style="border-radius: 3px" >
 
 </details>
+
+# In Browser
+
+To use this theme in your browser and get bonus reverts, follow this:
+
+1. download [https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne](stylus)
+2. create a new style
+3. enter this:
+```css
+@import "https://moyaiu.github.io/OldCord/src/main.css";
+@import "https://moyaiu.github.io/OldCord/src/web.css";
+```
+4. save the style
