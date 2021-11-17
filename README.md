@@ -76,6 +76,5 @@ To use this theme in your browser and get bonus reverts, follow this:
 3. enter this:
 ```css
 @import "https://moyaiu.github.io/OldCord/src/main.css";
-@import "https://moyaiu.github.io/OldCord/src/web.css";
 ```
 4. save the style
