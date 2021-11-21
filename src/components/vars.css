@@ -1,5 +1,5 @@
 .theme-dark {
-	--header-primary: #fff;
+	/*--header-primary: #fff;
 	--header-secondary: #b9bbbe;
 	--text-normal: #dcddde;
 	--text-muted: #72767d;
@@ -21,26 +21,24 @@
 	--background-modifier-active: #4f545c3d;
 	--background-modifier-selected: #4f545c52;
 	--background-modifier-accent: #ffffff0f;
+	*/
 	--background-mentioned: #faa61a0d;
 	--background-mentioned-hover: #faa61a14;
 	--background-message-hover: #04040512;
 	--background-help-warning: #faa61a1a;
 	--background-help-info: #00b0f41a;
-	--scrollbar-thin-thumb: #202225;
+/*	--scrollbar-thin-thumb: #202225;
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #202225;
 	--scrollbar-auto-track: #2e3338;
 	--scrollbar-auto-scrollbar-color-thumb: #202225;
-	--scrollbar-auto-scrollbar-color-track: #2f3136;
+	--scrollbar-auto-scrollbar-color-track: #2f3136;*/
 	--elevation-stroke: 0 0 0 1px #04040526;
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
 	--elevation-high: 0 8px 16px #0000003d;
 	--logo-primary: #fff;
-	--focus-primary: #00b0f4;
-	--radio-group-dot-foreground: #8ea1e1;
-	--guild-header-text-shadow: 0 1px 1px #00000066;
-	--channeltextarea-background: #40444b;
+	--focus-primary: var(--brand-experiment);
 	--activity-card-background: #202225;
 	--textbox-markdown-syntax: #8e9297;
 	--deprecated-card-bg: #20222599;
@@ -171,7 +169,7 @@ body {
 	--yellow-inverted-active: #feedd1;
 	--green-inverted: #f6fbf9;
 	--green-inverted-active: #d9f0e6;
-	--oldcord-version: "9.3";
+	--oldcord-version: "9.3.1";
 	--old-green: #43b581;
 	--info-positive-foreground: var(--old-green);
 	--status-positive-background: var(--old-green);
