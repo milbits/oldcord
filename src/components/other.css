@@ -259,3 +259,123 @@
 	margin-top: 3%;
 	margin-right: 0px !important;
 }
+.editProfileCTA-yA1k_d{
+	display: none;
+}
+.section-5co3nR {
+	border-radius: 4px;
+	-webkit-box-shadow: var(--elevation-high);
+	box-shadow: var(--elevation-high);
+	background: var(--background-primary);
+}
+.section-5co3nR {
+	padding: 14px 20px;
+}
+.section-5co3nR p {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 0;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+.section-5co3nR a {
+	color: var(--text-link);
+	text-decoration: none;
+}
+
+.section-5co3nR hr {
+	border-bottom: none;
+	margin: 14px -15px;
+}
+.section-5co3nR .debugButton-1Zec0y {
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: 500;
+}
+.header-2C89wJ {
+	text-transform: uppercase;
+	background-color: rgba(115, 139, 215, 0.98);
+	padding: 13px;
+	font-weight: 500;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	border-radius: 3px 3px 0 0;
+}
+.header-2C89wJ:last-child {
+	border-radius: 3px;
+}
+.white-3xi-nx {
+	color: #fff;
+}
+.secured-1Yihly {
+	font-size: 12px;
+	font-weight: 500;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.secured-1Yihly:before {
+	content: " ";
+	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
+	width: 9px;
+	height: 12px;
+	background-size: 9px 12px;
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+.popoutBottom-31rU82 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 14px;
+}
+.theme-light .section-5co3nR section {
+	background-color: #fff;
+}
+.theme-light .section-5co3nR section p {
+	color: #8a8e94;
+}
+.theme-light .section-5co3nR hr {
+	border: 1px solid #f0f0f0;
+}
+.theme-light .debugButton-1Zec0y {
+	color: #99aab5;
+}
+.theme-light .secured-1Yihly {
+	color: var(--old-green);
+}
+.theme-dark .section-5co3nR section {
+	background-color: #36393f;
+}
+.theme-dark .section-5co3nR section p {
+	color: hsla(0, 0%, 100%, 0.4);
+}
+.theme-dark .section-5co3nR section strong {
+	color: #b9bbbe;
+}
+.theme-dark .section-5co3nR section:after {
+	border-top-color: #36393f;
+}
+.theme-dark .section-5co3nR .header-2C89wJ {
+	background-color: #2f3136;
+}
+.theme-dark .section-5co3nR hr {
+	border: none;
+}
+.theme-dark .debugButton-1Zec0y {
+	color: #99aab5;
+}
+.theme-dark .secured-1Yihly {
+	color: var(--old-green);
+}

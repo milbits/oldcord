@@ -31,3 +31,9 @@
 {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/testers.png);
 }
+
+[src*="assets/652f40427e1f5186ad54836074898279"] {
+	src: url(https://discord.com/assets/fbf72f7bfa8f2058218513942447d822.png);
+	/*	content: url(https://images-ext-1.discordapp.net/external/2zXKVkQ2u2ruVohCRJ3zqoocm4ZsT_Z4fJ9zWKccZY4/https/discordapp.com/assets/be51c36330395e516da99777086142f1.png); */
+	content: url(https://discord.com/assets/fbf72f7bfa8f2058218513942447d822.png);
+}
