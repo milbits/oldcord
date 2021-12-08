@@ -1,13 +1,4 @@
-#app-mount .wrapper-3WhCwL {
-	color: var(--brand-experiment-460);
-	background: var(--brand-experiment-10a);
-	text-decoration: none !important;
-	padding: 0 2px;
-}
-#app-mount .wrapper-3WhCwL:hover {
-	background: var(--brand-experiment);
-	color: var(--brand-experiment-100);
-}
+
 .wrapper-3WhCwL {
 	border-radius: 3px;
 	padding: 0 2px;
@@ -15,7 +6,7 @@
 	unicode-bidi: -moz-plaintext;
 	unicode-bidi: plaintext;
 	color: var(--brand-experiment);
-	background: #7289da1a;
+	background:#7289da1a;;
 	position: relative;
 }
 .interactive {
@@ -40,9 +31,6 @@
 }
 .iconMention-1_KJ_B::before {
 	content: "#";
-}
-.appMount-3lHmkl .iconMention-1_KJ_B {
-	padding-left: 2px;
 }
 .iconMention-1_KJ_B {
 	padding-left: 2px !important;

@@ -1,95 +1,19 @@
 .premiumTabItem-1QTfBr .icon-Zc-uZZ {
 	display: none;
 }
-.foreground-2aE44H {
-	stroke-dashoffset: 0;
-	stroke-miterlimit: 10;
-	stroke-linecap: round;
-	-webkit-transition: stroke 0.3s ease, stroke-dasharray 0.3s ease-out;
-	transition: stroke 0.3s ease, stroke-dasharray 0.3s ease-out;
-}
 .background-1QDuV2 {
 	border-radius: 8px;
 	background-color: var(--background-secondary);
 	padding: 16px;
 }
-.profile-1eT9hT {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-}
+
 .avatarUploaderInner-2EvNMg {
 	width: 80px;
 	height: 80px;
 }
-.details-2fkb7l {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 16px;
-	overflow: hidden;
-}
-.detailsInner-1VPlWl {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	color: var(--header-primary);
-}
+
 .badgeList-HtCfKd {
 	margin-top: 4px;
-}
-.fieldList-21DyL8 {
-	border-radius: 8px;
-	background-color: var(--background-primary);
-	padding: 16px;
-	margin-top: 16px;
-}
-.menu-319q29,
-.uploadButton-3kjtMm {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	margin-left: auto;
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
-}
-.menu-319q29 {
-	margin-right: 16px;
-	color: var(--interactive-normal);
-	cursor: pointer;
-}
-.constrainedRow-2GB6Ki {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-flex: 1;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
-	overflow: hidden;
-	margin-right: 16px;
-}
-.usernameRow-2Lu_-c {
-	overflow: hidden;
-}
-.usernameInnerRow-ZlFnET {
-	overflow: hidden;
-	color: var(--header-primary);
-	text-overflow: ellipsis;
 }
 .icon-3Povsy {
 	display: none;
@@ -100,17 +24,9 @@
 .fontHeadline-3CnT7y {
 	font-family: var(--font-primary);
 }
-.container-3auIfb .input-rwLH4i {
-	opacity: 1;
-	width: 0;
-}
-.container-3auIfb .input-rwLH4i:before,
-.container-3auIfb .input-rwLH4i:after {
-	transition: 0.1s;
-}
 .container-3auIfb .input-rwLH4i:before {
 	content: "";
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 1px 1px #00000026;
 	width: 42px;
 	height: 24px;
 	background: #72767d;
@@ -221,19 +137,12 @@
 .image-2jyRAK.loaded-3PtF_J {
 	opacity: 1;
 }
-.bannerUpsellContainer-2TFDRm {
-	position: relative;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 5px;
-}
 .clamped-IwJfxR {
 	-webkit-line-clamp: 190;
 	max-height: 112px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-
 .clamped-IwJfxR:hover::-webkit-scrollbar {
 	width: 5px;
 }
@@ -253,14 +162,11 @@
 	max-height: 20px;
 	padding-right: 17px;
 }
-.applicationInstallButton-1M2YjM{
+.applicationInstallButton-1M2YjM {
 	width: 90%;
 	left: 5%;
 	margin-top: 3%;
 	margin-right: 0px !important;
-}
-.editProfileCTA-yA1k_d{
-	display: none;
 }
 .section-5co3nR {
 	border-radius: 4px;
