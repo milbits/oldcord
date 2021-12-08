@@ -72,6 +72,14 @@
 .container-3auIfb svg {
 	display: none;
 }
+.container-3auIfb .input-rwLH4i {
+	opacity: 1;
+	width: 0;
+}
+.container-3auIfb .input-rwLH4i:before,
+.container-3auIfb .input-rwLH4i:after {
+	transition: 0.1s;
+}
 .channelTextAreaInner-1WnnRS.channelTextAreaInnerFocused-M_uztw.scrollableContainer-2NUZem.webkit-HjD9Er {
 	border-color: #7289da;
 }
