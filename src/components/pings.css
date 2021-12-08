@@ -1,12 +1,21 @@
-
+#app-mount .wrapper-3WhCwL {
+	color: var(--brand-experiment-460);
+	background: var(--brand-experiment-10a);
+	text-decoration: none !important;
+	padding: 0 2px;
+}
+#app-mount .wrapper-3WhCwL:hover {
+	background: var(--brand-experiment);
+	color: var(--brand-experiment-100);
+}
 .wrapper-3WhCwL {
 	border-radius: 3px;
 	padding: 0 2px;
 	font-weight: 500;
-	unicode-bidi: -moz-plaintext;
-	unicode-bidi: plaintext;
-	color: var(--brand-experiment);
-	background:#7289da1a;;
+	color: var(--brand-experiment-460);
+	background: var(--brand-experiment-10a);
+	text-decoration: none !important;
+	padding: 0 2px;
 	position: relative;
 }
 .interactive {
