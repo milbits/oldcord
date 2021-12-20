@@ -1,9 +1,7 @@
-[fill="#3ba55c"] {
+[fill="#3ba55c"], [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],[fill="#3BA55C"]  {
 	fill: var(--old-green) !important;
 }
-[fill="#3BA55C"] {
-	fill: var(--old-green) !important;
-}
+
 [fill*="#6370f4"] {
 	fill: var(--brand-experiment-530);
 }
