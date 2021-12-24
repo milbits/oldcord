@@ -4,7 +4,10 @@
 [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]{
 	background-color: var(--old-green) !important;
 }
-
+[class*="hintText"],
+[style*="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:not(.themed-OHr7kt) {
+	color: var(--old-green) !important ;
+}
 [fill*="#6370f4"] {
 	fill: var(--brand-experiment-530);
 }
