@@ -1,30 +1,30 @@
 .premiumTabItem-1QTfBr .icon-Zc-uZZ {
 	display: none;
 }
-.background-1QDuV2 {
+.background-3d_SjE {
 	border-radius: 8px;
 	background-color: var(--background-secondary);
 	padding: 16px;
 }
 
-.avatarUploaderInner-2EvNMg {
+.avatarUploaderInner-2euNNs {
 	width: 80px;
 	height: 80px;
 }
 
-.badgeList-HtCfKd {
+.badgeList-b3Ajmk {
 	margin-top: 4px;
 }
 .icon-3Povsy {
 	display: none;
 }
-.info-1VyQPT .size12-3cLvbJ:last-child::after {
+.info-1sUqUG .size12-oc4dx4:last-child::after {
 	content: "\a""OldCord " var(--oldcord-version) !important;
 }
-.fontHeadline-3CnT7y {
+.fontHeadline-_ajEpz {
 	font-family: var(--font-primary);
 }
-.container-3auIfb .input-rwLH4i:before {
+.container-2nx-BQ .input-2XRLou:before {
 	content: "";
 	box-shadow: inset 0 1px 1px #00000026;
 	width: 42px;
@@ -35,7 +35,7 @@
 	margin-top: -3px;
 	margin-left: -6px;
 }
-.container-3auIfb .input-rwLH4i:after {
+.container-2nx-BQ .input-2XRLou:after {
 	content: "";
 	display: block;
 	width: 18px;
@@ -47,56 +47,46 @@
 	border-radius: 50px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-.container-3auIfb .input-rwLH4i:checked:before {
+.container-2nx-BQ .input-2XRLou:checked:before {
 	background: var(--brand-experiment);
 }
-.container-3auIfb .input-rwLH4i:checked:after {
+.container-2nx-BQ .input-2XRLou:checked:after {
 	transform: translate3d(18px, 0, 0);
 }
-.container-3auIfb .input-rwLH4i:active:before {
+.container-2nx-BQ .input-2XRLou:active:before {
 	background: #676a71;
 }
-.container-3auIfb .input-rwLH4i:active:after {
+.container-2nx-BQ .input-2XRLou:active:after {
 	width: 26px;
 }
-.container-3auIfb .input-rwLH4i:checked:active:before {
+.container-2nx-BQ .input-2XRLou:checked:active:before {
 	background: #677cc5;
 }
-.container-3auIfb .input-rwLH4i:checked:active:after {
+.container-2nx-BQ .input-2XRLou:checked:active:after {
 	left: -11px;
 	width: 26px;
 }
-.container-3auIfb {
+.container-2nx-BQ {
 	background: #0000 !important;
 }
-.container-3auIfb svg {
+.container-2nx-BQ svg {
 	display: none;
 }
-.container-3auIfb .input-rwLH4i {
+.container-2nx-BQ .input-2XRLou {
 	opacity: 1;
 	width: 0;
 }
-.container-3auIfb .input-rwLH4i:before,
-.container-3auIfb .input-rwLH4i:after {
+.container-2nx-BQ .input-2XRLou:before,
+.container-2nx-BQ .input-2XRLou:after {
 	transition: 0.1s;
 }
-.channelTextAreaInner-1WnnRS.channelTextAreaInnerFocused-M_uztw.scrollableContainer-2NUZem.webkit-HjD9Er {
+.channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2
+	.scrollableContainer-15eg7h
+	.webkit-QgSAqd {
 	border-color: #7289da;
 }
-[aria-label="USER_SETTINGS"]
-	.contentColumn-2hrIYH.contentColumnDefault-1VQkGM
-	> div
-	> .sectionTitle-2vauyC
-	+ .children-rWhLdy
-	> .container-cMG81i.large-laZJpW
-	+ .group-2TdL0v.marginTop20-3TxNs6:before {
-	content: 'While you\'re here, search "repositioning marketing experiment" and override it to control';
-	color: var(--brand-experiment);
-	margin: 0 0 20px;
-	display: block;
-	font-weight: 500;
-}
-.card-3Qj_Yx {
+
+.card-16VQ8C {
 	position: relative;
 	border-width: 1px;
 	border-style: solid;
@@ -112,16 +102,17 @@
 .bd-switch input:checked:active + .bd-switch-body {
 	--switch-color: #677cc5;
 }
-.canvas-3XuBXe,
-.fallbackImage-31Sk4m,
-.image-2jyRAK {
+.canvas-2dBZRV,
+.fallbackImage-kwjEnv,
+.image-3yFrLs {
 	display: none;
 }
-.artwork-1adZW0 {
+.artwork-L5TAwQ {
 	display: none;
 }
-.characterBackground-2itjYF {
-	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
+.characterBackground-1BPOOJ {
+	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg")
+		center/100% no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -131,10 +122,10 @@
 	background-size: cover;
 	background-position: center;
 }
-.logo-2iEHEq {
+.logo-2Rw1Ex {
 	background: url(https://discord.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg);
 }
-.image-2jyRAK {
+.image-3yFrLs {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -142,50 +133,50 @@
 	-webkit-transition: opacity 0.2s linear 0.2s;
 	transition: opacity 0.2s linear 0.2s;
 }
-.image-2jyRAK.loaded-3PtF_J {
+.image-3yFrLs.loaded-3PtF_J {
 	opacity: 1;
 }
-.clamped-IwJfxR {
+.clamped-2ZePhX {
 	-webkit-line-clamp: 190;
 	max-height: 112px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-.clamped-IwJfxR:hover::-webkit-scrollbar {
+.clamped-2ZePhX:hover::-webkit-scrollbar {
 	width: 5px;
 }
-.clamped-IwJfxR::-webkit-scrollbar {
+.clamped-2ZePhX::-webkit-scrollbar {
 	width: 5px;
 }
-.clamped-IwJfxR:hover::-webkit-scrollbar-track {
+.clamped-2ZePhX:hover::-webkit-scrollbar-track {
 	background: transparent;
 	border-radius: 10px;
 	margin-right: 69px;
 	border: solid 3px transparent;
 	padding-right: 17px;
 }
-.clamped-IwJfxR:hover::-webkit-scrollbar-thumb {
+.clamped-2ZePhX:hover::-webkit-scrollbar-thumb {
 	background: #202225;
 	border-radius: 9999px;
 	max-height: 20px;
 	padding-right: 17px;
 }
-.applicationInstallButton-1M2YjM {
+.applicationInstallButton-taCWKH {
 	width: 90%;
 	left: 5%;
 	margin-top: 3%;
 	margin-right: 0px !important;
 }
-.section-5co3nR {
+.section-2zQkYM {
 	border-radius: 4px;
 	-webkit-box-shadow: var(--elevation-high);
 	box-shadow: var(--elevation-high);
 	background: var(--background-primary);
 }
-.section-5co3nR {
+.section-2zQkYM {
 	padding: 14px 20px;
 }
-.section-5co3nR p {
+.section-2zQkYM p {
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 0;
@@ -194,16 +185,16 @@
 	-ms-user-select: text;
 	user-select: text;
 }
-.section-5co3nR a {
+.section-2zQkYM a {
 	color: var(--text-link);
 	text-decoration: none;
 }
 
-.section-5co3nR hr {
+.section-2zQkYM hr {
 	border-bottom: none;
 	margin: 14px -15px;
 }
-.section-5co3nR .debugButton-1Zec0y {
+.section-2zQkYM .debugButton-OTfjlB {
 	font-size: 12px;
 	cursor: pointer;
 	font-weight: 500;
@@ -231,16 +222,17 @@
 .white-3xi-nx {
 	color: #fff;
 }
-.secured-1Yihly {
+.secured-2wavXv {
 	font-size: 12px;
 	font-weight: 500;
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
 }
-.secured-1Yihly:before {
+.secured-2wavXv:before {
 	content: " ";
-	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
+	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg)
+		50% no-repeat;
 	width: 9px;
 	height: 12px;
 	background-size: 9px 12px;
@@ -248,59 +240,59 @@
 	margin-right: 4px;
 	vertical-align: bottom;
 }
-.popoutBottom-31rU82 {
+.popoutBottom-15-vLu {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	margin-top: 14px;
 }
-.theme-light .section-5co3nR section {
+.theme-light .section-2zQkYM section {
 	background-color: #fff;
 }
-.theme-light .section-5co3nR section p {
+.theme-light .section-2zQkYM section p {
 	color: #8a8e94;
 }
-.theme-light .section-5co3nR hr {
+.theme-light .section-2zQkYM hr {
 	border: 1px solid #f0f0f0;
 }
-.theme-light .debugButton-1Zec0y {
+.theme-light .debugButton-OTfjlB {
 	color: #99aab5;
 }
-.theme-light .secured-1Yihly {
+.theme-light .secured-2wavXv {
 	color: var(--old-green);
 }
-.theme-dark .section-5co3nR section {
+.theme-dark .section-2zQkYM section {
 	background-color: #36393f;
 }
-.theme-dark .section-5co3nR section p {
+.theme-dark .section-2zQkYM section p {
 	color: hsla(0, 0%, 100%, 0.4);
 }
-.theme-dark .section-5co3nR section strong {
+.theme-dark .section-2zQkYM section strong {
 	color: #b9bbbe;
 }
-.theme-dark .section-5co3nR section:after {
+.theme-dark .section-2zQkYM section:after {
 	border-top-color: #36393f;
 }
-.theme-dark .section-5co3nR .header-2C89wJ {
+.theme-dark .section-2zQkYM .header-2C89wJ {
 	background-color: #2f3136;
 }
-.theme-dark .section-5co3nR hr {
+.theme-dark .section-2zQkYM hr {
 	border: none;
 }
-.theme-dark .debugButton-1Zec0y {
+.theme-dark .debugButton-OTfjlB {
 	color: #99aab5;
 }
-.theme-dark .secured-1Yihly {
+.theme-dark .secured-2wavXv {
 	color: var(--old-green);
 }
-.container-1xC34H{
-	display: none
+.container-1xC34H {
+	display: none;
 }
 .banner-2MAbnt {
 	display: none;
 }
 
-.toast-1DEQGy {
+.toast-q3Y4wI {
 	background: var(--old-green) !important;
 	transform: translateY(10px);
 	padding: 6px 10px 6px 10px !important;
@@ -312,11 +304,11 @@
 	margin-top: 10px;
 }
 
-.toast-1DEQGy .icon-q80NJC > path {
+.toast-q3Y4wI .icon-2QUmmw > path {
 	d: none !important;
 }
 
-.toast-1DEQGy .icon-q80NJC {
+.toast-q3Y4wI .icon-2QUmmw {
 	height: 20px !important;
 	width: 20px !important;
 	margin-top: 0 !important;
@@ -324,8 +316,7 @@
 	background-size: 20px 20px;
 }
 
-.toast-1DEQGy .colorHeaderPrimary-26Jzh- {
+.toast-q3Y4wI .colorHeaderPrimary-jN_yGr {
 	font-size: 14px !important;
 	line-height: 20px !important;
 }
-

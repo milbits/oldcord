@@ -1,14 +1,14 @@
-#app-mount .wrapper-3WhCwL {
+#app-mount .wrapper-1ZcZW- {
 	color: var(--brand-experiment-460);
 	background: var(--brand-experiment-10a);
 	text-decoration: none !important;
 	padding: 0 2px;
 }
-#app-mount .wrapper-3WhCwL:hover {
+#app-mount .wrapper-1ZcZW-:hover {
 	background: var(--brand-experiment);
 	color: var(--brand-experiment-100);
 }
-.wrapper-3WhCwL {
+.wrapper-1ZcZW- {
 	border-radius: 3px;
 	padding: 0 2px;
 	font-weight: 500;
@@ -27,20 +27,20 @@
 	color: #fff;
 	background-color: var(--brand-experiment);
 }
-.mentioned-xhSam7 {
+.mentioned-Tre-dv {
 	position: relative;
 	background-color: var(--background-mentioned) !important;
 }
-.mentioned-xhSam7:hover {
+.mentioned-Tre-dv:hover {
 	position: relative;
 	background-color: var(--background-mentioned-hover) !important;
 }
-.channelIcon-1MN1lz {
+.channelIcon-3I2O7O {
 	display: none;
 }
-.iconMention-1_KJ_B::before {
+.iconMention-3WxjBe::before {
 	content: "#";
 }
-.iconMention-1_KJ_B {
+.iconMention-3WxjBe {
 	padding-left: 2px !important;
 }

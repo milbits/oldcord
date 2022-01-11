@@ -1,85 +1,85 @@
-.wordmarkWindows-1v0lYD path:not(:first-child) {
+.wordmarkWindows-2dq6rw path:not(:first-child) {
 	display: none;
 }
-.wordmarkWindows-1v0lYD g {
+.wordmarkWindows-2dq6rw g {
 	transform: translateY(3px);
 }
-.wordmarkWindows-1v0lYD path {
+.wordmarkWindows-2dq6rw path {
 	d: path(
 		"M3.57642276,0.141304348 L0,0.141304348 L0,4.22826087 L2.38069106,6.40217391 L2.38069106,2.43478261 L3.66260163,2.43478261 C4.47052846,2.43478261 4.86910569,2.83695652 4.86910569,3.4673913 L4.86910569,6.5 C4.86910569,7.13043478 4.49207317,7.55434783 3.66260163,7.55434783 L0,7.55434783 L0,9.85869565 L3.57642276,9.85869565 C5.49390244,9.86956522 7.29288618,8.90217391 7.29288618,6.66304348 L7.29288618,3.39130435 C7.29288618,1.13043478 5.49390244,0.141304348 3.57642276,0.141304348 Z M22.3310976,6.67391304 L22.3310976,3.32608696 C22.3310976,2.11956522 24.4640244,1.83695652 25.1103659,3.05434783 L27.0817073,2.23913043 C26.3168699,0.510869565 24.8949187,0 23.7207317,0 C21.803252,0 19.9073171,1.13043478 19.9073171,3.32608696 L19.9073171,6.67391304 C19.9073171,8.88043478 21.803252,10 23.6776423,10 C24.8841463,10 26.3276423,9.39130435 27.1247967,7.81521739 L25.0134146,6.82608696 C24.4963415,8.17391304 22.3310976,7.84782609 22.3310976,6.67391304 Z M15.8030488,3.7826087 C15.0597561,3.61956522 14.5642276,3.34782609 14.5319106,2.88043478 C14.575,1.75 16.2878049,1.7173913 17.2896341,2.79347826 L18.8731707,1.55434783 C17.8821138,0.326086957 16.7617886,0 15.598374,0 C13.8424797,0 12.1404472,1 12.1404472,2.91304348 C12.1404472,4.77173913 13.5408537,5.76086957 15.0813008,6 C15.8676829,6.10869565 16.7402439,6.42391304 16.7186992,6.97826087 C16.654065,8.02173913 14.5426829,7.9673913 13.5839431,6.7826087 L12.0650407,8.23913043 C12.9591463,9.40217391 14.1764228,10 15.3182927,10 C17.074187,10 19.0239837,8.9673913 19.0993902,7.08695652 C19.2071138,4.69565217 17.5050813,4.09782609 15.8030488,3.7826087 Z M8.59634146,9.85869565 L11.0093496,9.85869565 L11.0093496,0.141304348 L8.59634146,0.141304348 L8.59634146,9.85869565 Z M49.2835366,0.141304348 L45.7071138,0.141304348 L45.7071138,4.22826087 L48.0878049,6.40217391 L48.0878049,2.43478261 L49.3589431,2.43478261 C50.1668699,2.43478261 50.5654472,2.83695652 50.5654472,3.4673913 L50.5654472,6.5 C50.5654472,7.13043478 50.1884146,7.55434783 49.3589431,7.55434783 L45.6963415,7.55434783 L45.6963415,9.85869565 L49.2727642,9.85869565 C51.1902439,9.86956522 52.9892276,8.90217391 52.9892276,6.66304348 L52.9892276,3.39130435 C53,1.13043478 51.2010163,0.141304348 49.2835366,0.141304348 Z M31.7353659,0 C29.753252,0 27.7819106,1.09782609 27.7819106,3.33695652 L27.7819106,6.66304348 C27.7819106,8.89130435 29.7640244,10 31.7569106,10 C33.7390244,10 35.7103659,8.89130435 35.7103659,6.66304348 L35.7103659,3.33695652 C35.7103659,1.10869565 33.7174797,0 31.7353659,0 Z M33.2865854,6.66304348 C33.2865854,7.35869565 32.5109756,7.7173913 31.7461382,7.7173913 C30.9705285,7.7173913 30.1949187,7.36956522 30.1949187,6.66304348 L30.1949187,3.33695652 C30.1949187,2.61956522 30.9489837,2.23913043 31.7030488,2.23913043 C32.4894309,2.23913043 33.2865854,2.58695652 33.2865854,3.33695652 L33.2865854,6.66304348 Z M44.3605691,3.33695652 C44.3067073,1.05434783 42.7770325,0.141304348 40.8056911,0.141304348 L36.9815041,0.141304348 L36.9815041,9.86956522 L39.4268293,9.86956522 L39.4268293,6.77173913 L39.8577236,6.77173913 L42.0768293,9.85869565 L45.0930894,9.85869565 L42.4861789,6.52173913 C43.6495935,6.15217391 44.3605691,5.14130435 44.3605691,3.33695652 Z M40.8487805,4.65217391 L39.4268293,4.65217391 L39.4268293,2.43478261 L40.8487805,2.43478261 C42.3784553,2.43478261 42.3784553,4.65217391 40.8487805,4.65217391 Z"
 	);
 }
 
-.icon-2Po-VO.iconSize-2tmqqh[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
+.icon-JRJzJz.iconSize-Ai8Wtu[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg) !important;
 }
-.icon-2Po-VO.iconSize-2tmqqh[style*="assets/d1382af8d9e755bc44811b1fd92990a8"] {
+.icon-JRJzJz.iconSize-Ai8Wtu[style*="assets/d1382af8d9e755bc44811b1fd92990a8"] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg) !important;
 }
 
-.permissionCheckmark-1SeKr2 {
+.permissionCheckmark-2XFmCt {
 	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg) no-repeat !important;
 }
-.channelNotice-1-XFjC.invite-OjTXrW {
+.channelNotice-tO6Tus.invite-OjTXrW {
 	background: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg) no-repeat center
 		20px !important;
 }
-.profileBadge22-LJmn9o[src*="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+.profileBadge22-3GAYRy[src*="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/mod.svg) !important;
 }
-.profileBadge22-LJmn9o[src*="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+.profileBadge22-3GAYRy[src*="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/partner.svg) !important;
 }
-.profileBadge24-179Xm3[src*="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+.profileBadge24-sH1efV[src*="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/mod.svg) !important;
 }
-.profileBadge24-179Xm3[src*="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+.profileBadge24-sH1efV[src*="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/partner.svg) !important;
 }
-.profileBadge24-179Xm3[src*="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+.profileBadge24-sH1efV[src*="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/employee.svg) !important;
 }
-.profileBadge22-LJmn9o[src*="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+.profileBadge22-3GAYRy[src*="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/employee.svg) !important;
 }
-.image-3XsqGc[src*="/assets/5a6c298c68b5963581a107d420352d07.svg"] {
+.image-3FliiM[src*="/assets/5a6c298c68b5963581a107d420352d07.svg"] {
 	content: url("https://moyaiu.github.io/OldCord/src/assets/system.svg") !important;
 }
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 	fill: var(--brand-experiment) !important;
 }
-.updateIconForeground-3tnNZn[fill="currentColor"] {
+.updateIconForeground-2V_zo4[fill="currentColor"] {
 	fill: var(--old-green) !important;
 }
-.lockIcon-2Hj8Tq[src*="/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg"] {
+.lockIcon-1FHuKP[src*="/assets/55b367aaef0b83c837ac6c3bfe01da4c.svg"] {
 	content: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) !important;
 }
-.hero-EvfTTA {
+.hero-1aNo0v {
 	background-image: url(https://canary.discord.com/assets/a821f6c69ee5729cec9e82246c2cd63a.svg) !important;
 }
-.eventStatusBrand-1RBas5 {
+.eventStatusBrand-3D-ae6 {
 	color: var(--brand-experiment) !important;
 }
 
-.headerImage-1vDSE3.desaturate-qhyunI {
+.headerImage-1vDSE3.desaturate-_Twf3u {
 	content: url("https://discord.com/assets/1a23068e966efce6fb32ca9fecc65eed.svg");
 }
-.item-1yAxl1 svg {
+.item-4m-12I svg {
 	background: url(https://discord.com/assets/bbc9e257da833d4b7d22c82a1de8a0a0.svg) center;
 }
-.item-1yAxl1.selected-2YhbGh svg {
+.item-4m-12I.selected-3jieYB svg {
 	background: url(https://discord.com/assets/f081fef9b7d9610309e65b5282bd0ca9.svg) center;
 }
-.allow-1PzSY3 svg {
+.allow-1h61-Z svg {
 	background: url(https://discord.com/assets/ffeba954d48c1ac993679084cee38746.svg) center;
 }
-.allow-1PzSY3.selected-2YhbGh svg {
+.allow-1h61-Z.selected-3jieYB svg {
 	background: url(https://discord.com/assets/7b5b950896ff4214b058f76ba0e84a7b.svg) center;
 }
-.deny-3nAuT6 svg {
+.deny-1GO6vI svg {
 	background: url(https://discord.com/assets/132b1ce1c085ff84256f3b16943bc782.svg) center;
 }
-.deny-3nAuT6.selected-2YhbGh svg {
+.deny-1GO6vI.selected-3jieYB svg {
 	background: url(https://discord.com/assets/46eac82bb5b3ccd5049e8b3a96910327.svg) center;
 }
 [src="https://discord.com/assets/4697ec960e57790ad4f6251af4c246b4.svg"]
@@ -97,7 +97,7 @@
 .stickersHero-rhTlUd {
 	background-image: url(https://discord.com/assets/953a588c2cc63f745e55f562ae0e93d0.svg) !important;
 }
-.hero-EvfTTA {
+.hero-1aNo0v {
 	background-image: url(https://discord.com/assets/a821f6c69ee5729cec9e82246c2cd63a.svg) !important;
 }
 [src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
@@ -175,16 +175,16 @@
 	);
 }
 
-.audioMetadata-3zOuGv:before {
+.audioMetadata-1Hrt8T:before {
 	background-image: url(https://discord.com/assets/5b0da31dc2b00717c1e35fb1f84f9b9b.svg);
 }
-.secured-1Yihly:before {
+.secured-2wavXv:before {
 	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
 }
-.hero-209Qgc {
+.hero-3xEZXe {
 	background-color: #7289da;
 }
-.hero-209Qgc {
+.hero-3xEZXe {
 	background-image: url(https://moyaiu.github.io/OldCord/src/assets/sky.svg);
 }
 [d*="M34.48,14.44a25.11,25.11,0,0,0-6.21-1.92,17.28,17.28,0,0,0-.79,1.62,23.6,23.6,0,0,0-6.92,0,17.38,17.38,0,0,0-.8-1.62,25.11,25.11,0,0,0-6.21,1.92A25.08,25.08,0,0,0,9.11,31.56a23.65,23.65,0,0,0,3.66,2.25,25.79,25.79,0,0,0,3.91,1.63,18.33,18.33,0,0,0,1.63-2.67,15.54,15.54,0,0,1-2.57-1.23l.63-.47a18,18,0,0,0,15.27,0c.2.16.41.32.63.47a17,17,0,0,1-2.58,1.23,17.38,17.38,0,0,0,1.64,2.67A24.79,24.79,0,0,0,39,31.6a26.49,26.49,0,0,0,.14-2.66A25.17,25.17,0,0,0,34.48,14.44ZM19,28.12a2.89,2.89,0,0,1-2.72-3A2.94,2.94,0,0,1,16.38,24,2.81,2.81,0,0,1,17,23a2.54,2.54,0,0,1,.92-.67A2.68,2.68,0,0,1,19,22.06a2.72,2.72,0,0,1,1.12.24A2.63,2.63,0,0,1,21,23a2.81,2.81,0,0,1,.57,1,2.94,2.94,0,0,1,.11,1.14A2.92,2.92,0,0,1,21,27.17,2.85,2.85,0,0,1,19,28.12Zm10,0a2.85,2.85,0,0,1-2-.95,2.92,2.92,0,0,1-.74-2.07A2.83,2.83,0,0,1,26.43,24,2.77,2.77,0,0,1,27,23a2.73,2.73,0,0,1,.91-.66A2.83,2.83,0,0,1,29,22.11a2.78,2.78,0,0,1,1.1.23A2.65,2.65,0,0,1,31.6,24a2.66,2.66,0,0,1,.13,1.12,2.89,2.89,0,0,1-2.71,3Z"] {
@@ -193,30 +193,30 @@
 	);
 	transform: translate(8.9px, 13.5px) scale(1.1, 1.1);
 }
-.topImage-3XIXqf {
+.topImage-Rlo-5x {
 	background-image: url("https://cr1ptik.github.io/Newcord/assets/friends%20tabs/allTab.svg");
 	background-position: right;
 	background-size: 124%;
 }
 
-.uploadModalIn-1z07Bv
-	.uploadDropModal-2kTwbc
-	.inner-3nWsbo
-	.icon-kyxXVr.one-2crnLX {
-	background-image: url(/assets/60c3eaf0d7173c929482362ea1d2543a.svg);
+.uploadModalIn-2w48Zf
+	.uploadDropModal-13Kd20
+	.inner-rBP-MS
+	.icon-HW4tZ-.one-NzgGbt {
+	background-image: url(https://discord.com/assets/60c3eaf0d7173c929482362ea1d2543a.svg);
 	opacity: 0;
 }
-.uploadModalIn-1z07Bv
-	.uploadDropModal-2kTwbc
-	.inner-3nWsbo
-	.icon-kyxXVr.two-3BBQI9 {
-	background-image: url(/assets/4ab2ee5027741df387151ca717ae5614.svg);
+.uploadModalIn-2w48Zf
+	.uploadDropModal-13Kd20
+	.inner-rBP-MS
+	.icon-HW4tZ-.two-1t2_74 {
+	background-image: url(https://discord.com//assets/4ab2ee5027741df387151ca717ae5614.svg);
 }
-.uploadModalIn-1z07Bv
-	.uploadDropModal-2kTwbc
-	.inner-3nWsbo
-	.icon-kyxXVr.three-27ScFD {
-	background-image: url(/assets/a4ef7d20760cef4c165825770fd12ac7.svg);
+.uploadModalIn-2w48Zf
+	.uploadDropModal-13Kd20
+	.inner-rBP-MS
+	.icon-HW4tZ-.three-fZYihQ {
+	background-image: url(https://discord.com/assets/a4ef7d20760cef4c165825770fd12ac7.svg);
 	opacity: 0;
 }
 .acrobat-3K1PC6 {
@@ -230,16 +230,16 @@
 [src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 	background-image: url(https://discord.com/assets/b17fae7e904d1b03b9b30a0757d72bc1.svg) !important;
 }
-.archive-2zE9aI,
-.archive-2hqXug {
+.archive-2dk1co,
+.archive-2bNoJA {
 	background-image: url(https://discord.com/assets/3408a4597fdee6f7edef69f7fb487b38.svg) !important;
 }
-.code-aoB-kL,
-.code-1WVsYn {
+.code-rRQnfi,
+.code-10NPWN {
 	background-image: url(https://discord.com/assets/4ab2ee5027741df387151ca717ae5614.svg) !important;
 }
-.document-2cvI0u,
-.document-1FqEcC {
+.document-1u6V3N,
+.document-1HIQqD {
 	background-image: url(https://discord.com/assets/a4ef7d20760cef4c165825770fd12ac7.svg) !important;
 }
 .photoshop-1UWfyZ,
@@ -253,12 +253,12 @@
 .webcode-22GGLX {
 	background-image: url(https://discord.com/assets/60c3eaf0d7173c929482362ea1d2543a.svg) !important;
 }
-.audio-3DaGel,
-.audio-14DQXq {
+.audio-2Xxeqv,
+.audio-YC1s9s {
 	background-image: url(https://discord.com/assets/555a9bd0f67bc5f7d0c78d5c98ad6dc9.svg) !important;
 }
-.unknown-KRWjnq,
-.unknown-3TPTMr {
+.unknown-3zKKmA,
+.unknown-3ClW7Z {
 	background-image: url(https://discord.com/assets/92fc72e47a5854ae12c1167e69573d77.svg) !important;
 }
 .video-1aUD5P,
