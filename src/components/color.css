@@ -28,26 +28,26 @@
 .colorBrandNew-g5lmBU:active {
 	background-color: var(--blurple-active) !important;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan {
+.lookFilled-yCfaCM.colorRed-1TFJan {
 	color: #fff;
 	background-color: #f04747;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+.lookFilled-yCfaCM.colorRed-1TFJan:hover {
 	background-color: #d84040;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan:active {
+.lookFilled-yCfaCM.colorRed-1TFJan:active {
 	background-color: #c03939;
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-yCfaCM.colorBrand-3pXr91:hover {
 	background-color: var(--blurple-hover);
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+.lookFilled-yCfaCM.colorBrand-3pXr91:active {
 	background-color: var(--blurple-active);
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91 .spinnerItem-3GlVyU {
+.lookFilled-yCfaCM.colorBrand-3pXr91 .spinnerItem-3GlVyU {
 	background-color: #fff;
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+.lookFilled-yCfaCM.colorBrand-3pXr91:disabled {
 	background-color: var(--brand-experiment);
 }
 .buttonColor-3bP3fX,
@@ -162,7 +162,7 @@
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.header-S26rhB
 	.horizontal-112GEH
-	.colorGreen-pAT2NS {
+	.colorGreen-3y-Z79{
 	background: #43b581;
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
@@ -173,7 +173,7 @@
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-pAT2NS {
+	.actionButton-iarQTd.colorGreen-3y-Z79{
 	background: var(--old-green);
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
@@ -193,15 +193,15 @@
 .eventStatusGreen-2-f2N8 {
 	color: var(--old-green) !important;
 }
-.lookFilled-1Gx00P.colorGreen-pAT2NS,
-.lookFilled-1Gx00P.colorGreen-pAT2NS:disabled,
+.lookFilled-yCfaCM.colorGreen-pAT2NS,
+.lookFilled-yCfaCM.colorGreen-pAT2NS:disabled,
 .colorable-3rVGna.green-3wkLbx {
 	background-color: var(--old-green);
 }
-.lookFilled-1Gx00P.colorGreen-pAT2NS:hover {
+.lookFilled-yCfaCM.colorGreen-pAT2NS:hover {
 	background-color: var(--green-hover);
 }
-.lookFilled-1Gx00P.colorGreen-pAT2NS:active {
+.lookFilled-yCfaCM.colorGreen-pAT2NS:active {
 	background-color: var(--green-active);
 }
 
