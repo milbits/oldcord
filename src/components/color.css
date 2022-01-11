@@ -1,7 +1,8 @@
-[fill="#3ba55c"],[fill="#3BA55C"]  {
+[fill="#3ba55c"],
+[fill="#3BA55C"] {
 	fill: var(--old-green) !important;
 }
-[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]{
+[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
 [class*="hintText"],
@@ -125,10 +126,12 @@
 .colorBrand-3cPPsm {
 	color: var(--blurple-hover);
 }
-.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH
+	rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
 	fill: var(--old-green);
 }
-.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH
+	rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
 	fill: var(--old-green);
 }
 .wrapper-1VLyxH svg.cursorDefault--wfhy5 > rect[fill="#3ba55c"] {
@@ -139,7 +142,8 @@
 }
 
 .commandName-1KhvGm.clickable-31pE3P,
-.ephemeralMessage-11q8XZ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
+.ephemeralMessage-11q8XZ
+	.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
 	color: var(--brand-experiment);
 }
 .attachButtonPlay-1ATmb5 {
@@ -155,46 +159,49 @@
 .isUnread-3Lojb- {
 	border-color: var(--divider-color) !important;
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .header-S26rhB .horizontal-112GEH .colorGreen-29iAKY {
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
+	.header-S26rhB
+	.horizontal-112GEH
+	.colorGreen-pAT2NS {
 	background: #43b581;
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.header-S26rhB
 	.horizontal-112GEH
-	.colorGreen-29iAKY:hover {
+	.colorGreen-pAT2NS:hover {
 	background: #66c69a;
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-29iAKY {
+	.actionButton-iarQTd.colorGreen-pAT2NS {
 	background: var(--old-green);
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-29iAKY:hover {
+	.actionButton-iarQTd.colorGreen-pAT2NS:hover {
 	background: var(--green-hover);
 }
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
 	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-29iAKY:active {
+	.actionButton-iarQTd.colorGreen-pAT2NS:active {
 	background: var(--green-active);
 }
-.lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
+.lookOutlined-3sRXeN.colorGreen-pAT2NS:not(:hover):not(:active) {
 	border-color: #43b5814d;
 }
-.lookOutlined-3sRXeN.colorGreen-29iAKY,
+.lookOutlined-3sRXeN.colorGreen-pAT2NS,
 .eventStatusGreen-2-f2N8 {
 	color: var(--old-green) !important;
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY,
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.lookFilled-1Gx00P.colorGreen-pAT2NS,
+.lookFilled-1Gx00P.colorGreen-pAT2NS:disabled,
 .colorable-3rVGna.green-3wkLbx {
 	background-color: var(--old-green);
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+.lookFilled-1Gx00P.colorGreen-pAT2NS:hover {
 	background-color: var(--green-hover);
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+.lookFilled-1Gx00P.colorGreen-pAT2NS:active {
 	background-color: var(--green-active);
 }
 
@@ -206,10 +213,12 @@
 	color: var(--old-green);
 }
 .avatarSpeaking-33RRJU {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
+	box-shadow: inset 0 0 0 2px var(--old-green),
+		inset 0 0 0 3px var(--background-secondary);
 }
 .speaking-3RWJBr.border-2BJQjd {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
+	box-shadow: inset 0 0 0 2px var(--old-green),
+		inset 0 0 0 3px var(--background-secondary);
 }
 .border-2Vy6FN.speaking-7QZEkv {
 	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;
@@ -263,8 +272,7 @@
 .input-2g-os5:focus {
 	border-color: var(--brand-experiment);
 }
-.radioBar-3w9XY-
-[style*="--radio-bar-accent-color:#3ba55c"] {
+.radioBar-3w9XY- [style*="--radio-bar-accent-color:#3ba55c"] {
 	--radio-bar-accent-color: var(--old-green) !important;
 }
 .colorLink-2apWfY.size14-3fJ-ot.mentionButton-3C5YMI {
