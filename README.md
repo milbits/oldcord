@@ -1,4 +1,3 @@
-**Fix for the updated classes is coming later**
 ---
 
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/928963957601996830/oldcord.png" alt="a" style="border-radius: 3px" height="400" >
