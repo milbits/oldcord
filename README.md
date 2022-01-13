@@ -24,7 +24,6 @@ Put this at the top of the custom CSS tab:
 
 ---
 
----
 
 # Found a bug?
 
