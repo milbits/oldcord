@@ -44,7 +44,7 @@
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:active {
 	background-color: var(--blurple-active);
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ .spinnerItem-3GlVyU {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ .spinnerItem-3dCJpG {
 	background-color: #fff;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
@@ -186,10 +186,10 @@
 	.actionButton-iarQTd.colorGreen-3y-Z79:active {
 	background: var(--green-active);
 }
-.lookOutlined-3sRXeN.colorGreen-3y-Z79:not(:hover):not(:active) {
+.lookOutlined-3yKVGo.colorGreen-3y-Z79:not(:hover):not(:active) {
 	border-color: #43b5814d;
 }
-.lookOutlined-3sRXeN.colorGreen-3y-Z79,
+.lookOutlined-3yKVGo.colorGreen-3y-Z79,
 .eventStatusGreen-2-f2N8 {
 	color: var(--old-green) !important;
 }
