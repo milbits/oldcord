@@ -38,7 +38,7 @@
 .channelIcon-3I2O7O {
 	display: none;
 }
-.iconMention-3WxjBe::before {
+.iconMention-3WxjBe:before {
 	content: "#";
 }
 .iconMention-3WxjBe {

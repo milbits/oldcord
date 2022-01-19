@@ -1,12 +1,10 @@
-
-
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/928963957601996830/oldcord.png" alt="a" style="border-radius: 3px" height="400" >
 
 ---
 
 # What is OldCord?
 
-OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts Profile Pictures, Colors, Reactions, Mentions, Clyde, Role List, Profile Cards, SVGs and more, like they were in 2020!
+OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that changes almost everything like it was in mid-2020!
 
 ###### _Works with almost every theme!_
 
@@ -23,11 +21,6 @@ Put this at the top of the custom CSS tab:
 ```
 
 ---
-
-
-# Found a bug?
-
-Report it [here](https://github.com/moyaiu/OldCord/issues/new/choose)
 
 <details>
 <summary><strong>Preview</strong></summary>
@@ -67,15 +60,3 @@ _Note: only color banners are invisible_
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/901495609188560918/unknown.png" alt="a" style="border-radius: 3px" >
 
 </details>
-
-# In Browser
-
-To use this theme in your browser and get bonus reverts, follow this:
-
-1. download [https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne](stylus)
-2. create a new style
-3. enter this:
-```css
-@import "https://moyaiu.github.io/OldCord/src/main.css";
-```
-4. save the style

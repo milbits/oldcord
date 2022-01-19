@@ -7,7 +7,7 @@
 }
 [class*="hintText"],
 [style*="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:not(.themed-2-lozF) {
-	color: var(--old-green) !important ;
+	color: var(--old-green) !important;
 }
 [fill*="#6370f4"] {
 	fill: var(--brand-experiment-530);
@@ -83,17 +83,17 @@
 	background-color: var(--green-active) !important;
 }
 [style*="background-color: rgb(88, 101, 242);"] {
-	background-color: rgb(114, 137, 218) !important;
-	color: rgb(114, 137, 218) !important;
+	background-color: #7289da !important;
+	color: #7289da !important;
 }
 [style*="border-color: rgba(88, 101, 242, 0.6);"] {
-	border-color: rgb(114, 137, 218, 0.6) !important;
+	border-color: #7289da00 !important;
 }
 [style*="color: rgb(88, 101, 242);"] {
-	color: rgb(114, 137, 218) !important;
+	color: #7289da !important;
 }
 [style*="background-color: rgb(88, 101, 242);"] {
-	background-color: rgb(114, 137, 218) !important;
+	background-color: #7289da !important;
 }
 .button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
@@ -140,7 +140,6 @@
 .tipTitle-3FYEQp {
 	color: var(--brand-experiment) !important;
 }
-
 .commandName-1KhvGm.clickable-31pE3P,
 .ephemeralMessage-11q8XZ
 	.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
@@ -155,7 +154,6 @@
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 	fill: var(--brand-experiment);
 }
-
 .isUnread-3Lojb- {
 	border-color: var(--divider-color) !important;
 }
@@ -204,7 +202,6 @@
 .lookFilled-yCfaCM.colorGreen-3y-Z79:active {
 	background-color: var(--green-active);
 }
-
 .colorable-3rVGna.green-3wkLbx.active-3D763s,
 .colorable-3rVGna.green-3wkLbx:hover {
 	background: var(--old-green);
@@ -229,7 +226,6 @@
 .colorBrand-21Le_q {
 	color: var(--brand-experiment);
 }
-
 .circleIconButton-1VxDrg.selected-2r1Hvo {
 	background-color: var(--old-green);
 	color: #fff;
@@ -243,7 +239,6 @@
 .folderIconWrapper-1oRIZr[style*="background-color: rgba(88, 101, 242, 0.4);"] {
 	background-color: var(--brand-experiment-40a) !important;
 }
-
 .bd-addon-views .bd-view-button.selected,
 .bd-button {
 	background-color: var(--brand-experiment);
@@ -260,7 +255,6 @@
 .container-2nx-BQ[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"] {
 	background-color: var(--old-green) !important;
 }
-
 .input-2g-os5.focused-1AtTHC,
 .input-2g-os5:focus {
 	border-color: var(--brand-experiment);
