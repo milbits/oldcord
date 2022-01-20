@@ -9,7 +9,12 @@
 .topSection-13QKHs {
 	background-color: var(--background-tertiary);
 }
-.bannerOverlayProfile-31VOgt {
+.premiumIconWrapper-32h0Ri,
+.bannerOverlayProfile-31VOgt,
+.pencilContainer-18TrEJ,
+.bannerOverlayPopout-1clJ34,
+.headerTop-3GPUSF > .profileBadges-2pItdR,
+.setIdentityLink-hOFsMl {
 	display: none;
 }
 .customStatus-3XAoF9 {
@@ -35,21 +40,16 @@
 .banner-1YaD3N {
 	background-color: var(--background-tertiary) !important;
 }
-.bannerOverlayPopout-1clJ34 {
-	display: none;
-}
+
 .nickname-t08Mck.base-21yXnu.size20-9iTTnl,
 .headerTagWithNickname-1U8zZH.headerTag-3GXZkV.nameTag-H6kSJ0,
 .headerTagNoNickname-3tGHj6.headerTag-3GXZkV.nameTag-H6kSJ0 {
 	text-align: center;
 }
-.headerTop-3GPUSF > .profileBadges-2pItdR {
-	display: none;
-}
 .avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremium-1zPBq9.clickable-GKg4Qy,
 .avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.clickable-GKg4Qy,
 .avatarUploader-AF-hm-.avatarUploaderNormal-2m2hFm.avatarUploader-qEFQS2 {
-	left: 33%;
+	left: 31.5%;
 }
 .avatar-3QF_VA.wrapper-1VLyxH,
 .avatar-2Vndt_.wrapper-1VLyxH {
@@ -76,9 +76,7 @@
 .customStatusSoloEmoji-2bSRlG {
 	left: 40%;
 }
-.setIdentityLink-hOFsMl {
-	display: none;
-}
+
 .customStatus-3XAoF9 .customStatusEmoji-1bFQdD {
 	width: 20px;
 	height: 20px;
@@ -167,9 +165,6 @@
 	padding-right: 9px;
 }
 
-.premiumIconWrapper-32h0Ri {
-	display: none;
-}
 .userPopout-2j1gM4[style^="width: 300px;"] .customStatus-3XAoF9 {
 	text-align: center;
 	margin-bottom: 0;
@@ -193,15 +188,8 @@
 	border-radius: 5px;
 	overflow: hidden;
 	max-height: calc(100vh - 20px);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
 }
-.userPopout-2j1gM4[style^="width: 300px;"] {
+.userPopout-2j1gM4 {
 	width: 250px !important;
 }
 .userPopout-2j1gM4 .body-2wLx-E .note-Go5ZP2 {
@@ -210,7 +198,8 @@
 .userPopout-2j1gM4 .body-2wLx-E .note-Go5ZP2:last-of-type {
 	margin-bottom: 10px;
 }
-.banner-1YaD3N.popoutBannerPremium-3i5EEI.bannerPremium-kkSkPv {
+.banner-1YaD3N.popoutBannerPremium-3i5EEI.bannerPremium-kkSkPv,
+.banner-1YaD3N.popoutBanner-3cqRD9 {
 	width: 250px;
 }
 .platformIcon-k3yytQ {
