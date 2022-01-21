@@ -10,7 +10,7 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that changes a
 
 # Installation
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord\themes`)
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") (ctrl + s) and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`)
 
 ### Or
 

@@ -542,3 +542,34 @@
 	.tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
 	margin-bottom: 0;
 }
+@font-face {
+	font-family: "discordTitleFontThingIdontWannaMessWithThemes";
+	src: url(https://moyaiu.github.io/fonts/discord.otf) format("otf");
+}
+
+.heroPrimaryText-zCuHCf {
+	font-family: "discordTitleFontThingIdontWannaMessWithThemes" !important;
+	font-weight: 100 !important;
+}
+.hero-stXd0P {
+	background-image: url(https://discord.com/assets/94ff6fdc535b6ecb7b1bc54f2dd56a10.svg);
+	background-color: #2f3136;
+	height: 20%;
+}
+.heroContent-YyEfzZ > .icon-1zKOXL,
+.heroImageWrapper-3qntgD {
+	margin-left: -200px;
+	margin-top: -10px !important;
+}
+.ctaWrapper-2gE-mb {
+	margin-right: -130% !important;
+	margin-top: -5%;
+}
+.heroHeading-2x7IFo {
+	margin-top: -17%;
+	font-size: 25px;
+}
+.simplifiedVariant-2Upomu {
+	background-color: #36393f;
+	background-image: url(https://discord.com/assets/a49aa0af67106dfc5fed4d6ebfa011c9.svg);
+}

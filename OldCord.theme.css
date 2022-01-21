@@ -1,11 +1,23 @@
 /**
   * @name OldCord
-  * @author moyaiu
+  * @author DaMoyai
   * @description Brings back the old discord design from 2020
-  * @version Auto
+  * @version ersion Auto
   * @authorId 525379333951324190
-  * @invite 9KXweuYp
   * @source https://moyaiu.github.io/OldCord/
-  * @updateUrl https://moyaiu.github.io/OldCord/src/main.css 
 */
+/** Everything*/
 @import url("https://moyaiu.github.io/OldCord/src/main.css");
+/** Customizable (remove the comments)*/
+
+
+/*@import url("https://moyaiu.github.io/OldCord/src/components/hardcoded.css");*/
+/*! @import url("https://moyaiu.github.io/OldCord/src/components/vars.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/color.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/reactions.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/avatars.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/svg.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/other.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/profile.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/roles.css");*/
+/*@import url("https://moyaiu.github.io/OldCord/src/components/pings.css");*/
