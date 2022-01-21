@@ -1,10 +1,14 @@
+.bannerOverlayProfile-31VOgt {
+	background-color: var(--background-tertiary) !important;
+	background-image: url(&quot;https://cdn.discordapp.com/attachments/827938615958831134/881260162072055838/unknown.png&quot;) !important;
+}
 .body-1Ukv50,
 .header-S26rhB,
 .body-2wLx-E,
 .popoutInfo-16MuYF,
 .bodyInnerWrapper-2bQs1k,
 .footer-3naVBw {
-	background-color: var(--background-secondary);
+	background-color: var(--background-secondary) !important;
 }
 .topSection-13QKHs,
 .customStatus-3XAoF9,
@@ -13,7 +17,7 @@
 .avatar-2Vndt_,
 .banner-1YaD3N,
 .textarea-_59yqs:focus {
-	background-color: var(--background-tertiary);
+	background-color: var(--background-tertiary) !important;
 }
 .premiumIconWrapper-32h0Ri,
 .bannerOverlayProfile-31VOgt,
