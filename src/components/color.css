@@ -291,7 +291,7 @@
 	background-color: var(--old-red) !important;
 }
 [fill="#ed4245"] {
-	fill: var(--red);
+	fill: var(--old-red);
 }
 .colorBrand-3cPPsm {
 	color: var(--blurple);
