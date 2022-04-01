@@ -312,15 +312,107 @@
 .container-5N5x2A {
 	background-color: var(--brand-experiment);
 }
-[aria-controls="logout-tab"] {
-	color: var(--old-red);
+.select-1Ia3hD,
+.copyInput-3AbKWB {
+	margin: 8px 0;
+	background-color: var(--background-secondary) !important;
+	border-radius: 3px;
+	transition: border .2s ease
 }
 
-[aria-controls="logout-tab"] {
+.select-QHUX8_ {
+	background-color: var(--deprecated-text-input-bg) !important;
+	border: 1px solid var(--deprecated-text-input-border);
+	height: 40px
+}
+
+.textArea-3WXAeD:focus {
+	border: 1px solid #7289da !important;
+}
+
+.select-1Ia3hD:hover,
+.textArea-3WXAeD:hover {
+	border-color: var(--deprecated-text-input-border-hover)
+}
+
+.closeButton-PCZcma,
+.closeButton-PCZcma:active,
+.closeButton-PCZcma:hover {
+	color: var(--interactive-muted);
+}
+
+.input-2g-os5:not(.textarea-_59yqs) {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 3px;
+	color: var(--text-normal);
+	background-color: var(--deprecated-text-input-bg);
+	border: 1px solid var(--deprecated-text-input-border);
+	-webkit-transition: border-color .2s ease-in-out;
+	transition: border-color .2s ease-in-out
+}
+
+.input-2g-os5::-webkit-input-placeholder:not(.textarea-_59yqs) {
+	-webkit-user-select: none;
+	user-select: none;
+	color: var(--text-muted)
+}
+
+[aria-controls="logout-tab"],
+[aria-controls="delete-tab"] {
 	color: var(--old-red) !important;
 }
 
-[aria-controls="logout-tab"]:active {
+[aria-controls="logout-tab"]:active,
+[aria-controls="delete-tab"]:active {
 	background-color: var(--old-red) !important;
 	color: #fff !important;
+}
+
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ {
+	color: var(--brand-experiment);
+	border-color: var(--brand-experiment);
+	background: transparent;
+}
+
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
+	color: var(--brand-experiment);
+	border-color: var(--brand-experiment);
+	background: transparent;
+}
+
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:active {
+	border-color: var(--brand-experiment);
+	background: var(--brand-experiment-05a)
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+	background: transparent;
+	color: var(--old-red);
+	border-color: var(--text-danger);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
+	background: transparent;
+	color: var(--old-red);
+	border-color: var(--text-danger);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM:active {
+	background: transparent !important;
+	color: var(--old-red);
+	border-color: var(--text-danger);
+}
+
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:disabled {
+	background-color: transparent
+}
+
+.actionIcon-2sw4Sl {
+	color: var(--interactive-normal) !important;
+}
+
+.icon-2W8DHg:not(.modeMuted-2T4MDZ div a div .icon-2W8DHg) {
+	color: var(--text-muted) !important;
 }
