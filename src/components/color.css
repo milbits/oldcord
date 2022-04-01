@@ -312,3 +312,15 @@
 .container-5N5x2A {
 	background-color: var(--brand-experiment);
 }
+[aria-controls="logout-tab"] {
+	color: var(--old-red);
+}
+
+[aria-controls="logout-tab"] {
+	color: var(--old-red) !important;
+}
+
+[aria-controls="logout-tab"]:active {
+	background-color: var(--old-red) !important;
+	color: #fff !important;
+}
