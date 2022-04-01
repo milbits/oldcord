@@ -100,12 +100,10 @@
 }
 .canvas-2dBZRV,
 .fallbackImage-kwjEnv,
-.image-3yFrLs {
+.image-3yFrLs,.artwork-L5TAwQ  {
 	display: none;
 }
-.artwork-L5TAwQ {
-	display: none;
-}
+
 .characterBackground-1BPOOJ {
 	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg")
 		center/100% no-repeat;
@@ -551,7 +549,7 @@
 	font-family: "discordTitleFontThingIdontWannaMessWithThemes" !important;
 	font-weight: 100 !important;
 }
-.hero-stXd0P {
+/*.hero-stXd0P {
 	background-image: url(https://discord.com/assets/94ff6fdc535b6ecb7b1bc54f2dd56a10.svg);
 	background-color: #2f3136;
 	height: 20%;
@@ -572,4 +570,4 @@
 .simplifiedVariant-2Upomu {
 	background-color: #36393f;
 	background-image: url(https://discord.com/assets/a49aa0af67106dfc5fed4d6ebfa011c9.svg);
-}
+}*/
