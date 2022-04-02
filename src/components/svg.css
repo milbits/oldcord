@@ -10,13 +10,10 @@
 	);
 }
 
-[src="/assets/016a7d812fd4854aa4b7a5b9c539b48d.svg"]{
-		content: url(https://moyaiu.github.io/OldCord/src/assets/widget.svg);
-
-}
-.infoItem-Q4HWUe {
+[src="/assets/016a7d812fd4854aa4b7a5b9c539b48d.svg"] {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/widget.svg);
 }
+
 .icon-JRJzJz.iconSize-Ai8Wtu[style*='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
 	background-image: url(https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg) !important;
 }
