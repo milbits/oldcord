@@ -92,15 +92,20 @@
 .bd-switch svg {
 	display: none;
 }
+.bd-switch input:active + .bd-switch-body {
+	--switch-color: #676a71 !important;
+}
 .bd-switch input:checked + .bd-switch-body {
 	--switch-color: var(--brand-experiment);
 }
 .bd-switch input:checked:active + .bd-switch-body {
-	--switch-color: #677cc5;
+	--switch-color: #677cc5 !important;
 }
+
 .canvas-2dBZRV,
 .fallbackImage-kwjEnv,
-.image-3yFrLs,.artwork-L5TAwQ  {
+.image-3yFrLs,
+.artwork-L5TAwQ {
 	display: none;
 }
 
