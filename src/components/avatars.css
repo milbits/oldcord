@@ -22,7 +22,9 @@
 }
 
 [src*="https://cdn.discordapp.com/icons/613425648685547541/a_6375907799aa6ff2499a1e729a594739"],
-[src*="https://cdn.discordapp.com/avatars/545364944258990091/192d82ac9259570145b3099f51ce1faa.webp"]
+[src*="https://cdn.discordapp.com/avatars/545364944258990091/192d82ac9259570145b3099f51ce1faa.webp"],
+[src*="https://cdn.discordapp.com/icons/613425648685547541/a_6375907799aa6ff2499a1e729a594739.webp?size=20"],
+[src*="https://cdn.discordapp.com/icons/613425648685547541/a_6375907799aa6ff2499a1e729a594739.gif?size=20"]
 {
 	content: url(https://moyaiu.github.io/OldCord/src/assets/devs.png) !important;
 }
