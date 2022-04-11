@@ -16,9 +16,7 @@
 .icon-3Povsy {
 	display: none;
 }
-.info-1sUqUG .size12-oc4dx4:last-child:after {
-	content: "\a""OldCord " var(--oldcord-version) !important;
-}
+
 .fontHeadline-_ajEpz {
 	font-family: var(--font-primary);
 }

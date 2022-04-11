@@ -255,9 +255,13 @@
 .container-2nx-BQ[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"] {
 	background-color: var(--old-green) !important;
 }
-.input-2g-os5.focused-1AtTHC,
-.input-2g-os5:focus {
-	border-color: var(--brand-experiment);
+.select-1Ia3hD:hover,
+.input-2z42oC:hover {
+	border-color: var(--deprecated-text-input-border-hover) !important
+}
+
+.input-2z42oC:focus {
+	border-color: var(--brand-experiment) !important;
 }
 .container-2nx-BQ[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
@@ -341,7 +345,7 @@
 	color: var(--interactive-muted);
 }
 
-.input-2g-os5:not(.textarea-_59yqs) {
+.input-2g-os5:not(.textarea-_59yqs,[name="add-friend"]) {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 100%;

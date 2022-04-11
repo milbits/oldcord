@@ -85,7 +85,7 @@
 .theme-dark .headerNormal-T_seeN {
 	background-color: #202225;
 }
-.aboutMeSection-PUghFQ,
+[class*="userInfoSection-"],
 .fakeActivityTitle-3-_pB_,
 .fakeActivityLayout-2kcbMs {
 	padding: 0 0 14px 16px;
