@@ -58,9 +58,3 @@ _Note: only color banners are invisible_
 <img src="https://cdn.discordapp.com/attachments/827938615958831134/901495609188560918/unknown.png" alt="a" style="border-radius: 3px" >
 
 </details>
-
-# Credit
-
--   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original source
--   [DTM-16](https://github.com/Goose-Nest/GT-RevertRebrand) for the switches, old radio bars and some of the profile code
--   [Discord CSS Datamine](https://github.com/XYZenix/Discord-CSS-Datamine) for the discord css archive
