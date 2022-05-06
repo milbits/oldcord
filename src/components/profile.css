@@ -28,7 +28,7 @@
 	display: none;
 }
 
-.nickname-t08Mck.base-21yXnu.size20-9iTTnl,
+.nickname-t08Mck.heading-lg-medium-3gUJeM,
 .headerTagWithNickname-1U8zZH.headerTag-3GXZkV.nameTag-H6kSJ0,
 .headerTagNoNickname-3tGHj6.headerTag-3GXZkV.nameTag-H6kSJ0 {
 	text-align: center;
@@ -85,14 +85,21 @@
 .theme-dark .headerNormal-T_seeN {
 	background-color: #202225;
 }
-[class*="userInfoSection-"],
+.userInfoSection-3her-v,
 .fakeActivityTitle-3-_pB_,
 .fakeActivityLayout-2kcbMs {
-	padding: 0 0 14px 16px;
-	margin: 0 0 2px;
+	margin: 10 0 2px;
+	padding:14px 16px;
+	margin-top: 10px;
+}
+.userInfoSection-2u2hir{
+	padding: 0 0 0px 0px;
+	margin: 0 0 0px;
+	margin-top: 10px;
 }
 .bodyInnerWrapper-2bQs1k {
 	padding: 0 0 14px 16px;
+	margin-top: 10px;
 }
 .userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {
 	width: 0;
