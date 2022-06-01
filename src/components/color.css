@@ -2,6 +2,7 @@
 [fill="#3BA55C"] {
 	fill: var(--old-green) !important;
 }
+.red-3T8maV{background-color: var(--old-red) !important;}
 [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
