@@ -466,19 +466,17 @@
 .item-2idW98 .radioBar-3w9XY- .icon-NDLBMG {
 	opacity: 0.5;
 }
+
 .item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
+	.radioBarIcon-EiCq-C
+	> svg
 	> path {
 	d: path(
 		"M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z"
 	);
 }
 .theme-dark
-	.item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
+	.radioBarIcon-EiCq-C
 	> svg:not(.icon-NDLBMG)
 	> path {
 	fill: #72767d;
@@ -490,6 +488,19 @@
 	> svg:not(.icon-NDLBMG)
 	> path {
 	fill: #b9bbbe;
+}
+.item-2idW98 .radioBar-3w9XY- circle {
+	display: none;
+}
+.item-2idW98[aria-checked="true"]
+	.radioBar-3w9XY-
+    .radioBarIcon-EiCq-C
+	> svg:not(.icon-NDLBMG)
+	> path {
+	d: path(
+		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
+	) !important;
+	fill: #fff !important;
 }
 .item-2idW98 .radioBar-3w9XY- circle {
 	display: none;
