@@ -85,19 +85,14 @@
 .theme-dark .headerNormal-T_seeN {
 	background-color: #202225;
 }
-.userInfoSection-3her-v,
-.fakeActivityTitle-3-_pB_,
-.fakeActivityLayout-2kcbMs {
-	margin: 0 0 2px;
-	padding:0 16px;
-}
-.userInfoSection-2u2hir{
+
+.eyebrow-Ejf06y,.rolesList-3uZoaa,.note-Go5ZP2,.userInfoBody-1zgAd0{padding-left: 16px;}.userInfoSection-2u2hir{
 	padding: 0 0 0px 0px;
 	margin: 0 0 0px;
 	margin-top: 10px;
 }
 .bodyInnerWrapper-2bQs1k {
-	padding: 0 0 14px 16px;
+	padding: 0px;
 	margin-top: 10px;
 }
 .userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {

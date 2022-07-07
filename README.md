@@ -24,3 +24,5 @@ Put this at the top of the custom CSS tab:
 
 -   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original code
 -   [DTM-16](https://github.com/Goose-Nest/GT-RevertRebrand) for the switches, old radio bars and some of the profile code
+
+##### btw dont try to contribute, the codes shit lmao
