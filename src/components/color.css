@@ -346,34 +346,9 @@
 	color: var(--interactive-muted);
 }
 
-.input-2g-os5:not(.textarea-_59yqs,[name="add-friend"]) {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 100%;
-	border-radius: 3px;
-	color: var(--text-normal);
-	background-color: var(--deprecated-text-input-bg);
-	border: 1px solid var(--deprecated-text-input-border);
-	-webkit-transition: border-color .2s ease-in-out;
-	transition: border-color .2s ease-in-out
-}
 
-.input-2g-os5::-webkit-input-placeholder:not(.textarea-_59yqs) {
-	-webkit-user-select: none;
-	user-select: none;
-	color: var(--text-muted)
-}
 
-[aria-controls="logout-tab"],
-[aria-controls="delete-tab"] {
-	color: var(--old-red) !important;
-}
 
-[aria-controls="logout-tab"]:active,
-[aria-controls="delete-tab"]:active {
-	background-color: var(--old-red) !important;
-	color: #fff !important;
-}
 
 .lookOutlined-3yKVGo.colorBrand-I6CyqQ {
 	color: var(--brand-experiment);

@@ -35,7 +35,7 @@
 	--elevation-high: 0 8px 16px #0000003d;
 	--logo-primary: #fff;
 	--focus-primary: var(--brand-experiment);
-		--deprecated-card-bg: #20222599;
+	--deprecated-card-bg: #20222599;
 	--deprecated-card-editable-bg: #2022254d;
 	--deprecated-store-bg: #36393f;
 	--deprecated-quickswitcher-input-background: #72767d;
@@ -45,7 +45,6 @@
 	--deprecated-text-input-border-hover: #040405;
 	--deprecated-text-input-border-disabled: #202225;
 	--deprecated-text-input-prefix: #dcddde;
-	
 }
 .theme-light {
 	--background-modifier-accent: rgba(6, 6, 7, 0.08);
@@ -53,7 +52,8 @@
 	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
 	--background-message-hover: rgba(6, 6, 7, 0.02);
 	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
-	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
+	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025),
+		0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
 	--logo-primary: var(--brand-experiment);
@@ -61,7 +61,7 @@
 	--radio-group-dot-foreground: #4e5d94;
 }
 body {
-			--text-muted: #72767d;
+	--text-muted: #72767d;
 	--font-primary: Whitney;
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	--blurple: #7289da;
@@ -140,4 +140,7 @@ body {
 	--old-green-transparent: #43b58133;
 	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--old-green);
+}
+* {
+	--text-danger: var(--old-red) !important;
 }
