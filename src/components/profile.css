@@ -183,3 +183,21 @@
 .platformIcon-k3yytQ {
 	padding-right: 10px;
 }
+/* bottom-left popout */
+#account.menu-1QACrS {
+    width: 220px;
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+    max-width: 220px;
+}
+
+#account.menu-1QACrS .profileBody-3QbfPe {
+    display:none;
+}
+.headerTop-3GPUSF.copiableNameTag-3f6roa{
+    background-color: transparent !important;
+}
+.item-1OdjEX  .banner-1YaD3N.popoutBanner-3cqRD9 {
+    background: transparent !important;
+}
