@@ -348,3 +348,17 @@ html .invoiceCancelRow-3mYhFX { color: var(--text-danger); }
 .isUnread-3Lojb- {
   border-color: var(--divider-color) !important;
 }
+
+/* Revert Nitro gradients */
+.banner-oA34U0.tier1-314rFD {
+    background-image: linear-gradient(8.62deg, #738ef5, #b3aeff 75.25%) 
+}
+.banner-oA34U0.tier2-2lPk-q {
+    background-image: linear-gradient(90deg, #b473f5, #e292aa) 
+}
+.banner-oA34U0.canceled-3FVVhC {
+    background-image: linear-gradient(90deg, #f18623, #f6a12a 56%, #fab930) 
+}
+.banner-oA34U0.failedPayment-2RYzVK {
+    background-image: linear-gradient(90deg, #f25a5d, #f14e76 77%, #f04a7f) 
+}
