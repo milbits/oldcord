@@ -267,8 +267,8 @@
 .container-2nx-BQ[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
-.input-2g-os5.focused-1AtTHC,
-.input-2g-os5:focus {
+.input-2g-os5:not(.textArea-3WXAeD,[name="add-friend"],.searchInput-3NGPfp).focused-1AtTHC,
+.input-2g-os5:focus:not(.textArea-3WXAeD,[name="add-friend"],.searchInput-3NGPfp) {
 	border-color: var(--brand-experiment);
 }
 .radioBar-3w9XY- [style*="--radio-bar-accent-color:#3ba55c"] {
