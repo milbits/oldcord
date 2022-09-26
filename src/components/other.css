@@ -564,17 +564,18 @@
 .connectedAccounts-1YaT2t{padding-bottom: 5px; padding-top: 15px}
 .infoScroller-1QMpon{padding-top:10px !important;height:100%}
 .connectedAccountContainer-SlCC-S{background-color:var(--background-secondary); border: #ffffff0f solid 1px;}
-.input-2g-os5:not(.textarea-_59yqs,[name="add-friend"], .searchInput-3NGPfp) {
+.input-2g-os5:not(.textArea-3WXAeD,[name="add-friend"],.searchInput-3NGPfp) {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 100%;
 	border-radius: 3px;
-	color: var(--text-normal);
+	color: var(--text-normal) !important;
 	background-color: var(--deprecated-text-input-bg);
 	border: 1px solid var(--deprecated-text-input-border);
 	-webkit-transition: border-color .2s ease-in-out;
 	transition: border-color .2s ease-in-out
 }
+
 
 .input-2g-os5::-webkit-input-placeholder:not(.textarea-_59yqs) {
 	-webkit-user-select: none;
