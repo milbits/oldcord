@@ -6,6 +6,8 @@
 
 OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that changes almost everything like it was in mid-2020!
 
+#### some stuff cant be changed back because of stupid discord changes
+
 # Installation
 
 Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") (ctrl + s) and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`)
