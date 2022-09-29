@@ -184,12 +184,11 @@
 	padding-right: 10px;
 }
 /* bottom-left popout */
-#account.menu-1QACrS {
-    width: 100%;
-}
 
-#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+#account.menu-1QACrS {
     max-width: 100%;
+	    width: 100%;
+
 }
 
 #account.menu-1QACrS .profileBody-3QbfPe {
