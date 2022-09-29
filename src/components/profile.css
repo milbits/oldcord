@@ -186,8 +186,7 @@
 /* bottom-left popout */
 
 #account.menu-1QACrS {
-    max-width: 100%;
-	    width: 100%;
+	width: 100% !important;
 
 }
 
