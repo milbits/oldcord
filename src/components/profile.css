@@ -185,11 +185,11 @@
 }
 /* bottom-left popout */
 #account.menu-1QACrS {
-    width: 220px;
+    width: 100%;
 }
 
 #account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
-    max-width: 220px;
+    max-width: 100%;
 }
 
 #account.menu-1QACrS .profileBody-3QbfPe {
