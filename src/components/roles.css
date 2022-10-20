@@ -150,3 +150,7 @@
   -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
 }
+
+.addButton-1_dZYu{
+	border: 1px solid;
+}
