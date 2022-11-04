@@ -199,3 +199,26 @@
 .item-1OdjEX  .banner-1YaD3N.popoutBanner-3cqRD9 {
     background: transparent !important;
 }
+
+
+.headerNormal-3Zn_yu{
+	background: #7289da !important;
+	visibility: hidden !important;
+
+}
+
+.headerWrapper-3iTlIT{
+	background: var(--background-tertiary);
+	max-height: 40px !important
+}
+.avatarPositionPremium-1zPBq9{
+	top: 15px !important;
+}
+
+.headerTextNormal-Z8we9g,.buttonsWrapper-2ARRp1 {
+	padding-left: 16px !important;
+	padding-right: 16px;
+}
+.userInfoBody-1zgAd0{
+	padding: 0px
+}
