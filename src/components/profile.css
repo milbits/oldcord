@@ -21,16 +21,19 @@
 }
 .premiumIconWrapper-32h0Ri,
 .bannerOverlayProfile-31VOgt,
-.pencilContainer-18TrEJ,
 .bannerOverlayPopout-1clJ34,
 .headerTop-3GPUSF > .profileBadges-2pItdR,
-.setIdentityLink-hOFsMl {
+.setIdentityLink-hOFsMl,
+.pencilContainer-11Kuga,
+.profileBadges-31rDHI,
+.bannerSVGWrapper-qc0szY,
+.divider-1tWBgZ,
+#account.menu-1QACrS .profileBody-3QbfPe {
 	display: none;
 }
 
-.nickname-t08Mck.heading-lg-medium-3gUJeM,
-.headerTagWithNickname-1U8zZH.headerTag-3GXZkV.nameTag-H6kSJ0,
-.headerTagNoNickname-3tGHj6.headerTag-3GXZkV.nameTag-H6kSJ0 {
+.nameTag-H6kSJ0,
+.nickname-2rimyL {
 	text-align: center;
 }
 .avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremium-1zPBq9.clickable-GKg4Qy,
@@ -86,7 +89,13 @@
 	background-color: #202225;
 }
 
-.eyebrow-Ejf06y,.rolesList-3uZoaa,.note-Go5ZP2,.userInfoBody-1zgAd0{padding-left: 16px;}.userInfoSection-2u2hir{
+.eyebrow-Ejf06y,
+.rolesList-3uZoaa,
+.note-Go5ZP2,
+.userInfoBody-1zgAd0 {
+	padding-left: 16px;
+}
+.userInfoSection-2u2hir {
 	padding: 0 0 0px 0px;
 	margin: 0 0 0px;
 	margin-top: 10px;
@@ -187,17 +196,97 @@
 
 #account.menu-1QACrS {
 	width: 100% !important;
-
 }
 
-#account.menu-1QACrS .profileBody-3QbfPe {
-    display:none;
+.headerTop-3GPUSF.copiableNameTag-3f6roa {
+	background-color: transparent !important;
 }
-.headerTop-3GPUSF.copiableNameTag-3f6roa{
-    background-color: transparent !important;
+.item-1OdjEX .banner-1YaD3N.popoutBanner-3cqRD9 {
+	background: transparent !important;
 }
-.item-1OdjEX  .banner-1YaD3N.popoutBanner-3cqRD9 {
-    background: transparent !important;
+
+.userProfileModalOverlayBackground-8p3-eU {
+	margin: 0;
+}
+
+.overlayBackground-1KgwVi {
+	background-color: var(--background-secondary);
+}
+
+.banner-2boKnS,
+.userPopoutInner-1hXSeY {
+	background-color: none !important;
+}
+.avatarWrapper-3y0KZ1 {
+	left: 35% !important;
+}
+
+.usernameSection-2d814A {
+	padding-top: 100px;
+}
+.userProfileInnerThemedNonPremium-1gT-zY {
+	background-color: #7189da !important;
+	margin: 0;
+}
+.userPopoutOverlayBackground-dKOOda {
+	margin: 0;
+	webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2),
+		0 0 0 1px rgba(32, 34, 37, 0.6);
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
+	width: 250px;
+	border-radius: 5px;
+	overflow: hidden;
+	max-height: calc(100vh - 20px);
+}
+.usernameSection-2d814A,
+.customStatusSection-2TRu5f {
+	background-color: #202225;
+}
+
+.userPopoutOuter-3AVBmJ {
+	width: 250px;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
+}
+
+.eyebrow-Ejf06y,
+.headerTextNormal-Z8we9g {
+	color: var(--header-secondary) !important;
+	padding-left: 0px !important;
+}
+
+.userProfileOuterThemed-3EfHmv,
+.userProfileInnerThemedWithBanner-2624Yx {
+	background: none;
+	box-shadow: none;
+	padding: 0 !important;
+}
+
+.avatarPositionPremiumBanner-2nq2Fy {
+	top: 20px;
+}
+
+.userTagNoNickname-2MJ9HD,
+.userTagWithNickname-3-znkC,
+.customStatusText-2bcbbm {
+	padding-bottom: 10px;
+}
+header .bannerSVGWrapper-qc0szY {
+	display: grid;
+}
+.container-1U-qVy,
+.topSection-1Khgkv,
+.tabBarContainer-2UG0vy {
+	background-color: #202225 !important;
+}
+.userProfileInnerThemedNonPremium-1gT-zY,
+.tabBarContainer-2UG0vy {
+	background: #202225 !important;
+}
+.tabBarContainer-2UG0vy {
+	padding: 21px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	margin: 0;
 }
 
 
