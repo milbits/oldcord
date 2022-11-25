@@ -4,15 +4,16 @@
 
 # What is OldCord?
 
-OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that changes almost everything like it was in mid-2020!
+OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts most of the 2021 rebrand, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) 
 
-#### some stuff cant be changed back because of stupid discord changes
+###### some stuff cant be changed back because of stupid discord changes
 
 # Installation
+### BetterDiscord
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") (ctrl + s) and move it into the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`)
+Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") (ctrl + s) and move it in the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`) (`~/.config/BetterDiscord/themes` on linux) 
 
-### Or
+### Alternative
 
 Put this at the top of the custom CSS tab:
 
