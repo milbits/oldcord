@@ -1,3 +1,22 @@
+@font-face {
+	font-family: "Whitney";
+	src: url(https://moyaiu.github.io/OldCord/src/assets/normal.woff2);
+}
+@font-face {
+	font-weight: 500;
+	font-family: "Whitney";
+	src: url(https://moyaiu.github.io/OldCord/src/assets/kindaBold.woff2)
+}
+@font-face {
+	font-weight: 700;
+	font-family: "Whitney";
+	src: url(https://moyaiu.github.io/OldCord/src/assets/veryBold.woff2)
+}
+.username-3JLfHz,.nickname-2rimyL,.text-sm-normal-3Zj3Iv{
+	font-weight: 500;
+}
+
+
 .premiumLabel-3HPvdB > svg{display:none}
 .background-3d_SjE {
 	border-radius: 8px;
