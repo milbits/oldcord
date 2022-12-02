@@ -28,6 +28,17 @@
 	font-weight: 500;
 }
 
+
+.option-ayUoaq:after{
+	display:none;
+}
+.container-2McqkF{
+    border: 1px solid var(--background-tertiary);
+    background-color: var(--background-secondary);
+    
+}
+
+
 .premiumLabel-3HPvdB > svg {
 	display: none;
 }
