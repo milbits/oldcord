@@ -1,7 +1,8 @@
 @font-face {
 	font-family: "Whitney";
 	font-weight: 300;
-	src: url(https://moyaiu.github.io/OldCord/src/assets/thin.woff2) format("woff2");
+	src: url(https://moyaiu.github.io/OldCord/src/assets/thin.woff2)
+		format("woff2");
 }
 @font-face {
 	font-family: "Whitney";
@@ -15,7 +16,8 @@
 @font-face {
 	font-family: "Whitney";
 	font-weight: 600;
-	src: url(https://moyaiu.github.io/OldCord/src/assets/bold.woff2) format("woff2");
+	src: url(https://moyaiu.github.io/OldCord/src/assets/bold.woff2)
+		format("woff2");
 }
 @font-face {
 	font-weight: 700;
@@ -23,27 +25,22 @@
 	src: url(https://moyaiu.github.io/OldCord/src/assets/veryBold.woff2);
 }
 .username-3JLfHz,
-.nickname-2rimyL{
-	font-weight: 600;
-}
+.nickname-2rimyL,
 .heading-lg-semibold-2Z_RS3 {
-    font-weight: 700;
-
+	font-weight: 600;
 }
 
 .text-sm-normal-3Zj3Iv {
-    font-weight: 500;
+	font-weight: 500;
 }
 
-.option-ayUoaq:after{
-	display:none;
+.option-ayUoaq:after {
+	display: none;
 }
-.container-2McqkF{
-    border: 1px solid var(--background-tertiary);
-    background-color: var(--background-secondary);
-    
+.container-2McqkF {
+	border: 1px solid var(--background-tertiary);
+	background-color: var(--background-secondary);
 }
-
 
 .premiumLabel-3HPvdB > svg {
 	display: none;
