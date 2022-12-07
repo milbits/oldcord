@@ -62,7 +62,7 @@
 }
 body {
 	--text-muted: #72767d;
-	--font-primary: Whitney;
+	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	--blurple: #7289da;
 	--blurple-hover: #677bc4;
