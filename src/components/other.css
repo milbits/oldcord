@@ -9,6 +9,11 @@
 	src: url(https://moyaiu.github.io/OldCord/src/assets/normal.woff2);
 }
 @font-face {
+	font-family: "Whitney";
+	font-style: italic;
+	src: url(https://moyaiu.github.io/OldCord/src/assets/cursive.woff2);
+}
+@font-face {
 	font-weight: 500;
 	font-family: "Whitney";
 	src: url(https://moyaiu.github.io/OldCord/src/assets/kindaBold.woff2);
@@ -23,6 +28,12 @@
 	font-weight: 700;
 	font-family: "Whitney";
 	src: url(https://moyaiu.github.io/OldCord/src/assets/veryBold.woff2);
+}
+@font-face {
+	font-weight: 700;
+	font-style: italic;
+	font-family: "Whitney";
+	src: url(https://moyaiu.github.io/OldCord/src/assets/cursiveBold.woff2);
 }
 .username-3JLfHz,
 .nickname-2rimyL,
