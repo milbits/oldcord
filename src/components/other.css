@@ -1,8 +1,7 @@
 @font-face {
 	font-family: "Whitney";
 	font-weight: 300;
-	src: url(https://moyaiu.github.io/OldCord/src/assets/thin.woff2)
-		format("woff2");
+	src: url(https://moyaiu.github.io/OldCord/src/assets/thin.woff2) format("woff2");
 }
 @font-face {
 	font-family: "Whitney";
@@ -21,8 +20,7 @@
 @font-face {
 	font-family: "Whitney";
 	font-weight: 600;
-	src: url(https://moyaiu.github.io/OldCord/src/assets/bold.woff2)
-		format("woff2");
+	src: url(https://moyaiu.github.io/OldCord/src/assets/bold.woff2) format("woff2");
 }
 @font-face {
 	font-weight: 700;
@@ -132,9 +130,7 @@
 .container-2nx-BQ .input-2XRLou:after {
 	transition: 0.1s;
 }
-.channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2
-	.scrollableContainer-15eg7h
-	.webkit-QgSAqd {
+.channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2 .scrollableContainer-15eg7h .webkit-QgSAqd {
 	border-color: #7289da;
 }
 .card-16VQ8C {
@@ -164,8 +160,7 @@
 }
 
 .characterBackground-1BPOOJ {
-	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg")
-		center/100% no-repeat;
+	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -283,8 +278,7 @@
 }
 .secured-2wavXv:before {
 	content: " ";
-	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg)
-		50% no-repeat;
+	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
 	width: 9px;
 	height: 12px;
 	background-size: 9px 12px;
@@ -420,29 +414,15 @@
 .item-2idW98 .radioBar-3w9XY- .icon-NDLBMG {
 	opacity: 0.5;
 }
-.item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z"
 	);
 }
-.theme-dark
-	.item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.theme-dark .item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	fill: #72767d;
 }
-.theme-light
-	.item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.theme-light .item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	fill: #b9bbbe;
 }
 .item-2idW98 .radioBar-3w9XY- circle {
@@ -468,11 +448,7 @@
 .item-2idW98[aria-checked="true"] .radioBar-3w9XY- .colorStandard-21JIj7 {
 	color: #fff;
 }
-.item-2idW98[aria-checked="true"]
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.item-2idW98[aria-checked="true"] .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
 	) !important;
@@ -493,8 +469,7 @@
 	border: solid 1px var(--background-tertiary) !important;
 	background: var(--deprecated-card-editable-bg) !important;
 }
-[role="radiogroup"]
-	.tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
+[role="radiogroup"] .tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
 	margin-bottom: 0;
 }
 .item-2idW98 {
@@ -531,22 +506,13 @@
 .theme-dark .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) > path {
 	fill: #72767d;
 }
-.theme-light
-	.item-2idW98
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.theme-light .item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	fill: #b9bbbe;
 }
 .item-2idW98 .radioBar-3w9XY- circle {
 	display: none;
 }
-.item-2idW98[aria-checked="true"]
-	.radioBar-3w9XY-
-	.radioBarIcon-EiCq-C
-	> svg:not(.icon-NDLBMG)
-	> path {
+.item-2idW98[aria-checked="true"] .radioBar-3w9XY- .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
 	) !important;
@@ -575,11 +541,7 @@
 .item-2idW98[aria-checked="true"] .radioBar-3w9XY- .colorStandard-21JIj7 {
 	color: #fff;
 }
-.item-2idW98[aria-checked="true"]
-	.radioBar-3w9XY-
-	> div:not([class*="-"])
-	> svg:not(.icon-NDLBMG)
-	> path {
+.item-2idW98[aria-checked="true"] .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
 	) !important;
@@ -600,8 +562,7 @@
 	border: solid 1px var(--background-tertiary) !important;
 	background: var(--deprecated-card-editable-bg) !important;
 }
-[role="radiogroup"]
-	.tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
+[role="radiogroup"] .tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
 	margin-bottom: 0;
 }
 .connectedAccounts-1YaT2t {
@@ -617,9 +578,11 @@
 	border: #ffffff0f solid 1px;
 }
 .input-2g-os5:not(
-		.textArea-3WXAeD,
 		.textarea-_59yqs,
+		.searchBoxInput-P0mWHW,
 		[name="add-friend"],
+		[placeholder="Title"],
+		[placeholder="Search or create a post..."],
 		.searchInput-3NGPfp
 	) {
 	-webkit-box-sizing: border-box;
@@ -627,7 +590,7 @@
 	width: 100%;
 	border-radius: 3px;
 	color: var(--text-normal) !important;
-	background-color: var(--deprecated-text-input-bg);
+	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
 	-webkit-transition: border-color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out;
