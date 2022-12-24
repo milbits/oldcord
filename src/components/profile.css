@@ -221,6 +221,7 @@
 
 .usernameSection-2d814A {
 	padding-top: 100px;
+	padding-bottom: 10px;
 }
 .userProfileInnerThemedNonPremium-1gT-zY {
 	background-color: #7189da !important;
@@ -239,6 +240,17 @@
 .usernameSection-2d814A,
 .customStatusSection-2TRu5f {
 	background-color: #202225;
+}
+
+/* removes dark circle behind status icon for profiles with custom colours */
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy > div > div > svg > circle {
+	display: none;
+}
+
+.customStatusSection-2TRu5f {
+	max-height: calc(100vh - 20px);
+	padding-top: 0px;
+	padding-bottom: 5px;
 }
 
 .userPopoutOuter-3AVBmJ {
@@ -268,6 +280,9 @@
 .customStatusText-2bcbbm {
 	padding-bottom: 10px;
 }*/
+.customStatusText-2bcbbm {
+	text-align: center;
+}
 header .bannerSVGWrapper-qc0szY {
 	display: grid;
 }
