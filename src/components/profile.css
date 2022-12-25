@@ -281,9 +281,9 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 	top: 15px;
 }
 
-.customStatusText-2bcbbm {
-	text-align: center;
-	display: block;
+.customStatus-3Bvsdb {
+	justify-content: center;
+	display: flex;
 }
 header .bannerSVGWrapper-qc0szY {
 	display: grid;
