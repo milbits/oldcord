@@ -256,7 +256,7 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 .customStatusSection-2TRu5f {
 	max-height: calc(100vh - 20px);
 	padding-top: 0px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 .userPopoutOuter-3AVBmJ {
@@ -281,9 +281,14 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 	top: 15px;
 }
 
-.customStatusText-2bcbbm {
-	text-align: center;
-	display: block;
+/* fix message border still having custom colours */
+div {
+	--profile-message-input-border-color: transparent;
+}
+
+.customStatus-3Bvsdb {
+	justify-content: center;
+	display: flex;
 }
 header .bannerSVGWrapper-qc0szY {
 	display: grid;
