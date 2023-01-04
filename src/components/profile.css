@@ -216,6 +216,7 @@
 .avatarWrapper-3y0KZ1 {
 	left: 35% !important;
 	position: relative !important;
+	width: 0px;
 }
 
 .usernameSection-2d814A {
@@ -228,8 +229,7 @@
 }
 .userPopoutOverlayBackground-dKOOda {
 	margin: 0;
-	webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
+	/* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6); */
 	width: 250px;
 	border-radius: 5px;
 	overflow: hidden;
@@ -273,7 +273,7 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 
 .userProfileOuterThemed-3EfHmv,
 .userProfileInnerThemedWithBanner-2624Yx {
-	background: none;
+	background: #202225;
 	box-shadow: none;
 	padding: 0 !important;
 }
@@ -326,4 +326,18 @@ header .bannerSVGWrapper-qc0szY {
 
 .userInfoBody-1zgAd0 {
 	padding: 0px;
+}
+
+
+
+.userPopoutInner-1hXSeY:before{
+	height: 0;
+	width: 0;
+}
+
+.avatarHoverTarget-l77PhT .wrapper-1VLyxH{
+	height: 100px !important;
+}
+.usernameSection-2d814A{
+	padding-top: 10px
 }
