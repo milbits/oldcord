@@ -253,6 +253,23 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 	> rect:nth-child(2) {
 	display: none;
 }
+/* do the same but for profiles with premium and no colours or something idfk */
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs
+	> div
+	> div
+	> svg 
+	> circle,
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs
+	> div
+	> div
+	> svg
+	> rect:nth-child(2) {
+	display: none;
+}
+
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
+  background: transparent;
+}
 
 .customStatusSection-2TRu5f {
 	max-height: calc(100vh - 20px);
