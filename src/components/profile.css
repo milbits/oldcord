@@ -341,3 +341,61 @@ header .bannerSVGWrapper-qc0szY {
 .usernameSection-2d814A{
 	padding-top: 10px
 }
+
+/* following is for the profiles in settings page, its messy but it works lmao */
+
+.accountProfileCard-lbN7n- > .userInfo-regn9W {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-1VLyxH.avatar-3mTjvZ {
+  position: absolute;
+  top: 15px;
+  background-color: var(--background-secondary);
+}
+
+.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-1VLyxH.avatar-3mTjvZ > svg > rect {
+  display: none;
+}
+
+div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.discriminator-2m-MqL {
+  font-size: medium;
+  font-weight: 400;
+  position: relative;
+  top: 2px;
+}
+
+.accountProfileCard-lbN7n- > div.userInfo-regn9W > div:nth-child(2) > div.profileCardUsernameRow-1bb6fi {
+  position: relative;
+  top: 5px;
+}
+
+.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2_V0PM.container-5SvbtF {
+  transform: scale(1.5);
+  position: relative;
+  left: 29px;
+  bottom: 5px;
+}
+
+.accountProfileCard-lbN7n- {
+  background-color: var(--background-secondary);
+}
+
+.background-3d_SjE,
+.fieldList-in8WkP {
+  background-color: var(--background-primary);
+}
+
+.avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 {
+  position: absolute;
+  left: 33%;
+}
+
+.avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 > .status-b9jLr4 {
+  display: none;
+}
+
+div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq > div.userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors.profileCustomizationPreviewWithoutTheme-2OWKhI.profileCustomizationPreview-2-Y173 > div > div.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi.body-3wEtTO > div:nth-child(1) {
+  margin-top: 90px;
+}
