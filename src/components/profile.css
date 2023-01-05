@@ -86,7 +86,7 @@
 	color: var(--header-secondary);
 }
 .theme-dark .headerNormal-T_seeN {
-	background-color: #202225;
+	background-color: var(--background-tertiary);
 }
 
 .eyebrow-Ejf06y,
@@ -224,7 +224,6 @@
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY {
-	background-color: var(--background-tertiary) !important;
 	margin: 0;
 }
 
@@ -242,10 +241,6 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 	padding-top: 100px;
 	padding-bottom: 10px;
 }
-.userProfileInnerThemedNonPremium-1gT-zY {
-	background-color: #7189da !important;
-	margin: 0;
-}
 .userTagDiscriminatorNoNickname-2HLaIE.discrimBase-KriZSj {
 	font-weight: 500;
 }
@@ -256,10 +251,6 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 	border-radius: 5px;
 	overflow: hidden;
 	max-height: calc(100vh - 20px);
-}
-.usernameSection-2d814A,
-.customStatusSection-2TRu5f {
-	background-color: #202225;
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
@@ -388,13 +379,6 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	padding-left: 0px !important;
 }
 
-.userProfileOuterThemed-3EfHmv,
-.userProfileInnerThemedWithBanner-2624Yx {
-	background: #202225;
-	box-shadow: none;
-	padding: 0 !important;
-}
-
 .avatarPositionPremiumBanner-2nq2Fy {
 	top: 15px;
 }
@@ -428,11 +412,11 @@ header .bannerSVGWrapper-qc0szY {
 .container-1U-qVy,
 .topSection-1Khgkv,
 .tabBarContainer-2UG0vy {
-	background-color: #202225 !important;
+	background-color: var(--background-tertiary) !important;
 }
 .userProfileInnerThemedNonPremium-1gT-zY,
 .tabBarContainer-2UG0vy {
-	background: #202225 !important;
+	background: var(--background-tertiary) !important;
 }
 .tabBarContainer-2UG0vy {
 	padding: 21px;
