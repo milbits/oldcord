@@ -86,7 +86,7 @@
 	color: var(--header-secondary);
 }
 .theme-dark .headerNormal-T_seeN {
-	background-color: #202225;
+	background-color: var(--background-tertiary);
 }
 
 .eyebrow-Ejf06y,
@@ -218,14 +218,31 @@
 	position: relative !important;
 	width: 0px;
 }
+.usernameSection-2d814A,
+.customStatusSection-2TRu5f {
+	background-color: var(--background-tertiary);
+}
 
+.userProfileInnerThemedNonPremium-1gT-zY {
+	margin: 0;
+}
+
+.userProfileOuterThemed-3EfHmv,
+.userProfileInnerThemedWithBanner-2624Yx {
+	background: var(--background-tertiary);
+	box-shadow: none;
+	padding: 0 !important;
+}
+
+div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
+	display: none;
+}
 .usernameSection-2d814A {
 	padding-top: 100px;
 	padding-bottom: 10px;
 }
-.userProfileInnerThemedNonPremium-1gT-zY {
-	background-color: #7189da !important;
-	margin: 0;
+.userTagDiscriminatorNoNickname-2HLaIE.discrimBase-KriZSj {
+	font-weight: 500;
 }
 .userPopoutOverlayBackground-dKOOda {
 	margin: 0;
@@ -234,10 +251,6 @@
 	border-radius: 5px;
 	overflow: hidden;
 	max-height: calc(100vh - 20px);
-}
-.usernameSection-2d814A,
-.customStatusSection-2TRu5f {
-	background-color: #202225;
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
@@ -266,6 +279,84 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 	> rect:nth-child(2) {
 	display: none;
 }
+/* and the same for full profile dialogs */
+div.topSection-1Khgkv
+	> header
+	> div
+	> div:nth-child(1)
+	> div
+	> svg
+	> circle,
+div.topSection-1Khgkv
+	> header
+	> div
+	> div:nth-child(1)
+	> div
+	> svg
+	> rect:nth-child(2) {
+	display: none;
+}
+
+/* tweaks for full profile dialog below */
+div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
+	transform: scale(0.666);
+	position: absolute;
+	top: -20px;
+	left: 0px;
+}
+.topSection-1Khgkv {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.nameTag-2ysfG3.nameTag-H6kSJ0 {
+  transform: scale(0.9);
+  position: relative;
+  top: 6px;
+  left: 75px;
+}
+
+.nameTag-2ysfG3.nameTag-H6kSJ0 > .discriminator-3_S3CG {
+  font-size: medium;
+  font-weight: 400;
+  position: relative;
+  top: 2px;
+}
+
+.body-_QAKrE > .container-1U-qVy > div:nth-child(2) > .text-sm-normal-3Zj3Iv.customStatusText-3ca2B1 {
+  height: 0px;
+  position: relative;
+  top: 32px;
+  left: 10px;
+  margin-right: 10px;
+}
+
+.headerTop-212g15 > .badgeList-2pMvZX {
+  transform-origin: top left;
+  transform: scale(1.25);
+  position: relative;
+  right: 53px;
+  top: 33px;
+}
+
+.headerTop-212g15 > .relationshipButtons-pZ_UWl {
+  margin-top: 9px;
+}
+
+.body-_QAKrE > .container-1U-qVy {
+  padding-bottom: 50px;
+}
+
+.tabBarItem-3VvT2z.item-3XjbnG {
+	height: 30px;
+}
+
+/* hint: divider only appears on your own profile dialog */
+.body-_QAKrE > .divider-1NpGam {
+	border-top: 9px solid var(--background-tertiary);
+	margin: 0 0 0;
+}
+/* full profile dialog tweaks end here */
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
   background: transparent;
@@ -288,20 +379,27 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 	padding-left: 0px !important;
 }
 
-.userProfileOuterThemed-3EfHmv,
-.userProfileInnerThemedWithBanner-2624Yx {
-	background: #202225;
-	box-shadow: none;
-	padding: 0 !important;
-}
-
 .avatarPositionPremiumBanner-2nq2Fy {
 	top: 15px;
 }
 
-/* fix message border still having custom colours */
+.badgeList-2pMvZX {
+	background-color: transparent;
+}
+
+/* fix profile still having messed up colours when custom colours were enabled */
 div {
-	--profile-message-input-border-color: transparent;
+	--profile-gradient-primary-color:var(--background-secondary-alt);
+	--profile-gradient-secondary-color:var(--background-secondary-alt);
+	--profile-gradient-overlay-color:transparent;
+	--profile-gradient-button-color:var(--button-secondary-background);
+	--profile-avatar-border-color:var(--background-secondary-alt);
+	--profile-message-input-border-color:var(--background-modifier-accent);
+	--profile-body-background-color:var(--background-floating);
+	--profile-body-background-hover:var(--background-modifier-hover);
+	--profile-body-divider-color:var(--background-modifier-accent);
+	--profile-role-pill-background-color:var(--background-secondary-alt);
+	--profile-role-pill-border-color:var(--interactive-normal);
 }
 
 .customStatus-3Bvsdb {
@@ -314,11 +412,11 @@ header .bannerSVGWrapper-qc0szY {
 .container-1U-qVy,
 .topSection-1Khgkv,
 .tabBarContainer-2UG0vy {
-	background-color: #202225 !important;
+	background-color: var(--background-tertiary) !important;
 }
 .userProfileInnerThemedNonPremium-1gT-zY,
 .tabBarContainer-2UG0vy {
-	background: #202225 !important;
+	background: var(--background-tertiary) !important;
 }
 .tabBarContainer-2UG0vy {
 	padding: 21px;
