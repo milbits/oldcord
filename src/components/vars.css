@@ -52,8 +52,7 @@
 	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
 	--background-message-hover: rgba(6, 6, 7, 0.02);
 	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
-	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025),
-		0 2px 0 rgba(6, 6, 7, 0.025);
+	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
 	--logo-primary: var(--brand-experiment);
