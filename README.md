@@ -13,7 +13,7 @@ OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts m
 # Installation
 ### BetterDiscord
 
-Download [OldCord.theme.css](https://github.com/moyaiu/OldCord/blob/main/OldCord.theme.css " ") (ctrl + s) and move it in the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`) (`~/.config/BetterDiscord/themes` on linux) 
+Download [OldCord.theme.css](https://raw.githubusercontent.com/moyaiu/OldCord/main/OldCord.theme.css " ") (ctrl + s) and move it in the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`) (`~/.config/BetterDiscord/themes` on linux) 
 
 ### Alternative
 
