@@ -6,7 +6,9 @@
 
 OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that reverts most of the 2021 rebrand, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) 
 
-###### some stuff cant be changed back because of stupid discord changes
+### Note: enable "Sync Profile Themes" in Accessibility
+![image](https://cdn.discordapp.com/attachments/1056211378882498641/1064923652174389278/image.png)
+
 
 # Installation
 ### BetterDiscord
@@ -27,5 +29,3 @@ Put this at the top of the custom CSS tab:
 
 -   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original code
 -   [DTM-16](https://github.com/XYZenix/DTM-16) for the switches, old radio bars and some of the profile code
-
-##### btw dont try to contribute, the codes shit lmao
