@@ -1,9 +1,8 @@
 [fill="#3ba55c"],
-[fill="#3BA55C"] {
+[fill="#3BA55C"],
+[fill="rgba(59, 165, 92, 1)"] {
 	fill: var(--old-green) !important;
 }
-
-
 
 .red-3T8maV {
 	background-color: var(--old-red) !important;
