@@ -130,6 +130,7 @@ body {
 	--green-inverted-active: #d9f0e6;
 	--oldcord-version: "9.7.0";
 	--old-green: #43b581;
+	--status-green-600: #43b581;
 	--info-positive-foreground: var(--old-green);
 	--status-positive-background: var(--old-green);
 	--text-positive: var(--old-green);
