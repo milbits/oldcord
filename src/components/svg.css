@@ -180,7 +180,7 @@
 	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
 }
 .hero-3xEZXe {
-	background-color: #7289da;
+	background-color: var(--brand-experiment);
 }
 .hero-3xEZXe {
 	background-image: url(https://moyaiu.github.io/OldCord/src/assets/sky.svg);

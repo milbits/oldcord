@@ -131,7 +131,7 @@
 	transition: 0.1s;
 }
 .channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2 .scrollableContainer-15eg7h .webkit-QgSAqd {
-	border-color: #7289da;
+	border-color: var(--brand-experiment);
 }
 .card-16VQ8C {
 	position: relative;
@@ -401,8 +401,8 @@
 .item-1TA5qI .title-1yyp9V {
 	font-weight: 500;
 }
-.item-1TA5qI[aria-checked="false"] .text-md-medium-2avxhQ {
-	color: var(--radio-bar-accent-color);
+.item-2idW98[aria-checked=false] .text-md-medium-2n7Vn5, .item-1TA5qI[aria-checked=false] .text-md-medium-2n7Vn5 {
+  color: var(--radio-bar-accent-color) !important;
 }
 .item-1TA5qI .radioBar-1XgZqD {
 	border: solid 1px var(--background-tertiary);
@@ -627,5 +627,5 @@
 }
 
 #account.menu-1QACrS {
-	background-color: #18191c;
+	background-color: var(--background-floating);
 }
