@@ -74,7 +74,6 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 }
 .userPopoutOverlayBackground-dKOOda {
 	margin: 0;
-	/* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg); */
 	width: 250px;
 	border-radius: 5px;
 	overflow: hidden;
@@ -222,14 +221,17 @@ div {
 	justify-content: center;
 	display: flex;
 }
+
 header .bannerSVGWrapper-qc0szY {
 	display: grid;
 }
+
 .container-1U-qVy,
 .topSection-1Khgkv,
 .tabBarContainer-2UG0vy {
 	background-color: var(--background-tertiary) !important;
 }
+
 .userProfileInnerThemedNonPremium-1gT-zY,
 .tabBarContainer-2UG0vy {
 	background: var(--background-tertiary) !important;
@@ -245,11 +247,11 @@ header .bannerSVGWrapper-qc0szY {
 	background: #000 !important;
 	visibility: hidden !important;
 }
-
 .headerWrapper-3iTlIT {
 	background: var(--background-tertiary);
 	max-height: 40px !important;
 }
+
 .avatarPositionPremium-1zPBq9,
 .avatarPositionPremiumNoBanner-nWzERs {
 	top: 15px !important;
@@ -267,35 +269,31 @@ header .bannerSVGWrapper-qc0szY {
 .avatarHoverTarget-l77PhT .wrapper-1VLyxH {
 	height: 100px !important;
 }
+
 .usernameSection-2d814A {
 	padding-top: 10px;
 }
 
 /* following is for the profiles in settings page, its messy but it works lmao */
-
 .accountProfileCard-lbN7n- > .userInfo-regn9W {
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-
 .accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-1VLyxH.avatar-3mTjvZ {
 	position: absolute;
 	top: 15px;
 	background-color: var(--background-secondary);
 }
-
 div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.discriminator-2m-MqL {
 	font-size: medium;
 	font-weight: 400;
 	position: relative;
 	top: 2px;
 }
-
 .accountProfileCard-lbN7n- > div.userInfo-regn9W > div:nth-child(2) > div.profileCardUsernameRow-1bb6fi {
 	position: relative;
 	top: 5px;
 }
-
 .accountProfileCard-lbN7n-
 	> .userInfo-regn9W
 	> div:nth-child(2)
@@ -305,25 +303,20 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 	left: 29px;
 	bottom: 5px;
 }
-
 .accountProfileCard-lbN7n- {
 	background-color: var(--background-secondary);
 }
-
 .background-3d_SjE,
 .fieldList-in8WkP {
 	background-color: var(--background-primary);
 }
-
 .avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 {
 	position: absolute;
 	left: 33%;
 }
-
 .avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 > .status-b9jLr4 {
 	display: none;
 }
-
 div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 	> div.userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors.profileCustomizationPreviewWithoutTheme-2OWKhI.profileCustomizationPreview-2-Y173
 	> div

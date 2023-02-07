@@ -8,6 +8,7 @@
 	background: var(--brand-experiment);
 	color: var(--brand-experiment-100);
 }
+
 .wrapper-1ZcZW- {
 	border-radius: 3px;
 	padding: 0 2px;
@@ -18,6 +19,7 @@
 	padding: 0 2px;
 	position: relative;
 }
+
 .interactive {
 	-webkit-transition: background-color 50ms ease-out, color 50ms ease-out;
 	transition: background-color 50ms ease-out, color 50ms ease-out;
@@ -27,6 +29,7 @@
 	color: #fff;
 	background-color: var(--brand-experiment);
 }
+
 .mentioned-Tre-dv {
 	position: relative;
 	background-color: var(--background-mentioned) !important;
@@ -35,6 +38,7 @@
 	position: relative;
 	background-color: var(--background-mentioned-hover) !important;
 }
+
 .channelIcon-3I2O7O {
 	display: none;
 }
