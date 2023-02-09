@@ -178,7 +178,6 @@
 	top: 0;
 	left: 0;
 	opacity: 0;
-	-webkit-transition: opacity 0.2s linear 0.2s;
 	transition: opacity 0.2s linear 0.2s;
 }
 .image-3yFrLs.loaded-208lqP {
@@ -188,31 +187,34 @@
 	left: unset;
 	right: 6px;
 }
-.clamped-2ZePhX {
-	-webkit-line-clamp: 190;
+/*make the bio not cut off
+im so evil for making this mandatory grrr*/
+.lineClamp2Plus-2SCQmH {
+	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
-.clamped-2ZePhX:hover::-webkit-scrollbar {
-	width: 5px;
-}
-.clamped-2ZePhX::-webkit-scrollbar {
-	width: 5px;
-}
-.clamped-2ZePhX:hover::-webkit-scrollbar-track {
-	background: 0 0;
-	border-radius: 10px;
-	margin-right: 69px;
-	border: solid 3px transparent;
+.lineClamp2Plus-2SCQmH::-webkit-scrollbar-thumb {
+	background: #202225;
+	border-radius: 99px;
+	max-height: 20px;
 	padding-right: 17px;
 }
-.clamped-2ZePhX:hover::-webkit-scrollbar-thumb {
+.lineClamp2Plus-2SCQmH::-webkit-scrollbar {
+	width: 4px;
+}
+.lineClamp2Plus-2SCQmH:hover::-webkit-scrollbar-track {
+	background: 0 0;
+	border-radius: 10px;
+}
+.lineClamp2Plus-2SCQmH:hover::-webkit-scrollbar-thumb {
 	background: #202225;
 	border-radius: 9999px;
 	max-height: 20px;
 	padding-right: 17px;
 }
+
 .applicationInstallButton-taCWKH {
 	width: 90%;
 	left: 5%;
@@ -221,7 +223,6 @@
 }
 .section-2zQkYM {
 	border-radius: 4px;
-	-webkit-box-shadow: var(--elevation-high);
 	box-shadow: var(--elevation-high);
 	background: var(--background-primary);
 }
@@ -232,10 +233,6 @@
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 0;
-	-webkit-user-select: text;
-	-moz-user-select: text;
-	-ms-user-select: text;
-	user-select: text;
 }
 .section-2zQkYM a {
 	color: var(--text-link);
@@ -255,16 +252,6 @@
 	background-color: rgba(115, 139, 215, 0.98);
 	padding: 13px;
 	font-weight: 500;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	position: relative;
 	border-radius: 3px 3px 0 0;
 }
 .header-2C89wJ:last-child {
@@ -587,20 +574,14 @@
 		.searchInput-3NGPfp
 	),
 .bioTextArea-dDGOeC {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 100%;
 	border-radius: 3px;
 	color: var(--text-normal) !important;
 	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
-	-webkit-transition: border-color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out;
 }
 
 .input-3O04eu::-webkit-input-placeholder:not(.textarea-_59yqs) {
-	-webkit-user-select: none;
-	user-select: none;
 	color: var(--text-muted);
 }
 .select-Zz0IcO:hover,
