@@ -172,25 +172,16 @@
 .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .header-S26rhB .horizontal-112GEH .colorGreen-3y-Z79 {
 	background: #43b581;
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
-	.header-S26rhB
-	.horizontal-112GEH
-	.colorGreen-3y-Z79:hover {
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .header-S26rhB .horizontal-112GEH .colorGreen-3y-Z79:hover {
 	background: #66c69a;
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
-	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-3y-Z79 {
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .relationshipButtons-3ByBpj .actionButton-iarQTd.colorGreen-3y-Z79 {
 	background: var(--old-green);
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
-	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-3y-Z79:hover {
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .relationshipButtons-3ByBpj .actionButton-iarQTd.colorGreen-3y-Z79:hover {
 	background: var(--green-hover);
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
-	.relationshipButtons-3ByBpj
-	.actionButton-iarQTd.colorGreen-3y-Z79:active {
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 .relationshipButtons-3ByBpj .actionButton-iarQTd.colorGreen-3y-Z79:active {
 	background: var(--green-active);
 }
 
@@ -287,15 +278,6 @@
 .container-1QtPKm[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
 	background-color: var(--old-green) !important;
 }
-.input-3O04eu:not(.textArea-3WXAeD, .textarea-_59yqs, [name="add-friend"], .searchInput-3NGPfp).focused-1AtTHC:not(
-		.textArea-3WXAeD,
-		.textarea-_59yqs,
-		[name="add-friend"],
-		.searchInput-3NGPfp
-	),
-.input-3O04eu:focus:not(.textArea-3WXAeD, .textarea-_59yqs, [name="add-friend"], .searchInput-3NGPfp) {
-	border-color: var(--brand-experiment);
-}
 
 .colorLink-2apWfY.size14-3fJ-ot.mentionButton-3C5YMI {
 	color: var(--brand-experiment);
@@ -350,8 +332,7 @@
 	border: 1px solid var(--brand-experiment) !important;
 }
 
-.closeButton-PCZcma
-	[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
+.closeButton-PCZcma [d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
 	d: path("M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12");
 }
 .theme-light .closeButton-PCZcma {

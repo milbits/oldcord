@@ -81,29 +81,13 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy
-	> div
-	> div
-	> svg
-	> circle,
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy
-	> div
-	> div
-	> svg
-	> rect:nth-child(2) {
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy > div > div > svg > circle,
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy > div > div > svg > rect:nth-child(2) {
 	display: none;
 }
 /* do the same but for profiles with premium and no colours or something idfk */
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs
-	> div
-	> div
-	> svg
-	> circle,
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs
-	> div
-	> div
-	> svg
-	> rect:nth-child(2) {
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > circle,
+div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2) {
 	display: none;
 }
 /* and the same for full profile dialogs */
@@ -294,10 +278,7 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 	position: relative;
 	top: 5px;
 }
-.accountProfileCard-lbN7n-
-	> .userInfo-regn9W
-	> div:nth-child(2)
-	> .badgeList-b3Ajmk.containerWithContent-2_V0PM.container-5SvbtF {
+.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2_V0PM.container-5SvbtF {
 	transform: scale(1.5);
 	position: relative;
 	left: 29px;
