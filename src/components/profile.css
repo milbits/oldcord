@@ -90,6 +90,7 @@ div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPosit
 div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2) {
 	display: none;
 }
+
 /* and the same for full profile dialogs */
 div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > circle,
 div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > rect:nth-child(2) {
