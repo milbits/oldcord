@@ -122,6 +122,9 @@
 .container-1QtPKm .input-125oad:after {
 	transition: 0.1s;
 }
+[class*="disabled"] {
+	cursor: not-allowed;
+}
 .channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2 .scrollableContainer-15eg7h .webkit-QgSAqd {
 	border-color: var(--brand-experiment);
 }
@@ -162,7 +165,8 @@
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+.accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
+.unreadIcon-3dqgX9 {
 	display: none;
 }
 
@@ -219,7 +223,12 @@ im so evil for making this mandatory grrr*/
 	background: #202225;
 	border-radius: 9999px;
 	max-height: 20px;
-	padding-right: 17px;
+}
+
+.scroller-1jBQYo::-webkit-scrollbar-thumb,
+.infoScroller-3MqKC5::-webkit-scrollbar-thumb {
+	background: #202225;
+	border: 2px solid var(--background-secondary);
 }
 
 .applicationInstallButton-taCWKH {
@@ -546,18 +555,146 @@ im so evil for making this mandatory grrr*/
 [role="radiogroup"] .tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
 	margin-bottom: 0;
 }
+/*"safety setup" in server settings
+taken from dtm-17 (im a lazy fuck :p)*/
+.collapseable-DdnHFl {
+	background: none;
+}
+.collapseable-DdnHFl .groupCollapsedContainer-1h2Wkb {
+	background: none;
+	border: none;
+}
+.collapseable-DdnHFl:before {
+	display: none;
+}
+.collapseable-DdnHFl .pointer-1p1R-4 {
+	display: none;
+}
+
+.container-AxP_J8 {
+	border-radius: 5px;
+	color: var(--interactive-active) !important;
+	background: #0000 !important;
+}
+.container-AxP_J8 .text-sm-medium-3Pz3rB {
+	font-weight: 500;
+	font-size: 16px;
+}
+.container-AxP_J8 .description-1AuQKU + div:not([class]) {
+	order: -2;
+	height: 24px;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 {
+	border: solid 1px var(--background-tertiary);
+	background: var(--deprecated-card-editable-bg);
+	grid-gap: 10px;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 .text-sm-normal-AEQz4v {
+	color: var(--interactive-normal);
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 > div:not([class*="-"]) {
+	justify-content: flex-start;
+	align-self: flex-start;
+	height: 24px;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 .text-sm-medium-3Pz3rB {
+	line-height: 24px;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 .button-f2h6uQ {
+	margin-top: 1px;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 .radioItem-9hpM39 {
+	margin: 0;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 .radioItem-9hpM39 path {
+	d: path(
+		"M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z"
+	);
+}
+.theme-dark .container-AxP_J8 .backgroundModifierContainer-WjXgb2 .radioItem-9hpM39 path {
+	fill: #72767d;
+}
+.theme-light .container-AxP_J8 .backgroundModifierContainer-WjXgb2 .radioItem-9hpM39 path {
+	fill: #b9bbbe;
+}
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle {
+	display: none;
+}
+.container-AxP_J8 .selected-2f8_FP {
+	color: #fff !important;
+	background-color: var(--blurple);
+	border-color: var(--blurple);
+}
+.container-AxP_J8 .selected-2f8_FP .text-sm-normal-AEQz4v,
+.container-AxP_J8 .selected-2f8_FP .text-sm-medium-3Pz3rB,
+.container-AxP_J8 .selected-2f8_FP .radioItem-9hpM39 {
+	color: #fff !important;
+}
+.container-AxP_J8 .selected-2f8_FP .radioItem-9hpM39 path {
+	d: path(
+		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
+	) !important;
+	fill: #fff !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusGreen-Iw_dcs {
+	background-color: var(--green) !important;
+	border-color: var(--green) !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusYellow-2nYnVP {
+	background-color: var(--yellow) !important;
+	border-color: var(--yellow) !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusOrange-zz0-Vv {
+	background-color: #f26522 !important;
+	border-color: #f26522 !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusRed-1dK5Ao {
+	background-color: var(--red) !important;
+	border-color: var(--red) !important;
+}
+.container-AxP_J8 :not(.selected-2f8_FP) .backgroundModifierContainer-WjXgb2 .text-sm-medium-3Pz3rB {
+	color: var(--interactive-normal);
+}
+.theme-dark .container-AxP_J8 :not(.selected-2f8_FP) .backgroundModifierContainer-WjXgb2:hover {
+	border-color: #000;
+	background: rgba(0, 0, 0, 0.2);
+}
+.theme-light .container-AxP_J8 :not(.selected-2f8_FP) .backgroundModifierContainer-WjXgb2:hover {
+	border-color: #b9bbbe;
+	background: rgba(247, 248, 248, 0.6);
+}
+.container-AxP_J8 :not(.selected-2f8_FP).statusGreen-Iw_dcs .text-sm-medium-3Pz3rB {
+	color: var(--green) !important;
+}
+.container-AxP_J8 :not(.selected-2f8_FP).statusYellow-2nYnVP .text-sm-medium-3Pz3rB {
+	color: var(--yellow) !important;
+}
+.container-AxP_J8 :not(.selected-2f8_FP).statusOrange-zz0-Vv .text-sm-medium-3Pz3rB {
+	color: #f26522 !important;
+}
+.container-AxP_J8 :not(.selected-2f8_FP).statusRed-1dK5Ao .text-sm-medium-3Pz3rB {
+	color: var(--red) !important;
+}
+.container-AxP_J8.groupHeaderRow-2WgkMA .description-1AuQKU + div:not([class]) {
+	order: 2;
+}
+.container-AxP_J8.groupHeaderRow-2WgkMA .description-1AuQKU + div:not([class]) > button {
+	margin-top: 2px;
+}
+
+.contentExpandContainer-3R7yOZ.showOverflow-1bbCoU .groupCollapsedContainer-1h2Wkb {
+	background: var(--background-modifier-hover);
+}
+
 .connectedAccounts-1YaT2t {
 	padding-bottom: 5px;
 	padding-top: 15px;
-}
-.infoScroller-1QMpon {
-	padding-top: 10px !important;
-	height: 100%;
 }
 .connectedAccountContainer-SlCC-S {
 	background-color: var(--background-secondary);
 	border: #ffffff0f solid 1px;
 }
+
 .input-3O04eu:not(
 		.textarea-_59yqs,
 		.searchBoxInput-P0mWHW,
