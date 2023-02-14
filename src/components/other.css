@@ -557,6 +557,7 @@ im so evil for making this mandatory grrr*/
 }
 /*"safety setup" in server settings
 taken from dtm-17 (im a lazy fuck :p)*/
+
 .collapseable-DdnHFl {
 	background: none;
 }
@@ -671,6 +672,22 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 .container-AxP_J8 :not(.selected-2f8_FP).statusOrange-zz0-Vv .text-sm-medium-3Pz3rB {
 	color: #f26522 !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusGreen-Iw_dcs {
+	background-color: var(--old-green) !important;
+	border-color: var(--old-green) !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusYellow-2nYnVP {
+	background-color: var(--yellow) !important;
+	border-color: var(--yellow) !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusOrange-zz0-Vv {
+	background-color: #f26522 !important;
+	border-color: #f26522 !important;
+}
+.container-AxP_J8 .selected-2f8_FP.statusRed-1dK5Ao {
+	background-color: var(--old-red) !important;
+	border-color: var(--old-red) !important;
 }
 .container-AxP_J8 :not(.selected-2f8_FP).statusRed-1dK5Ao .text-sm-medium-3Pz3rB {
 	color: var(--red) !important;
