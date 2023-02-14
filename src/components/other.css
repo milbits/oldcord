@@ -207,7 +207,7 @@ im so evil for making this mandatory grrr*/
 	overflow-y: auto;
 }
 .lineClamp2Plus-2SCQmH::-webkit-scrollbar-thumb {
-	background: #202225;
+	background: var(--background-tertiary);
 	border-radius: 99px;
 	max-height: 20px;
 	padding-right: 17px;
@@ -220,14 +220,14 @@ im so evil for making this mandatory grrr*/
 	border-radius: 10px;
 }
 .lineClamp2Plus-2SCQmH:hover::-webkit-scrollbar-thumb {
-	background: #202225;
+	background: var(--background-tertiary);
 	border-radius: 9999px;
 	max-height: 20px;
 }
 
 .scroller-1jBQYo::-webkit-scrollbar-thumb,
 .infoScroller-3MqKC5::-webkit-scrollbar-thumb {
-	background: #202225;
+	background: var(--background-tertiary);
 	border: 2px solid var(--background-secondary);
 }
 
@@ -327,7 +327,7 @@ im so evil for making this mandatory grrr*/
 	border-top-color: #36393f;
 }
 .theme-dark .section-2zQkYM .header-2C89wJ {
-	background-color: #2f3136;
+	background-color: var(--background-secondary);
 }
 .theme-dark .section-2zQkYM hr {
 	border: none;

@@ -113,7 +113,7 @@
 	text-transform: uppercase;
 }
 .theme-dark .actionButton-1YKTU0 {
-	border-color: #4f545c;
+	border-color: var(--background-accent);
 	color: #b9bbbe;
 	background: 0 0;
 }
