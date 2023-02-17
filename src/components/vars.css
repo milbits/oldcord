@@ -1,4 +1,5 @@
 .theme-dark {
+	--channeltextarea-background: #40444b;
 	--header-primary: #fff;
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
@@ -23,12 +24,12 @@
 	--background-message-hover: #04040512;
 	--background-help-warning: #faa61a1a;
 	--background-help-info: #00b0f41a;
-	/*	--scrollbar-thin-thumb: #202225;
+	--scrollbar-thin-thumb: #202225;
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #202225;
 	--scrollbar-auto-track: #2e3338;
 	--scrollbar-auto-scrollbar-color-thumb: #202225;
-	--scrollbar-auto-scrollbar-color-track: #2f3136;*/
+	--scrollbar-auto-scrollbar-color-track: #2f3136;
 	--elevation-stroke: 0 0 0 1px #04040526;
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
@@ -47,6 +48,7 @@
 	--deprecated-text-input-prefix: #dcddde;
 }
 .theme-light {
+	--channeltextarea-background: #ebedef;
 	--background-modifier-accent: rgba(6, 6, 7, 0.08);
 	--background-mentioned: rgba(250, 166, 26, 0.1);
 	--background-mentioned-hover: rgba(250, 166, 26, 0.2);
