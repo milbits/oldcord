@@ -103,7 +103,8 @@
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,.buttonActive-Uc1jHx.buttonColor-3bP3fX:hover {
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.buttonActive-Uc1jHx.buttonColor-3bP3fX:hover {
 	background-color: var(--green-hover);
 }
 .button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
@@ -412,4 +413,53 @@
 }
 .barText-1eIsLx {
 	color: var(--white-500) !important;
+}
+
+.theme-dark .theme-light {
+	--modal-background: #36393f;
+	--header-primary: #fff;
+	--header-secondary: #b9bbbe;
+	--channels-default: #8e9297;
+	--text-normal: #b9bbbe;
+	--interactive-normal: #b9bbbe;
+	--background-primary: #36393f;
+	--modal-footer-background: #2f3136;
+	--background-secondary-alt: #292b2f;
+	--background-tertiary: #202225;
+	--background-floating: #18191c;
+	--background-secondary: #2f3136;
+	--background-modifier-hover: #4f545c29;
+	--background-modifier-active: #4f545c3d;
+	--background-modifier-selected: #4f545c52;
+	--background-modifier-accent: #ffffff0f;
+	--scrollbar-thin-thumb: #202225;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #202225;
+	--scrollbar-auto-track: #2e3338;
+	--scrollbar-auto-scrollbar-color-thumb: #202225;
+	--scrollbar-auto-scrollbar-color-track: #2f3136;
+	--elevation-stroke: 0 0 0 1px #04040526;
+	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
+	--elevation-medium: 0 4px 4px #00000029;
+	--elevation-high: 0 8px 16px #0000003d;
+	--deprecated-card-bg: #20222599;
+	--deprecated-card-editable-bg: #2022254d;
+	--deprecated-store-bg: #36393f;
+	--deprecated-quickswitcher-input-background: #72767d;
+	--deprecated-quickswitcher-input-placeholder: #ffffff4d;
+	--deprecated-text-input-bg: #0000001a;
+	--deprecated-text-input-border: #0000004d;
+	--deprecated-text-input-border-hover: #040405;
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-prefix: #dcddde;
+}
+
+.theme-dark .theme-light .footerSeparator-VzAYwb {
+	box-shadow: inset 0 1px 0 hsl(var(--primary-630-hsl) / 0.6);
+}
+.theme-dark .theme-light .root-g14mjS {
+	box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
+}
+.theme-dark .theme-light [class*="backButton"] {
+	color: #fff;
 }

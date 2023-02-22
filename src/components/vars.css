@@ -24,6 +24,8 @@
 	--background-message-hover: #04040512;
 	--background-help-warning: #faa61a1a;
 	--background-help-info: #00b0f41a;
+	--modal-background: var(--background-primary);
+
 	--scrollbar-thin-thumb: #202225;
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #202225;
