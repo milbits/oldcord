@@ -35,7 +35,7 @@
 }
 .username-3JLfHz,
 .nickname-2rimyL,
-.heading-lg-semibold-2Z_RS3 {
+.heading-lg-semib2Z_RS3 {
 	font-weight: 600;
 }
 
@@ -312,7 +312,7 @@ im so evil for making this mandatory grrr*/
 	color: #99aab5;
 }
 .theme-light .secured-2wavXv {
-	color: var(--old-green);
+	color: var(--green);
 }
 .theme-dark .section-2zQkYM section {
 	background-color: #36393f;
@@ -336,11 +336,11 @@ im so evil for making this mandatory grrr*/
 	color: #99aab5;
 }
 .theme-dark .secured-2wavXv {
-	color: var(--old-green);
+	color: var(--green);
 }
 
 .toast-q3Y4wI {
-	background: var(--old-green) !important;
+	background: var(--green) !important;
 	transform: translateY(10px);
 	padding: 6px 10px !important;
 	border-radius: 5px;
@@ -427,10 +427,10 @@ im so evil for making this mandatory grrr*/
 }
 
 .item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
-	--radio-bar-accent-color: var(--old-green) !important;
+	--radio-bar-accent-color: var(--green) !important;
 }
 .item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
-	--radio-bar-accent-color: var(--old-red) !important;
+	--radio-bar-accent-color: var(--red) !important;
 }
 .item-1TA5qI[aria-checked="true"] {
 	color: #fff !important;
@@ -514,10 +514,10 @@ im so evil for making this mandatory grrr*/
 }
 
 .item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
-	--radio-bar-accent-color: var(--old-green) !important;
+	--radio-bar-accent-color: var(--green) !important;
 }
 .item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
-	--radio-bar-accent-color: var(--old-red) !important;
+	--radio-bar-accent-color: var(--red) !important;
 }
 .item-1TA5qI[aria-checked="true"] {
 	color: #fff !important;
@@ -674,8 +674,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	color: #f26522 !important;
 }
 .container-AxP_J8 .selected-2f8_FP.statusGreen-Iw_dcs {
-	background-color: var(--old-green) !important;
-	border-color: var(--old-green) !important;
+	background-color: var(--green) !important;
+	border-color: var(--green) !important;
 }
 .container-AxP_J8 .selected-2f8_FP.statusYellow-2nYnVP {
 	background-color: var(--yellow) !important;
@@ -686,8 +686,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-color: #f26522 !important;
 }
 .container-AxP_J8 .selected-2f8_FP.statusRed-1dK5Ao {
-	background-color: var(--old-red) !important;
-	border-color: var(--old-red) !important;
+	background-color: var(--red) !important;
+	border-color: var(--red) !important;
 }
 .container-AxP_J8 :not(.selected-2f8_FP).statusRed-1dK5Ao .text-sm-medium-3Pz3rB {
 	color: var(--red) !important;
@@ -760,34 +760,31 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /*revert mosaid image thing*/
-.oneByTwoLayoutThreeGrid-3f_bkk,
-.oneByTwoGrid-25mx0i,
-.threeByThreeGrid-2CT4mS,
-.twoByTwoGrid-35pISX {
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
+[class*="ByTwoGrid-"],
+[class*="ByThreeGrid-"] {
 	display: flex;
-	max-height: 99999px;
-	/* always go down */
 	flex-direction: column;
+	max-height: 100%;
 }
-.oneByTwoGrid-25mx0i .lazyImg-ewiNCh,
-.oneByTwoGrid-25mx0i .lazyImgContainer-3k3gRy,
-.threeByThreeGrid-2CT4mS .lazyImg-ewiNCh,
-.threeByThreeGrid-2CT4mS .lazyImgContainer-3k3gRy,
-.twoByTwoGrid-35pISX .lazyImg-ewiNCh,
-.twoByTwoGrid-35pISX .lazyImgContainer-3k3gRy,
-.oneByOneGridMosaic-2fYTx0 .lazyImg-ewiNCh,
-.oneByOneGridMosaic-2fYTx0 .lazyImgContainer-3k3gRy {
-	/* stop forcing into an aspect ratio (this does the cropping) */
-	aspect-ratio: auto;
+[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
+[class*="ByTwoGrid-"] [class*="lazyImg"],
+[class*="ByThreeGrid-"] [class*="lazyImg"] {
+	aspect-ratio: unset;
+	height: auto !important;
+	width: auto !important;
+	margin-left: 0px !important;
 }
-.clickableWrapper-2WTAkL img {
-	/* makes sure images don't take up the entire screen */
-	max-height: 400px !important;
-	/* add some padding to emulate the old spacing */
-	margin-bottom: 4px;
+[class^="mediaAttachmentsContainer-"], [class*="messageAttachmentMediaMosaic-"] {
+	max-width: fit-content;
+	border-radius: 0px;
 }
-.mediaAttachmentsContainer-1WGRWy {
-	width: auto;
+.hoverButtonGroup-2yZIzC {
+	border-radius: 0 0 0 5px;
+	top: 0px;
+	right: 0px;
+	background-color: #00000099;
+	transition: 0.1s ease;
 }
 
 /*revert new reaction modal thing*/
@@ -804,6 +801,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 2px;
 	margin-bottom: 1px;
 }
-[class*="reaction"] .text-sm-bold-2BCfqW {
+[class*="reaction"] .text-sm-b2BCfqW {
 	font-weight: 500 !important;
 }

@@ -2,13 +2,13 @@
 [fill="#3BA55C"],
 [fill="rgba(59, 165, 92, 1)"],
 [fill="#23a55a"] {
-	fill: var(--old-green) !important;
+	fill: var(--green) !important;
 }
 [fill*="#6370f4"] {
 	fill: var(--brand-experiment-530);
 }
 [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-	fill: var(--old-green);
+	fill: var(--green);
 }
 [fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 	fill: var(--brand-experiment);
@@ -17,10 +17,10 @@
 [style="background-color: rgb(237, 66, 69);"],
 .red-3T8maV,
 .topGuildEmojiBadge-3DiG2v {
-	background-color: var(--old-red) !important;
+	background-color: var(--red) !important;
 }
 [fill="#ed4245"] {
-	fill: var(--old-red);
+	fill: var(--red);
 }
 [fill="#5865f2"],
 [fill="#5865F2"] {
@@ -28,11 +28,11 @@
 }
 [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 [style*="background-color: rgb(59, 165, 92);"] {
-	background-color: var(--old-green) !important;
+	background-color: var(--green) !important;
 }
 [class*="hintText"],
 [style*="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:not(.themed-2-lozF) {
-	color: var(--old-green) !important;
+	color: var(--green) !important;
 }
 [style*="background-color: rgb(88, 101, 242);"] {
 	background-color: var(--brand-experiment) !important;
@@ -49,7 +49,7 @@
 }
 
 .colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
-	background-color: var(--old-red-hover);
+	background-color: var(--red-hover);
 	color: #fff;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .topGuildEmojiBadge-3DiG2v {
-	background: var(--old-red);
+	background: var(--red);
 }
 
 .colorBrandNew-2-gGsS:active {
@@ -75,13 +75,13 @@
 
 .lookFilled-1H2Jvj.colorRed-2VFhM4 {
 	color: #fff;
-	background-color: var(--old-red);
+	background-color: var(--red);
 }
 .lookFilled-1H2Jvj.colorRed-2VFhM4:hover {
-	background-color: var(--old-red-hover);
+	background-color: var(--red-hover);
 }
 .lookFilled-1H2Jvj.colorRed-2VFhM4:active {
-	background-color: var(--old-red-active);
+	background-color: var(--red-active);
 }
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
 	background-color: var(--blurple-hover);
@@ -106,7 +106,7 @@
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx {
-	background-color: var(--old-green);
+	background-color: var(--green);
 	color: #fff;
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
@@ -135,7 +135,7 @@
 	color: #fff;
 }
 .colorDanger-3n-KnP.focused-3qFvc8:active {
-	background-color: var(--old-red-active);
+	background-color: var(--red-active);
 	color: var(--interactive-active);
 }
 
@@ -145,7 +145,7 @@
 .wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]),
 .wrapper-1VLyxH svg.cursorDefault--wfhy5 > rect[fill="#3ba55c"],
 .wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
-	fill: var(--old-green);
+	fill: var(--green);
 }
 
 .tipTitle-3FYEQp {
@@ -156,7 +156,7 @@
 	color: var(--brand-experiment);
 }
 .attachButtonPlay-1ATmb5 {
-	color: var(--old-green);
+	color: var(--green);
 }
 
 .isUnread-3Lojb- {
@@ -182,7 +182,7 @@
 
 .lookOutlined-3RTC7c.colorGreen-jIPCAS,
 .eventStatusGreen-2-f2N8 {
-	color: var(--old-green) !important;
+	color: var(--green) !important;
 }
 .lookFilled-1H2Jvj.colorGreen-jIPCAS,
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:disabled,
@@ -193,11 +193,11 @@
 .container-1QtPKm[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"],
 .container-1QtPKm[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 .container-1QtPKm[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
-	background-color: var(--old-green);
+	background-color: var(--green);
 }
 
 .newlyAddedBadge-3DJ7mi {
-	background: var(--old-green);
+	background: var(--green);
 }
 
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover {
@@ -219,28 +219,28 @@
 }
 
 .verified-1Jv_7P {
-	color: var(--old-green);
+	color: var(--green);
 }
 
 .avatarSpeaking-33RRJU {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
+	box-shadow: inset 0 0 0 2px var(--green), inset 0 0 0 3px var(--background-secondary);
 }
 .speaking-3RWJBr.border-2BJQjd {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px var(--background-secondary);
+	box-shadow: inset 0 0 0 2px var(--green), inset 0 0 0 3px var(--background-secondary);
 }
 .border-2Vy6FN.speaking-7QZEkv {
-	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;
+	box-shadow: inset 0 0 0 2px var(--green), inset 0 0 0 3px #000;
 }
 
 .colorBrand-21Le_q {
 	color: var(--brand-experiment);
 }
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-	background-color: var(--old-green);
+	background-color: var(--green);
 	color: #fff;
 }
 .circleIconButton-1VxDrg {
-	color: var(--old-green);
+	color: var(--green);
 }
 
 .expandedFolderIconWrapper-Huv7rA > svg[style*="color:rgb(88,101,242);"] {
@@ -274,11 +274,11 @@
 	color: #fff !important;
 }
 .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-controls="add_friend-tab"][aria-selected="true"] {
-	color: var(--old-green) !important;
-	background-color: var(--old-green-transparent) !important;
+	color: var(--green) !important;
+	background-color: var(--green-transparent) !important;
 }
 .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-controls="add_friend-tab"] {
-	background-color: var(--old-green) !important;
+	background-color: var(--green) !important;
 }
 
 .colorBrand-3cPPsm {
@@ -293,7 +293,7 @@
 	color: var(--brand-experiment);
 }
 .updateIconForeground-2V_zo4 {
-	fill: var(--old-green);
+	fill: var(--green);
 }
 
 .container-5N5x2A .betaTag-3pnIxA {
@@ -360,17 +360,17 @@
 }
 .lookOutlined-3RTC7c.colorRed-2VFhM4 {
 	background: transparent;
-	color: var(--old-red);
+	color: var(--red);
 	border-color: var(--text-danger);
 }
 .lookOutlined-3RTC7c.colorRed-2VFhM4:hover {
 	background: transparent;
-	color: var(--old-red);
+	color: var(--red);
 	border-color: var(--text-danger);
 }
 .lookOutlined-3RTC7c.colorRed-2VFhM4:active {
 	background: transparent !important;
-	color: var(--old-red);
+	color: var(--red);
 	border-color: var(--text-danger);
 }
 .lookOutlined-3RTC7c.colorBrand-2M3O3N:disabled {

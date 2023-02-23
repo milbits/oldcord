@@ -55,7 +55,7 @@
 	fill: var(--brand-experiment) !important;
 }
 .updateIconForeground-2V_zo4[fill="currentColor"] {
-	fill: var(--old-green) !important;
+	fill: var(--green) !important;
 }
 .hero-1aNo0v {
 	background-image: url(https://canary.discord.com/assets/a821f6c69ee5729cec9e82246c2cd63a.svg) !important;
@@ -288,5 +288,5 @@
 	background-image: url(https://discord.com/assets/dae57381bd2599b546fc014a41708c06.svg) !important;
 }
 .iconBadge-32fMme.participating-2Z81oO {
-	background-color: var(--old-green) !important;
+	background-color: var(--green) !important;
 }
