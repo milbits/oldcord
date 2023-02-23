@@ -1,6 +1,7 @@
 [fill="#3ba55c"],
 [fill="#3BA55C"],
-[fill="rgba(59, 165, 92, 1)"] {
+[fill="rgba(59, 165, 92, 1)"],
+[fill="#23a55a"] {
 	fill: var(--old-green) !important;
 }
 [fill*="#6370f4"] {
@@ -25,7 +26,8 @@
 [fill="#5865F2"] {
 	fill: var(--brand-experiment);
 }
-[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
+[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: var(--old-green) !important;
 }
 [class*="hintText"],
@@ -50,18 +52,27 @@
 	background-color: var(--old-red-hover);
 	color: #fff;
 }
-.colorBrandNew-2-gGsS {
+
+.colorBrandNew-2-gGsS,
+.menuItemFocused-2cC4Ku,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
+[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
+.progressBar-1T6LYX,
+.progressBar-18rmp1.selectedProgressBar-11z5d9 {
 	background-color: var(--brand-experiment) !important;
 }
 .colorBrandNew-2-gGsS:hover {
 	background-color: var(--blurple-hover) !important;
 }
+
 .topGuildEmojiBadge-3DiG2v {
 	background: var(--old-red);
 }
+
 .colorBrandNew-2-gGsS:active {
 	background-color: var(--blurple-active) !important;
 }
+
 .lookFilled-1H2Jvj.colorRed-2VFhM4 {
 	color: #fff;
 	background-color: var(--old-red);
@@ -81,9 +92,7 @@
 .lookFilled-1H2Jvj.colorBrand-2M3O3N .spinnerItem-3dCJpG {
 	background-color: #fff;
 }
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled {
-	background-color: var(--brand-experiment);
-}
+
 .buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
 	background-color: var(--background-primary);
@@ -129,15 +138,7 @@
 	background-color: var(--old-red-active);
 	color: var(--interactive-active);
 }
-[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
-	background-color: var(--brand-experiment) !important;
-}
-[style*="background-color: rgb(59, 165, 92);"] {
-	background-color: var(--old-green) !important;
-}
-.progressBar-1T6LYX {
-	background-color: var(--brand-experiment) !important;
-}
+
 .colorBrand-3cPPsm {
 	color: var(--blurple-hover);
 }
@@ -229,10 +230,6 @@
 }
 .border-2Vy6FN.speaking-7QZEkv {
 	box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;
-}
-
-.progressBar-18rmp1.selectedProgressBar-11z5d9 {
-	background-color: var(--brand-experiment);
 }
 
 .colorBrand-21Le_q {
@@ -414,6 +411,8 @@
 .barText-1eIsLx {
 	color: var(--white-500) !important;
 }
+
+/*make add server modal dark*/
 
 .theme-dark .theme-light {
 	--modal-background: #36393f;

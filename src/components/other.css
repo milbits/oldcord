@@ -760,22 +760,50 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /*revert mosaid image thing*/
-.oneByTwoLayoutThreeGrid-3f_bkk, .oneByTwoGrid-25mx0i, .threeByThreeGrid-2CT4mS, .twoByTwoGrid-35pISX  {
-    display: flex;
-    max-height: 99999px;
-    /* always go down */
-    flex-direction: column;
+.oneByTwoLayoutThreeGrid-3f_bkk,
+.oneByTwoGrid-25mx0i,
+.threeByThreeGrid-2CT4mS,
+.twoByTwoGrid-35pISX {
+	display: flex;
+	max-height: 99999px;
+	/* always go down */
+	flex-direction: column;
 }
-.oneByTwoGrid-25mx0i .lazyImg-ewiNCh, .oneByTwoGrid-25mx0i .lazyImgContainer-3k3gRy, .threeByThreeGrid-2CT4mS .lazyImg-ewiNCh, .threeByThreeGrid-2CT4mS .lazyImgContainer-3k3gRy, .twoByTwoGrid-35pISX .lazyImg-ewiNCh, .twoByTwoGrid-35pISX .lazyImgContainer-3k3gRy, .oneByOneGridMosaic-2fYTx0 .lazyImg-ewiNCh, .oneByOneGridMosaic-2fYTx0 .lazyImgContainer-3k3gRy {
-    /* stop forcing into an aspect ratio (this does the cropping) */
-    aspect-ratio: auto;
+.oneByTwoGrid-25mx0i .lazyImg-ewiNCh,
+.oneByTwoGrid-25mx0i .lazyImgContainer-3k3gRy,
+.threeByThreeGrid-2CT4mS .lazyImg-ewiNCh,
+.threeByThreeGrid-2CT4mS .lazyImgContainer-3k3gRy,
+.twoByTwoGrid-35pISX .lazyImg-ewiNCh,
+.twoByTwoGrid-35pISX .lazyImgContainer-3k3gRy,
+.oneByOneGridMosaic-2fYTx0 .lazyImg-ewiNCh,
+.oneByOneGridMosaic-2fYTx0 .lazyImgContainer-3k3gRy {
+	/* stop forcing into an aspect ratio (this does the cropping) */
+	aspect-ratio: auto;
 }
 .clickableWrapper-2WTAkL img {
-    /* makes sure images don't take up the entire screen */
-    max-height: 400px !important;
-    /* add some padding to emulate the old spacing */
-    margin-bottom: 4px;
+	/* makes sure images don't take up the entire screen */
+	max-height: 400px !important;
+	/* add some padding to emulate the old spacing */
+	margin-bottom: 4px;
 }
 .mediaAttachmentsContainer-1WGRWy {
-    width: auto;
+	width: auto;
+}
+
+/*revert new reaction modal thing*/
+.theme-dark .reactionSelected-1aMb2K {
+	background-color: rgba(79, 84, 92, 0.3);
+	border-radius: 2px;
+	margin-bottom: 1px;
+}
+.emoji-1kNQp2 {
+	width: 1rem;
+	height: 1rem;
+}
+.reactionDefault-1Sjj1f {
+	border-radius: 2px;
+	margin-bottom: 1px;
+}
+[class*="reaction"] .text-sm-bold-2BCfqW {
+	font-weight: 500 !important;
 }
