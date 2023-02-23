@@ -769,16 +769,17 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
 [class*="ByTwoGrid-"] [class*="lazyImg"],
-[class*="ByThreeGrid-"] [class*="lazyImg"] {
+[class*="ByThreeGrid-"] [class*="lazyImg"],[class*="ByOneGrid-"] {
 	aspect-ratio: unset;
 	height: auto !important;
 	width: auto !important;
 	margin-left: 0px !important;
+	border-radius: 3px !important;
 }
 [class^="mediaAttachmentsContainer-"],
 [class*="messageAttachmentMediaMosaic-"] {
 	max-width: fit-content;
-	border-radius: 0px;
+	border-radius: 0px !important;
 }
 .hoverButtonGroup-2yZIzC {
 	border-radius: 0 0 0 5px;
