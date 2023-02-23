@@ -35,7 +35,7 @@
 }
 .username-3JLfHz,
 .nickname-2rimyL,
-.heading-lg-semib2Z_RS3 {
+.heading-lg-semibold2Z_RS3 {
 	font-weight: 600;
 }
 
@@ -775,7 +775,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	width: auto !important;
 	margin-left: 0px !important;
 }
-[class^="mediaAttachmentsContainer-"], [class*="messageAttachmentMediaMosaic-"] {
+[class^="mediaAttachmentsContainer-"],
+[class*="messageAttachmentMediaMosaic-"] {
 	max-width: fit-content;
 	border-radius: 0px;
 }
@@ -801,6 +802,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 2px;
 	margin-bottom: 1px;
 }
-[class*="reaction"] .text-sm-b2BCfqW {
+[class*="reaction"] .text-sm-bold-2BCfqW {
 	font-weight: 500 !important;
 }
