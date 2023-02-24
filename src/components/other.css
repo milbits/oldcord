@@ -782,11 +782,37 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 0px !important;
 }
 .hoverButtonGroup-2yZIzC {
-	border-radius: 0 0 0 5px;
-	top: 0px;
-	right: 0px;
-	background-color: #00000099;
+	border-radius: 4px;
+	top: 4px;
+	right: 4px;
+	/* if we find a way to separately modify the audio hover button and attachment hover buttons, use this to center the attachment hover button vertically, but since we cant do that rn it'll be unused
+	top: 50%;
+	transform: translateY(-50%);
+	*/
+	background-color: #00000000;
 	transition: 0.1s ease;
+}
+/* keep the translucent background for stuff like images and videos bc it looks better */
+.hoverButtonGroup-2yZIzC:not(.nonMediaAttachment-3C_4Pd) {
+	background-color: #00000040;
+}
+/* shorten the margin by a bit so it doesnt look so separated */
+.nonMediaAttachmentItem-1e7YaR+.nonMediaAttachmentItem-1e7YaR, .nonMediaAttachmentsContainer-3s1dgm {
+	margin-top: 4px;
+}
+/* revert the bloating of the audio attachments */
+.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
+	padding: 10px;
+	border-radius: 4px;
+	width: 400px;
+}
+/* revert the bloating of attachments in general */
+.attachment-1PZZB2.newMosaicStyle-35X6XO {
+	padding: 10px;
+	border-radius: 3px;
+	width: 100%;
+	padding-right: 41px;
+	max-width: 520px;
 }
 
 /*revert new reaction modal thing*/
