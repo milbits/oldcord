@@ -796,9 +796,10 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .hoverButtonGroup-2yZIzC:not(.nonMediaAttachment-3C_4Pd) {
 	background-color: #00000040;
 }
-/* remove the margin from non-media attachments bc its not supposed to have it lmao */
+/* shorten the margin by a bit so it doesnt look so separated */
 .nonMediaAttachmentItem-1e7YaR+.nonMediaAttachmentItem-1e7YaR, .nonMediaAttachmentsContainer-3s1dgm {
-	margin-top: 0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 /* revert the bloating of the audio attachments */
 .wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
