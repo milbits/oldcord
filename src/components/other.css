@@ -698,7 +698,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .container-AxP_J8.groupHeaderRow-2WgkMA .description-1AuQKU + div:not([class]) > button {
 	margin-top: 2px;
 }
-
 .contentExpandContainer-3R7yOZ.showOverflow-1bbCoU .groupCollapsedContainer-1h2Wkb {
 	background: var(--background-modifier-hover);
 }
@@ -727,7 +726,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border: 1px solid var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
 }
-
 .input-3O04eu::-webkit-input-placeholder:not(.textarea-_59yqs) {
 	color: var(--text-muted);
 }
@@ -759,7 +757,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 4px;
 }
 
-/*revert mosaid image thing*/
+/*revert mosaic image thing*/
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
 [class*="ByTwoGrid-"],
 [class*="ByThreeGrid-"] {
@@ -769,7 +767,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
 [class*="ByTwoGrid-"] [class*="lazyImg"],
-[class*="ByThreeGrid-"] [class*="lazyImg"],[class*="ByOneGrid-"] {
+[class*="ByThreeGrid-"] [class*="lazyImg"],
+[class*="ByOneGrid-"] {
 	aspect-ratio: unset;
 	height: auto !important;
 	width: auto !important;
@@ -785,10 +784,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 4px;
 	top: 4px;
 	right: 4px;
-	/* if we find a way to separately modify the audio hover button and attachment hover buttons, use this to center the attachment hover button vertically, but since we cant do that rn it'll be unused
-	top: 50%;
-	transform: translateY(-50%);
-	*/
 	background-color: #00000000;
 	transition: 0.1s ease;
 }
@@ -796,8 +791,15 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .hoverButtonGroup-2yZIzC:not(.nonMediaAttachment-3C_4Pd) {
 	background-color: #00000040;
 }
+/* center the download button for audio files and make it permanently visible*/
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC {
+	top: 25%;
+	transform: translateY(-50%);
+	opacity: 1;
+}
 /* shorten the margin by a bit so it doesnt look so separated */
-.nonMediaAttachmentItem-1e7YaR+.nonMediaAttachmentItem-1e7YaR, .nonMediaAttachmentsContainer-3s1dgm {
+.nonMediaAttachmentItem-1e7YaR + .nonMediaAttachmentItem-1e7YaR,
+.nonMediaAttachmentsContainer-3s1dgm {
 	margin-top: 4px;
 }
 /* revert the bloating of the audio attachments */
