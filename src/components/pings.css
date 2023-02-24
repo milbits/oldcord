@@ -39,12 +39,12 @@
 	background-color: var(--background-mentioned-hover) !important;
 }
 
-.channelIcon-3I2O7O {
+.icon-2Ph-Lv {
 	display: none;
 }
-.iconMention-3WxjBe:before {
+.iconMention-2uyuAI:before {
 	content: "#";
 }
-.iconMention-3WxjBe {
+.iconMention-2uyuAI {
 	padding-left: 2px !important;
 }
