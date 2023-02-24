@@ -757,7 +757,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 4px;
 }
 
-/*revert mosaic image thing*/
+/** revert mosaic image system*/
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
 [class*="ByTwoGrid-"],
 [class*="ByThreeGrid-"] {
@@ -780,6 +780,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	max-width: fit-content;
 	border-radius: 0px !important;
 }
+/* fix text files width being too low*/
+.nonMediaAttachmentItem-1e7YaR .messageAttachmentMediaMosaic-2ic1yt {
+	max-width: 100% !important;
+}
+/*tweak the hover buttons*/
 .hoverButtonGroup-2yZIzC {
 	border-radius: 4px;
 	top: 4px;
@@ -793,8 +798,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 /* make download button bigger */
 .downloadHoverButtonIcon-16xasX {
-    width: 24px;
-    height: 24px;
+	width: 24px;
+	height: 24px;
 }
 /* center the download button for audio files and make it permanently visible*/
 .wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC {
@@ -829,7 +834,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	max-width: 520px;
 }
 
-/*revert new reaction modal thing*/
+/** revert new reaction modal*/
 .theme-dark .reactionSelected-1aMb2K {
 	background-color: rgba(79, 84, 92, 0.3);
 	border-radius: 2px;
