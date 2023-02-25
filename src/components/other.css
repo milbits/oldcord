@@ -89,8 +89,9 @@
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:active:before {
 	background: var(--green-hover);
 }
+
 .container-1QtPKm .input-125oad:active:before {
-	background: var(--input-grey);
+	background: #676a71;
 }
 .container-1QtPKm .input-125oad:active:after {
 	width: 26px;
