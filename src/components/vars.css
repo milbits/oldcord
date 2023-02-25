@@ -134,9 +134,9 @@ body {
 	--yellow-inverted-active: #feedd1;
 	--green-inverted: #f6fbf9;
 	--green-inverted-active: #d9f0e6;
-	--green: #4ebb81;
-	--status-green-600: #4ebb81;
-	--green-360: #4ebb81;
+	--green: #49b483;
+	--status-green-600: #49b483;
+	--green-360: #49b483;
 	--green-hover: #3ca374;
 	--green-active: #369167;
 	--info-positive-foreground: var(--green);
