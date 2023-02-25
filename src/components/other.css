@@ -780,12 +780,12 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	max-width: fit-content;
 	border-radius: 0px !important;
 }
-/* fix text files width being too low*/
+/* revert text files*/
 .nonMediaAttachmentItem-1e7YaR .messageAttachmentMediaMosaic-2ic1yt {
 	max-width: 100% !important;
 }
 .newMosaicStyle-2jdUaP .codeView-12LUIl {
-	margin: 0px 0px 0px;
+	margin: 0 0 0;
 	padding: 7px;
 }
 .newMosaicStyle-2jdUaP .footer-GXWBBp {
@@ -795,7 +795,10 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .newMosaicStyle-2jdUaP .textContainer-36wgKK {
 	border-radius: 4px 4px 0 0;
 }
-/*tweak the hover buttons*/
+.codeIcon-Ni8XUA{
+	cursor: pointer
+}
+/* tweak the hover buttons*/
 .hoverButtonGroup-2yZIzC {
 	border-radius: 4px;
 	top: 4px;
@@ -862,3 +865,4 @@ taken from dtm-17 (im a lazy fuck :p)*/
 [class*="reaction"] .text-sm-bold-2BCfqW {
 	font-weight: 500 !important;
 }
+
