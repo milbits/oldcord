@@ -82,6 +82,13 @@
 .container-1QtPKm .input-125oad:checked:after {
 	transform: translate3d(18px, 0, 0);
 }
+/* change colour to green just for the role permissions form */
+.permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:before {
+	background: var(--green);
+}
+.permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:active:before {
+	background: var(--green-hover);
+}
 .container-1QtPKm .input-125oad:active:before {
 	background: #676a71;
 }
