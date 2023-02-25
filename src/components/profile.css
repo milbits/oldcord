@@ -17,7 +17,6 @@
 }
 
 /* bottom-left popout */
-
 #account.menu-1QACrS {
 	width: 100% !important;
 }
@@ -60,6 +59,12 @@
 	background: var(--background-tertiary);
 	box-shadow: none;
 	padding: 0 !important;
+}
+.userProfileOuter-1K_BYU {
+	border-radius: 3px;
+}
+.userProfileInner-3F03PX {
+	border-radius: 3px 3px 0 0;
 }
 
 div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
