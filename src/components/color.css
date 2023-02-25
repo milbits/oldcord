@@ -462,3 +462,8 @@
 .theme-dark .theme-light [class*="backButton"] {
 	color: #fff;
 }
+
+/** revert focus color*/
+.focus-rings-ring {
+	box-shadow: 0 0 0 4px var(--brand-experiment);
+}
