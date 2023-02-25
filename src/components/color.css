@@ -64,6 +64,11 @@
 .colorBrandNew-2-gGsS:hover {
 	background-color: var(--blurple-hover) !important;
 }
+.colorBrandNew-2-gGsS:active,
+.menuItemFocused-2cC4Ku:active,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
+	background-color: var(--blurple-active) !important;
+}
 
 .topGuildEmojiBadge-3DiG2v {
 	background: var(--red);
@@ -73,10 +78,6 @@
 .container-2McqkF {
 	border: 1px solid var(--background-tertiary);
 	background-color: var(--background-secondary);
-}
-
-.colorBrandNew-2-gGsS:active {
-	background-color: var(--blurple-active) !important;
 }
 
 .lookFilled-1H2Jvj.colorRed-2VFhM4 {
@@ -92,9 +93,7 @@
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
 	background-color: var(--blurple-hover);
 }
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
-	background-color: var(--blurple-active);
-}
+
 .lookFilled-1H2Jvj.colorBrand-2M3O3N .spinnerItem-3dCJpG {
 	background-color: #fff;
 }
@@ -473,4 +472,3 @@
 .focus-rings-ring {
 	box-shadow: 0 0 0 4px var(--brand-experiment);
 }
-
