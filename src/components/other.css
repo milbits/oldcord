@@ -90,7 +90,7 @@
 	background: var(--green-hover);
 }
 .container-1QtPKm .input-125oad:active:before {
-	background: #72767d;
+	background: var(--input-grey);
 }
 .container-1QtPKm .input-125oad:active:after {
 	width: 26px;
@@ -119,7 +119,7 @@
 	display: none;
 }
 .bd-switch input:active + .bd-switch-body {
-	--switch-color: #676a71 !important;
+	--switch-color: var(--input-grey) !important;
 }
 .bd-switch input:checked + .bd-switch-body {
 	--switch-color: var(--brand-experiment);

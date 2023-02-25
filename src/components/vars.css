@@ -158,4 +158,5 @@ body {
 }
 * {
 	--text-danger: var(--red) !important;
+	--input-grey: #72767d;
 }
