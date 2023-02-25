@@ -1,3 +1,4 @@
+/** Fonts*/
 @font-face {
 	font-family: "Whitney";
 	font-weight: 300;
@@ -33,39 +34,25 @@
 	font-family: "Whitney";
 	src: url(https://moyaiu.github.io/OldCord/src/assets/cursiveBold.woff2);
 }
+
 .username-3JLfHz,
 .nickname-2rimyL,
 .heading-lg-semibold2Z_RS3 {
 	font-weight: 600;
 }
-
 .text-sm-normal-3Zj3Iv {
 	font-weight: 500;
-}
-
-.container-2McqkF {
-	border: 1px solid var(--background-tertiary);
-	background-color: var(--background-secondary);
-}
-
-.background-3d_SjE {
-	border-radius: 8px;
-	background-color: var(--background-secondary);
-	padding: 16px;
-}
-.avatarUploaderInner-2euNNs {
-	width: 80px;
-	height: 80px;
 }
 
 .badgeList-b3Ajmk {
 	margin-top: 4px;
 }
 
-.fontHeadline-_ajEpz,
 .heading-3-j5fM {
 	font-family: var(--font-primary);
 }
+
+/** revert switches*/
 .container-1QtPKm .input-125oad:before {
 	content: "";
 	box-shadow: inset 0 1px 1px #00000026;
@@ -102,7 +89,7 @@
 	width: 26px;
 }
 .container-1QtPKm .input-125oad:checked:active:before {
-	background: #677cc5;
+	background: var(--blurple-hover);
 }
 .container-1QtPKm .input-125oad:checked:active:after {
 	left: -11px;
@@ -111,9 +98,7 @@
 .container-1QtPKm {
 	background: #0000 !important;
 }
-.container-1QtPKm svg {
-	display: none;
-}
+
 .container-1QtPKm .input-125oad {
 	opacity: 1;
 	width: 0;
@@ -122,18 +107,7 @@
 .container-1QtPKm .input-125oad:after {
 	transition: 0.1s;
 }
-[class*="disabled"] {
-	cursor: not-allowed;
-}
-.channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2 .scrollableContainer-15eg7h .webkit-QgSAqd {
-	border-color: var(--brand-experiment);
-}
-.card-16VQ8C {
-	position: relative;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 5px;
-}
+
 .bd-switch svg {
 	display: none;
 }
@@ -144,9 +118,19 @@
 	--switch-color: var(--brand-experiment);
 }
 .bd-switch input:checked:active + .bd-switch-body {
-	--switch-color: #677cc5 !important;
+	--switch-color: var(--blurple-hover) !important;
 }
 
+.channelTextAreaInner-ITp5kW.channelTextAreaInnerFocused-3oQcB2 .scrollableContainer-15eg7h .webkit-QgSAqd {
+	border-color: var(--brand-experiment);
+}
+.card-16VQ8C {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+/** display:none graveyard*/
 .canvas-2dBZRV,
 .fallbackImage-kwjEnv,
 .image-3yFrLs,
@@ -166,17 +150,18 @@
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
-.unreadIcon-3dqgX9 {
+.unreadIcon-3dqgX9,
+.container-1QtPKm svg {
 	display: none;
 }
 
+/** login page*/
 .characterBackground-1BPOOJ {
 	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
 	opacity: 1;
-	-webkit-transition: opacity 0.2s linear 0.2s;
 	transition: opacity 0.2s linear 0.2s;
 	background-size: cover;
 	background-position: center;
@@ -198,9 +183,9 @@
 	left: unset;
 	right: 6px;
 }
-/*make the bio not cut off
-im so evil for making this mandatory grrr*/
-.lineClamp2Plus-2SCQmH {
+
+/** make the bio not cut off*/
+.accountProfilePopoutWrapper-3GskID {
 	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
 	overflow-x: hidden;
@@ -231,12 +216,7 @@ im so evil for making this mandatory grrr*/
 	border: 2px solid var(--background-secondary);
 }
 
-.applicationInstallButton-taCWKH {
-	width: 90%;
-	left: 5%;
-	margin-top: 3%;
-	margin-right: 0 !important;
-}
+/** vc debug thing*/
 .section-2zQkYM {
 	border-radius: 4px;
 	box-shadow: var(--elevation-high);
@@ -263,6 +243,7 @@ im so evil for making this mandatory grrr*/
 	cursor: pointer;
 	font-weight: 500;
 }
+
 .header-2C89wJ {
 	text-transform: uppercase;
 	background-color: rgba(115, 139, 215, 0.98);
@@ -276,29 +257,26 @@ im so evil for making this mandatory grrr*/
 .white-3xi-nx {
 	color: #fff;
 }
+
 .secured-2wavXv {
 	font-size: 12px;
 	font-weight: 500;
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
 }
+
 .secured-2wavXv:before {
 	content: " ";
 	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
 	width: 9px;
 	height: 12px;
 	background-size: 9px 12px;
-	display: inline-block;
 	margin-right: 4px;
 	vertical-align: bottom;
 }
+
 .popoutBottom-15-vLu {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	margin-top: 14px;
 }
+
 .theme-light .section-2zQkYM section {
 	background-color: #fff;
 }
@@ -339,6 +317,7 @@ im so evil for making this mandatory grrr*/
 	color: var(--green);
 }
 
+/** account switch notification*/
 .toast-q3Y4wI {
 	background: var(--green) !important;
 	transform: translateY(10px);
@@ -365,6 +344,7 @@ im so evil for making this mandatory grrr*/
 	line-height: 20px !important;
 }
 
+/** radiobars (like channel type)*/
 .layer-86YKbF[aria-label="USER_SETTINGS"]
 	.contentColumn-1C7as6
 	> div
@@ -388,6 +368,7 @@ im so evil for making this mandatory grrr*/
 	.radioBar-1XgZqD {
 	border-top: none;
 }
+
 .item-1TA5qI {
 	border-radius: 5px;
 	color: var(--interactive-active) !important;
@@ -512,7 +493,7 @@ im so evil for making this mandatory grrr*/
 	) !important;
 	fill: #fff !important;
 }
-
+/* privacy&safety radiobars*/
 .item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
 	--radio-bar-accent-color: var(--green) !important;
 }
@@ -555,7 +536,8 @@ im so evil for making this mandatory grrr*/
 [role="radiogroup"] .tooltipWrapper-Z59cgW.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9 {
 	margin-bottom: 0;
 }
-/*"safety setup" in server settings
+
+/** "safety setup" in server settings
 taken from dtm-17 (im a lazy fuck :p)*/
 
 .collapseable-DdnHFl {
@@ -710,15 +692,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--background-secondary);
 	border: #ffffff0f solid 1px;
 }
-
-.input-3O04eu:not(
-		.textarea-_59yqs,
-		.searchBoxInput-P0mWHW,
-		[name="add-friend"],
-		[placeholder="Title"],
-		[placeholder="Search or create a post..."],
-		.searchInput-3NGPfp
-	),
+/** revert the text fields*/
+.input-3O04eu:not(.textarea-_59yqs, .searchBoxInput-P0mWHW, [name="add-friend"], .searchInput-3NGPfp),
 .bioTextArea-dDGOeC {
 	border-radius: 3px;
 	color: var(--text-normal) !important;
@@ -795,8 +770,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .newMosaicStyle-2jdUaP .textContainer-36wgKK {
 	border-radius: 4px 4px 0 0;
 }
-.codeIcon-Ni8XUA{
-	cursor: pointer
+.codeIcon-Ni8XUA {
+	cursor: pointer;
 }
 /* tweak the hover buttons*/
 .hoverButtonGroup-2yZIzC {
@@ -866,3 +841,82 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	font-weight: 500 !important;
 }
 
+/** forum channel tweaks*/
+
+/*make follow button green*/
+.buttonInner-3aRbcx {
+	background-color: var(--green);
+	color: var(--interactive-active);
+	border-radius: 3px;
+	border: none;
+	transition: 0.1s ease;
+}
+.buttonInner-3aRbcx:hover {
+	background-color: var(--green-hover);
+}
+.buttonInner-3aRbcx:active {
+	background-color: var(--green-active);
+}
+/* make the button gray when following*/
+.buttonInner-3aRbcx.active-OdlCV- {
+	background-color: var(--primary-500) !important;
+	color: #fff !important;
+}
+
+[aria-label*="Link"] .buttonInner-3aRbcx {
+	background-color: var(--primary-500) !important;
+}
+
+.addReactButton-3bSQb6 {
+	background-color: transparent;
+	border: none;
+	font-size: 0px;
+	padding: 0px;
+}
+
+.submitButton-3B-dZd {
+	border-radius: 3px !important;
+}
+
+/* change tag backgrounds*/
+.pill-3pRQlO {
+	background-color: var(--background-tertiary);
+}
+.newBadge-1LcB6t {
+	background-color: var(--blurple) !important;
+	color: #fff;
+}
+.botTagOP-3pUTXu {
+	color: #fff;
+	background-color: var(--blurple);
+	border-radius: 3px !important;
+}
+
+/* make background the same as text channels*/
+.container-3wLKDe,
+.title-31SJ6t {
+	background-color: var(--background-primary) !important;
+}
+
+/* make "search/create post" background the same as the textarea*/
+.headerRow-1MKoR- .mainCard-3KBsBI {
+	background: var(--channeltextarea-background);
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 5px;
+}
+/* so "revert textfields" wont apply there */
+.headerRow-1MKoR- .mainCard-3KBsBI .scrollableContainer-15eg7h,
+.headerRow-1MKoR- .mainCard-3KBsBI .input-2g-os5,
+.headerRow-1MKoR- .mainCard-3KBsBI .input-3O04eu {
+	background: none !important;
+	border: none;
+}
+
+/* posts*/
+.mainCard-3KBsBI,
+.container-3arpDl {
+	border-radius: 6px;
+	box-shadow: none;
+	background: var(--deprecated-card-editable-bg);
+}
