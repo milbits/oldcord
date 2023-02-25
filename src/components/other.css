@@ -89,6 +89,18 @@
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:active:before {
 	background: var(--green-hover);
 }
+/* revert channel role permissions (beta), looks kinda bad when zoomed in but i'll try to fix that */
+.group-LWHoGI {
+	background-color: var(--background-tertiary);
+	width: 108px;
+	grid-gap: 1px;
+}
+.passthrough--fbdFR.selected-3jieYB{
+	background-color: #787e8a;
+}
+.item-4m-12I {
+	cursor: pointer;
+}
 
 .container-1QtPKm .input-125oad:active:before {
 	background: #676a71;
