@@ -770,9 +770,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	margin-left: 0px !important;
 	border-radius: 3px !important;
 }
-[class^="mediaAttachmentsContainer-"],
+[class^="mediaAttachmentsContainer-"]
 [class*="messageAttachmentMediaMosaic-"] {
 	max-width: fit-content;
+}
+[class^="mediaAttachmentsContainer-"] {
 	border-radius: 0px !important;
 }
 /* revert text files*/
@@ -869,7 +871,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	color: var(--interactive-active);
 	border-radius: 3px;
 	border: none;
-	transition: 0.1s ease;
+	transition: 0.17s ease;
 }
 .buttonInner-3aRbcx:hover {
 	background-color: var(--green-hover);
@@ -882,9 +884,15 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--primary-500) !important;
 	color: #fff !important;
 }
-
 [aria-label*="Link"] .buttonInner-3aRbcx {
+	transition: 0.17s ease;
 	background-color: var(--primary-500) !important;
+}
+[aria-label*="Link"] .buttonInner-3aRbcx:hover {
+	background-color: var(--primary-430) !important;
+}
+[aria-label*="Link"] .buttonInner-3aRbcx:active {
+	background-color: var(--primary-400) !important;
 }
 
 .addReactButton-3bSQb6 {
