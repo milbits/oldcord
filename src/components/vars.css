@@ -14,8 +14,6 @@
 	--background-tertiary: #202225;
 	--background-accent: #4f545c;
 	--background-floating: #18191c;
-	--background-mobile-primary: #36393f;
-	--background-mobile-secondary: #2f3136;
 	--background-modifier-hover: #4f545c29;
 	--background-modifier-active: #4f545c3d;
 	--background-modifier-selected: #4f545c52;
@@ -73,6 +71,7 @@ body {
 	--blurple-active: #5b6eae;
 	--blurple-inverted: #f8f9fd;
 	--blurple-inverted-active: #e3e7f8;
+	--text-brand: #7289da;
 	--brand-500: #7289da;
 	--brand-360: #a5b3e7;
 	--brand-260: #d1d9f3;

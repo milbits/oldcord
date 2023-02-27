@@ -95,7 +95,7 @@
 	width: 108px;
 	grid-gap: 1px;
 }
-.passthrough--fbdFR.selected-3jieYB{
+.passthrough--fbdFR.selected-3jieYB {
 	background-color: #787e8a;
 }
 .item-4m-12I {
@@ -171,7 +171,8 @@
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .unreadIcon-3dqgX9,
-.container-1QtPKm svg {
+.container-1QtPKm svg,
+.communityInfoPill-2Mll66 {
 	display: none;
 }
 
@@ -770,8 +771,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	margin-left: 0px !important;
 	border-radius: 3px !important;
 }
-[class^="mediaAttachmentsContainer-"]
-[class*="messageAttachmentMediaMosaic-"] {
+[class^="mediaAttachmentsContainer-"] [class*="messageAttachmentMediaMosaic-"] {
 	max-width: fit-content;
 }
 [class^="mediaAttachmentsContainer-"] {
