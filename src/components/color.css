@@ -382,10 +382,6 @@
 	background-color: transparent;
 }
 
-.actionIcon-2sw4Sl {
-	color: var(--interactive-normal) !important;
-}
-
 .icon-2W8DHg:not(.modeMuted-2T4MDZ div a div .icon-2W8DHg) {
 	color: var(--text-muted) !important;
 }
@@ -393,8 +389,9 @@
 	background: transparent !important;
 }
 
-#account.menu-1QACrS {
+#account.menu-2TXYjN {
 	background-color: var(--background-floating);
+	
 }
 
 /* revert new unread bar*/
@@ -419,12 +416,12 @@
 
 /*make add server modal dark*/
 
-.theme-dark .theme-light {
+.theme-dark .theme-light .focusLock-bHVOlV {
 	--modal-background: #36393f;
 	--header-primary: #fff;
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
-	--text-normal: #b9bbbe;
+	--text-normal: var(--primary-200);
 	--interactive-normal: #b9bbbe;
 	--background-primary: #36393f;
 	--modal-footer-background: #2f3136;
@@ -456,12 +453,15 @@
 	--deprecated-text-input-border-hover: #040405;
 	--deprecated-text-input-border-disabled: #202225;
 	--deprecated-text-input-prefix: #dcddde;
+	--button-secondary-background: var(--primary-500);
+	--button-secondary-background-hover: var(--primary-460);
+	--button-secondary-background-active: var(--primary-430);
 }
 
-.theme-dark .theme-light .footerSeparator-VzAYwb {
+.theme-dark .theme-light .footerSeparator-3U8YsT {
 	box-shadow: inset 0 1px 0 hsl(var(--primary-630-hsl) / 0.6);
 }
-.theme-dark .theme-light .root-g14mjS {
+.theme-dark .theme-light .root-1CAIjD {
 	box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
 }
 .theme-dark .theme-light [class*="backButton"] {

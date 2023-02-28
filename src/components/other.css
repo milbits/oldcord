@@ -168,7 +168,7 @@
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-2TXYjN, .menu-KSaHL1 *),
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .unreadIcon-3dqgX9,
 .container-1QtPKm svg,
@@ -880,19 +880,20 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--green-active);
 }
 /* make the button gray when following*/
+
+[aria-label*="Link"] .buttonInner-3aRbcx,
 .buttonInner-3aRbcx.active-OdlCV- {
-	background-color: var(--primary-500) !important;
-	color: #fff !important;
-}
-[aria-label*="Link"] .buttonInner-3aRbcx {
 	transition: 0.17s ease;
-	background-color: var(--primary-500) !important;
+	color: #fff;
+	background-color: var(--button-secondary-background) !important;
 }
-[aria-label*="Link"] .buttonInner-3aRbcx:hover {
-	background-color: var(--primary-430) !important;
+[aria-label*="Link"] .buttonInner-3aRbcx:hover,
+.active-OdlCV-:hover {
+	background-color: var(--button-secondary-background-hover) !important;
 }
-[aria-label*="Link"] .buttonInner-3aRbcx:active {
-	background-color: var(--primary-400) !important;
+[aria-label*="Link"] .buttonInner-3aRbcx:active,
+.active-OdlCV-:active {
+	background-color: var(--button-secondary-background-active) !important;
 }
 
 .addReactButton-3bSQb6 {
