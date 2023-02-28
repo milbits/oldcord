@@ -47,6 +47,9 @@
 	--deprecated-text-input-border-hover: #040405;
 	--deprecated-text-input-border-disabled: #202225;
 	--deprecated-text-input-prefix: #dcddde;
+	--button-secondary-background: #4f545c;
+	--button-secondary-background-hover: #72767d;
+	--button-secondary-background-active: #72767d;
 }
 .theme-light {
 	--channeltextarea-background: #ebedef;
@@ -138,6 +141,7 @@ body {
 	--green-360: #43b581;
 	--green-hover: #3ca374;
 	--green-active: #369167;
+	--green-transparent: #43b58133;
 	--info-positive-foreground: var(--green);
 	--status-positive-background: var(--green);
 	--text-positive: var(--green);
@@ -151,11 +155,11 @@ body {
 	--status-danger-background: var(--red);
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
-	--green-transparent: #43b58133;
 	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 }
 * {
 	--text-danger: var(--red) !important;
 	--input-grey: #72767d;
+	--status-danger: var(--red) !important;
 }

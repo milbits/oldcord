@@ -84,7 +84,7 @@
 }
 /* change colour to green just for the role permissions form */
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:before {
-	background: var(--green);
+	background: #41be84;
 }
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:active:before {
 	background: var(--green-hover);
@@ -884,7 +884,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 [aria-label*="Link"] .buttonInner-3aRbcx,
 .buttonInner-3aRbcx.active-OdlCV- {
 	transition: 0.17s ease;
-	color: #fff;
+	color: #fff !important;
 	background-color: var(--button-secondary-background) !important;
 }
 [aria-label*="Link"] .buttonInner-3aRbcx:hover,
@@ -908,7 +908,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* change tag backgrounds*/
-.pill-3pRQlO {
+.container-2qVG6q .pill-3pRQlO {
 	background-color: var(--background-tertiary);
 }
 .newBadge-1LcB6t {
@@ -943,9 +943,17 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* posts*/
-.mainCard-3KBsBI,
-.container-3arpDl {
-	border-radius: 6px;
-	box-shadow: none;
+
+.container-2qVG6q {
+	transition: 0.17s ease;
+	transform: none !important;
+	border-radius: 5px;
+	box-shadow: none !important;
 	background: var(--deprecated-card-editable-bg);
+}
+.container-2qVG6q:hover {
+	background-color: var(--background-modifier-hover) !important;
+}
+.container-2qVG6q:active {
+	background-color: var(--background-modifier-active) !important;
 }

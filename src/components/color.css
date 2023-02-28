@@ -48,7 +48,7 @@
 	background-color: var(--brand-experiment) !important;
 }
 
-.colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
+.colorDanger-3umuSx:active:not(.hideInteraction-2jPGL_) {
 	background-color: var(--red-hover);
 	color: #fff;
 }
@@ -139,7 +139,7 @@
 	background-color: var(--green-active);
 	color: #fff;
 }
-.colorDanger-3n-KnP.focused-3qFvc8:active {
+.colorDanger-3umuSx.focused-3qFvc8:active {
 	background-color: var(--red-active);
 	color: var(--interactive-active);
 }
@@ -391,7 +391,6 @@
 
 #account.menu-2TXYjN {
 	background-color: var(--background-floating);
-	
 }
 
 /* revert new unread bar*/
