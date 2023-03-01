@@ -293,3 +293,11 @@
 .iconBadge-32fMme.participating-2Z81oO {
 	background-color: var(--green) !important;
 }
+
+.userProfileOuter-1K_BYU.userProfileModalOuter-1FYL8T .connectedAccountOpenIcon-OngaxI {
+	clip-path: path(
+		"M10.5 2.25v1.5h2.6925L5.82 11.1225 6.8775 12.18 14.25 4.8075V7.5h1.5V2.25H10.5zm3.75 12H3.75V3.75H9v-1.5H3.75c-.8325 0-1.5.675-1.5 1.5v10.5c0 .8284271.67157287 1.5 1.5 1.5h10.5c.8284271 0 1.5-.6715729 1.5-1.5V9h-1.5v5.25z"
+	);
+	transform: none;
+	background: var(--interactive-normal);
+}
