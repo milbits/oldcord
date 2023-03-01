@@ -44,16 +44,9 @@
 [style*="color: rgb(88, 101, 242);"] {
 	color: var(--brand-experiment) !important;
 }
-[style*="background-color: rgb(88, 101, 242);"] {
-	background-color: var(--brand-experiment) !important;
-}
 
-.colorDanger-3umuSx:active:not(.hideInteraction-2jPGL_) {
-	background-color: var(--red-hover);
-	color: #fff;
-}
-
-.colorBrandNew-2-gGsS,
+[style*="background-color: rgb(88, 101, 242);"],
+.colorBrandNew-abZT3v,
 .menuItemFocused-2cC4Ku,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
@@ -61,10 +54,10 @@
 .progressBar-18rmp1.selectedProgressBar-11z5d9 {
 	background-color: var(--brand-experiment) !important;
 }
-.colorBrandNew-2-gGsS:hover {
+.colorBrandNew-abZT3v:hover {
 	background-color: var(--blurple-hover) !important;
 }
-.colorBrandNew-2-gGsS:active,
+.colorBrandNew-abZT3v:active,
 .menuItemFocused-2cC4Ku:active,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
 	background-color: var(--blurple-active) !important;
@@ -80,15 +73,16 @@
 	background-color: var(--background-secondary);
 }
 
-.lookFilled-1H2Jvj.colorRed-2VFhM4 {
-	color: #fff;
+.lookFilled-1H2Jvj.colorRed-2VFhM4,
+.colorDanger-3umuSx.focused-3LIdPu {
 	background-color: var(--red);
 }
 .lookFilled-1H2Jvj.colorRed-2VFhM4:hover {
 	background-color: var(--red-hover);
 }
-.lookFilled-1H2Jvj.colorRed-2VFhM4:active {
-	background-color: var(--red-active);
+.lookFilled-1H2Jvj.colorRed-2VFhM4:active,
+.colorDanger-3umuSx:active {
+	background-color: var(--red-active) !important;
 }
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
 	background-color: var(--blurple-hover);
@@ -201,15 +195,15 @@
 	background-color: var(--green);
 }
 
-.newlyAddedBadge-3DJ7mi {
-	background: var(--green);
-}
-
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover {
 	background-color: var(--green-hover);
 }
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:active {
 	background-color: var(--green-active);
+}
+
+.newlyAddedBadge-3DJ7mi {
+	background: var(--green);
 }
 
 .theme-dark .lookOutlined-3RTC7c.colorPrimary-2-Lusz {
@@ -248,9 +242,6 @@
 	color: var(--green);
 }
 
-.expandedFolderIconWrapper-Huv7rA > svg[style*="color:rgb(88,101,242);"] {
-	color: var(--brand-experiment) !important;
-}
 .folderIconWrapper-1oRIZr[style*="background-color: rgba(88, 101, 242, 0.4);"] {
 	background-color: var(--brand-experiment-40a) !important;
 }
@@ -294,9 +285,11 @@
 	background: var(--brand-experiment);
 	height: 100%;
 }
+
 .partnered-23cXFN:not(.disableColor-2z9rkr) {
 	color: var(--brand-experiment);
 }
+
 .updateIconForeground-2V_zo4 {
 	fill: var(--green);
 }

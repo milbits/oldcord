@@ -30,15 +30,6 @@
 	background-color: var(--brand-experiment);
 }
 
-.mentioned-Tre-dv {
-	position: relative;
-	background-color: var(--background-mentioned) !important;
-}
-.mentioned-Tre-dv:hover {
-	position: relative;
-	background-color: var(--background-mentioned-hover) !important;
-}
-
 .icon-2Ph-Lv {
 	display: none;
 }

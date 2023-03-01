@@ -943,17 +943,232 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* posts*/
-
-.container-2qVG6q {
+.container-2qVG6q,
+.container-1PloNW {
 	transition: 0.17s ease;
 	transform: none !important;
 	border-radius: 5px;
 	box-shadow: none !important;
 	background: var(--deprecated-card-editable-bg);
+	border: none;
 }
-.container-2qVG6q:hover {
+.container-2qVG6q:hover,
+.container-1PloNW:hover {
 	background-color: var(--background-modifier-hover) !important;
 }
-.container-2qVG6q:active {
+.container-2qVG6q:active,
+.container-1PloNW:active {
 	background-color: var(--background-modifier-active) !important;
+}
+
+/** Connections (in settings > connections)*/
+
+.connectContainer-1hylYM {
+	border: 1px solid var(--deprecated-text-input-border);
+	border-radius: 6px;
+}
+.accountButtonInner-33vCDY {
+	background-color: var(--background-modifier-hover);
+	background-size: 32px;
+}
+
+.connectHeader-2VkFiv {
+	color: #7b7c80 !important;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.connectContainer-1hylYM .text-xs-normal-3O7EaX {
+	color: var(--interactive-hover) !important;
+	font-size: 13px;
+}
+
+.connection-YOVI9j {
+	overflow: hidden;
+	background: none;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.connection-YOVI9j .connectionAccountLabel-28GEPk {
+	color: #fff8 !important;
+}
+.connection-YOVI9j .defaultColor-24IHKz.text-sm-semibold-3TWn25,
+.connection-YOVI9j .connectionAccountValue-YkFI6F .connectionAccountLabelContainer-1KuLS6 {
+	font-size: 16px;
+	margin-top: 4px;
+	color: #fff;
+	font-weight: 400;
+}
+.connection-YOVI9j .metadataContainer-35U-On {
+	position: relative;
+	z-index: 10;
+	background: #0004;
+	border: solid 1px #0004;
+	border-radius: 3px;
+}
+.connection-YOVI9j .metadataContainer-35U-On .connectedAccountVanityMetadataTag-19Al5z {
+	border-radius: 3px;
+	background: none;
+	border: solid 1px #fff3;
+}
+
+.connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH {
+	background: var(--blurple-inverted);
+	color: var(--blurple) !important;
+	transition: 0.17s;
+}
+.connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH:active:not(:disabled) {
+	background-color: var(--blurple-inverted-active) !important;
+}
+
+.connection-YOVI9j .subEnabledTitle-2YpsZq {
+	position: relative;
+	color: #fff;
+}
+
+.connection-YOVI9j .connectionHeader-Ixbb1s:after {
+	content: "";
+	position: absolute;
+	width: 660px;
+	height: 73px;
+	background: rgba(0, 0, 0, 0.1);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+}
+.connection-YOVI9j .connectionOptionsWrapper-3aVWcp *,
+.connection-YOVI9j .connectionDelete-3YgMVq,
+.connection-YOVI9j .integrationsWrapper-3a2pGd,
+.connection-YOVI9j .integrationsWrapper-3a2pGd *,
+.connection-YOVI9j .connectedAccountSeparator-2gWsUP {
+	z-index: 50;
+}
+
+.connection-YOVI9j .connectionOptionSwitch-y1S-cR {
+	margin-top: 2px;
+}
+.labelRow-NnoUIp .title-2yADjX .text-sm-semibold-S5fJwz {
+	font-weight: 500 !important;
+	color: #fff;
+}
+
+.connection-YOVI9j .integrationsWrapper-1V-5L9 .subEnabledTitle-2YpsZq {
+	opacity: 0.75;
+	letter-spacing: 0.5px;
+}
+.connection-YOVI9j .integrationsWrapper-1V-5L9 > .colorStandard-1Xxp1s + div:not([style]) {
+	display: flex;
+	grid-gap: 8px 16px;
+	flex-flow: wrap;
+}
+.connection-YOVI9j .integration-1qC-fv {
+	z-index: 999;
+	width: calc(50% - 8px);
+	position: relative;
+	background: #0000001a;
+	border: 1px solid #0000004d;
+	border-radius: 3px;
+	padding: 10px;
+}
+.connection-YOVI9j .integration-1qC-fv .button-ejjZWC.lookFilled-1H2Jvj {
+	border: solid 1px #0000004d;
+	background: #593695;
+	padding: 5px 16px;
+	min-height: 0px;
+	height: auto;
+	min-width: 0px;
+}
+.connection-YOVI9j .connectionDelete-3YgMVq {
+	width: 32px;
+	height: 32px;
+	border: solid 1px rgba(255, 255, 255, 0.3);
+	border-radius: 3px;
+}
+.connection-YOVI9j .connectionDelete-3YgMVq > svg {
+	position: relative;
+	top: 6px;
+	left: 6px;
+}
+.connection-YOVI9j .connectionDelete-3YgMVq > svg path {
+	fill: #fff;
+	transform: scale(1.1);
+}
+
+.connection-YOVI9j .container-2nx-BQ .input-125oad:before,
+.connection-YOVI9j .container-1QtPKm .input-125oad:before {
+	background: #0000;
+	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+.connection-YOVI9j .container-2nx-BQ .input-125oad:checked:before,
+.connection-YOVI9j .container-1QtPKm .input-125oad:checked:before {
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: none;
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt] {
+	margin: -572px -610px -4500px -16px;
+	padding: 2000px 330px;
+	background-color: var(--blurple);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+	background-position: 20px 20px;
+	border-radius: 5px;
+	pointer-events: none;
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Battle.net"] {
+	background-color: #009ae5;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="GitHub"] {
+	background-color: #191717;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Reddit"] {
+	background-color: #ff4500;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Spotify"] {
+	background-color: #1db954;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764324167770/fe3770614c2658a07dea3ecb286ce745.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Steam"] {
+	background-color: #182332;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Twitch"] {
+	background-color: #593695;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Twitter"] {
+	background-color: #1da1f2;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Xbox"] {
+	background-color: #107c10;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="YouTube"] {
+	background-color: #cb2120;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Skype"] {
+	background-color: #009dd7;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039642452048/de5fb9e860729912c65048c1c657e1a3.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="League of Legends"] {
+	background-color: #ae914b;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Facebook"] {
+	background-color: #3d4e84;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208530325534/c926e69c482dac25b8e940db74496813.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="PlayStation Network"] {
+	background-color: #023791;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Epic Games"] {
+	background-color: #3c3935;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Riot Games"] {
+	background-color: #af1924;
+	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg);
 }
