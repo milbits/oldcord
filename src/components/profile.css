@@ -43,6 +43,7 @@
 .avatarWrapper-3y0KZ1 {
 	left: 35% !important;
 	position: relative !important;
+	padding-bottom: 16px;
 	width: 0px;
 }
 .usernameSection-2d814A,
@@ -265,7 +266,7 @@ header .bannerSVGWrapper-qc0szY {
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-1VLyxH.avatar-3mTjvZ {
+.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-3Un6-K.avatar-3mTjvZ {
 	position: absolute;
 	top: 15px;
 	background-color: var(--background-secondary);
