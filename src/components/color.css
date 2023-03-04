@@ -36,6 +36,7 @@
 }
 [style*="background-color: rgb(88, 101, 242);"] {
 	background-color: var(--brand-experiment) !important;
+	color: var(--brand-experiment) !important;
 }
 [style*="border-color: rgba(88, 101, 242, 0.6);"] {
 	border-color: #7289da00 !important;
@@ -230,6 +231,41 @@
 
 .updateIconForeground-2V_zo4 {
 	fill: var(--green);
+}
+
+/** Log Out, Server Boost, Delete Server Buttons*/
+/*  Only supports english and german for now*/
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"],
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="lösch"],
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"],
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Delete"] {
+	color: var(--red);
+}
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"]:hover,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="lösch"]:hover,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"]:hover,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Delete"]:hover {
+	background-color: rgb(240 71 71 / 10%);
+}
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"]:active,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="lösch"]:active,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"]:active,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Delete"]:active {
+	background-color: var(--red) !important;
+	color: #fff;
+}
+.item-2GWPIy svg {
+	display: none;
+}
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Boost"] {
+	color: var(--blurple);
+}
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Boost"]:hover {
+	background-color: var(--brand-experiment-10a);
+}
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label*="Boost"]:active {
+	color: #fff;
+	background-color: var(--blurple) !important;
 }
 
 /** Select Menus*/
