@@ -208,6 +208,10 @@ div {
 	justify-content: center;
 	display: flex;
 }
+.customStatusText-2bcbbm {
+	text-align: center;
+	color: var(--header-secondary);
+}
 
 header .bannerSVGWrapper-qc0szY {
 	display: grid;

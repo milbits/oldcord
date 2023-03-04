@@ -36,7 +36,6 @@
 }
 [style*="background-color: rgb(88, 101, 242);"] {
 	background-color: var(--brand-experiment) !important;
-	color: var(--brand-experiment) !important;
 }
 [style*="border-color: rgba(88, 101, 242, 0.6);"] {
 	border-color: #7289da00 !important;
