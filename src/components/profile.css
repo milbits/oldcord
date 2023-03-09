@@ -316,3 +316,22 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 .messageInputContainer-2rGDH8 {
 	border: none;
 }
+
+/** Activity buttons*/
+/* make upgrade button blurple*/
+.button-35nmN9 {
+	background: none;
+}
+/*general activity buttons*/
+.buttonColor-XIRMbp {
+	transition: 0.17s ease;
+	color: #fff !important;
+	opacity: 1 !important;
+}
+.buttonColor-XIRMbp:hover {
+	background-color: var(--button-secondary-background-hover);
+}
+/*dont make the text cut off*/
+.contents-3NembX {
+	overflow: visible !important;
+}

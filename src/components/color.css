@@ -369,6 +369,8 @@
 /*make add server modal dark*/
 
 .theme-dark .theme-light .focusLock-bHVOlV {
+	--text-link: var(--blue-345);
+	--text-muted: var(--interactive-normal);
 	--modal-background: #36393f;
 	--header-primary: #fff;
 	--header-secondary: #b9bbbe;

@@ -1,10 +1,10 @@
-#app-mount .wrapper-1ZcZW- {
+.wrapper-1ZcZW- {
 	color: var(--brand-experiment-460);
 	background: var(--brand-experiment-10a);
 	text-decoration: none !important;
 	padding: 0 2px;
 }
-#app-mount .wrapper-1ZcZW-:hover {
+.wrapper-1ZcZW-:hover {
 	background: var(--brand-experiment);
 	color: var(--brand-experiment-100);
 }
