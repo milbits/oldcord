@@ -4,23 +4,24 @@
 
 # What is OldCord?
 
-OldCord is a [BetterDiscord](https://betterdiscord.app " ") theme that brings back the 2020 ui, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) 
+OldCord is a [BetterDiscord](https://betterdiscord.app) theme that brings back the 2020 ui, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
 
 ### Note: enable "Sync Profile Themes" in Accessibility
+
 ![image](https://cdn.discordapp.com/attachments/1056211378882498641/1064923652174389278/image.png)
 
-
 # Installation
+
 ### BetterDiscord
 
-Download [OldCord.theme.css](https://raw.githubusercontent.com/moyaiu/OldCord/main/OldCord.theme.css " ") (ctrl + s) and move it in the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`) (`~/.config/BetterDiscord/themes` on linux) 
+Download [OldCord.theme.css](https://raw.githubusercontent.com/damoyai/oldcord/main/OldCord.theme.css) (ctrl + s) and move it in the BetterDiscord theme folder (`%appdata%/BetterDiscord/themes`) (`~/.config/BetterDiscord/themes` on linux)
 
 ### Alternative
 
 Put this at the top of the custom CSS tab:
 
 ```css
-@import url("https://moyaiu.github.io/OldCord/src/main.css");
+@import url("https://damoyai.github.io/oldcord/src/main.css");
 ```
 
 ---
