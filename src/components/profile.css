@@ -317,6 +317,30 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 	border: none;
 }
 
+/* fixes nitro preview in settings */
+
+.premiumFeatureBorder-1i95si .avatarUploaderPremium-2v2k2d {
+	top: 16px;
+}
+.premiumFeatureBorder-1i95si .avatarUploader-CHGwK7 {
+	position: absolute;
+	left: 33%;
+}
+.premiumFeatureBorder-1i95si .status-b9jLr4 {
+	background: var(--background-secondary);
+}
+.premiumFeatureBorder-1i95si .userPopoutOverlayBackground-dKOOda {
+	margin-top: 90px;
+}
+.premiumFeatureBorder-1i95si .userProfileInner-3F03PX {
+	background: var(--background-secondary);
+	min-height: 0;
+	max-height: 100%;
+}
+.premiumFeatureBorder-1i95si .profileCustomizationPreview-2-Y173 {
+	min-height: 0px;
+}
+
 /** Activity buttons*/
 /* make upgrade button blurple*/
 .button-35nmN9 {
