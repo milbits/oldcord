@@ -74,8 +74,8 @@
 
 /** search bar colors*/
 .container-2McqkF {
-	border: 1px solid var(--background-tertiary);
-	background-color: var(--background-secondary);
+	border: 1px solid var(--bg-overlay-6, var(--background-tertiary));
+	background: var(--bg-overlay-3, var(--background-secondary));
 }
 
 .lookFilled-1H2Jvj.colorRed-2VFhM4,

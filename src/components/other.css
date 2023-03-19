@@ -228,7 +228,7 @@
 	overflow-y: auto;
 }
 .lineClamp2Plus-2SCQmH::-webkit-scrollbar-thumb {
-	background: var(--background-tertiary);
+	background: transparent;
 	border-radius: 99px;
 	max-height: 20px;
 	padding-right: 17px;
@@ -241,9 +241,8 @@
 	border-radius: 10px;
 }
 .lineClamp2Plus-2SCQmH:hover::-webkit-scrollbar-thumb {
-	background: var(--background-tertiary);
-	border-radius: 9999px;
-	max-height: 20px;
+	background: var(--bg-overlay-6, var(--background-tertiary));
+	border-radius: 999px;
 }
 
 .scroller-1jBQYo::-webkit-scrollbar-thumb,
@@ -856,7 +855,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 /** Devices Tab*/
 /* make description a card*/
 .description-21ac5O {
-	background-color: var(--deprecated-card-bg);
+	background: var(--bg-overlay-2, var(--deprecated-card-bg));
 	border: 1px solid var(--background-tertiary);
 	border-radius: 5px;
 	color: var(--text-normal);

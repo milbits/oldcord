@@ -32,8 +32,13 @@
 	margin: 0;
 }
 
+.usernameSection-2d814A,
+.customStatusSection-2TRu5f {
+	background: var(--bg-overlay-2, var(--background-tertiary));
+}
+
 .overlayBackground-1KgwVi {
-	background-color: var(--background-secondary);
+	background: var(--bg-overlay-3, var(--background-secondary));
 }
 
 .banner-2boKnS,
@@ -45,10 +50,6 @@
 	position: relative !important;
 	padding-bottom: 16px;
 	width: 0px;
-}
-.usernameSection-2d814A,
-.customStatusSection-2TRu5f {
-	background-color: var(--background-tertiary);
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY {
@@ -159,7 +160,7 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 /* full profile dialog tweaks end here */
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
-	background: transparent;
+	background: var(--bg-overlay-2);
 }
 
 .customStatusSection-2TRu5f {
@@ -220,12 +221,12 @@ header .bannerSVGWrapper-qc0szY {
 .container-1U-qVy,
 .topSection-1Khgkv,
 .tabBarContainer-2UG0vy {
-	background-color: var(--background-tertiary) !important;
+	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY,
 .tabBarContainer-2UG0vy {
-	background: var(--background-tertiary) !important;
+	background: var(--bg-overlay-2, var(--background-tertiary)) !important;
 }
 .tabBarContainer-2UG0vy {
 	padding: 21px;
@@ -238,6 +239,7 @@ header .bannerSVGWrapper-qc0szY {
 	background: #000 !important;
 	visibility: hidden !important;
 }
+
 .headerWrapper-3iTlIT {
 	background: var(--background-tertiary);
 	max-height: 40px !important;
@@ -292,11 +294,11 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 	bottom: 5px;
 }
 .accountProfileCard-lbN7n- {
-	background-color: var(--background-secondary);
+	background: var(--bg-overlay-3, var(--background-secondary));
 }
 .background-3d_SjE,
 .fieldList-in8WkP {
-	background-color: var(--background-primary);
+	background: var(--bg-overlay-1, var(--background-primary));
 }
 .avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 {
 	position: absolute;
