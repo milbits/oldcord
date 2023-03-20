@@ -820,7 +820,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 /* make "search/create post" background the same as the textarea*/
 .headerRow-1MKoR- .mainCard-3KBsBI {
-	background: var(--channeltextarea-background);
+	background-color: var(--channeltextarea-background);
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 5px;
@@ -855,7 +855,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 /** Devices Tab*/
 /* make description a card*/
 .description-21ac5O {
-	background: var(--bg-overlay-2, var(--deprecated-card-bg));
+	background: var(--bg-overlay-4, var(--deprecated-card-bg));
 	border: 1px solid var(--background-tertiary);
 	border-radius: 5px;
 	color: var(--text-normal);
