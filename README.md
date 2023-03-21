@@ -2,15 +2,15 @@
 
 ---
 
-# What is OldCord?
+A [BetterDiscord](https://betterdiscord.app) theme that brings back the 2020 ui, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
 
-OldCord is a [BetterDiscord](https://betterdiscord.app) theme that brings back the 2020 ui, based on [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
-
-##### works with nitro themes and their free clones
-
-### Note: enable "Sync Profile Themes" in Accessibility
+Enable "Sync Profile Themes" in Accessibility
 
 ![image](https://cdn.discordapp.com/attachments/1056211378882498641/1064923652174389278/image.png)
+
+This theme doesn't revert the "mosaic" images. [ use this plugin instead](https://github.com/Tanza3D/discord-no-mosaic)
+
+---
 
 # Installation
 
