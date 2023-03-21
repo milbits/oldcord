@@ -644,26 +644,14 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 4px;
 }
 
-/** revert mosaic image system*/
-[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]),
-[class*="ByTwoGrid-"],
-[class*="ByThreeGrid-"] {
-	display: flex;
-	flex-direction: column;
-	max-height: 100%;
-}
+/** revert mosaic image system border*/
+/* use https://github.com/Tanza3D/discord-no-mosaic for a working fix*/
+
 [class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
 [class*="ByTwoGrid-"] [class*="lazyImg"],
 [class*="ByThreeGrid-"] [class*="lazyImg"],
 [class*="ByOneGrid-"] {
-	aspect-ratio: unset;
-	height: auto !important;
-	width: auto !important;
-	margin-left: 0px !important;
 	border-radius: 3px !important;
-}
-[class^="mediaAttachmentsContainer-"] [class*="messageAttachmentMediaMosaic-"] {
-	max-width: fit-content;
 }
 [class^="mediaAttachmentsContainer-"] {
 	border-radius: 0px !important;
