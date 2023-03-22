@@ -52,54 +52,7 @@
 	font-family: var(--font-primary);
 }
 
-/** Reactions*/
-.reaction-3vwAF2,
-.reaction-102jx9 {
-	border-radius: 0.25rem;
-	border: none;
-	margin-right: 0.125rem;
-	margin-bottom: 0.125rem;
-	transition: background-color 0.1s ease;
-	background: var(--background-modifier-accent);
-}
-.reaction-3vwAF2:hover,
-.reaction-102jx9:hover {
-	background-color: var(--background-modifier-selected) !important;
-}
-.mentioned-Tre-dv .reaction-3vwAF2,
-.mentioned-Tre-dv .reaction-3vwAF2:hover {
-	background-color: var(--background-modifier-accent);
-}
-
-.reaction-3vwAF2:hover .reactionCount-26U4As,
-.reaction-102jx9:hover.reactionMe-2zhiyZ .reactionCount-SWXh9W {
-	color: var(--interactive-active) !important;
-}
-
-.mentioned-Tre-dv .reaction-3vwAF2.reactionMe-1PwQAc,
-.mentioned-Tre-dv .reactionMe-1PwQAc.reaction-3vwAF2:hover,
-.reaction-3vwAF2.reactionMe-1PwQAc {
-	background-color: var(--brand-experiment-30a);
-}
-
-.reaction-3vwAF2 .reactionInner-YJjOtT {
-	padding: 0 0.375rem;
-}
-.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As,
-.reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
-	color: var(--brand-experiment);
-}
-.reactionMe-1PwQAc:hover,
-.reactionMe-2zhiyZ:hover {
-	background-color: var(--brand-experiment-40a) !important;
-}
-
-.reactionCount-26U4As {
-	font-weight: 500;
-	color: var(--text-muted);
-}
-
-/* revert reaction modal*/
+/** revert reaction modal*/
 .theme-dark .reactionSelected-1aMb2K {
 	background-color: rgba(79, 84, 92, 0.3);
 	border-radius: 2px;
