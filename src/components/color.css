@@ -236,6 +236,34 @@
 	fill: var(--green);
 }
 
+/** Mentions/Pings*/
+.wrapper-1ZcZW- {
+	font-weight: 500;
+	color: var(--brand-experiment-460);
+	background: var(--brand-experiment-10a);
+	padding: 0 2px;
+}
+.wrapper-1ZcZW-:hover {
+	background: var(--brand-experiment);
+	color: var(--brand-experiment-100);
+}
+
+.interactive {
+	-webkit-transition: background-color 50ms ease-out, color 50ms ease-out;
+	transition: background-color 50ms ease-out, color 50ms ease-out;
+	cursor: pointer;
+}
+.interactive:hover {
+	color: #fff;
+	background-color: var(--brand-experiment);
+}
+.icon-2Ph-Lv {
+	display: none;
+}
+.name-32H74l:before {
+	content: "#";
+}
+
 /** Log Out, Server Boost, Delete Server Buttons*/
 /*  Only supports english and german for now*/
 .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"],
