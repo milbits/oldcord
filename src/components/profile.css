@@ -34,7 +34,7 @@
 
 .usernameSection-2d814A,
 .customStatusSection-2TRu5f {
-	background: var(--bg-overlay-2, var(--background-tertiary));
+	background: var(--bg-overlay-1, var(--background-tertiary));
 }
 
 .overlayBackground-1KgwVi {
@@ -58,7 +58,7 @@
 
 .userProfileOuterThemed-3EfHmv,
 .userProfileInnerThemedWithBanner-2624Yx {
-	background: var(--background-tertiary);
+	background: var(--bg-overlay-1, var(--background-tertiary));
 	box-shadow: none;
 	padding: 0 !important;
 }
@@ -226,7 +226,7 @@ header .bannerSVGWrapper-qc0szY {
 
 .userProfileInnerThemedNonPremium-1gT-zY,
 .tabBarContainer-2UG0vy {
-	background: var(--bg-overlay-2, var(--background-tertiary)) !important;
+	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 .tabBarContainer-2UG0vy {
 	padding: 21px;
@@ -396,6 +396,7 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 .role-2TIOKu .roleRemoveButton-17oXnT {
 	position: static;
 }
+/* Add a colored border around the role */
 .role-2TIOKu .roleRemoveButton-17oXnT .roleCircle-3TFUOr:before {
 	content: "";
 	top: 0;
@@ -411,7 +412,7 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 	-webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
 	-webkit-mask-composite: xor;
 }
-
+/* border around addrole button*/
 .addButton-1_dZYu {
 	border: 1px solid;
 }

@@ -2,13 +2,17 @@
 
 A theme for Discord that brings back the classic 2020 UI without removing features.
 
-![Preview](https://cdn.discordapp.com/attachments/1088094000294142033/1088101447729688706/image.png)
+![Preview](https://cdn.discordapp.com/attachments/1088094000294142033/1088154272283230208/image.png)
 
 ###### the folders are not part of the theme
 
-Please note that OldCord does not revert the "mosaic" images. Use the [discord-no-mosaic](https://github.com/Tanza3D/discord-no-mosaic) plugin instead.
+## Additional stuff
 
-Enable "Sync Profile Themes" in Accessibility so profiles won't get bright
+OldCord does not revert the "mosaic" images. Use the [discord-no-mosaic](https://github.com/Tanza3D/discord-no-mosaic) plugin instead.
+
+Use [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions) to remove super reactions
+
+Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't become bright af
 
 ---
 
@@ -16,7 +20,10 @@ Enable "Sync Profile Themes" in Accessibility so profiles won't get bright
 
 ### Using BetterDiscord
 
-Download [OldCord.theme.css](https://raw.githubusercontent.com/damoyai/oldcord/main/OldCord.theme.css) (right-click > "Save As") and save it to the BetterDiscord theme folder (windows:`%appdata%/BetterDiscord/themes` linux:`~/.config/BetterDiscord/themes`)
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/damoyai/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+2. Save it to the BetterDiscord theme folder:
+- Windows: `%appdata%/BetterDiscord/themes` 
+-  Linux: `~/.config/BetterDiscord/themes`
 
 ### Using Custom CSS
 
@@ -34,3 +41,4 @@ Download [OldCord.theme.css](https://raw.githubusercontent.com/damoyai/oldcord/m
 
 -   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original code
 -   [DTM-16](https://github.com/XYZenix/DTM-16) for the switches, old radio bars and some of the profile code
+

@@ -159,15 +159,10 @@
 	--switch-color: var(--blurple-hover) !important;
 }
 /* checkboxes*/
-.checkbox-1LuCGM {
-}
-.checkbox-1LuCGM {
+.checkbox-1LuCGM:not(.round-2IkBht) {
 	border-color: #72767d !important ;
 	border-radius: 3px;
 	border-width: 1px !important;
-}
-.input-1y_Uys:hover {
-	background-color: var(--background-modifier-hover) !important;
 }
 .checkbox-1LuCGM.checked-22NTbO {
 	border: none !important;
