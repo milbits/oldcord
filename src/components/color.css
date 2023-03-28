@@ -48,7 +48,6 @@
 
 [style*="background-color: rgb(88, 101, 242);"],
 .colorBrandNew-abZT3v,
-.menuItemFocused-2cC4Ku,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
 .progressBar-1T6LYX,
@@ -58,7 +57,8 @@
 	background-color: var(--brand-experiment) !important;
 }
 .colorBrandNew-abZT3v:hover,
-.bd-button:hover {
+.bd-button:hover,
+.menuItemFocused-2cC4Ku {
 	background-color: var(--blurple-hover) !important;
 }
 .colorBrandNew-abZT3v:active,
@@ -414,10 +414,6 @@
 }
 .sort-37NWdz {
 	background: transparent !important;
-}
-
-#account.menu-2TXYjN {
-	background-color: var(--background-floating);
 }
 
 /* revert new unread bar*/
