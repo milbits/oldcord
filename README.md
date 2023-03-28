@@ -10,7 +10,9 @@ A theme for Discord that brings back the classic 2020 UI without removing featur
 
 OldCord does not revert the "mosaic" images. Use the [discord-no-mosaic](https://github.com/Tanza3D/discord-no-mosaic) plugin instead.
 
-Use [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions) to remove super reactions
+[NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions): Remove super reactions
+
+[OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload): Open the file picker with just 1 click
 
 Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't become bright af
 
