@@ -252,6 +252,7 @@
 	-webkit-transition: background-color 50ms ease-out, color 50ms ease-out;
 	transition: background-color 50ms ease-out, color 50ms ease-out;
 	cursor: pointer;
+	text-decoration: none !important;
 }
 .interactive:hover {
 	color: #fff;
