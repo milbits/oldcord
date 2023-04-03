@@ -75,9 +75,10 @@ body {
 	--blurple-inverted: #f8f9fd;
 	--blurple-inverted-active: #e3e7f8;
 	--text-brand: #7289da;
-	--brand-500: #7289da;
-	--brand-360: #a5b3e7;
 	--brand-260: #d1d9f3;
+	--brand-360: #a5b3e7;
+	--brand-460: #7d92dd;
+	--brand-500: #7289da;
 	--brand-560: #5c6fb1;
 	--brand-new-560: #5c6fb1;
 	--brand-new-500: #7289da;
@@ -143,7 +144,6 @@ body {
 	--green-active: #369167;
 	--green-transparent: #43b58133;
 	--info-positive-foreground: var(--green);
-	--status-positive-background: var(--green);
 	--text-positive: var(--green);
 	--red: #f04747;
 	--red-hover: #d84040;
@@ -162,4 +162,5 @@ body {
 	--text-danger: var(--red) !important;
 	--input-grey: #72767d;
 	--status-danger: var(--red) !important;
+	--status-positive-background: var(--green);
 }

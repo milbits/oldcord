@@ -200,7 +200,8 @@
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .unreadIcon-3dqgX9,
 .container-1QtPKm svg,
-.communityInfoPill-2Mll66 {
+.communityInfoPill-2Mll66,
+.item-2GWPIy svg {
 	display: none;
 }
 
@@ -1109,7 +1110,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 /* revert too powerful dialog */
 .uploadDropModal-13Kd20 .inner-rBP-MS .instructions-272j2A {
-	color: hsl(var(--white-500-hsl)/.4);
+	color: hsl(var(--white-500-hsl) / 0.4);
 }
 .uploadDropModal-13Kd20 .inner-rBP-MS {
 	border-radius: 5px;

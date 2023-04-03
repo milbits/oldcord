@@ -98,7 +98,14 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > rect:nth-c
 	visibility: hidden;
 }
 
-/* tweaks for full profile dialog */
+/** tweaks for full profile dialog */
+
+/* re-position "unable to load" icon*/
+.warningCircleIcon-1bhZXx {
+	transform: translateX(-45px);
+	margin-top: 40px;
+}
+
 div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	transform: scale(0.666);
 	position: absolute;
@@ -159,7 +166,7 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 /* full profile dialog tweaks end here */
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
-	background: var(--bg-overlay-2);
+	background: var(--bg-overlay-1);
 }
 
 .customStatusSection-2TRu5f {
@@ -211,6 +218,7 @@ div {
 .customStatusText-2bcbbm {
 	text-align: center;
 	color: var(--header-secondary);
+	max-width: 250px;
 }
 
 header .bannerSVGWrapper-qc0szY {
