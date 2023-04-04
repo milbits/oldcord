@@ -5,12 +5,7 @@
 	display: none;
 }
 
-.nameTag-H6kSJ0,
-.nickname-2rimyL {
-	text-align: center;
-}
-
-/* bottom-left popout */
+/*! bottom-left popout */
 .animatorTop-3DwSmU .userPopoutOuter-3AVBmJ {
 	width: 225px;
 	box-shadow: var(--elevation-high) !important;
@@ -20,6 +15,50 @@
 	width: 225px;
 }
 
+/*! [WIP] revert activity profile*/
+
+/* make top profile blurple*/
+.usernameSection-2d814A:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
+.customStatusSection-2TRu5f:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
+.userProfileInnerThemedNonPremium-1gT-zY:has(.activityUserPopoutV2-3eKqzY) {
+	background: var(--blurple) !important;
+}
+/*make status icon white*/
+.userProfileInnerThemedNonPremium-1gT-zY:has(.activityUserPopoutV2-3eKqzY) rect {
+	fill: #fff !important;
+}
+
+/* change activity bg color and padding*/
+.activityUserPopoutV2-3eKqzY {
+	background-color: var(--brand-experiment-530);
+	padding: 4px;
+}
+.activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
+	color: #fff !important;
+}
+/* make activity the first section*/
+.section-3FmfOT:has(.activityUserPopoutV2-3eKqzY) {
+	order: -1;
+	padding: 0;
+}
+.scroller-1jBQYo {
+	display: flex;
+	flex-direction: column;
+	/*if we dont do this, the activity background color will be "seperated" idk*/
+	padding: 0 !important;
+}
+/* since the padding of the profile is gone, add padding to every section*/
+.section-3FmfOT,
+.activityUserPopoutV2-3eKqzY {
+	padding-left: 12px;
+}
+
+/*! normal profile popout*/
+
+.nameTag-H6kSJ0,
+.nickname-2rimyL {
+	text-align: center;
+}
 .headerTop-3GPUSF.copiableNameTag-3f6roa {
 	background-color: transparent !important;
 }
@@ -30,7 +69,6 @@
 .userProfileModalOverlayBackground-8p3-eU {
 	margin: 0;
 }
-
 .usernameSection-2d814A,
 .customStatusSection-2TRu5f {
 	background: var(--bg-overlay-1, var(--background-tertiary));
@@ -184,8 +222,7 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 .section-3FmfOT .eyebrow-1Shfyi,
 .section-3FmfOT .headerTextNormal-Z8we9g,
 .userInfoSectionHeader-48g5Qj {
-	color: var(--header-secondary) !important;
-	padding-left: 0px !important;
+	color: var(--header-secondary);
 }
 
 .avatarPositionPremiumBanner-2nq2Fy {
