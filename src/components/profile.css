@@ -20,21 +20,24 @@
 /* make top profile blurple*/
 .usernameSection-2d814A:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
 .customStatusSection-2TRu5f:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
-.userProfileInnerThemedNonPremium-1gT-zY:has(.activityUserPopoutV2-3eKqzY) {
+.userProfileInner-3F03PX:has(.activityUserPopoutV2-3eKqzY) {
 	background: var(--blurple) !important;
 }
 /*make status icon white*/
-.userProfileInnerThemedNonPremium-1gT-zY:has(.activityUserPopoutV2-3eKqzY) rect {
+.userProfileInner-3F03PX:has(.activityUserPopoutV2-3eKqzY) rect {
 	fill: #fff !important;
 }
 
 /* change activity bg color and padding*/
 .activityUserPopoutV2-3eKqzY {
 	background-color: var(--brand-experiment-530);
-	padding: 4px;
+	padding: 12px;
 }
 .activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
 	color: #fff !important;
+}
+.discrimBase-KriZSj:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY) {
+	color: #f6fbf9 !important;
 }
 /* make activity the first section*/
 .section-3FmfOT:has(.activityUserPopoutV2-3eKqzY) {
@@ -46,13 +49,22 @@
 	flex-direction: column;
 	/*if we dont do this, the activity background color will be "seperated" idk*/
 	padding: 0 !important;
+	/* width: 100px; */
 }
+.scroller-1jBQYo:has(.activityUserPopoutV2-3eKqzY)::-webkit-scrollbar {
+	width: 0px;
+}
+
 /* since the padding of the profile is gone, add padding to every section*/
 .section-3FmfOT,
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
 }
 
+.theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
+.playTime-3fSgOm {
+	color: #f6fbf9;
+}
 /*! normal profile popout*/
 
 .nameTag-H6kSJ0,
@@ -114,7 +126,7 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 	padding-bottom: 10px;
 }
 .userTagDiscriminatorNoNickname-2HLaIE.discrimBase-KriZSj {
-	font-weight: 500;
+	font-weight: 600;
 }
 .userPopoutOverlayBackground-dKOOda {
 	margin: 0;
