@@ -193,10 +193,10 @@
 .container-1eD8xH,
 .item-1TA5qI .radioBar-1XgZqD circle,
 .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-2TXYjN, .menu-KSaHL1 *),
+.accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before,
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-KSaHL1 *),
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .unreadIcon-3dqgX9,
 .container-1QtPKm svg,
@@ -259,7 +259,7 @@
 	border-radius: 999px;
 }
 
-.scroller-1jBQYo::-webkit-scrollbar-thumb,
+.scroller-15bIdk::-webkit-scrollbar-thumb,
 .infoScroller-3MqKC5::-webkit-scrollbar-thumb {
 	background: var(--background-tertiary);
 	border: 2px solid var(--background-secondary);
@@ -649,7 +649,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .accountProfilePopoutWrapper-3GskID {
 	left: 0;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
 	margin: 0;
 	border-radius: 4px;
 }

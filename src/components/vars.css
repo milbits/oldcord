@@ -157,6 +157,19 @@ body {
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--green);
+	/* activity colors*/
+	--twitch-dark: #503086;
+	--twitch: #593695;
+	--youtube-dark: #b61d1d;
+	--youtube: #cb2020;
+	--spotify: #1eb955;
+	--spotify-dark: #1db051;
+	--xbox-dark: #0f750f;
+	--xbox: #107c10;
+	--playstation-dark: #032f87;
+	--playstation: #033599 !important;
+	--crunchyroll-dark: #f78a24;
+	--crunchyroll: #f8963a;
 }
 * {
 	--text-danger: var(--red) !important;

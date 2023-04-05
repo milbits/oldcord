@@ -1,12 +1,13 @@
-.profileBadges-31rDHI,
-.bannerSVGWrapper-qc0szY,
-.divider-1tWBgZ,
-#account.menu-1QACrS .profileBody-3QbfPe {
+.profileBadges-2pItdR,
+.bannerSVGWrapper-2CLfzN,
+.divider-2dDziJ,
+#account.menu-1QACrS .profileBody-3QbfPe,
+.userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ {
 	display: none;
 }
 
 /*! bottom-left popout */
-.animatorTop-3DwSmU .userPopoutOuter-3AVBmJ {
+.animatorTop-3DwSmU .userPopoutOuter-1OHwPL {
 	width: 225px;
 	box-shadow: var(--elevation-high) !important;
 }
@@ -16,59 +17,146 @@
 }
 
 /*! [WIP] revert activity profile*/
+/** Variables*/
 
+.userPopoutOuter-1OHwPL:has(.activityUserPopoutV2-3eKqzY) {
+	--play: var(--brand-experiment);
+	--play-dark: var(--brand-experiment-530);
+	--play-secondary: hsla(0, 0%, 100%, 0.8) !important;
+}
+/* Listening to Spotify*/
+.userPopoutOuter-1OHwPL:has([src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"]) {
+	--play: var(--spotify);
+	--play-dark: var(--spotify-dark);
+}
+
+/* Live on Twitch*/
+.userPopoutOuter-1OHwPL:has([mask="url(#svg-mask-status-streaming)"]) {
+	--play: var(--twitch);
+	--play-dark: var(--twitch-dark);
+}
+
+/* Playing on XBOX*/
+.userPopoutOuter-1OHwPL:has([src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"]) {
+	--play: var(--xbox);
+	--play-dark: var(--xbox-dark);
+}
+
+/* Playing on PlayStation*/
+.userPopoutOuter-1OHwPL:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
+	--play: var(--playstation);
+	--play-dark: var(--playstation-dark);
+}
+
+/* Watching Crunchyroll*/
+.userPopoutOuter-1OHwPL:has([alt="Crunchyroll"]) {
+	--play: var(--crunchyroll);
+	--play-dark: var(--crunchyroll-dark);
+}
+
+/* Watching Watch Together*/
+.userPopoutOuter-1OHwPL:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+	--play: var(--youtube);
+	--play-dark: var(--youtube-dark);
+}
+
+/* Live on Twitch*/
+.userPopoutOuter-1OHwPL:has([mask="url(#svg-mask-status-streaming)"]) {
+	--play: var(--twitch);
+	--play-dark: var(--twitch-dark);
+}
+
+/* Playing on XBOX*/
+.userPopoutOuter-1OHwPL:has([src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"]) {
+	--play: var(--xbox);
+	--play-dark: var(--xbox-dark);
+}
+
+/* Playing on PlayStation*/
+.userPopoutOuter-1OHwPL:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
+	--play: var(--playstation);
+	--play-dark: var(--playstation-dark);
+}
+
+/* make activity the first section*/
+.section-28YDOf:has(.activityUserPopoutV2-3eKqzY) {
+	order: -1;
+	padding: 0;
+}
+.scroller-15bIdk {
+	display: flex;
+	flex-direction: column;
+	/*if we dont do this, the activity background color will be "seperated" idk*/
+	padding: 0 !important;
+}
+.scroller-15bIdk:has(.activityUserPopoutV2-3eKqzY)::-webkit-scrollbar {
+	width: 0px;
+}
 /* make top profile blurple*/
-.usernameSection-2d814A:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
-.customStatusSection-2TRu5f:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY),
-.userProfileInner-3F03PX:has(.activityUserPopoutV2-3eKqzY) {
-	background: var(--blurple) !important;
+.usernameSection-3FppkT:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
+.customStatusSection-2_fKRl:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
+.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) {
+	background: var(--play) !important;
 }
 /*make status icon white*/
-.userProfileInner-3F03PX:has(.activityUserPopoutV2-3eKqzY) rect {
+.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect {
 	fill: #fff !important;
 }
 
 /* change activity bg color and padding*/
 .activityUserPopoutV2-3eKqzY {
-	background-color: var(--brand-experiment-530);
+	background-color: var(--play-dark);
 	padding: 12px;
 }
 .activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
 	color: #fff !important;
 }
-.discrimBase-KriZSj:has(~ .scroller-1jBQYo .activityUserPopoutV2-3eKqzY) {
+.discrimBase-v65kTs:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY) {
 	color: #f6fbf9 !important;
 }
-/* make activity the first section*/
-.section-3FmfOT:has(.activityUserPopoutV2-3eKqzY) {
-	order: -1;
-	padding: 0;
+
+/* activity buttons*/
+.userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_ {
+	background: transparent !important;
+	color: #fff;
+	border: 1px solid #ffffff4d;
+	transition: 0.17s ease;
 }
-.scroller-1jBQYo {
-	display: flex;
-	flex-direction: column;
-	/*if we dont do this, the activity background color will be "seperated" idk*/
-	padding: 0 !important;
-	/* width: 100px; */
+.userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:not(:disabled):hover {
+	border-color: #ffffff99;
+	opacity: 1;
 }
-.scroller-1jBQYo:has(.activityUserPopoutV2-3eKqzY)::-webkit-scrollbar {
-	width: 0px;
+.userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:not(:disabled):active {
+	border-color: #fff;
+}
+
+.theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+.contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL {
+	color: #fff !important;
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
-.section-3FmfOT,
+.section-28YDOf,
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
 }
-
+/* color fixed*/
 .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
 .playTime-3fSgOm {
 	color: #f6fbf9;
 }
+.username-3JLfHz:not(.userTagUsernameNoNickname-2lKUnI, .username-3dP0mA),
+.discrimBase-v65kTs {
+	color: var(--play-secondary, var(--header-secondary));
+}
+.userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
+	background-color: #fff;
+	color: var(--blurple);
+}
 /*! normal profile popout*/
 
 .nameTag-H6kSJ0,
-.nickname-2rimyL {
+.nickname-3P1RuO {
 	text-align: center;
 }
 .headerTop-3GPUSF.copiableNameTag-3f6roa {
@@ -78,35 +166,35 @@
 	background: transparent !important;
 }
 
-.userProfileModalOverlayBackground-8p3-eU {
+.userProfileModalOverlayBackground-2dAaBg {
 	margin: 0;
 }
-.usernameSection-2d814A,
-.customStatusSection-2TRu5f {
+.usernameSection-3FppkT,
+.customStatusSection-2_fKRl {
 	background: var(--bg-overlay-1, var(--background-tertiary));
 }
 
-.overlayBackground-1KgwVi {
+.overlayBackground-2aa7wt {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
 
 .banner-2boKnS,
-.userPopoutInner-1hXSeY {
+.userPopoutInner-nv9Y92 {
 	background-color: none !important;
 }
-.avatarWrapper-3y0KZ1 {
+.avatarWrapper-eenWra {
 	left: 35% !important;
 	position: relative !important;
 	padding-bottom: 16px;
 	width: 0px;
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H {
 	margin: 0;
 }
 
-.userProfileOuterThemed-3EfHmv,
-.userProfileInnerThemedWithBanner-2624Yx {
+.userProfileOuterThemed-2BgJCM,
+.userProfileInnerThemedWithBanner-25XGmz {
 	background: var(--bg-overlay-1, var(--background-tertiary));
 	box-shadow: none;
 	padding: 0 !important;
@@ -114,21 +202,22 @@
 .userProfileOuter-1K_BYU {
 	border-radius: 3px;
 }
-.userProfileInner-3F03PX {
+.userProfileInner-1ngKnf {
 	border-radius: 3px 3px 0 0;
 }
 
-div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
+div.topSection-13QKHs > header > svg.bannerSVGWrapper-qc0szY {
 	display: none;
 }
-.usernameSection-2d814A {
+.usernameSection-3FppkT {
 	padding-top: 100px;
 	padding-bottom: 10px;
 }
-.userTagDiscriminatorNoNickname-2HLaIE.discrimBase-KriZSj {
+.userTagDiscriminatorNoNickname-2HLaIE.discrimBase-v65kTs {
 	font-weight: 600;
+	color: var(--play-secondary, var(--header-secondary));
 }
-.userPopoutOverlayBackground-dKOOda {
+.userPopoutOverlayBackground-3A0Pcz {
 	margin: 0;
 	width: 250px;
 	border-radius: 0px;
@@ -137,14 +226,14 @@ div.topSection-1Khgkv > header > svg.bannerSVGWrapper-qc0szY {
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy > div > div > svg > circle,
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy > div > div > svg > rect:nth-child(2),
+div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumBanner-2EAbSH > div > div > svg > circle,
+div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumBanner-2EAbSH > div > div > svg > rect:nth-child(2),
 /* do the same but for profiles with premium and no colours or something idfk */
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > circle,
-div.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2),
+div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > circle,
+div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2),
 /* and the same for full profile dialogs */
-div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > circle,
-div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > rect:nth-child(2) {
+div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > circle,
+div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > rect:nth-child(2) {
 	visibility: hidden;
 }
 
@@ -156,18 +245,18 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div > svg > rect:nth-c
 	margin-top: 40px;
 }
 
-div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
+div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	transform: scale(0.666);
 	position: absolute;
 	top: -20px;
 	left: 0px;
 }
-.topSection-1Khgkv {
+.topSection-13QKHs {
 	padding-top: 20px;
 	margin-bottom: 10px;
 }
 
-.nameTag-2ysfG3.nameTag-H6kSJ0 {
+.nameTag-35jqbZ.nameTag-H6kSJ0 {
 	transform: scale(0.9);
 	position: relative;
 	top: 6px;
@@ -181,7 +270,7 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	top: 2px;
 }
 
-.body-_QAKrE > .container-1U-qVy > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-3ca2B1 {
+.body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
 	height: 0px;
 	position: relative;
 	top: 32px;
@@ -189,7 +278,7 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	margin-right: 10px;
 }
 
-.headerTop-212g15 > .badgeList-2pMvZX {
+.headerTop-1PNKck > .badgeList-2aoHPw {
 	transform-origin: top left;
 	transform: scale(1.25);
 	position: relative;
@@ -197,19 +286,19 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	top: 33px;
 }
 
-.headerTop-212g15 > .relationshipButtons-pZ_UWl {
+.headerTop-1PNKck > .relationshipButtons-pZ_UWl {
 	margin-top: 9px;
 }
-.body-_QAKrE > .container-1U-qVy {
+.body-1Ukv50 > .container-3g15px {
 	padding-bottom: 50px;
 }
 
-.tabBarItem-3VvT2z.item-3XjbnG {
+.tabBarItem-30Te4-.item-3XjbnG {
 	height: 30px;
 }
 
 /* note: divider only appears on your own profile dialog */
-.body-_QAKrE > .divider-1NpGam {
+.body-1Ukv50 > .divider-1NpGam {
 	border-top: 9px solid var(--background-tertiary);
 	margin: 0 0 0;
 }
@@ -219,29 +308,30 @@ div.topSection-1Khgkv > header > div > div:nth-child(1) > div {
 	background: var(--bg-overlay-1);
 }
 
-.customStatusSection-2TRu5f {
+.customStatusSection-2_fKRl {
 	max-height: calc(100vh - 20px);
 	padding-top: 0px;
 	padding-bottom: 10px;
+	text-align: center;
 }
 
-.userPopoutOuter-3AVBmJ {
+.userPopoutOuter-1OHwPL {
 	width: 250px;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
 	border-radius: 3px;
 }
 
-.section-3FmfOT .eyebrow-1Shfyi,
-.section-3FmfOT .headerTextNormal-Z8we9g,
-.userInfoSectionHeader-48g5Qj {
+.section-28YDOf .eyebrow-1Shfyi,
+.section-28YDOf .headerTextNormal-Z8we9g,
+.userInfoSectionHeader-2mYYun {
 	color: var(--header-secondary);
 }
 
-.avatarPositionPremiumBanner-2nq2Fy {
+.avatarPositionPremiumBanner-2EAbSH {
 	top: 15px;
 }
 
-.badgeList-2pMvZX {
+.badgeList-2aoHPw {
 	background-color: transparent;
 }
 
@@ -260,12 +350,8 @@ div {
 	--profile-role-pill-border-color: var(--interactive-normal);
 }
 
-.customStatus-3Bvsdb {
-	justify-content: center;
-	display: flex;
-}
-.customStatusText-2bcbbm {
-	text-align: center;
+.customStatusText-V9aTHE {
+	text-align: center !important;
 	color: var(--header-secondary);
 	max-width: 250px;
 }
@@ -274,17 +360,17 @@ header .bannerSVGWrapper-qc0szY {
 	display: grid;
 }
 
-.container-1U-qVy,
-.topSection-1Khgkv,
-.tabBarContainer-2UG0vy {
+.container-3g15px,
+.topSection-13QKHs,
+.tabBarContainer-sCZC4w {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY,
-.tabBarContainer-2UG0vy {
+.userProfileInnerThemedNonPremium-2AJg-H,
+.tabBarContainer-sCZC4w {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
-.tabBarContainer-2UG0vy {
+.tabBarContainer-sCZC4w {
 	padding: 21px;
 	padding-right: 10px;
 	padding-bottom: 0;
@@ -310,7 +396,7 @@ header .bannerSVGWrapper-qc0szY {
 	padding: 0px;
 }
 
-.userPopoutInner-1hXSeY:before {
+.userPopoutInner-nv9Y92:before {
 	height: 0;
 	width: 0;
 }
@@ -319,7 +405,7 @@ header .bannerSVGWrapper-qc0szY {
 	height: 100px !important;
 }
 
-.usernameSection-2d814A {
+.usernameSection-3FppkT {
 	padding-top: 10px;
 }
 
@@ -364,9 +450,9 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 	display: none;
 }
 div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
-	> div.userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors.profileCustomizationPreviewWithoutTheme-2OWKhI.profileCustomizationPreview-2-Y173
+	> div.userPopoutOuter-1OHwPL.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors.profileCustomizationPreviewWithoutTheme-2OWKhI.profileCustomizationPreview-2-Y173
 	> div
-	> div.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi.body-3wEtTO
+	> div.userPopoutOverlayBackground-3A0Pcz.overlayBackground-2aa7wt.body-3wEtTO
 	> div:nth-child(1) {
 	margin-top: 90px;
 }
@@ -387,10 +473,10 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 .premiumFeatureBorder-1i95si .status-b9jLr4 {
 	background: var(--background-secondary);
 }
-.premiumFeatureBorder-1i95si .userPopoutOverlayBackground-dKOOda {
+.premiumFeatureBorder-1i95si .userPopoutOverlayBackground-3A0Pcz {
 	margin-top: 90px;
 }
-.premiumFeatureBorder-1i95si .userProfileInner-3F03PX {
+.premiumFeatureBorder-1i95si .userProfileInner-1ngKnf {
 	background: var(--background-secondary);
 	min-height: 0;
 	max-height: 100%;
