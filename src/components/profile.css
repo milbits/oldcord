@@ -335,6 +335,11 @@ div {
 	--profile-role-pill-border-color: var(--interactive-normal);
 }
 
+.customStatus-19KW6v {
+	justify-content: center;
+	display: flex;
+}
+
 .customStatusText-V9aTHE {
 	text-align: center !important;
 	color: var(--play-primary, var(--header-secondary));
