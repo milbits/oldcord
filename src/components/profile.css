@@ -23,6 +23,7 @@
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
 	--play-secondary: hsla(0, 0%, 100%, 0.8) !important;
+	--play-primary: #fff;
 }
 /* Listening to Spotify*/
 .userPopoutOuter-1OHwPL:has([src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"]) {
@@ -117,22 +118,15 @@
 
 /* activity buttons*/
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_ {
-	background: transparent !important;
+	background: transparent;
 	color: #fff;
-	border: 1px solid #ffffff4d;
+	border: 1px solid #fff;
 	transition: 0.17s ease;
-}
-.userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:not(:disabled):hover {
-	border-color: #ffffff99;
-	opacity: 1;
+	opacity: 1 !important;
 }
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:not(:disabled):active {
 	border-color: #fff;
-}
-
-.theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
-.contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL {
-	color: #fff !important;
+	background: #ffffff1a;
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
@@ -140,18 +134,22 @@
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
 }
-/* color fixed*/
+/* color fixes*/
 .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
 .playTime-3fSgOm {
 	color: #f6fbf9;
 }
-.username-3JLfHz:not(.userTagUsernameNoNickname-2lKUnI, .username-3dP0mA),
+.username-3JLfHz:not(.userTagUsernameNoNickname-2lKUnI, .username-3dP0mA, .username-3JLfHz),
 .discrimBase-v65kTs {
 	color: var(--play-secondary, var(--header-secondary));
 }
 .userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
 	background-color: #fff;
 	color: var(--blurple);
+}
+.theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+.contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL {
+	color: #fff !important;
 }
 /*! normal profile popout*/
 
@@ -352,7 +350,7 @@ div {
 
 .customStatusText-V9aTHE {
 	text-align: center !important;
-	color: var(--header-secondary);
+	color: var(--play-primary, var(--header-secondary));
 	max-width: 250px;
 }
 
@@ -429,7 +427,7 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 	position: relative;
 	top: 5px;
 }
-.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2_V0PM.container-5SvbtF {
+.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2Yws8V.container-1gYwHN {
 	transform: scale(1.5);
 	position: relative;
 	left: 33px;
