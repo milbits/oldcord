@@ -1,10 +1,3 @@
-.profileBadges-2pItdR,
-.bannerSVGWrapper-2CLfzN,
-.divider-2dDziJ,
-#account.menu-1QACrS .profileBody-3QbfPe,
-.userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ {
-	display: none;
-}
 
 /*! bottom-left popout */
 .animatorTop-3DwSmU .userPopoutOuter-1OHwPL {
@@ -43,12 +36,6 @@
 	--play-dark: var(--xbox-dark);
 }
 
-/* Playing on PlayStation*/
-.userPopoutOuter-1OHwPL:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
-	--play: var(--playstation);
-	--play-dark: var(--playstation-dark);
-}
-
 /* Watching Crunchyroll*/
 .userPopoutOuter-1OHwPL:has([alt="Crunchyroll"]) {
 	--play: var(--crunchyroll);
@@ -75,7 +62,7 @@
 
 /* Playing on PlayStation*/
 .userPopoutOuter-1OHwPL:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
-	--play: var(--playstation);
+	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
 }
 

@@ -146,9 +146,6 @@
 	transition: 0.1s;
 }
 
-.bd-switch svg {
-	display: none;
-}
 .bd-switch input:active + .bd-switch-body {
 	--switch-color: var(--input-grey) !important;
 }
@@ -201,37 +198,26 @@
 .unreadIcon-3dqgX9,
 .container-1QtPKm svg,
 .communityInfoPill-2Mll66,
-.item-2GWPIy svg {
+.item-2GWPIy svg,
+.collapseable-DdnHFl:before,
+.collapseable-DdnHFl .pointer-1p1R-4,
+.container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle,
+.sessionMoreButton-2cApSx svg,
+.profileBadges-2pItdR,
+.bannerSVGWrapper-2CLfzN,
+.divider-2dDziJ,
+#account.menu-1QACrS .profileBody-3QbfPe,
+.userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ,
+/* bd switch icon*/
+.bd-switch svg {
 	display: none;
 }
 
-/** login page*/
+/* login page*/
 .characterBackground-1BPOOJ {
 	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 1;
-	transition: opacity 0.2s linear 0.2s;
 	background-size: cover;
 	background-position: center;
-}
-.logo-2Rw1Ex {
-	background: url(https://discord.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg);
-}
-.image-3yFrLs {
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	transition: opacity 0.2s linear 0.2s;
-}
-.image-3yFrLs.loaded-208lqP {
-	opacity: 1;
-}
-.imageAccessory-2yA7Kb {
-	left: unset;
-	right: 6px;
 }
 
 /** make the bio not cut off*/
@@ -490,12 +476,6 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background: none;
 	border: none;
 }
-.collapseable-DdnHFl:before {
-	display: none;
-}
-.collapseable-DdnHFl .pointer-1p1R-4 {
-	display: none;
-}
 
 .container-AxP_J8 {
 	border-radius: 5px;
@@ -543,9 +523,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .theme-light .container-AxP_J8 .backgroundModifierContainer-WjXgb2 .radioItem-9hpM39 path {
 	fill: #b9bbbe;
 }
-.container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle {
-	display: none;
-}
+
 .container-AxP_J8 .selected-2f8_FP {
 	color: #fff !important;
 	background-color: var(--blurple);
@@ -881,9 +859,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 50%;
 	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease, -webkit-box-shadow 0.1s ease-in-out, -webkit-transform 0.2s ease;
 }
-.sessionMoreButton-2cApSx svg {
-	display: none;
-}
+
 .session-9khLqt:hover .sessionMoreButton-2cApSx,
 .sessionMoreButton-2cApSx:hover {
 	opacity: 1;
