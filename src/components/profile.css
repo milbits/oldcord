@@ -1,4 +1,3 @@
-
 /*! bottom-left popout */
 .animatorTop-3DwSmU .userPopoutOuter-1OHwPL {
 	width: 225px;
@@ -13,9 +12,7 @@
 /** Variables*/
 
 .userPopoutOuter-1OHwPL:has(.activityUserPopoutV2-3eKqzY) {
-	--play: var(--brand-experiment);
-	--play-dark: var(--brand-experiment-530);
-	--play-secondary: hsla(0, 0%, 100%, 0.8) !important;
+	--play-secondary: rgba(255, 255, 255, 0.8) !important;
 	--play-primary: #fff;
 }
 /* Listening to Spotify*/
@@ -96,12 +93,6 @@
 	background-color: var(--play-dark);
 	padding: 12px;
 }
-.activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
-	color: #fff !important;
-}
-.discrimBase-v65kTs:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY) {
-	color: #f6fbf9 !important;
-}
 
 /* activity buttons*/
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_ {
@@ -122,12 +113,20 @@
 	padding-left: 12px;
 }
 /* color fixes*/
+.activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
+	color: #fff !important;
+}
+.discrimBase-v65kTs:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY) {
+	color: #f6fbf9 !important;
+}
+
 .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
 .playTime-3fSgOm {
 	color: #f6fbf9;
 }
 .username-3JLfHz:not(.userTagUsernameNoNickname-2lKUnI, .username-3dP0mA, .username-3JLfHz),
-.discrimBase-v65kTs {
+.discrimBase-v65kTs,
+.userTagWithNickname-13lfvd .username-3JLfHz {
 	color: var(--play-secondary, var(--header-secondary));
 }
 .userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
@@ -312,10 +311,6 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	color: var(--header-secondary);
 }
 
-.avatarPositionPremiumBanner-2EAbSH {
-	top: 15px;
-}
-
 .badgeList-2aoHPw {
 	background-color: transparent;
 }
@@ -339,15 +334,10 @@ div {
 	justify-content: center;
 	display: flex;
 }
-
 .customStatusText-V9aTHE {
 	text-align: center !important;
 	color: var(--play-primary, var(--header-secondary));
 	max-width: 250px;
-}
-
-header .bannerSVGWrapper-qc0szY {
-	display: grid;
 }
 
 .container-3g15px,
@@ -376,9 +366,9 @@ header .bannerSVGWrapper-qc0szY {
 	background: var(--background-tertiary);
 	max-height: 40px !important;
 }
-
+.avatarPositionPremiumBanner-2EAbSH,
 .avatarPositionPremium-1zPBq9,
-.avatarPositionPremiumNoBanner-nWzERs {
+.avatarPositionPremiumNoBanner-2u3xDC {
 	top: 15px !important;
 }
 

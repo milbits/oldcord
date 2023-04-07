@@ -158,6 +158,9 @@ body {
 	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 	/* activity colors*/
+	--play: var(--brand-experiment);
+	--play-dark: var(--brand-experiment-530);
+
 	--twitch-dark: #503086;
 	--twitch: #593695;
 	--youtube-dark: #b61d1d;

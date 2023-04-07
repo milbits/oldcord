@@ -176,10 +176,9 @@
 
 /** display:none graveyard*/
 .sessionMoreButton-2cApSx svg,
-.canvas-2dBZRV,
-.fallbackImage-kwjEnv,
-.image-3yFrLs,
+/* login page*/
 .artwork-L5TAwQ,
+
 .banner-2MAbnt,
 .newMemberBadge-3PdStX,
 .container-1xC34H,
@@ -189,26 +188,29 @@
 .banner-3Uu4yV,
 .container-1eD8xH,
 .item-1TA5qI .radioBar-1XgZqD circle,
+/* status picker profile*/
 .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-2CLfzN,
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
 .accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before,
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2-eHMB *),
+
 .unreadIcon-3dqgX9,
 .container-1QtPKm svg,
 .communityInfoPill-2Mll66,
 .item-2GWPIy svg,
+/* safety setup*/
 .collapseable-DdnHFl:before,
 .collapseable-DdnHFl .pointer-1p1R-4,
 .container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle,
 .sessionMoreButton-2cApSx svg,
+/* profile popout*/
 .profileBadges-2pItdR,
 .bannerSVGWrapper-2CLfzN,
 .divider-2dDziJ,
 #account.menu-1QACrS .profileBody-3QbfPe,
 .userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ,
-/* bd switch icon*/
 .bd-switch svg {
 	display: none;
 }
