@@ -8,12 +8,16 @@
 	width: 225px;
 }
 
+
+
 /*! [WIP] revert activity profile*/
 /** Variables*/
 
 .userPopoutOuter-1OHwPL:has(.activityUserPopoutV2-3eKqzY) {
 	--play-secondary: rgba(255, 255, 255, 0.8) !important;
 	--play-primary: #fff;
+	--play: var(--brand-experiment);
+	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
 .userPopoutOuter-1OHwPL:has([src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"]) {
@@ -74,7 +78,7 @@
 	/*if we dont do this, the activity background color will be "seperated" idk*/
 	padding: 0 !important;
 }
-.scroller-15bIdk:has(.activityUserPopoutV2-3eKqzY)::-webkit-scrollbar {
+.scroller-15bIdk::-webkit-scrollbar {
 	width: 0px;
 }
 /* make top profile blurple*/
@@ -111,6 +115,20 @@
 .section-28YDOf,
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
+}
+
+/* make bio and member since bg same as top*/
+.section-28YDOf:has(.lineClamp2Plus-2SCQmH, .memberSinceContainer-2CBD23) {
+	background: var(--play-dark, var(--background-tertiary));
+}
+/* fix padding*/
+.section-28YDOf:has(.memberSinceContainer-2CBD23) {
+	padding-bottom: 5px;
+	padding-right: 12px;
+}
+.lastSection-q3HCfo,
+.section-28YDOf:has(.note-1NN2aP) {
+	padding-right: 12px;
 }
 /* color fixes*/
 .activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
