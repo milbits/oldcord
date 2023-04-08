@@ -115,15 +115,6 @@
 	padding-left: 12px;
 }
 
-/* make bio and member since bg same as top*/
-.section-28YDOf:has(.lineClamp2Plus-2SCQmH, .memberSinceContainer-2CBD23) {
-	background: var(--play-dark, var(--background-tertiary));
-}
-/* fix padding*/
-.section-28YDOf:has(.memberSinceContainer-2CBD23) {
-	padding-bottom: 5px;
-	padding-right: 12px;
-}
 .lastSection-q3HCfo,
 .section-28YDOf:has(.note-1NN2aP) {
 	padding-right: 12px;
