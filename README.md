@@ -45,4 +45,3 @@ Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't bec
 
 -   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original code
 -   [DTM-16](https://github.com/XYZenix/DTM-16) for the switches, old radio bars and some of the profile code
-
