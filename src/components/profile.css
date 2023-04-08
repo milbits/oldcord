@@ -86,7 +86,7 @@
 	background: var(--play) !important;
 }
 /*make status icon white*/
-.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect {
+.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect:not([stroke-opacity=".4"]) {
 	fill: #fff !important;
 }
 
