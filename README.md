@@ -2,7 +2,7 @@
 
 A theme for Discord that brings back the classic 2020 UI without removing features.
 
-![Preview](https://cdn.discordapp.com/attachments/1088094000294142033/1088154272283230208/image.png)
+![Preview](https://raw.githubusercontent.com/damoyai/oldcord/master/.github/preview.png)
 
 ###### the folders are not part of the theme
 
