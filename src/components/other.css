@@ -222,7 +222,7 @@
 	background-position: center;
 }
 
-/** make the bio not cut off*/
+/** add a scrollbar at the bio*/
 .lineClamp2Plus-2SCQmH {
 	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
@@ -232,8 +232,6 @@
 .lineClamp2Plus-2SCQmH::-webkit-scrollbar-thumb {
 	background: transparent;
 	border-radius: 99px;
-	max-height: 20px;
-	padding-right: 17px;
 }
 .lineClamp2Plus-2SCQmH::-webkit-scrollbar {
 	width: 4px;
@@ -248,110 +246,9 @@
 }
 
 .scroller-15bIdk::-webkit-scrollbar-thumb,
-.infoScroller-3MqKC5::-webkit-scrollbar-thumb {
+.infoScroller-1QMpon::-webkit-scrollbar-thumb {
 	background: var(--background-tertiary);
 	border: 2px solid var(--background-secondary);
-}
-
-/** vc debug thing*/
-.section-2zQkYM {
-	border-radius: 4px;
-	box-shadow: var(--elevation-high);
-	background: var(--background-primary);
-}
-.section-2zQkYM {
-	padding: 14px 20px;
-}
-.section-2zQkYM p {
-	font-size: 14px;
-	line-height: 18px;
-	margin-bottom: 0;
-}
-.section-2zQkYM a {
-	color: var(--text-link);
-	text-decoration: none;
-}
-.section-2zQkYM hr {
-	border-bottom: none;
-	margin: 14px -15px;
-}
-.section-2zQkYM .debugButton-OTfjlB {
-	font-size: 12px;
-	cursor: pointer;
-	font-weight: 500;
-}
-
-.header-2C89wJ {
-	text-transform: uppercase;
-	background-color: rgba(115, 139, 215, 0.98);
-	padding: 13px;
-	font-weight: 500;
-	border-radius: 3px 3px 0 0;
-}
-.header-2C89wJ:last-child {
-	border-radius: 3px;
-}
-.white-3xi-nx {
-	color: #fff;
-}
-
-.secured-2wavXv {
-	font-size: 12px;
-	font-weight: 500;
-}
-
-.secured-2wavXv:before {
-	content: " ";
-	background: url(https://discord.com/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
-	width: 9px;
-	height: 12px;
-	background-size: 9px 12px;
-	margin-right: 4px;
-	vertical-align: bottom;
-}
-
-.popoutBottom-15-vLu {
-	margin-top: 14px;
-}
-
-.theme-light .section-2zQkYM section {
-	background-color: #fff;
-}
-.theme-light .section-2zQkYM section p {
-	color: #8a8e94;
-}
-.theme-light .section-2zQkYM hr {
-	border: 1px solid #f0f0f0;
-}
-.theme-light .debugButton-OTfjlB {
-	color: #99aab5;
-}
-.theme-light .secured-2wavXv {
-	color: var(--green);
-}
-.theme-dark .section-2zQkYM section {
-	background-color: #36393f;
-}
-.theme-dark .section-2zQkYM section p {
-	color: hsla(0, 0%, 100%, 0.4);
-}
-.theme-dark .section-2zQkYM section strong {
-	color: #b9bbbe;
-}
-.theme-dark .section-2zQkYM section:after {
-	border-top-color: #36393f;
-}
-.theme-dark .section-2zQkYM .header-2C89wJ {
-	background-color: var(--background-secondary);
-}
-.theme-dark .section-2zQkYM hr {
-	border: none;
-}
-.theme-dark .debugButton-OTfjlB {
-	color: #99aab5;
-}
-.theme-dark .secured-2wavXv {
-	color: var(--green);
 }
 
 /** Mute/Account switch notification */
