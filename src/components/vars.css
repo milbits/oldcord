@@ -94,7 +94,7 @@ body {
 	--brand-experiment-400: hsl(226, calc(var(--saturation-factor, 1) * 58%), 72%);
 	--brand-experiment-430: hsl(227, calc(var(--saturation-factor, 1) * 58%), 70%);
 	--brand-experiment-460: hsl(227, calc(var(--saturation-factor, 1) * 59%), 68%);
-	--brand-experiment: var(--blurple);
+	--brand-experiment: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%);
 	--brand-experiment-500: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%);
 	--brand-experiment-530: hsl(227, calc(var(--saturation-factor, 1) * 45%), 59%);
 	--brand-experiment-560: hsl(227, calc(var(--saturation-factor, 1) * 35%), 53%);
