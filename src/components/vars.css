@@ -69,17 +69,17 @@ body {
 	--text-muted: #72767d;
 	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	--blurple: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%);
+	--blurple: var(--brand-experiment);
 	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
 	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
-	--blurple-inverted: #f8f9fd;
-	--blurple-inverted-active: #e3e7f8;
-	--text-brand: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%);
-	--brand-260: hsl(226, calc(var(--saturation-factor, 1) * 59%), 89%);
-	--brand-360: hsl(227, calc(var(--saturation-factor, 1) * 58%), 78%);
-	--brand-460: hsl(227, calc(var(--saturation-factor, 1) * 59%), 68%);
-	--brand-500: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%);
-	--brand-560: hsl(227, calc(var(--saturation-factor, 1) * 35%), 53%);
+	--blurple-inverted: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
+	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
+	--text-brand: var(--brand-experiment);
+	--brand-260: var(--brand-experiment-260);
+	--brand-360: var(--brand-experiment-360);
+	--brand-460: var(--brand-experiment-460);
+	--brand-500: var(--brand-experiment);
+	--brand-560: var(--brand-experiment-560);
 	--brand-new-560: var(--brand-560);
 	--brand-new-500: var(--blurple);
 	--brand-experiment-100: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
@@ -127,8 +127,8 @@ body {
 	--brand-experiment-85a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 85%);
 	--brand-experiment-90a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 90%);
 	--brand-experiment-95a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 95%);
-	--red-inverted: #fef6f6;
-	--red-inverted-active: #fcdada;
+	--red-inverted: hsl(0, calc(var(--saturation-factor, 1) * 80%), 98%);
+	--red-inverted-active: hsl(0, calc(var(--saturation-factor, 1) * 85%), 92%);
 	--yellow: hsl(38, calc(var(--saturation-factor, 1) * 96%), 54%);
 	--yellow-360: var(--yellow);
 	--status-yellow-560: var(--yellow);
@@ -174,7 +174,7 @@ body {
 }
 * {
 	--text-danger: var(--red) !important;
-	--input-grey: #72767d;
+	--input-grey: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
 	--status-danger: var(--red) !important;
 	--status-positive-background: var(--green);
 }

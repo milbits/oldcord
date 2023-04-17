@@ -615,8 +615,18 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	max-width: 520px;
 }
 
-/** forum channel tweaks*/
+/** forum channel*/
+/* selected tags in create post*/
+#app-mount .pill-3pRQlO.selected-24z1Ou {
+	background-color: var(--brand-experiment-35a);
+	border-color: transparent;
+	transition: 0.1s ease;
+}
 
+#app-mount .pill-3pRQlO.selected-24z1Ou:hover {
+	background-color: var(--brand-experiment-50a);
+	transition: 0.1s ease;
+}
 /*make follow button green*/
 .buttonInner-3aRbcx {
 	background-color: var(--green);
@@ -663,7 +673,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .container-2qVG6q .pill-3pRQlO {
 	background-color: var(--background-tertiary);
 }
-.newBadge-1LcB6t {
+.newBadge-1LcB6t,
+.newChannel-3q3LPr {
 	background-color: var(--blurple) !important;
 	color: #fff;
 }
@@ -998,7 +1009,27 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .icons-1UZPvE > .wrapTwo-3T9wbh > .icon-HW4tZ-.two-1t2_74.image-2ssF8k {
 	background-image: url(https://discord.com/assets/4ab2ee5027741df387151ca717ae5614.svg) !important;
 }
+
 .imageAccessory-2yA7Kb {
 	left: unset;
 	right: 6px;
+}
+
+/* Voice Messages*/
+.playButtonContainer-2F2cAR {
+	background: none !important;
+}
+.playButtonContainer-2F2cAR:active {
+	transform: translateY(1px) !important;
+}
+.rippleContainer-3ZCne6 {
+	display: none;
+}
+#app-mount .playIcon-1cttj4 {
+	color: var(--interactive-normal);
+	width: 25px;
+	height: 25px;
+}
+#app-mount .playIcon-1cttj4:hover {
+	color: var(--interactive-active);
 }

@@ -72,6 +72,7 @@
 	background: var(--red);
 }
 
+
 /** search bar colors*/
 .container-2McqkF {
 	border: 1px solid var(--bg-overlay-6, var(--background-tertiary));
@@ -514,18 +515,19 @@
 }
 
 #app-mount .channelRow-4X_3fi:hover {
-	background-color: var(--background-secondary-alt);
+	background-color: var(--background-modifier-hover);
 }
 
 /*active now in friends tab*/
 .nowPlayingColumn-1eCBCN .container-1oAagU,
 .profileCard-2gVmvm,
-.channelRow-4X_3fi,
 /*from channels and roles but duplicate things are cringe*/
 .prompt-1sE27N {
 	background-color: var(--background-secondary);
 }
-
+.scroller-hE2gWq {
+	border: none;
+}
 .nowPlayingColumn-1eCBCN h2 {
 	color: var(--header-secondary);
 	text-transform: uppercase;
