@@ -116,6 +116,21 @@
 .passthrough--fbdFR.selected-3jieYB {
 	background-color: #787e8a;
 }
+.passthrough--fbdFR svg {
+	display: none;
+}
+.passthrough--fbdFR:not(.selected-3jieYB)::after {
+	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(120, 126, 138)' class='ci-primary'/></svg>");
+    height: 16px;
+    width: 16px;
+    rotate: 45deg;
+}
+.passthrough--fbdFR.selected-3jieYB::after {
+	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(255, 255, 255)' class='ci-primary'/></svg>");
+    height: 16px;
+    width: 16px;
+    rotate: 45deg;
+}
 .item-4m-12I {
 	cursor: pointer;
 }
@@ -1033,4 +1048,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 #app-mount .playIcon-1cttj4:hover {
 	color: var(--interactive-active);
+}
+/* Green Speaking Border in Maximized Voice Chats */
+.border-2Vy6FN.speaking-7QZEkv {
+	box-shadow: inset 0 0 0 2px var(--green-360);
 }

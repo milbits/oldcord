@@ -185,6 +185,7 @@
 }
 
 .userProfileOuterThemed-2BgJCM,
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp,
 .userProfileInnerThemedWithBanner-25XGmz {
 	background: var(--bg-overlay-1, var(--background-tertiary));
 	box-shadow: none;
@@ -222,6 +223,7 @@ div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPosit
 /* do the same but for profiles with premium and no colours or something idfk */
 div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > circle,
 div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2),
+div.avatarHoverTarget-1zzfRL > .wrapper-3Un6-K > svg > circle,
 /* and the same for full profile dialogs */
 div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > circle,
 div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > rect:nth-child(2) {
