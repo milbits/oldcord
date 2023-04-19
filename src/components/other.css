@@ -121,15 +121,15 @@
 }
 .passthrough--fbdFR:not(.selected-3jieYB)::after {
 	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(120, 126, 138)' class='ci-primary'/></svg>");
-    height: 16px;
-    width: 16px;
-    rotate: 45deg;
+	height: 16px;
+	width: 16px;
+	rotate: 45deg;
 }
 .passthrough--fbdFR.selected-3jieYB::after {
 	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(255, 255, 255)' class='ci-primary'/></svg>");
-    height: 16px;
-    width: 16px;
-    rotate: 45deg;
+	height: 16px;
+	width: 16px;
+	rotate: 45deg;
 }
 .item-4m-12I {
 	cursor: pointer;

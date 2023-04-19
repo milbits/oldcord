@@ -270,6 +270,9 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	left: 10px;
 	margin-right: 10px;
 }
+.container-3g15px:has(.customStatusSoloEmoji-FOEfyF) ~ .tabBarContainer-sCZC4w {
+	padding-top: 35px;
+}
 
 .headerTop-1PNKck > .badgeList-2aoHPw {
 	transform-origin: top left;
@@ -291,7 +294,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 }
 
 /* note: divider only appears on your own profile dialog */
-.body-1Ukv50 > .divider-1NpGam {
+.body-1Ukv50 > .divider-SH6OnO {
 	border-top: 9px solid var(--background-tertiary);
 	margin: 0 0 0;
 }
