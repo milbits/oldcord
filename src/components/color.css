@@ -333,7 +333,8 @@
 	background-color: var(--brand-experiment-30a);
 }
 
-.reaction-3vwAF2 .reactionInner-YJjOtT {
+.reaction-3vwAF2 .reactionInner-YJjOtT,
+.reaction-3vwAF2.reactionInner-YJjOtT {
 	padding: 0 0.375rem;
 }
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As,
