@@ -485,15 +485,22 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 /*general activity buttons*/
 .buttonColor-XIRMbp {
 	transition: 0.17s ease;
-	color: #fff !important;
+	color: var(--white-500) !important;
 	opacity: 1 !important;
 }
 .buttonColor-XIRMbp:hover {
 	background-color: var(--button-secondary-background-hover);
 }
-/*dont make the text cut off*/
+/*dont cut off text*/
 .contents-3NembX {
 	overflow: visible !important;
+}
+
+/** makes the time in user popout visible. for the timezones plugin (https://betterdiscord.app/plugin/Timezones) */
+.timezone-banner-container {
+	position: fixed;
+	margin-top: 35px;
+	margin-left: 260px;
 }
 
 /*! Roles */

@@ -632,6 +632,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 /** forum channel*/
 /* selected tags in create post*/
+/*
 #app-mount .pill-3pRQlO.selected-24z1Ou {
 	background-color: var(--brand-experiment-35a);
 	border-color: transparent;
@@ -642,6 +643,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--brand-experiment-50a);
 	transition: 0.1s ease;
 }
+*/
+
 /*make follow button green*/
 .buttonInner-3aRbcx {
 	background-color: var(--green);
@@ -1010,7 +1013,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg);
 }
 
-/* revert too powerful dialog */
+/** revert too powerful dialog */
 .uploadDropModal-13Kd20 .inner-rBP-MS .instructions-272j2A {
 	color: hsl(var(--white-500-hsl) / 0.4);
 }
@@ -1031,7 +1034,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	right: 6px;
 }
 
-/* Voice Messages*/
+/** Voice Messages*/
 .playButtonContainer-2F2cAR {
 	background: none !important;
 }
@@ -1048,8 +1051,4 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 #app-mount .playIcon-1cttj4:hover {
 	color: var(--interactive-active);
-}
-/* Green Speaking Border in Maximized Voice Chats */
-.border-2Vy6FN.speaking-7QZEkv {
-	box-shadow: inset 0 0 0 2px var(--green-360);
 }
