@@ -2,8 +2,12 @@
 
 A theme for Discord that brings back the classic 2020 UI without removing features.
 
-![Preview](https://raw.githubusercontent.com/damoyai/oldcord/master/.github/preview.png)
-![PreviewLight](https://raw.githubusercontent.com/damoyai/oldcord/master/.github/previewLight.png)
+![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.png)
+
+<details> <summary><strong>Light mode</strong></summary>
+<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.png>
+
+</details>
 
 ###### preview might be outdated
 
@@ -23,7 +27,7 @@ Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't bec
 
 ### Using BetterDiscord
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/damoyai/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
 2. Save it to the BetterDiscord theme folder:
 
 -   Windows: `%appdata%/BetterDiscord/themes`
