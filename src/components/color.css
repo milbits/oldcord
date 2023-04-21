@@ -32,13 +32,10 @@
 [style="background: rgb(35 165 90);"] {
 	background-color: var(--green) !important;
 }
-[class*="hintText"],
 [style*="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:not(.themed-2-lozF) {
 	color: var(--green) !important;
 }
-[style*="background-color: rgb(88, 101, 242);"] {
-	background-color: var(--brand-experiment) !important;
-}
+
 [style*="border-color: rgba(88, 101, 242, 0.6);"] {
 	border-color: #7289da00 !important;
 }
@@ -47,27 +44,22 @@
 }
 
 [style*="background-color: rgb(88, 101, 242);"],
-.colorBrandNew-abZT3v,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
 .progressBar-1T6LYX,
-.progressBar-18rmp1.selectedProgressBar-11z5d9,
-.bd-addon-views .bd-view-button.selected,
-.bd-button {
+.progressBar-18rmp1.selectedProgressBar-11z5d9 {
 	background-color: var(--brand-experiment) !important;
 }
-.colorBrandNew-abZT3v:hover,
-.bd-button:hover,
-.menuItemFocused-1a4_bh,
+#app-mount .colorBrandNew-abZT3v:hover,
+#app-mount .menuItemFocused-1a4_bh,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
-	background-color: var(--blurple-hover) !important;
+	background-color: var(--blurple-hover);
 }
 
-.colorBrandNew-abZT3v:active,
+#app-mount .colorBrandNew-abZT3v:active,
 .menuItemFocused-1a4_bh:active,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:active,
-.bd-button:active {
-	background-color: var(--blurple-active) !important;
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
+	background-color: var(--blurple-active);
 }
 
 .topGuildEmojiBadge-3DiG2v {

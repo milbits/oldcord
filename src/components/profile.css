@@ -116,7 +116,9 @@
 }
 
 .lastSection-q3HCfo,
-.section-28YDOf:has(.note-1NN2aP) {
+.section-28YDOf:has(.note-1NN2aP),
+.section-28YDOf:has(.applicationInstallButtonContent-jRgHua),
+.section-28YDOf:has(.lineClamp2Plus-2SCQmH) {
 	padding-right: 12px;
 }
 /* color fixes*/
@@ -144,6 +146,16 @@
 .contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL {
 	color: #fff !important;
 }
+.defaultColor-1GKx81 {
+	color: var(--play-primary, var(--header-primary));
+}
+.activityName-3YXl6e {
+	color: var(--play-primary, var(--text-normal)) !important;
+}
+.userTagUsernameNoNickname-2lKUnI {
+	color: var(--play-primary, var(--interactive-active)) !important;
+}
+
 /*! normal profile popout*/
 
 .nameTag-H6kSJ0,
