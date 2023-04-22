@@ -110,7 +110,7 @@
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
-.section-28YDOf,
+[class*="animatorLeft"] .section-28YDOf,
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
 }
@@ -158,8 +158,8 @@
 
 /*! normal profile popout*/
 
-.nameTag-H6kSJ0,
-.nickname-3P1RuO {
+[class*="animatorLeft"] .nameTag-H6kSJ0,
+[class*="animatorLeft"] .nickname-3P1RuO {
 	text-align: center;
 }
 .headerTop-3GPUSF.copiableNameTag-3f6roa {
@@ -177,11 +177,11 @@
 	background: var(--bg-overlay-1, var(--background-tertiary));
 }
 
-.overlayBackground-2aa7wt {
+[class*="animatorLeft"] .overlayBackground-2aa7wt {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
 
-.banner-2boKnS,
+[class*="animatorLeft"] .banner-2boKnS,
 .userPopoutInner-nv9Y92 {
 	background-color: none !important;
 }
@@ -190,15 +190,16 @@
 	position: relative !important;
 	padding-bottom: 16px;
 	width: 0px;
+	z-index: 1;
 }
 
 .userProfileInnerThemedNonPremium-2AJg-H {
 	margin: 0;
 }
 
-.userProfileOuterThemed-2BgJCM,
-.userProfileInnerThemedPremiumWithoutBanner-lZ9inp,
-.userProfileInnerThemedWithBanner-25XGmz {
+[class*="animatorLeft"] .userProfileOuterThemed-2BgJCM,
+[class*="animatorLeft"] .userProfileInnerThemedPremiumWithoutBanner-lZ9inp,
+[class*="animatorLeft"] .userProfileInnerThemedWithBanner-25XGmz {
 	background: var(--bg-overlay-1, var(--background-tertiary));
 	box-shadow: none;
 	padding: 0 !important;
@@ -221,7 +222,7 @@ div.topSection-13QKHs > header > svg.bannerSVGWrapper-qc0szY {
 	font-weight: 600;
 	color: var(--play-secondary, var(--header-secondary));
 }
-.userPopoutOverlayBackground-3A0Pcz {
+[class*="animatorLeft"] .userPopoutOverlayBackground-3A0Pcz {
 	margin: 0;
 	width: 250px;
 	border-radius: 0px;
@@ -323,7 +324,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	text-align: center;
 }
 
-.userPopoutOuter-1OHwPL {
+[class*="animatorLeft"] .userPopoutOuter-1OHwPL {
 	width: 250px;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
 	border-radius: 3px;
@@ -335,12 +336,12 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	color: var(--header-secondary);
 }
 
-.badgeList-2aoHPw {
+[class*="animatorLeft"] .badgeList-2aoHPw {
 	background-color: transparent;
 }
 
 /* fix profile still having messed up colours when custom colours were enabled */
-div {
+[class*="animatorLeft"] * {
 	--profile-gradient-primary-color: var(--background-secondary-alt);
 	--profile-gradient-secondary-color: var(--background-secondary-alt);
 	--profile-gradient-overlay-color: transparent;
@@ -370,7 +371,7 @@ div {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 
-.userProfileInnerThemedNonPremium-2AJg-H,
+[class*="animatorLeft"] .userProfileInnerThemedNonPremium-2AJg-H,
 .tabBarContainer-sCZC4w {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
@@ -386,7 +387,7 @@ div {
 	visibility: hidden !important;
 }
 
-.headerWrapper-3iTlIT {
+[class*="animatorLeft"] .headerWrapper-3iTlIT {
 	background: var(--background-tertiary);
 	max-height: 40px !important;
 }
@@ -463,30 +464,6 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 
 .messageInputContainer-24qqTx {
 	border: none;
-}
-
-/* fixes nitro preview in settings */
-
-.premiumFeatureBorder-1i95si .avatarUploaderPremium-2v2k2d {
-	top: 16px;
-}
-.premiumFeatureBorder-1i95si .avatarUploader-CHGwK7 {
-	position: absolute;
-	left: 33%;
-}
-.premiumFeatureBorder-1i95si .status-b9jLr4 {
-	background: var(--background-secondary);
-}
-.premiumFeatureBorder-1i95si .userPopoutOverlayBackground-3A0Pcz {
-	margin-top: 90px;
-}
-.premiumFeatureBorder-1i95si .userProfileInner-1ngKnf {
-	background: var(--background-secondary);
-	min-height: 0;
-	max-height: 100%;
-}
-.premiumFeatureBorder-1i95si .profileCustomizationPreview-2-Y173 {
-	min-height: 0px;
 }
 
 /** Activity buttons*/
