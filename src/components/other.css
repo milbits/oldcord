@@ -221,9 +221,9 @@
 .container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle,
 .sessionMoreButton-2cApSx svg,
 /* profile popout*/
-[class*="animatorLeft"] .profileBadges-2pItdR,
-:is([class*="animatorLeft"], .accountProfileCard-lbN7n-) .bannerSVGWrapper-2CLfzN,
-[class*="animatorLeft"] .divider-2dDziJ,
+[class*="animator"] .profileBadges-2pItdR,
+:is([class*="animator"], .accountProfileCard-lbN7n-) .bannerSVGWrapper-2CLfzN,
+[class*="animator"] .divider-2dDziJ,
 #account.menu-1QACrS .profileBody-3QbfPe,
 .userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ,
 .bd-switch svg {
