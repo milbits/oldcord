@@ -177,4 +177,5 @@ body {
 	--input-grey: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
 	--status-danger: var(--red) !important;
 	--status-positive-background: var(--green);
+	--__card-accent-color: var(--background-secondary) !important;
 }

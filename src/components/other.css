@@ -522,7 +522,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .input-3O04eu::-webkit-input-placeholder:not(.textarea-_59yqs) {
 	color: var(--text-muted);
 }
-.select-Zz0IcO:hover,
+.select-Zz0IcO:hover:not([aria-disabled="true"]),
 .input-3O04eu:hover,
 .bioTextArea-dDGOeC:hover {
 	border-color: var(--deprecated-text-input-border-hover);
@@ -850,6 +850,10 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-radius: 3px;
 	background: none;
 	border: solid 1px #fff3;
+}
+
+.connection-YOVI9j .metadataContainer-35U-On .text-xs-normal-3O7EaX {
+	color: #fff !important;
 }
 
 .connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH {

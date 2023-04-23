@@ -82,7 +82,7 @@
 /* make top profile blurple*/
 .usernameSection-3FppkT:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
 .customStatusSection-2_fKRl:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
-.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) {
+#app-mount .userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) {
 	background: var(--play) !important;
 }
 /*make status icon white*/
@@ -108,9 +108,13 @@
 	border-color: #fff;
 	background: #ffffff1a;
 }
+.userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:disabled {
+	border-color: #ffffff1a;
+	background: transparent;
+}
 
 /* since the padding of the profile is gone, add padding to every section*/
-:is([class*="animator"], [class*="root"]) .section-28YDOf,
+:is([class*="animator"], [class*="root"]) .section-28YDOf:not(:has(.activity-3uaYny)),
 .activityUserPopoutV2-3eKqzY {
 	padding-left: 12px;
 }
