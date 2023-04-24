@@ -90,7 +90,7 @@
 	position: absolute;
 	top: 0;
 	left: -3px;
-	background: #fff;
+	background: var(--white-500);
 	border-radius: 50px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -695,10 +695,10 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .newChannel-3q3LPr,
 .newBadge-2ldJ8f {
 	background-color: var(--blurple) !important;
-	color: #fff;
+	color: var(--white-500);
 }
 .botTagOP-3pUTXu {
-	color: #fff;
+	color: var(--white-500);
 	background-color: var(--blurple);
 	border-radius: 3px !important;
 }
@@ -836,7 +836,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .connection-YOVI9j .connectionAccountValue-YkFI6F .connectionAccountLabelContainer-1KuLS6 {
 	font-size: 16px;
 	margin-top: 4px;
-	color: #fff;
+	color: var(--white-500);
 	font-weight: 400;
 }
 .connection-YOVI9j .metadataContainer-35U-On {
@@ -867,7 +867,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 .connection-YOVI9j .subEnabledTitle-2YpsZq {
 	position: relative;
-	color: #fff;
+	color: var(--white-500);
 }
 
 .connection-YOVI9j .connectionHeader-Ixbb1s:after {
@@ -891,7 +891,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 .labelRow-NnoUIp .title-2yADjX .text-sm-semibold-S5fJwz {
 	font-weight: 500 !important;
-	color: #fff;
+	color: var(--white-500);
 }
 
 .connection-YOVI9j .integrationsWrapper-1V-5L9 .subEnabledTitle-2YpsZq {
@@ -932,7 +932,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	left: 6px;
 }
 .connection-YOVI9j .connectionDelete-3YgMVq > svg path {
-	fill: #fff;
+	fill: var(--white-500);
 	transform: scale(1.1);
 }
 

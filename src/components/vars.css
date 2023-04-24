@@ -1,18 +1,20 @@
 .theme-dark {
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
-	--header-primary: #fff;
+	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
 	--interactive-normal: #b9bbbe;
 	--interactive-hover: #dcddde;
-	--interactive-active: #fff;
+	--interactive-active: var(--white-500);
 	--interactive-muted: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-primary: hsl(220, calc(var(--saturation-factor, 1) * 8%), 23%);
-	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
+	--modal-background: var(--background-primary);
+	--primary-600: var(--background-primary);
 	--primary-630: var(--background-secondary);
+	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
 	--background-secondary-alt: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
 	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
-	--background-accent: #4f545c;
+	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
 	--background-modifier-hover: #4f545c29;
 	--background-modifier-active: #4f545c3d;
@@ -23,8 +25,6 @@
 	--background-message-hover: #04040512;
 	--background-help-warning: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.102);
 	--background-help-info: #00b0f41a;
-	--modal-background: var(--background-primary);
-	--primary-600: var(--background-primary);
 	--scrollbar-thin-thumb: #202225;
 	--scrollbar-thin-track: transparent;
 	--scrollbar-auto-thumb: #202225;
@@ -35,11 +35,11 @@
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
 	--elevation-high: 0 8px 16px #0000003d;
-	--logo-primary: #fff;
+	--logo-primary: var(--white-500);
 	--focus-primary: var(--brand-experiment);
 	--deprecated-card-bg: hsla(216, calc(var(--saturation-factor, 1) * 7%), 14%, 0.6);
 	--deprecated-card-editable-bg: #2022254d;
-	--deprecated-store-bg: #36393f;
+	--deprecated-store-bg: var(--background-primary);
 	--deprecated-quickswitcher-input-background: #72767d;
 	--deprecated-quickswitcher-input-placeholder: #ffffff4d;
 	--deprecated-text-input-bg: #0000001a;
@@ -50,10 +50,11 @@
 	--button-secondary-background: #4f545c;
 	--button-secondary-background-hover: #72767d;
 	--button-secondary-background-active: #72767d;
+	--primary-transparent: #ffffff1a;
 }
 .theme-light {
 	--channeltextarea-background: #ebedef;
-	--background-modifier-accent: rgba(6, 6, 7, 0.08);
+	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
 	--background-message-hover: rgba(6, 6, 7, 0.02);
@@ -64,6 +65,7 @@
 	--logo-primary: var(--brand-experiment);
 	--focus-primary: var(--brand-experiment);
 	--radio-group-dot-foreground: hsl(227, calc(var(--saturation-factor, 1) * 31%), 44%);
+	--primary-transparent: hsla(214, calc(var(--saturation-factor, 1) * 10%), 50%, 0.102);
 }
 body {
 	--text-muted: #72767d;

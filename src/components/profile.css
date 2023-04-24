@@ -13,7 +13,7 @@
 
 .userPopoutOuter-1OHwPL:has(.activityUserPopoutV2-3eKqzY) {
 	--play-secondary: rgba(255, 255, 255, 0.8) !important;
-	--play-primary: #fff;
+	--play-primary: var(--white-500);
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
 }
@@ -99,13 +99,13 @@
 /* activity buttons*/
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_ {
 	background: transparent;
-	color: #fff;
+	color: var(--white-500);
 	border: 1px solid #fff;
 	transition: 0.17s ease;
 	opacity: 1 !important;
 }
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:not(:disabled):active {
-	border-color: #fff;
+	border-color: var(--white-500);
 	background: #ffffff1a;
 }
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:disabled {
@@ -140,7 +140,7 @@
 	color: var(--play-secondary, var(--header-secondary));
 }
 .userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
-	background-color: #fff;
+	background-color: var(--white-500);
 	color: var(--blurple);
 }
 .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
