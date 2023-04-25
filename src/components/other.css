@@ -293,13 +293,19 @@
 }
 
 /** radiobars (like channel type)*/
+.modal-1Kmy_E {
+	border-radius: 6px;
+}
+.title-CDVS9k {
+	font-weight: 600;
+	text-transform: uppercase !important;
+	font-size: 19px;
+}
 
 .item-1TA5qI {
 	border-radius: 5px;
-	color: var(--interactive-active) !important;
 	background: #0000 !important;
 }
-
 .item-2idW98[aria-checked="false"] .text-md-medium-2n7Vn5,
 .item-1TA5qI[aria-checked="false"] .text-md-medium-2n7Vn5 {
 	color: var(--radio-bar-accent-color) !important;
@@ -315,6 +321,16 @@
 	align-self: flex-start;
 	height: 24px;
 }
+.radioLabelDescription-2ZSE0N {
+	/*Only applies to channel creation*/
+	display: none;
+}
+.radioLabelName-3FiyYq {
+	color: #fff;
+}
+[aria-checked="false"] .text-sm-normal-AEQz4v {
+	color: var(--interactive-normal);
+}
 
 .item-1TA5qI .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	d: path(
@@ -328,12 +344,18 @@
 	fill: #b9bbbe;
 }
 
+/* Channel type icon*/
+.modalContent-33IoUE .radioBar-1XgZqD .icon-1ykL9s,
+.radioBar-1XgZqD.radioBar-3_FqUK .icon-1ykL9s {
+	height: 24px !important;
+	width: 24px !important;
+}
+
 .item-1TA5qI[aria-checked="true"] .radioBar-1XgZqD {
 	--radio-bar-accent-color: var(--blurple);
 	background-color: var(--radio-bar-accent-color);
 	border-color: var(--radio-bar-accent-color);
 }
-
 .item-1TA5qI[aria-checked="true"] .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
@@ -361,12 +383,18 @@
 .theme-light .item-1TA5qI .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	fill: #b9bbbe;
 }
+.radioBarIcon-EiCq-C {
+	order: unset;
+}
 
 .item-1TA5qI[aria-checked="true"] .radioBar-1XgZqD .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) > path {
 	d: path(
 		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
 	) !important;
 	fill: #fff !important;
+}
+.icon-1ykL9s {
+	margin-right: 6px;
 }
 
 /* privacy&safety radiobar colors*/
