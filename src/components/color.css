@@ -182,7 +182,7 @@
 
 .lookOutlined-3RTC7c.colorPrimary-2-Lusz {
 	color: var(--interactive-active) !important;
-	border-color: var(--interactive-active);
+	border-color: var(--interactive-active) !important;
 }
 .lookOutlined-3RTC7c.colorPrimary-2-Lusz:hover {
 	background: none;

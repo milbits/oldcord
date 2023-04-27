@@ -385,6 +385,7 @@
 }
 .radioBarIcon-EiCq-C {
 	order: unset;
+	height: 24px;
 }
 
 .item-1TA5qI[aria-checked="true"] .radioBar-1XgZqD .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) > path {
@@ -397,7 +398,7 @@
 	margin-right: 6px;
 }
 
-/* privacy&safety radiobar colors*/
+/* privacy&safety*/
 .item-1TA5qI .radioBar-1XgZqD[style*="--radio-bar-accent-color:hsl(145.38,65%,39.22%);"] {
 	--radio-bar-accent-color: var(--green) !important;
 }
@@ -406,6 +407,33 @@
 }
 .item-1TA5qI .radioBar-1XgZqD[style*="--radio-bar-accent-color:hsl(358.66,87.32%,59.8%); "] {
 	--radio-bar-accent-color: var(--red) !important;
+}
+
+/* Replace "dont scan" text with how it was before. only for german and english*/
+:is([lang^="de"], [lang^="en"]) .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5,
+:is([lang^="de"], [lang^="en"]) .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v {
+	font-size: 0;
+	line-height: unset;
+}
+:is([lang^="de"], [lang^="en"]) .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
+	font-size: 16px;
+	line-height: 20px;
+}
+:is([lang^="de"], [lang^="en"]) .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
+	font-size: 14px;
+	line-height: 18px;
+}
+[lang^="de"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
+	content: "Ich lebe am Limit";
+}
+[lang^="de"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
+	content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
+}
+[lang^="en"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
+	content: "I live on the edge";
+}
+[lang^="en"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
+	content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
 
 /** "safety setup" in server settings
