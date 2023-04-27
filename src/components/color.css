@@ -290,6 +290,19 @@
 }
 
 /** Revert reactions*/
+@keyframes reactionAnim {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+:is(.reaction-3vwAF2, .reaction-102jx9, .reactionBtn-fVdJIx) {
+	animation: cubic-bezier(0.1, 1, 0.9, 1.1) reactionAnim 0.10s;
+	animation-iteration-count: var(--reaction-animation, 0);
+}
+
 .reaction-3vwAF2,
 .reaction-102jx9 {
 	border-radius: 0.25rem;
