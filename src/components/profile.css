@@ -108,9 +108,12 @@
 	border-color: var(--white-500);
 	background: #ffffff1a;
 }
+
+/*too lazy to find the original colors so i just use one that looks good lmao*/
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_:disabled {
-	border-color: #ffffff1a;
+	border-color: #ffffff5d;
 	background: transparent;
+	color: #ffffff5d;
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
