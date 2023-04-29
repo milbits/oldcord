@@ -1,32 +1,23 @@
 [fill="#3ba55c"],
 [fill="#3BA55C"],
 [fill="rgba(59, 165, 92, 1)"],
-[fill="#23a55a"] {
+[fill="#23a55a"],
+[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
 	fill: var(--green) !important;
 }
-[fill*="#6370f4"] {
-	fill: var(--brand-experiment-530);
-}
-[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-	fill: var(--green);
-}
-[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-	fill: var(--brand-experiment);
-}
+
 [fill="#3ba55c"],
 [style="background-color: rgb(237, 66, 69);"],
-.red-3T8maV,
-.topGuildEmojiBadge-3DiG2v {
+.red-3T8maV {
 	background-color: var(--red) !important;
+}
+.topGuildEmojiBadge-3DiG2v {
+	background: var(--red);
 }
 [fill="#ed4245"] {
 	fill: var(--red);
 }
-[fill="#5865f2"],
-[fill="#5865F2"],
-[fill="hsl(234.94,85.56%,64.71%)"] {
-	fill: var(--brand-experiment);
-}
+
 [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 [style*="background-color: rgb(59, 165, 92);"],
 [style="background: rgb(35 165 90);"] {
@@ -35,14 +26,22 @@
 [style*="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]:not(.themed-2-lozF) {
 	color: var(--green) !important;
 }
-
 [style*="border-color: rgba(88, 101, 242, 0.6);"] {
 	border-color: #7289da00 !important;
+}
+
+[fill*="#6370f4"] {
+	fill: var(--brand-experiment-530);
+}
+[fill="#5865f2"],
+[fill="#5865F2"],
+[fill="hsl(234.94,85.56%,64.71%)"],
+[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
+	fill: var(--brand-experiment);
 }
 [style^="color: rgb(88, 101, 242);"] {
 	color: var(--brand-experiment) !important;
 }
-
 [style*="background-color: rgb(88, 101, 242);"],
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
@@ -55,21 +54,20 @@
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
 	background-color: var(--blurple-hover);
 }
-
 #app-mount .colorBrandNew-abZT3v:active,
 .menuItemFocused-1a4_bh:active,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
 	background-color: var(--blurple-active);
 }
-
-.topGuildEmojiBadge-3DiG2v {
-	background: var(--red);
+/** Dropdown options*/
+.option-Uc12mm {
+	color: var(--text-normal);
 }
-
-/** search bar colors*/
-.container-2McqkF {
-	border: 1px solid var(--bg-overlay-6, var(--background-tertiary));
-	background: var(--bg-overlay-3, var(--background-secondary));
+#app-mount .option-Uc12mm:hover {
+	background-color: var(--background-secondary-alt);
+}
+#app-mount .option-Uc12mm[aria-selected="true"] {
+	background-color: var(--background-tertiary);
 }
 
 .lookFilled-1H2Jvj.colorRed-2VFhM4,
@@ -219,8 +217,35 @@
 	color: var(--brand-experiment);
 }
 
-.updateIconForeground-2V_zo4 {
-	fill: var(--green);
+/** Search page*/
+/* search menu thing*/
+.container-2McqkF {
+	background: var(--background-primary);
+}
+
+.searchHeader-1r_ZSh {
+	background: transparent;
+	border-bottom: 1px solid var(--background-tertiary);
+}
+.searchHeaderTabList-3CZMQB .selected-1sf9UK {
+	background-color: transparent !important;
+	border-bottom: 2px solid var(--interactive-active);
+	padding-bottom: 26px;
+	margin-bottom: -9px;
+	border-radius: 0;
+	height: 9px;
+}
+#app-mount .searchHeaderTabList-3CZMQB .item-2GWPIy:hover {
+	background-color: transparent;
+}
+
+.searchResult-O9NDji {
+	border-radius: 3px;
+	border: 1px solid var(--background-tertiary);
+}
+
+.searchOption-3u1gRt:hover {
+	background-color: var(--background-tertiary);
 }
 
 /** Mentions/Pings*/
@@ -236,15 +261,19 @@
 }
 
 .interactive {
-	-webkit-transition: background-color 50ms ease-out, color 50ms ease-out;
 	transition: background-color 50ms ease-out, color 50ms ease-out;
 	cursor: pointer;
 	text-decoration: none !important;
+}
+.mentioned-Tre-dv .interactive {
+	/* make background transparent when mentioned*/
+	background: transparent;
 }
 .interactive:hover {
 	color: var(--white-500);
 	background-color: var(--brand-experiment);
 }
+
 .icon-2Ph-Lv:has(
 		[d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z"]
 	) {

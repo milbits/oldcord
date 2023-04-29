@@ -7,6 +7,9 @@
 	background-color: var(--background-floating);
 	width: 225px;
 }
+.withTagAsButton-OsgQ9L:hover {
+	background: transparent;
+}
 
 /*! [WIP] revert activity profile*/
 /** Variables*/
@@ -181,7 +184,7 @@
 	background: var(--bg-overlay-1, var(--background-tertiary));
 }
 
-:is([class*="animator"], [class*="root"]) .overlayBackground-2aa7wt {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .overlayBackground-2aa7wt {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
 
@@ -226,7 +229,7 @@ div.topSection-13QKHs > header > svg.bannerSVGWrapper-qc0szY {
 	font-weight: 600;
 	color: var(--play-secondary, var(--header-secondary));
 }
-:is([class*="animator"], [class*="root"]) .userPopoutOverlayBackground-3A0Pcz {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOverlayBackground-3A0Pcz {
 	margin: 0;
 	width: 250px;
 	border-radius: 0px;
@@ -328,7 +331,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	text-align: center;
 }
 
-:is([class*="animator"], [class*="root"]) .userPopoutOuter-1OHwPL {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOuter-1OHwPL {
 	width: 250px;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
 	border-radius: 3px;
