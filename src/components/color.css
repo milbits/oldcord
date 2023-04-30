@@ -222,30 +222,39 @@
 .container-2McqkF {
 	background: var(--background-primary);
 }
+.container-2McqkF .option-ayUoaq:hover {
+	background-color: var(--background-tertiary);
+}
 
 .searchHeader-1r_ZSh {
 	background: transparent;
-	border-bottom: 1px solid var(--background-tertiary);
+	box-shadow: var(--elevation-low);
+	height: 48px;
+	padding: 0 20px;
 }
-.searchHeaderTabList-3CZMQB .selected-1sf9UK {
-	background-color: transparent !important;
-	border-bottom: 2px solid var(--interactive-active);
-	padding-bottom: 26px;
-	margin-bottom: -9px;
+.searchHeaderTabList-3CZMQB [aria-selected="true"] {
+	box-shadow: inset 0 -2px var(--interactive-active);
+}
+.searchHeaderTabList-3CZMQB .item-2GWPIy {
+	padding: 15px 8px;
 	border-radius: 0;
-	height: 9px;
+	background-color: transparent !important;
+	font-size: 14px;
 }
-#app-mount .searchHeaderTabList-3CZMQB .item-2GWPIy:hover {
-	background-color: transparent;
+
+.searchResultGroup-1lU_-i:before {
+	content: "";
+	width: 100%;
+	height: 1px;
+	display: block;
+	background: var(--background-modifier-accent);
+	position: relative;
+	top: 12px;
 }
 
 .searchResult-O9NDji {
-	border-radius: 3px;
-	border: 1px solid var(--background-tertiary);
-}
-
-.searchOption-3u1gRt:hover {
-	background-color: var(--background-tertiary);
+	border: solid 1px var(--background-tertiary);
+	border-radius: 4px;
 }
 
 /** Mentions/Pings*/
@@ -543,10 +552,10 @@
 	background-color: var(--background-modifier-hover);
 }
 
-/*active now in friends tab*/
+/** active now in friends tab*/
 .nowPlayingColumn-1eCBCN .container-1oAagU,
 .profileCard-2gVmvm,
-/*from channels and roles but duplicate things are cringe*/
+
 .prompt-1sE27N {
 	background-color: var(--background-secondary);
 }
