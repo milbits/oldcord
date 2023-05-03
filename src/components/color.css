@@ -42,21 +42,25 @@
 [style^="color: rgb(88, 101, 242);"] {
 	color: var(--brand-experiment) !important;
 }
-[style*="background-color: rgb(88, 101, 242);"],
+#app-mount [style*="background-color: rgb(88, 101, 242);"],
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
-[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
+#app-mount [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"],
 .progressBar-1T6LYX,
-.progressBar-18rmp1.selectedProgressBar-11z5d9 {
-	background-color: var(--brand-experiment) !important;
+.progressBar-18rmp1.selectedProgressBar-11z5d9,
+.bd-button:not(.bd-button-danger, .bd-view-button),
+.bd-button.bd-view-button.selected {
+	background-color: var(--brand-experiment);
 }
 #app-mount .colorBrandNew-abZT3v:hover,
 #app-mount .menuItemFocused-1a4_bh,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
+.bd-button:hover:not(.bd-button-danger, .bd-view-button) {
 	background-color: var(--blurple-hover);
 }
 #app-mount .colorBrandNew-abZT3v:active,
 .menuItemFocused-1a4_bh:active,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:active,
+.bd-button:active:not(.bd-button-danger, .bd-view-button) {
 	background-color: var(--blurple-active);
 }
 /** Dropdown options*/

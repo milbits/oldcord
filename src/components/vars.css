@@ -158,7 +158,6 @@ body {
 	--status-danger-background: var(--red);
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
-	--bdfdb-blurple: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 	/* activity colors*/
 	--twitch-dark: hsl(262, calc(var(--saturation-factor, 1) * 47%), 36%);
@@ -179,5 +178,7 @@ body {
 	--input-grey: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
 	--status-danger: var(--red) !important;
 	--status-positive-background: var(--green);
+}
+[class*="cardPrimary-"] {
 	--__card-accent-color: var(--background-secondary) !important;
 }
