@@ -802,7 +802,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 /** Devices Tab*/
 /* make description a card*/
 .description-21ac5O {
-	background: var(--bg-overlay-4, var(--deprecated-card-bg));
+	background: var(--bg-overlay-4, var(--background-secondary));
 	border: 1px solid var(--background-tertiary);
 	border-radius: 5px;
 	color: var(--text-normal);
@@ -810,9 +810,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	font-size: 15px;
 	padding: 20px;
 }
-.session-9khLqt {
-	gap: 8px;
-}
+
 .sessionIcon-2fwSzb {
 	width: 50px;
 	height: 50px;
@@ -824,11 +822,14 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .currentSession-1g_u10 .sessionIcon-2fwSzb path {
 	fill: var(--green);
 }
+.session-9khLqt {
+	gap: 8px;
+}
 
+/* Stylize remove button*/
 .session-9khLqt {
 	position: relative;
 }
-/* Stylize remove button*/
 .sessionMoreButton-2cApSx {
 	opacity: 0;
 	position: absolute;
@@ -842,18 +843,22 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease, -webkit-box-shadow 0.1s ease-in-out, -webkit-transform 0.2s ease;
+	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease;
 }
-
 .session-9khLqt:hover .sessionMoreButton-2cApSx,
 .sessionMoreButton-2cApSx:hover {
 	opacity: 1;
 }
+.sessionMoreButton-2cApSx:active {
+	transform: translateY(1px);
+}
 
 .eyebrow-1Shfyi.sessionInfoRow-pEX9fY,
-.headerHeading-3fCkS1.eyebrow-1Shfyi {
+.headerHeading-3fCkS1.eyebrow-1Shfyi,
+.sessionInfoRow-pEX9fY span:last-child {
 	color: var(--header-secondary);
 }
+
 .heading-md-bold-3v5pnz {
 	font-weight: 600;
 }
