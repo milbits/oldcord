@@ -89,7 +89,7 @@
 	background: var(--play) !important;
 }
 /*make status icon white*/
-.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect:not([stroke-opacity=".4"]) {
+.userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
@@ -269,11 +269,16 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	margin-bottom: 10px;
 }
 
-.nameTag-35jqbZ.nameTag-H6kSJ0 {
+.nameTag-35jqbZ.nameTag-H6kSJ0,
+.container-3g15px .text-lg-semibold-UQkeZc {
 	transform: scale(0.9);
 	position: relative;
 	top: 6px;
 	left: 75px;
+}
+/* Temporarily place handle above displayname until rollout is complete*/
+.nameTag-35jqbZ.nameTagSmall-2JO-C- {
+	transform: translateY(-40px) translateX(30px);
 }
 
 .nameTag-2ysfG3.nameTag-H6kSJ0 > .discriminator-3_S3CG {
