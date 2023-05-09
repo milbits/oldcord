@@ -11,7 +11,7 @@
 	background: transparent;
 }
 
-/*! [WIP] revert activity profile*/
+/*! Revert activity profile*/
 /** Variables*/
 
 .userPopoutOuter-1OHwPL:has(.activityUserPopoutV2-3eKqzY) {
@@ -80,7 +80,7 @@
 	padding: 0 !important;
 }
 .scroller-15bIdk::-webkit-scrollbar {
-	width: 0px;
+	width: 0;
 }
 /* make top profile blurple*/
 .usernameSection-3FppkT:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
@@ -276,7 +276,8 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	top: 6px;
 	left: 75px;
 }
-/* Temporarily place handle above displayname until rollout is complete*/
+
+/* Temporarily place handle above displayname :3*/
 .nameTag-35jqbZ.nameTagSmall-2JO-C- {
 	transform: translateY(-40px) translateX(30px);
 }
@@ -296,7 +297,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	margin-right: 10px;
 }
 .container-3g15px:has(.customStatusSoloEmoji-FOEfyF) ~ .tabBarContainer-sCZC4w {
-	padding-top: 35px;
+	padding-top: 45px;
 }
 
 .headerTop-1PNKck > .badgeList-2aoHPw {

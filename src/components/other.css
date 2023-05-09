@@ -1117,3 +1117,73 @@ taken from dtm-17 (im a lazy fuck :p)*/
 #app-mount .playIcon-1cttj4:hover {
 	color: var(--interactive-active);
 }
+
+/*useless easteregg triggered in "join server"*/
+@keyframes egg-zelda-img {
+	0%,
+	99% {
+		opacity: 1;
+		background-image: url(https://cdn.discordapp.com/attachments/824698117768478762/1105604656375287828/image.png);
+	}
+
+	99.9999999999999999999999% {
+		opacity: 0;
+		background-image: unset;
+	}
+}
+
+@keyframes zelda-egg-opacity {
+	0%,
+	50%,
+	99.9% {
+		opacity: 0;
+	}
+	99.9999999% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes text-popin {
+	from {
+		width: 0px;
+		margin-left: 25%;
+	}
+	to {
+		width: 700px;
+		margin-left: 28%;
+	}
+}
+#app-mount:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="legend of zelda"]) .backdrop-2ByYRN {
+	opacity: 1 !important;
+}
+body:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="legend of zelda"]):before {
+	animation: text-popin 7s forwards;
+	content: "ITS DANGEROUS TO GO ALONE! TAKE THIS.";
+	height: 20px;
+	overflow: hidden;
+	position: fixed;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.75px;
+	top: 30%;
+	transform: scaleX(1.1);
+	z-index: 9997;
+}
+body:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="legend of zelda"]):after {
+	animation: egg-zelda-img 10s;
+	content: "";
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 50%;
+	position: fixed;
+	inset: 0;
+	z-index: 9998;
+	pointer-events: none;
+}
+#app-mount:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="legend of zelda"]) .focusLock-bHVOlV {
+	animation: zelda-egg-opacity 10s;
+}
