@@ -89,12 +89,12 @@
 
 .buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
-	background-color: var(--background-primary);
+	background-color: var(--background-primary) !important;
 	color: var(--interactive-active);
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover,
 .button-1EGGcP .buttonColor-3bP3fX:hover {
-	background-color: var(--background-secondary);
+	background-color: var(--background-secondary) !important;
 }
 
 .colorDanger-3umuSx.focused-3qFvc8:active {
@@ -394,19 +394,31 @@
 /** Select Menus*/
 .select-Zz0IcO,
 .copyInput-3AbKWB {
-	margin: 8px 0;
 	background-color: var(--background-secondary) !important;
 	border-radius: 3px;
-	transition: border 0.2s ease;
+	transition: border 0.2s ease-in-out;
+	cursor: default;
 }
 .select-QHUX8_ {
 	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
 	height: 40px;
 }
-
+.open-LeyjhI {
+	border-color: var(--deprecated-text-input-border-hover) !important;
+}
 .textArea-3WXAeD:focus {
-	border: 1px solid var(--brand-experiment) !important;
+	border-color: var(--brand-experiment) !important;
+}
+/* icon*/
+.select-Zz0IcO [d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"] {
+	d: path("M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z");
+}
+.icons-2ibyma {
+	color: var(--text-muted);
+}
+.select-Zz0IcO.open-LeyjhI .icons-2ibyma {
+	color: var(--interactive-active);
 }
 
 /** Close Button*/
