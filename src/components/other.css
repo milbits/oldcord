@@ -191,9 +191,7 @@
 
 /** display:none graveyard*/
 .sessionMoreButton-2cApSx svg,
-/* login page*/
-.artwork-L5TAwQ,
-
+.artwork-L5TAwQ /* login page cringe corporate bg*/,
 .banner-2MAbnt,
 .newMemberBadge-3PdStX,
 .container-1xC34H,
@@ -210,8 +208,7 @@
 .accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before,
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2-eHMB *),
-
-.unreadIcon-3dqgX9,
+.unreadIcon-3dqgX9 /* new unread bar icon*/,
 .container-1QtPKm svg,
 .communityInfoPill-2Mll66,
 .item-2GWPIy svg,
@@ -219,13 +216,14 @@
 .collapseable-DdnHFl:before,
 .collapseable-DdnHFl .pointer-1p1R-4,
 .container-AxP_J8 .backgroundModifierContainer-WjXgb2 circle,
-.sessionMoreButton-2cApSx svg,
 /* profile popout*/
 :is([class*="animator"], [class*="root"]) .profileBadges-2pItdR,
 :is([class*="animator"], [class*="root"], .accountProfileCard-lbN7n-) .bannerSVGWrapper-2CLfzN,
 :is([class*="animator"], [class*="root"]) .divider-2dDziJ,
 #account.menu-1QACrS .profileBody-3QbfPe,
 .userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ,
+.container-mAkQVR:has(.akaBadge-ep3q0P) /* aka thing*/,
+
 .bd-switch svg {
 	display: none;
 }
