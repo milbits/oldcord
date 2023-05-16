@@ -13,31 +13,37 @@ A theme for Discord that brings back the classic 2020 UI without removing featur
 
 ## Additional stuff
 
-OldCord does not revert the "mosaic" images. Use the [discord-no-mosaic](https://github.com/Tanza3D/discord-no-mosaic) plugin instead.
+[discord-no-mosaic](https://github.com/Tanza3D/discord-no-mosaic): Restores the old image layout
 
-[NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions): Remove super reactions
+[NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions): Removes super reactions
 
-[OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload): Open the file picker with just 1 click
+[OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload): Open the file picker with just one click
 
-Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't become bright af
+Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles stay dark
 
 ---
 
 # Installation
 
-### Using BetterDiscord
+### [BetterDiscord](https://betterdiscord.app/)
 
 1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
-2. Save it to the BetterDiscord theme folder:
+2. Save the file to the BetterDiscord theme folder:
 
 -   Windows: `%appdata%/BetterDiscord/themes`
 -   Linux: `~/.config/BetterDiscord/themes`
 
-### Using Custom CSS
+### [Vencord](https://github.com/Vendicated/Vencord)
 
-1. Go to the Discord settings
+Paste the following in `Settings > Themes`:
+
+-   `https://milbits.github.io/oldcord/src/main.css`
+
+### Custom CSS
+
+1. Go to settings
 2. Scroll down and open the "Custom CSS" tab
-3. Paste the following code at **the top** of the custom CSS tab:
+3. Paste the following code at **the top**:
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/main.css");
@@ -47,5 +53,4 @@ Enable "Sync Profile Themes" in `Settings > Accessibility` so profiles won't bec
 
 # Credit
 
--   [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand) for the original code
 -   [DTM-16](https://github.com/XYZenix/DTM-16) for the switches, old radio bars and some of the profile code
