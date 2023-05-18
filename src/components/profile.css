@@ -273,26 +273,23 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 .container-3g15px .text-lg-semibold-UQkeZc {
 	transform: scale(0.9);
 	position: relative;
-	top: 6px;
+	top: -5px;
 	left: 75px;
+	z-index: 10000000000;
+}
+.container-3g15px .text-lg-semibold-UQkeZc {
+	color: var(--white);
 }
 
-/* Temporarily place handle above displayname :3*/
+/* tweak names*/
 .nameTag-35jqbZ.nameTagSmall-2JO-C- {
-	transform: translateY(-40px) translateX(30px);
-}
-
-.nameTag-2ysfG3.nameTag-H6kSJ0 > .discriminator-3_S3CG {
-	font-size: medium;
-	font-weight: 400;
-	position: relative;
-	top: 2px;
+	transform: translateX(28px) translateY(-3px);
 }
 
 .body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
 	height: 0px;
 	position: relative;
-	top: 32px;
+	top: 12px;
 	left: 10px;
 	margin-right: 10px;
 }
@@ -305,14 +302,14 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	transform: scale(1.25);
 	position: relative;
 	right: 53px;
-	top: 33px;
+	top: 41px;
 }
 
 .headerTop-1PNKck > .relationshipButtons-pZ_UWl {
 	margin-top: 9px;
 }
 .body-1Ukv50 > .container-3g15px {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .tabBarItem-30Te4-.item-3XjbnG {
@@ -324,6 +321,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	border-top: 9px solid var(--background-tertiary);
 	margin: 0 0 0;
 }
+
 /* full profile dialog tweaks end here */
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
@@ -389,10 +387,11 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 .tabBarContainer-sCZC4w {
-	padding: 21px;
+	padding: 20px;
 	padding-right: 10px;
 	padding-bottom: 0;
 	margin: 0;
+	border-top: 1px solid var(--background-secondary);
 }
 
 .headerNormal-3Zn_yu {
