@@ -570,7 +570,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	color: var(--text-normal) !important;
 	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
-	transition: border-color 0.15s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
 }
 .input-3O04eu::-webkit-input-placeholder:not(.textarea-_59yqs) {
 	color: var(--text-muted);
