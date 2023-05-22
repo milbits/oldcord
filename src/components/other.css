@@ -102,7 +102,7 @@
 }
 /* change colour to green just for the role permissions form */
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:before {
-	background: #41be84;
+	background: #43b581;
 }
 .permissionsForm-xrzuUy .container-1QtPKm .input-125oad:checked:active:before {
 	background: var(--green-hover);
@@ -219,7 +219,6 @@
 /* profile popout*/
 :is([class*="animator"], [class*="root"]) .profileBadges-2pItdR,
 :is([class*="animator"], [class*="root"], .accountProfileCard-lbN7n-) .bannerSVGWrapper-2CLfzN,
-:is([class*="animator"], [class*="root"]) .divider-2dDziJ,
 #account.menu-1QACrS .profileBody-3QbfPe,
 .userPopoutOuter-1OHwPL .section-28YDOf .platformIcon-k3yytQ,
 
@@ -570,7 +569,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	color: var(--text-normal) !important;
 	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
-	transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.15s ease-in-out;
 }
 .input-3O04eu::-webkit-input-placeholder:not(.textarea-_59yqs) {
 	color: var(--text-muted);
@@ -1183,4 +1182,22 @@ body:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-
 }
 #app-mount:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="legend of zelda"]) .focusLock-bHVOlV {
 	animation: zelda-egg-opacity 10s;
+}
+
+.notificationSound-3_yEQQ {
+	transform: translateX(-34px);
+	transition: 0.2s ease-out;
+	height: 20px !important;
+}
+.notificationSound-3_yEQQ:hover {
+	transform: translateX(-0px);
+}
+.soundIcon-1E1d9l {
+	order: -1;
+	transition: 0.2s linear;
+	margin-right: 10px;
+}
+.title-lXcL8p {
+	text-transform: uppercase;
+	font-size: 16px;
 }

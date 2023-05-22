@@ -144,6 +144,8 @@
 .discrimBase-v65kTs,
 .userTagWithNickname-13lfvd .username-3JLfHz {
 	color: var(--play-secondary, var(--header-secondary));
+	font-weight: 500;
+	line-height: 1.1;
 }
 .userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
 	background-color: var(--white-500);
@@ -540,6 +542,9 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 .role-2TIOKu .roleRemoveButton-17oXnT {
 	position: static;
 }
+.roleCircle-3TFUOr {
+	margin: 0 4px 0px 1px !important;
+}
 /* Add a colored border around the role */
 .role-2TIOKu .roleRemoveButton-17oXnT .roleCircle-3TFUOr:before {
 	content: "";
@@ -559,4 +564,24 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 /* border around addrole button*/
 .addButton-1_dZYu {
 	border: 1px solid;
+}
+
+.lastSection-q3HCfo {
+	border-top: 1px solid rgba(32, 34, 37, 0.3);
+}
+.lastSection-q3HCfo .input-3O04eu {
+	background: var(--background-primary) !important;
+	border-color: #23262a !important;
+}
+.divider-2dDziJ {
+	background: var(--background-tertiary);
+	margin: 0;
+	padding: 5px;
+}
+.nickname-3P1RuO {
+	font-size: 16px;
+	line-height: 20px;
+}
+.customStatusEmoji-1GD8RK {
+	margin-right: 8px !important;
 }
