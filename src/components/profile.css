@@ -82,12 +82,7 @@
 .scroller-15bIdk::-webkit-scrollbar {
 	width: 0;
 }
-/* make top profile blurple*/
-.usernameSection-3FppkT:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
-.customStatusSection-2_fKRl:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY),
-#app-mount .userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) {
-	background: var(--play) !important;
-}
+
 /*make status icon white*/
 .userProfileInner-1ngKnf:has(.activityUserPopoutV2-3eKqzY) rect:not(path ~ rect) {
 	fill: #fff !important;
@@ -99,7 +94,12 @@
 	padding: 12px;
 }
 
-/* activity buttons*/
+/**buttons*/
+/*upgrade button*/
+.button-35nmN9 {
+	background: none;
+}
+/*activity buttons*/
 .userPopoutOuter-1OHwPL .activity-3uaYny .buttonColor-_0gSD_ {
 	background: transparent;
 	color: var(--white-500);
@@ -132,9 +132,6 @@
 .activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
 	color: #fff !important;
 }
-.discrimBase-v65kTs:has(~ .scroller-15bIdk .activityUserPopoutV2-3eKqzY) {
-	color: #f6fbf9 !important;
-}
 
 .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
 .playTime-3fSgOm {
@@ -166,33 +163,32 @@
 }
 
 /*! normal profile popout*/
-
-:is([class*="animator"], [class*="root"]) .nameTag-H6kSJ0,
-:is([class*="animator"], [class*="root"]) .nickname-3P1RuO {
-	text-align: center;
-}
-.headerTop-3GPUSF.copiableNameTag-3f6roa {
-	background-color: transparent !important;
-}
-.item-1OdjEX .banner-1YaD3N.popoutBanner-3cqRD9 {
-	background: transparent !important;
-}
-
-.userProfileModalOverlayBackground-2dAaBg {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.userPopoutOuter-1OHwPL, .userPopoutOverlayBackground-3A0Pcz) {
 	margin: 0;
+	width: 250px;
+	border-radius: 0px;
+	overflow: hidden;
+	max-height: calc(100vh - 20px);
 }
-.usernameSection-3FppkT,
-.customStatusSection-2_fKRl {
-	background: var(--bg-overlay-1, var(--background-tertiary));
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOuter-1OHwPL {
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
+	border-radius: 3px;
 }
 
 :is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .overlayBackground-2aa7wt {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
+:is([class*="animator"], [class*="root"]) :is(.userProfileOuterThemed-2BgJCM, .userProfileInnerThemedPremiumWithoutBanner-lZ9inp, .userProfileInnerThemedWithBanner-25XGmz) {
+	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
+	box-shadow: none;
+	padding: 0 !important;
+}
+.userProfileInner-1ngKnf {
+	border-radius: 0px;
+}
 
-:is([class*="animator"], [class*="root"]) .banner-2boKnS,
-.userPopoutInner-nv9Y92 {
-	background-color: none !important;
+:is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium-2AJg-H {
+	background: var(--play, var(--background-tertiary)) !important;
 }
 .avatarWrapper-eenWra {
 	left: 35% !important;
@@ -201,162 +197,53 @@
 	width: 0px;
 	z-index: 1;
 }
-
-.userProfileInnerThemedNonPremium-2AJg-H {
-	margin: 0;
-}
-
-:is([class*="animator"], [class*="root"]) .userProfileOuterThemed-2BgJCM,
-:is([class*="animator"], [class*="root"]) .userProfileInnerThemedPremiumWithoutBanner-lZ9inp,
-:is([class*="animator"], [class*="root"]) .userProfileInnerThemedWithBanner-25XGmz {
-	background: var(--bg-overlay-1, var(--background-tertiary));
-	box-shadow: none;
-	padding: 0 !important;
-}
-.userProfileOuter-1K_BYU {
-	border-radius: 3px;
-}
-.userProfileInner-1ngKnf {
-	border-radius: 3px 3px 0 0;
-}
-
-div.topSection-13QKHs > header > svg.bannerSVGWrapper-qc0szY {
-	display: none;
-}
-.usernameSection-3FppkT {
-	padding-top: 100px;
-	padding-bottom: 10px;
-}
-.userTagDiscriminatorNoNickname-2HLaIE.discrimBase-v65kTs {
-	font-weight: 600;
-	color: var(--play-secondary, var(--header-secondary));
-}
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOverlayBackground-3A0Pcz {
-	margin: 0;
-	width: 250px;
-	border-radius: 0px;
-	overflow: hidden;
-	max-height: calc(100vh - 20px);
+.avatarPositionPremiumBanner-2EAbSH,
+.avatarPositionPremium-1zPBq9,
+.avatarPositionPremiumNoBanner-2u3xDC {
+	top: 15px !important;
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
-div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumBanner-2EAbSH > div > div > svg > circle,
-div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumBanner-2EAbSH > div > div > svg > rect:nth-child(2),
-/* do the same but for profiles with premium and no colours or something idfk */
-div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > circle,
-div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-nWzERs > div > div > svg > rect:nth-child(2),
+div.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra:is(.avatarPositionPremiumBanner-2EAbSH,.avatarPositionPremiumNoBanner-nWzERs) > div > div > svg > :is(circle,rect:nth-child(2)),
 div.avatarHoverTarget-1zzfRL > .wrapper-3Un6-K > svg > circle,
-/* and the same for full profile dialogs */
-div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > circle,
-div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > rect:nth-child(2) {
+/*for modal*/
+div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle,rect:nth-child(2)) {
 	visibility: hidden;
 }
 
-/** tweaks for full profile dialog */
-
-/* re-position "unable to load" icon*/
-.warningCircleIcon-1YXIHu {
-	transform: translateX(-45px);
-	margin-top: 40px;
+.usernameSection-3FppkT {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.usernameSection-3FppkT,
+.customStatusSection-2_fKRl {
+	background: var(--play, var(--background-tertiary));
 }
 
-div.topSection-13QKHs > header > div > div:nth-child(1) > div {
-	transform: scale(0.666);
-	position: absolute;
-	top: -20px;
-	left: 0px;
+:is([class*="animator"], [class*="root"]) :is(.nameTag-H6kSJ0, .nickname-3P1RuO) {
+	text-align: center;
 }
-.topSection-13QKHs {
-	padding-top: 20px;
-	margin-bottom: 10px;
+.nickname-3P1RuO {
+	font-size: 16px;
+	line-height: 20px;
 }
-
-.nameTag-35jqbZ.nameTag-H6kSJ0,
-.container-3g15px .text-lg-semibold-UQkeZc {
-	transform: scale(0.9);
-	position: relative;
-	top: -5px;
-	left: 75px;
-}
-.container-3g15px .text-lg-semibold-UQkeZc {
-	color: var(--interactive-active);
-	width: 320px;
-	left: 87px;
-}
-
-/* tweak names*/
-.nameTag-35jqbZ.nameTagSmall-2JO-C- {
-	transform: translateX(28px) translateY(-3px);
-	width: 285px;
-}
-
-.body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
-	height: 0px;
-	position: relative;
-	top: 12px;
-	left: 10px;
-	margin-right: 10px;
-}
-.container-3g15px:has(.customStatusSoloEmoji-FOEfyF) ~ .tabBarContainer-sCZC4w {
-	padding-top: 45px;
-}
-
-.headerTop-1PNKck > .badgeList-2aoHPw {
-	transform-origin: top left;
-	transform: scale(1.25);
-	position: relative;
-	right: 53px;
-	top: 41px;
-}
-
-.headerTop-1PNKck > .relationshipButtons-pZ_UWl {
-	margin-top: 9px;
-}
-.body-1Ukv50 > .container-3g15px {
-	padding-bottom: 30px;
-}
-
-.tabBarItem-30Te4-.item-3XjbnG {
-	height: 30px;
-}
-
-/* note: divider only appears on your own profile dialog */
-.body-1Ukv50 > .divider-SH6OnO {
-	border-top: 9px solid var(--background-tertiary);
-	margin: 0 0 0;
-}
-
-/* full profile dialog tweaks end here */
-
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
-	background: var(--bg-overlay-1);
-}
-
 .customStatusSection-2_fKRl {
 	max-height: calc(100vh - 20px);
 	padding-top: 0px;
 	padding-bottom: 10px;
 	text-align: center;
 }
-
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOuter-1OHwPL {
-	width: 250px;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
-	border-radius: 3px;
+.customStatus-19KW6v {
+	justify-content: center;
+	display: flex;
+}
+.customStatusText-V9aTHE {
+	text-align: center !important;
+	color: var(--play-primary, var(--header-secondary));
+	max-width: 250px;
 }
 
-.section-28YDOf .eyebrow-1Shfyi,
-.section-28YDOf .headerTextNormal-Z8we9g,
-.userInfoSectionHeader-2mYYun {
-	color: var(--header-secondary);
-}
-
-:is([class*="animator"], [class*="root"]) .badgeList-2aoHPw {
-	background-color: transparent;
-}
-
-/* fix profile still having messed up colours when custom colours were enabled */
-:is([class*="animator"], [class*="root"]) * {
+:is([class*="animator"], [class*="root"]) div {
 	--profile-gradient-primary-color: var(--background-secondary-alt);
 	--profile-gradient-secondary-color: var(--background-secondary-alt);
 	--profile-gradient-overlay-color: transparent;
@@ -370,145 +257,13 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	--profile-role-pill-border-color: var(--interactive-normal);
 }
 
-.customStatus-19KW6v {
-	justify-content: center;
-	display: flex;
-}
-.customStatusText-V9aTHE {
-	text-align: center !important;
-	color: var(--play-primary, var(--header-secondary));
-	max-width: 250px;
+.section-28YDOf .eyebrow-1Shfyi,
+.section-28YDOf .headerTextNormal-Z8we9g,
+.userInfoSectionHeader-2mYYun {
+	color: var(--header-secondary);
 }
 
-.container-3g15px,
-.topSection-13QKHs,
-.tabBarContainer-sCZC4w {
-	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
-}
-
-:is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium-2AJg-H,
-.tabBarContainer-sCZC4w {
-	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
-}
-.tabBarContainer-sCZC4w {
-	padding: 20px;
-	padding-right: 10px;
-	padding-bottom: 0;
-	margin: 0;
-	border-top: 1px solid var(--background-secondary);
-}
-
-.headerNormal-3Zn_yu {
-	background: #000 !important;
-	visibility: hidden !important;
-}
-
-:is([class*="animator"], [class*="root"]) .headerWrapper-3iTlIT {
-	background: var(--background-tertiary);
-	max-height: 40px !important;
-}
-.avatarPositionPremiumBanner-2EAbSH,
-.avatarPositionPremium-1zPBq9,
-.avatarPositionPremiumNoBanner-2u3xDC {
-	top: 15px !important;
-}
-
-.userInfoBody-1zgAd0 {
-	padding: 0px;
-}
-
-.userPopoutInner-nv9Y92:before {
-	height: 0;
-	width: 0;
-}
-
-.avatarHoverTarget-l77PhT .wrapper-1VLyxH {
-	height: 100px !important;
-}
-
-.usernameSection-3FppkT {
-	padding-top: 10px;
-}
-
-/* following is for the profiles in settings page, its messy but it works lmao */
-.accountProfileCard-lbN7n- > .userInfo-regn9W {
-	margin-top: 10px;
-	margin-bottom: 30px;
-}
-.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-3Un6-K.avatar-3mTjvZ {
-	position: absolute;
-	top: 15px;
-	background-color: var(--background-secondary);
-}
-div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.discriminator-2m-MqL {
-	font-size: medium;
-	font-weight: 400;
-	position: relative;
-	top: 2px;
-}
-.accountProfileCard-lbN7n- > div.userInfo-regn9W > div:nth-child(2) > div.profileCardUsernameRow-1bb6fi {
-	position: relative;
-	top: 5px;
-}
-.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2Yws8V.container-1gYwHN {
-	transform: scale(1.5);
-	position: relative;
-	left: 33px;
-	bottom: 5px;
-}
-.accountProfileCard-lbN7n- {
-	background: var(--bg-overlay-3, var(--background-secondary));
-}
-.background-3d_SjE,
-.fieldList-in8WkP {
-	background: var(--bg-overlay-1, var(--background-primary));
-}
-.avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 {
-	position: absolute;
-	left: 33%;
-}
-.avatarUploaderNormal-1h8g3f.avatarUploader-CHGwK7 > .status-b9jLr4 {
-	display: none;
-}
-div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
-	> div.userPopoutOuter-1OHwPL.userProfileOuter-1K_BYU.userProfileOuterUnthemed-2b2rsv.profileColors-3Y0XaR.theme-dark.default-colors.profileCustomizationPreviewWithoutTheme-2OWKhI.profileCustomizationPreview-2-Y173
-	> div
-	> div.userPopoutOverlayBackground-3A0Pcz.overlayBackground-2aa7wt.body-3wEtTO
-	> div:nth-child(1) {
-	margin-top: 90px;
-}
-
-.messageInputContainer-24qqTx {
-	border: none;
-}
-
-/** Activity buttons*/
-/* make upgrade button blurple*/
-.button-35nmN9 {
-	background: none;
-}
-/*general activity buttons*/
-.buttonColor-XIRMbp {
-	transition: 0.17s ease;
-	color: var(--white-500) !important;
-	opacity: 1 !important;
-}
-.buttonColor-XIRMbp:hover {
-	background-color: var(--button-secondary-background-hover);
-}
-/*dont cut off text*/
-.contents-3NembX {
-	overflow: visible !important;
-}
-
-/** makes the time in user popout visible. for the timezones plugin (https://betterdiscord.app/plugin/Timezones) */
-.timezone-banner-container {
-	position: fixed;
-	margin-top: 35px;
-	margin-left: 260px;
-}
-
-/*! Roles */
+/** Roles */
 
 .root-jbEB5E {
 	position: relative;
@@ -565,6 +320,149 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 .addButton-1_dZYu {
 	border: 1px solid;
 }
+
+.messageInputContainer-24qqTx {
+	border: none;
+}
+
+/** full profile modal */
+.userProfileModalOverlayBackground-2dAaBg {
+	margin: 0;
+}
+
+.container-3g15px {
+	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
+}
+
+/* re-position "unable to load" icon*/
+.warningCircleIcon-1YXIHu {
+	transform: translateX(-45px);
+	margin-top: 40px;
+}
+
+div.topSection-13QKHs > header > div > div:nth-child(1) > div {
+	transform: scale(0.666);
+	position: absolute;
+	top: -20px;
+	left: 0px;
+}
+.topSection-13QKHs {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.nameTag-35jqbZ.nameTag-H6kSJ0,
+.container-3g15px .text-lg-semibold-UQkeZc {
+	transform: scale(0.9);
+	position: relative;
+	top: -5px;
+	left: 75px;
+}
+.container-3g15px .text-lg-semibold-UQkeZc {
+	color: var(--interactive-active);
+	width: 320px;
+	left: 87px;
+}
+
+/*names*/
+.nameTag-35jqbZ.nameTagSmall-2JO-C- {
+	transform: translateX(28px) translateY(-3px);
+	width: 285px;
+}
+
+.body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
+	height: 0px;
+	position: relative;
+	top: 12px;
+	left: 10px;
+	margin-right: 10px;
+}
+.container-3g15px:has(.customStatusSoloEmoji-FOEfyF) ~ .tabBarContainer-sCZC4w {
+	padding-top: 45px;
+}
+
+.headerTop-1PNKck > .badgeList-2aoHPw {
+	transform-origin: top left;
+	transform: scale(1.25);
+	position: relative;
+	right: 53px;
+	top: 41px;
+}
+:is([class*="animator"], [class*="root"]) .badgeList-2aoHPw {
+	background-color: transparent;
+}
+
+.headerTop-1PNKck > .relationshipButtons-pZ_UWl {
+	margin-top: 9px;
+}
+.body-1Ukv50 > .container-3g15px {
+	padding-bottom: 30px;
+}
+
+.tabBarItem-30Te4-.item-3XjbnG {
+	height: 30px;
+}
+
+/* note: divider only appears on your own profile dialog */
+.body-1Ukv50 > .divider-SH6OnO {
+	border-top: 9px solid var(--background-tertiary);
+	margin: 0 0 0;
+}
+
+.tabBarContainer-sCZC4w {
+	padding: 20px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	margin: 0;
+	background: var(--background-tertiary);
+	border-top: 1px solid var(--background-secondary);
+}
+
+/* profile modal end here */
+
+/* profiles in settings page, its messy but it works lmao */
+.accountProfileCard-lbN7n- > .userInfo-regn9W {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.accountProfileCard-lbN7n- > .userInfo-regn9W > .wrapper-3Un6-K.avatar-3mTjvZ {
+	position: absolute;
+	top: 15px;
+	background-color: var(--background-secondary);
+}
+div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.discriminator-2m-MqL {
+	font-size: medium;
+	font-weight: 400;
+	position: relative;
+	top: 2px;
+}
+.accountProfileCard-lbN7n- > div.userInfo-regn9W > div:nth-child(2) > div.profileCardUsernameRow-1bb6fi {
+	position: relative;
+	top: 5px;
+}
+.accountProfileCard-lbN7n- > .userInfo-regn9W > div:nth-child(2) > .badgeList-b3Ajmk.containerWithContent-2Yws8V.container-1gYwHN {
+	transform: scale(1.5);
+	position: relative;
+	left: 33px;
+	bottom: 5px;
+}
+.accountProfileCard-lbN7n- {
+	background: var(--bg-overlay-3, var(--background-secondary));
+}
+.background-3d_SjE,
+.fieldList-in8WkP {
+	background: var(--bg-overlay-1, var(--background-primary));
+}
+
+/** makes the time in user popout visible. for the timezones plugin (https://betterdiscord.app/plugin/Timezones) */
+.timezone-banner-container {
+	position: fixed;
+	margin-top: 35px;
+	margin-left: 260px;
+}
+
+/*WIP*/
+
 /*
 .lastSection-q3HCfo {
 	border-top: 1px solid rgba(32, 34, 37, 0.3);
@@ -578,10 +476,7 @@ div.customizationSection-IGy2fS.previewProfileThemes-ViDDkq
 	margin: 0;
 	padding: 5px;
 }
-.nickname-3P1RuO {
-	font-size: 16px;
-	line-height: 20px;
-}
+
 .customStatusEmoji-1GD8RK {
 	margin-right: 8px !important;
 }*/
