@@ -35,23 +35,6 @@
 	src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
 }
 
-.username-3JLfHz,
-.nickname-2rimyL,
-.heading-lg-semibold2Z_RS3 {
-	font-weight: 600;
-}
-.text-sm-normal-3Zj3Iv {
-	font-weight: 500;
-}
-
-.badgeList-b3Ajmk {
-	margin-top: 4px;
-}
-
-.heading-3-j5fM {
-	font-family: var(--font-primary);
-}
-
 /** revert reactions modal*/
 .theme-dark .reactionSelected-1aMb2K {
 	background-color: rgba(79, 84, 92, 0.3);
@@ -915,9 +898,12 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 .connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH {
-	background: var(--blurple-inverted);
+	background-color: var(--blurple-inverted);
 	color: var(--blurple) !important;
-	transition: 0.17s;
+	transition: 0.17s ease;
+}
+.connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH:hover:not(:disabled) {
+	background-color: var(--blurple-inverted-hover) !important;
 }
 .connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH:active:not(:disabled) {
 	background-color: var(--blurple-inverted-active) !important;

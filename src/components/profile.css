@@ -371,6 +371,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	color: var(--interactive-active);
 	width: 320px;
 	left: 87px;
+	user-select: text;
 }
 
 /*names*/
@@ -460,7 +461,7 @@ div.profileCardUsernameRow-1bb6fi > div.userTag-2qPxEZ.nameTag-H6kSJ0 > span.dis
 }
 .background-3d_SjE,
 .fieldList-in8WkP {
-	background: var(--bg-overlay-1, var(--background-primary));
+	background: var(--bg-overlay-chat, var(--background-primary));
 }
 
 /** makes the time in user popout visible. for the timezones plugin (https://betterdiscord.app/plugin/Timezones) */

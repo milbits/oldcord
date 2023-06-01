@@ -50,7 +50,3 @@ Paste the following in `Settings > Themes`:
 ```
 
 ---
-
-# Credit
-
--   [DTM-16](https://github.com/XYZenix/DTM-16) for the switches, old radio bars and some of the profile code
