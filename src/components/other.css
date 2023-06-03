@@ -684,7 +684,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 /*make follow button green*/
 .buttonInner-3aRbcx {
 	background-color: var(--green);
-	color: var(--interactive-active);
+	color: var(--white);
 	border-radius: 3px;
 	border: none;
 	transition: 0.17s ease;
@@ -747,7 +747,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 /* make "search/create post" background the same as the textarea*/
 .headerRow-1MKoR- .mainCard-3KBsBI {
-	background-color: var(--channeltextarea-background);
+	background: var(--bg-overlay-3, var(--channeltextarea-background));
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 5px;

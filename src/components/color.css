@@ -218,17 +218,17 @@
 	color: var(--brand-experiment);
 }
 
-/** Search page*/
-/* search menu thing*/
+/**Search page*/
+/*search menu thing*/
 .container-2McqkF {
-	background: var(--background-primary);
+	background: var(--bg-overlay-3, var(--background-primary));
 }
 .container-2McqkF .option-ayUoaq:hover {
-	background-color: var(--background-tertiary);
+	background: var(--bg-overlay-1, var(--background-tertiary));
 }
-
+/*search results*/
 .searchHeader-1r_ZSh {
-	background: transparent;
+	background: var(--bg-overlay-chat);
 	box-shadow: var(--elevation-low);
 	height: 48px;
 	padding: 0 20px;
@@ -241,6 +241,7 @@
 	border-radius: 0;
 	background-color: transparent !important;
 	font-size: 14px;
+	border-radius: 0 !important;
 }
 
 .searchResultGroup-1lU_-i:before {
