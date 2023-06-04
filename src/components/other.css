@@ -1118,3 +1118,12 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	text-transform: uppercase;
 	font-size: 16px;
 }*/
+
+/*temporary*/
+.base-2jDfDU:has(.addFriend-emTWY1):before {
+	content: "Discord is currently having API Problems! Check discordstatus.com for more information. In the meantime, go outside and touch grass :3";
+	padding: 10px;
+	color: #000;
+	background: var(--yellow);
+	text-align: center;
+}
