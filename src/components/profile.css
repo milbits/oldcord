@@ -199,23 +199,20 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 }
 
-:is([class*="animator"], [class*="root"]) :is(.nameTag-H6kSJ0, .nickname-3P1RuO) {
+:is([class*="animator"], [class*="root"]) :is(.nameTag-H6kSJ0, .nickname-3P1RuO, .userTag-3A4Fw4) {
 	text-align: center;
 }
 .nickname-3P1RuO {
 	font-size: 16px;
 	line-height: 20px;
 }
-.username-3JLfHz:not(.userTagUsernameNoNickname-2lKUnI, .username-3dP0mA, .username-3JLfHz),
 .discrimBase-v65kTs,
-.userTagWithNickname-13lfvd .username-3JLfHz {
+.userTagUsernameBase-267ALn {
 	color: var(--play-secondary, var(--header-secondary));
 	font-weight: 500;
 	line-height: 1.1;
 }
-.usernameSection-3FppkT .defaultColor-1GKx81 {
-	color: var(--play-primary, var(--header-primary));
-}
+/*bot tag*/
 .userPopoutOuter-1OHwPL:has(.activity-3uaYny) .botTagRegular-kpctgU {
 	background-color: var(--white-500);
 	color: var(--blurple);
@@ -224,21 +221,16 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 .activityUserPopoutV2-3eKqzY .headerTextNormal-Z8we9g {
 	color: #fff !important;
 }
+.activityName-3YXl6e {
+	color: var(--play-primary, var(--text-normal)) !important;
+}
 .theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
 .playTime-3fSgOm {
 	color: #f6fbf9;
 }
-
 .theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
 .contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL {
 	color: #fff !important;
-}
-
-.activityName-3YXl6e {
-	color: var(--play-primary, var(--text-normal)) !important;
-}
-.userTagUsernameNoNickname-2lKUnI {
-	color: var(--play-primary, var(--interactive-active)) !important;
 }
 
 .customStatusSection-2_fKRl {
@@ -343,10 +335,10 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 
-/* re-position "unable to load" icon*/
+/*re-position "unable to load" icon*/
 .warningCircleIcon-1YXIHu {
 	transform: translateX(-45px);
-	margin-top: 40px;
+	margin-top: 46px;
 }
 
 div.topSection-13QKHs > header > div > div:nth-child(1) > div {
@@ -374,10 +366,14 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	user-select: text;
 }
 
-/*names*/
+/*old usernames*/
 .nameTag-35jqbZ.nameTagSmall-2JO-C- {
 	transform: translateX(28px) translateY(-3px);
 	width: 285px;
+}
+/*new usernames*/
+.info-3ddo6z .discriminator-hnHkyt {
+	transform: translateX(75px) translateY(-6px);
 }
 
 .body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
@@ -387,6 +383,8 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	left: 10px;
 	margin-right: 10px;
 }
+
+/*dont clip emoji-only statuses into the profile or something idk*/
 .container-3g15px:has(.customStatusSoloEmoji-FOEfyF) ~ .tabBarContainer-sCZC4w {
 	padding-top: 45px;
 }
@@ -413,7 +411,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	height: 30px;
 }
 
-/* note: divider only appears on your own profile dialog */
+/*note: divider only appears on your own profile dialog */
 .body-1Ukv50 > .divider-SH6OnO {
 	border-top: 9px solid var(--bg-overlay-2, var(--background-tertiary));
 	margin: 0 0 0;
@@ -428,9 +426,9 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	border-top: 1px solid var(--background-secondary);
 }
 
-/* profile modal end here */
+/*profile modal ends here */
 
-/* profiles in settings page, its messy but it works lmao */
+/*profiles in settings page, its messy but it works lmao */
 .accountProfileCard-lbN7n- > .userInfo-regn9W {
 	margin-top: 10px;
 	margin-bottom: 30px;
