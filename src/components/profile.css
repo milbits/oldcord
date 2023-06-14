@@ -243,10 +243,13 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 	justify-content: center;
 	display: flex;
 }
-.customStatusText-V9aTHE {
+.customStatusText-V9aTHE,
+.pronouns-17_QV6 {
 	text-align: center !important;
 	color: var(--play-primary, var(--header-secondary));
 	max-width: 250px;
+	display: block;
+	padding: 0;
 }
 
 .section-28YDOf :is(.eyebrow-1Shfyi, .headerTextNormal-Z8we9g),
@@ -375,6 +378,20 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 .info-3ddo6z .discriminator-hnHkyt {
 	transform: translateX(75px) translateY(-6px);
 }
+/*pronouns*/
+
+/*you cant move the badges under the pronouns without affecting profiles that dont have them
+  still unsure about the placement tho*/
+
+.pronouns-RGQpyK {
+	top: 18px;
+	left: 102px;
+	position: relative;
+}
+/*add padding when a status is set, or else it'Ll look cluttered*/
+.pronouns-RGQpyK:has(+ div .customStatus-3qYNe4) {
+	padding-bottom: 16px;
+}
 
 .body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal-AEQz4v.customStatusText-1uNQ8w {
 	height: 0px;
@@ -405,6 +422,13 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 }
 .body-1Ukv50 > .container-3g15px {
 	padding-bottom: 30px;
+}
+/*weird padding fuckery?????*/
+.container-3g15px:has(.customStatus-3qYNe4) {
+	padding-bottom: 40px;
+}
+.container-3g15px:has(.pronouns-RGQpyK + div .customStatus-3qYNe4) {
+	padding-bottom: 10px;
 }
 
 .tabBarItem-30Te4-.item-3XjbnG {
