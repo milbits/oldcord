@@ -713,10 +713,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 .addReactButton-3bSQb6 {
-	background-color: transparent;
+	background-color: transparent !important;
 	border: none;
 	font-size: 0px;
 	padding: 0px;
+	min-width: 1.5rem;
 }
 
 .submitButton-3B-dZd {
@@ -761,8 +762,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* posts*/
-.container-2qVG6q,
-.container-1PloNW {
+.container-1PloNW,
+.container-q2_DnH {
 	transition: 0.17s ease;
 	transform: none !important;
 	border-radius: 5px;
@@ -770,12 +771,12 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background: var(--deprecated-card-editable-bg);
 	border: none;
 }
-.container-2qVG6q:hover,
-.container-1PloNW:hover {
+.container-1PloNW:hover,
+.container-q2_DnH:hover {
 	background-color: var(--background-modifier-hover) !important;
 }
-.container-2qVG6q:active,
-.container-1PloNW:active {
+.container-1PloNW:active,
+.container-q2_DnH:active {
 	background-color: var(--background-modifier-active) !important;
 }
 
