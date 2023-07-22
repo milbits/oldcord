@@ -132,6 +132,7 @@
 .colorable-3rVGna.green-3wkLbx.active-3D763s,
 .colorable-3rVGna.green-3wkLbx:hover,
 .relationshipButtons-pZ_UWl .actionButton-D1ZvXj.colorGreen-jIPCAS,
+#app-mount .addFriend-emTWY1,
 .container-1QtPKm[style*="background-color: hsl(143.911, calc(var(--saturation-factor, 1) * 44.6454%), 44.0865%);"],
 .container-1QtPKm[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 .container-1QtPKm[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
@@ -324,10 +325,12 @@
 .side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]) {
 	color: var(--blurple);
 }
-.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):hover {
+.side-1lrxIh
+	.themed-qqoYp3.item-2GWPIy:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):hover {
 	background-color: var(--brand-experiment-10a);
 }
-.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):active {
+.side-1lrxIh
+	.themed-qqoYp3.item-2GWPIy:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):active {
 	color: var(--white-500);
 	background-color: var(--blurple) !important;
 }

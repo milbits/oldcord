@@ -175,12 +175,7 @@ body {
 	--crunchyroll-dark: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55%);
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 }
-* {
-	--text-danger: var(--red) !important;
-	--input-grey: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
-	--status-danger: var(--red) !important;
-	--status-positive-background: var(--green);
-}
+
 [class*="cardPrimary-"] {
 	--__card-accent-color: var(--background-secondary) !important;
 }
