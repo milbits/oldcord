@@ -1025,9 +1025,16 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--twitch);
 	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
 }
+/*The twitter icon and name is still viewable while pressing shift in the connections menu*/
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Twitter"] {
 	background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
 	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
+}
+
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="X"] {
+	background-color: #0c0c0c;
+		background-image: url(https://discord.com/assets/4643b9da67226d176c1c988a94b1f1ec.svg);
+
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Xbox"] {
 	background-color: var(--xbox);
