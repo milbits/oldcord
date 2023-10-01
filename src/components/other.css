@@ -1003,32 +1003,32 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Battle.net"] {
 	background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/3a257c4cab129e956b05bd50047eb0f9.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="GitHub"] {
 	background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/9e2893717851c493b4bff518f8b63ee7.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Reddit"] {
 	background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Spotify"] {
 	background-color: var(--spotify);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764324167770/fe3770614c2658a07dea3ecb286ce745.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/fe3770614c2658a07dea3ecb286ce745.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Steam"] {
 	background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Twitch"] {
 	background-color: var(--twitch);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/4c1bab3f945269a5c1be0b3a2c177141.png);
 }
 /*The twitter icon and name is still viewable while pressing shift in the connections menu*/
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Twitter"] {
 	background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/2ac50d286a1c883f28b5149239a8ad36.png);
 }
 
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="X"] {
@@ -1038,35 +1038,35 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Xbox"] {
 	background-color: var(--xbox);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/850ed4fcf5839b7a32651f5959e8511e.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="YouTube"] {
 	background-color: var(--youtube);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/0ef81742942677bcef0bebdfb7061d29.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Skype"] {
 	background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039642452048/de5fb9e860729912c65048c1c657e1a3.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/de5fb9e860729912c65048c1c657e1a3.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="League of Legends"] {
 	background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/fbbd224a0d94747c102515090682bbe1.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Facebook"] {
 	background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208530325534/c926e69c482dac25b8e940db74496813.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/c926e69c482dac25b8e940db74496813.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="PlayStation Network"] {
 	background-color: var(--playstation);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/4282c3f55c9c6d0c310ebc927d8a278c.png);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Epic Games"] {
 	background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/db9e2406158133f91e1fe24bb56425c2.svg);
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s [alt="Riot Games"] {
 	background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
-	background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg);
+	background-image: url(https://milbits.github.io/oldcord/src/assets/991f3682123857c83ad3252a30023b1a.svg);
 }
 
 /** revert too powerful dialog */
