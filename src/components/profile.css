@@ -159,7 +159,8 @@
 :is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .overlayBackground-2aa7wt {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
-:is([class*="animator"], [class*="root"]) :is(.userProfileOuterThemed-2BgJCM, .userProfileInnerThemedPremiumWithoutBanner-lZ9inp, .userProfileInnerThemedWithBanner-25XGmz) {
+:is([class*="animator"], [class*="root"])
+	:is(.userProfileOuterThemed-2BgJCM, .userProfileInnerThemedPremiumWithoutBanner-lZ9inp, .userProfileInnerThemedWithBanner-25XGmz) {
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 	box-shadow: none;
 	padding: 0 !important;
