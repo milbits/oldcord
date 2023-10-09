@@ -828,7 +828,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	right: -12px;
 	width: 24px;
 	height: 24px;
-	box-shadow: var(--dark-elevation-border), var(--dark-elevation-low);
+	box-shadow: var(--legacy-elevation-border), var(--legacy-elevation-low);
 	background-color: var(--background-primary);
 	background-image: url(https://discord.com/assets/b5ad3c52d0699af9b6987839875450d4.svg);
 	background-position: 50% 50%;
@@ -1118,18 +1118,23 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 /*
 .notificationSound-3_yEQQ {
-	transform: translateX(-34px);
+	transform: translateX(-24px);
 	transition: 0.2s ease-out;
-	height: 20px !important;
 }
 .notificationSound-3_yEQQ:hover {
 	transform: translateX(-0px);
 }
 .soundIcon-1E1d9l {
 	order: -1;
-	transition: 0.2s linear;
-	margin-right: 10px;
+	transition: 0.2s ease-out;
 }
+.notificationSound-3_yEQQ .soundIcon-1E1d9l{
+	opacity: 0 !important
+}
+.notificationSound-3_yEQQ:hover .soundIcon-1E1d9l{
+	opacity: 0.6 !important
+}
+ Capitalize titles in settings
 .title-lXcL8p {
 	text-transform: uppercase;
 	font-size: 16px;

@@ -35,6 +35,11 @@
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
 	--elevation-high: 0 8px 16px #0000003d;
+
+	--legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl) / 0.3);
+	--legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.2);
+	--legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl) / 0.6);
+
 	--logo-primary: var(--white-500);
 	--focus-primary: var(--brand-experiment);
 	--deprecated-card-bg: hsla(216, calc(var(--saturation-factor, 1) * 7%), 14%, 0.6);
@@ -52,6 +57,7 @@
 	--button-secondary-background-active: #72767d;
 	--primary-transparent: #ffffff1a;
 }
+
 .theme-light {
 	--channeltextarea-background: #ebedef;
 	--background-modifier-accent: #06060714;
@@ -62,6 +68,11 @@
 	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
+
+	--legacy-elevation-low: 0 1px 5px hsl(var(--black-500-hsl) / 0.2);
+	--legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.1);
+	--legacy-elevation-border: 0 0 0 1px hsl(var(--primary-300-hsl) / 0.3);
+
 	--logo-primary: var(--brand-experiment);
 	--focus-primary: var(--brand-experiment);
 	--radio-group-dot-foreground: hsl(227, calc(var(--saturation-factor, 1) * 31%), 44%);
