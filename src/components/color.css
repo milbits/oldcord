@@ -87,13 +87,13 @@
 	background-color: var(--white-500);
 }
 
-.buttonColor-3bP3fX,
-.button-1EGGcP .buttonColor-3bP3fX {
+.buttonColor-1PCuWq,
+.button-2gNyE9 .buttonColor-1PCuWq {
 	background-color: var(--background-primary) !important;
 	color: var(--interactive-active);
 }
-.button-1EGGcP.buttonColor-3bP3fX:hover,
-.button-1EGGcP .buttonColor-3bP3fX:hover {
+.button-2gNyE9.buttonColor-1PCuWq:hover,
+.button-2gNyE9 .buttonColor-1PCuWq:hover {
 	background-color: var(--background-secondary) !important;
 }
 
@@ -109,7 +109,7 @@
 	fill: var(--green);
 }
 
-.tipTitle-3FYEQp,
+.tipTitle-1uYSgK,
 .commandName-1KhvGm.clickable-31pE3P,
 .ephemeralMessage-11q8XZ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
 	color: var(--brand-experiment) !important;
@@ -139,25 +139,25 @@
 	background-color: var(--green);
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx {
+.button-2gNyE9.buttonColor-1PCuWq.buttonActive-1YQBrb,
+.button-2gNyE9 .buttonColor-1PCuWq.buttonActive-1YQBrb,
+.button-2gNyE9:hover .buttonColor-1PCuWq.buttonActive-1YQBrb,
+.button-2gNyE9.buttonColor-1PCuWq.buttonActive-1YQBrb {
 	background-color: var(--green);
 	color: var(--white-500);
 }
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
-.button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
-.buttonActive-Uc1jHx.buttonColor-3bP3fX:hover,
+.button-2gNyE9.buttonColor-1PCuWq.buttonActive-1YQBrb:hover,
+.button-2gNyE9 .buttonColor-1PCuWq.buttonActive-1YQBrb:hover,
+.button-2gNyE9:hover .buttonColor-1PCuWq.buttonActive-1YQBrb,
+.button-2gNyE9.buttonColor-1PCuWq.buttonActive-1YQBrb:hover,
+.buttonActive-1YQBrb.buttonColor-1PCuWq:hover,
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover {
 	background-color: var(--green-hover);
 }
 
-.button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:active,
-.buttonActive-Uc1jHx.buttonColor-3bP3fX:active,
+.button-2gNyE9:hover .buttonColor-1PCuWq.buttonActive-1YQBrb,
+.button-2gNyE9.buttonColor-1PCuWq.buttonActive-1YQBrb:active,
+.buttonActive-1YQBrb.buttonColor-1PCuWq:active,
 .lookFilled-1H2Jvj.colorGreen-jIPCAS:active {
 	background-color: var(--green-active);
 	color: var(--white-500);
@@ -171,10 +171,10 @@
 	background: var(--green);
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-.button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-.button-1EGGcP.buttonColor-3bP3fX:disabled,
-.button-1EGGcP .buttonColor-3bP3fX:disabled {
+.button-2gNyE9.buttonColor-1PCuWq.fauxDisabled-AptruP,
+.button-2gNyE9 .buttonColor-1PCuWq.fauxDisabled-AptruP,
+.button-2gNyE9.buttonColor-1PCuWq:disabled,
+.button-2gNyE9 .buttonColor-1PCuWq:disabled {
 	background-color: var(--background-primary);
 	color: var(--interactive-active);
 	opacity: 0.3;
@@ -560,7 +560,7 @@
 }
 
 /*channels and roles*/
-.chat-2ZfjoI,
+.chat-9g_3Xj,
 .theme-dark .container-2IKOsH,
 .theme-dark .header-3xB4vB {
 	background-color: var(--background-primary) !important;

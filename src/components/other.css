@@ -171,9 +171,9 @@
 	border-style: solid;
 	border-radius: 5px;
 }
-
 /** display:none graveyard*/
 .profileEffects-km5xa2,
+[class*="avatarDeco"],
 .sessionMoreButton-2cApSx svg,
 .artwork-L5TAwQ /* login page cringe corporate bg*/,
 .banner-2MAbnt,
@@ -186,12 +186,12 @@
 .container-1eD8xH,
 .item-1TA5qI .radioBar-1XgZqD circle,
 /* status picker profile*/
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-2CLfzN,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
-.accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before,
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"],
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2-eHMB *),
+.accountProfilePopoutWrapper-Ag_Fip .bannerSVGWrapper-2CLfzN,
+.accountProfilePopoutWrapper-Ag_Fip .avatarWrapper-eenWra,
+.accountProfilePopoutWrapper-Ag_Fip .profileBadges-2pItdR,
+.accountProfilePopoutWrapper-Ag_Fip .userProfileInner-1ngKnf:before,
+.accountProfilePopoutWrapper-Ag_Fip [id="account-divider-1"],
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2-eHMB *),
 .unreadIcon-3dqgX9 /* new unread bar icon*/,
 .container-1QtPKm svg,
 .communityInfoPill-2Mll66,
@@ -575,15 +575,15 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	border-color: var(--brand-experiment);
 }
 
-.accountProfilePopoutWrapper-3GskID {
+.accountProfilePopoutWrapper-Ag_Fip {
 	left: 0;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz {
 	margin: 0;
 	border-radius: 4px;
 }
-.accountProfilePopoutWrapper-3GskID > div,
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
+.accountProfilePopoutWrapper-Ag_Fip > div,
+.accountProfilePopoutWrapper-Ag_Fip .menu-KSaHL1 .submenu-1apzyU {
 	border-radius: 4px;
 }
 
@@ -750,7 +750,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 
 /* make background the same as text channels*/
 .container-3wLKDe,
-.title-31SJ6t {
+.title-5wgnIa {
 	background-color: var(--background-primary) !important;
 }
 .theme-dark .children-3xh0VB:after {
