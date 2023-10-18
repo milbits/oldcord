@@ -16,9 +16,10 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 | Name                                                                                            | Description                                                    |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Vencord's NoMosaic plugin](https://vencord.dev)                                                | Restores the old image layout (not available on betterdiscord) |
+| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                               | Restores the old image layout |
 | [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions) | Removes super reactions                                        |
 | [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)       | Open the file picker with just one click                       |
+| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads |
 
 Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay in dark mode
 
