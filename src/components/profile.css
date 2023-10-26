@@ -186,7 +186,7 @@
 div.clickable__35918.avatarWrapperNormal__0bddb.avatarWrapper_f77579:is(.avatarPositionPremiumBanner__1e83d,.avatarPositionPremiumNoBanner-nWzERs) > div > div > svg > :is(circle,rect:nth-child(2)),
 div.avatarHoverTarget__3a360 > .wrapper_edb6e0 > svg > circle,
 /*for modal*/
-div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle,rect:nth-child(2)) {
+div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle,rect:nth-child(2)) {
 	visibility: hidden;
 }
 
@@ -255,7 +255,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 }
 
 .section__6f61e :is(.eyebrow_e5a66c, .headerTextNormal_d9fce2),
-.userInfoSectionHeader-2mYYun {
+.userInfoSectionHeader__31b66 {
 	color: var(--header-secondary);
 }
 
@@ -336,7 +336,7 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 	margin: 0;
 }
 
-.container-3g15px {
+.container_b6b15b {
 	background: var(--bg-overlay-1, var(--background-tertiary)) !important;
 }
 
@@ -346,25 +346,25 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div > svg > :is(circle
 	margin-top: 46px;
 }
 
-div.topSection-13QKHs > header > div > div:nth-child(1) > div {
+div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	transform: scale(0.666);
 	position: absolute;
 	top: -20px;
 	left: 0px;
 }
-.topSection-13QKHs {
+.topSection_dfb73b {
 	padding-top: 20px;
 	margin-bottom: 10px;
 }
 
-.nameTag-35jqbZ.nameTag__693ff,
-.container-3g15px .text-lg-semibold__84aef {
+.nameTag__7814f,
+.container_b6b15b .text-lg-semibold__84aef {
 	transform: scale(0.9);
 	position: relative;
 	top: -5px;
 	left: 75px;
 }
-.container-3g15px .text-lg-semibold__84aef {
+.container_b6b15b .text-lg-semibold__84aef {
 	color: var(--interactive-active);
 	width: 320px;
 	left: 87px;
@@ -377,25 +377,25 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	width: 285px;
 }
 /*new usernames*/
-.info__40462 .discriminator-hnHkyt {
-	transform: translateX(75px) translateY(-6px);
+.info__40462 .discriminator_a801dd{
+	transform: translateX(0px) translateY(-6px);
 }
 /*pronouns*/
 
 /*you cant move the badges under the pronouns without affecting profiles that dont have them
   still unsure about the placement tho*/
 
-.pronouns-RGQpyK {
+.pronouns_be950a {
 	top: 18px;
 	left: 102px;
 	position: relative;
 }
 /*add padding when a status is set, or else it'Ll look cluttered*/
-.pronouns-RGQpyK:has(+ div .customStatus-3qYNe4) {
+.pronouns_be950a:has(+ div .customStatus__90402) {
 	padding-bottom: 16px;
 }
 
-.body-1Ukv50 > .container-3g15px > div:nth-child(2) > .text-sm-normal_d9d853.customStatusText-1uNQ8w {
+.body_ea740e > .container_b6b15b > div:nth-child(2) > .text-sm-normal_d9d853.customStatusText_ee5413 {
 	height: 0px;
 	position: relative;
 	top: 12px;
@@ -403,42 +403,42 @@ div.topSection-13QKHs > header > div > div:nth-child(1) > div {
 	margin-right: 10px;
 }
 
-.headerTop-1PNKck > .badgeList-2aoHPw {
+.headerTop__6628b > .badgeList_c193e3 {
 	transform-origin: top left;
-	transform: scale(1.25);
+	transform: scale(1.255);
 	position: relative;
 	right: 53px;
 	top: 41px;
 }
-:is([class*="animator"], [class*="root"]) .badgeList-2aoHPw {
+:is([class*="animator"], [class*="root"]) .badgeList_c193e3 {
 	background-color: transparent;
 }
 
-.headerTop-1PNKck > .relationshipButtons-pZ_UWl {
+.headerTop__6628b > .relationshipButtons-pZ_UWl {
 	margin-top: 9px;
 }
-.body-1Ukv50 > .container-3g15px {
+.body_ea740e > .container_b6b15b {
 	padding-bottom: 30px;
 }
 /*weird padding fuckery?????*/
-.container-3g15px:has(.customStatus-3qYNe4) {
+.container_b6b15b:has(.customStatus__90402) {
 	padding-bottom: 40px;
 }
-.container-3g15px:has(.pronouns-RGQpyK + div .customStatus-3qYNe4) {
+.container_b6b15b:has(.pronouns_be950a + div .customStatus__90402) {
 	padding-bottom: 10px;
 }
 
-.tabBarItem-30Te4-.item-3XjbnG {
+.tabBarItem_b56b35.item-3XjbnG {
 	height: 30px;
 }
 
 /*note: divider only appears on your own profile dialog */
-.body-1Ukv50 > .divider-SH6OnO {
+.body_ea740e > .divider-SH6OnO {
 	border-top: 9px solid var(--bg-overlay-2, var(--background-tertiary));
 	margin: 0 0 0;
 }
 
-.tabBarContainer-sCZC4w {
+.tabBarContainer__63f55 {
 	padding: 20px;
 	padding-right: 10px;
 	padding-bottom: 0;
