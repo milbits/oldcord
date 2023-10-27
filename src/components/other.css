@@ -749,7 +749,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* make background the same as text channels*/
-.container-3wLKDe,
+.container_b181b6,
 .title_b7d661 {
 	background-color: var(--background-primary) !important;
 }
@@ -757,16 +757,16 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	display: none;
 }
 /* make "search/create post" background the same as the textarea*/
-.headerRow-1MKoR- .mainCard-3KBsBI {
+.headerRow__16d8e .mainCard__8a660 {
 	background: var(--bg-overlay-3, var(--channeltextarea-background));
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 5px;
 }
 /* so "revert textfields" wont apply there */
-.headerRow-1MKoR- .mainCard-3KBsBI .scrollableContainer__33e06,
-.headerRow-1MKoR- .mainCard-3KBsBI .input-2g-os5,
-.headerRow-1MKoR- .mainCard-3KBsBI .input_d266e7 {
+.headerRow__16d8e .mainCard__8a660 .scrollableContainer__33e06,
+.headerRow__16d8e .mainCard__8a660 .input-2g-os5,
+.headerRow__16d8e .mainCard__8a660 .input_d266e7 {
 	background: none !important;
 	border: none;
 }
