@@ -254,7 +254,7 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 	padding: 0;
 }
 
-.section__6f61e :is(.eyebrow_e5a66c, .headerTextNormal_d9fce2),
+.section__6f61e :is(.eyebrow_f53856, .headerTextNormal_d9fce2),
 .userInfoSectionHeader__31b66 {
 	color: var(--header-secondary);
 }
@@ -395,7 +395,7 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	padding-bottom: 16px;
 }
 
-.body_ea740e > .container_b6b15b > div:nth-child(2) > .text-sm-normal_d9d853.customStatusText_ee5413 {
+.body_ea740e > .container_b6b15b > div:nth-child(2) > .text-sm-normal_e612c7.customStatusText_ee5413 {
 	height: 0px;
 	position: relative;
 	top: 12px;
@@ -433,7 +433,7 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 }
 
 /*note: divider only appears on your own profile dialog */
-.body_ea740e > .divider-SH6OnO {
+.body_ea740e > .divider__07b2a {
 	border-top: 9px solid var(--bg-overlay-2, var(--background-tertiary));
 	margin: 0 0 0;
 }
