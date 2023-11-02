@@ -199,8 +199,10 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 :is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium__3d0a6 {
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 }
-
-:is([class*="animator"], [class*="root"]) :is(.nameTag__693ff, .nickname__3d1d7, .userTag_cf17d3) {
+.container__22d2b{
+	display: unset
+}
+:is([class*="animator"], [class*="root"]) :is(.nickname__3d1d7, .userTag_cf17d3) {
 	text-align: center;
 	color: #fff;
 }

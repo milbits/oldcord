@@ -287,8 +287,8 @@
 	border-radius: 5px;
 	background: #0000 !important;
 }
-.item-2idW98[aria-checked="false"] .text-md-medium_b12de1,
-.item_b7fb7e[aria-checked="false"] .text-md-medium_b12de1 {
+.item-2idW98[aria-checked="false"] .text-md-medium__5151a,
+.item_b7fb7e[aria-checked="false"] .text-md-medium__5151a {
 	color: var(--radio-bar-accent-color) !important;
 }
 .item_b7fb7e .radioBar__40e1b {
@@ -302,14 +302,14 @@
 	align-self: flex-start;
 	height: 24px;
 }
-.radioLabelDescription-2ZSE0N {
+.radioLabelDescription_bbd9d9 {
 	/*Only applies to channel creation*/
 	display: none;
 }
 .radioLabelName-3FiyYq {
 	color: #fff;
 }
-[aria-checked="false"] .text-sm-normal_d9d853 {
+[aria-checked="false"] .text-sm-normal_e612c7 {
 	color: var(--interactive-normal);
 }
 
@@ -364,7 +364,7 @@
 .theme-light .item_b7fb7e .radioBar__40e1b > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
 	fill: #b9bbbe;
 }
-.radioBarIcon-EiCq-C {
+.radioBarIcon_af84d3 {
 	order: unset;
 	height: 24px;
 }
@@ -392,7 +392,7 @@
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
 :is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-md-medium_b12de1,
-:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-sm-normal_d9d853 {
+:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7 {
 	font-size: 0;
 	line-height: unset;
 }
@@ -400,20 +400,20 @@
 	font-size: 16px;
 	line-height: 20px;
 }
-:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-sm-normal_d9d853:before {
+:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7:before {
 	font-size: 14px;
 	line-height: 18px;
 }
 [lang^="de"] .radioBar__40e1b[style*="red"] .text-md-medium_b12de1:before {
 	content: "Ich lebe am Limit";
 }
-[lang^="de"] .radioBar__40e1b[style*="red"] .text-sm-normal_d9d853:before {
+[lang^="de"] .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7:before {
 	content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
 [lang^="en"] .radioBar__40e1b[style*="red"] .text-md-medium_b12de1:before {
 	content: "I live on the edge";
 }
-[lang^="en"] .radioBar__40e1b[style*="red"] .text-sm-normal_d9d853:before {
+[lang^="en"] .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7:before {
 	content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
 
@@ -446,7 +446,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
 }
-.container__74689 .backgroundModifierContainer__73a0a .text-sm-normal_d9d853 {
+.container__74689 .backgroundModifierContainer__73a0a .text-sm-normal_e612c7 {
 	color: var(--interactive-normal);
 }
 .container__74689 .backgroundModifierContainer__73a0a > div:not([class*="-"]) {
@@ -480,7 +480,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--blurple);
 	border-color: var(--blurple);
 }
-.container__74689 .selected__93d53 .text-sm-normal_d9d853,
+.container__74689 .selected__93d53 .text-sm-normal_e612c7,
 .container__74689 .selected__93d53 .text-sm-medium_bc6ffc,
 .container__74689 .selected__93d53 .radioItem__7c777 {
 	color: #fff !important;
@@ -772,7 +772,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }
 
 /* posts*/
-.container-1PloNW,
+.container_c24cbd,
 .container__99b06 {
 	transition: 0.17s ease;
 	transform: none !important;
@@ -781,12 +781,12 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background: var(--deprecated-card-editable-bg);
 	border: none;
 }
-.content__23cab .container-1PloNW:hover,
+.content__23cab .container_c24cbd:hover,
 .content__23cab .container__99b06:hover {
 	background-color: var(--background-modifier-hover) !important;
 	border: none;
 }
-.container-1PloNW:active,
+.container_c24cbd:active,
 .container__99b06:active {
 	background-color: var(--background-modifier-active) !important;
 }
