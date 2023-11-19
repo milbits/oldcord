@@ -391,12 +391,12 @@
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
-:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-md-medium_b12de1,
+:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-md-medium__5151a,
 :is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7 {
 	font-size: 0;
 	line-height: unset;
 }
-:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-md-medium_b12de1:before {
+:is([lang^="de"], [lang^="en"]) .radioBar__40e1b[style*="red"] .text-md-medium__5151a:before {
 	font-size: 16px;
 	line-height: 20px;
 }
@@ -404,13 +404,13 @@
 	font-size: 14px;
 	line-height: 18px;
 }
-[lang^="de"] .radioBar__40e1b[style*="red"] .text-md-medium_b12de1:before {
+[lang^="de"] .radioBar__40e1b[style*="red"] .text-md-medium__5151a:before {
 	content: "Ich lebe am Limit";
 }
 [lang^="de"] .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7:before {
 	content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
-[lang^="en"] .radioBar__40e1b[style*="red"] .text-md-medium_b12de1:before {
+[lang^="en"] .radioBar__40e1b[style*="red"] .text-md-medium__5151a:before {
 	content: "I live on the edge";
 }
 [lang^="en"] .radioBar__40e1b[style*="red"] .text-sm-normal_e612c7:before {

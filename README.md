@@ -1,6 +1,7 @@
 # OldCord
 
 A theme for Discord that brings back the 2020 UI (mostly) without removing features.
+
 ###### Completely removes profile effects, profile colors, avatar decos, and banners
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.png)
@@ -14,14 +15,24 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 ## Additional stuff
 
-| Name                                                                                            | Description                                                    |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                               | Restores the old image layout |
-| [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions) | Removes super reactions                                        |
-| [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)       | Open the file picker with just one click                       |
-| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads |
+| Name                                                                                                                                  | Description                              |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout            |
+| [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions)                                       | Removes super reactions                  |
+| [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)                                             | Open the file picker with just one click |
+| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads                          |
 
 Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay in dark mode
+
+#### Old plead emoji
+
+In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`, copy paste the following:
+
+```css
+@import url("https://milbits.github.io/oldcord/src/oldEmojis.css");
+```
+
+Make sure it's at the very top
 
 ---
 
@@ -37,14 +48,14 @@ Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay
 
 ## [Vencord](https://github.com/Vendicated/Vencord)
 
-### Local method
+#### Local method
 
 1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
 2. Move the file to the Vencord theme folder:
 
 - `Settings > Themes > Open theme folder`
 
-### Online method
+#### Online method
 
 Paste the following in `Settings > Themes`:
 
