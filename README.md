@@ -29,7 +29,7 @@ Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay
 In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`, copy paste the following:
 
 ```css
-@import url("https://milbits.github.io/oldcord/src/oldEmojis.css");
+@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");
 ```
 
 Make sure it's at the very top
