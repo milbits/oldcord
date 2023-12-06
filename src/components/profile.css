@@ -367,14 +367,18 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 /*New usernames*/
 /*Username Position*/
 .info__40462 .discriminator_a801dd {
-	transform: translateX(0px) translateY(-6px);
+	transform: translateX(-0.5px) translateY(-6px);
 }
-.nameTag__7814f,
 .container_b6b15b .text-lg-semibold__18f10 {
 	transform: scale(0.9);
 	position: relative;
-	top: -5px;
+	top: -6px;
 	left: 75px;
+}
+.nameTag__7814f{
+	position: relative;
+	top: -6px;
+	left: 104px
 }
 /*Display name tweaks*/
 .container_b6b15b .text-lg-semibold__18f10 {
@@ -383,15 +387,8 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	left: 87px;
 	user-select: text;
 }
-/*pronouns*/
 
-/*you cant move the badges under the pronouns without affecting profiles that dont have them*/
 
-.pronouns_be950a {
-	top: 18px;
-	left: 102px;
-	position: relative;
-}
 /*add padding when a status is set, or else it'Ll look cluttered*/
 .pronouns_be950a:has(+ div .customStatus__90402) {
 	padding-bottom: 16px;
@@ -409,8 +406,19 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	transform-origin: top left;
 	transform: scale(1.255);
 	position: relative;
-	right: 53px;
-	top: 41px;
+	right: 54.5px;
+	top: 55px;
+}
+/*pronouns*/
+
+/*you cant move the badges under the pronouns without affecting profiles that dont have them*/
+
+.pronouns_be950a {
+	top: -17px;
+	left: 103.5px;
+	position: relative;
+	font-weight: 500;
+	color: var(--text-secondary)
 }
 :is([class*="animator"], [class*="root"]) .badgeList_c193e3 {
 	background-color: transparent;
