@@ -24,7 +24,7 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay in dark mode
 
-#### Old plead emoji
+#### Old Plead Emoji
 
 In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`, copy paste the following:
 
@@ -70,3 +70,7 @@ Paste the following in `Settings > Themes`:
 ```
 
 ---
+
+# Credits
+
+- Icon Revert Source: [Icon Revert 2023](https://github.com/davart154/Icon-Revert-2023/) by [davart154](https://github.com/davart154)
