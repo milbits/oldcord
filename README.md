@@ -8,22 +8,21 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 <details> <summary><strong>Light mode</strong></summary>
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.png>
+###### preview might be outdated
 
 </details>
 
-###### preview might be outdated
+#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
 
-## Additional stuff
+<details><summary><strong> Additional stuff</strong></summary>
 
 | Name                                                                                                                                  | Description                              |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout            |
-| [Tanza3D's NoMosaic plugin (BetterDiscord)](https://github.com/Tanza3D/discord-no-mosaic)                                             | Restores the old image layout            |
+| [Tanza3D's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic)                                        | Restores the old image layout            |
 | [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions)                                       | Removes super reactions                  |
 | [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)                                             | Open the file picker with just one click |
 | [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads                          |
-
-Enable "Sync Profile Themes" in `Settings > Accessibility` so that profiles stay in dark mode
 
 #### Old Plead Emoji
 
@@ -33,9 +32,17 @@ In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`
 @import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");
 ```
 
-Make sure it's at the very top
+#### Old Context menu background
 
----
+```css
+@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");
+```
+
+<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.png>
+
+Make sure that they're at the top of the file!
+
+ </details>
 
 # Installation
 

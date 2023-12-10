@@ -4,12 +4,20 @@
   * @author milbit
   * @authorId 525379333951324190
   * @source https://github.com/milbits/oldcord
-  * @description Brings back the old discord design from 2020
+  * @description Restores discord's 2020 UI
 */
 @import url("https://milbits.github.io/oldcord/src/main.css");
 
 /* Options */
+
 :root {
 	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
 	--reaction-animation: 0;
 }
+/*
+optional stuff that i don't wanna add to the main theme
+remove a "/*" below to enable one
+*/
+
+/*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
+/*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
