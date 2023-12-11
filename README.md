@@ -8,13 +8,12 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 <details> <summary><strong>Light mode</strong></summary>
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.png>
-###### preview might be outdated
 
 </details>
 
-#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
+# Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
 
-<details><summary><strong> Additional stuff</strong></summary>
+# <details><summary><strong> Additional stuff</strong></summary>
 
 | Name                                                                                                                                  | Description                              |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |

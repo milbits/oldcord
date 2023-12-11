@@ -199,8 +199,8 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 :is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium__3d0a6 {
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 }
-.container__22d2b{
-	display: unset
+.container__22d2b {
+	display: unset;
 }
 :is([class*="animator"], [class*="root"]) :is(.nickname__3d1d7, .userTag_cf17d3) {
 	text-align: center;
@@ -375,10 +375,10 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	top: -6px;
 	left: 75px;
 }
-.nameTag__7814f{
+.nameTag__7814f {
 	position: relative;
 	top: -6px;
-	left: 104px
+	left: 104px;
 }
 /*Display name tweaks*/
 .container_b6b15b .text-lg-semibold__18f10 {
@@ -387,7 +387,6 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	left: 87px;
 	user-select: text;
 }
-
 
 /*add padding when a status is set, or else it'Ll look cluttered*/
 .pronouns_be950a:has(+ div .customStatus__90402) {
@@ -418,7 +417,7 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	left: 103.5px;
 	position: relative;
 	font-weight: 500;
-	color: var(--text-secondary)
+	color: var(--text-secondary);
 }
 :is([class*="animator"], [class*="root"]) .badgeList_c193e3 {
 	background-color: transparent;
@@ -512,3 +511,39 @@ div.profileCardUsernameRow__4cbd8 > div.userTag__4ca14.nameTag__693ff > span.dis
 .customStatusEmoji__00639 {
 	margin-right: 8px !important;
 }*/
+
+/*User profile panel in dms*/
+
+.userPanelInnerThemed__1804b {
+	background: var(--background-secondary);
+}
+
+.section__6f61e .userText__3e8b7 {
+	text-align: center;
+}
+.bannerSVGWrapper__3e7b0 {
+	display: none;
+}
+.userPanelInner_eddf4c .none__51a8f > div:has(.bannerSVGWrapper__3e7b0),
+.section__6f61e:has(.pronouns__8bcdb) {
+	background: var(--background-tertiary);
+	border-radius: 0 !important;
+}
+.userPanelOverlayBackground__34fc8 {
+	background: var(--background-secondary);
+	margin: 0;
+	padding: 0;
+}
+.badgeList_ef4131 {
+	background: transparent;
+}
+.userPanelInner_eddf4c .avatarWrapperNormal__0bddb {
+	padding-bottom: 25px;
+	left: 32% !important;
+}
+.section__6f61e:not(:has(.pronouns__8bcdb)) {
+	margin-left: 12px;
+}
+.divider__2bbbc {
+	display: none;
+}
