@@ -11,9 +11,9 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 </details>
 
-# Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
+#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
 
-# <details><summary><strong> Additional stuff</strong></summary>
+<details><summary><strong>Additional stuff</strong></summary>
 
 | Name                                                                                                                                  | Description                              |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -41,7 +41,7 @@ In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`
 
 Make sure that they're at the top of the file!
 
- </details>
+</details>
 
 # Installation
 
