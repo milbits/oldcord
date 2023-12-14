@@ -33,11 +33,19 @@ In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`
 
 #### Old Context menu background
 
+<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.png>
+
 ```css
 @import url("https://milbits.github.io/oldcord/src/components/oldContext.css");
 ```
 
-<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.png>
+#### Show Profile Cosmetics
+
+Unhides things like profile banners
+
+```css
+@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");
+```
 
 Make sure that they're at the top of the file!
 

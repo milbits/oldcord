@@ -524,7 +524,7 @@ div.profileCardUsernameRow__4cbd8 > div.userTag__4ca14.nameTag__693ff > span.dis
 	display: none;
 }
 .userPanelInner_eddf4c .none__51a8f > div:has(.bannerSVGWrapper__3e7b0),
-[class^="userPanel"] .section__6f61e:has(.nickname__3d1d7) {
+[class^="userPanel"] .section__6f61e:has(.nickname__3d1d7, .customStatus__3aa7f) {
 	background: var(--background-tertiary);
 	border-radius: 0 !important;
 }
@@ -536,11 +536,17 @@ div.profileCardUsernameRow__4cbd8 > div.userTag__4ca14.nameTag__693ff > span.dis
 .badgeList_ef4131 {
 	background: transparent;
 }
+.badgelistGroup__53eaa {
+	/*bottom: 130px !important;*/
+	display: unset;
+	position: relative;
+}
 [class^="userPanel"] .userPanelInner_eddf4c .avatarWrapperNormal__0bddb {
 	padding-bottom: 25px;
 	left: 32% !important;
+	/*top: 11px*/
 }
-[class^="userPanel"] .section__6f61e:not(:has(.nickname__3d1d7)) {
+[class^="userPanel"] .section__6f61e:not(:has(.nickname__3d1d7, .customStatus__3aa7f)) {
 	margin-left: 12px;
 }
 [class^="userPanel"] .divider__2bbbc {
