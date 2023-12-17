@@ -405,6 +405,9 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 	transform: scale(1.255);
 	position: relative;
 	right: 54.5px;
+	top: 35px;
+}
+:has(.userProfileModalInner__7c87d .pronouns_be950a) .badgeList_c193e3 {
 	top: 55px;
 }
 /*pronouns*/
