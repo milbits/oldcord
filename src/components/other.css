@@ -274,6 +274,11 @@
 }
 
 /** radiobars (like channel type)*/
+/*event creation double check thing*/
+.item_b7fb7e.itemFilled__373d7 .icon__3b667 {
+	display: none;
+}
+
 .modal-1Kmy_E {
 	border-radius: 6px;
 }
@@ -547,7 +552,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--background-secondary);
 	border: #ffffff0f solid 1px;
 }
-/** revert the text fields*/
+/** revert text fields*/
+/*add friends weird font fix*/
+.inputText__81d8a {
+	letter-spacing: unset;
+}
 .input_d266e7:not(.textarea_c5a7a3, .searchBoxInput__73c9c, [name="add-friend"], .searchInput-3NGPfp),
 .bioTextArea_a108c9 {
 	border-radius: 3px;

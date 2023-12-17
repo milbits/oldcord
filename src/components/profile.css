@@ -243,12 +243,11 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 	padding-bottom: 10px;
 	text-align: center;
 }
-.customStatus__3aa7f {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .customStatus__3aa7f {
 	justify-content: center;
 	display: flex;
 }
-.customStatusText_f5aa9a,
-.pronouns__8bcdb {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.customStatusText_f5aa9a, .pronouns__8bcdb) {
 	text-align: center !important;
 	color: var(--play-primary, var(--header-secondary));
 	max-width: 250px;
@@ -256,7 +255,7 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 	padding: 0;
 }
 
-.section__6f61e :is(.eyebrow_f53856, .headerTextNormal_d9fce2),
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .section__6f61e :is(.eyebrow_f53856, .headerTextNormal_d9fce2),
 .userInfoSectionHeader__31b66 {
 	color: var(--header-secondary);
 }
@@ -481,8 +480,8 @@ div.profileCardUsernameRow__4cbd8 > div.userTag__4ca14.nameTag__693ff > span.dis
 .accountProfileCard__22589 > .userInfo__8f826 > div:nth-child(2) > .badgeList__243e0.containerWithContent__7e98f.container__5bda1 {
 	transform: scale(1.5);
 	position: relative;
-	left: 33px;
-	bottom: 5px;
+	left: 13px;
+	bottom: 3px;
 }
 .accountProfileCard__22589 {
 	background: var(--bg-overlay-3, var(--background-secondary));
