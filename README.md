@@ -76,6 +76,14 @@ Paste the following in `Settings > Themes`:
 
 - `https://milbits.github.io/oldcord/src/main.css`
 
+## [OpenAsar](https://github.com/GooseMod/OpenAsar)
+
+Paste the following in `Discord's Settings > OpenAsar > Theming`:
+
+```css
+@import url("https://milbits.github.io/oldcord/src/main.css");
+```
+
 ## Custom CSS
 
 1. Paste the following at **the top** of the file:
