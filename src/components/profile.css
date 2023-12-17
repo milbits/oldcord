@@ -435,6 +435,9 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div {
 .container_b6b15b:has(.customStatus__90402) {
 	padding-bottom: 40px;
 }
+.container_b6b15b:has(.customStatusSoloEmoji__97ca3) {
+	padding-bottom: 65px;
+}
 .container_b6b15b:has(.pronouns_be950a + div .customStatus__90402) {
 	padding-bottom: 10px;
 }
