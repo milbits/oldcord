@@ -1149,3 +1149,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	text-transform: uppercase;
 	font-size: 16px;
 }*/
+
+/*Fix favorite button and delete overlap*/
+:has(.imageAccessory__64ab2 [class*="gifFavoriteButton__"]) .hoverButtonGroup__5b423{
+	margin-right: 30px
+}
