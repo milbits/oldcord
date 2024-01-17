@@ -11,8 +11,6 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 </details>
 
-#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
-
 <details><summary><strong>Additional stuff</strong></summary>
 
 | Name                                                                                                                                  | Description                              |
@@ -25,7 +23,7 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 #### Old Plead Emoji
 
-In the custom css tab/Quick css file `(Settings > Vencord > Open quickcss file)`, copy paste the following:
+In the custom CSS Tab on BD/Quick css file on Ven `(Settings > Vencord > Open quickcss file)`, copy-paste the following:
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");
@@ -50,6 +48,8 @@ Unhides things like profile banners
 Make sure that they're at the top of the file!
 
 </details>
+
+#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profiles
 
 # Installation
 
@@ -76,23 +76,15 @@ Paste the following in `Settings > Themes`:
 
 - `https://milbits.github.io/oldcord/src/main.css`
 
-## [OpenAsar](https://github.com/GooseMod/OpenAsar)
+## Other
 
-Paste the following in `Discord's Settings > OpenAsar > Theming`:
-
-```css
-@import url("https://milbits.github.io/oldcord/src/main.css");
-```
-
-For best experience, Enable the `Splash Theming` option in OpenAsar's settings tab.
-
-## Custom CSS
-
-1. Paste the following at **the top** of the file:
+1. Paste the following at **the top** of the file/window:
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/main.css");
 ```
+
+In OpenAsar, paste it in `Discord's Settings > OpenAsar > Theming`
 
 ---
 

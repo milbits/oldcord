@@ -187,6 +187,6 @@ body {
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 }
 
-[class*="cardPrimary-"] {
+[class*="cardPrimary_"] {
 	--__card-accent-color: var(--background-secondary) !important;
 }

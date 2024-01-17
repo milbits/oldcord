@@ -268,6 +268,35 @@ div.topSection_dfb73b > header > div > div:nth-child(1) > div > svg > :is(circle
 	border-color: var(--background-tertiary) !important;
 }
 
+/** add a scrollbar to user bio*/
+.lineClamp2Plus_d4306b {
+	-webkit-line-clamp: 190 !important;
+	max-height: 112px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.lineClamp2Plus_d4306b::-webkit-scrollbar-thumb {
+	background: transparent;
+	border-radius: 99px;
+}
+.lineClamp2Plus_d4306b::-webkit-scrollbar {
+	width: 4px;
+}
+.lineClamp2Plus_d4306b:hover::-webkit-scrollbar-track {
+	background: 0 0;
+	border-radius: 10px;
+}
+.lineClamp2Plus_d4306b:hover::-webkit-scrollbar-thumb {
+	background: var(--bg-overlay-6, var(--background-tertiary));
+	border-radius: 999px;
+}
+
+.scroller__83262::-webkit-scrollbar-thumb,
+.infoScroller__6ec79::-webkit-scrollbar-thumb {
+	background: var(--background-tertiary);
+	border: 2px solid var(--background-secondary);
+}
+
 /** Roles */
 
 .root_a99273 {
