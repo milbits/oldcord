@@ -205,7 +205,6 @@
 :is([class*="animator"], [class*="root"], .accountProfileCard__22589) .bannerSVGWrapper__3e7b0,
 :is([class*="animator"], [class*="root"]) .divider__2bbbc,
 #account.menu_dc52c6 .profileBody-3QbfPe,
-.userPopoutOuter_d739b2 .section__6f61e .platformIcon__05c5e,
 
 .bd-switch svg {
 	display: none;
@@ -554,6 +553,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .input_d266e7:focus:not(.textArea-3WXAeD, .textarea_c5a7a3, [name="add-friend"], .searchInput-3NGPfp),
 .bioTextArea_a108c9:focus-within {
 	border-color: var(--brand-experiment);
+}
+
+.emojiInput__4fe54.input_d266e7{
+	padding: 0 !important;
+	background-color: #303339 !important
 }
 
 .accountProfilePopoutWrapper_af829a {

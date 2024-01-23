@@ -21,22 +21,21 @@
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter_d739b2:has([src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"]) {
+.userPopoutOuter_d739b2:has(.platformIcon__05c5e[src="/assets/7231645d01e0b14f58cc.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
 
+.activity__20c1e [src="/assets/7231645d01e0b14f58cc.svg"]{
+	content: url("https://milbits.github.io/oldcord/src/assets/spotify.png");
+	max-width: 25px
+}
 /* Live on Twitch*/
 .userPopoutOuter_d739b2:has([mask="url(#svg-mask-status-streaming)"]) {
 	--play: var(--twitch);
 	--play-dark: var(--twitch-dark);
 }
 
-/* Playing on XBOX*/
-.userPopoutOuter_d739b2:has([src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"]) {
-	--play: var(--xbox);
-	--play-dark: var(--xbox-dark);
-}
 
 /* Watching Crunchyroll*/
 .userPopoutOuter_d739b2:has([alt="Crunchyroll"]) {
@@ -57,15 +56,19 @@
 }
 
 /* Playing on XBOX*/
-.userPopoutOuter_d739b2:has([src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"]) {
+.userPopoutOuter_d739b2:has([src="/assets/9a15d086141be29d9fcd.png"]) {
 	--play: var(--xbox);
 	--play-dark: var(--xbox-dark);
 }
 
 /* Playing on PlayStation*/
-.userPopoutOuter_d739b2:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
+.userPopoutOuter_d739b2:has(.platformIcon__05c5e[src="/assets/75577d21ad1497348a3c.svg"]) {
 	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
+}
+
+.platformIcon__05c5e{
+	margin: 9px
 }
 
 /* make activity the first section*/

@@ -180,7 +180,7 @@ body {
 	--spotify: hsl(141, calc(var(--saturation-factor, 1) * 72%), 42%);
 	--spotify-dark: hsl(141, calc(var(--saturation-factor, 1) * 72%), 40%);
 	--xbox-dark: hsl(120, calc(var(--saturation-factor, 1) * 77%), 26%);
-	--xbox: hsl(120, calc(var(--saturation-factor, 1) * 77%), 27%);
+	--xbox2: hsl(120, calc(var(--saturation-factor, 1) * 77%), 27%);
 	--playstation-dark: hsl(220, calc(var(--saturation-factor, 1) * 96%), 27%);
 	--playstation2: hsl(220, calc(var(--saturation-factor, 1) * 96%), 31%);
 	--crunchyroll-dark: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55%);
