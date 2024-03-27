@@ -160,6 +160,7 @@ body {
 	--green-transparent: hsl(153, calc(var(--saturation-factor, 1) * 46%), 49%, 20%);
 	--info-positive-foreground: var(--green);
 	--text-positive: var(--green);
+	--status-positive-background: var(--green);
 	--red: hsl(0deg, calc(var(--saturation-factor, 1) * 85%), 61%);
 	--red-hover: hsl(0deg, calc(var(--saturation-factor, 1) * 66%), 55%);
 	--red-active: hsl(0deg, calc(var(--saturation-factor, 1) * 54%), 49%);
