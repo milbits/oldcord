@@ -1127,3 +1127,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 :has(.imageAccessory__9614b [class*="gifFavoriteButton__"]) .hoverButtonGroup__304b2 {
 	margin-right: 30px;
 }
+/*nitro emoji paywall*/
+.emojiLockIcon__05b24,
+.categoryItemLockIconContainer__61fa5 {
+	display: none;
+}
+.lockedEmoji__8c347:has(+ .emojiLockIconContainer_ed2f80) {
+	filter: grayscale(1) !important;
+}

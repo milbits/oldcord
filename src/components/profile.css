@@ -122,7 +122,7 @@
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
-:is([class*="animator"], [class*="root"]) .section__62b44:not(:has(.activity__20c1e)),
+:is([class*="animator"], [class*="root"]) .section__62b44:not(:has(.activity__88a5f)),
 .activityUserPopoutV2__89098 {
 	padding-left: 12px;
 }
@@ -245,11 +245,11 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 	padding-bottom: 10px;
 	text-align: center;
 }
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .customStatus__3aa7f {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .customStatus__6a31a {
 	justify-content: center;
 	display: flex;
 }
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.customStatusText_f5aa9a, .pronouns__8aa38) {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.customStatusText__386f7, .pronouns__8aa38) {
 	text-align: center !important;
 	color: var(--play-primary, var(--header-secondary));
 	max-width: 250px;
@@ -271,24 +271,24 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 }
 
 /** add a scrollbar to user bio*/
-.lineClamp2Plus_d4306b {
+.lineClamp2Plus_ccc883 {
 	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
-.lineClamp2Plus_d4306b::-webkit-scrollbar-thumb {
+.lineClamp2Plus_ccc883::-webkit-scrollbar-thumb {
 	background: transparent;
 	border-radius: 99px;
 }
-.lineClamp2Plus_d4306b::-webkit-scrollbar {
+.lineClamp2Plus_ccc883::-webkit-scrollbar {
 	width: 4px;
 }
-.lineClamp2Plus_d4306b:hover::-webkit-scrollbar-track {
+.lineClamp2Plus_ccc883:hover::-webkit-scrollbar-track {
 	background: 0 0;
 	border-radius: 10px;
 }
-.lineClamp2Plus_d4306b:hover::-webkit-scrollbar-thumb {
+.lineClamp2Plus_ccc883:hover::-webkit-scrollbar-thumb {
 	background: var(--bg-overlay-6, var(--background-tertiary));
 	border-radius: 999px;
 }

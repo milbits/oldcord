@@ -599,3 +599,7 @@
 /*.h5__28baa.eyebrow__4e5bb:not(.isEnabled_a6d539){
 		color: var(--channels-default);
 }*/
+.lockedEmoji__8c347+.emojiLockIconContainer_ed2f80{
+	filter: grayscale(1) !important
+}
+
