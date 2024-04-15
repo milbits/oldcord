@@ -1,5 +1,5 @@
 /*! bottom-left popout */
-.animatorTop_df0e64 .userPopoutOuter__3884e {
+.animatorTop_df0e64 .userPopoutOuter_d67f56 {
 	width: 225px;
 	box-shadow: var(--elevation-high) !important;
 }
@@ -14,14 +14,14 @@
 /*! Revert activity profile*/
 /** Variables*/
 
-.userPopoutOuter__3884e:has(.activityUserPopoutV2__89098) {
+.userPopoutOuter_d67f56:has(.activityUserPopoutV2__89098) {
 	--play-secondary: rgba(255, 255, 255, 0.8) !important;
 	--play-primary: #fff;
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter__3884e:has(.platformIcon_a2d873[src="/assets/7231645d01e0b14f58cc.svg"]) {
+.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/7231645d01e0b14f58cc.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
@@ -31,37 +31,37 @@
 	max-width: 25px;
 }
 /* Live on Twitch*/
-.userPopoutOuter__3884e:has([mask="url(#svg-mask-status-streaming)"]) {
+.userPopoutOuter_d67f56:has([mask="url(#svg-mask-status-streaming)"]) {
 	--play: var(--twitch);
 	--play-dark: var(--twitch-dark);
 }
 
 /* Watching Crunchyroll*/
-.userPopoutOuter__3884e:has([alt="Crunchyroll"]) {
+.userPopoutOuter_d67f56:has([alt="Crunchyroll"]) {
 	--play: var(--crunchyroll);
 	--play-dark: var(--crunchyroll-dark);
 }
 
 /* Watching Watch Together*/
-.userPopoutOuter__3884e:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+.userPopoutOuter_d67f56:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
 	--play: var(--youtube);
 	--play-dark: var(--youtube-dark);
 }
 
 /* Live on Twitch*/
-.userPopoutOuter__3884e:has([mask="url(#svg-mask-status-streaming)"]) {
+.userPopoutOuter_d67f56:has([mask="url(#svg-mask-status-streaming)"]) {
 	--play: var(--twitch);
 	--play-dark: var(--twitch-dark);
 }
 
 /* Playing on XBOX*/
-.userPopoutOuter__3884e:has([src="/assets/9a15d086141be29d9fcd.png"]) {
+.userPopoutOuter_d67f56:has([src="/assets/9a15d086141be29d9fcd.png"]) {
 	--play: var(--xbox);
 	--play-dark: var(--xbox-dark);
 }
 
 /* Playing on PlayStation*/
-.userPopoutOuter__3884e:has(.platformIcon_a2d873[src="/assets/75577d21ad1497348a3c.svg"]) {
+.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/75577d21ad1497348a3c.svg"]) {
 	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
 }
@@ -86,7 +86,7 @@
 }
 
 /*make status icon white*/
-.userProfileInner__61cc1:has(.activityUserPopoutV2__89098) rect:not(path ~ rect) {
+.userProfileInner__8ff35:has(.activityUserPopoutV2__89098) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
@@ -102,20 +102,20 @@
 	background: none;
 }
 /*activity buttons*/
-.userPopoutOuter__3884e .activity__20c1e .buttonColor_fd4fe8 {
+.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8 {
 	background: transparent;
 	color: var(--white-500);
 	border: 1px solid #fff;
 	transition: 0.17s ease;
 	opacity: 1 !important;
 }
-.userPopoutOuter__3884e .activity__20c1e .buttonColor_fd4fe8:not(:disabled):active {
+.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8:not(:disabled):active {
 	border-color: var(--white-500);
 	background: #ffffff1a;
 }
 
 /*too lazy to find the original colors so i just use one that looks good lmao*/
-.userPopoutOuter__3884e .activity__20c1e .buttonColor_fd4fe8:disabled {
+.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
@@ -146,28 +146,28 @@
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
 }
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.userPopoutOuter__3884e, .userPopoutOverlayBackground_bf6444) {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) :is(.userPopoutOuter_d67f56, .userPopoutOverlayBackground__3e7e6) {
 	margin: 0;
 	width: 250px;
 	border-radius: 0px;
 	overflow: hidden;
 	max-height: calc(100vh - 20px);
 }
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOuter__3884e {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .userPopoutOuter_d67f56 {
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
 	border-radius: 3px;
 }
 
-:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .overlayBackground__2666e {
+:is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .overlayBackground__345c9 {
 	background: var(--bg-overlay-3, var(--background-secondary));
 }
 :is([class*="animator"], [class*="root"])
-	:is(.userProfileOuterThemed__1fbd7, .userProfileInnerThemedPremiumWithoutBanner__3705a, .userProfileInnerThemedWithBanner__2152d) {
+	:is(.userProfileOuterThemed_a425f3, .userProfileInnerThemedPremiumWithoutBanner_ee8277, .userProfileInnerThemedWithBanner_e9e7c5) {
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 	box-shadow: none;
 	padding: 0 !important;
 }
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
 	border-radius: 0px;
 }
 
@@ -198,7 +198,7 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 }
 .usernameSection_dd6196,
 .customStatusSection_c9f9ba,
-:is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium_ed9022 {
+:is([class*="animator"], [class*="root"]) .userProfileInnerThemedNonPremium_b64fb4 {
 	background: var(--play, var(--bg-overlay-1, var(--background-tertiary)));
 }
 .container__1c2eb {
@@ -219,7 +219,7 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 	line-height: 1.1;
 }
 /*bot tag*/
-.userPopoutOuter__3884e:has(.activity__20c1e) .botTagRegular_c89c9a {
+.userPopoutOuter_d67f56:has(.activity__20c1e) .botTagRegular_c89c9a {
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
@@ -364,7 +364,7 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 }
 
 /** full profile modal */
-.userProfileModalOverlayBackground__7ec35 {
+.userProfileModalOverlayBackground_a5b043 {
 	margin: 0;
 }
 
@@ -389,11 +389,6 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div {
 	margin-bottom: 10px;
 }
 
-/*old usernames
-.nameTag-35jqbZ.nameTagSmall-2JO-C- {
-	transform: translateX(28px) translateY(-3px);
-	width: 285px;
-}*/
 /*New usernames*/
 /*Username Position*/
 .info__40462 .discriminator__9d9f2 {
@@ -438,7 +433,7 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div {
 	right: 54.5px;
 	top: 35px;
 }
-:has(.userProfileModalInner__99b1e .pronouns__3d468) .badgeList__126b0 {
+:has(.userProfileModalInner__84e47 .pronouns__3d468) .badgeList__126b0 {
 	top: 55px;
 }
 /*pronouns*/
@@ -549,7 +544,7 @@ div.profileCardUsernameRow_f8853e > div.userTag__28f9c.nameTag__1d385 > span.dis
 }*/
 
 /*user panel in dms*/
-[class^="userPanel"] .userPanelInnerThemed_c2aed9 {
+[class^="userPanel"] .userPanelInnerThemed__651e4 {
 	background: var(--background-secondary);
 }
 
@@ -559,12 +554,12 @@ div.profileCardUsernameRow_f8853e > div.userTag__28f9c.nameTag__1d385 > span.dis
 [class^="userPanel"] .bannerSVGWrapper__8a38c {
 	display: none;
 }
-.userPanelInner_f9edb8 .none__7a473 > div:has(.bannerSVGWrapper__8a38c),
+.userPanelInner__3184c .none__7a473 > div:has(.bannerSVGWrapper__8a38c),
 [class^="userPanel"] .section__62b44:has(.nickname_db3773, .customStatus__3aa7f) {
 	background: var(--background-tertiary);
 	border-radius: 0 !important;
 }
-[class^="userPanel"] .userPanelOverlayBackground__41589 {
+[class^="userPanel"] .userPanelOverlayBackground_a2b6ae {
 	background: var(--background-secondary);
 	margin: 0;
 	padding: 0;
@@ -577,7 +572,7 @@ div.profileCardUsernameRow_f8853e > div.userTag__28f9c.nameTag__1d385 > span.dis
 	display: unset;
 	position: relative;
 }
-[class^="userPanel"] .userPanelInner_f9edb8 .avatarWrapperNormal__36eec {
+[class^="userPanel"] .userPanelInner__3184c .avatarWrapperNormal__36eec {
 	padding-bottom: 25px;
 	left: 32% !important;
 	/*top: 11px*/

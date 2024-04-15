@@ -189,9 +189,9 @@
 .accountProfilePopoutWrapper_d4887f .bannerSVGWrapper__8a38c,
 .accountProfilePopoutWrapper_d4887f .avatarWrapper__0cd44,
 .accountProfilePopoutWrapper_d4887f .profileBadges__1f2ab,
-.accountProfilePopoutWrapper_d4887f .userProfileInner__61cc1:before,
+.accountProfilePopoutWrapper_d4887f .userProfileInner__8ff35:before,
 .accountProfilePopoutWrapper_d4887f [id="account-divider-1"],
-.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground_bf6444 div:not(.menu__088f7, .menu__13d0c *),
+.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground__3e7e6 div:not(.menu__088f7, .menu__13d0c *),
 .unreadIcon__1e53f /* new unread bar icon*/,
 .container__2ed72 svg,
 .communityInfoPill__1efab,
@@ -560,7 +560,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .accountProfilePopoutWrapper_d4887f {
 	left: 0;
 }
-.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground_bf6444 {
+.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground__3e7e6 {
 	margin: 0;
 	border-radius: 4px;
 }
