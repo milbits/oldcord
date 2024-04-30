@@ -34,7 +34,9 @@
 	font-family: "Whitney";
 	src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
 }
-
+code {
+	font-family: "Source Code Pro"
+}
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
 	background-color: rgba(79, 84, 92, 0.3);
