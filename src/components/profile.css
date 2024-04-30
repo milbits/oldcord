@@ -188,7 +188,7 @@
 div.clickable_f0c9cf.avatarWrapperNormal__36eec.avatarWrapper__0cd44:is(.avatarPositionPremiumBanner_f3acc4,.avatarPositionPremiumNoBanner-nWzERs) > div > div > svg > :is(circle,rect:nth-child(2)),
 div.avatarHoverTarget__9b4a9 > .wrapper__3ed10 > svg > circle,
 /*for modal*/
-div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle,rect:nth-child(2)) {
+.topSection__2d8b8 :is(circle,rect:nth-child(2)) {
 	visibility: hidden;
 }
 
@@ -378,7 +378,7 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div > svg > :is(circle
 	margin-top: 46px;
 }
 
-div.topSection__2d8b8 > header > div > div:nth-child(1) > div {
+.header_dda341 .avatar__445f3 {
 	transform: scale(0.666);
 	position: absolute;
 	top: -20px;
@@ -437,9 +437,6 @@ div.topSection__2d8b8 > header > div > div:nth-child(1) > div {
 	top: 55px;
 }
 /*pronouns*/
-
-/*you cant move the badges under the pronouns without affecting profiles that dont have them*/
-
 .pronouns__3d468 {
 	top: -17px;
 	left: 103.5px;
