@@ -37,6 +37,9 @@
 code {
 	font-family: "Source Code Pro"
 }
+
+/*bot tag*/
+.botText_daff56{visibility: hidden; font-size: 0 !important} .botText_daff56:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
 	background-color: rgba(79, 84, 92, 0.3);
@@ -1137,3 +1140,5 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .lockedEmoji__8c347:has(+ .emojiLockIconContainer_ed2f80) {
 	filter: grayscale(1) !important;
 }
+
+
