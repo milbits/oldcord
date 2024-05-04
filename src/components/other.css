@@ -39,7 +39,7 @@ code {
 }
 
 /*bot tag*/
-.botText_daff56{visibility: hidden; font-size: 0 !important} .botText_daff56:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
+:not(.botTagOP_fd6360)+.botText_daff56{visibility: hidden; font-size: 0 !important} :not(.botTagOP_fd6360)+.botText_daff56:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
 	background-color: rgba(79, 84, 92, 0.3);
