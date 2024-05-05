@@ -21,12 +21,11 @@
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/7231645d01e0b14f58cc.svg"]) {
+.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/371bb877e1a3fe7e68dd.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
-
-.activity__20c1e [src="/assets/7231645d01e0b14f58cc.svg"] {
+.activity__88a5f [src="/assets/371bb877e1a3fe7e68dd.svg"] {
 	content: url("https://milbits.github.io/oldcord/src/assets/spotify.png");
 	max-width: 25px;
 }
@@ -55,13 +54,13 @@
 }
 
 /* Playing on XBOX*/
-.userPopoutOuter_d67f56:has([src="/assets/9a15d086141be29d9fcd.png"]) {
+.userPopoutOuter_d67f56:has([src="/assets/a44a1e0928089b73fd83.png"]) {
 	--play: var(--xbox);
 	--play-dark: var(--xbox-dark);
 }
 
 /* Playing on PlayStation*/
-.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/75577d21ad1497348a3c.svg"]) {
+.userPopoutOuter_d67f56:has([src="/assets/9a92495b7c404a37bbfc.svg"]) {
 	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
 }
@@ -97,25 +96,27 @@
 }
 
 /**buttons*/
-/*upgrade button*/
-.button_c15687 {
-	background: none;
-}
+
 /*activity buttons*/
-.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8 {
+#app-mount .userPopoutOuter_d67f56 .activity__88a5f .button__88ad4 {
 	background: transparent;
 	color: var(--white-500);
 	border: 1px solid #fff;
 	transition: 0.17s ease;
 	opacity: 1 !important;
+	width: 100%
 }
-.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8:not(:disabled):active {
+#app-mount .userPopoutOuter_d67f56 .activity__88a5f .colorBrand__27d57:hover {
+	background: transparent !important;
+}
+
+#app-mount .userPopoutOuter_d67f56 .activity__88a5f .button__88ad4:not(:disabled):active {
 	border-color: var(--white-500);
-	background: #ffffff1a;
+	background: #ffffff1a !important;
 }
 
 /*too lazy to find the original colors so i just use one that looks good lmao*/
-.userPopoutOuter_d67f56 .activity__20c1e .buttonColor_fd4fe8:disabled {
+.userPopoutOuter_d67f56 .activity__88a5f .button__88ad4:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
