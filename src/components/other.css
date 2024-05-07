@@ -39,7 +39,10 @@ code {
 }
 
 /*bot tag*/
- :not([class*="botTagOP"])+[class*="botText"]{visibility: hidden; font-size: 0 !important} :not([class*="botTagOP"])+[class*="botText"]:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
+ :not([class*="botTagOP"])>[class*="botText"]{visibility: hidden; font-size: 0 !important} :not([class*="botTagOP"])>[class*="botText"]:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
+[class*="botTag"]{
+	border-radius: 3px !important
+}
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
 	background-color: rgba(79, 84, 92, 0.3);
@@ -729,10 +732,11 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	background-color: var(--blurple) !important;
 	color: var(--white-500);
 }
-.botTagOP_e48ddb {
-	color: var(--white-500);
-	background-color: var(--blurple);
-	border-radius: 3px !important;
+[class*="botTagOP"] {
+	color: var(--blurple);
+	background-color: transparent;
+	border: 1px solid var(--blurple);
+	font-weight: 500
 }
 
 /* make background the same as text channels*/
