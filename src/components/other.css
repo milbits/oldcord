@@ -35,18 +35,28 @@
 	src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
 }
 code {
-	font-family: "Source Code Pro"
+	font-family: "Source Code Pro";
 }
 
 /*bot tag*/
- :not([class*="botTagOP"],[class*="botTagRemix"],[class*="botTagAI"],[class*="decorator"] )>[class*="botText"]{visibility: hidden; font-size: 0 !important} :not([class*="botTagOP"],[class*="botTagRemix"],[class*="botTagAI"],[class*="decorator"])>[class*="botText"]:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
-[class*="botTag"]{
-	border-radius: 3px !important
+:not([class*="botTagOP"], [class*="botTagRemix"], [class*="botTagAI"], [class*="decorator"]) > [class*="botText"] {
+	visibility: hidden;
+	font-size: 0 !important;
+	&:before {
+		content: "BOT";
+		font-size: 10px;
+		line-height: 20px;
+		visibility: visible;
+	}
 }
-[class*="botTagRemix"]{
+
+[class*="botTag"] {
+	border-radius: 3px !important;
+}
+[class*="botTagRemix"] {
 	border: 1px solid var(--blurple);
 	background: transparent;
-	color: var(--blurple)
+	color: var(--blurple);
 }
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
@@ -67,94 +77,102 @@ code {
 }
 
 /** revert switches*/
-.container__2ed72 .input__3e05b:before {
-	content: "";
-	box-shadow: inset 0 1px 1px #00000026;
-	width: 42px;
-	height: 24px;
-	background: #72767d;
-	display: block;
-	border-radius: 50px;
-	margin-top: -3px;
-	margin-left: -6px;
+.container__2ed72 .input__3e05b {
+	&:before {
+		content: "";
+		box-shadow: inset 0 1px 1px #00000026;
+		width: 42px;
+		height: 24px;
+		background: #72767d;
+		display: block;
+		border-radius: 50px;
+		margin-top: -3px;
+		margin-left: -6px;
+	}
+	&:after {
+		content: "";
+		display: block;
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		top: 0;
+		left: -3px;
+		background: var(--white-500);
+		border-radius: 50px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	}
+	&:checked:before {
+		background: var(--brand-experiment);
+	}
+	&:checked:after {
+		transform: translate3d(18px, 0, 0);
+	}
 }
-.container__2ed72 .input__3e05b:after {
-	content: "";
-	display: block;
-	width: 18px;
-	height: 18px;
-	position: absolute;
-	top: 0;
-	left: -3px;
-	background: var(--white-500);
-	border-radius: 50px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-.container__2ed72 .input__3e05b:checked:before {
-	background: var(--brand-experiment);
-}
-.container__2ed72 .input__3e05b:checked:after {
-	transform: translate3d(18px, 0, 0);
-}
+
 /* change colour to green just for the role permissions form */
-.permissionsForm__8552b .container__2ed72 .input__3e05b:checked:before {
-	background: #43b581;
+.permissionsForm__8552b .container__2ed72 .input__3e05b {
+	&:checked:before {
+		background: #43b581;
+	}
+	&:checked:active:before {
+		background: var(--green-hover);
+	}
 }
-.permissionsForm__8552b .container__2ed72 .input__3e05b:checked:active:before {
-	background: var(--green-hover);
-}
+
 /* revert channel role permissions (beta), looks kinda bad when zoomed in but i'll try to fix that */
 .group__6ae8b {
 	background-color: var(--background-tertiary);
 	width: 108px;
 	grid-gap: 1px;
 }
-.passthrough__91f95.selected__5faae {
-	background-color: #787e8a;
-}
-.passthrough__91f95 svg {
-	display: none;
-}
-.passthrough__91f95:not(.selected__5faae)::after {
-	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(120, 126, 138)' class='ci-primary'/></svg>");
-	height: 16px;
-	width: 16px;
-	rotate: 45deg;
-}
-.passthrough__91f95.selected__5faae::after {
-	content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(255, 255, 255)' class='ci-primary'/></svg>");
-	height: 16px;
-	width: 16px;
-	rotate: 45deg;
-}
-.item_f48d11 {
-	cursor: pointer;
+.passthrough__91f95 {
+	&.selected__5faae {
+		background-color: #787e8a;
+	}
+	&svg {
+		display: none;
+	}
+	&:not(.selected__5faae)::after {
+		content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(120, 126, 138)' class='ci-primary'/></svg>");
+		height: 16px;
+		width: 16px;
+		rotate: 45deg;
+	}
+	&.selected__5faae::after {
+		content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(255, 255, 255)' class='ci-primary'/></svg>");
+		height: 16px;
+		width: 16px;
+		rotate: 45deg;
+	}
 }
 
-.container__2ed72 .input__3e05b:active:before {
-	background: #676a71;
-}
-.container__2ed72 .input__3e05b:active:after {
-	width: 26px;
-}
-.container__2ed72 .input__3e05b:checked:active:before {
-	background: var(--blurple-hover);
-}
-.container__2ed72 .input__3e05b:checked:active:after {
-	left: -11px;
-	width: 26px;
-}
-.container__2ed72 {
-	background: #0000 !important;
+.item_f48d11 {
+	cursor: pointer;
 }
 
 .container__2ed72 .input__3e05b {
 	opacity: 1;
 	width: 0;
+	&:active:before {
+		background: #676a71;
+	}
+	&:active:after {
+		width: 26px;
+	}
+	&:checked:active:before {
+		background: var(--blurple-hover);
+	}
+	&:checked:active:after {
+		left: -11px;
+		width: 26px;
+	}
+	&:before,
+	&:after {
+		transition: 0.1s;
+	}
 }
-.container__2ed72 .input__3e05b:before,
-.container__2ed72 .input__3e05b:after {
-	transition: 0.1s;
+.container__2ed72 {
+	background: #0000 !important;
 }
 
 .bd-switch input:active + .bd-switch-body {
@@ -167,13 +185,15 @@ code {
 	--switch-color: var(--blurple-hover) !important;
 }
 /* checkboxes*/
-.checkbox_fcf2ad:not(.round__2ab09) {
-	border-color: #72767d !important ;
-	border-radius: 3px;
-	border-width: 1px !important;
-}
-.checkbox_fcf2ad.checked__16f88 {
-	border: none !important;
+.checkbox_fcf2ad {
+	&:not(.round__2ab09) {
+		border-color: #72767d !important ;
+		border-radius: 3px;
+		border-width: 1px !important;
+	}
+	&.checked__16f88 {
+		border: none !important;
+	}
 }
 
 .channelTextAreaInner_dd3f1a.channelTextAreaInnerFocused__42399 .scrollableContainer_ff917f .webkit__8d35a {
@@ -218,7 +238,6 @@ code {
 :is([class*="animator"], [class*="root"], .accountProfileCard__744d8) .bannerSVGWrapper__8a38c,
 :is([class*="animator"], [class*="root"]) .divider_d6f39c,
 #account.menu__088f7 .profileBody-3QbfPe,
-
 .bd-switch svg {
 	display: none;
 }
@@ -283,12 +302,13 @@ code {
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
 	--radio-bar-accent-color: var(--interactive-active);
+	& > div:not([class*="_"]) {
+		justify-content: flex-start;
+		align-self: flex-start;
+		height: 24px;
+	}
 }
-.item_b7fb7e .radioBar__70669 > div:not([class*="_"]) {
-	justify-content: flex-start;
-	align-self: flex-start;
-	height: 24px;
-}
+
 .radioLabelDescription_dd0204 {
 	/*Only applies to channel creation*/
 	display: none;
@@ -366,166 +386,53 @@ code {
 	margin-right: 6px;
 }
 
-/* privacy&safety*/
-.item_b7fb7e .radioBar__70669[style*="--radio-bar-accent-color:hsl(145.38,65%,39.22%);"] {
-	--radio-bar-accent-color: var(--green) !important;
-}
-.item_b7fb7e .radioBar__70669[style*="--radio-bar-accent-color:hsl(39.02,74.43%,42.94%);"] {
-	--radio-bar-accent-color: var(--yellow) !important;
-}
-.item_b7fb7e .radioBar__70669[style*="--radio-bar-accent-color:hsl(358.66,87.32%,59.8%); "] {
-	--radio-bar-accent-color: var(--red) !important;
+/** privacy&safety*/
+.item_b7fb7e .radioBar__70669 {
+	&[style*="--radio-bar-accent-color:hsl(145.38,65%,39.22%);"] {
+		--radio-bar-accent-color: var(--green) !important;
+	}
+	&[style*="--radio-bar-accent-color:hsl(39.02,74.43%,42.94%);"] {
+		--radio-bar-accent-color: var(--yellow) !important;
+	}
+	&[style*="--radio-bar-accent-color:hsl(358.66,87.32%,59.8%); "] {
+		--radio-bar-accent-color: var(--red) !important;
+	}
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
-:is([lang^="de"], [lang^="en"]) .radioBar__70669[style*="red"] .text-md-medium_a84e09,
-:is([lang^="de"], [lang^="en"]) .radioBar__70669[style*="red"] .text-sm-normal__95a78 {
-	font-size: 0;
-	line-height: unset;
-}
-:is([lang^="de"], [lang^="en"]) .radioBar__70669[style*="red"] .text-md-medium_a84e09:before {
-	font-size: 16px;
-	line-height: 20px;
-}
-:is([lang^="de"], [lang^="en"]) .radioBar__70669[style*="red"] .text-sm-normal__95a78:before {
-	font-size: 14px;
-	line-height: 18px;
-}
-[lang^="de"] .radioBar__70669[style*="red"] .text-md-medium_a84e09:before {
-	content: "Ich lebe am Limit";
-}
-[lang^="de"] .radioBar__70669[style*="red"] .text-sm-normal__95a78:before {
-	content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
-}
-[lang^="en"] .radioBar__70669[style*="red"] .text-md-medium_a84e09:before {
-	content: "I live on the edge";
-}
-[lang^="en"] .radioBar__70669[style*="red"] .text-sm-normal__95a78:before {
-	content: "Turn this off. Don't scan anything. Go straight to the dark side.";
+:is([lang^="de"], [lang^="en"]) .radioBar__70669[style*="red"] {
+	& :is(.text-md-medium_a84e09, .text-sm-normal__95a78) {
+		font-size: 0;
+		line-height: unset;
+	}
+	& .text-md-medium_a84e09:before {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	& .text-sm-normal__95a78:before {
+		font-size: 14px;
+		line-height: 18px;
+	}
 }
 
-/** "safety setup" in server settings
-taken from dtm-17 (im a lazy fuck :p)*/
-
-.collapseable-DdnHFl {
-	background: none;
+[lang^="de"] .radioBar__70669[style*="red"] {
+	& .text-md-medium_a84e09:before {
+		content: "Ich lebe am Limit";
+	}
+	& .text-sm-normal__95a78:before {
+		content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
+	}
 }
-.collapseable-DdnHFl .groupCollapsedContainer-1h2Wkb {
-	background: none;
-	border: none;
-}
-
-.container_f6fb9b {
-	border-radius: 5px;
-	color: var(--interactive-active) !important;
-	background: #0000 !important;
-}
-.container_f6fb9b .text-sm-medium_bc6ffc {
-	font-weight: 500;
-	font-size: 16px;
-}
-.container_f6fb9b .description_aa68af + div:not([class]) {
-	order: -2;
-	height: 24px;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 {
-	border: solid 1px var(--background-tertiary);
-	background: var(--deprecated-card-editable-bg);
-	grid-gap: 10px;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 .text-sm-normal__95a78 {
-	color: var(--interactive-normal);
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 > div:not([class*="-"]) {
-	justify-content: flex-start;
-	align-self: flex-start;
-	height: 24px;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 .text-sm-medium_bc6ffc {
-	line-height: 24px;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 .button__581d0 {
-	margin-top: 1px;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 .radioItem__918c8 {
-	margin: 0;
-}
-.container_f6fb9b .backgroundModifierContainer_d14724 .radioItem__918c8 path {
-	d: path(
-		"M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z"
-	);
-}
-.theme-dark .container_f6fb9b .backgroundModifierContainer_d14724 .radioItem__918c8 path {
-	fill: #72767d;
-}
-.theme-light .container_f6fb9b .backgroundModifierContainer_d14724 .radioItem__918c8 path {
-	fill: #b9bbbe;
+[lang^="en"] .radioBar__70669[style*="red"] {
+	& .text-md-medium_a84e09:before {
+		content: "I live on the edge";
+	}
+	& .text-sm-normal__95a78:before {
+		content: "Turn this off. Don't scan anything. Go straight to the dark side.";
+	}
 }
 
-.container_f6fb9b .selected__2b301 {
-	color: #fff !important;
-	background-color: var(--blurple);
-	border-color: var(--blurple);
-}
-.container_f6fb9b .selected__2b301 .text-sm-normal__95a78,
-.container_f6fb9b .selected__2b301 .text-sm-medium_bc6ffc,
-.container_f6fb9b .selected__2b301 .radioItem__918c8 {
-	color: #fff !important;
-}
-.container_f6fb9b .selected__2b301 .radioItem__918c8 path {
-	d: path(
-		"M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z"
-	) !important;
-	fill: #fff !important;
-}
-.container_f6fb9b .selected__2b301.statusGreen_cdba8b {
-	background-color: var(--green) !important;
-	border-color: var(--green) !important;
-}
-.container_f6fb9b .selected__2b301.statusYellow__44e5c {
-	background-color: var(--yellow) !important;
-	border-color: var(--yellow) !important;
-}
-.container_f6fb9b .selected__2b301.statusOrange_d1f17e {
-	background-color: #f26522 !important;
-	border-color: #f26522 !important;
-}
-.container_f6fb9b .selected__2b301.statusRed__84305 {
-	background-color: var(--red) !important;
-	border-color: var(--red) !important;
-}
-.container_f6fb9b :not(.selected__2b301) .backgroundModifierContainer_d14724 .text-sm-medium_bc6ffc {
-	color: var(--interactive-normal);
-}
-.theme-dark .container_f6fb9b :not(.selected__2b301) .backgroundModifierContainer_d14724:hover {
-	border-color: #000;
-	background: rgba(0, 0, 0, 0.2);
-}
-.theme-light .container_f6fb9b :not(.selected__2b301) .backgroundModifierContainer_d14724:hover {
-	border-color: #b9bbbe;
-	background: rgba(247, 248, 248, 0.6);
-}
-.container_f6fb9b :not(.selected__2b301).statusGreen_cdba8b .text-sm-medium_bc6ffc {
-	color: var(--green) !important;
-}
-.container_f6fb9b :not(.selected__2b301).statusYellow__44e5c .text-sm-medium_bc6ffc {
-	color: var(--yellow) !important;
-}
-.container_f6fb9b :not(.selected__2b301).statusOrange_d1f17e .text-sm-medium_bc6ffc {
-	color: #f26522 !important;
-}
-.container_f6fb9b :not(.selected__2b301).statusRed__84305 .text-sm-medium_bc6ffc {
-	color: var(--red) !important;
-}
-.container_f6fb9b {
-	transition: 0s !important;
-}
-
-.contentExpandContainer-3R7yOZ.showOverflow-1bbCoU .groupCollapsedContainer-1h2Wkb {
-	background: var(--background-modifier-hover);
-}
-
-/** bruh idfk what this is for*/
+/** i forgor what this is for :P*/
 .connectedAccounts-1YaT2t {
 	padding-bottom: 5px;
 	padding-top: 15px;
@@ -585,13 +492,13 @@ taken from dtm-17 (im a lazy fuck :p)*/
 /** revert mosaic image system border*/
 /* use https://github.com/Tanza3D/discord-no-mosaic for a working fix*/
 
-[class*="ByOneGrid-"]:not([class*="OneGridSingle-"]) [class*="lazyImg"],
-[class*="ByTwoGrid-"] [class*="lazyImg"],
-[class*="ByThreeGrid-"] [class*="lazyImg"],
-[class*="ByOneGrid-"] {
+[class*="ByOneGrid_"]:not([class*="OneGridSingle_"]) [class*="lazyImg"],
+[class*="ByTwoGrid_"] [class*="lazyImg"],
+[class*="ByThreeGrid_"] [class*="lazyImg"],
+[class*="ByOneGrid_"] {
 	border-radius: 3px !important;
 }
-[class^="mediaAttachmentsContainer-"] {
+[class^="mediaAttachmentsContainer_"] {
 	border-radius: 0px !important;
 }
 /* revert text files*/
@@ -612,8 +519,8 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .codeIcon_f2e957 {
 	cursor: pointer;
 }
-/* tweak the hover buttons*/
-.hoverButtonGroup__304b2 {
+/* tweak hover buttons*/
+.hoverButtonGroup__745e4 {
 	border-radius: 4px;
 	top: 4px;
 	right: 4px;
@@ -621,7 +528,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	transition: 0.1s ease;
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
-.hoverButtonGroup__304b2:not(.nonMediaAttachment_ef83c1) {
+.hoverButtonGroup__745e4:not([class*="nonMedia"]) {
 	background-color: #00000040;
 }
 /* make download button bigger */
@@ -630,14 +537,14 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	height: 24px;
 }
 /* center the download button for audio files and make it permanently visible*/
-.wrapperAudio__178e9 + .hoverButtonGroup__304b2 {
+.wrapperAudio__178e9 + .hoverButtonGroup__745e4 {
 	top: 25%;
 	right: 8px;
 	transform: translateY(-50%);
 	opacity: 1;
 }
 /* same as above but for file attachments */
-.attachment__06ca3.attachmentContentItem__47a25 + .hoverButtonGroup__304b2 {
+.attachment__06ca3.attachmentContentItem__47a25 + .hoverButtonGroup__745e4 {
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
@@ -741,7 +648,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 	color: var(--blurple);
 	background-color: transparent;
 	border: 1px solid var(--blurple);
-	font-weight: 500
+	font-weight: 500;
 }
 
 /* make background the same as text channels*/
@@ -1138,7 +1045,7 @@ taken from dtm-17 (im a lazy fuck :p)*/
 }*/
 
 /*Fix favorite button and delete overlap*/
-:has(.imageAccessory__9614b [class*="gifFavoriteButton__"]) .hoverButtonGroup__304b2 {
+:has(.imageAccessory__9614b [class*="gifFavoriteButton"]) .hoverButtonGroup__745e4 {
 	margin-right: 30px;
 }
 /*nitro emoji paywall*/
@@ -1149,5 +1056,3 @@ taken from dtm-17 (im a lazy fuck :p)*/
 .lockedEmoji__8c347:has(+ .emojiLockIconContainer_ed2f80) {
 	filter: grayscale(1) !important;
 }
-
-
