@@ -124,7 +124,8 @@
 
 /* since the padding of the profile is gone, add padding to every section*/
 :is([class*="animator"], [class*="root"]) .section__62b44:not(:has(.activity__88a5f)),
-.activityUserPopoutV2__89098 {
+.activityUserPopoutV2__89098,
+.profileMutuals__95dc2{
 	padding-left: 12px;
 }
 
@@ -219,8 +220,11 @@ div.avatarHoverTarget__9b4a9 > .wrapper__3ed10 > svg > circle,
 	font-weight: 500;
 	line-height: 1.1;
 }
+:is([class*="userTagUsernameBase"],.discriminator__9d9f2):before{
+	content: "@"
+}
 /*bot tag*/
-.userPopoutOuter_d67f56:has(.activity__20c1e) .botTagRegular_c89c9a {
+.userPopoutOuter_d67f56:has([class*="activity"]) [class*="botTagRegular"] {
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
@@ -259,7 +263,8 @@ div.avatarHoverTarget__9b4a9 > .wrapper__3ed10 > svg > circle,
 }
 
 :is([class*="animatorLeft"], [class*="animatorRight"], [class*="root"]) .section__62b44 :is(.eyebrow_b3f8ba, .headerTextNormal_ccd392),
-.userInfoSectionHeader_c9f1d3 {
+.userInfoSectionHeader_c9f1d3,
+.profileMutuals__95dc2 .eyebrow_b3f8ba{
 	color: var(--header-secondary);
 }
 

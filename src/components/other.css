@@ -39,9 +39,14 @@ code {
 }
 
 /*bot tag*/
- :not([class*="botTagOP"])>[class*="botText"]{visibility: hidden; font-size: 0 !important} :not([class*="botTagOP"])>[class*="botText"]:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
+ :not([class*="botTagOP"],[class*="botTagRemix"],[class*="botTagAI"],[class*="decorator"] )>[class*="botText"]{visibility: hidden; font-size: 0 !important} :not([class*="botTagOP"],[class*="botTagRemix"],[class*="botTagAI"],[class*="decorator"])>[class*="botText"]:before{content: "BOT"; font-size: 10px; line-height: 20px;visibility: visible} 
 [class*="botTag"]{
 	border-radius: 3px !important
+}
+[class*="botTagRemix"]{
+	border: 1px solid var(--blurple);
+	background: transparent;
+	color: var(--blurple)
 }
 /** revert reactions modal*/
 .theme-dark .reactionSelected__16345 {
