@@ -39,7 +39,7 @@ code {
 }
 
 /*bot tag*/
-:not([class*="botTagOP"], [class*="botTagRemix"], [class*="botTagAI"], [class*="decorator"]) > [class*="botText"] {
+:not(.botTagOP_fd6360, .botTagRemix_b2d431) > .botText_daff56 {
 	visibility: hidden;
 	font-size: 0 !important;
 	&:before {
@@ -50,10 +50,10 @@ code {
 	}
 }
 
-[class*="botTag"] {
+[class^="botTag"] {
 	border-radius: 3px !important;
 }
-[class*="botTagRemix"] {
+.botTagRemix_b2d431 {
 	border: 1px solid var(--blurple);
 	background: transparent;
 	color: var(--blurple);
@@ -72,7 +72,7 @@ code {
 	border-radius: 2px;
 	margin-bottom: 1px;
 }
-[class*="reaction"] .text-sm-bold_ad6d44 {
+[class^="reaction"] .text-sm-bold_ad6d44 {
 	font-weight: 500 !important;
 }
 
@@ -206,7 +206,7 @@ code {
 }
 /** display:none graveyard*/
 .profileEffects__9b664,
-[class*="avatarDeco"],
+[class^="avatarDeco"],
 .sessionMoreButton_f38a79 svg,
 .artwork-L5TAwQ /* login page cringe corporate bg*/,
 .banner-2MAbnt,
@@ -234,9 +234,9 @@ code {
 .collapseable-DdnHFl .pointer-1p1R-4,
 .container_f6fb9b .backgroundModifierContainer_d14724 circle,
 /* profile popout*/
-:is([class*="animator"], [class*="root"]) .profileBadges__1f2ab,
-:is([class*="animator"], [class*="root"], .accountProfileCard__744d8) .bannerSVGWrapper__8a38c,
-:is([class*="animator"], [class*="root"]) .divider_d6f39c,
+:is([class^="animator"], [class^="root"]) .profileBadges__1f2ab,
+:is([class^="animator"], [class^="root"], .accountProfileCard__744d8) .bannerSVGWrapper__8a38c,
+:is([class^="animator"], [class^="root"]) .divider_d6f39c,
 #account.menu__088f7 .profileBody-3QbfPe,
 .bd-switch svg {
 	display: none;
