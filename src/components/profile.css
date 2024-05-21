@@ -134,8 +134,8 @@
 /*(temporary) message for broken customization screen*/
 .preview_de6062:before{
 	content: "Disable OldCord for a working preview";
-	color: var(--red);
-	font-weight: 600
+	color: var(--blurple);
+	font-weight: 500;
 }
 
 /*! normal profile popout*/
