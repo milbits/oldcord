@@ -94,9 +94,11 @@ body {
 	--brand-360: var(--brand-experiment-360);
 	--brand-460: var(--brand-experiment-460);
 	--brand-500: var(--brand-experiment);
+	--brand-new-500: var(--blurple);
+	--brand-530: var(--brand-experiment-530);
 	--brand-560: var(--brand-experiment-560);
 	--brand-new-560: var(--brand-560);
-	--brand-new-500: var(--blurple);
+	--brand-600: var(--brand-experiment-600);
 	--brand-experiment-100: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
 	--brand-experiment-130: hsl(228, calc(var(--saturation-factor, 1) * 63%), 97%);
 	--brand-experiment-160: hsl(228, calc(var(--saturation-factor, 1) * 60%), 95%);
