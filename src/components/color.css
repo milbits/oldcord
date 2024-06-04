@@ -45,8 +45,7 @@
 .progressBar-1T6LYX,
 .progressBar-18rmp1.selectedProgressBar-11z5d9,
 .bd-button:not(.bd-button-danger, .bd-view-button),
-.bd-button.bd-view-button.selected,
-.item__183e8.focused_dcafb9 {
+.bd-button.bd-view-button.selected {
 	background-color: var(--brand-experiment) !important;
 }
 .colorBrandNew__8872c:hover,
@@ -58,10 +57,10 @@
 .colorBrandNew__8872c:active,
 .menuItemFocused__7beab:active,
 .lookFilled__950dd.colorBrand__27d57:active,
-.bd-button:active:not(.bd-button-danger, .bd-view-button),
-.item__183e8.focused_dcafb9:active {
+.bd-button:active:not(.bd-button-danger, .bd-view-button){
 	background-color: var(--blurple-active) !important;
 }
+
 /** Dropdown options*/
 .option_eb83e4 {
 	color: var(--text-normal);
