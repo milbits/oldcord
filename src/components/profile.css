@@ -21,14 +21,18 @@
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/371bb877e1a3fe7e68dd.svg"]) {
+.userPopoutOuter_d67f56:has(.platformIcon_a2d873[src="/assets/450521d1abced89528d7.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
-.activity__88a5f [src="/assets/371bb877e1a3fe7e68dd.svg"] {
+.syncButton__00e17{
+	width: 1px !important
+}
+.activity__88a5f [src="/assets/450521d1abced89528d7.svg"] {
 	content: url("https://milbits.github.io/oldcord/src/assets/spotify.png");
 	max-width: 25px;
 }
+
 /* Live on Twitch*/
 .userPopoutOuter_d67f56:has([mask="url(#svg-mask-status-streaming)"]) {
 	--play: var(--twitch);
@@ -60,7 +64,7 @@
 }
 
 /* Playing on PlayStation*/
-.userPopoutOuter_d67f56:has([src="/assets/9a92495b7c404a37bbfc.svg"]) {
+.userPopoutOuter_d67f56:has([src="/assets/6b321bc302c3464fcd88.svg"]) {
 	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
 }
@@ -223,7 +227,7 @@
 	font-weight: 500;
 	line-height: 1.1;
 }
-.userTagUsernameBase__2bd24,.discriminator__9d9f2:before{
+.userTagUsernameBase__2bd24:before,.discriminator__9d9f2:before{
 	content: "@"
 }
 /*bot tag*/
@@ -308,6 +312,16 @@
 	border: 2px solid var(--background-secondary);
 }
 
+.lastSection__62986 + div h2{
+	padding-left: 12px;
+	color: var(--header-secondary) !important;
+}
+.vc-rdb-view{
+	padding-left: 10px
+}
+.vc-rdb-input{
+	margin: 0 12px 12px 12px
+}
 /** Roles */
 
 .root_a99273 {
