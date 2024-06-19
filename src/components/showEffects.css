@@ -1,25 +1,25 @@
 [class*="avatarDecoration"],[class*="profileEffects"],[class*="bannerSVG"]{
     display: unset !important;
 }
-.bannerSVGWrapper__8a38c mask{
+.bannerSVGWrapper_b32cc2 mask{
     display: none
 }
-.userPopoutOuter__3884e .banner__6d414{
+.userPopoutOuter_c69a7b .banner_c3e427{
     max-width: 250px;
     position: relative
 }
 
-.avatarWrapper__0cd44{
+.avatarWrapper_f89da9{
     position: absolute !important
 }
 
-.usernameSection_dd6196{
+.usernameSection_d2b491{
     padding-top: 40px
 }
-.avatarPositionPremiumBanner_f3acc4{
+.avatarPositionPremiumBanner_f89da9{
     top: 75px !important
 }
 
-#app-mount .avatarPositionPremiumNoBanner__8beba{
+#app-mount .avatarPositionPremiumNoBanner_f89da9{
 	top: 45px !important
 }
