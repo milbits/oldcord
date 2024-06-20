@@ -21,14 +21,14 @@
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter_c69a7b:has(.platformIcon_d5089b[src="/assets/450521d1abced89528d7.svg"]) {
+.userPopoutOuter_c69a7b:has(.platformIcon_d5089b[src="/assets/6daf7db5db0d4a895afa.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
 .syncButton_deca39{
 	width: 1px !important
 }
-.activity_e36233 [src="/assets/450521d1abced89528d7.svg"] {
+.activity_e36233 [src="/assets/6daf7db5db0d4a895afa.svg"] {
 	content: url("https://milbits.github.io/oldcord/src/assets/spotify.png");
 	max-width: 25px;
 }
@@ -58,13 +58,13 @@
 }
 
 /* Playing on XBOX*/
-.userPopoutOuter_c69a7b:has([src="/assets/a44a1e0928089b73fd83.png"]) {
+.userPopoutOuter_c69a7b:has([src="/assets/9109430b0f2514a0c674.png"]) {
 	--play: var(--xbox);
 	--play-dark: var(--xbox-dark);
 }
 
 /* Playing on PlayStation*/
-.userPopoutOuter_c69a7b:has([src="/assets/6b321bc302c3464fcd88.svg"]) {
+.userPopoutOuter_c69a7b:has([src="/assets/8fca7fcefaac64787658.svg"]) {
 	--play: var(--playstation2);
 	--play-dark: var(--playstation-dark);
 }
@@ -102,7 +102,7 @@
 /**buttons*/
 
 /*activity buttons*/
-.activity_e36233 .button_da7790 {
+.activity_e36233 .button_c6eb7b {
 	background: transparent;
 	color: var(--white-500);
 	border: 1px solid #fff;
@@ -114,12 +114,12 @@
 	background: transparent !important;
 }
 
-.activity_e36233 .button_da7790:not(:disabled):active {
+.activity_e36233 .button_c6eb7b:not(:disabled):active {
 	border-color: var(--white-500);
 	background: #ffffff1a !important;
 }
 
-.activity_e36233 .button_da7790:disabled {
+.activity_e36233 .button_c6eb7b:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
