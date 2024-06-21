@@ -256,13 +256,13 @@
 }
 
 /** Mentions/Pings*/
-.wrapper_a7c28c {
+.wrapper_bf1b19 {
 	font-weight: 500;
 	color: var(--brand-experiment-460);
 	background: var(--brand-experiment-10a);
 	padding: 0 2px;
 }
-.wrapper_a7c28c:hover {
+.wrapper_bf1b19:hover {
 	background: var(--brand-experiment);
 	color: var(--brand-experiment-100);
 }
@@ -394,7 +394,7 @@
 
 /** Select Menus*/
 .select_f6639d,
-.copyInput_f549fd {
+.copyInput_d7e343 {
 	background-color: var(--background-secondary) !important;
 	border-radius: 3px;
 	transition: border 0.2s ease-in-out;
