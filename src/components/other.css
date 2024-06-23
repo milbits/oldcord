@@ -544,7 +544,7 @@ code {
 	opacity: 1;
 }
 /* same as above but for file attachments */
-.attachment_a4623d.attachmentContentItem__47a25 + .hoverButtonGroup_ab8b23 {
+.attachment_a4623d + .hoverButtonGroup_ab8b23 {
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
@@ -561,7 +561,7 @@ code {
 	width: 400px;
 }
 /* revert the bloating of attachments in general */
-.attachment_a4623d.newMosaicStyle_f72aac {
+.attachment_a4623d.newMosaicStyle_a4623d {
 	padding: 10px;
 	border-radius: 3px;
 	width: 100%;
