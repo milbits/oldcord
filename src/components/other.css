@@ -498,22 +498,22 @@ code {
 [class*="ByOneGrid_"] {
 	border-radius: 3px !important;
 }
-[class^="mediaAttachmentsContainer_"] {
+[class*="mediaItemContainer_"] {
 	border-radius: 0px !important;
 }
 /* revert text files*/
 .nonMediaAttachmentItem__80bd4 .messageAttachmentMediaMosaic__67262 {
 	max-width: 100% !important;
 }
-.newMosaicStyle_ad9cbd .codeView_ad9cbd {
+.newMosaicStyle_f72aac .codeView_ad9cbd {
 	margin: 0 0 0;
 	padding: 7px;
 }
-.newMosaicStyle_ad9cbd .footer_ad9cbd {
+.newMosaicStyle_f72aac .footer_ad9cbd {
 	border-radius: 0 0 4px 4px;
 	padding: 0 10px;
 }
-.newMosaicStyle_ad9cbd .textContainer_ad9cbd {
+.newMosaicStyle_f72aac .textContainer_ad9cbd {
 	border-radius: 4px 4px 0 0;
 }
 .codeIcon_ad9cbd {
@@ -537,7 +537,7 @@ code {
 	height: 24px;
 }
 /* center the download button for audio files and make it permanently visible*/
-.wrapperAudio_f316dd + .hoverButtonGroup_ab8b23 {
+.wrapperAudio_f72aac + .hoverButtonGroup_ab8b23 {
 	top: 25%;
 	right: 8px;
 	transform: translateY(-50%);
@@ -555,13 +555,13 @@ code {
 	margin-top: 4px;
 }
 /* revert the bloating of the audio attachments */
-.wrapperAudio_f316dd.newMosaicStyle_f316dd {
+.wrapperAudio_f72aac.newMosaicStyle_f72aac {
 	padding: 10px;
 	border-radius: 4px;
 	width: 400px;
 }
 /* revert the bloating of attachments in general */
-.attachment_a4623d.newMosaicStyle_a4623d {
+.attachment_a4623d.newMosaicStyle_f72aac {
 	padding: 10px;
 	border-radius: 3px;
 	width: 100%;

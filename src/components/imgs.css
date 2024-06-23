@@ -220,7 +220,7 @@
     d: path( "M12 2C6.477 2 2 6.477 2 12C2 17.522 6.477 22 12 22C17.523 22 22 17.522 22 12C22 6.477 17.523 2 12 2ZM8 6C9.104 6 10 6.896 10 8C10 9.105 9.104 10 8 10C6.896 10 6 9.105 6 8C6 6.896 6.896 6 8 6ZM18 14C18 16.617 15.14 19 12 19C8.86 19 6 16.617 6 14V13H18V14ZM16 10C14.896 10 14 9.105 14 8C14 6.896 14.896 6 16 6C17.104 6 18 6.896 18 8C18 9.105 17.104 10 16 10Z" );
 }
 
-.audioMetadata_f316dd:before {
+.audioMetadata_f72aac:before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='38' viewBox='0 0 26 38'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23F4F6FC' fill-rule='nonzero' stroke='%237289DA' stroke-width='2' d='M1,4 C1,2.3 2.3,1 4,1 L16.1,1 C18.1,1 25,7.9 25,9.9 L25,34 C25,35.7 23.7,37 22,37 L4,37 C2.3,37 1,35.7 1,34 L1,4 Z'/%3E%3Cpath fill='%23F4F6FC' fill-rule='nonzero' stroke='%237289DA' stroke-width='2' d='M18,2.1 C18,1.5 18.3,1.4 18.7,1.8 L24.2,7.3 C24.6,7.7 24.5,8 23.9,8 L19,8 C18.4,8 18,7.5 18,7 L18,2.1 Z'/%3E%3Cpath stroke='%23C9D2F0' stroke-width='2' d='M14,4 L5.5,4 C4.7,4 4,4.7 4,5.5 L4,7' opacity='.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='%238596CF' fill-rule='nonzero' d='M12.6,17.7 L12.6,24.4 C12.2,24.3 11.9,24.2 11.5,24.2 C9.7,24.2 8.3,25.6 8.3,27.4 C8.3,29.2 9.7,30.6 11.5,30.6 C13.3,30.6 14.7,29.2 14.7,27.4 L14.7,19.8 L17.6,19.8 L17.6,17.6 L12.6,17.6 L12.6,17.7 Z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
