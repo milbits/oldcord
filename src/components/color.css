@@ -551,3 +551,8 @@
 .lockedEmoji_bcf389 + .emojiLockIconContainer_bcf389 {
 	filter: grayscale(1) !important;
 }
+
+/* group chat status messages */
+.cozy_e62b38.container_e62b38 > .content_e62b38 > a.anchorUnderlineOnHover_af404b.anchor_af404b {
+    color: #fff;
+}
