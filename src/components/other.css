@@ -218,27 +218,10 @@ code {
 .banner_ad4cb5,
 .container-1eD8xH,
 .item_eb92a8 .radioBar_eb92a8 circle,
-/* status picker profile*/
-.accountProfilePopoutWrapper_b2ca13 .bannerSVGWrapper_b32cc2,
-.accountProfilePopoutWrapper_b2ca13 .avatarWrapper_f89da9,
-.accountProfilePopoutWrapper_b2ca13 .profileBadges_f89da9,
-.accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b:before,
-.accountProfilePopoutWrapper_b2ca13 [id="account-divider-1"],
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b div:not(.menu_d90b3d, .menu_ad5fac *),
 .unreadIcon_eba0ba /* new unread bar icon*/,
 .container_cebd1c svg,
 .communityInfoPill_fd6364,
-.item_a0 svg,
-/* safety setup*/
-.collapseable-DdnHFl:before,
-.collapseable-DdnHFl .pointer-1p1R-4,
-.container_e5c5d5 .backgroundModifierContainer_e5c5d5 circle,
-/* profile popout*/
-:is([class^="animator"], [class^="root"]) .profileBadges_f89da9,
-:is([class^="animator"], [class^="root"], .accountProfileCard_b69b77) .bannerSVGWrapper_b32cc2,
-:is([class^="animator"], [class^="root"]) .divider_ae36e5,
-#account.menu_d90b3d .profileBody-3QbfPe,
-.bd-switch svg {
+.item_a0 svg {
 	display: none;
 }
 
@@ -400,7 +383,7 @@ code {
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
-:is([lang^="de"], [lang^="en"]) .radioBar_eb92a8[style*="red"] {
+:is([lang="DE"], [lang^="en"]) .radioBar_eb92a8[style*="red"] {
 	& :is(.text-md-medium_a84e09, .text-sm-normal__95a78) {
 		font-size: 0;
 		line-height: unset;
@@ -415,7 +398,7 @@ code {
 	}
 }
 
-[lang^="de"] .radioBar_eb92a8[style*="red"] {
+[lang="DE"] .radioBar_eb92a8[style*="red"] {
 	& .text-md-medium_a84e09:before {
 		content: "Ich lebe am Limit";
 	}
