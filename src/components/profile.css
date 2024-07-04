@@ -16,6 +16,9 @@
 .submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c) {
   padding-left: 0;
 }
+.submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.status_ad5fac) {
+  padding-left: 0;
+}
 #status-set-custom-status > .label_d90b3d {
   text-indent: -9999px;
   line-height: 0;
