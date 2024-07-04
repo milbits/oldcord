@@ -896,7 +896,7 @@ code {
 	}
 	& [alt="GitHub"] {
 		background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
-		background-image: url(https://milbits.github.io/oldcord/src/assets/github.webp);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/github.svg);
 	}
 	& [alt="Reddit"] {
 		background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);

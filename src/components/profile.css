@@ -1,5 +1,6 @@
 /*! bottom-left popout */
-/*Code by @kinggamingyt! */
+/*Code by @kinggamingyt!
+Modified by me, ofc */
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d {
 	display: none;
@@ -9,27 +10,22 @@
 	min-height: 0px;
 	max-height: 28px;
 }
-.accountProfilePopoutWrapper_b2ca13 {
-	top: 5px;
-	margin-left: 3px;
-}
-.submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c) {
+
+.submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	padding-left: 0;
 }
-.submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.status_ad5fac) {
-	padding-left: 0;
-}
-#status-set-custom-status > .label_d90b3d {
+[lang^="en"] #status-set-custom-status > .label_d90b3d {
 	text-indent: -9999px;
 	line-height: 0;
+
+	&::after {
+		content: "Set a custom status";
+		text-indent: 0;
+		display: block;
+		line-height: initial;
+	}
 }
-#status-set-custom-status > .label_d90b3d::after {
-	content: "Set a custom status";
-	text-indent: 0;
-	display: block;
-	line-height: initial;
-}
-#status-set-custom-status::after {
+:is(#status-set-custom-status, #status-edit-custom-status)::after {
 	content: "";
 	position: absolute;
 	width: 86%;
@@ -41,68 +37,56 @@
 	margin-left: 5%;
 	pointer-events: none;
 }
-#status-edit-custom-status::after {
-	content: "";
-	position: absolute;
-	width: 86%;
-	height: 1px;
-	background-color: var(--profile-body-divider-color);
-	padding: 0 4px;
-	bottom: 0;
-	left: 0;
-	margin-left: 5%;
-	pointer-events: none;
-}
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before,
-.accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1,
-.accountProfilePopoutWrapper_b2ca13 .header_b07019,
-.accountProfilePopoutWrapper_b2ca13 .body_ad5fac div:has(.descriptionClamp_fc5c48),
-.accountProfilePopoutWrapper_b2ca13 .activity_cd74cc,
-.accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
-.accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9,
-.accountProfilePopoutWrapper_b2ca13 .usernameRow_c32acf {
+
+.accountProfilePopoutWrapper_b2ca13
+	:is(.userPopoutInner_c69a7b:before, .wrapper_cb78f1.biteSize_cb78f1, .header_b07019, .activity_cd74cc, .tags_c32acf, .profileEffects_f867f9, .usernameRow_c32acf),
+.accountProfilePopoutWrapper_b2ca13 .body_ad5fac div:has(.descriptionClamp_fc5c48) {
 	display: none;
-}
-.accountProfilePopoutWrapper_b2ca13 .body_ad5fac {
-	padding: 0px;
-	gap: 8px;
-}
-.accountProfilePopoutWrapper_b2ca13 .username_d4e7c2 {
-	padding: 0px 8px;
-}
-.accountProfilePopoutWrapper_b2ca13 .menus_ad5fac {
-	gap: 0px !important;
-	background: var(--background-floating);
-}
-.accountProfilePopoutWrapper_b2ca13 .menu_ad5fac {
-	background-color: transparent;
-	background: var(--background-floating);
-}
-.accountProfilePopoutWrapper_b2ca13 .menus_ad5fac > .menu_ad5fac > .scroller_d90b3d {
-	padding: 0px !important;
-}
-.accountProfilePopoutWrapper_b2ca13 .menu_ad5fac:last-of-type [role="menu"]:first-of-type::before {
-	content: "";
-	display: block;
-	margin: 7px 4px 8px 4px;
-	border-bottom: 1px solid var(--profile-body-divider-color);
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
 	bottom: 0px;
+	top: 5px;
+	margin-left: 3px;
+
+	& .body_ad5fac {
+		padding: 0px;
+		gap: 8px;
+	}
+	& .username_d4e7c2 {
+		padding: 0px 8px;
+	}
+	& .menus_ad5fac {
+		gap: 0px !important;
+		background: var(--background-floating);
+	}
+	& .menu_ad5fac {
+		background-color: transparent;
+		background: var(--background-floating);
+	}
+	& .menus_ad5fac > .menu_ad5fac > .scroller_d90b3d {
+		padding: 0px !important;
+	}
+	& .menu_ad5fac:last-of-type [role="menu"]:first-of-type::before {
+		content: "";
+		display: block;
+		margin: 7px 4px 8px 4px;
+		border-bottom: 1px solid var(--profile-body-divider-color);
+	}
+	& .userPopoutOuter_c69a7b.userProfileOuter_c69a7b,
+	#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
+		width: 220px;
+		background: var(--background-floating);
+	}
+	& .userPopoutInner_c69a7b {
+		max-height: 100%;
+		width: 220px;
+		gap: 0px;
+		padding-bottom: 0px;
+		background: var(--background-floating);
+	}
 }
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuter_c69a7b,
-#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
-	width: 220px;
-	background: var(--background-floating);
-}
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b {
-	max-height: 100%;
-	width: 220px;
-	gap: 0px;
-	padding-bottom: 0px;
-	background: var(--background-floating);
-}
+
 /* Switch account icon (WIP) */
 #account-switch-account
 	> .iconContainer_d90b3d.iconContainerLeft_d90b3d
@@ -129,10 +113,6 @@
 }
 .syncButton_deca39 {
 	width: 1px !important;
-}
-.activity_cd74cc [src="/assets/6daf7db5db0d4a895afa.svg"] {
-	content: url("https://milbits.github.io/oldcord/src/assets/spotify.svg");
-	max-width: 25px;
 }
 
 /* Live on Twitch*/
@@ -172,7 +152,7 @@
 }
 
 .platformIcon_d5089b {
-	margin: 8px;
+	display: none;
 }
 
 .biteSizeInnerThemed_c69a7b .headerTextNormal_d5089b {
@@ -347,6 +327,7 @@
 .container_c32acf {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
+	padding-bottom: 10px;
 }
 .usernameRow_c32acf {
 	text-align: center;
@@ -382,53 +363,40 @@
 	color: var(--blurple);
 }
 
-/*
-.customStatusSection_d2b491 {
-	max-height: calc(100vh - 20px);
-	padding-top: 0px;
-	padding-bottom: 10px;
+/** Custom status*/
+
+.statusBubbleOuter_d0a252 {
+	position: relative;
+	right: 102px;
+	top: 70px;
+	bottom: calc(100% - 5px);
+	min-width: 250px;
+	box-shadow: none;
+	background: none important;
 	text-align: center;
 }
-.customStatus_cb55fc {
-	justify-content: center;
-	display: flex;
+:has(.pronouns_c32acf) .statusBubbleOuter_d0a252 {
+	top: 90px;
 }
-.customStatusText_cb55fc, .pronouns_c9ccf6 {
-	text-align: center !important;
-	color: var(--play-primary, var(--header-secondary));
-	max-width: 250px;
-	display: block;
-	padding: 0;
-}*/
+:has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
+	padding-bottom: 30px;
+}
+:has(.statusBubble_d0a252) .container_c32acf {
+	padding-bottom: 35px;
+}
 
-/*Custom status*/
-/*HEAVILY wip!*/
-.statusBubbleOuter_d0a252 {
-	position: fixed;
-	left: 30px;
-	top: unset !important;
-	bottom: calc(100% - 5px);
-	min-width: 52px;
-	max-width: 250px;
-	border-radius: var(--radius-xsa) /*xsa or md*/;
-	box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
-	z-index: 1;
+.statusBubbleOuter_d0a252 .defaultColor_a595eb {
+	color: var(--play-secondary, var(--interactive-normal));
 }
-.statusBubbleOuter_d0a252,
+
+.statusBubbleOuter_d0a252 {
+	border: none !important;
+	background: none;
+}
+
 .statusBubbleOuter_d0a252:before,
 .statusBubbleOuter_d0a252:after {
-	border: 1px solid rgb(32 34 37 / 60%) !important;
-}
-.statusBubbleOuter_d0a252:before {
-	top: unset;
-	bottom: -11px;
-	left: 30px;
-	-webkit-mask: linear-gradient(#0000 9px, #000 0);
-}
-.statusBubbleOuter_d0a252:after {
-	top: unset;
-	bottom: -24px;
-	left: 45px;
+	display: none;
 }
 
 /*temporarily hide the notes button until i find a good style solution*/
