@@ -7,7 +7,7 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
 <details> <summary><strong>Light mode</strong></summary>
-<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.png>
+<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
 
 </details>
 
@@ -31,7 +31,7 @@ In the custom CSS Tab on BD/Quick css file on Ven `(Settings > Vencord > Open qu
 
 #### Old Context menu background
 
-<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.png>
+<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp>
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/components/oldContext.css");

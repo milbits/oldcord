@@ -889,70 +889,71 @@ code {
 	border-radius: 5px;
 	pointer-events: none;
 }
-.connection_e2a436 .connectionHeader_e2a436 [alt="Battle.net"] {
-	background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/battle.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="GitHub"] {
-	background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/github.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Reddit"] {
-	background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/reddit.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Spotify"] {
-	background-color: var(--spotify);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/spotify.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Steam"] {
-	background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/steam.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Twitch"] {
-	background-color: var(--twitch);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/twitch.png);
-}
-/*The twitter icon and name is still viewable while pressing shift in the connections menu*/
-.connection_e2a436 .connectionHeader_e2a436 [alt="Twitter"] {
-	background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/twitter.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="X"] {
-	background-color: #0c0c0c;
-	background-image: url(https://discord.com/assets/4643b9da67226d176c1c988a94b1f1ec.svg);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Xbox"] {
-	background-color: var(--xbox);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/xbox.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="YouTube"] {
-	background-color: var(--youtube);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/youtube.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Skype"] {
-	background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/skype.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="League of Legends"] {
-	background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/league.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Facebook"] {
-	background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/facebook.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="PlayStation Network"] {
-	background-color: var(--playstation);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/playstation.png);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Epic Games"] {
-	background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/epic.svg);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt="Riot Games"] {
-	background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
-	background-image: url(https://milbits.github.io/oldcord/src/assets/riot.svg);
+.connection_e2a436 .connectionHeader_e2a436 {
+	& [alt="Battle.net"] {
+		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/battle.webp);
+	}
+	& [alt="GitHub"] {
+		background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/github.webp);
+	}
+	& [alt="Reddit"] {
+		background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/reddit.webp);
+	}
+	& [alt="Spotify"] {
+		background-color: var(--spotify);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/spotify.svg);
+	}
+	& [alt="Steam"] {
+		background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/steam.svg);
+	}
+	& [alt="Twitch"] {
+		background-color: var(--twitch);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/twitch.webp);
+	}
+	& :is([alt="Twitter"], [alt="X"]) {
+		background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/twitter.webp);
+	}
+	& [alt="Xbox"] {
+		background-color: var(--xbox);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/xbox.svg);
+	}
+	& [alt="YouTube"] {
+		background-color: var(--youtube);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/youtube.webp);
+	}
+	& [alt="Skype"] {
+		background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/skype.webp);
+	}
+	& [alt="League of Legends"] {
+		background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/league.webp);
+	}
+	& [alt="Facebook"] {
+		background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/facebook.webp);
+	}
+	& [alt="PlayStation Network"] {
+		background-color: var(--playstation);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/playstation.svg);
+	}
+	& [alt="Epic Games"] {
+		background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/epic.svg);
+	}
+	& [alt="Riot Games"] {
+		background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/riot.svg);
+	}
+	& [alt="Roblox"] {
+		background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
+		background-image: url(https://discord.com/assets/936f353828eb5a16cd39.svg);
+	}
 }
 
 /** revert too powerful dialog */
