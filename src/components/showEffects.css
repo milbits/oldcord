@@ -1,25 +1,22 @@
 [class*="avatarDecoration"],[class*="profileEffects"],[class*="bannerSVG"]{
     display: unset !important;
 }
-.bannerSVGWrapper_b32cc2 mask{
-    display: none
+[class*="profileEffects"]{
+    opacity: 0.2
+}
+
+.bannerSVGWrapper_b32cc2 mask circle{
+    transform: translateX(68.5px)
 }
 .userPopoutOuter_c69a7b .banner_c3e427{
     max-width: 250px;
     position: relative
 }
 
-.avatarWrapper_f89da9{
-    position: absolute !important
+.avatar_cc54d6{
+    position: absolute !important;
+    top: 62px
 }
-
-.usernameSection_d2b491{
+.container_c32acf{
     padding-top: 40px
-}
-.avatarPositionPremiumBanner_f89da9{
-    top: 75px !important
-}
-
-#app-mount .avatarPositionPremiumNoBanner_f89da9{
-	top: 45px !important
 }

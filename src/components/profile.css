@@ -389,7 +389,7 @@ Modified by me, ofc */
 	color: var(--play-secondary, var(--interactive-normal));
 }
 
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_d0a252,.statusBubble_d0a252 {
 	border: none !important;
 	background: none;
 }
