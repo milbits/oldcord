@@ -277,7 +277,7 @@ code {
 	border-radius: 5px;
 	background: #0000 !important;
 }
-:is(.item-2idW98, .item_eb92a8)[aria-checked="false"] .text-md-medium_a84e09 {
+:is(.item-2idW98, .item_eb92a8)[aria-checked="false"] .text-md\/medium_dc00ef {
 	color: var(--radio-bar-accent-color) !important;
 }
 .item_eb92a8 .radioBar_eb92a8 {
@@ -415,15 +415,6 @@ code {
 	}
 }
 
-/** i forgor what this is for :P*/
-.connectedAccounts-1YaT2t {
-	padding-bottom: 5px;
-	padding-top: 15px;
-}
-.connectedAccountContainer-SlCC-S {
-	background-color: var(--background-secondary);
-	border: #ffffff0f solid 1px;
-}
 /** revert text fields*/
 /*add friends weird font fix*/
 .inputText_de812f {

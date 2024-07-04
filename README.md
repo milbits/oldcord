@@ -4,7 +4,7 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 
 ###### Completely removes profile effects, profile colors, avatar decos, and banners
 
-![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.png)
+![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
 <details> <summary><strong>Light mode</strong></summary>
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.png>
@@ -46,6 +46,8 @@ Unhides things like profile banners
 ```
 
 Make sure that they're at the top of the file!
+
+----
 
 </details>
 

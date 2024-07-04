@@ -1,57 +1,57 @@
 /*! bottom-left popout */
 /*Code by @kinggamingyt! */
-#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d, 
+#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d {
-  display: none;
+	display: none;
 }
 :is(#status, #account) > .scrollerBase_c49869.none_c49869.scroller_d90b3d .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d:not(:has(.userMenuUsername_e1268c)) {
-  font-size: 14px;
-  min-height: 0px;
-  max-height: 28px;
-  }
+	font-size: 14px;
+	min-height: 0px;
+	max-height: 28px;
+}
 .accountProfilePopoutWrapper_b2ca13 {
-  top: 5px;
-  margin-left: 3px;
+	top: 5px;
+	margin-left: 3px;
 }
 .submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c) {
-  padding-left: 0;
+	padding-left: 0;
 }
 .submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.status_ad5fac) {
-  padding-left: 0;
+	padding-left: 0;
 }
 #status-set-custom-status > .label_d90b3d {
-  text-indent: -9999px;
-  line-height: 0;
+	text-indent: -9999px;
+	line-height: 0;
 }
 #status-set-custom-status > .label_d90b3d::after {
-  content: "Set a custom status";
-  text-indent: 0;
-  display: block;
-  line-height: initial;
+	content: "Set a custom status";
+	text-indent: 0;
+	display: block;
+	line-height: initial;
 }
 #status-set-custom-status::after {
-  content: "";
-  position: absolute;
-  width: 86%;
-  height: 1px;
-  background-color: var(--profile-body-divider-color);
-  padding: 0 4px;
-  bottom: 0;
-  left: 0;
-  margin-left: 5%;
-  pointer-events: none;
+	content: "";
+	position: absolute;
+	width: 86%;
+	height: 1px;
+	background-color: var(--profile-body-divider-color);
+	padding: 0 4px;
+	bottom: 0;
+	left: 0;
+	margin-left: 5%;
+	pointer-events: none;
 }
 #status-edit-custom-status::after {
-  content: "";
-  position: absolute;
-  width: 86%;
-  height: 1px;
-  background-color: var(--profile-body-divider-color);
-  padding: 0 4px;
-  bottom: 0;
-  left: 0;
-  margin-left: 5%;
-  pointer-events: none;
+	content: "";
+	position: absolute;
+	width: 86%;
+	height: 1px;
+	background-color: var(--profile-body-divider-color);
+	padding: 0 4px;
+	bottom: 0;
+	left: 0;
+	margin-left: 5%;
+	pointer-events: none;
 }
 .accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before,
 .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1,
@@ -61,50 +61,56 @@
 .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
 .accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9,
 .accountProfilePopoutWrapper_b2ca13 .usernameRow_c32acf {
-    display: none;
+	display: none;
 }
 .accountProfilePopoutWrapper_b2ca13 .body_ad5fac {
-    padding: 0px;
-    gap: 8px;
+	padding: 0px;
+	gap: 8px;
 }
 .accountProfilePopoutWrapper_b2ca13 .username_d4e7c2 {
-    padding: 0px 8px;
+	padding: 0px 8px;
 }
 .accountProfilePopoutWrapper_b2ca13 .menus_ad5fac {
-    gap: 0px !important;
-    background: var(--background-floating);
+	gap: 0px !important;
+	background: var(--background-floating);
 }
 .accountProfilePopoutWrapper_b2ca13 .menu_ad5fac {
-    background-color: transparent;
-    background: var(--background-floating);
+	background-color: transparent;
+	background: var(--background-floating);
 }
 .accountProfilePopoutWrapper_b2ca13 .menus_ad5fac > .menu_ad5fac > .scroller_d90b3d {
-    padding: 0px !important;
+	padding: 0px !important;
 }
 .accountProfilePopoutWrapper_b2ca13 .menu_ad5fac:last-of-type [role="menu"]:first-of-type::before {
-    content: "";
-    display: block;
-    margin: 7px 4px 8px 4px;
-    border-bottom: 1px solid var(--profile-body-divider-color);
+	content: "";
+	display: block;
+	margin: 7px 4px 8px 4px;
+	border-bottom: 1px solid var(--profile-body-divider-color);
 }
 .accountProfilePopoutWrapper_b2ca13 {
-    left: 0px;
-    bottom: 0px;
+	left: 0px;
+	bottom: 0px;
 }
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuter_c69a7b, #status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
-    width: 220px;
-    background: var(--background-floating);
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuter_c69a7b,
+#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
+	width: 220px;
+	background: var(--background-floating);
 }
 .accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b {
-    max-height: 100%;
-    width: 220px;
-    gap: 0px;
-    padding-bottom: 0px;
-    background: var(--background-floating);
+	max-height: 100%;
+	width: 220px;
+	gap: 0px;
+	padding-bottom: 0px;
+	background: var(--background-floating);
 }
 /* Switch account icon (WIP) */
-#account-switch-account > .iconContainer_d90b3d.iconContainerLeft_d90b3d > .icon_d90b3d > path[d^="M18.46 20.9a12.65 12.65 0 0 1-1.46.9 10.95 10.95 0 0 1-10 0 11 11 0 1 1 11.46-.9Zm-1.65-1.3a8.96 8.96 0 0 1-9.62 0l.23-2.26c.02-.25-.27-.36-.41-.15-.29.45-.6 1.01-.88 1.63A9.04 9.04 0 0 1 4.2 16.5a9 9 0 0 1 15.6 0 9.04 9.04 0 0 1-1.93 2.32c-.27-.62-.59-1.18-.88-1.63-.14-.21-.43-.1-.4.15l.22 2.27ZM12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"] {
-  d: path("M9.5,0H2.72c-.1,0-.2.03-.28.08-.08.05-.15.13-.18.22-.04.09-.05.19-.03.29.02.1.07.19.14.26l1.27,1.27c.19.19.29.44.29.71s-.11.52-.29.71l-1.41,1.41c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.19.19.44.29.71.29s.52-.11.71-.29l2.12-2.12c.38-.38.88-.59,1.41-.59s1.04.21,1.41.59l.56.56c.07.07.16.12.26.14.1.02.2,0,.29-.03.09-.04.17-.1.22-.18.05-.08.08-.18.08-.28V.5c0-.13-.05-.26-.15-.35-.09-.09-.22-.15-.35-.15ZM.5,18h6.78c.1,0,.2-.03.28-.08.08-.06.15-.13.18-.22.04-.09.05-.19.03-.29-.02-.1-.07-.19-.14-.26l-1.27-1.27c-.19-.19-.29-.44-.29-.71s.11-.52.29-.71l1.41-1.41c.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.19-.19-.44-.29-.71-.29s-.52.11-.71.29l-2.12,2.12c-.38.38-.88.59-1.41.59s-1.04-.21-1.41-.59l-.56-.56c-.07-.07-.16-.12-.26-.14-.1-.02-.2,0-.29.03-.09.04-.17.1-.22.18-.05.08-.08.18-.08.28v6.78c0,.13.05.26.15.35.09.09.22.15.35.15Z") !important;
+#account-switch-account
+	> .iconContainer_d90b3d.iconContainerLeft_d90b3d
+	> .icon_d90b3d
+	> path[d^="M18.46 20.9a12.65 12.65 0 0 1-1.46.9 10.95 10.95 0 0 1-10 0 11 11 0 1 1 11.46-.9Zm-1.65-1.3a8.96 8.96 0 0 1-9.62 0l.23-2.26c.02-.25-.27-.36-.41-.15-.29.45-.6 1.01-.88 1.63A9.04 9.04 0 0 1 4.2 16.5a9 9 0 0 1 15.6 0 9.04 9.04 0 0 1-1.93 2.32c-.27-.62-.59-1.18-.88-1.63-.14-.21-.43-.1-.4.15l.22 2.27ZM12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"] {
+	d: path(
+		"M9.5,0H2.72c-.1,0-.2.03-.28.08-.08.05-.15.13-.18.22-.04.09-.05.19-.03.29.02.1.07.19.14.26l1.27,1.27c.19.19.29.44.29.71s-.11.52-.29.71l-1.41,1.41c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.19.19.44.29.71.29s.52-.11.71-.29l2.12-2.12c.38-.38.88-.59,1.41-.59s1.04.21,1.41.59l.56.56c.07.07.16.12.26.14.1.02.2,0,.29-.03.09-.04.17-.1.22-.18.05-.08.08-.18.08-.28V.5c0-.13-.05-.26-.15-.35-.09-.09-.22-.15-.35-.15ZM.5,18h6.78c.1,0,.2-.03.28-.08.08-.06.15-.13.18-.22.04-.09.05-.19.03-.29-.02-.1-.07-.19-.14-.26l-1.27-1.27c-.19-.19-.29-.44-.29-.71s.11-.52.29-.71l1.41-1.41c.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.19-.19-.44-.29-.71-.29s-.52.11-.71.29l-2.12,2.12c-.38.38-.88.59-1.41.59s-1.04-.21-1.41-.59l-.56-.56c-.07-.07-.16-.12-.26-.14-.1-.02-.2,0-.29.03-.09.04-.17.1-.22.18-.05.08-.08.18-.08.28v6.78c0,.13.05.26.15.35.09.09.22.15.35.15Z"
+	) !important;
 }
 
 /*! Revert activity profile*/
@@ -197,6 +203,21 @@
 	background-color: var(--play-dark) !important;
 	padding: 12px;
 	border-radius: 0;
+}
+/*change some other colors for the activity section*/
+.activityUserPopoutV2_d5089b .headerTextNormal_d5089b {
+	color: #fff !important;
+}
+.activityName_d5089b {
+	color: var(--play-primary, var(--text-normal)) !important;
+}
+.activityName_d5089b,
+.playTime_d5089b {
+	color: #f6fbf9;
+}
+.nameNormal_d5089b,
+.contentImagesUserPopoutV2_d5089b .textRow_d5089b {
+	color: #fff !important;
 }
 
 /**buttons*/
@@ -360,21 +381,7 @@
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
-/*change some colors for the activity section*/
-.activityUserPopoutV2_d5089b .headerTextNormal_d5089b {
-	color: #fff !important;
-}
-.activityName_d5089b {
-	color: var(--play-primary, var(--text-normal)) !important;
-}
-.activityName_d5089b,
-.playTime_d5089b {
-	color: #f6fbf9;
-}
-.nameNormal_d5089b,
-.contentImagesUserPopoutV2_d5089b .textRow_d5089b {
-	color: #fff !important;
-}
+
 /*
 .customStatusSection_d2b491 {
 	max-height: calc(100vh - 20px);
