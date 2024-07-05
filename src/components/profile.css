@@ -369,12 +369,11 @@ Modified by me, ofc */
 /** Custom status*/
 .statusBubbleOuter_d0a252 {
 	position: relative;
-	right: 102px;
-	top: 70px;
-	bottom: calc(100% - 5px);
+	right: 106px;
+	top: 25px;
 	min-width: 250px;
 	box-shadow: none;
-	background: none important;
+	background: none !important;
 	text-align: center;
 }
 
