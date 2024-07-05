@@ -343,7 +343,7 @@ Modified by me, ofc */
 	font-weight: 600;
 }
 .tags_c32acf,
-.body_b07019 .info_e86508 {
+:not(.listItemContents_e05dae) .info_e86508 {
 	display: unset;
 	text-align: center;
 }
@@ -367,7 +367,6 @@ Modified by me, ofc */
 }
 
 /** Custom status*/
-
 .statusBubbleOuter_d0a252 {
 	position: relative;
 	right: 102px;
@@ -378,30 +377,37 @@ Modified by me, ofc */
 	background: none important;
 	text-align: center;
 }
+
 :has(.pronouns_c32acf) .statusBubbleOuter_d0a252 {
 	top: 90px;
 }
 :has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 :has(.statusBubble_d0a252) .container_c32acf {
 	padding-bottom: 35px;
+}
+
+/*modal profile*/.headerInner_bc9cc2 .statusBubbleOuter_d0a252 {
+	top: 140px;
+	max-width: 500px;
+	right: 160px;
+	min-width: 0;
 }
 
 .statusBubbleOuter_d0a252 .defaultColor_a595eb {
 	color: var(--play-secondary, var(--interactive-normal));
 }
 
-.statusBubbleOuter_d0a252,.statusBubble_d0a252 {
+.statusBubbleOuter_d0a252,
+.statusBubble_d0a252 {
 	border: none !important;
 	background: none;
 }
-
 .statusBubbleOuter_d0a252:before,
 .statusBubbleOuter_d0a252:after {
 	display: none;
 }
-
 /*temporarily hide the notes button until i find a good style solution*/
 .nicknameIcons_c32acf {
 	display: none;

@@ -19,7 +19,7 @@ A theme for Discord that brings back the 2020 UI (mostly) without removing featu
 | [Tanza3D's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic)                                        | Restores the old image layout            |
 | [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions)                                       | Removes super reactions                  |
 | [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)                                             | Open the file picker with just one click |
-| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads                          |
+| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                          |
 
 #### Old Plead Emoji
 
@@ -39,7 +39,7 @@ In the custom CSS Tab on BD/Quick css file on Ven `(Settings > Vencord > Open qu
 
 #### Show Profile Cosmetics
 
-Unhides things like profile banners
+Shows things like banners again
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/components/showEffects.css");

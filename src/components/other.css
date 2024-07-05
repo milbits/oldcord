@@ -917,6 +917,15 @@ code {
 	& :is([alt="Twitter"], [alt="X"]) {
 		background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/twitter.webp);
+	    & + div > .connectionAccountLabel_e2a436 {
+			font-size: 0;
+			line-height: 0;
+			&:before {
+				content: "Twitter";
+				font-size: 12px;
+				line-height: 16px;
+			}
+		}
 	}
 	& [alt="Xbox"] {
 		background-color: var(--xbox);

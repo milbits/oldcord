@@ -322,3 +322,9 @@
 .spriteGreyscale_af14ca {
     display: none !important;
 }
+
+/*restore twitter logo*/
+[src="/assets/f3c7469988f0ce3a02e4.svg"] {
+    content: url(https://discord.com/assets/4cff8a97465555223d09.svg) !important;
+
+}
