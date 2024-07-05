@@ -85,6 +85,9 @@ Modified by me, ofc */
 		padding-bottom: 0px;
 		background: var(--background-floating);
 	}
+	& .container_c32acf.username_ad5fac {
+		display: none;
+	}
 }
 
 /* Switch account icon (WIP) */
