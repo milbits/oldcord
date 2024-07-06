@@ -298,7 +298,6 @@ Modified by me, ofc */
 	padding: 0 !important;
 	display: flex;
 	min-height: 100px !important;
-	z-index: 1;
 }
 
 .userProfileInner_c69a7b {
@@ -412,31 +411,35 @@ Modified by me, ofc */
 
 /*note button*/
 .nicknameIcons_c32acf {
-	position: absolute;
-	top: 8px;
-	left: 8px;
-	background: var(--redesign-button-secondary-overlay-background);
-	min-width: 24px;
-	height: 24px;
-	padding-top: 0 !important;
-	border-radius: 9999px;
+	display: none;
+}
+/*
+.nicknameIcons_c32acf {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: var(--redesign-button-secondary-overlay-background);
+  min-width: 24px;
+  height: 24px;
+  padding-top: 0 !important;
+  border-radius: 9999px;
 	overflow: hidden;
-
-	& button {
-		justify-content: center;
-		width: 24px;
-		height: 24px;
-		border-radius: 0;
-		opacity: 1;
-		transition: 170ms ￼ease;
-	}
-	& button:hover {
+	& button:hover{
 		background: var(--redesign-button-secondary-overlay-background);
 	}
 	& button path {
-		fill: #fff;
+		  fill: #fff;
+
 	}
-}
+	& button{
+		  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  opacity: 1;
+  transition: 170ms ease;
+	}
+}*/
 
 /*remove badges*/
 .biteSizeInnerThemed_c69a7b .container_e5a42d {
@@ -593,14 +596,22 @@ Modified by me, ofc */
 }
 
 /** full profile modal */
+.custom-profile-theme .fullSizeOverlayBackground_c69a7b {
+	background: none !important;
+	border: none !important;
+}
+.custom-profile-theme .fullSizeInnerThemed_c69a7b {
+	background: var(--background-primary);
+}
 
 .userProfileModalOverlayBackground_c69a7b,
 .body_bc9cc2 {
 	margin: 0;
 }
-.headerInner_bc9cc2 {
+.headerInner_bc9cc2,
+.userProfileOuter_c69a7b {
 	min-height: 0px;
-	padding: 0;
+	padding: 0 !important;
 }
 .fullSizeInnerThemed_c69a7b {
 	background: var(--background-tertiary);
@@ -693,7 +704,7 @@ Modified by me, ofc */
 	padding-right: 10px;
 	padding-bottom: 0;
 	margin: 0;
-	background: var(--bg-overlay-1, var(--background-tertiary));
+	background: var(--background-tertiary);
 	border-radius: 0;
 }
 
