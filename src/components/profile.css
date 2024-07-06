@@ -298,6 +298,7 @@ Modified by me, ofc */
 	padding: 0 !important;
 	display: flex;
 	min-height: 100px !important;
+	z-index: 1;
 }
 
 .userProfileInner_c69a7b {
@@ -343,7 +344,7 @@ Modified by me, ofc */
 	font-weight: 600;
 }
 .tags_c32acf,
-:not(.listItemContents_e05dae) .info_e86508 {
+.info_e86508:not(.alignPomelo_f3939d) {
 	display: unset;
 	text-align: center;
 }
@@ -387,7 +388,8 @@ Modified by me, ofc */
 	padding-bottom: 35px;
 }
 
-/*modal profile*/.headerInner_bc9cc2 .statusBubbleOuter_d0a252 {
+/*modal profile*/
+.headerInner_bc9cc2 .statusBubbleOuter_d0a252 {
 	top: 100px;
 	max-width: 500px;
 	right: 160px;
@@ -407,9 +409,33 @@ Modified by me, ofc */
 .statusBubbleOuter_d0a252:after {
 	display: none;
 }
-/*temporarily hide the notes button until i find a good style solution*/
+
+/*note button*/
 .nicknameIcons_c32acf {
-	display: none;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	background: var(--redesign-button-secondary-overlay-background);
+	min-width: 24px;
+	height: 24px;
+	padding-top: 0 !important;
+	border-radius: 9999px;
+	overflow: hidden;
+
+	& button {
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		border-radius: 0;
+		opacity: 1;
+		transition: 170ms ￼ease;
+	}
+	& button:hover {
+		background: var(--redesign-button-secondary-overlay-background);
+	}
+	& button path {
+		fill: #fff;
+	}
 }
 
 /*remove badges*/
