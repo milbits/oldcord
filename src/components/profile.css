@@ -317,6 +317,23 @@ Modified by me, ofc */
 	width: 0;
 }
 
+/* restores "View Profile" text when hovering over a pfp on profile popouts */
+.overlay_cc54d6::before {
+  position: absolute;
+  z-index: 1;
+}
+
+[lang^="en"] .clickable_cc54d6:hover .overlay_cc54d6::before, .clickable_cc54d6:focus-within .overlay_cc54d6::before {
+  content: "VIEW PROFILE";
+  opacity: 1;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  top: 39px;
+  left: 7px;
+  font-weight: bold;
+}
+
 /* removes dark circle behind status icon for profiles with custom colours */
 .avatarWrapper_f89da9:is(.avatarPositionPremiumBanner_f89da9,.avatarPositionPremiumNoBanner-nWzERs) > :is(circle,rect:nth-child(2)),
 .avatarHoverTarget_f89da9 > circle,
