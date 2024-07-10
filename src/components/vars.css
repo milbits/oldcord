@@ -1,4 +1,4 @@
-.theme-dark {
+html.theme-dark:not(.custom-theme-background) {
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
@@ -58,7 +58,7 @@
 	--primary-transparent: #ffffff1a;
 }
 
-.theme-light {
+html.theme-light {
 	--channeltextarea-background: #ebedef;
 	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
@@ -190,6 +190,6 @@ body {
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 }
 
-[class*="cardPrimary_"] {
+.cardPrimary_a298b8 {
 	--__card-accent-color: var(--background-secondary) !important;
 }
