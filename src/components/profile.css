@@ -106,11 +106,13 @@ Modified by me, ofc */
 /** Variables*/
 
 .userPopoutOuter_c69a7b:has(.activity_cd74cc) {
-	--play-secondary: rgba(255, 255, 255, 0.8) !important;
+	--play-tertiary: rgba(255,255,255,0.6);
+	--play-secondary-2: rgba(255,255,255,0.9);
+	--play-secondary: rgba(255, 255, 255, 0.8);
 	--play-primary: #fff;
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
-}
+} 
 /* Listening to Spotify*/
 .userPopoutOuter_c69a7b:has(.platformIcon_d5089b[src="/assets/6daf7db5db0d4a895afa.svg"]) {
 	--play: var(--spotify);
@@ -193,12 +195,16 @@ Modified by me, ofc */
 .activityUserPopoutV2_d5089b .headerTextNormal_d5089b {
 	color: #fff !important;
 }
-.activityName_d5089b {
-	color: var(--play-primary, var(--text-normal)) !important;
-}
-.activityName_d5089b,
+
+
 .playTime_d5089b {
 	color: #f6fbf9;
+}
+.activity_cd74cc .textRow_d5089b{
+	font-size: 14px
+}
+.activityName_d5089b,.activity_cd74cc .nameNormal_d5089b{
+	color: var(--play-secondary-2) !important
 }
 .nameNormal_d5089b,
 .contentImagesUserPopoutV2_d5089b .textRow_d5089b {
@@ -210,8 +216,8 @@ Modified by me, ofc */
 /*activity buttons*/
 .activity_cd74cc .button_c6eb7b {
 	background: transparent;
-	color: var(--white-500);
-	border: 1px solid #fff;
+	color: var(--play-primary);
+	border: 1px solid var(--play-primary);
 	transition: 0.17s ease;
 	opacity: 1 !important;
 	width: 100%;
@@ -221,7 +227,7 @@ Modified by me, ofc */
 }
 
 .activity_cd74cc .button_c6eb7b:not(:disabled):active {
-	border-color: var(--white-500);
+	border-color: var(--play-primary);
 	background: #ffffff1a !important;
 }
 
@@ -378,7 +384,7 @@ Modified by me, ofc */
 }
 
 .pronouns_c32acf {
-	color: var(--play-secondary, var(--text-muted)) !important;
+	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
 .userPopoutOuter_c69a7b:has(.activity_cd74cc) .botTagRegular_a02df3 {
