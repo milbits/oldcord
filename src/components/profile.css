@@ -239,6 +239,7 @@ Modified by me, ofc */
 .body_b07019 {
 	padding: 0;
 	gap: 0;
+	overflow: unset !important;
 }
 .biteSizeInnerThemed_c69a7b {
 	gap: 0;
