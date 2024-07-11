@@ -106,13 +106,13 @@ Modified by me, ofc */
 /** Variables*/
 
 .userPopoutOuter_c69a7b:has(.activity_cd74cc) {
-	--play-tertiary: rgba(255,255,255,0.6);
-	--play-secondary-2: rgba(255,255,255,0.9);
+	--play-tertiary: rgba(255, 255, 255, 0.6);
+	--play-secondary-2: rgba(255, 255, 255, 0.9);
 	--play-secondary: rgba(255, 255, 255, 0.8);
 	--play-primary: #fff;
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
-} 
+}
 /* Listening to Spotify*/
 .userPopoutOuter_c69a7b:has(.platformIcon_d5089b[src="/assets/6daf7db5db0d4a895afa.svg"]) {
 	--play: var(--spotify);
@@ -196,15 +196,15 @@ Modified by me, ofc */
 	color: #fff !important;
 }
 
-
 .playTime_d5089b {
 	color: #f6fbf9;
 }
-.activity_cd74cc .textRow_d5089b{
-	font-size: 14px
+.activity_cd74cc .textRow_d5089b {
+	font-size: 14px;
 }
-.activityName_d5089b,.activity_cd74cc .nameNormal_d5089b{
-	color: var(--play-secondary-2) !important
+.activityName_d5089b,
+.activity_cd74cc .nameNormal_d5089b {
+	color: var(--play-secondary-2) !important;
 }
 .nameNormal_d5089b,
 .contentImagesUserPopoutV2_d5089b .textRow_d5089b {
@@ -271,7 +271,8 @@ Modified by me, ofc */
 }
 /*profile stuff*/
 .userPopoutInner_c69a7b,
-.userProfileModalInner_c69a7b {
+.userProfileModalInner_c69a7b,
+.userProfileOuterThemed_c69a7b {
 	--profile-gradient-primary-color: var(--background-secondary-alt);
 	--profile-gradient-secondary-color: var(--background-secondary-alt);
 	--profile-gradient-overlay-color: transparent;
@@ -283,6 +284,7 @@ Modified by me, ofc */
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
+	--theme-base-color: unset !important;
 }
 .userPopoutOuter_c69a7b,
 .userPopoutOverlayBackground_c69a7b {
@@ -328,19 +330,31 @@ Modified by me, ofc */
 
 /* restores "View Profile" text when hovering over a pfp on profile popouts */
 .overlay_cc54d6::before {
-  position: absolute;
-  z-index: 1;
+	position: absolute;
+	z-index: 1;
 }
 
-[lang^="en"] .clickable_cc54d6:hover .overlay_cc54d6::before, .clickable_cc54d6:focus-within .overlay_cc54d6::before {
-  content: "VIEW PROFILE";
-  opacity: 1;
-  font-size: 10px;
-  text-align: center;
-  color: white;
-  top: 39px;
-  left: 7px;
-  font-weight: bold;
+[lang^="en"] .clickable_cc54d6:hover .overlay_cc54d6::before,
+[lang^="en"] .clickable_cc54d6:focus-within .overlay_cc54d6::before {
+	content: "VIEW PROFILE";
+	opacity: 1;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	top: 39px;
+	left: 7px;
+	font-weight: bold;
+}
+[lang="de"] .clickable_cc54d6:hover .overlay_cc54d6::before,
+[lang="de"] .clickable_cc54d6:focus-within .overlay_cc54d6::before {
+	content: "PROFIL ANSEHEN";
+	opacity: 1;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	top: 30px;
+	left: 5px;
+	font-weight: bold;
 }
 
 /* removes dark circle behind status icon for profiles with custom colours */
@@ -611,7 +625,7 @@ Modified by me, ofc */
 }
 
 /* border around addrole button*/
-.root_c83b44 .button_f1cdcc {
+.root_c83b44 .button_dd4f85 {
 	border: 1px solid var(--interactive-muted);
 	background: none;
 	border-radius: 999%;
