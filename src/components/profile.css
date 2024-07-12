@@ -421,10 +421,13 @@ Modified by me, ofc */
 	top: 40px;
 }
 :has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 :has(.statusBubble_d0a252) .container_c32acf {
-	padding-bottom: 35px;
+	padding-bottom: 20px;
+}
+.container_c32acf {
+  padding-bottom: 0px;
 }
 
 /*modal profile*/
