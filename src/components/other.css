@@ -494,24 +494,24 @@ code {
 	cursor: pointer;
 }
 /* tweak hover buttons*/
-.hoverButtonGroup_ab8b23 {
+.hoverButtonGroup_e5c1dc{
 	border-radius: 4px;
 	top: 4px;
 	right: 4px;
-	background-color: #00000000;
+	background-color: transparent;
 	transition: 0.1s ease;
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
-.hoverButtonGroup_ab8b23:not([class*="nonMedia"]) {
+.hoverButtonGroup_ab8b23:not([class^="nonMedia"]) {
 	background-color: #00000040;
 }
 /* make download button bigger */
-.downloadHoverButtonIcon__90d38 {
+.downloadHoverButtonIcon_e5c1dc{
 	width: 24px;
 	height: 24px;
 }
 /* center the download button for audio files and make it permanently visible*/
-.wrapperAudio_f72aac + .hoverButtonGroup_ab8b23 {
+.wrapperAudio_f72aac + .hoverButtonGroup_e5c1dc {
 	top: 25%;
 	right: 8px;
 	transform: translateY(-50%);
