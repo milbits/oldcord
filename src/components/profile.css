@@ -114,7 +114,7 @@ Modified by me, ofc */
 	--play-dark: var(--brand-experiment-530);
 }
 /* Listening to Spotify*/
-.userPopoutOuter_c69a7b:has(.platformIcon_d5089b[src="/assets/6daf7db5db0d4a895afa.svg"]) {
+.userPopoutOuter_c69a7b:has(.platformIcon_c1d9fd[src="/assets/6daf7db5db0d4a895afa.svg"]) {
 	--play: var(--spotify);
 	--play-dark: var(--spotify-dark);
 }
@@ -158,11 +158,11 @@ Modified by me, ofc */
 	--play-dark: var(--playstation-dark);
 }
 
-.platformIcon_d5089b {
+.platformIcon_c1d9fd {
 	display: none;
 }
 
-.biteSizeInnerThemed_c69a7b .headerTextNormal_d5089b {
+.biteSizeInnerThemed_c69a7b .headerTextNormal_c1d9fd {
 	text-transform: uppercase;
 }
 /* make activity the first section*/
@@ -192,22 +192,22 @@ Modified by me, ofc */
 	border-radius: 0;
 }
 /*change some other colors for the activity section*/
-.activityUserPopoutV2_d5089b .headerTextNormal_d5089b {
+.activityUserPopoutV2_c1d9fd .headerTextNormal_c1d9fd {
 	color: #fff !important;
 }
 
-.playTime_d5089b {
+.playTime_c1d9fd {
 	color: #f6fbf9;
 }
-.activity_cd74cc .textRow_d5089b {
+.activity_cd74cc .textRow_c1d9fd {
 	font-size: 14px;
 }
 .activityName_c1d9fd,
-.activity_cd74cc .nameNormal_d5089b {
+.activity_cd74cc .nameNormal_c1d9fd {
 	color: var(--play-secondary-2) !important;
 }
-.nameNormal_d5089b,
-.contentImagesUserPopoutV2_d5089b .textRow_d5089b {
+.nameNormal_c1d9fd,
+.contentImagesUserPopoutV2_c1d9fd .textRow_c1d9fd {
 	color: #fff !important;
 }
 
@@ -648,9 +648,8 @@ Modified by me, ofc */
 .body_bc9cc2 {
 	margin: 0;
 }
-.headerInner_bc9cc2,
-.userProfileOuter_c69a7b {
-	min-height: 0px;
+.headerInner_bc9cc2{
+	max-height: 0px;
 	padding: 0 !important;
 }
 .fullSizeInnerThemed_c69a7b {
@@ -663,11 +662,11 @@ Modified by me, ofc */
 	margin-top: 46px;
 }
 
-.headerInner_bc9cc2 .avatar_f94206 {
+.headerInner_bc9cc2 .avatar_f94206{
 	transform: scale(0.666);
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 1px !important;
+	left: 30px !important;
 }
 /*.fullSizeInnerThemed_c69a7b{
 	padding-top: 20px;
