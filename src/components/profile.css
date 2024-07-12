@@ -651,6 +651,10 @@ Modified by me, ofc */
 .headerInner_bc9cc2{
 	max-height: 0px;
 	padding: 0 !important;
+	background: var(--background-tertiary)
+}
+.userProfileOuter_c69a7b{
+	padding: 0 !important
 }
 .fullSizeInnerThemed_c69a7b {
 	background: var(--background-tertiary);
@@ -699,6 +703,9 @@ Modified by me, ofc */
 	left: 10px;
 	margin-right: 10px;
 }
+.body_bc9cc2{
+	gap: 0
+}
 
 .container_e5a42d {
 	transform-origin: top left;
@@ -724,7 +731,7 @@ Modified by me, ofc */
 }
 
 .headerInner_bc9cc2 .multipleButtons_fcef98 {
-	margin-top: 100px;
+	margin-bottom: 170px;
 	margin-right: 20px;
 }
 
