@@ -329,13 +329,13 @@ Modified by me, ofc */
 }
 
 /* restores "View Profile" text when hovering over a pfp on profile popouts */
-.overlay_cc54d6::before {
+.overlay_f94206::before {
 	position: absolute;
 	z-index: 1;
 }
 
-[lang^="en"] .clickable_cc54d6:hover .overlay_cc54d6::before,
-[lang^="en"] .clickable_cc54d6:focus-within .overlay_cc54d6::before {
+[lang^="en"] .clickable_f94206:hover .overlay_f94206::before,
+[lang^="en"] .clickable_f94206:focus-within .overlay_f94206::before {
 	content: "VIEW PROFILE";
 	opacity: 1;
 	font-size: 10px;
@@ -345,8 +345,8 @@ Modified by me, ofc */
 	left: 7px;
 	font-weight: bold;
 }
-[lang="de"] .clickable_cc54d6:hover .overlay_cc54d6::before,
-[lang="de"] .clickable_cc54d6:focus-within .overlay_cc54d6::before {
+[lang="de"] .clickable_f94206:hover .overlay_f94206::before,
+[lang="de"] .clickable_f94206:focus-within .overlay_f94206::before {
 	content: "PROFIL ANSEHEN";
 	opacity: 1;
 	font-size: 10px;
