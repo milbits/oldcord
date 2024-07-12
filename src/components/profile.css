@@ -202,7 +202,7 @@ Modified by me, ofc */
 .activity_cd74cc .textRow_d5089b {
 	font-size: 14px;
 }
-.activityName_d5089b,
+.activityName_c1d9fd,
 .activity_cd74cc .nameNormal_d5089b {
 	color: var(--play-secondary-2) !important;
 }
@@ -320,11 +320,11 @@ Modified by me, ofc */
 }
 
 /*pfp (duh)*/
-.avatar_cc54d6 {
+.avatar_f94206 {
 	left: 34% !important;
 	position: relative !important;
 	padding-bottom: 16px;
-	top: 13px;
+	top: 13px !important;
 	width: 0;
 }
 
@@ -663,7 +663,7 @@ Modified by me, ofc */
 	margin-top: 46px;
 }
 
-.headerInner_bc9cc2 .avatar_bc9cc2 {
+.headerInner_bc9cc2 .avatar_f94206 {
 	transform: scale(0.666);
 	position: absolute;
 	top: 0px;
