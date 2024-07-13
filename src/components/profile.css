@@ -421,13 +421,13 @@ Modified by me, ofc */
 	top: 40px;
 }
 :has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
-	padding-bottom: 20px;
+	padding-bottom: 1em;
 }
 :has(.statusBubble_d0a252) .container_c32acf {
-	padding-bottom: 20px;
+	padding-bottom: 1em;
 }
-.container_c32acf {
-  padding-bottom: 0px;
+:has(.statusEmojiOnly_d0a252) .container_c32acf {
+  padding-bottom: 3em;
 }
 
 /*modal profile*/
