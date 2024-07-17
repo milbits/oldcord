@@ -39,7 +39,7 @@ code {
 }
 
 /*bot tag*/
-:not(.botTagOP_a02df3, .botTagRemix_a02df3) > .botText_a02df3 {
+:not(.botTagOP_a9e77f, .botTagRemix_a9e77f) > .botText_a9e77f {
 	visibility: hidden;
 	font-size: 0 !important;
 	&:before {
@@ -53,7 +53,7 @@ code {
 [class^="botTag"] {
 	border-radius: 3px !important;
 }
-.botTagRemix_a02df3 {
+.botTagRemix_a9e77f {
 	border: 1px solid var(--blurple);
 	background: transparent;
 	color: var(--blurple);
@@ -120,25 +120,25 @@ code {
 }
 
 /* revert channel role permissions (beta), looks kinda bad when zoomed in but i'll try to fix that */
-.group_e3c4bb {
+.group_d25d19 {
 	background-color: var(--background-tertiary);
 	width: 108px;
 	grid-gap: 1px;
 }
-.passthrough_e3c4bb {
-	&.selected_e3c4bb {
+.passthrough_d25d19 {
+	&.selected_d25d19 {
 		background-color: #787e8a;
 	}
 	&svg {
 		display: none;
 	}
-	&:not(.selected_e3c4bb)::after {
+	&:not(.selected_d25d19)::after {
 		content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(120, 126, 138)' class='ci-primary'/></svg>");
 		height: 16px;
 		width: 16px;
 		rotate: 45deg;
 	}
-	&.selected_e3c4bb::after {
+	&.selected_d25d19::after {
 		content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='1.5' height='16' x='7.5' y='0' fill='rgb(255, 255, 255)' class='ci-primary'/></svg>");
 		height: 16px;
 		width: 16px;
@@ -146,7 +146,7 @@ code {
 	}
 }
 
-.item_e3c4bb {
+.item_d25d19 {
 	cursor: pointer;
 }
 
@@ -479,18 +479,18 @@ code {
 .nonMediaAttachmentItem__80bd4 .messageAttachmentMediaMosaic__67262 {
 	max-width: 100% !important;
 }
-.newMosaicStyle_f72aac .codeView_ad9cbd {
+.newMosaicStyle_f72aac .codeView_d8e2d0 {
 	margin: 0 0 0;
 	padding: 7px;
 }
-.newMosaicStyle_f72aac .footer_ad9cbd {
+.newMosaicStyle_f72aac .footer_d8e2d0 {
 	border-radius: 0 0 4px 4px;
 	padding: 0 10px;
 }
-.newMosaicStyle_f72aac .textContainer_ad9cbd {
+.newMosaicStyle_f72aac .textContainer_d8e2d0 {
 	border-radius: 4px 4px 0 0;
 }
-.codeIcon_ad9cbd {
+.codeIcon_d8e2d0 {
 	cursor: pointer;
 }
 /* tweak hover buttons*/
@@ -518,7 +518,7 @@ code {
 	opacity: 1;
 }
 /* same as above but for file attachments */
-.attachment_a4623d + .hoverButtonGroup_e5c1dc {
+.attachment_b52bef + .hoverButtonGroup_e5c1dc {
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
@@ -535,7 +535,7 @@ code {
 	width: 400px;
 }
 /* revert the bloating of attachments in general */
-.attachment_a4623d.newMosaicStyle_a4623d {
+.attachment_b52bef.newMosaicStyle_b52bef {
 	padding: 10px;
 	border-radius: 3px;
 	width: 100%;
