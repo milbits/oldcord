@@ -395,11 +395,11 @@
 	}
 }
 
-.pronouns_c32acf {
+.pronounsText_c32acf{
 	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
-.userPopoutOuter_c69a7b:has(.activity_cd74cc) .botTagRegular_a02df3 {
+.userPopoutOuter_c69a7b:has(.activity_cd74cc) .botTagRegular_a9e77f {
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
@@ -606,9 +606,9 @@
 }
 /* Add a colored border around the role */
 .role_f9575e .roleRemoveButton_f9575e .roleCircle_a26d7b:before {
-	position: absolute;
+	position: absolute; 
 	top: 0;
-	left: 0;
+	left: 0; 
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
@@ -690,7 +690,6 @@
 /*Display name tweaks*/
 .nickname_c32acf.fullSize_c32acf {
 	color: var(--interactive-active);
-	bottom: px;
 	position: relative;
 }
 
@@ -717,7 +716,7 @@
 	top: 55px;
 }
 /*focking WOKE LIBERAL pronouns*/
-.fullSize_c32acf .pronouns_c32acf {
+.fullSize_c32acf .pronounsText_c32acf {
 	left: 126px;
 	position: relative;
 	font-weight: 500;
@@ -768,7 +767,7 @@
 	top: 15px;
 	background-color: var(--background-secondary);
 }
-div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_be84f0 > span.discriminator_b69b77 {
+div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.discriminator_b69b77 {
 	font-size: medium;
 	font-weight: 400;
 	position: relative;
@@ -792,7 +791,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_be84f0 > span.dis
 	background: var(--background-primary);
 }
 
-.userPopoutOuter_c69a7b:has(.botText_a02df3):before {
+.userPopoutOuter_c69a7b:has(.botText_a9e77f):before {
 	content: "Discord will soon replace bot profiles with the new style too, thats why this is broken";
 	color: var(--text-muted);
 }
