@@ -1029,8 +1029,9 @@ code {
 }*/
 
 /*Fix favorite button and delete overlap*/
-:has(.imageAccessory__9614b [class*="gifFavoriteButton"]) .hoverButtonGroup_e5c1dc {
-	margin-right: 30px;
+.imageAccessory_d4597d {
+  left: unset;
+  right: 6px;
 }
 /*nitro emoji paywall*/
 .emojiLockIcon_bcf389,
