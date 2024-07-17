@@ -502,7 +502,7 @@ code {
 	transition: 0.1s ease;
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
-.hoverButtonGroup_ab8b23:not([class^="nonMedia"]) {
+.hoverButtonGroup_e5c1dc:not([class^="nonMedia"]) {
 	background-color: #00000040;
 }
 /* make download button bigger */
@@ -518,7 +518,7 @@ code {
 	opacity: 1;
 }
 /* same as above but for file attachments */
-.attachment_a4623d + .hoverButtonGroup_ab8b23 {
+.attachment_a4623d + .hoverButtonGroup_e5c1dc {
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
@@ -630,7 +630,7 @@ code {
 .title_a7d72e {
 	background-color: var(--background-primary) !important;
 }
-.theme-dark .children_e44302:after {
+.theme-dark .children_fc4f04:after {
 	display: none;
 }
 /* make "search/create post" background the same as the textarea*/
@@ -671,7 +671,7 @@ code {
 /** Devices Tab*/
 /* make description a card*/
 .description_c7a2c0 {
-	background: var(--bg-overlay-4, var(--background-secondary));
+	background: var(--background-secondary);
 	border: 1px solid var(--background-tertiary);
 	border-radius: 5px;
 	color: var(--text-normal);
@@ -1029,7 +1029,7 @@ code {
 }*/
 
 /*Fix favorite button and delete overlap*/
-:has(.imageAccessory__9614b [class*="gifFavoriteButton"]) .hoverButtonGroup_ab8b23 {
+:has(.imageAccessory__9614b [class*="gifFavoriteButton"]) .hoverButtonGroup_e5c1dc {
 	margin-right: 30px;
 }
 /*nitro emoji paywall*/

@@ -1,6 +1,5 @@
 /*! bottom-left popout */
-/*Code by @kinggamingyt!
-Modified by me, ofc */
+/*Code by @kinggamingyt! */
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d {
 	display: none;
@@ -284,7 +283,6 @@ Modified by me, ofc */
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
-	--theme-base-color: unset !important;
 }
 .userPopoutOuter_c69a7b,
 .userPopoutOverlayBackground_c69a7b {
