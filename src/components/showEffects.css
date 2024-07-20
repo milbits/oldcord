@@ -37,7 +37,7 @@
 .custom-profile-theme .biteSizeInnerThemed_c69a7b{
     --profile-gradient-overlay-color: rgb(0 0 0 / 36%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
-    &.container_c32acf {
+    & .container_c32acf {
         background: var(--play, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
     }
 }
