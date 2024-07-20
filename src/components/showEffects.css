@@ -1,13 +1,20 @@
-[class*="avatarDecoration"],[class*="profileEffects"],[class*="bannerSVG"]{
+.avatarDecoration_c51b4e,.profileEffects_f867f9,.bannerSVGWrapper_b32cc2{
     display: unset !important;
 }
-[class*="profileEffects"]{
+.profileEffects_f867f9{
     opacity: 0.2
 }
 
 .bannerSVGWrapper_b32cc2 mask circle{
-    transform: translateX(68.5px)
+    transform: translateX(68.5px);
 }
+.bannerSVGWrapper_b32cc2:has(.bannerPremium_c3e427) mask circle{
+    transform: translateX(73px) translateY(5px);
+}
+.fullSize_cb78f1 + header .bannerSVGWrapper_b32cc2 mask circle{
+    display: none !important
+}
+
 .userPopoutOuter_c69a7b .banner_c3e427{
     max-width: 250px;
     position: relative
@@ -20,7 +27,17 @@
 .container_c32acf{
     padding-top: 40px
 }
-
+.statusBubbleOuter_d0a252{
+    top: 65px
+}
 :has(.pronouns_c32acf) .statusBubbleOuter_d0a252{
     top: 90px !important
+}
+
+.custom-profile-theme .biteSizeInnerThemed_c69a7b{
+    --profile-gradient-overlay-color: rgb(0 0 0 / 36%);
+    background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
+    &.container_c32acf {
+        background: var(--play, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
+    }
 }

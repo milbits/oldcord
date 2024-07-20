@@ -112,49 +112,46 @@
 	--play: var(--brand-experiment);
 	--play-dark: var(--brand-experiment-530);
 }
-/* Listening to Spotify*/
-.userPopoutOuter_c69a7b:has(.platformIcon_c1d9fd[src="/assets/6daf7db5db0d4a895afa.svg"]) {
-	--play: var(--spotify);
-	--play-dark: var(--spotify-dark);
+/*Change color depending on activity type*/
+.userPopoutOuter_c69a7b:not(:has(.vc-user-connection)) {
+	/* Listening to Spotify*/
+	&:has(.platformIcon_c1d9fd[src="/assets/6daf7db5db0d4a895afa.svg"]) {
+		--play: var(--spotify);
+		--play-dark: var(--spotify-dark);
+	}
+
+	/* Live on Twitch*/
+	&:has([mask="url(#svg-mask-status-streaming)"]) {
+		--play: var(--twitch);
+		--play-dark: var(--twitch-dark);
+	}
+
+	/* Watching Crunchyroll*/
+	&:has([alt="Crunchyroll"]) {
+		--play: var(--crunchyroll);
+		--play-dark: var(--crunchyroll-dark);
+	}
+
+	/* Watching Watch Together*/
+	&:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+		--play: var(--youtube);
+		--play-dark: var(--youtube-dark);
+	}
+
+	/* Playing on XBOX*/
+	&:has([src="/assets/9109430b0f2514a0c674.png"]) {
+		--play: var(--xbox);
+		--play-dark: var(--xbox-dark);
+	}
+
+	/* Playing on PlayStation*/
+	&:has([src="/assets/8fca7fcefaac64787658.svg"]) {
+		--play: var(--playstation2);
+		--play-dark: var(--playstation-dark);
+	}
 }
 .syncButton_deca39 {
 	width: 1px !important;
-}
-
-/* Live on Twitch*/
-.userPopoutOuter_c69a7b:has([mask="url(#svg-mask-status-streaming)"]) {
-	--play: var(--twitch);
-	--play-dark: var(--twitch-dark);
-}
-
-/* Watching Crunchyroll*/
-.userPopoutOuter_c69a7b:has([alt="Crunchyroll"]) {
-	--play: var(--crunchyroll);
-	--play-dark: var(--crunchyroll-dark);
-}
-
-/* Watching Watch Together*/
-.userPopoutOuter_c69a7b:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
-	--play: var(--youtube);
-	--play-dark: var(--youtube-dark);
-}
-
-/* Live on Twitch*/
-.userPopoutOuter_c69a7b:has([mask="url(#svg-mask-status-streaming)"]) {
-	--play: var(--twitch);
-	--play-dark: var(--twitch-dark);
-}
-
-/* Playing on XBOX*/
-.userPopoutOuter_c69a7b:has([src="/assets/9109430b0f2514a0c674.png"]) {
-	--play: var(--xbox);
-	--play-dark: var(--xbox-dark);
-}
-
-/* Playing on PlayStation*/
-.userPopoutOuter_c69a7b:has([src="/assets/8fca7fcefaac64787658.svg"]) {
-	--play: var(--playstation2);
-	--play-dark: var(--playstation-dark);
 }
 
 .platformIcon_c1d9fd {
@@ -395,7 +392,7 @@
 	}
 }
 
-.pronounsText_c32acf{
+.pronounsText_c32acf {
 	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
@@ -606,9 +603,9 @@
 }
 /* Add a colored border around the role */
 .role_f9575e .roleRemoveButton_f9575e .roleCircle_a26d7b:before {
-	position: absolute; 
+	position: absolute;
 	top: 0;
-	left: 0; 
+	left: 0;
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
@@ -623,7 +620,8 @@
 }
 
 /* border around addrole button*/
-:is(.root_c83b44) .button_dd4f85, .button_edead5 {
+:is(.root_c83b44) .button_dd4f85,
+.button_edead5 {
 	border: 1px solid var(--interactive-muted);
 	background: none;
 	border-radius: 999%;
@@ -646,13 +644,13 @@
 .body_bc9cc2 {
 	margin: 0;
 }
-.headerInner_bc9cc2{
+.headerInner_bc9cc2 {
 	max-height: 0px;
 	padding: 0 !important;
-	background: var(--background-tertiary)
+	background: var(--background-tertiary);
 }
-.userProfileOuter_c69a7b{
-	padding: 0 !important
+.userProfileOuter_c69a7b {
+	padding: 0 !important;
 }
 .fullSizeInnerThemed_c69a7b {
 	background: var(--background-tertiary);
@@ -664,7 +662,7 @@
 	margin-top: 46px;
 }
 
-.headerInner_bc9cc2 .avatar_f94206{
+.headerInner_bc9cc2 .avatar_f94206 {
 	transform: scale(0.666);
 	position: absolute;
 	top: 1px !important;
@@ -700,8 +698,8 @@
 	left: 10px;
 	margin-right: 10px;
 }
-.body_bc9cc2{
-	gap: 0
+.body_bc9cc2 {
+	gap: 0;
 }
 
 .container_e5a42d {

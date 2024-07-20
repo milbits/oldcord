@@ -206,7 +206,7 @@ code {
 }
 /** display:none graveyard*/
 .profileEffects_f867f9,
-[class^="avatarDeco"],
+.avatarDecoration_c51b4e,
 .sessionMoreButton_c7a2c0 svg,
 .artwork-L5TAwQ /* login page cringe corporate bg*/,
 .banner-2MAbnt,
@@ -494,7 +494,7 @@ code {
 	cursor: pointer;
 }
 /* tweak hover buttons*/
-.hoverButtonGroup_e5c1dc{
+.hoverButtonGroup_e5c1dc {
 	border-radius: 4px;
 	top: 4px;
 	right: 4px;
@@ -506,7 +506,7 @@ code {
 	background-color: #00000040;
 }
 /* make download button bigger */
-.downloadHoverButtonIcon_e5c1dc{
+.downloadHoverButtonIcon_e5c1dc {
 	width: 24px;
 	height: 24px;
 }
@@ -917,7 +917,7 @@ code {
 	& :is([alt="Twitter"], [alt="X"]) {
 		background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/twitter.webp);
-	    & + div > .connectionAccountLabel_e2a436 {
+		& + div > .connectionAccountLabel_e2a436 {
 			font-size: 0;
 			line-height: 0;
 			&:before {
@@ -1030,8 +1030,8 @@ code {
 
 /*Fix favorite button and delete overlap*/
 .imageAccessory_d4597d {
-  left: unset;
-  right: 6px;
+	left: unset;
+	right: 6px;
 }
 /*nitro emoji paywall*/
 .emojiLockIcon_bcf389,
