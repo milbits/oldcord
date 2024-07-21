@@ -1,8 +1,7 @@
 /**
   * @name OldCord
-  * @version 3.0
-  * @author milbit
-  * @authorId 525379333951324190
+  * @version 1.0
+  * @author @milbit
   * @source https://github.com/milbits/oldcord
   * @description Restores discord's 2020 UI
 */
@@ -15,7 +14,7 @@
 	--reaction-animation: 0;
 }
 /*
-optional stuff that i don't wanna add to the main theme
+Addons
 remove a "/*" below to enable one
 */
 
