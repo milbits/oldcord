@@ -18,11 +18,11 @@ A theme for Discord that brings back the 2020 UI without removing features
 
 These are usually included in oldcord.theme.css, so all you need to do is remove `/*` in the file for each addon you want to use
 
-| Name                   | Description                                                                                | CSS                                                                                |
+| Name                   | Preview                                                                                | CSS                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| Show Profile Cosmetics | Shows things like banners again                                                            | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
+| Show Profile Cosmetics | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
