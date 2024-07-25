@@ -89,8 +89,8 @@ body {
 	--blurple-inverted: #fff;
 	--blurple-inverted-hover: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
 	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
-	--text-brand: var(--brand-experiment);
-	--bg-brand: var(--brand-experiment);
+	--text-brand: var(--blurple);
+	--bg-brand: var(--blurple);
 	--brand-260: var(--brand-experiment-260);
 	--brand-360: var(--brand-experiment-360);
 	--brand-460: var(--brand-experiment-460);
