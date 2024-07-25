@@ -632,7 +632,7 @@
 }
 
 /* Re-add "Right click user for more actions" footnote on popouts */
-.footer_b07019::after {
+[lang^="en"] .footer_b07019::after {
   content: "Right click user for more actions";
   font-size: 12px;
   text-align: center;
