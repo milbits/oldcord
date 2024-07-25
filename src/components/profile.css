@@ -631,6 +631,15 @@
 	border: none;
 }
 
+/* Re-add "Right click user for more actions" footnote on popouts */
+[lang^="en"] .footer_b07019::after {
+  content: "Right click user for more actions";
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--interactive-normal);
+}
+
 /** full profile modal */
 .custom-profile-theme .fullSizeOverlayBackground_c69a7b {
 	background: none !important;
