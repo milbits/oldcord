@@ -602,7 +602,7 @@
 	margin: 0;
 }
 /* Add a colored border around the role */
-.role_f9575e .roleRemoveButton_f9575e .roleCircle_a26d7b:before {
+.role_f9575e .roleRemoveButton_f9575e :is(.roleCircle_a26d7b,.roleFlowerStar_f9575e/*linked roles*/):before {
 	position: absolute;
 	top: 0;
 	left: 0;
