@@ -446,7 +446,34 @@
 
 /*note button*/
 .nicknameIcons_c32acf {
-	display: none;
+	& [aria-label]:after {
+		content: attr(aria-label);
+		min-width: 60px;
+	}
+	margin-left: 12px;
+	top: 100%;
+	position: absolute;
+	min-width: 250px;
+	display: flex !important;
+	& .button_f9d37d {
+		opacity: 1;
+	}
+	& .button_f9d37d:before {
+		content: "NOTE";
+		padding-bottom: 30px;
+		left: 230%;
+		position: relative;
+		color: var(--header-secondary);
+		font-weight: 800;
+		font-family: var(--font-display);
+		font-size: 12px;
+	}
+	& .buttonInner_f9d37d {
+		display: none;
+	}
+}
+.footer_b07019 {
+	margin-top: 35px;
 }
 /*
 .nicknameIcons_c32acf {
@@ -633,11 +660,11 @@
 
 /* Re-add "Right click user for more actions" footnote on popouts */
 [lang^="en"] .footer_b07019::after {
-  content: "Right click user for more actions";
-  font-size: 12px;
-  text-align: center;
-  margin-top: 10px;
-  color: var(--interactive-normal);
+	content: "Right click user for more actions";
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	color: var(--interactive-normal);
 }
 
 /** full profile modal */
