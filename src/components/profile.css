@@ -449,8 +449,9 @@
 	& [aria-label]:after {
 		content: attr(aria-label);
 		min-width: 230px;
+		text-align: left;
+		margin-left: 240px;
 	}
-	margin-left: 90px;
 	top: 100%;
 	position: absolute;
 	display: flex !important;
@@ -460,8 +461,8 @@
 	& .button_f9d37d:before {
 		content: "NOTE";
 		padding-bottom: 30px;
-		left: 310%;
-		position: relative;
+		left:70%;
+		position: absolute;
 		color: var(--header-secondary);
 		font-weight: 800;
 		font-family: var(--font-display);
