@@ -448,12 +448,11 @@
 .nicknameIcons_c32acf {
 	& [aria-label]:after {
 		content: attr(aria-label);
-		min-width: 60px;
+		min-width: 230px;
 	}
-	margin-left: 12px;
+	margin-left: 90px;
 	top: 100%;
 	position: absolute;
-	min-width: 250px;
 	display: flex !important;
 	& .button_f9d37d {
 		opacity: 1;
@@ -461,7 +460,7 @@
 	& .button_f9d37d:before {
 		content: "NOTE";
 		padding-bottom: 30px;
-		left: 230%;
+		left: 310%;
 		position: relative;
 		color: var(--header-secondary);
 		font-weight: 800;
@@ -478,36 +477,7 @@
 .footer_b07019 {
 	margin-top: 35px;
 }
-.footer_b07019 {
-	margin-top: 35px;
-}
-/*
-.nicknameIcons_c32acf {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background: var(--redesign-button-secondary-overlay-background);
-  min-width: 24px;
-  height: 24px;
-  padding-top: 0 !important;
-  border-radius: 9999px;
-	overflow: hidden;
-	& button:hover{
-		background: var(--redesign-button-secondary-overlay-background);
-	}
-	& button path {
-		  fill: #fff;
 
-	}
-	& button{
-		  justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 0;
-  opacity: 1;
-  transition: 170ms ease;
-	}
-}*/
 
 /*remove badges*/
 .biteSizeInnerThemed_c69a7b .container_e5a42d {
