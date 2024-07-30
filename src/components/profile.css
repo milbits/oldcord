@@ -468,9 +468,15 @@
 		font-family: var(--font-display);
 		font-size: 12px;
 	}
+	[lang="de"] & .button_f9d37d:before {
+		content: "NOTIZ";
+	}
 	& .buttonInner_f9d37d {
 		display: none;
 	}
+}
+.footer_b07019 {
+	margin-top: 35px;
 }
 .footer_b07019 {
 	margin-top: 35px;
