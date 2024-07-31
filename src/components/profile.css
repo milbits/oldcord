@@ -742,12 +742,13 @@
 :is([class*="animator"], [class*="root"]) .badgeList_ec3b75 {
 	background-color: transparent;
 }
-
-.headerInner_bc9cc2 .multipleButtons_fcef98 {
-	margin-bottom: 170px;
-	margin-right: 20px;
+/*call n dm btn*/
+.headerInner_bc9cc2 .buttons_d181d8 {
+	display: unset;
+	position: relative;
+	bottom: 85px;
+	left: 440px;
 }
-
 .tabBarItem_c1519f.item_a0 {
 	height: 30px;
 }
