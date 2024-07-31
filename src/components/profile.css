@@ -449,8 +449,12 @@
 	& [aria-label]:after {
 		content: attr(aria-label);
 		min-width: 230px;
+		text-align: left;
+		margin-left: 240px;
+		margin-top: auto;
+		max-height: 38px;
+		overflow: auto;
 	}
-	margin-left: 90px;
 	top: 100%;
 	position: absolute;
 	display: flex !important;
@@ -460,8 +464,8 @@
 	& .button_f9d37d:before {
 		content: "NOTE";
 		padding-bottom: 30px;
-		left: 310%;
-		position: relative;
+		left: 70%;
+		position: absolute;
 		color: var(--header-secondary);
 		font-weight: 800;
 		font-family: var(--font-display);
@@ -475,9 +479,11 @@
 	}
 }
 .footer_b07019 {
-	margin-top: 35px;
+	margin-top: 45px;
 }
-
+/*:is(#popout_470,#popout_328) + .layer_cd0de5 {
+	display: none;
+}*/
 
 /*remove badges*/
 .biteSizeInnerThemed_c69a7b .container_e5a42d {
