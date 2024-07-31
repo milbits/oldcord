@@ -453,11 +453,11 @@
 		margin-left: 240px;
 		margin-top: auto;
 		max-height: 38px;
-		overflow: auto;
 	}
 	top: 100%;
 	position: absolute;
 	display: flex !important;
+	padding-top: 15px !important;
 	& .button_f9d37d {
 		opacity: 1;
 	}
@@ -479,7 +479,7 @@
 	}
 }
 .footer_b07019 {
-	margin-top: 45px;
+	margin-top: 65px;
 }
 /*:is(#popout_470,#popout_328) + .layer_cd0de5 {
 	display: none;
