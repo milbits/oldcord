@@ -47,6 +47,7 @@
 	bottom: 0px;
 	top: 3px;
 	margin-left: 3px;
+	overflow: hidden;
 
 	& .body_ad5fac {
 		padding: 0px;
@@ -87,6 +88,9 @@
 	}
 	& .container_c32acf.username_ad5fac {
 		display: none;
+	}
+	& .custom-theme-background .menu_d90b3d {
+	    border: 0px;
 	}
 }
 
