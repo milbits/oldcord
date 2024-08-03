@@ -13,7 +13,7 @@
 .submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	padding-left: 0;
 }
-[lang^="en"] #status-set-custom-status > .label_d90b3d {
+[lang^="en"] #status-add-custom-status > .label_d90b3d {
 	text-indent: -9999px;
 	line-height: 0;
 
@@ -24,7 +24,7 @@
 		line-height: initial;
 	}
 }
-:is(#status-set-custom-status, #status-edit-custom-status)::after {
+:is(#status-add-custom-status, #status-edit-custom-status)::after {
 	content: "";
 	position: absolute;
 	width: 86%;
