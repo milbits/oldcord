@@ -670,6 +670,7 @@
 .headerInner_bc9cc2 {
 	max-height: 0px;
 	padding: 0 !important;
+	z-index: 2;
 	background: var(--background-tertiary);
 }
 .userProfileOuter_c69a7b {
