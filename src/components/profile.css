@@ -270,7 +270,7 @@
 
 /*! normal profile popout*/
 /*Banners*/
-.bannerSVGWrapper_b32cc2 {
+.mask_c3e427 {
 	display: none;
 }
 /*profile stuff*/
@@ -845,10 +845,10 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 [class^="userPanel"] .section_d7a21f .userText_c9ccf6 {
 	text-align: center;
 }
-[class^="userPanel"] .bannerSVGWrapper_b32cc2 {
+[class^="userPanel"] .mask_c3e427 {
 	display: none;
 }
-.userPanelInner_c69a7b .none_eed6a8 > div:has(.bannerSVGWrapper_b32cc2),
+.userPanelInner_c69a7b .none_eed6a8 > div:has(.mask_c3e427),
 [class^="userPanel"] .section_d7a21f:has(.nickname_c9ccf6, .customStatus__3aa7f) {
 	background: var(--background-tertiary);
 	border-radius: 0 !important;
