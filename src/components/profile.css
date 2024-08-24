@@ -837,43 +837,90 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 }*/
 
 /*user panel in dms*/
-/*HEAVILY WIP too :p*/
+/*LESS WIP then it was before! :D*/
 [class^="userPanel"] .userPanelInnerThemed_c69a7b {
 	background: var(--background-secondary);
 }
 
-[class^="userPanel"] .section_d7a21f .userText_c9ccf6 {
-	text-align: center;
+[class^="userPanel"] .container_c32acf {
+	padding-top: 100px;
+	margin-top: -164px;
 }
-[class^="userPanel"] .mask_c3e427 {
+
+[class^="userPanel"] .container_e5a42d {
 	display: none;
 }
-.userPanelInner_c69a7b .none_eed6a8 > div:has(.mask_c3e427),
-[class^="userPanel"] .section_d7a21f:has(.nickname_c9ccf6, .customStatus__3aa7f) {
-	background: var(--background-tertiary);
-	border-radius: 0 !important;
+
+[class^="userPanel"] .statusBubbleOuter_d0a252 {
+	margin-top: -10px;
+	right: 65px;
 }
-[class^="userPanel"] .userPanelOverlayBackground_a2b6ae {
-	background: var(--background-secondary);
-	margin: 0;
-	padding: 0;
-}
-.badgeList_ab525a {
+
+[class^="userPanel"] .overlayBackground_c69a7b {
 	background: transparent;
 }
-.badgelistGroup_ab525a {
-	/*bottom: 130px !important;*/
-	display: unset;
-	position: relative;
+
+[class^="userPanel"] .wrapper_c51b4e:not(.listAvatar_e4be58, .guildAvatar_b26403) {
+	left: 15px;
 }
-[class^="userPanel"] .userPanelInner_c69a7b .avatarWrapperNormal_f89da9 {
-	padding-bottom: 25px;
-	left: 32% !important;
-	/*top: 11px*/
+
+[class^="userPanel"] .wrapper_cb78f1 {
+	margin-right: 20px;
 }
-[class^="userPanel"] .section_d7a21f:not(:has(.nickname_c9ccf6, .customStatus__3aa7f)) {
-	margin-left: 12px;
+
+[class^="userPanel"] .overflow_a82120 {
+	text-transform: uppercase;
 }
-[class^="userPanel"] .divider_ae36e5 {
-	display: none;
+[class^="userPanel"] .overflow_a82120 {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--header-secondary);
+	font-weight: 600;
+	font-family: var(--font-display);
 }
+
+[class^="userPanel"] .button_c6eb7b {
+	background: var(--background-primary)
+}
+
+[class^="userPanel"] .contents_dd4f85 {
+	color: var(--text-primary)
+}
+
+[class^="userPanel"] .heading_ba4d80 {
+	color: var(--text-secondary) !important;
+	font-size: 12px;
+	color: var(--header-secondary);
+	font-weight: 600;
+	font-family: var(--font-display);
+}
+
+/* add scrollbar to user bio in profile sidebar (it's the exact same code except discord never changed the name of the class for this version of the bio) */
+.lineClamp2Plus_a595eb {
+	-webkit-line-clamp: 190 !important;
+	max-height: 112px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.lineClamp2Plus_a595eb::-webkit-scrollbar-thumb {
+	background: transparent;
+	border-radius: 99px;
+}
+.lineClamp2Plus_a595eb::-webkit-scrollbar {
+	width: 4px;
+}
+.lineClamp2Plus_a595eb:hover::-webkit-scrollbar-track {
+	background: 0 0;
+	border-radius: 10px;
+}
+.lineClamp2Plus_a595eb:hover::-webkit-scrollbar-thumb {
+	background: var(--bg-overlay-6, var(--background-tertiary));
+	border-radius: 999px;
+}
+
+/* selector for status; unused because trying to position it fucking sucks
+[class^="userPanel"] .hover_f9d37d {
+	
+}
+also the mutual tabs WILL overlap it and I can't be bothered to figure out if it can push the note down instead
+tl;dr WIP */
