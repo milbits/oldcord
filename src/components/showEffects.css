@@ -1,31 +1,37 @@
-.avatarDecoration_c51b4e,.profileEffects_f867f9,.bannerSVGWrapper_b32cc2{
+/*make cosmetics show again*/
+.avatarDecoration_c51b4e,.profileEffects_f867f9,.mask_c3e427{
     display: unset !important;
 }
+/*adjust profile effect opacity*/
 .profileEffects_f867f9{
     opacity: 0.2
 }
-
-.bannerSVGWrapper_b32cc2 mask circle{
+/*move that weird circle to the middle*/
+.mask_c3e427 mask circle{
     transform: translateX(68.5px);
 }
-.bannerSVGWrapper_b32cc2:has(.bannerPremium_c3e427) mask circle{
+:has(.custom-theme-background) .mask_c3e427 mask circle{
     transform: translateX(73px) translateY(5px);
 }
-.fullSize_cb78f1 + header .bannerSVGWrapper_b32cc2 mask circle{
+.fullSize_cb78f1 + header .mask_c3e427 mask circle{
     display: none !important
 }
-
+/*fix some overlaying stuff*/
+.header_b07019{
+    z-index: 2
+}
+/*make banners not so zoomed-in*/
 .userPopoutOuter_c69a7b .banner_c3e427{
     max-width: 250px;
-    position: relative
 }
 
 .avatar_f94206{
     position: absolute !important;
     top: 62px !important
 }
+/*move usernames etc. a bit down*/
 .container_c32acf{
-    padding-top: 40px
+    padding-top: 50px
 }
 .statusBubbleOuter_d0a252{
     top: 65px
@@ -33,11 +39,15 @@
 :has(.pronouns_c32acf) .statusBubbleOuter_d0a252{
     top: 90px !important
 }
-
+/*add colors back (but without that annoying border ew)*/
 .custom-profile-theme .biteSizeInnerThemed_c69a7b{
-    --profile-gradient-overlay-color: rgb(0 0 0 / 36%);
+    --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container_c32acf {
         background: var(--play, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
     }
+}
+
+.custom-profile-theme .footer_b07019 .themedBackground_d0696b{
+    background: var(--profile-gradient-overlay-color) !important
 }
