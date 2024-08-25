@@ -258,14 +258,50 @@
 	padding: 12px;
 }
 
-/*note for broken customization screen*/
+/*note for feature-stripped customization screen*/
 .preview_bad983:before {
-	content: "Disable OldCord for a working preview";
+	content: "[ Disable OldCord for a working preview ]";
 	color: var(--blurple);
+	font-size: 14px;
 	font-weight: 500;
 }
 [lang="DE"] .preview_bad983:before {
-	content: "Deaktiviere OldCord für eine bessere Vorschau";
+	content: "[ Deaktiviere OldCord für eine bessere Vorschau ]";
+}
+
+[class^="customizationSection"] .container_c32acf {
+	padding-top: 105px;
+	margin-top: -150px;
+}
+
+[class^="customizationSection"] .wrapper_c51b4e {
+	bottom: 45px;
+}
+
+[class^="customizationSection"] .overlayIcon_f18fcb {
+	bottom: 75px;
+}
+
+[class^="customizationSection"] .avatar_f18fcb {
+	left: 85px;
+}
+
+[class^="customizationSection"] .userTagUsername_c32acf {
+	margin-left: 75px;
+}
+
+[class^="customizationSection"] .descriptionClamp_fc5c48 {
+	max-height: unset;
+}
+
+[class^="customizationSection"] .footer_b07019::before {
+	content: "";
+	width: 100%;
+	height: 1px;
+	right: 0.5px;
+	margin-top: -15px;
+	position: absolute;
+	background-color: var(--background-tertiary) !important;
 }
 
 /*! normal profile popout*/
