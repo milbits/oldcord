@@ -40,7 +40,7 @@
 	margin-left: 5%;
 	pointer-events: none;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.banner_c3e427,.wrapper_c51b4e,.descriptionClamp_fc5c48) {display: none}
+.accountProfilePopoutWrapper_b2ca13 :is(.banner_c3e427,.avatar_f94206,.descriptionClamp_fc5c48) {display: none}
 .accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
 	top: -105px !important;
 	white-space: nowrap;
