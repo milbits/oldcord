@@ -1,5 +1,10 @@
 /*! bottom-left popout */
 /*Code by @kinggamingyt! */
+#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
+#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d,
+#status-edit-profile {
+	display: none;
+}
 
 :is(#status, #account) > .scrollerBase_c49869.none_c49869.scroller_d90b3d .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d:not(:has(.userMenuUsername_e1268c)) {
 	font-size: 14px;
@@ -10,14 +15,16 @@
 .submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	padding-left: 0;
 }
-[lang^="en"] #status-add-custom-status > .label_d90b3d {
+[lang^="en"] .content_d0a252 > .addStatusPrompt_d0a252 {
 	text-indent: -9999px;
 	line-height: 0;
+	display: inline-flex;
+	margin-right: 10px;
 
 	&::after {
 		content: "Set a custom status";
 		text-indent: 0;
-		display: block;
+		display: flex;
 		line-height: initial;
 	}
 }
@@ -35,11 +42,22 @@
 }
 .accountProfilePopoutWrapper_b2ca13 :is(.banner_c3e427,.wrapper_c51b4e,.descriptionClamp_fc5c48) {display: none}
 .accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
-	top: -115px !important;
-	right: 170px;
-	width: 100px
+	top: -105px !important;
+	white-space: nowrap;
+	text-align: left !important;
 }
-#app-mount .accountProfilePopoutWrapper_b2ca13 .header_b07019{
+.singleLineAlign_d0a252 {
+	text-align: left;
+}
+.popover_bba79b {
+	right: 150px;
+	margin-top: -85px;
+	opacity: 1;
+	background: none;
+	pointer-events: unset;
+}
+
+#app-mount .accountProfilePopoutWrapper_b2ca13 .header_b07019 {
 	min-height: 0 !important;
 	height: 30px !important;
 	background: var(--background-floating);
@@ -95,8 +113,14 @@
 	& .custom-theme-background .menu_d90b3d {
 	    border: 0px;
 	}
+	& .statusBubbleShape_d0a252::hover {
+		background-color: var(--blurple); /* this doesn't currently work and i'm unsure of why */
+	}
 }
-
+.statusBubbleOuter_d0a252 {
+	box-shadow: none;
+	background: none !important;
+}
 .title_b97bdb.text-sm\/normal_dc00ef {
 	font-weight: 400;
 }
