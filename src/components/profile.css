@@ -139,7 +139,7 @@
 /*! Revert activity profile*/
 /** Variables*/
 
-.userPopoutOuter_c69a7b:has(.activity_cd74cc) {
+.userPopoutOuter_c69a7b:has(.activity_b07019) {
 	--play-tertiary: rgba(255, 255, 255, 0.6);
 	--play-secondary-2: rgba(255, 255, 255, 0.9);
 	--play-secondary: rgba(255, 255, 255, 0.8);
@@ -193,11 +193,12 @@
 	display: none;
 }
 
-.biteSizeInnerThemed_c69a7b .headerTextNormal_c1d9fd {
+.biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
 	text-transform: uppercase;
+	font-weight: 700
 }
 /* make activity the first section*/
-.activity_cd74cc {
+.activity_b07019 {
 	order: -1;
 	padding: 0;
 }
@@ -212,40 +213,51 @@
 }
 
 /*make status icon white*/
-.userProfileInner_c69a7b:has(.activity_cd74cc) rect:not(path ~ rect) {
+.userProfileInner_c69a7b:has(.activity_b07019) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
 /* change activity bg color and padding*/
-.activity_cd74cc {
+.activity_b07019 {
 	background-color: var(--play-dark) !important;
 	padding: 12px;
 	border-radius: 0;
 }
 /*change some other colors for the activity section*/
-.activityUserPopoutV2_c1d9fd .headerTextNormal_c1d9fd {
-	color: #fff !important;
+
+
+
+.activity_b07019 .heading-sm\/semibold_dc00ef /*game title*/ {
+	color: var(--play-secondary-2) !important;
+}
+.activity_b07019 .text-xs\/normal_dc00ef /*details*/ {
+	font-size: 14px;
+	color: var(--play-secondary) !important;
 }
 
-.playTime_c1d9fd {
-	color: #f6fbf9;
-}
-.activity_cd74cc .textRow_c1d9fd {
+.activity_b07019 .timestamp_c5d1c1 {
 	font-size: 14px;
+	font-weight: 500;
+	line-height: normal;
+	font-family: var(--font-primary);
+	font-variant-numeric: normal;
+	font-feature-settings: normal;
+	color: #f6fbf9 !important /*not accurate to original but tbh it looks better? maybe??*/;
+	[lang^="en"] &:after{
+		content: " elapsed"}
+	[lang="de"] &:after{
+		content: " vergangen" /*nicht akkurat zum original aber "seit 5:55" hört sich dumm an*/}
 }
-.activityName_c1d9fd,
-.activity_cd74cc .nameNormal_c1d9fd {
-	color: var(--play-secondary-2) !important;
+.activity_b07019 svg:has( + .timestamp_c5d1c1){
+	display: none
 }
 .nameNormal_c1d9fd,
 .contentImagesUserPopoutV2_c1d9fd .textRow_c1d9fd {
 	color: #fff !important;
 }
 
-/**buttons*/
-
 /*activity buttons*/
-.activity_cd74cc .button_c6eb7b {
+.activity_b07019 .button_f9d37d {
 	background: transparent;
 	color: var(--play-primary);
 	border: 1px solid var(--play-primary);
@@ -253,16 +265,16 @@
 	opacity: 1 !important;
 	width: 100%;
 }
-.activity_cd74cc .colorBrand_dd4f85:hover {
+.activity_b07019 :is(.colorBrand_dd4f85,.button_f9d37d):hover {
 	background: transparent !important;
 }
 
-.activity_cd74cc .button_c6eb7b:not(:disabled):active {
+.activity_b07019 .button_f9d37d:not(:disabled):active {
 	border-color: var(--play-primary);
 	background: #ffffff1a !important;
 }
 
-.activity_cd74cc .button_c6eb7b:disabled {
+.activity_b07019 .button_f9d37d:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
@@ -287,13 +299,13 @@
 
 /*note for feature-stripped customization screen*/
 .preview_bad983:before {
-	content: "[ Disable OldCord for a working preview ]";
+	content: "[ Disable OldCord for an accurate preview ]";
 	color: var(--blurple);
 	font-size: 14px;
 	font-weight: 500;
 }
 [lang="DE"] .preview_bad983:before {
-	content: "[ Deaktiviere OldCord für eine bessere Vorschau ]";
+	content: "[ Deaktiviere OldCord für eine akkurate Vorschau ]";
 }
 
 [class^="customizationSection"] .container_c32acf {
