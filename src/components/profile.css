@@ -461,7 +461,8 @@
 	font-weight: 600;
 }
 .tags_c32acf,
-.info_e86508:not(.alignPomelo_f3939d) {
+.info_e86508:not(.alignPomelo_f3939d),
+.userTag_c32acf /*bot usernames*/{
 	display: unset;
 	text-align: center;
 }
@@ -479,7 +480,7 @@
 	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
-.userPopoutOuter_c69a7b:has(.activity_cd74cc) .botTagRegular_a9e77f {
+.userPopoutOuter_c69a7b:has(.activity_b07019) .botTagRegular_a9e77f {
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
@@ -893,10 +894,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	background: var(--background-primary);
 }
 
-.userPopoutOuter_c69a7b:has(.botText_a9e77f):before {
-	content: "Discord will soon replace bot profiles with the new style too, thats why this is broken";
-	color: var(--text-muted);
-}
+
 
 /*WIP*/
 
