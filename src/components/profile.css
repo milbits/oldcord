@@ -150,7 +150,7 @@
 /*Change color depending on activity type*/
 .userPopoutOuter_c69a7b:not(:has(.vc-user-connection)) {
 	/* Listening to Spotify*/
-	&:has(.platformIcon_c1d9fd[src="/assets/6daf7db5db0d4a895afa.svg"]) {
+	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]) {
 		--play: var(--spotify);
 		--play-dark: var(--spotify-dark);
 	}
@@ -174,25 +174,38 @@
 	}
 
 	/* Playing on XBOX*/
-	&:has([src="/assets/9109430b0f2514a0c674.png"]) {
+	&:has([style*="/assets/9109430b0f2514a0c674.png"]) {
 		--play: var(--xbox);
 		--play-dark: var(--xbox-dark);
 	}
 
 	/* Playing on PlayStation*/
-	&:has([src="/assets/8fca7fcefaac64787658.svg"]) {
+	&:has([style*="/assets/8fca7fcefaac64787658.svg"]) {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
 }
-.syncButton_deca39 {
-	width: 1px !important;
-}
 
-.platformIcon_c1d9fd {
+
+.platformIcon_ae1fa2 {
 	display: none;
 }
-
+.headerText_ae1fa2:not(.platformIcon_ae1fa2){
+	[lang="de"] &:after{
+		content: "EIN SPIEL"
+	}
+		[lang^="en"] &:after{
+		content: "A GAME"
+	}
+}
+.headerText_ae1fa2{
+	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]):after{
+			content: "SPOTIFY";
+	}
+	&:has(.platformIcon_ae1fa2[style*="/assets/8fca7fcefaac64787658.svg"]):after{
+			content: "PLAYSTATION";
+	}
+}
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
 	text-transform: uppercase;
 	font-weight: 700
@@ -258,7 +271,7 @@
 
 /*activity buttons*/
 .activity_b07019 .button_f9d37d {
-	background: transparent;
+	background: transparent !important;
 	color: var(--play-primary);
 	border: 1px solid var(--play-primary);
 	transition: 0.17s ease;
