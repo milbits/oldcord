@@ -753,6 +753,9 @@
 	border: none !important;
 }
 .custom-profile-theme .fullSizeInnerThemed_c69a7b {
+	background: var(--background-tertiary);
+}
+.container_c1519f {
 	background: var(--background-primary);
 }
 
@@ -827,12 +830,15 @@
 	background: none;
 	border: none;
 }
+.custom-profile-theme .container_e5a42d {
+	background: none;
+}
 :has(.pronouns_afed89) .container_e5a42d {
 	top: 55px;
 }
 /*focking WOKE LIBERAL pronouns*/
 .fullSize_c32acf .pronounsText_c32acf {
-	left: 126px;
+	right: 146px;
 	position: relative;
 	font-weight: 500;
 	max-width: fit-content;
@@ -849,7 +855,8 @@
 	left: 440px;
 }
 .tabBarItem_c1519f.item_a0 {
-	height: 30px;
+	height: 37px;
+	padding-top: 2px;
 }
 
 /*note: divider only appears on your own profile dialog */
@@ -865,6 +872,56 @@
 	margin: 0;
 	background: var(--background-tertiary);
 	border-radius: 0;
+}
+.tabBar_c1519f:before {
+	content: "";
+	width: 100%;
+	height: 1px;
+	right: 0.5px;
+	margin-top: -15px;
+	position: absolute;
+	background-color: var(--background-primary) !important;
+}
+.friendRequestBanner_bc9cc2 {
+	background: var(--background-tertiary);
+	border-radius: 0;
+}
+.sizeSmall_dd4f85.colorBrand_dd4f85 {
+	background: var(--green);
+}
+.sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.button_ecc1b2 {
+	padding: 15px;
+}
+.buttonContainer_ecc1b2 {
+	margin-right: 41px;
+}
+.headerButtons_bc9cc2 {
+	position: fixed;
+	margin-left: 390px;
+	margin-top: -100px;
+}
+.sizeSmall_dd4f85.button_f9d37d {
+	background: var(--green);
+	text-indent: -9999px;
+}
+[lang^="en"] .sizeSmall_dd4f85.button_f9d37d:after {
+	content: "Send Message";
+	text-indent: 0px;
+}
+[lang="de"] .sizeSmall_dd4f85.button_f9d37d:after {
+	content: "Nachricht senden";
+	text-indent: 0px;
+}
+.sizeSmall_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85 > svg {
+	display: none;
+}
+.bannerColor_f9d37d {
+	background: none !important;
+}
+.banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
+	margin-top: 50px;
+	position: fixed;
+	z-index: 1 !important;
 }
 
 .section_ba4d80 .text-xs\/semibold_dc00ef {
