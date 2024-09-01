@@ -947,8 +947,9 @@
 	background: none !important;
 }
 [class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
-	 position: fixed;
-	 z-index: 1 !important;
+	margin-top: 70px;
+	position: fixed;
+	z-index: 1 !important;
 }
 [class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
 	transform: rotate(90deg);
