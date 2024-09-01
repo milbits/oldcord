@@ -463,6 +463,10 @@
 	order: -1;
 	padding-bottom: 10px;
 }
+.container_c32acf:not(.container_e5a42d) /*more padding for profiles without badges*/{
+		padding-bottom: 40px;
+
+}
 .usernameRow_c32acf {
 	text-align: center;
 	color: var(--interactive-active);
@@ -520,6 +524,13 @@
 }
 
 /*modal profile*/
+/*dont make profiles as gigantic as kinggamingyt (im super hilariopus i know)*/
+.fullSizeOuter_c69a7b{
+	height: fit-content;
+	min-height: 400px;
+	max-height: 700px
+}
+
 .headerInner_bc9cc2 .statusBubbleOuter_d0a252 {
 	top: 100px;
 	max-width: 500px;
@@ -933,9 +944,12 @@
 	background: none !important;
 }
 [class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
-	margin-top: 50px;
+	 margin-top: 50px;
 	position: fixed;
 	z-index: 1 !important;
+}
+[class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
+	transform: rotate(90deg);
 }
 [class^="userProfileModalInner"] .statusBubble_d0a252 {
 	margin-top: 5px;
