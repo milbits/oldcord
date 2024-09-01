@@ -1,11 +1,15 @@
 /*make cosmetics show again*/
-.avatarDecoration_c51b4e,.profileEffects_f867f9,.mask_c3e427{
+.avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_c3e427{
     display: unset !important;
 }
 /*adjust profile effect opacity*/
 .profileEffects_f867f9{
     opacity: 0.2
 }
+.bannerColor_f9d37d{
+    background: #00000085 !important
+}
+
 /*move that weird circle to the middle*/
 .mask_c3e427 mask circle{
     transform: translateX(68.5px);
