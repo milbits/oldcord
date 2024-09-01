@@ -527,7 +527,7 @@
 /*dont make profiles as gigantic as kinggamingyt (im super hilariopus i know)*/
 .fullSizeOuter_c69a7b{
 	height: fit-content;
-	min-height: 400px;
+	min-height: 450px;
 	max-height: 700px
 }
 
@@ -918,7 +918,7 @@
 .headerButtons_bc9cc2 {
 	position: fixed;
 	margin-left: 390px;
-	margin-top: -100px;
+	margin-top: -90px;
 }
 
 [class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d {
@@ -944,9 +944,8 @@
 	background: none !important;
 }
 [class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
-	 margin-top: 50px;
-	position: fixed;
-	z-index: 1 !important;
+	 position: fixed;
+	 z-index: 1 !important;
 }
 [class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
 	transform: rotate(90deg);
