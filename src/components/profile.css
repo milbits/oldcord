@@ -463,7 +463,7 @@
 	order: -1;
 	padding-bottom: 10px;
 }
-.container_c32acf:not(.container_e5a42d) /*more padding for profiles without badges*/{
+.container_c32acf:not(:has(.container_e5a42d)) /*more padding for profiles without badges*/{
 		padding-bottom: 40px;
 
 }
