@@ -475,7 +475,7 @@
 }
 .tags_c32acf,
 .info_e86508:not(.alignPomelo_f3939d),
-.userTag_c32acf /*bot usernames*/{
+.userTag_c32acf:not(.fullSize_c32acf .pronounsText_c32acf) /*bot usernames*/{
 	display: unset;
 	text-align: center;
 }
@@ -749,14 +749,24 @@
 
 /** full profile modal */
 .custom-profile-theme .fullSizeOverlayBackground_c69a7b {
-	background: none !important;
+	background: var(--background-primary) !important;
 	border: none !important;
 }
 .custom-profile-theme .fullSizeInnerThemed_c69a7b {
 	background: var(--background-tertiary);
 }
+.fullSizeOverlayBackground_c69a7b {
+	background: var(--background-primary) !important;
+	border-radius: 0px;
+	border: none;
+}
 .container_c1519f {
 	background: var(--background-primary);
+	border-radius: 0px;
+}
+.clickable_d5cb59 {
+	position: fixed;
+	left: 180px;
 }
 
 .userProfileModalOverlayBackground_c69a7b,
@@ -838,11 +848,10 @@
 }
 /*focking WOKE LIBERAL pronouns*/
 .fullSize_c32acf .pronounsText_c32acf {
-	right: 146px;
+	left: 125px;
 	position: relative;
 	font-weight: 500;
 	max-width: fit-content;
-	color: var(--text-secondary);
 }
 :is([class*="animator"], [class*="root"]) .badgeList_ec3b75 {
 	background-color: transparent;
@@ -886,7 +895,7 @@
 	background: var(--background-tertiary);
 	border-radius: 0;
 }
-.sizeSmall_dd4f85.colorBrand_dd4f85 {
+.sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2 {
 	background: var(--green);
 }
 .sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.button_ecc1b2 {
@@ -900,17 +909,22 @@
 	margin-left: 390px;
 	margin-top: -100px;
 }
-.sizeSmall_dd4f85.button_f9d37d {
+
+[class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d {
 	background: var(--green);
-	text-indent: -9999px;
+	/* text-indent: -9999px; */
 }
-[lang^="en"] .sizeSmall_dd4f85.button_f9d37d:after {
+/*[lang^="en"] [class^="userProfileModalInner"] #text="Message" .sizeSmall_dd4f85.button_f9d37d:after {
 	content: "Send Message";
 	text-indent: 0px;
 }
-[lang="de"] .sizeSmall_dd4f85.button_f9d37d:after {
+[lang="de"] [class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d:after {
 	content: "Nachricht senden";
 	text-indent: 0px;
+}
+*/
+[aria-label="Edit Profile"] {
+	display: none;	
 }
 .sizeSmall_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85 > svg {
 	display: none;
@@ -918,10 +932,14 @@
 .bannerColor_f9d37d {
 	background: none !important;
 }
-.banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
+[class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85 > svg {
 	margin-top: 50px;
 	position: fixed;
 	z-index: 1 !important;
+}
+[class^="userProfileModalInner"] .statusBubble_d0a252 {
+	margin-top: 5px;
+	white-space: nowrap;
 }
 
 .section_ba4d80 .text-xs\/semibold_dc00ef {
