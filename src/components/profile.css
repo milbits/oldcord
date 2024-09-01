@@ -28,7 +28,7 @@
 		line-height: initial;
 	}
 }
-:is(#status-add-custom-status, #status-edit-custom-status)::after {
+:is(#status-status-picker)::after {
 	content: "";
 	position: absolute;
 	width: 86%;
@@ -61,7 +61,10 @@
 	min-height: 0 !important;
 	height: 30px !important;
 	background: var(--background-floating);
-	width: 212px !important
+	width: 212px !important;
+	position: fixed;
+	z-index: 4;
+	margin-top: -30px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
