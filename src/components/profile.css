@@ -42,7 +42,7 @@
 }
 .accountProfilePopoutWrapper_b2ca13 :is(.banner_c3e427,.avatar_f94206,.descriptionClamp_fc5c48) {display: none}
 .accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
-	top: -105px !important;
+	top: -103px !important;
 	white-space: nowrap;
 	text-align: left !important;
 }
@@ -55,6 +55,9 @@
 	opacity: 1;
 	background: none;
 	pointer-events: unset;
+	box-shadow: none;
+	border-radius: unset;
+	transition: none;
 }
 
 #app-mount .accountProfilePopoutWrapper_b2ca13 .header_b07019 {
@@ -65,6 +68,15 @@
 	position: fixed;
 	z-index: 4;
 	margin-top: -30px;
+}
+:is(#popout_105) .statusBubbleOuter_d0a252 .statusBubble_d0a252:hover {
+	background: var(--blurple);
+	width: 180px;
+	border-radius: 2px;
+	block-size: 12px;
+}
+:is(#popout_105) .statusBubbleWithTextPadding_d0a252 {
+	margin-right: 85px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
