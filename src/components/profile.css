@@ -69,13 +69,13 @@
 	z-index: 4;
 	margin-top: -30px;
 }
-:is(#popout_105) .statusBubbleOuter_d0a252 .statusBubble_d0a252:hover {
+:is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleOuter_d0a252 .statusBubble_d0a252:hover {
 	background: var(--blurple);
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
 }
-:is(#popout_105) .statusBubbleWithTextPadding_d0a252 {
+:is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleWithTextPadding_d0a252 {
 	margin-right: 85px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
