@@ -279,7 +279,7 @@
 	[lang^="en"] &:after{
 		content: " elapsed"}
 	[lang="de"] &:after{
-		content: " vergangen" /*nicht akkurat zum original aber "seit 5:55" hört sich dumm an*/}
+		content: " verstrichen"}
 }
 .activity_b07019 svg:has( + .timestamp_c5d1c1){
 	display: none
