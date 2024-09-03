@@ -213,6 +213,11 @@
 		content: "A GAME"
 	}
 }
+[class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2){ /* specifically for full profiles */
+	text-transform: uppercase;
+	color: var(--header-secondary) !important;
+	font-weight: 600;
+}
 .headerText_ae1fa2{
 	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]):after{
 			content: "SPOTIFY";
@@ -263,11 +268,11 @@
 	color: var(--play-secondary) !important;
 }
 
-.activity_b07019 .timestamp_c5d1c1 {
+.activity_b07019 .timestamp_c5d1c1, .timestamp_c5d1c1.bold_c5d1c1  {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
-	font-family: var(--font-primary);
+	font-family: var(--font-primary) !important;
 	font-variant-numeric: normal;
 	font-feature-settings: normal;
 	color: #f6fbf9 !important /*not accurate to original but tbh it looks better? maybe??*/;
@@ -278,6 +283,9 @@
 }
 .activity_b07019 svg:has( + .timestamp_c5d1c1){
 	display: none
+}
+.badgeContainer_d60c6d svg:has( + .bold_c5d1c1){
+	display: none;
 }
 .nameNormal_c1d9fd,
 .contentImagesUserPopoutV2_c1d9fd .textRow_c1d9fd {
