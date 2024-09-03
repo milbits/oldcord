@@ -207,10 +207,10 @@
 }
 .headerText_ae1fa2:not(.platformIcon_ae1fa2){
 	[lang="de"] &:after{
-		content: "EIN SPIEL"
+		content: "ein spiel"
 	}
 		[lang^="en"] &:after{
-		content: "A GAME"
+		content: "a game"
 	}
 }
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2){ /* specifically for full profiles */
@@ -220,10 +220,10 @@
 }
 .headerText_ae1fa2{
 	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]):after{
-			content: "SPOTIFY";
+			content: "spotify";
 	}
 	&:has(.platformIcon_ae1fa2[style*="/assets/8fca7fcefaac64787658.svg"]):after{
-			content: "PLAYSTATION";
+			content: "playstation";
 	}
 }
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
@@ -238,7 +238,6 @@
 .scroller_d2b491 {
 	display: flex;
 	flex-direction: column;
-	/*if we dont do this, the activity background color will be "seperated" idk*/
 	padding: 0 !important;
 }
 .scroller_d2b491::-webkit-scrollbar {
