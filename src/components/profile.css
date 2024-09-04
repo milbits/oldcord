@@ -207,10 +207,10 @@
 }
 .headerText_ae1fa2:not(.platformIcon_ae1fa2){
 	[lang="de"] &:after{
-		content: "EIN SPIEL"
+		content: "ein spiel"
 	}
 		[lang^="en"] &:after{
-		content: "A GAME"
+		content: "a game"
 	}
 }
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2){ /* specifically for full profiles */
@@ -220,10 +220,10 @@
 }
 .headerText_ae1fa2{
 	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]):after{
-			content: "SPOTIFY";
+			content: "spotify";
 	}
 	&:has(.platformIcon_ae1fa2[style*="/assets/8fca7fcefaac64787658.svg"]):after{
-			content: "PLAYSTATION";
+			content: "playstation";
 	}
 }
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
@@ -238,7 +238,6 @@
 .scroller_d2b491 {
 	display: flex;
 	flex-direction: column;
-	/*if we dont do this, the activity background color will be "seperated" idk*/
 	padding: 0 !important;
 }
 .scroller_d2b491::-webkit-scrollbar {
@@ -279,7 +278,7 @@
 	[lang^="en"] &:after{
 		content: " elapsed"}
 	[lang="de"] &:after{
-		content: " vergangen" /*nicht akkurat zum original aber "seit 5:55" hört sich dumm an*/}
+		content: " verstrichen"}
 }
 .activity_b07019 svg:has( + .timestamp_c5d1c1){
 	display: none
@@ -796,9 +795,25 @@
 	background: var(--background-primary);
 	border-radius: 0px;
 }
-.clickable_d5cb59 {
+[class^="userProfileModalInner"] .clickable_d5cb59 {
 	position: fixed;
-	left: 180px;
+	left: 430px;
+	top: 90px;
+}
+.chipletContainerInner_d5cb59, .text_d5cb59 {
+	font-weight: 600;
+	pointer-events: none;
+	border-radius: 3px;
+
+	height: 16px;
+}
+.chipletContainerInner_d5cb59 {
+	border: 1px solid var(--blurple);
+    background: transparent;
+    color: var(--blurple);
+}
+.unselectable_d5cb59 {
+	color: var(--blurple);
 }
 
 .userProfileModalOverlayBackground_c69a7b,

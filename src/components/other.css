@@ -1042,3 +1042,43 @@ code {
 .lockedEmoji_bcf389:has(+ .emojiLockIconContainer_bcf389) {
 	filter: grayscale(1) !important;
 }
+
+/* Clan/"Guild" cards */
+.container_c22357, .cardStaticHeight_e0fe28.cardContainer_c22357.card_e0fe28 {
+	cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: var(--background-primary);
+    border-radius: 4px;
+    max-width: 432px;
+    min-width: 160px;
+    width: 100%;
+}
+.cardContentTitleSection_e0fe28 {
+	margin-bottom: -15px;	
+}
+
+.nameText_e0fe28 {
+	font-weight: 600;
+	position: fixed;
+	margin-top: -70px;
+	margin-left: 80px;
+}
+.clanInfoRow_e0fe28 {
+	position: fixed;
+	margin-top: -45px;
+	margin-left: 80px;
+}
+.cardBrandingHeader_e0fe28 {
+	margin-top: -50px;
+
+	& > .bannerImage_e0fe28 {
+		display: none;
+	}
+}
+.cardFooter_e0fe28 {
+	background: var(--background-tertiary);
+}
+.clanIconInner_e0fe28 {
+	background-color: unset;
+}
