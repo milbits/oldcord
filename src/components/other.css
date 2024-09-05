@@ -1082,8 +1082,7 @@ code {
 .clanIconInner_e0fe28 {
 	background-color: unset;
 }
-.fade_c49869.scrollerBase_c49869.thin_c49869.body_b07019 > .clickable_d5cb59 {
+.body_b9fccc > .clickable_d5cb59 {
 	position: fixed;
-	margin-top: -80px;
-	padding-left: 10px;
+	padding-left: 30px;
 }

@@ -842,7 +842,7 @@
 
 .headerInner_b9fccc .avatar_f94206 {
 	transform: scale(0.666);
-	position: absolute;
+	position: absolute !important;
 	top: 1px !important;
 	left: 30px !important;
 }
@@ -908,8 +908,8 @@
 .headerInner_b9fccc .headerButtons_b9fccc {
 	display: unset;
 	position: relative;
-	bottom: 85px;
-	left: 440px;
+	bottom: -33px;
+	left: 420px;
 }
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
@@ -956,7 +956,6 @@
 	margin-right: 41px;
 }
 .headerButtons_b9fccc {
-	position: fixed;
 	margin-left: 390px;
 	margin-top: -90px;
 }
