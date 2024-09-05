@@ -155,7 +155,7 @@
 /*! Revert activity profile*/
 /** Variables*/
 
-.userPopoutOuter_c69a7b:has(.activity_b07019) {
+.userPopoutOuter_c69a7b:has(.activity_b8cc6d) {
 	--play-tertiary: rgba(255, 255, 255, 0.6);
 	--play-secondary-2: rgba(255, 255, 255, 0.9);
 	--play-secondary: rgba(255, 255, 255, 0.8);
@@ -232,7 +232,7 @@
 	font-weight: 700
 }
 /* make activity the first section*/
-.activity_b07019 {
+.activity_b8cc6d {
 	order: -1;
 	padding: 0;
 }
@@ -246,12 +246,12 @@
 }
 
 /*make status icon white*/
-.userProfileInner_c69a7b:has(.activity_b07019) rect:not(path ~ rect) {
+.userProfileInner_c69a7b:has(.activity_b8cc6d) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
 /* change activity bg color and padding*/
-.activity_b07019 {
+.activity_b8cc6d {
 	background-color: var(--play-dark) !important;
 	padding: 12px;
 	border-radius: 0;
@@ -260,15 +260,15 @@
 
 
 
-.activity_b07019 .heading-sm\/semibold_dc00ef /*game title*/ {
+.activity_b8cc6d .heading-sm\/semibold_dc00ef /*game title*/ {
 	color: var(--play-secondary-2) !important;
 }
-.activity_b07019 .text-xs\/normal_dc00ef /*details*/ {
+.activity_b8cc6d .text-xs\/normal_dc00ef /*details*/ {
 	font-size: 14px;
 	color: var(--play-secondary) !important;
 }
 
-.activity_b07019 .timestamp_c5d1c1, .timestamp_c5d1c1.bold_c5d1c1  {
+.activity_b8cc6d .timestamp_c5d1c1, .timestamp_c5d1c1.bold_c5d1c1  {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
@@ -281,7 +281,7 @@
 	[lang="de"] &:after{
 		content: " verstrichen"}
 }
-.activity_b07019 svg:has( + .timestamp_c5d1c1){
+.activity_b8cc6d svg:has( + .timestamp_c5d1c1){
 	display: none
 }
 .badgeContainer_d60c6d svg:has( + .bold_c5d1c1){
@@ -293,7 +293,7 @@
 }
 
 /*activity buttons*/
-.activity_b07019 .button_f9d37d {
+.activity_b8cc6d .button_f9d37d {
 	background: transparent !important;
 	color: var(--play-primary);
 	border: 1px solid var(--play-primary);
@@ -301,27 +301,27 @@
 	opacity: 1 !important;
 	width: 100%;
 }
-.activity_b07019 :is(.colorBrand_dd4f85,.button_f9d37d):hover {
+.activity_b8cc6d :is(.colorBrand_dd4f85,.button_f9d37d):hover {
 	background: transparent !important;
 }
 
-.activity_b07019 .button_f9d37d:not(:disabled):active {
+.activity_b8cc6d .button_f9d37d:not(:disabled):active {
 	border-color: var(--play-primary);
 	background: #ffffff1a !important;
 }
 
-.activity_b07019 .button_f9d37d:disabled {
+.activity_b8cc6d .button_f9d37d:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
 }
 
 /* since the padding of the profile is gone, add padding to every section*/
-.descriptionClamp_fc5c48,
-.root_c83b44 {
+.descriptionClamp_abaf7d,
+.root_e6f2d0 {
 	padding-left: 12px;
 }
-.body_b07019 {
+.body_b8cc6d {
 	padding: 0;
 	gap: 0;
 	overflow: unset !important;
@@ -329,7 +329,7 @@
 .biteSizeInnerThemed_c69a7b {
 	gap: 0;
 }
-.descriptionClamp_fc5c48 {
+.descriptionClamp_abaf7d {
 	padding: 12px;
 }
 
@@ -365,11 +365,11 @@
 	margin-left: 75px;
 }
 
-[class^="customizationSection"] .descriptionClamp_fc5c48 {
+[class^="customizationSection"] .descriptionClamp_abaf7d {
 	max-height: unset;
 }
 
-[class^="customizationSection"] .footer_b07019::before {
+[class^="customizationSection"] .footer_b8cc6d::before {
 	content: "";
 	width: 100%;
 	height: 1px;
@@ -381,7 +381,7 @@
 
 /*! normal profile popout*/
 /*Banners*/
-.mask_c3e427 {
+.mask_d5fdb1 {
 	display: none;
 }
 /*profile stuff*/
@@ -417,7 +417,7 @@
 .biteSizeInnerThemed_c69a7b {
 	background: var(--background-secondary) !important;
 }
-.header_b07019 {
+.header_b8cc6d {
 	background: var(--play, var(--background-tertiary));
 	box-shadow: none;
 	padding: 0 !important;
@@ -484,7 +484,7 @@
 	order: -1;
 	padding-bottom: 10px;
 }
-.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_e5a42d)) /*more padding for profiles without badges*/{
+.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375)) /*more padding for profiles without badges*/{
 	padding-bottom: 40px;
 
 }
@@ -518,7 +518,7 @@
 	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
-.userPopoutOuter_c69a7b:has(.activity_b07019) .botTagRegular_a9e77f {
+.userPopoutOuter_c69a7b:has(.activity_b8cc6d) .botTagRegular_a9e77f {
 	background-color: var(--white-500);
 	color: var(--blurple);
 }
@@ -552,7 +552,7 @@
 	max-height: 700px
 }
 
-.headerInner_bc9cc2 .statusBubbleOuter_d0a252 {
+.headerInner_b9fccc .statusBubbleOuter_d0a252 {
 	top: 100px;
 	max-width: 500px;
 	right: 160px;
@@ -607,7 +607,7 @@
 		display: none;
 	}
 }
-.footer_b07019 {
+.footer_b8cc6d {
 	margin-top: 65px;
 }
 /*:is(#popout_470,#popout_328) + .layer_cd0de5 {
@@ -615,64 +615,64 @@
 }*/
 
 /*remove badges*/
-.biteSizeInnerThemed_c69a7b .container_e5a42d {
+.biteSizeInnerThemed_c69a7b .container_b64375 {
 	display: none;
 }
 
-.mutuals_dc9488 {
+.mutuals_fc9b46 {
 	margin-left: 12px;
 	margin-top: 5px;
 }
 
 /*DM text area*/
 /*WIP: fix it*/
-.footer_b07019:has(.channelTextArea_d0696b) {
+.footer_b8cc6d:has(.channelTextArea_d0696b) {
 	border-top: 1px solid rgba(32, 34, 37, 0.3);
 }
-.footer_b07019 .themedBackground_d0696b {
+.footer_b8cc6d .themedBackground_d0696b {
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
 	margin-top: 12px;
 }
 /** Bio*/
 
-.descriptionClamp_fc5c48 .text-sm\/normal_dc00ef {
+.descriptionClamp_abaf7d .text-sm\/normal_dc00ef {
 	color: var(--text-normal) !important;
 }
 /* add a scrollbar to user bio*/
-.viewFullBio_fc5c48 {
+.viewFullBio_abaf7d {
 	display: none;
 }
-.descriptionClamp_fc5c48 {
+.descriptionClamp_abaf7d {
 	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
-.descriptionClamp_fc5c48::-webkit-scrollbar-thumb {
+.descriptionClamp_abaf7d::-webkit-scrollbar-thumb {
 	background: transparent;
 	border-radius: 99px;
 }
-.descriptionClamp_fc5c48::-webkit-scrollbar {
+.descriptionClamp_abaf7d::-webkit-scrollbar {
 	width: 4px;
 }
-.descriptionClamp_fc5c48:hover::-webkit-scrollbar-track {
+.descriptionClamp_abaf7d:hover::-webkit-scrollbar-track {
 	background: 0 0;
 	border-radius: 10px;
 }
-.descriptionClamp_fc5c48:hover::-webkit-scrollbar-thumb {
+.descriptionClamp_abaf7d:hover::-webkit-scrollbar-thumb {
 	background: var(--bg-overlay-6, var(--background-tertiary));
 	border-radius: 999px;
 }
 /*Add "about me"*/
-.descriptionClamp_fc5c48:before {
+.descriptionClamp_abaf7d:before {
 	content: "ABOUT ME";
 	font-size: 12px;
 	color: var(--header-secondary);
 	font-weight: 800;
 	font-family: var(--font-display);
 }
-[lang="DE"] .descriptionClamp_fc5c48:before {
+[lang="DE"] .descriptionClamp_abaf7d:before {
 	content: "ÜBER MICH";
 }
 
@@ -688,7 +688,7 @@
 }
 
 /** Roles */
-.root_c83b44:before {
+.root_e6f2d0:before {
 	content: "ROLES";
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -697,11 +697,11 @@
 	margin-right: 200px;
 	margin-bottom: 4px;
 }
-[lang="DE"] .root_c83b44:before {
+[lang="DE"] .root_e6f2d0:before {
 	content: "ROLLEN";
 }
 
-.root_c83b44 {
+.root_e6f2d0 {
 	position: relative;
 	margin-bottom: 22px;
 	margin-top: 12px;
@@ -759,7 +759,7 @@
 }
 
 /* border around addrole button*/
-:is(.root_c83b44) .button_dd4f85,
+:is(.root_e6f2d0) .button_dd4f85,
 .button_edead5 {
 	border: 1px solid var(--interactive-muted);
 	background: none;
@@ -771,7 +771,7 @@
 }
 
 /* Re-add "Right click user for more actions" footnote on popouts */
-[lang^="en"] .footer_b07019::after {
+[lang^="en"] .footer_b8cc6d::after {
 	content: "Right click user for more actions";
 	font-size: 12px;
 	text-align: center;
@@ -792,7 +792,7 @@
 	border-radius: 0px;
 	border: none;
 }
-.container_c1519f {
+.container_ecc04c {
 	background: var(--background-primary);
 	border-radius: 0px;
 }
@@ -818,10 +818,10 @@
 }
 
 .userProfileModalOverlayBackground_c69a7b,
-.body_bc9cc2 {
+.body_b9fccc {
 	margin: 0;
 }
-.headerInner_bc9cc2 {
+.headerInner_b9fccc {
 	max-height: 0px;
 	padding: 0 !important;
 	z-index: 2;
@@ -840,7 +840,7 @@
 	margin-top: 46px;
 }
 
-.headerInner_bc9cc2 .avatar_f94206 {
+.headerInner_b9fccc .avatar_f94206 {
 	transform: scale(0.666);
 	position: absolute;
 	top: 1px !important;
@@ -876,11 +876,11 @@
 	left: 10px;
 	margin-right: 10px;
 }
-.body_bc9cc2 {
+.body_b9fccc {
 	gap: 0;
 }
 
-.container_e5a42d {
+.container_b64375 {
 	transform-origin: top left;
 	transform: scale(1.255);
 	position: relative;
@@ -888,10 +888,10 @@
 	background: none;
 	border: none;
 }
-.custom-profile-theme .container_e5a42d {
+.custom-profile-theme .container_b64375 {
 	background: none;
 }
-:has(.pronouns_afed89) .container_e5a42d {
+:has(.pronouns_afed89) .container_b64375 {
 	top: 55px;
 }
 /*focking WOKE LIBERAL pronouns*/
@@ -905,13 +905,13 @@
 	background-color: transparent;
 }
 /*call n dm btn*/
-.headerInner_bc9cc2 .buttons_d181d8 {
+.headerInner_b9fccc .headerButtons_b9fccc {
 	display: unset;
 	position: relative;
 	bottom: 85px;
 	left: 440px;
 }
-.tabBarItem_c1519f.item_a0 {
+.tabBarItem_ecc04c.item_a0 {
 	height: 37px;
 	padding-top: 2px;
 }
@@ -922,7 +922,7 @@
 	margin: 0 0 0;
 }
 
-.tabBar_c1519f {
+.tabBar_ecc04c {
 	padding: 20px;
 	padding-right: 10px;
 	padding-bottom: 0;
@@ -930,7 +930,7 @@
 	background: var(--background-tertiary);
 	border-radius: 0;
 }
-.tabBar_c1519f:before {
+.tabBar_ecc04c:before {
 	content: "";
 	width: 100%;
 	height: 1px;
@@ -939,7 +939,7 @@
 	position: absolute;
 	background-color: var(--background-primary) !important;
 }
-.friendRequestBanner_bc9cc2 {
+.friendRequestBanner_b9fccc {
 	background: var(--background-tertiary);
 	border-radius: 0;
 }
@@ -955,7 +955,7 @@
 .buttonContainer_ecc1b2 {
 	margin-right: 41px;
 }
-.headerButtons_bc9cc2 {
+.headerButtons_b9fccc {
 	position: fixed;
 	margin-left: 390px;
 	margin-top: -90px;
@@ -1064,7 +1064,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	margin-top: -164px;
 }
 
-[class^="userPanel"] .container_e5a42d {
+[class^="userPanel"] .container_b64375 {
 	display: none;
 }
 
@@ -1077,7 +1077,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	background: transparent;
 }
 
-[class^="userPanel"] .wrapper_c51b4e:not(.listAvatar_e4be58, .guildAvatar_b26403) {
+[class^="userPanel"] .wrapper_c51b4e:not(.listAvatar_d2d6cb, .guildAvatar_c5a773) {
 	left: 15px;
 }
 
@@ -1104,7 +1104,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	color: var(--text-primary)
 }
 
-[class^="userPanel"] .heading_ba4d80 {
+[class^="userPanel"] .headings_ba4d80 {
 	color: var(--text-secondary) !important;
 	font-size: 12px;
 	color: var(--header-secondary);
