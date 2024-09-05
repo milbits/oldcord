@@ -40,7 +40,7 @@
 	margin-left: 5%;
 	pointer-events: none;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.banner_c3e427,.avatar_f94206,.descriptionClamp_fc5c48) {display: none}
+.accountProfilePopoutWrapper_b2ca13 :is(.banner_d5fdb1,.avatar_f94206,.descriptionClamp_abaf7d,.mask_d5fdb1) {display: none}
 .accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
 	top: -103px !important;
 	white-space: nowrap;
@@ -60,7 +60,7 @@
 	transition: none;
 }
 
-#app-mount .accountProfilePopoutWrapper_b2ca13 .header_b07019 {
+#app-mount .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d {
 	min-height: 0 !important;
 	height: 30px !important;
 	background: var(--background-floating);
@@ -132,6 +132,7 @@
 		background-color: var(--blurple); /* this doesn't currently work and i'm unsure of why */
 	}
 }
+
 .statusBubbleOuter_d0a252 {
 	box-shadow: none;
 	background: none !important;
