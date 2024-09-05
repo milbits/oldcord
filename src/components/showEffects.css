@@ -1,5 +1,5 @@
 /*make cosmetics show again*/
-.avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_c3e427{
+.avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_d5fdb1{
     display: unset !important;
 }
 /*adjust profile effect opacity*/
@@ -11,21 +11,21 @@
 }
 
 /*move that weird circle to the middle*/
-.mask_c3e427 mask circle{
+.mask_d5fdb1 mask circle{
     transform: translateX(68.5px);
 }
-:has(.custom-theme-background) .mask_c3e427 mask circle{
+:has(.custom-theme-background) .mask_d5fdb1 mask circle{
     transform: translateX(73px) translateY(5px);
 }
-.fullSize_cb78f1 + header .mask_c3e427 mask circle{
+.fullSize_cb78f1 + header .mask_d5fdb1 mask circle{
     display: none !important
 }
 /*fix some overlaying stuff*/
-.header_b07019{
+.header_b8cc6d{
     z-index: 2
 }
 /*make banners not so zoomed-in*/
-.userPopoutOuter_c69a7b .banner_c3e427{
+.userPopoutOuter_c69a7b .banner_d5fdb1{
     max-width: 250px;
 }
 
@@ -35,7 +35,8 @@
 }
 /*move usernames etc. a bit down*/
 .container_c32acf{
-    padding-top: 50px
+    padding-top: 50px;
+    
 }
 .statusBubbleOuter_d0a252{
     top: 65px
@@ -52,6 +53,6 @@
     }
 }
 
-.custom-profile-theme .footer_b07019 .themedBackground_d0696b{
+.custom-profile-theme .footer_b8cc6d .themedBackground_d0696b{
     background: var(--profile-gradient-overlay-color) !important
 }
