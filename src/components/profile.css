@@ -1052,7 +1052,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	margin-right: 8px !important;
 }*/
 
-/*user panel in dms*/
+/** user panel in dms*/
 /*LESS WIP then it was before! :D*/
 [class^="userPanel"] .userPanelInnerThemed_c69a7b {
 	background: var(--background-secondary);
@@ -1140,3 +1140,43 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 }
 also the mutual tabs WILL overlap it and I can't be bothered to figure out if it can push the note down instead
 tl;dr WIP */
+
+
+/** activities section in member list*/
+
+/*add a shadow and border like on profiles*/
+.popout_a35965{   
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
+}
+/*thing in the member list*/
+.container_c64476{
+    background: var(--background-modifier-hover);
+    border-radius: 3px
+}
+/*game info*/
+.popoutContentWrapper_a35965{
+    background: var(--background-tertiary);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.hero_a35965{
+    background: none !important;
+    padding: 0
+}
+.interactionsContainerHeader_a35965 /*weird line*/{
+    border: none
+}
+/*shitty dm box that has 0 reason to exist but the whole purpose of this theme is to not remove anything so im styling it*/
+.interactionsContainer_a35965{
+    background: var(--background-secondary);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.popout_a35965 .channelTextArea_d0696b{
+    background: var(--channeltextarea-background);
+    border-radius: 3px;
+    border: solid 1px var(--background-tertiary) !important;
+}
+
