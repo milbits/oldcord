@@ -206,7 +206,7 @@
 .platformIcon_ae1fa2 {
 	display: none;
 }
-.headerText_ae1fa2:not(.platformIcon_ae1fa2){
+.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2)){
 	[lang="de"] &:after{
 		content: "ein spiel"
 	}
@@ -219,14 +219,7 @@
 	color: var(--header-secondary) !important;
 	font-weight: 600;
 }
-.headerText_ae1fa2{
-	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]):after{
-			content: "spotify";
-	}
-	&:has(.platformIcon_ae1fa2[style*="/assets/8fca7fcefaac64787658.svg"]):after{
-			content: "playstation";
-	}
-}
+
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
 	text-transform: uppercase;
 	font-weight: 700
