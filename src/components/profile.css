@@ -78,6 +78,10 @@
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
+	min-width: 20px;
+}
+.content_d0a252 {
+	margin-top: -3px;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleWithTextPadding_d0a252 {
 	margin-right: 85px;
