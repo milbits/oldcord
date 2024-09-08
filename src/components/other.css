@@ -1076,7 +1076,7 @@ code {
 		display: none;
 	}
 }
-.cardFooter_e0fe28 {
+.cardFooter_e0fe28, .buttonContainer_c22357 {
 	background: var(--background-tertiary);
 }
 .clanIconInner_e0fe28 {

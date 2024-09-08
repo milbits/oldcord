@@ -919,6 +919,9 @@
 	height: 37px;
 	padding-top: 2px;
 }
+[aria-label="Add Friend"], [class^="userProfileModalInner"] .colorPrimary_dd4f85.icon_f9d37d {
+	right: 10px;
+}
 
 /*note: divider only appears on your own profile dialog */
 .body_b9fccc > .divider_b9fccc {
@@ -992,7 +995,7 @@
 }
 
 [class^="userProfileModalInner"] .wrapper_cb78f1.fullSize_cb78f1 {
-	/*margin-top: 37px;*/ /*at least temporary remove this since overlapping aint fun :p*/
+	margin-top: 37px;
 	position: fixed;
 }
  .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
