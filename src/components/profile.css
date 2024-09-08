@@ -209,7 +209,6 @@
 	}
 }
 
-
 .platformIcon_ae1fa2 {
 	display: none;
 }
@@ -221,6 +220,7 @@
 		content: "a game"
 	}
 }
+
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2){ /* specifically for full profiles */
 	text-transform: uppercase;
 	color: var(--header-secondary) !important;
@@ -281,12 +281,15 @@
 	[lang="de"] &:after{
 		content: " verstrichen"}
 }
-.activity_b8cc6d svg:has( + .timestamp_c5d1c1){
+/*icons*/
+
+/*timestamp icon*/.activity_b8cc6d svg:has( + .timestamp_c5d1c1),.badgeContainer_d60c6d svg:has( + .bold_c5d1c1){
 	display: none
 }
-.badgeContainer_d60c6d svg:has( + .bold_c5d1c1){
-	display: none;
+.badgeContainer_d60c6d path{
+	fill: white
 }
+
 .nameNormal_c1d9fd,
 .contentImagesUserPopoutV2_c1d9fd .textRow_c1d9fd {
 	color: #fff !important;
@@ -344,32 +347,32 @@
 	content: "[ Deaktiviere OldCord für eine akkurate Vorschau ]";
 }
 
-[class^="customizationSection"] .container_c32acf {
+.customizationSection_b3a5c2 .container_c32acf {
 	padding-top: 105px;
 	margin-top: -150px;
 }
 
-[class^="customizationSection"] .wrapper_c51b4e {
+.customizationSection_b3a5c2 .wrapper_c51b4e {
 	bottom: 45px;
 }
 
-[class^="customizationSection"] .overlayIcon_f18fcb {
+.customizationSection_b3a5c2 .overlayIcon_f18fcb {
 	bottom: 75px;
 }
 
-[class^="customizationSection"] .avatar_f18fcb {
+.customizationSection_b3a5c2 .avatar_f18fcb {
 	left: 85px;
 }
 
-[class^="customizationSection"] .userTagUsername_c32acf {
+.customizationSection_b3a5c2 .userTagUsername_c32acf {
 	margin-left: 75px;
 }
 
-[class^="customizationSection"] .descriptionClamp_abaf7d {
+.customizationSection_b3a5c2 .descriptionClamp_abaf7d {
 	max-height: unset;
 }
 
-[class^="customizationSection"] .footer_b8cc6d::before {
+.customizationSection_b3a5c2 .footer_b8cc6d::before {
 	content: "";
 	width: 100%;
 	height: 1px;
@@ -476,6 +479,8 @@
 .topSection_b9fccc :is(circle,rect:nth-child(2)) {
 	visibility: hidden;
 }
+
+
 
 /*username*/
 
@@ -801,20 +806,19 @@
 	left: 430px;
 	top: 90px;
 }
+/*clan tag*/
 .chipletContainerInner_d5cb59, .text_d5cb59 {
 	font-weight: 600;
 	pointer-events: none;
 	border-radius: 3px;
-
 	height: 16px;
 }
 .chipletContainerInner_d5cb59 {
-	border: 1px solid var(--blurple);
+	border: 1px solid var(--background-modifier-accent);
     background: transparent;
-    color: var(--blurple);
 }
 .unselectable_d5cb59 {
-	color: var(--blurple);
+	color: var(--channels-default);
 }
 
 .userProfileModalOverlayBackground_c69a7b,
@@ -945,10 +949,11 @@
 }
 .sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2 {
 	background: var(--green);
+	&:hover{
+		background: var(--green-active) !important;
+	}
 }
-.sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2:hover {
-	background: var(--green-active) !important;
-}
+
 .sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.button_ecc1b2 {
 	padding: 15px;
 }
@@ -985,11 +990,12 @@
 .bannerColor_f9d37d {
 	background: none !important;
 }
+
 [class^="userProfileModalInner"] .wrapper_cb78f1.fullSize_cb78f1 {
-	margin-top: 37px;
+	/*margin-top: 37px;*/ /*at least temporary remove this since overlapping aint fun :p*/
 	position: fixed;
 }
-[class^="userProfileModalInner"] .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
+ .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
 	transform: rotate(90deg);
 }
 [class^="userProfileModalInner"] .statusBubble_d0a252 {
