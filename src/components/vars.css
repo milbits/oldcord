@@ -1,4 +1,4 @@
-.theme-dark:not(html.custom-theme-background) {
+.theme-dark:not(html.custom-theme-background,:has(#clientThemeVars)) {
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
