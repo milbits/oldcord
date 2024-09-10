@@ -984,8 +984,18 @@
 [class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d:hover {
 	background: var(--green-active);
 }
-[aria-label="Edit Profile"] {
-	display: none;	
+:is(.footer_b8cc6d) [aria-label="Edit Profile"] {
+	pointer-events: none;
+	color: var(--background-secondary) !important;
+	background: var(--background-secondary) !important;
+}
+:is(.footer_b8cc6d) [aria-label="Edit Profile"]::after {
+	content: "";
+	width: 115%;
+	height: 1px;
+	margin-top: 20px;
+	position: absolute;
+	background-color: rgba(32, 34, 37, 0.3) !important;
 }
 .sizeSmall_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85 > svg {
 	display: none;
