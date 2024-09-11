@@ -1,5 +1,6 @@
 # OldCord
 
+
 A theme for Discord that brings back the 2020 UI without removing features
 
 ###### Completely removes profile effects, profile colors, avatar decos, and banners (revertable, see Addons)
