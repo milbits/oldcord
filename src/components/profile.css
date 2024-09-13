@@ -1,5 +1,13 @@
 /*! bottom-left popout */
 /*Code by @kinggamingyt! */
+
+.panels_a4d4d9 .avatarWrapper_b2ca13:hover{
+	background: none
+}
+.panels_a4d4d9 .wrapper_c51b4e:hover{
+	opacity: 0.5 !important
+}
+
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d,
 #status-edit-profile {
@@ -40,7 +48,7 @@
 	margin-left: 5%;
 	pointer-events: none;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.banner_d5fdb1,.avatar_f94206,.descriptionClamp_abaf7d,.mask_d5fdb1, .card_ae1fa2) {display: none}
+.accountProfilePopoutWrapper_b2ca13 :is(.banner_d5fdb1,.avatar_f94206,.descriptionClamp_abaf7d,.mask_d5fdb1, .card_ae1fa2) {display: none;}
 .accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
 	top: -103px !important;
 	white-space: nowrap;
@@ -74,7 +82,7 @@
 	margin-top: -30px;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleOuter_d0a252 .statusBubble_d0a252:hover {
-	background: var(--blurple);
+	background: var(--brand-experiment-560);
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
