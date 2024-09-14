@@ -595,6 +595,7 @@
 		margin-left: 240px;
 		margin-top: auto;
 		max-height: 38px;
+		cursor: text;
 	}
 	top: 100%;
 	position: absolute;
@@ -1224,4 +1225,3 @@ tl;dr WIP */
     border-radius: 3px;
     border: solid 1px var(--background-tertiary) !important;
 }
-
