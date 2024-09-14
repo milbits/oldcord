@@ -632,9 +632,27 @@
 	display: none;
 }
 
+/* mutuals section */
 .mutuals_fc9b46 {
 	margin-left: 12px;
 	margin-top: 5px;
+	max-width: 157px;
+	& .text_fc9b46.text-xs\/normal_dc00ef, .text_fc9b46.text-sm\/normal_dc00ef {
+		font-size: 14px !important;
+		color: var(--text-normal) !important;
+		line-height: 1.2857142857142858;
+	}
+}
+.mutuals_fc9b46:before {
+	content: "MUTUALS";
+	font-size: 12px;
+	color: var(--header-secondary);
+	font-weight: 800;
+	font-family: var(--font-display);
+	padding-bottom: 5px;
+}
+[lang="DE"] .mutuals_fc9b46:before {
+	content: "GEMEINSAM";
 }
 
 /*DM text area*/
@@ -811,7 +829,7 @@
 }
 [class^="userProfileModalInner"] .clickable_d5cb59 {
 	position: fixed;
-	left: 430px;
+	left: 420px;
 	top: 90px;
 }
 /*clan tag*/
@@ -1013,7 +1031,7 @@
 }
 
 [class^="userProfileModalInner"] .wrapper_cb78f1.fullSize_cb78f1 {
-	margin-top: 37px;
+	margin-top: 41px;
 	position: fixed;
 }
  .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
