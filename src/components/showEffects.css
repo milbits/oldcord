@@ -1,6 +1,9 @@
 /*make cosmetics show again*/
-:not(:has(.accountProfilePopoutWrapper_b2ca13) .avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_d5fdb1{
+.avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_d5fdb1{
     display: unset !important;
+}
+#popout_60 .mask_d5fdb1 /*it doesnt work if i do :not(#popout_60) above and idk why*/{
+    display: none !important
 }
 /*adjust profile effect opacity*/
 .profileEffects_f867f9{
@@ -36,14 +39,17 @@
 /*move usernames etc. a bit down*/
 .container_c32acf{
     padding-top: 50px;
-    
 }
 .statusBubbleOuter_d0a252{
-    top: 65px
+    top: 82px
 }
-:not(:has(.accountProfilePopoutWrapper_b2ca13) :has(.pronouns_c32acf) .statusBubbleOuter_d0a252{
-    top: 90px !important;
+:has(.pronouns_c32acf) .statusBubbleOuter_d0a252{
+    top: 98px !important;
 }
+.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
+	top: -103px !important;
+}
+
 /*add colors back (but without that annoying border ew)*/
 .custom-profile-theme .biteSizeInnerThemed_c69a7b{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
