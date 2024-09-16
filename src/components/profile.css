@@ -10,7 +10,7 @@
 
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
 #account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d,
-#status-edit-profile {
+#status-edit-profile, .wrapper_cb78f1.biteSize_cb78f1 { /* for some inane reason these CHANGE depending on certain experiments so this is just to maximum compatibility for the time being */
 	display: none;
 }
 
@@ -1069,10 +1069,10 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	position: relative;
 	top: 5px;
 }
-.accountProfileCard_b69b77 > .userInfo_b69b77 > div:nth-child(2) > .badgeList_b69b77.containerWithContent_b64375.container_b64375 {
+.accountProfileCard_b69b77 > .userInfo_b69b77 > div:nth-child(2) > .badgeList_b69b77.container_b64375 {
 	transform: scale(1.5);
 	position: relative;
-	left: 13px;
+	left: 0px;
 	bottom: 3px;
 }
 .accountProfileCard_b69b77 {
@@ -1082,6 +1082,13 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 .fieldList_b69b77 {
 	background: var(--background-primary);
 }
+.accountProfileCard_b69b77 > .userInfo_b69b77 > .grow_dd4f85.sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85 {
+	display: none;
+}
+.overflowMenuIcon_b69b77 {
+	margin-left: 340px;
+}
+
 
 
 
