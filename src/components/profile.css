@@ -8,20 +8,15 @@
 	opacity: 0.5 !important
 }
 
-#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > div > .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d,
-#account > .scrollerBase_c49869.none_c49869.scroller_d90b3d > .separator_d90b3d,
-#status-edit-profile, .wrapper_cb78f1.biteSize_cb78f1 { /* for some inane reason these CHANGE depending on certain experiments so this is just to maximum compatibility for the time being */
+/* somebody PLEASE come up with better selectors for these I am in so much pain */
+div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b:nth-of-type(2) > div > button.grow_dd4f85.fullWidth_dd4f85.sizeSmall_dd4f85.menuItemColor_ad5fac.lookBlank_dd4f85.button_dd4f85.button_f9d37d:nth-of-type(2),
+div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b:nth-of-type(2) > div > .menuDivider_ad5fac,
+div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b:nth-of-type(1) > div > button.grow_dd4f85.fullWidth_dd4f85.sizeSmall_dd4f85.menuItemColor_ad5fac.lookBlank_dd4f85.button_dd4f85.button_f9d37d:nth-of-type(1) {
 	display: none;
 }
 
-:is(#status, #account) > .scrollerBase_c49869.none_c49869.scroller_d90b3d .colorDefault_d90b3d.labelContainer_d90b3d.item_d90b3d:not(:has(.userMenuUsername_e1268c)) {
-	font-size: 14px;
-	min-height: 0px;
-	max-height: 28px;
-}
-
-.submenu_d90b3d > .scroller_d90b3d.thin_c49869.scrollerBase_c49869:has(.userMenuUsername_e1268c, .status_ad5fac) {
-	padding-left: 0;
+.fixed_d90b3d:has(.userMenuUsername_e1268c, .status_ad5fac) {
+	width: max-content;
 }
 [lang^="en"] .content_d0a252 > .addStatusPrompt_d0a252 {
 	text-indent: -9999px;
@@ -36,7 +31,7 @@
 		line-height: initial;
 	}
 }
-:is(#status-status-picker)::after {
+:is(div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b:nth-of-type(1) > div)::after {
 	content: "";
 	position: absolute;
 	width: 86%;
@@ -86,6 +81,10 @@
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
+
+	& .defaultColor_a595eb {
+		color: white;
+	}
 }
 .content_d0a252 {
 	margin-top: -3px;
@@ -112,11 +111,11 @@
 		background: var(--background-floating);
 		padding-bottom: 2px;
 	}
-	& .menu_ad5fac {
+	& .menuOverlay_ad5fac {
 		background-color: transparent;
 		background: var(--background-floating);
 	}
-	& .menus_ad5fac > .menu_ad5fac > .scroller_d90b3d {
+	& .menus_ad5fac > .menu_d90b3d > .scroller_d90b3d {
 		padding: 0px !important;
 	}
 	& .menu_ad5fac:last-of-type [role="menu"]:first-of-type::before {
@@ -148,6 +147,14 @@
 	}
 }
 
+:is(.menuItemInner_ad5fac.buttonInner_f9d37d.contents_dd4f85):hover {
+	background-color: var(--brand-experiment-560);
+
+	& .menuItemLabel_ad5fac {
+		color: white;
+	}
+}
+
 .statusBubbleOuter_d0a252 {
 	box-shadow: none;
 	background: none !important;
@@ -157,9 +164,8 @@
 }
 
 /* Switch account icon (WIP) */
-#account-switch-account
-	> .iconContainer_d90b3d.iconContainerLeft_d90b3d
-	> .icon_d90b3d
+.menuItemInner_ad5fac.buttonInner_f9d37d.contents_dd4f85 
+	> svg 
 	> path[d^="M18.46 20.9a12.65 12.65 0 0 1-1.46.9 10.95 10.95 0 0 1-10 0 11 11 0 1 1 11.46-.9Zm-1.65-1.3a8.96 8.96 0 0 1-9.62 0l.23-2.26c.02-.25-.27-.36-.41-.15-.29.45-.6 1.01-.88 1.63A9.04 9.04 0 0 1 4.2 16.5a9 9 0 0 1 15.6 0 9.04 9.04 0 0 1-1.93 2.32c-.27-.62-.59-1.18-.88-1.63-.14-.21-.43-.1-.4.15l.22 2.27ZM12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"] {
 	d: path(
 		"M9.5,0H2.72c-.1,0-.2.03-.28.08-.08.05-.15.13-.18.22-.04.09-.05.19-.03.29.02.1.07.19.14.26l1.27,1.27c.19.19.29.44.29.71s-.11.52-.29.71l-1.41,1.41c-.56.56-.88,1.33-.88,2.12s.32,1.56.88,2.12c.19.19.44.29.71.29s.52-.11.71-.29l2.12-2.12c.38-.38.88-.59,1.41-.59s1.04.21,1.41.59l.56.56c.07.07.16.12.26.14.1.02.2,0,.29-.03.09-.04.17-.1.22-.18.05-.08.08-.18.08-.28V.5c0-.13-.05-.26-.15-.35-.09-.09-.22-.15-.35-.15ZM.5,18h6.78c.1,0,.2-.03.28-.08.08-.06.15-.13.18-.22.04-.09.05-.19.03-.29-.02-.1-.07-.19-.14-.26l-1.27-1.27c-.19-.19-.29-.44-.29-.71s.11-.52.29-.71l1.41-1.41c.56-.56.88-1.33.88-2.12s-.32-1.56-.88-2.12c-.19-.19-.44-.29-.71-.29s-.52.11-.71.29l-2.12,2.12c-.38.38-.88.59-1.41.59s-1.04-.21-1.41-.59l-.56-.56c-.07-.07-.16-.12-.26-.14-.1-.02-.2,0-.29.03-.09.04-.17.1-.22.18-.05.08-.08.18-.08.28v6.78c0,.13.05.26.15.35.09.09.22.15.35.15Z"
@@ -1024,7 +1030,7 @@
 	position: absolute;
 	background-color: rgba(32, 34, 37, 0.3) !important;
 }
-.sizeSmall_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85 > svg {
+.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85 > .buttonInner_f9d37d.contents_dd4f85 > svg {
 	display: none;
 }
 .bannerColor_f9d37d {
