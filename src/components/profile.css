@@ -76,14 +76,14 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	z-index: 4;
 	margin-top: -30px;
 }
-:is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleOuter_d0a252 .statusBubble_d0a252:hover {
+:is(.accountProfilePopoutWrapper_b2ca13) .visibleContainer_d0a252:hover .statusBubble_d0a252 {
 	background: var(--brand-experiment-560);
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
 
 	& .defaultColor_a595eb {
-		color: white;
+		color: var(--white);
 	}
 }
 .content_d0a252 {
@@ -151,7 +151,10 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	background-color: var(--brand-experiment-560);
 
 	& .menuItemLabel_ad5fac {
-		color: white;
+		color: var(--white);
+	}
+	& .status_c7d26b {
+		background-color:var(--white) !important;
 	}
 }
 
