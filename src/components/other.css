@@ -59,16 +59,12 @@ code {
 	color: var(--blurple);
 }
 /** revert reactions modal*/
-.theme-dark .reactionBtn_ec6b19 {
+.theme-dark .reactionSelected_f2bfbb {
 	background-color: rgba(79, 84, 92, 0.3);
 	border-radius: 2px;
 	margin-bottom: 1px;
-	background: none;
-	border: none;
 }
-.reactionBtn_ec6b19.forceShowLook_ec6b19:hover {
-	background-color: unset;
-}
+
 .emoji_f2bfbb {
 	width: 1rem;
 	height: 1rem;
