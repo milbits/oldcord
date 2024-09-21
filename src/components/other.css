@@ -1103,3 +1103,27 @@ code {
 .messagesPopoutWrap_ac90a2 {
 	border-radius: 4px;
 }
+ 
+/* polls */
+.answerInner_cf2c85 {
+	background-color: var(--button-secondary-background);
+	border-radius: 3px;
+}
+.secondaryButtonPresentation_a1531c {
+	background-color: var(--button-secondary-background);
+	&:hover {
+		background-color: var(--button-secondary-background-hover);
+	}
+}
+
+/* modal */
+.voteSelected_cbdbf0 {
+	background-color: rgba(79, 84, 92, 0.3);
+}
+.side_a0 .item_a0:is(.voteDefault_cbdbf0, .voteSelected_cbdbf0) {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.header_f9a4c9 > div > .text-md\/medium_dc00ef {
+	font-size: 12px;
+}
