@@ -818,7 +818,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 
 /* border around addrole button*/
 :is(.root_e6f2d0) .button_dd4f85,
-.button_edead5 {
+.button_edead5,
+.expandButton_e6f2d0,
+.collapseButton_e6f2d0 {
 	border: 1px solid var(--interactive-muted);
 	background: none;
 	border-radius: 999%;
