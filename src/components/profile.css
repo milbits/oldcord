@@ -56,7 +56,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .accountProfilePopoutWrapper_b2ca13 .singleLineAlign_d0a252 {
 	text-align: left;
 }
-.popover_bba79b {
+:is(.accountProfilePopoutWrapper_b2ca13) .popover_bba79b {
 	right: 150px;
 	margin-top: -85px;
 	opacity: 1;
