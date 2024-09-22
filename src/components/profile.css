@@ -468,7 +468,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	z-index: 1;
 }
 
-[lang^="en"] .clickable_f94206:hover .overlay_f94206::before {
+[lang^="en"] .clickable_f94206:hover .overlay_f94206::before, .clickable_f94206:focus-within .overlay_f94206::before {
 	content: "VIEW PROFILE";
 	opacity: 1;
 	font-size: 10px;
@@ -478,7 +478,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	left: 7px;
 	font-weight: bold;
 }
-[lang="de"] .clickable_f94206:hover .overlay_f94206::before {
+[lang="de"] .clickable_f94206:hover .overlay_f94206::before, .clickable_f94206:focus-within .overlay_f94206::before {
 	content: "PROFIL ANSEHEN";
 	opacity: 1;
 	font-size: 10px;
