@@ -1042,9 +1042,11 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	margin-left: 390px;
 	margin-top: -90px;
 }
-
 [class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d {
 	background: var(--green);
+	&:hover {
+		background: var(--green-hover) !important;
+	}
 	/* text-indent: -9999px; */
 }
 /*[lang^="en"] [class^="userProfileModalInner"] #text="Message" .sizeSmall_dd4f85.button_f9d37d:after {
@@ -1056,9 +1058,6 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	text-indent: 0px;
 }
 */
-[class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d:hover {
-	background: var(--green-active);
-}
 :is(.footer_b8cc6d) [aria-label="Edit Profile"] {
 	pointer-events: none;
 	color: var(--background-secondary) !important;
