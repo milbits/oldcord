@@ -506,7 +506,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	order: -1;
 	padding-bottom: 10px;
 }
-.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375, .pronouns_c32acf)) /*more padding for profiles without badges*/{
+.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375)) /*more padding for profiles without badges*/{
 	padding-bottom: 40px;
 }
 .usernameRow_c32acf {
@@ -707,8 +707,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	border-top: 1px solid rgba(32, 34, 37, 0.3);
 }
 .footer_b8cc6d .themedBackground_d0696b {
-	background: var(--background-primary) !important;
-	border: solid 1px var(--background-tertiary) !important;
+	background: var(--deprecated-text-input-bg) !important;
+	border: solid 1px var(--deprecated-text-input-border) !important;
 	margin-top: 12px;
 }
 /** Bio*/
@@ -1090,8 +1090,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 
 [class^="userProfileModalInner"] .statusBubble_d0a252 {
 	margin-top: 5px;
-	white-space: nowrap;
+	white-space: pre-wrap;
 	text-align: left !important;
+	margin-right: -60px;
 	/* padding-top: 30px; */
 	&:before {
 		content: "CUSTOM STATUS";
@@ -1103,7 +1104,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		margin-left: 5px;
 	}
 }
-/*:has(.statusBubble_d0a252) [class^="userProfileModalInner"] .container_c32acf {
+:has(.statusBubble_d0a252) [class^="userProfileModalInner"] .container_c32acf {
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1112,7 +1113,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		padding-bottom: 60px;
 	}
 }
-*/
+
 .section_ba4d80 .text-xs\/semibold_dc00ef {
 	text-transform: uppercase;
 }
