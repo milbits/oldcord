@@ -506,9 +506,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	order: -1;
 	padding-bottom: 10px;
 }
-.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375)) /*more padding for profiles without badges*/{
+.fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375, .pronouns_c32acf)) /*more padding for profiles without badges*/{
 	padding-bottom: 40px;
-
 }
 .usernameRow_c32acf {
 	text-align: center;
@@ -1006,6 +1005,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 
 .tabBar_ecc04c {
 	padding: 20px;
+	padding-top: 30px;
 	padding-right: 10px;
 	padding-bottom: 0;
 	margin: 0;
@@ -1085,13 +1085,81 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
  .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85  > svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]){
 	transform: rotate(90deg);
 }
+
+/* CUSTOM STATUS */ 
+
 [class^="userProfileModalInner"] .statusBubble_d0a252 {
 	margin-top: 5px;
 	white-space: nowrap;
+	text-align: left !important;
+	/* padding-top: 30px; */
+	&:before {
+		content: "CUSTOM STATUS";
+		font-size: 12px;
+		color: var(--header-secondary);
+		font-weight: 600;
+		font-family: var(--font-display);
+		line-height: 22px;
+		margin-left: 5px;
+	}
 }
-
+/*:has(.statusBubble_d0a252) [class^="userProfileModalInner"] .container_c32acf {
+	padding-bottom: 75px;
+	&:has(.pronouns_c32acf) {
+		padding-bottom: 90px;
+	}
+	&:has(.container_b64375) {
+		padding-bottom: 60px;
+	}
+}
+*/
 .section_ba4d80 .text-xs\/semibold_dc00ef {
 	text-transform: uppercase;
+}
+
+.statusBubbleOuter_d0a252 .defaultColor_a595eb {
+	margin-left: 5px;
+}
+
+/* connections adjustments */
+
+.connectedAccountContainer_ab12c6 {
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.connectedAccountIcon_ab12c6 {
+	scale: 1.2;
+	padding-right: 5px;
+	
+}
+.connectedAccountNameText_ab12c6.text-md\/semibold_dc00ef {
+	font-weight: 500;
+}
+
+[class^="userProfileModalInner"] (.container_c32acf, .avatar_f94206) {
+	margin-left: -10px;
+}
+
+/* put note above connections for accuracy */
+.section_ba4d80:nth-of-type(2) {
+	order: 1;
+	padding: 0;
+}
+
+/* hide "connections" text */
+:has(.connections_d53fbd).section_ba4d80:nth-of-type(2) > .headings_ba4d80 > .defaultColor_e9e35f.text-xs\/semibold_dc00ef {
+	text-indent: -9999px;
+	line-height: 0;
+	display: inline-flex;
+	margin-right: 10px;
+	&:before {
+	content: "";
+	width: 96%;
+	height: 1px;
+	margin-top: -5px;
+	position: absolute;
+	background-color: var(--background-modifier-accent);
+	}
 }
 
 /*! profile modal ends here */
