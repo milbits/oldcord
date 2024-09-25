@@ -1011,15 +1011,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	margin: 0;
 	background: var(--background-tertiary);
 	border-radius: 0;
-}
-.tabBar_ecc04c:before {
-	content: "";
-	width: 100%;
-	height: 1px;
-	right: 0.5px;
-	margin-top: -15px;
-	position: absolute;
-	background-color: var(--background-primary) !important;
+	border-top: 1px solid hsla(0, 0%, 100%, .1)
 }
 .friendRequestBanner_b9fccc {
 	background: var(--background-tertiary);
@@ -1153,14 +1145,35 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	line-height: 0;
 	display: inline-flex;
 	margin-right: 10px;
-	&:before {
-	content: "";
-	width: 96%;
-	height: 1px;
-	margin-top: -5px;
-	position: absolute;
-	background-color: var(--background-modifier-accent);
-	}
+}
+.connections_d53fbd {
+	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* rich presence profile theming */
+/* this may very well be the worst css code i have ever written */
+
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .tabBar_ecc04c, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .container_c32acf, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .headerInner_b9fccc, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .scroller_c0721c, .card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b {
+	background-color: var(--blurple) !important;
+}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .userTagUsername_c32acf, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .pronounsText_c32acf, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .headerInner_b9fccc, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .scroller_c0721c, .card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .headerText_ae1fa2.defaultColor_e9e35f.text-xs\/medium_dc00ef,
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .heading-sm\/semibold_dc00ef,
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .statusBubbleOuter_d0a252 .defaultColor_a595eb {
+	color: #fff !important;
+}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85, 
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d > .buttonInner_f9d37d.contents_dd4f85 {
+	color: var(--blurple) !important;
+}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .sizeSmall_dd4f85.button_f9d37d {
+	background-color: #fff;
 }
 
 /*! profile modal ends here */
