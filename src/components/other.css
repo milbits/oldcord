@@ -1006,7 +1006,7 @@ code {
 #app-mount .playIcon_d6cb89:hover {
 	color: var(--interactive-active);
 }
-/*
+/* notification settings*/
 .notificationSound_ec96b2 {
 	transform: translateX(-24px);
 	transition: 0.2s ease-out;
@@ -1018,17 +1018,21 @@ code {
 	order: -1;
 	transition: 0.2s ease-out;
 }
-.notificationSound_ec96b2 .soundIcon_ec96b2{
-	opacity: 0 !important
+.notificationSound_ec96b2 .soundIcon_ec96b2 {
+	opacity: 0 !important;
 }
-.notificationSound_ec96b2:hover .soundIcon_ec96b2{
-	opacity: 0.6 !important
+.notificationSound_ec96b2:hover .soundIcon_ec96b2 {
+	opacity: 0.6 !important;
 }
- Capitalize titles in settings
-.title_c46f6a {
+/* Capitalize titles in settings*/
+h2.title_c46f6a {
 	text-transform: uppercase;
 	font-size: 16px;
-}*/
+}
+/*might remove this again for accessibility*/
+h3.h5_c46f6a:not(.isEnabled_ad4a7c) {
+	color: var(--channels-default) !important;
+}
 
 /*Fix favorite button and delete overlap*/
 .imageAccessory_d4597d {
@@ -1045,18 +1049,19 @@ code {
 }
 
 /* Clan/"Guild" cards */
-.container_c22357, .cardStaticHeight_e0fe28.cardContainer_c22357.card_e0fe28 {
+.container_c22357,
+.cardStaticHeight_e0fe28.cardContainer_c22357.card_e0fe28 {
 	cursor: default;
-    -webkit-user-select: none;
-    user-select: none;
-    background-color: var(--background-primary);
-    border-radius: 4px;
-    max-width: 432px;
-    min-width: 160px;
-    width: 100%;
+	-webkit-user-select: none;
+	user-select: none;
+	background-color: var(--background-primary);
+	border-radius: 4px;
+	max-width: 432px;
+	min-width: 160px;
+	width: 100%;
 }
 .cardContentTitleSection_e0fe28 {
-	margin-bottom: -15px;	
+	margin-bottom: -15px;
 }
 
 .nameText_e0fe28 {
@@ -1077,7 +1082,8 @@ code {
 		display: none;
 	}
 }
-.cardFooter_e0fe28, .buttonContainer_c22357 {
+.cardFooter_e0fe28,
+.buttonContainer_c22357 {
 	background: var(--background-tertiary);
 }
 .clanIconInner_e0fe28 {
@@ -1103,7 +1109,7 @@ code {
 .messagesPopoutWrap_ac90a2 {
 	border-radius: 4px;
 }
- 
+
 /* polls */
 .answerInner_cf2c85 {
 	background-color: var(--button-secondary-background);

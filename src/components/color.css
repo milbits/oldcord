@@ -467,6 +467,7 @@
 }
 .theme-dark .closeButton_df5532 svg {
 	color: #dcddde !important;
+	transform: scale(1.15);
 }
 .theme-dark .closeButton_df5532:hover {
 	background: #72767e4d !important;
