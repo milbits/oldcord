@@ -248,7 +248,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	/* specifically for full profiles */
 	text-transform: uppercase;
 	color: var(--header-secondary) !important;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
@@ -1233,7 +1233,8 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	.heading-sm\/semibold_dc00ef,
 	.statusBubbleOuter_d0a252
 	.defaultColor_a595eb,
-	.anchorUnderlineOnHover_af404b.anchor_af404b),
+	.anchorUnderlineOnHover_af404b.anchor_af404b,
+	:is(.scroller_c0721c) .headings_ba4d80 > .defaultColor_e9e35f.text-xs\/semibold_dc00ef),
 	.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b,
 	.clickable_d5cb59 {
 		color: #fff !important;
@@ -1272,9 +1273,13 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	width: 80px;
 	height: 80px;
 }
+[class^="userProfileModalInner"] .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f > .contentImage_dc67b6.contentImage_fa854f {
+	max-width: 80px !important;
+	max-height: 80px !important;
+}
 [class^="userProfileModalInner"] .smallImageContainer_fa854f {
-	width: 30px;
-	height: 30px;
+	width: 30px !important;
+	height: 30px !important;
 	transform: scale(1.3);
 }
 /*! profile modal ends here */
