@@ -72,6 +72,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	border-radius: unset;
 	transition: none;
 }
+[class^="userProfileModalInner"] .popover_bba79b {
+	display: none;
+}
 
 #app-mount .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d {
 	min-height: 0 !important;
@@ -247,7 +250,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
 	text-transform: uppercase;
-	color: var(--header-secondary) !important;
+	color: var(--header-secondary);
 	font-weight: 800;
 }
 
@@ -1208,7 +1211,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 
 /* hide "connections" text */
-:has(.connections_d53fbd).section_ba4d80 > .headings_ba4d80 > .defaultColor_e9e35f.text-xs\/semibold_dc00ef {
+:has(.connections_d53fbd).section_ba4d80 > .headings_ba4d80 > .defaultColor_e42ec6.text-xs\/semibold_dc00ef {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -1234,7 +1237,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	.statusBubbleOuter_d0a252
 	.defaultColor_a595eb,
 	.anchorUnderlineOnHover_af404b.anchor_af404b,
-	:is(.scroller_c0721c) .headings_ba4d80 > .defaultColor_e9e35f.text-xs\/semibold_dc00ef),
+	:is(.scroller_c0721c) .headings_ba4d80 > .defaultColor_e42ec6.text-xs\/semibold_dc00ef),
 	.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b,
 	.clickable_d5cb59 {
 		color: #fff !important;
