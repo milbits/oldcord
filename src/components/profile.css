@@ -274,6 +274,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	fill: #fff !important;
 }
 
+
 /* change activity bg color and padding*/
 .activity_b8cc6d {
 	background-color: var(--play-dark) !important;
@@ -1039,6 +1040,10 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
 	padding-top: 2px;
+	& .defaultColor_a595eb {
+	color: var(--interactive-normal);
+	}
+;
 }
 
 /*note: divider only appears on your own profile dialog */
@@ -1058,6 +1063,10 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	& .selected_a0 .defaultColor_a595eb {
 		color: var(--interactive-active);
 	}
+}
+
+.tabBar_ecc04c .tabBarItem_ecc04c {
+	border-bottom-width: 2px;
 }
 
 .friendRequestBanner_b9fccc {
@@ -1165,6 +1174,8 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 
 .section_ba4d80 .text-xs\/semibold_dc00ef {
 	text-transform: uppercase;
+	color: var(--channels-default) !important;
+	font-weight: 800;
 }
 
 .statusBubbleOuter_d0a252 .defaultColor_a595eb {
@@ -1222,8 +1233,6 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	.heading-sm\/semibold_dc00ef,
 	.statusBubbleOuter_d0a252
 	.defaultColor_a595eb,
-	.section_ba4d80 .text-xs\/semibold_dc00ef,
-	.text-xs\/normal_dc00ef.defaultColor_a595eb,
 	.anchorUnderlineOnHover_af404b.anchor_af404b),
 	.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b,
 	.clickable_d5cb59 {
@@ -1394,6 +1403,10 @@ tl;dr WIP */
 .popout_a35965 {
 	border-radius: 3px;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
+}
+/* remove shadow on status bubbles */
+.avatar_f94206 > .wrapper_c51b4e > svg > circle {
+	display: none;
 }
 /*thing in the member list*/
 .container_c64476 {
