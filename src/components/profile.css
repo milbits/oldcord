@@ -1266,6 +1266,17 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 		background: linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
 	}
 
+/* presence size adjustments */
+
+[class^="userProfileModalInner"] .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f {
+	width: 80px;
+	height: 80px;
+}
+[class^="userProfileModalInner"] .smallImageContainer_fa854f {
+	width: 30px;
+	height: 30px;
+	transform: scale(1.3);
+}
 /*! profile modal ends here */
 
 /** profiles in settings page, its messy but it works lmao */
