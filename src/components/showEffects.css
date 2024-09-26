@@ -37,7 +37,7 @@
     top: 62px !important
 }
 /*move usernames etc. a bit down*/
-.container_c32acf{
+:is(.userPopoutOuter_c69a7b) .container_c32acf{
     padding-top: 50px;
 }
 .statusBubbleOuter_d0a252{
@@ -61,4 +61,12 @@
 
 .custom-profile-theme .footer_b8cc6d .themedBackground_d0696b{
     background: var(--profile-gradient-overlay-color) !important
+}
+
+/* move supplemental buttons down because they're different with effects */
+.bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d {
+    background: none !important;
+}
+[class^="userProfileModalInner"] .bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d {
+    top: 212px;
 }

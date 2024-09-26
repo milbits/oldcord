@@ -496,15 +496,16 @@ code {
 	cursor: pointer;
 }
 /* tweak hover buttons*/
-.hoverButtonGroup_e5c1dc {
+.hoverButtonGroup_d0395d {
 	border-radius: 4px;
 	top: 4px;
 	right: 4px;
 	background-color: transparent;
 	transition: 0.1s ease;
+	outline: none;
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
-.hoverButtonGroup_e5c1dc:not([class^="nonMedia"]) {
+.hoverButtonGroup_d0395d:not([class^="nonVisualMedia"]) {
 	background-color: #00000040;
 }
 /* make download button bigger */
@@ -512,29 +513,35 @@ code {
 	width: 24px;
 	height: 24px;
 }
+/* remove background hover */
+.hoverButton_d0395d:hover {
+	background: none;
+}
 /* center the download button for audio files and make it permanently visible*/
-.wrapperAudio_f72aac + .hoverButtonGroup_e5c1dc {
+.wrapperAudio_f72aac + .hoverButtonGroup_d0395d {
 	top: 25%;
 	right: 8px;
 	transform: translateY(-50%);
 	opacity: 1;
+	background: none;
 }
 /* same as above but for file attachments */
-.attachment_b52bef + .hoverButtonGroup_e5c1dc {
+.attachment_b52bef + .hoverButtonGroup_d0395d {
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
+	background: none;
 }
 /* shorten the margin by a bit so it doesnt look so separated */
-.nonMediaAttachmentItem__80bd4 + .nonMediaAttachmentItem__80bd4,
-.nonMediaAttachmentsContainer__912df {
+.nonVisualMediaItem_cda674 + .nonVisualMediaItem_cda674,
+.nonVisualMediaItemContainer_cda674 {
 	margin-top: 4px;
 }
 /* revert the bloating of the audio attachments */
 .wrapperAudio_f72aac.newMosaicStyle_f72aac {
 	padding: 10px;
 	border-radius: 4px;
-	width: 400px;
+	width: 500px;
 }
 /* revert the bloating of attachments in general */
 .attachment_b52bef.newMosaicStyle_b52bef {
@@ -1088,6 +1095,10 @@ h2.title_c46f6a {
 .body_b9fccc > .clickable_d5cb59 {
 	position: fixed;
 	padding-left: 30px;
+}
+.grow_dd4f85.fullWidth_dd4f85.sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.customButton_ff01f0.button_c22357 {
+	background-color: var(--brand-experiment-530);
+	color: var(--white);
 }
 
 /* pinned messages popout header */
