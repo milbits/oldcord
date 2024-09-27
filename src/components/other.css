@@ -1067,6 +1067,23 @@ h2.title_c46f6a {
 	min-width: 160px;
 	width: 100%;
 }
+.cardStaticHeight_e0fe28.card_a24e0c.card_e0fe28 {
+	cursor: default;
+	-webkit-user-select: none;
+	user-select: none;
+	background-color: var(--background-primary);
+	border-radius: 4px;
+	max-width: 432px;
+	min-width: 160px;
+	width: 200%;
+	height: 300px;
+}
+.sectionContent_a24e0c {
+	column-gap: 200px;
+}
+.content_a56260 {
+	max-width: unset;
+}
 .cardContentTitleSection_e0fe28 {
 	margin-bottom: -15px;
 }
