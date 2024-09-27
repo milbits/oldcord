@@ -541,12 +541,11 @@ code {
 .wrapperAudio_f72aac.newMosaicStyle_f72aac {
 	padding: 10px;
 	border-radius: 4px;
-	width: 100%;
 	padding-right: 41px;
 }
 /* stretch play bar */
 .audioControls_f72aac {
-	width: 106%;
+	width: 108%;
 }
 /* revert the bloating of attachments in general */
 .attachment_b52bef.newMosaicStyle_b52bef {
