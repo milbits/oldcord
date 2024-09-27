@@ -62,15 +62,21 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .accountProfilePopoutWrapper_b2ca13 .singleLineAlign_d0a252 {
 	text-align: left;
 }
+:is(.accountProfilePopoutWrapper_b2ca13) .wrapper_f7e168.visible_bba79b.popover_bba79b {
+	box-shadow: none;
+}
 :is(.accountProfilePopoutWrapper_b2ca13) .popover_bba79b {
 	right: 150px;
 	margin-top: -85px;
 	opacity: 1;
 	background: none;
 	pointer-events: unset;
-	box-shadow: none;
 	border-radius: unset;
+	box-shadow: none;
 	transition: none;
+	& .button_bba79b:hover {
+		background: none;
+	}
 }
 [class^="userProfileModalInner"] .popover_bba79b {
 	display: none;
@@ -99,7 +105,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	margin-top: -3px;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleWithTextPadding_d0a252 {
-	margin-right: 85px;
+	margin-right: 80px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
