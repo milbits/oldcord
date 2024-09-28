@@ -252,9 +252,25 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		content: "a game";
 	}
 }
+.headerText_ae1fa2:has(.live_ec1c2d) {
+	[lang^="en"] &:after {
+		content: "to a server";
+	}
+}
 :is(.headerText_ae1fa2) .live_ec1c2d {
 	display: none;
 }
+
+/* reverts "watch stream" button in vcs */
+:is(.activityStreamPreview_c1d9fd) .lookFilled_dd4f85.colorPrimary_dd4f85 {
+	background: none;
+	border: solid 1px #72767d;
+	transition: color .17s ease,background-color .17s ease,border-color .17s ease;
+	&:hover {
+		border: solid 1px #fff;
+	}
+}
+
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
 	text-transform: uppercase;
