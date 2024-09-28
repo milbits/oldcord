@@ -1066,45 +1066,43 @@ h2.title_c46f6a {
 	max-width: 432px;
 	min-width: 160px;
 	width: 100%;
+	& .nameText_e0fe28 {
+		font-weight: 600;
+		position: fixed;
+		margin-top: -70px;
+		margin-left: 80px;
+	}
+	& .clanInfoRow_e0fe28 {
+		position: fixed;
+		margin-top: -45px;
+		margin-left: 80px;
+	}
 }
-.cardStaticHeight_e0fe28.card_a24e0c.card_e0fe28 {
+.clickableCard_e0fe28, .cardStaticHeight_e0fe28.card_a24e0c.card_e0fe28 {
 	cursor: default;
 	-webkit-user-select: none;
 	user-select: none;
 	background-color: var(--background-primary);
 	border-radius: 4px;
-	max-width: 432px;
+	max-width: 332px;
 	min-width: 160px;
-	width: 200%;
+	width: 100%;
 	height: 300px;
 }
 .sectionContent_a24e0c {
-	column-gap: 200px;
-}
-.content_a56260 {
-	max-width: unset;
+	column-gap: 100px;
+	grid-template-columns: repeat(3, minmax(252px, 1fr)) !important;
 }
 .cardContentTitleSection_e0fe28 {
-	margin-bottom: -15px;
-}
-
-.nameText_e0fe28 {
-	font-weight: 600;
-	position: fixed;
-	margin-top: -70px;
-	margin-left: 80px;
-}
-.clanInfoRow_e0fe28 {
-	position: fixed;
-	margin-top: -45px;
-	margin-left: 80px;
+	margin-bottom: auto;
 }
 .cardBrandingHeader_e0fe28 {
 	margin-top: -50px;
 
 	& > .bannerImage_e0fe28 {
-		display: none;
+	display: none;
 	}
+;
 }
 .cardFooter_e0fe28,
 .buttonContainer_c22357 {
