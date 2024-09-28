@@ -252,7 +252,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		content: "a game";
 	}
 }
-
+:is(.headerText_ae1fa2) .live_ec1c2d {
+	display: none;
+}
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
 	text-transform: uppercase;
