@@ -1264,7 +1264,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
         background: #fff !important;
 	}
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) rect:not(path ~ rect) {
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.headerInner_b9fccc) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .statusBubble_d0a252:before {
