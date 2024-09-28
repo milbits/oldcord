@@ -96,7 +96,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
-
+	
 	& .defaultColor_a595eb {
 		color: var(--white);
 	}
@@ -118,37 +118,14 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		padding: 0px;
 		gap: 0px;
 	}
-	& .username_d4e7c2 {
-		padding: 0px 8px;
-	}
 	& .menus_ad5fac {
 		gap: 0px !important;
 		background: var(--background-floating);
 		padding-bottom: 2px;
 	}
-	& .menuOverlay_ad5fac {
-		background-color: transparent;
-		background: var(--background-floating);
-	}
-	& .menus_ad5fac > .menu_d90b3d > .scroller_d90b3d {
-		padding: 0px !important;
-	}
-	& .menu_ad5fac:last-of-type [role="menu"]:first-of-type::before {
-		content: "";
-		display: block;
-		margin: 7px 4px 8px 4px;
-		border-bottom: 1px solid var(--profile-body-divider-color);
-	}
 	& .userPopoutOuter_c69a7b.userProfileOuter_c69a7b,
 	#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
 		width: 220px;
-		background: var(--background-floating);
-	}
-	& .userPopoutInner_c69a7b {
-		max-height: 100%;
-		width: 220px;
-		gap: 0px;
-		padding-bottom: 0px;
 		background: var(--background-floating);
 	}
 	& .container_c32acf.username_ad5fac {
@@ -157,13 +134,11 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	& .custom-theme-background .menu_d90b3d {
 		border: 0px;
 	}
-	& .statusBubbleShape_d0a252::hover {
-		background-color: var(--blurple); /* this doesn't currently work and i'm unsure of why */
-	}
 }
 
 :is(.menuItemInner_ad5fac.buttonInner_f9d37d.contents_dd4f85):hover {
 	background-color: var(--brand-experiment-560);
+	border-radius: 2px;
 
 	& .menuItemLabel_ad5fac {
 		color: var(--white);
@@ -773,6 +748,10 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
 	margin-top: 12px;
+	transition: border-color .2s ease-in-out;
+	&:focus-within {
+	border: solid 1px var(--brand-experiment-530) !important;
+	}
 }
 /** Bio*/
 
