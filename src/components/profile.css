@@ -735,7 +735,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	background: var(--play, var(--background-tertiary));
 	padding-left: 12px;
 	padding-bottom: 3px;
-	order: -1
+	order: -1;
 	& .text_fc9b46.text-sm\/normal_dc00ef {
 		font-size: 10px !important;
 	}
