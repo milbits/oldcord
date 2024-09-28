@@ -933,7 +933,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 .chipletContainerInner_d5cb59 {
 	border: 1px solid var(--background-modifier-accent);
-	background: transparent;
+	background: transparent !important;
 }
 .unselectable_d5cb59 {
 	color: var(--channels-default);
