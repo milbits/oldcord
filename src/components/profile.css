@@ -732,9 +732,10 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 /* mutuals section
 maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .mutuals_fc9b46 {
-	background: var(--play-dark, var(--background-tertiary));
+	background: var(--play, var(--background-tertiary));
 	padding-left: 12px;
 	padding-bottom: 3px;
+	order: -1
 	& .text_fc9b46.text-sm\/normal_dc00ef {
 		font-size: 10px !important;
 	}
