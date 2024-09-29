@@ -548,6 +548,12 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .fullSizeOuter_c69a7b .container_c32acf:not(:has(.container_b64375)) /*more padding for profiles without badges*/ {
 	padding-bottom: 40px;
 }
+.fullSizeOuter_c69a7b .container_c32acf:has(.container_b64375) /*more padding for profiles with badges but without pronouns*/ {
+	padding-bottom: 40px;
+}
+.fullSizeOuter_c69a7b:has(.statusEmojiOnly_d0a252) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
+	padding-bottom: 90px !important;
+}
 .usernameRow_c32acf {
 	text-align: center;
 	color: var(--interactive-active);
@@ -1183,6 +1189,12 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 		line-height: 22px;
 		margin-left: 5px;
 	}
+	& .singleLineAlign_d0a252:has(.statusEmojiInline_d0a252) {
+		margin-left: 5px;
+	}
+	& .singleLineAlign_d0a252:has(.statusEmojiOnly_d0a252) {
+		margin-left: -53px;
+	}
 }
 :has(.statusBubble_d0a252) [class^="userProfileModalInner"] .container_c32acf {
 	padding-bottom: 75px;
@@ -1190,7 +1202,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 		padding-bottom: 90px;
 	}
 	&:has(.container_b64375) {
-		padding-bottom: 60px;
+		padding-bottom: 80px;
 	}
 }
 
