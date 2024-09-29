@@ -769,9 +769,6 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	border: solid 1px var(--background-tertiary) !important;
 	margin-top: 12px;
 	transition: border-color .2s ease-in-out;
-	&:focus-within {
-	border: solid 1px var(--brand-experiment-530) !important;
-	}
 }
 .footer_b8cc6d .scrollableContainer_d0696b {
 	margin-right: -5px;
