@@ -64,6 +64,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .wrapper_f7e168.visible_bba79b.popover_bba79b {
 	box-shadow: none;
+	animation: none;
+	opacity: 1;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .popover_bba79b {
 	right: 150px;
@@ -76,6 +78,17 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	transition: none;
 	& .button_bba79b:hover {
 		background: none;
+	}
+	& .button_f7e168.left_bba79b.button_bba79b {
+		padding-left: 147px;
+		border-radius: 0px;
+		opacity: 0;
+	}
+	& .button_f7e168.right_bba79b.button_bba79b
+		 > svg
+		 > path {
+		d: path("M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361328 10.6819 3.346 13.6666 7.02799 13.6666C10.71 13.6666 13.6947 10.6819 13.6947 6.99992C13.6947 3.31792 10.7093 0.333252 7.02799 0.333252ZM10.166 9.19525L9.22333 10.1379L7.02799 7.94325L4.83266 10.1379L3.89 9.19525L6.08466 6.99992L3.88933 4.80459L4.832 3.86259L7.02733 6.05792L9.22266 3.86259L10.1653 4.80459L7.97066 6.99992L10.166 9.19525Z");
+		transform: scale(1.7);
 	}
 }
 [class^="userProfileModalInner"] .popover_bba79b {
@@ -101,11 +114,12 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		color: var(--white);
 	}
 }
-.content_d0a252 {
+:is(.accountProfilePopoutWrapper_b2ca13) .content_d0a252 {
 	margin-top: -3px;
+	max-width: 153px;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleWithTextPadding_d0a252 {
-	margin-right: 80px;
+	margin-right: 73px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
@@ -753,6 +767,11 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	border: solid 1px var(--brand-experiment-530) !important;
 	}
 }
+.footer_b8cc6d .scrollableContainer_d0696b {
+	margin-right: -5px;
+	margin-left: -5px;
+}
+
 /** Bio*/
 
 .descriptionClamp_abaf7d .text-sm\/normal_dc00ef {
@@ -1186,7 +1205,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	font-weight: 800;
 }
 
-.statusBubbleOuter_d0a252 .defaultColor_a595eb {
+[class^="userProfileModalInner"] .statusBubbleOuter_d0a252 .defaultColor_a595eb {
 	margin-left: 5px;
 }
 
