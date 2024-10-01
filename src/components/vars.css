@@ -58,7 +58,7 @@
 	--primary-transparent: #ffffff1a;
 }
 
-html.theme-light {
+.theme-light:not(html.custom-theme-background,:has(#clientThemeVars)) {
 	--channeltextarea-background: #ebedef;
 	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);

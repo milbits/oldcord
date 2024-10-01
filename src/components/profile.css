@@ -84,10 +84,10 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		border-radius: 0px;
 		opacity: 0;
 	}
-	& .button_f7e168.right_bba79b.button_bba79b
-		 > svg
-		 > path {
-		d: path("M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361328 10.6819 3.346 13.6666 7.02799 13.6666C10.71 13.6666 13.6947 10.6819 13.6947 6.99992C13.6947 3.31792 10.7093 0.333252 7.02799 0.333252ZM10.166 9.19525L9.22333 10.1379L7.02799 7.94325L4.83266 10.1379L3.89 9.19525L6.08466 6.99992L3.88933 4.80459L4.832 3.86259L7.02733 6.05792L9.22266 3.86259L10.1653 4.80459L7.97066 6.99992L10.166 9.19525Z");
+	& .button_f7e168.right_bba79b.button_bba79b > svg > path {
+		d: path(
+			"M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361328 10.6819 3.346 13.6666 7.02799 13.6666C10.71 13.6666 13.6947 10.6819 13.6947 6.99992C13.6947 3.31792 10.7093 0.333252 7.02799 0.333252ZM10.166 9.19525L9.22333 10.1379L7.02799 7.94325L4.83266 10.1379L3.89 9.19525L6.08466 6.99992L3.88933 4.80459L4.832 3.86259L7.02733 6.05792L9.22266 3.86259L10.1653 4.80459L7.97066 6.99992L10.166 9.19525Z"
+		);
 		transform: scale(1.7);
 	}
 }
@@ -109,7 +109,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	width: 180px;
 	border-radius: 2px;
 	block-size: 12px;
-	
+
 	& .defaultColor_a595eb {
 		color: var(--white);
 	}
@@ -254,7 +254,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 :is(.activityStreamPreview_c1d9fd) .lookFilled_dd4f85.colorPrimary_dd4f85 {
 	background: none;
 	border: solid 1px #72767d;
-	transition: color .17s ease,background-color .17s ease,border-color .17s ease;
+	transition: color 0.17s ease, background-color 0.17s ease, border-color 0.17s ease;
 	&:hover {
 		border: solid 1px #fff;
 	}
@@ -270,6 +270,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .biteSizeInnerThemed_c69a7b .headerText_ae1fa2 {
 	text-transform: uppercase;
 	font-weight: 700;
+	.theme-light & {
+		color: white !important;
+	}
 }
 /* make activity the first section*/
 .activity_b8cc6d {
@@ -289,7 +292,6 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .userProfileInner_c69a7b:has(.activity_b8cc6d) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
-
 
 /* change activity bg color and padding*/
 .activity_b8cc6d {
@@ -332,10 +334,10 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .badgeContainer_d60c6d svg:has(+ .bold_c5d1c1) {
 	display: none;
 }
-.badgeContainer_d60c6d path {
+html.theme-dark .badgeContainer_d60c6d path {
 	fill: white;
 }
-.userProfileInner_c69a7b:has(.activity_b8cc6d) .badges_ae1fa2 > .badgeContainer_d60c6d:nth-of-type(2){
+.userProfileInner_c69a7b:has(.activity_b8cc6d) .badges_ae1fa2 > .badgeContainer_d60c6d:nth-of-type(2) {
 	order: -1;
 	margin-top: -5px;
 }
@@ -553,14 +555,16 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 }
 .usernameRow_c32acf {
 	text-align: center;
-	color: var(--interactive-active);
 	display: unset;
 }
 .nickname_c32acf {
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 600;
-	color: #fff;
+	color: var(--interactive-active);
+	.theme-light:has(.activity_b8cc6d) & {
+		color: white;
+	}
 }
 .tags_c32acf,
 .info_e86508:not(.alignPomelo_f3939d),
@@ -732,41 +736,24 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	& .text_fc9b46.text-sm\/normal_dc00ef {
 		font-size: 10px !important;
 	}
-	align-self: center
-}
-/* .mutuals_fc9b46 {
-	margin-left: 12px;
-	margin-top: 5px;
-	max-width: 157px;
-	& .text_fc9b46.text-xs\/normal_dc00ef,
-	.text_fc9b46.text-sm\/normal_dc00ef {
-		font-size: 14px !important;
-		color: var(--text-normal) !important;
-		line-height: 1.2857142857142858;
+	.theme-light & .text_fc9b46.text-sm\/normal_dc00ef {
+		color: white !important;
 	}
 }
-.mutuals_fc9b46:before {
-	content: "MUTUALS";
-	font-size: 12px;
-	color: var(--header-secondary);
-	font-weight: 800;
-	font-family: var(--font-display);
-	padding-bottom: 5px;
-}
-[lang="DE"] .mutuals_fc9b46:before {
-	content: "GEMEINSAM";
-}
-*/
-/*DM text area*/
-/*WIP: fix it*/
+
+/*profile DM box*/
 .footer_b8cc6d:has(.channelTextArea_d0696b) {
 	border-top: 1px solid rgba(32, 34, 37, 0.3);
+	.theme-light & {
+		border-color: rgba(54, 57, 63, 0.1);
+	}
 }
+
 .footer_b8cc6d .themedBackground_d0696b {
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
 	margin-top: 12px;
-	transition: border-color .2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
 }
 .footer_b8cc6d .scrollableContainer_d0696b {
 	margin-right: -5px;
@@ -1068,9 +1055,8 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
 	& .defaultColor_a595eb {
-	color: var(--interactive-normal);
+		color: var(--interactive-normal);
 	}
-;
 }
 
 /*note: divider only appears on your own profile dialog */
@@ -1200,7 +1186,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	}
 }
 
-[class^="userProfileModalInner"] .details_ae1fa2  .text-xs\/normal_dc00ef  {
+[class^="userProfileModalInner"] .details_ae1fa2 .text-xs\/normal_dc00ef {
 	font-size: 14px;
 	color: var(--white) !important;
 }
@@ -1237,7 +1223,6 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .section_ba4d80:has(.connections_d53fbd) {
 	order: 1;
 	padding: 0;
-
 }
 
 /* hide "connections" text */
@@ -1253,39 +1238,40 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 
 /* rich presence profile theming */
 
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(
-	.container_c32acf, 
-	.headerInner_b9fccc) {
-		background-color: var(--blurple);
-	}
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.userTagUsername_c32acf, 
-	.pronounsText_c32acf, 
-	.headerInner_b9fccc, 
-	.scroller_c0721c, 
-	.headerText_ae1fa2.defaultColor_e9e35f.text-xs\/medium_dc00ef, 
-	.heading-sm\/semibold_dc00ef,
-	.statusBubbleOuter_d0a252
-	.defaultColor_a595eb,
-	.anchorUnderlineOnHover_af404b.anchor_af404b,
-	:is(.scroller_c0721c) .headings_ba4d80 > .defaultColor_e42ec6.text-xs\/semibold_dc00ef),
-	.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b,
-	.clickable_d5cb59 {
-		color: #fff !important;
-	}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.container_c32acf, .headerInner_b9fccc) {
+	background-color: var(--blurple);
+}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+	:is(
+		.userTagUsername_c32acf,
+		.pronounsText_c32acf,
+		.headerInner_b9fccc,
+		.scroller_c0721c,
+		.headerText_ae1fa2.defaultColor_e9e35f.text-xs\/medium_dc00ef,
+		.heading-sm\/semibold_dc00ef,
+		.statusBubbleOuter_d0a252 .defaultColor_a595eb,
+		.anchorUnderlineOnHover_af404b.anchor_af404b,
+		:is(.scroller_c0721c) .headings_ba4d80 > .defaultColor_e42ec6.text-xs\/semibold_dc00ef
+	),
+.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b,
+.clickable_d5cb59 {
+	color: #fff !important;
+}
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
 	.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
 	> .buttonInner_f9d37d.contents_dd4f85,
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
-	:is(.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
-	> .buttonInner_f9d37d.contents_dd4f85,
-	.lookFilled_dd4f85.colorPrimary_dd4f85) {
+	:is(
+		.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
+			> .buttonInner_f9d37d.contents_dd4f85,
+		.lookFilled_dd4f85.colorPrimary_dd4f85
+	) {
 	color: var(--blurple) !important;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.sizeSmall_dd4f85.button_f9d37d,
-.lookFilled_dd4f85.colorPrimary_dd4f85) {
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.sizeSmall_dd4f85.button_f9d37d, .lookFilled_dd4f85.colorPrimary_dd4f85) {
 	background-color: #fff;
-    &:hover {
-        background: #fff !important;
+	&:hover {
+		background: #fff !important;
 	}
 }
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.headerInner_b9fccc) rect:not(path ~ rect) {
@@ -1294,11 +1280,10 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .statusBubble_d0a252:before {
 	color: #fff;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.tabBar_ecc04c,
-	.scroller_c0721c,
-	.card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b) {
-		background: linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
-	}
+[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+	:is(.tabBar_ecc04c, .scroller_c0721c, .card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b) {
+	background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
+}
 
 /* presence size adjustments */
 
@@ -1474,6 +1459,12 @@ tl;dr WIP */
 }
 .interactionsContainerHeader_a35965 /*weird line*/ {
 	border: none;
+}
+.badgeContainer_d60c6d path {
+	fill: black;
+}
+.theme-light .popoutContentWrapper_a35965 :is(.defaultColor_a595eb, .lineClamp1_a595eb) {
+	color: #000000 !important;
 }
 /*shitty dm box that has 0 reason to exist but the whole purpose of this theme is to not remove anything so im styling it*/
 .interactionsContainer_a35965 {

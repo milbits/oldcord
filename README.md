@@ -22,7 +22,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| Show Profile Cosmetics | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
+| Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
@@ -76,8 +76,3 @@ Paste the following in `Settings > Themes`:
 @import url("https://milbits.github.io/oldcord/src/main.css");
 ```
 
----
-
-# Credits
-
-- Icon Revert Source: [Icon Revert 2023](https://github.com/davart154/Icon-Revert-2023/) by [davart154](https://github.com/davart154)
