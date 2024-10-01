@@ -1172,10 +1172,10 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 		line-height: 22px;
 		margin-left: 5px;
 	}
-	& .singleLineAlign_d0a252:has(.statusEmojiInline_d0a252) {
+	& .clamp_d0a252.content_d0a252:has(.statusEmojiInline_d0a252) {
 		margin-left: 5px;
 	}
-	& .singleLineAlign_d0a252:has(.statusEmojiOnly_d0a252) {
+	& .clamp_d0a252.content_d0a252:has(.statusEmojiOnly_d0a252) {
 		margin-left: -53px;
 	}
 }
