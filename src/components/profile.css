@@ -1067,7 +1067,6 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
-	padding-top: 2px;
 	& .defaultColor_a595eb {
 	color: var(--interactive-normal);
 	}
@@ -1257,7 +1256,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(
 	.container_c32acf, 
 	.headerInner_b9fccc) {
-		background-color: var(--blurple) !important;
+		background-color: var(--blurple);
 	}
 [class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.userTagUsername_c32acf, 
 	.pronounsText_c32acf, 

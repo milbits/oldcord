@@ -67,6 +67,20 @@
 .bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d {
     background: none !important;
 }
-[class^="userProfileModalInner"] .bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d {
-    top: 212px;
+
+/* banners behind headers */
+[class^="userProfileModalInner"] .mask_d5fdb1 {
+	position: absolute;
+	z-index: 2;
+	opacity: 25%;
+}
+[class^="userProfileModalInner"] .headerInner_b9fccc {
+    background: transparent !important;
+}
+
+[class^="userProfileModalInner"]:has(.mask_d5fdb1) .body_b9fccc {
+    z-index: 2;
+    & .container_c32acf {
+        background: transparent !important;
+    }
 }
