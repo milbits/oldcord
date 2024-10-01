@@ -892,6 +892,9 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	border: 1px solid var(--interactive-muted);
 	background: none;
 	border-radius: 999%;
+	.theme-light & {
+		border-color: #b9bbbe;
+	}
 }
 
 .messageInputContainer_f2c0a8 {
@@ -1054,6 +1057,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
+	padding-top: 2px;
 	& .defaultColor_a595eb {
 		color: var(--interactive-normal);
 	}
