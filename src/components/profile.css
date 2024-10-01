@@ -1057,7 +1057,6 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
-	padding-top: 2px;
 	& .defaultColor_a595eb {
 		color: var(--interactive-normal);
 	}
