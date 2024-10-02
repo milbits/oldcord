@@ -1202,9 +1202,3 @@ h2.title_c46f6a {
 	padding-left: 4px;
 	padding-right: 4px;
 }
-
-/* remove separators from 3 dot menu */
-
-:is(.scrollerBase_c49869.thin_c49869.scroller_d90b3d) .separator_d90b3d {
-	display: none;
-}
