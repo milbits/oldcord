@@ -1202,3 +1202,18 @@ h2.title_c46f6a {
 	padding-left: 4px;
 	padding-right: 4px;
 }
+
+/* forwarding modal */
+
+:is(.footerButtons_d0585c, .channelTextArea_d0696b) .messageInput_d0585c, .sendWithMessage_d0585c {
+	border-radius: 3px;
+	height: 38px;
+	overflow: hidden;
+	& .slateTextArea_e52116, .placeholder_a552a6 {
+		line-height: 15px;
+	}
+	& .expression-picker-chat-input-button {
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+}
