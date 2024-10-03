@@ -84,3 +84,11 @@
         background: transparent !important;
     }
 }
+
+/* tinted text & profile */
+.userPopoutInner_c69a7b,
+.userProfileModalInner_c69a7b,
+.userProfileOuterThemed_c69a7b {
+    --theme-base-color-amount: 50% !important; 
+	--theme-text-color-amount: 25% !important;
+}

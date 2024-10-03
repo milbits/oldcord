@@ -460,6 +460,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
+	--theme-base-color-amount: unset !important; 
+	--theme-text-color-amount: unset !important;
 }
 .userPopoutOuter_c69a7b,
 .userPopoutOverlayBackground_c69a7b {
@@ -833,7 +835,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	margin-top: 12px;
 }
 .role_f9575e {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 .addButtonIcon_e4010c {
@@ -895,6 +897,11 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	.theme-light & {
 		border-color: #b9bbbe;
 	}
+}
+
+/* remove "add role" text */
+.buttonInner_f9d37d.contents_dd4f85 > .text-xs\/normal_dc00ef {
+	display: none;
 }
 
 .messageInputContainer_f2c0a8 {
