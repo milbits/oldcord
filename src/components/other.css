@@ -37,6 +37,11 @@
 code {
 	font-family: "Source Code Pro";
 }
+.eyebrow /*rare NORMAL class??!?!??!?!!*/ {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 12px
+}
 
 /*bot tag*/
 :not(.botTagOP_a9e77f, .botTagRemix_a9e77f) > .botText_a9e77f {
@@ -49,7 +54,6 @@ code {
 		visibility: visible;
 	}
 }
-
 [class^="botTag"] {
 	border-radius: 3px !important;
 }
