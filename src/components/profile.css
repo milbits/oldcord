@@ -206,7 +206,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	}
 
 	/* Watching Crunchyroll*/
-	&:has([alt="Crunchyroll"]) {
+	&:has([alt*="Season"]) {
 		--play: var(--crunchyroll);
 		--play-dark: var(--crunchyroll-dark);
 	}
