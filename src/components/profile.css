@@ -212,7 +212,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	}
 
 	/* Watching Watch Together*/
-	&:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+	&:has([src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]) {
 		--play: var(--youtube);
 		--play-dark: var(--youtube-dark);
 	}
@@ -233,7 +233,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 .platformIcon_ae1fa2 {
 	display: none;
 }
-.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2)) {
+
+.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]})) {
 	[lang="de"] &:after {
 		content: "ein spiel";
 	}
@@ -259,6 +260,23 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		border: solid 1px #fff;
 	}
 }
+/*progress bar (like on spotify statuses)*/
+.activity_b8cc6d .bar_b5cd55 {
+    background:rgba(79,84,92,.16);
+    height: 4px;
+}
+.activity_b8cc6d .progress_b5cd55 {
+    background: #fff;
+    height: 4px;
+}
+.text_b5cd55{
+	font-size: 14px !important;
+	font-weight: 500;
+	font-family: var(--font-primary) !important;
+	font-variant-numeric: normal;
+	width: 38px
+}
+
 
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
@@ -309,7 +327,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	color: var(--play-secondary) !important;
 }
 .userProfileInner_c69a7b:has(.activity_b8cc6d) .section_fc9b46 > .text_fc9b46.text-xs\/normal_dc00ef {
-	color: var(--white) !important;
+	color: #fff !important;
 }
 .activity_b8cc6d .timestamp_c5d1c1,
 .timestamp_c5d1c1.bold_c5d1c1 {
@@ -319,6 +337,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	font-family: var(--font-primary) !important;
 	font-variant-numeric: normal;
 	font-feature-settings: normal;
+	width: 1000px;
 	color: #f6fbf9 !important /*not accurate to original but tbh it looks better? maybe??*/;
 	[lang^="en"] &:after {
 		content: " elapsed";
@@ -373,7 +392,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 
 /* since the padding of the profile is gone, add padding to every section*/
 .descriptionClamp_abaf7d,
-.root_e6f2d0 {
+.root_e6f2d0,
+.section_ba4d80:has(.list_b6fd3d){
 	padding-left: 12px;
 }
 .body_b8cc6d {
@@ -560,6 +580,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	display: unset;
 }
 .nickname_c32acf {
+	padding-top: 3px;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 600;
@@ -578,7 +599,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	display: none;
 }
 .userTagUsername_c32acf {
-	color: var(--play-secondary, var(--text-secondary));
+	color: var(--play-secondary-2, var(--text-secondary));
 	&:before {
 		content: "@";
 	}
@@ -652,9 +673,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 		margin-left: 240px;
 		margin-top: auto;
 		max-height: 38px;
-		cursor: text;
 		white-space: pre-wrap;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	top: 100%;
 	position: absolute;
@@ -828,7 +848,9 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 [lang="DE"] .root_e6f2d0:before {
 	content: "ROLLEN";
 }
-
+section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/{
+	display: none
+}
 .root_e6f2d0 {
 	position: relative;
 	margin-bottom: 22px;
@@ -861,6 +883,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 .role_f9575e .roleRemoveButton_f9575e {
 	position: static;
+	cursor: unset
 }
 .roleCircle_a26d7b {
 	margin: 0 4px 0px 1px !important;
