@@ -520,7 +520,6 @@ html.theme-dark .badgeContainer_d60c6d path {
 .avatar_f94206 {
 	left: 34% !important;
 	position: relative !important;
-	padding-bottom: 16px;
 	top: 13px !important;
 	width: 0;
 }
@@ -580,7 +579,6 @@ html.theme-dark .badgeContainer_d60c6d path {
 	display: unset;
 }
 .nickname_c32acf {
-	padding-top: 3px;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 600;
