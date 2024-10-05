@@ -75,4 +75,6 @@ Paste the following in `Settings > Themes`:
 ```css
 @import url("https://milbits.github.io/oldcord/src/main.css");
 ```
+----
 
+###### not associated with https://oldcord.com/ or dtm-16
