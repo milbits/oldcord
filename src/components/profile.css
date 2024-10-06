@@ -54,6 +54,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	top: -103px !important;
 	white-space: nowrap;
 	text-align: left !important;
+	left: -105px;
 }
 .accountProfilePopoutWrapper_b2ca13 .visibleContainer_d0a252.biteSize_d0a252 {
 	bottom: 0;
@@ -212,7 +213,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	}
 
 	/* Watching Watch Together*/
-	&:has([src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]) {
+	&:has([src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])
+	{
 		--play: var(--youtube);
 		--play-dark: var(--youtube-dark);
 	}
@@ -234,7 +236,8 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	display: none;
 }
 
-.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])) {
+.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]))
+{
 	[lang="de"] &:after {
 		content: "ein spiel";
 	}
@@ -262,21 +265,20 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 }
 /*progress bar (like on spotify statuses)*/
 .activity_b8cc6d .bar_b5cd55 {
-    background:rgba(79,84,92,.16);
-    height: 4px;
+	background: rgba(79, 84, 92, 0.16);
+	height: 4px;
 }
 .activity_b8cc6d .progress_b5cd55 {
-    background: #fff;
-    height: 4px;
+	background: #fff;
+	height: 4px;
 }
-.text_b5cd55{
+.text_b5cd55 {
 	font-size: 14px !important;
 	font-weight: 500;
 	font-family: var(--font-primary) !important;
 	font-variant-numeric: normal;
-	width: 38px
+	width: 38px;
 }
-
 
 [class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
@@ -393,7 +395,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 /* since the padding of the profile is gone, add padding to every section*/
 .descriptionClamp_abaf7d,
 .root_e6f2d0,
-.section_ba4d80:has(.list_b6fd3d){
+.section_ba4d80:has(.list_b6fd3d) {
 	padding-left: 12px;
 }
 .body_b8cc6d {
@@ -420,9 +422,6 @@ html.theme-dark .badgeContainer_d60c6d path {
 	color: var(--blurple);
 	font-size: 14px;
 	font-weight: 500;
-}
-[lang="DE"] .preview_bad983:before {
-	content: "[ Deaktiviere OldCord für eine akkurate Vorschau ]";
 }
 
 .customizationSection_b3a5c2 .container_c32acf {
@@ -480,7 +479,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
-	--theme-base-color-amount: unset !important; 
+	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
 }
 .userPopoutOuter_c69a7b,
@@ -589,20 +588,21 @@ html.theme-dark .badgeContainer_d60c6d path {
 	}
 }
 .tags_c32acf,
-.info_e86508:not(.alignPomelo_f3939d){
+.info_e86508:not(.alignPomelo_f3939d) {
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
-	row-gap: 0 !important
+	row-gap: 0 !important;
 }
-.userProfileModalInner_c69a7b :is(.tags_c32acf,.info_e86508:not(.alignPomelo_f3939d)){
+.userProfileModalInner_c69a7b :is(.tags_c32acf, .info_e86508:not(.alignPomelo_f3939d)) {
 	display: unset;
 	text-align: center;
 }
 .dotSpacer_c32acf {
 	display: none;
 }
-.userTagUsername_c32acf,.userTagDiscriminator_c32acf {
+.userTagUsername_c32acf,
+.userTagDiscriminator_c32acf {
 	color: var(--play-secondary-2, var(--text-secondary));
 	:not(:has(.userTagDiscriminator_c32acf)) &:before {
 		content: "@";
@@ -616,11 +616,10 @@ html.theme-dark .badgeContainer_d60c6d path {
 .userPopoutOuter_c69a7b:has(.activity_b8cc6d) .botTagRegular_a9e77f {
 	background-color: var(--white-500);
 	color: var(--blurple);
-	& svg path{
-		fill: var(--blurple) !important
+	& svg path {
+		fill: var(--blurple) !important;
 	}
 }
-
 
 /** Custom status*/
 .statusBubbleOuter_d0a252 {
@@ -632,8 +631,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 	background: none !important;
 	text-align: center;
 }
-.visibleContainer_d0a252.biteSize_d0a252{
-	left: -230px
+.visibleContainer_d0a252.biteSize_d0a252 {
+	left: -230px;
 }
 
 :has(.pronouns_c32acf) .statusBubbleOuter_d0a252 {
@@ -785,7 +784,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .footer_b8cc6d .themedBackground_d0696b {
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
-	margin-top: 12px
+	margin-top: 12px;
 }
 .footer_b8cc6d .scrollableContainer_d0696b {
 	margin-right: -5px;
@@ -858,8 +857,8 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 [lang="DE"] .root_e6f2d0:before {
 	content: "ROLLEN";
 }
-section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/{
-	display: none
+section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
+	display: none;
 }
 .root_e6f2d0 {
 	position: relative;
@@ -893,7 +892,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/{
 }
 .role_f9575e .roleRemoveButton_f9575e {
 	position: static;
-	cursor: unset
+	cursor: unset;
 }
 .roleCircle_a26d7b {
 	margin: 0 4px 0px 1px !important;
@@ -952,31 +951,31 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/{
 
 /** bot profile*/
 /*may or may not be inspired by dtm-16 :3*/
-.buttons_ce21cc{
+.buttons_ce21cc {
 	order: -1;
-	gap: 0
+	gap: 0;
 }
 /*WIP: make it look nicer on bots without activity*/
-.buttons_ce21cc .lookFilled_dd4f85{
+.buttons_ce21cc .lookFilled_dd4f85 {
 	background: var(--play, var(--background-primary));
 	border-radius: 0;
-	&.colorBrand_dd4f85{
-		border-left: 1px solid rgb(255, 255, 255, 0.3)
+	&.colorBrand_dd4f85 {
+		border-left: 1px solid rgb(255, 255, 255, 0.3);
 	}
-	:has(.activity_b8cc6d) &{
+	:has(.activity_b8cc6d) & {
 		border-top: 1px solid rgb(255, 255, 255, 0.3);
 	}
-	&:hover{
+	&:hover {
 		background: var(--background-primary) !important;
 	}
-	&:active{
+	&:active {
 		background: var(--primary-transparent) !important;
 	}
-	:has(.activity_b8cc6d) &:hover{
-		background: var(--brand-experiment-460) !important
+	:has(.activity_b8cc6d) &:hover {
+		background: var(--brand-experiment-460) !important;
 	}
-	:has(.activity_b8cc6d) &:active{
-		background: var(--brand-experiment-400) !important
+	:has(.activity_b8cc6d) &:active {
+		background: var(--brand-experiment-400) !important;
 	}
 }
 
