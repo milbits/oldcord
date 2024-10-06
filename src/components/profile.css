@@ -505,7 +505,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	box-shadow: none;
 	padding: 0 !important;
 	display: flex;
-	min-height: 100px !important;
+	min-height: 105px !important;
 }
 
 .userProfileInner_c69a7b {
@@ -567,6 +567,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
 	padding-bottom: 10px;
+	gap: 0 !important;
 }
 .fullSizeOuter_c69a7b .container_c32acf:is(:not(:has(.container_b64375)), :has(.container_b64375)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
 	padding-bottom: 40px;
@@ -576,7 +577,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 .biteSizeInner_c69a7b .usernameRow_c32acf {
 	text-align: center;
-	display: unset;
+	justify-content: center;
 }
 .nickname_c32acf {
 	font-size: 16px;
@@ -588,17 +589,21 @@ html.theme-dark .badgeContainer_d60c6d path {
 	}
 }
 .tags_c32acf,
-.info_e86508:not(.alignPomelo_f3939d),
-.userTag_c32acf:not(.fullSize_c32acf .pronounsText_c32acf) /*bot usernames*/ {
+.info_e86508:not(.alignPomelo_f3939d){
+	justify-content: center;
+	text-align: center;
+	flex-direction: column
+}
+.userProfileModalInner_c69a7b :is(.tags_c32acf,.info_e86508:not(.alignPomelo_f3939d)){
 	display: unset;
 	text-align: center;
 }
 .dotSpacer_c32acf {
 	display: none;
 }
-.userTagUsername_c32acf {
+.userTagUsername_c32acf,.userTagDiscriminator_c32acf {
 	color: var(--play-secondary-2, var(--text-secondary));
-	&:before {
+	:not(:has(.userTagDiscriminator_c32acf)) &:before {
 		content: "@";
 	}
 }
@@ -610,21 +615,28 @@ html.theme-dark .badgeContainer_d60c6d path {
 .userPopoutOuter_c69a7b:has(.activity_b8cc6d) .botTagRegular_a9e77f {
 	background-color: var(--white-500);
 	color: var(--blurple);
+	& svg path{
+		fill: var(--blurple) !important
+	}
 }
+
 
 /** Custom status*/
 .statusBubbleOuter_d0a252 {
 	position: relative;
-	right: 106px;
+	right: -230px;
 	top: 25px;
 	min-width: 250px;
 	box-shadow: none;
 	background: none !important;
 	text-align: center;
 }
+.visibleContainer_d0a252.biteSize_d0a252{
+	left: -230px
+}
 
 :has(.pronouns_c32acf) .statusBubbleOuter_d0a252 {
-	top: 50px;
+	top: 51px;
 }
 :has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
 	padding-bottom: 50px;
@@ -772,8 +784,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 .footer_b8cc6d .themedBackground_d0696b {
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
-	margin-top: 12px;
-	transition: border-color 0.2s ease-in-out;
+	margin-top: 12px
 }
 .footer_b8cc6d .scrollableContainer_d0696b {
 	margin-right: -5px;
@@ -936,6 +947,36 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/{
 	text-align: center;
 	margin-top: 10px;
 	color: var(--interactive-normal);
+}
+
+/** bot profile*/
+/*may or may not be inspired by dtm-16 :3*/
+.buttons_ce21cc{
+	order: -1;
+	gap: 0
+}
+/*WIP: make it look nicer on bots without activity*/
+.buttons_ce21cc .lookFilled_dd4f85{
+	background: var(--play, var(--background-primary));
+	border-radius: 0;
+	&.colorBrand_dd4f85{
+		border-left: 1px solid rgb(255, 255, 255, 0.3)
+	}
+	:has(.activity_b8cc6d) &{
+		border-top: 1px solid rgb(255, 255, 255, 0.3);
+	}
+	&:hover{
+		background: var(--background-primary) !important;
+	}
+	&:active{
+		background: var(--primary-transparent) !important;
+	}
+	:has(.activity_b8cc6d) &:hover{
+		background: var(--brand-experiment-460) !important
+	}
+	:has(.activity_b8cc6d) &:active{
+		background: var(--brand-experiment-400) !important
+	}
 }
 
 /** full profile modal */
