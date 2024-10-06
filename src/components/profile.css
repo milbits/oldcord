@@ -592,7 +592,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 .info_e86508:not(.alignPomelo_f3939d){
 	justify-content: center;
 	text-align: center;
-	flex-direction: column
+	flex-direction: column;
+	row-gap: 0 !important
 }
 .userProfileModalInner_c69a7b :is(.tags_c32acf,.info_e86508:not(.alignPomelo_f3939d)){
 	display: unset;
