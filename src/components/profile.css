@@ -234,7 +234,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	display: none;
 }
 
-.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]})) {
+.headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])) {
 	[lang="de"] &:after {
 		content: "ein spiel";
 	}
