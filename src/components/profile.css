@@ -92,7 +92,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		transform: scale(1.7);
 	}
 }
-[class^="userProfileModalInner"] .popover_bba79b {
+.userProfileModalInner_c69a7b .popover_bba79b {
 	display: none;
 }
 
@@ -220,13 +220,13 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	}
 
 	/* Playing on XBOX*/
-	&:has([style*="/assets/9109430b0f2514a0c674.png"]) {
+	&:has([src="/assets/9109430b0f2514a0c674.png"]) {
 		--play: var(--xbox);
 		--play-dark: var(--xbox-dark);
 	}
 
 	/* Playing on PlayStation*/
-	&:has([style*="/assets/8fca7fcefaac64787658.svg"]) {
+	&:has([src="/assets/8fca7fcefaac64787658.svg"]) {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
@@ -280,7 +280,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	width: 38px;
 }
 
-[class^="userProfileModalInner"] .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
+.userProfileModalInner_c69a7b .headerText_ae1fa2:not(.platformIcon_ae1fa2) {
 	/* specifically for full profiles */
 	text-transform: uppercase;
 	color: var(--header-secondary);
@@ -481,6 +481,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	--profile-role-pill-border-color: var(--interactive-normal);
 	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
+	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
 }
 .userPopoutOuter_c69a7b,
 .userPopoutOverlayBackground_c69a7b {
@@ -996,7 +997,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	background: var(--background-primary);
 	border-radius: 0px;
 }
-[class^="userProfileModalInner"] .clickable_d5cb59 {
+.userProfileModalInner_c69a7b .clickable_d5cb59 {
 	position: fixed;
 	left: 420px;
 	top: 90px;
@@ -1117,10 +1118,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
 	left: 370px;
 }
-[class^="userProfileModalInner"]:has([aria-label="Mod View"]) .headerInner_b9fccc .headerButtons_b9fccc {
+.userProfileModalInner_c69a7b:has([aria-label="Mod View"]) .headerInner_b9fccc .headerButtons_b9fccc {
 	left: 370px !important;
 }
-[class^="userProfileModalInner"]:has([aria-label="Friends"]) .headerInner_b9fccc .headerButtons_b9fccc {
+.userProfileModalInner_c69a7b:has([aria-label="Friends"]) .headerInner_b9fccc .headerButtons_b9fccc {
 	left: 420px;
 }
 
@@ -1175,17 +1176,17 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	margin-left: 390px;
 	margin-top: -90px;
 }
-[class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d {
+.userProfileModalInner_c69a7b .sizeSmall_dd4f85.button_f9d37d {
 	background: var(--green);
 	&:hover {
 		background: var(--green-hover) !important;
 	}
 }
-/*[lang^="en"] [class^="userProfileModalInner"] #text="Message" .sizeSmall_dd4f85.button_f9d37d:after {
+/*[lang^="en"] .userProfileModalInner_c69a7b #text="Message" .sizeSmall_dd4f85.button_f9d37d:after {
 	content: "Send Message";
 	text-indent: 0px;
 }
-[lang="de"] [class^="userProfileModalInner"] .sizeSmall_dd4f85.button_f9d37d:after {
+[lang="de"] .userProfileModalInner_c69a7b .sizeSmall_dd4f85.button_f9d37d:after {
 	content: "Nachricht senden";
 	text-indent: 0px;
 }
@@ -1215,7 +1216,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	background: none !important;
 }
 
-[class^="userProfileModalInner"] .wrapper_cb78f1.fullSize_cb78f1 {
+.userProfileModalInner_c69a7b .wrapper_cb78f1.fullSize_cb78f1 {
 	margin-top: 37px;
 	position: fixed;
 }
@@ -1226,7 +1227,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /* CUSTOM STATUS */
 
-[class^="userProfileModalInner"] .statusBubble_d0a252 {
+.userProfileModalInner_c69a7b .statusBubble_d0a252 {
 	margin-top: 5px;
 	white-space: pre-wrap;
 	text-align: left !important;
@@ -1248,7 +1249,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-left: -53px;
 	}
 }
-:has(.statusBubble_d0a252) [class^="userProfileModalInner"] .container_c32acf {
+:has(.statusBubble_d0a252) .userProfileModalInner_c69a7b .container_c32acf {
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1258,7 +1259,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 }
 
-[class^="userProfileModalInner"] .details_ae1fa2 .text-xs\/normal_dc00ef {
+.userProfileModalInner_c69a7b .details_ae1fa2 .text-xs\/normal_dc00ef {
 	font-size: 14px;
 	color: var(--white) !important;
 }
@@ -1269,7 +1270,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	font-weight: 800;
 }
 
-[class^="userProfileModalInner"] .statusBubbleOuter_d0a252 .defaultColor_a595eb {
+.userProfileModalInner_c69a7b .statusBubbleOuter_d0a252 .defaultColor_a595eb {
 	margin-left: 5px;
 }
 
@@ -1287,7 +1288,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	font-weight: 500;
 }
 
-[class^="userProfileModalInner"] :is(.container_c32acf, .avatar_f94206) {
+.userProfileModalInner_c69a7b :is(.container_c32acf, .avatar_f94206) {
 	margin-left: -10px;
 }
 
@@ -1309,11 +1310,12 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 
 /* rich presence profile theming */
+/*these selectors make me want to kill myself what the shit*/
 
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.container_c32acf, .headerInner_b9fccc) {
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.container_c32acf, .headerInner_b9fccc) {
 	background-color: var(--blurple);
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"])
 	:is(
 		.userTagUsername_c32acf,
 		.pronounsText_c32acf,
@@ -1329,10 +1331,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .clickable_d5cb59 {
 	color: #fff !important;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"])
 	.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
 	> .buttonInner_f9d37d.contents_dd4f85,
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"])
 	:is(
 		.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
 			> .buttonInner_f9d37d.contents_dd4f85,
@@ -1340,34 +1342,34 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	) {
 	color: var(--blurple) !important;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.sizeSmall_dd4f85.button_f9d37d, .lookFilled_dd4f85.colorPrimary_dd4f85) {
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.sizeSmall_dd4f85.button_f9d37d, .lookFilled_dd4f85.colorPrimary_dd4f85) {
 	background-color: #fff;
 	&:hover {
 		background: #fff !important;
 	}
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.headerInner_b9fccc) rect:not(path ~ rect) {
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"]) :is(.headerInner_b9fccc) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"]) .statusBubble_d0a252:before {
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"]) .statusBubble_d0a252:before {
 	color: #fff;
 }
-[class^="userProfileModalInner"]:has(.tabBarItem_ecc04c[aria-label="Activity"])
+.userProfileModalInner_c69a7b:has(.tabBarItem_ecc04c[aria-label="Activity"])
 	:is(.tabBar_ecc04c, .scroller_c0721c, .card_ae1fa2.overlayBackground_c69a7b.fullSizeOverlayBackground_c69a7b) {
 	background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
 }
 
 /* presence size adjustments */
 
-[class^="userProfileModalInner"] .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f {
+.userProfileModalInner_c69a7b .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f {
 	width: 80px;
 	height: 80px;
 }
-[class^="userProfileModalInner"] .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f > .contentImage_dc67b6.contentImage_fa854f {
+.userProfileModalInner_c69a7b .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f > .contentImage_dc67b6.contentImage_fa854f {
 	max-width: 80px !important;
 	max-height: 80px !important;
 }
-[class^="userProfileModalInner"] .smallImageContainer_fa854f {
+.userProfileModalInner_c69a7b .smallImageContainer_fa854f {
 	width: 30px !important;
 	height: 30px !important;
 	transform: scale(1.3);
@@ -1416,40 +1418,40 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 
 /** user panel in dms*/
 /*LESS WIP then it was before! :D - than* 🤓☝️ */
-[class^="userPanel"] .userPanelInnerThemed_c69a7b {
+.userPanelInnerThemed_c69a7b {
 	background: var(--background-secondary);
 }
 
-[class^="userPanel"] .container_c32acf {
+.userPanelOuter_c69a7b .container_c32acf {
 	padding-top: 100px;
 	margin-top: -164px;
 }
 
-[class^="userPanel"] .container_b64375 {
+.userPanelOuter_c69a7b .container_b64375 {
 	display: none;
 }
 
-[class^="userPanel"] .statusBubbleOuter_d0a252 {
+.userPanelOuter_c69a7b .statusBubbleOuter_d0a252 {
 	margin-top: -10px;
 	right: 65px;
 }
 
-[class^="userPanel"] .overlayBackground_c69a7b {
+.userPanelOuter_c69a7b .overlayBackground_c69a7b {
 	background: transparent;
 }
 
-[class^="userPanel"] .wrapper_c51b4e:not(.listAvatar_d2d6cb, .guildAvatar_c5a773) {
+.userPanelOuter_c69a7b .wrapper_c51b4e:not(.listAvatar_d2d6cb, .guildAvatar_c5a773) {
 	left: 15px;
 }
 
-[class^="userPanel"] .wrapper_cb78f1 {
+.userPanelOuter_c69a7b .wrapper_cb78f1 {
 	margin-right: 20px;
 }
 
-[class^="userPanel"] .overflow_a82120 {
+.userPanelOuter_c69a7b .overflow_a82120 {
 	text-transform: uppercase;
 }
-[class^="userPanel"] .overflow_a82120 {
+.userPanelOuter_c69a7b .overflow_a82120 {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1457,15 +1459,15 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 	font-family: var(--font-display);
 }
 
-[class^="userPanel"] .button_c6eb7b {
+.userPanelOuter_c69a7b .button_c6eb7b {
 	background: var(--background-primary);
 }
 
-[class^="userPanel"] .contents_dd4f85 {
+.userPanelOuter_c69a7b .contents_dd4f85 {
 	color: var(--text-primary);
 }
 
-[class^="userPanel"] .headings_ba4d80 {
+.userPanelOuter_c69a7b .headings_ba4d80 {
 	color: var(--text-secondary) !important;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1497,7 +1499,7 @@ div.profileCardUsernameRow_b69b77 > div.userTag_b69b77.nameTag_cd0810 > span.dis
 }
 
 /* selector for status; unused because trying to position it fucking sucks
-[class^="userPanel"] .hover_f9d37d {
+.userPanelOuter_c69a7b .hover_f9d37d {
 	
 }
 also the mutual tabs WILL overlap it and I can't be bothered to figure out if it can push the note down instead

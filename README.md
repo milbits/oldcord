@@ -10,6 +10,8 @@ A theme for Discord that brings back the 2020 UI without removing features
 
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
 
+Light theme is an afterthought, but its generally very usable
+
 </details>
 
 <details><summary><strong>Addons</strong></summary>
@@ -77,4 +79,4 @@ Paste the following in `Settings > Themes`:
 ```
 ----
 
-###### not associated with https://oldcord.com/ or dtm-16
+###### not affiliated with https://oldcord.com/ or DTM-16
