@@ -92,7 +92,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 		transform: scale(1.7);
 	}
 }
-.userProfileModalInner_c69a7b .popover_bba79b {
+:has(.footer_b8cc6d, .userProfileModalInner_c69a7b) .popover_bba79b {
 	display: none;
 }
 
