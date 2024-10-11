@@ -55,6 +55,9 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	white-space: nowrap;
 	text-align: left !important;
 	left: -105px;
+	&:has(.addStatusPrompt_d0a252) {
+		top: 5px !important;
+	}
 }
 .accountProfilePopoutWrapper_b2ca13 .visibleContainer_d0a252.biteSize_d0a252 {
 	bottom: 0;
@@ -117,7 +120,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .content_d0a252 {
 	margin-top: -3px;
-	max-width: 153px;
+	max-width: 152px;
 }
 :is(.accountProfilePopoutWrapper_b2ca13) .statusBubbleWithTextPadding_d0a252 {
 	margin-right: 73px;
