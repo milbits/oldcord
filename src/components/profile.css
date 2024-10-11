@@ -108,7 +108,7 @@ div.menuOverlay_ad5fac.overlayBackground_c69a7b.biteSizeOverlayBackground_c69a7b
 	z-index: 4;
 	margin-top: -30px;
 }
-:is(.accountProfilePopoutWrapper_b2ca13) .visibleContainer_d0a252:hover .statusBubble_d0a252 {
+:is(.accountProfilePopoutWrapper_b2ca13) :is(.visibleContainer_d0a252, .addCustomStatusButtonBubble_d0a252):hover .statusBubble_d0a252 {
 	background: var(--brand-experiment-560);
 	width: 180px;
 	border-radius: 2px;
