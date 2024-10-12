@@ -648,6 +648,9 @@ html.theme-dark .badgeContainer_d60c6d path {
 :has(.statusBubble_d0a252) .container_c32acf {
 	padding-bottom: 45px;
 }
+:has(.clanTagContainer_c32acf) .statusBubbleOuter_d0a252 {
+	padding-top: 10px;
+}
 
 /*modal profile*/
 /*dont make profiles as gigantic as kinggamingyt (im super hilariopus i know)*/
@@ -1061,11 +1064,22 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	transform: translateX(125px);
 	width: fit-content;
 }
+.userProfileModalInner_c69a7b .botTag_a9e77f {
+	transform: translateX(125px);
+	width: fit-content;
+}
 .fullSize_c32acf .userTagUsername_c32acf {
 	transform: scale(0.9);
 	position: relative;
-	top: px;
 	left: 125px;
+}
+:is(.bot_c32acf) .fullSize_c32acf .userTagUsername_c32acf {
+	left: 120px;
+}
+.userProfileModalInner_c69a7b .userTagDiscriminator_c32acf {
+	transform: scale(0.9);
+	position: relative;
+	left: 116px;
 }
 
 /*Display name tweaks*/
@@ -1117,6 +1131,17 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	left: 450px;
 	&:has(.multipleButtons_e9f973) {
 		left: 410px !important;
+	}
+}
+:has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
+	display: inline-flex;
+	top: 60px;
+	left: 75px;
+	&:has(.button_f9d37d:nth-of-type(3)) {
+		left: -55px !important;
+	}
+	&:has(.button_f9d37d:nth-of-type(2)) {
+		left: 35px;
 	}
 }
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
