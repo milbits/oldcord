@@ -10,7 +10,8 @@
 
 /* now with better selectors (in 2024💀💀😭😭 those who know: balkan rage (explanation in comments) */
 .biteSizeOverlayBackground_c69a7b:nth-of-type(2) > :is(.button_f9d37d:nth-of-type(2), .menuDivider_ad5fac),
-.biteSizeOverlayBackground_c69a7b:nth-of-type(1) .button_f9d37d:nth-of-type(1) {
+.biteSizeOverlayBackground_c69a7b:nth-of-type(1) .button_f9d37d:nth-of-type(1),
+.biteSizeOverlayBackground_c69a7b:nth-of-type(2) > div > :is(.button_f9d37d:nth-of-type(2), .menuDivider_ad5fac) {
 	display: none;
 }
 
@@ -1103,7 +1104,16 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	font-weight: 500;
 	max-width: fit-content;
 }
-
+/*call n dm btn*/
+.headerInner_b9fccc .headerButtons_b9fccc {
+	display: unset;
+	position: relative;
+	bottom: -29px;
+	left: 450px;
+	&:has(.multipleButtons_e9f973) {
+		left: 410px !important;
+	}
+}
 :has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
 	display: inline-flex;
 	top: 60px;
@@ -1204,7 +1214,14 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	position: absolute;
 	background-color: rgba(32, 34, 37, 0.3) !important;
 }
-
+.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
+	> .buttonInner_f9d37d.contents_dd4f85
+	> svg,
+.grow_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d
+	> .buttonInner_f9d37d.contents_dd4f85
+	> svg {
+	display: none;
+}
 .bannerColor_f9d37d {
 	background: none !important;
 }
