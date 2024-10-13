@@ -226,7 +226,7 @@
 	}
 
 	/* Playing on PlayStation*/
-	&:has([src="/assets/8fca7fcefaac64787658.svg"]) {
+	&:has([style*="/assets/8fca7fcefaac64787658.svg"]) {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
