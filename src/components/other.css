@@ -1221,3 +1221,15 @@ h2.title_c46f6a {
 		margin-bottom: 5px;
 	}
 }
+
+/* remove emoji nitro upsell */
+.categorySectionNitroLocked_a3bc57 {
+	background-color: transparent;
+}
+.nitroTopDividerContainer_e8f337 {
+	visibility: hidden;
+	padding: unset;
+}
+.upsellContainerFloating_ad7baa {
+	display: none;
+}
