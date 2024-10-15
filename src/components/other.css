@@ -1233,3 +1233,15 @@ h2.title_c46f6a {
 .upsellContainerFloating_ad7baa {
 	display: none;
 }
+
+/* login page */
+
+:is(.marginBottom20_f7730b, .marginTop4_f7730b, .qrLoginInner_c6cd4b) .contents_dd4f85 {
+	color: var(--brand-experiment-530)
+}
+
+.characterBackground_bdd070 .logoWithText_bdd070 {
+	top: 24px;
+	left: 24px;
+	margin: 0;
+}
