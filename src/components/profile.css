@@ -1517,7 +1517,7 @@ tl;dr WIP */
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
 }
 /* remove shadow on status bubbles */
-.avatar_f94206 > .wrapper_c51b4e > svg > circle {
+.mask_c51b4e.svg_c51b4e > circle {
 	display: none;
 }
 /*thing in the member list*/
