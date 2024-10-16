@@ -1236,7 +1236,7 @@ h2.title_c46f6a {
 
 /* login page */
 
-:is(.marginBottom20_f7730b, .marginTop4_f7730b, .qrLoginInner_c6cd4b) .contents_dd4f85 {
+.authBoxExpanded_b83a05 :is(.marginBottom20_f7730b, .marginTop4_f7730b, .qrLoginInner_c6cd4b) .contents_dd4f85 {
 	color: var(--brand-experiment-530)
 }
 
