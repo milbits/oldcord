@@ -569,7 +569,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 .fullSizeOuter_c69a7b:has(.statusEmojiOnly_d0a252) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
 	padding-bottom: 90px !important;
 }
-.biteSizeInner_c69a7b .usernameRow_c32acf {
+:is(.biteSizeInner_c69a7b, .userPanelOuter_c69a7b) .usernameRow_c32acf {
 	text-align: center;
 	justify-content: center;
 }
