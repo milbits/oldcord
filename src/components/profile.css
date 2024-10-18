@@ -328,7 +328,7 @@
 	font-size: 14px;
 	color: var(--play-secondary) !important;
 }
-.userProfileInner_c69a7b:has(.activity_b8cc6d) .section_fc9b46 > .text_fc9b46.text-xs\/normal_dc00ef {
+.userProfileInner_c69a7b:has(.activity_b8cc6d) :is(.section_fc9b46 > .text_fc9b46.text-xs\/normal_dc00ef, .chipletContainerInner_d5cb59 > .text_d5cb59 > .unselectable_d5cb59) {
 	color: #fff !important;
 }
 .activity_b8cc6d .timestamp_c5d1c1,
@@ -640,7 +640,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	padding-bottom: 45px;
 }
 :has(.clanTagContainer_c32acf) .statusBubbleOuter_d0a252 {
-	padding-top: 10px;
+	margin-top: 10px;
 }
 
 /*modal profile*/
