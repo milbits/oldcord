@@ -232,10 +232,18 @@ code {
 }
 
 /* login page*/
-.characterBackground-1BPOOJ {
+.characterBackground_bdd070 {
 	background: url("https://discord.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg") center/100% no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+.authBoxExpanded_b83a05 :is(.marginBottom20_f7730b, .marginTop4_f7730b, .qrLoginInner_c6cd4b) .contents_dd4f85 {
+	color: var(--brand-experiment-530)
+}
+.characterBackground_bdd070 .logoWithText_bdd070 {
+	top: 24px;
+	left: 24px;
+	margin: 0;
 }
 
 /** Mute/Account switch notification */
@@ -1234,14 +1242,72 @@ h2.title_c46f6a {
 	display: none;
 }
 
-/* login page */
+/* Game profile */
 
-.authBoxExpanded_b83a05 :is(.marginBottom20_f7730b, .marginTop4_f7730b, .qrLoginInner_c6cd4b) .contents_dd4f85 {
-	color: var(--brand-experiment-530)
+.gameProfileModal_e881fc .defaultColor_e42ec6.heading-md\/bold_dc00ef.defaultColor_a595eb {
+	visibility: hidden;
+}
+.gameProfileModal_e881fc .defaultColor_e42ec6.heading-xl\/bold_dc00ef.defaultColor_a595eb {
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 55px;
+}
+.gameProfileModal_e881fc .sectionHeader_e881fc.defaultColor_e42ec6.text-xs\/semibold_dc00ef, .sectionHeader_e881fc.defaultColor_e42ec6.text-md\/semibold_dc00ef, .text-sm\/semibold_dc00ef.defaultColor_a595eb {
+	text-transform: uppercase;
+}
+.gameProfileModal_e881fc .sectionHeader_e881fc.defaultColor_e42ec6.text-md\/semibold_dc00ef {
+	color: var(--header-secondary) !important;
+	font-size: 13px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	&:after {
+		content: "";
+		background: var(--background-modifier-accent);
+		flex: 1;
+		height: 1px;
+		display: block;
+	}
+}
+.gameProfileModal_e881fc .gapSm_e881fc.row_e881fc > .text-sm\/semibold_dc00ef {
+	color: var(--header-secondary) !important;
+	font-weight: 500;
+	margin-left: 55px;
+}
+.gameProfileModal_e881fc .lineClamp2Plus_a595eb {
+	max-height: unset;
+}
+.gameProfileModal_e881fc .overflowMenu_e881fc {
+	background: none;
+	backdrop-filter: none;	
+}
+.gameProfileModal_e881fc .sidebar_e881fc {
+	border-left: solid 1px var(--background-modifier-accent);
+}
+.gameProfileModal_e881fc .logoWrapper_e881fc {
+	background-color: unset;
+	border-radius: 4px;
+}
+.gameProfileModal_e881fc .friends_d8cab0.text-xs\/semibold_dc00ef {
+	background: none;
+	font-weight: 400;
+	font-size: 14px;
 }
 
-.characterBackground_bdd070 .logoWithText_bdd070 {
-	top: 24px;
-	left: 24px;
-	margin: 0;
+
+/* move game icon */
+.gameProfileModal_e881fc .gameIcon_e881fc {
+	position: absolute;
+	margin-top: -32px;
+	width: 48px;
+	height: 48px;
+}
+.gameProfileModal_e881fc .platforms_a8723c {
+	transform: scale(1.5);
+	margin-left: 45px;
+}
+.gameProfileModal_e881fc .anchor_af404b > svg > path[d^="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
+	d: path("M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z");
+	transform: scale(0.1);
 }
