@@ -1168,6 +1168,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .friendRequestBanner_b9fccc {
 	background: var(--background-tertiary);
 	border-radius: 0;
+	& .text-sm\/normal_dc00ef {
+		margin-left: 10px;
+	}
 }
 .sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2 {
 	background: var(--green);
@@ -1180,7 +1183,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	padding: 15px;
 }
 .buttonContainer_ecc1b2 {
-	margin-right: 41px;
+	margin-right: 54px;
 }
 .headerButtons_b9fccc {
 	margin-left: 390px;
