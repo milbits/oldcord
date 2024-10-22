@@ -917,7 +917,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .expandButton_e6f2d0,
 .collapseButton_e6f2d0 {
 	border: 1px solid var(--interactive-muted);
-	background: none;
+	background: none !important;
 	border-radius: 999%;
 	.theme-light & {
 		border-color: #b9bbbe;
@@ -930,6 +930,36 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 .messageInputContainer_f2c0a8 {
 	border: none;
+}
+/* restore "No Roles" text */
+:has(.membersGroup_cbd271) .userProfileOuter_c69a7b:Has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
+	& .mutuals_fc9b46:after {
+		content: "NO ROLES";
+		position: absolute;
+		font-size: 12px;
+		color: var(--header-secondary);
+		font-weight: 800;
+		font-family: var(--font-display);
+		margin-top: 50px;
+		margin-left: 13px;
+		margin-bottom: 4px;
+	}
+	& .activity_b8cc6d:after {
+		content: "NO ROLES";
+		position: absolute;
+		font-size: 12px;
+		color: var(--header-secondary);
+		font-weight: 800;
+		font-family: var(--font-display);
+		margin-top: 150px;
+		margin-bottom: 4px;
+	}
+	&:not(:has(.descriptionClamp_abaf7d)) .biteSize_c32acf.nicknameIcons_c32acf {
+		padding-top: 60px !important;
+	}
+	& .descriptionClamp_abaf7d {
+		padding-top: 40px !important;
+	}
 }
 
 /* Re-add "Right click user for more actions" footnote on popouts */
