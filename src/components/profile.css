@@ -838,7 +838,19 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 
 /** Roles */
-.root_e6f2d0:before {
+.root_e6f2d0:not(:has(.role_f9575e:nth-of-type(2))):before {
+	content: "ROLE";
+	font-size: 12px;
+	color: var(--header-secondary);
+	font-weight: 800;
+	font-family: var(--font-display);
+	margin-right: 200px;
+	margin-bottom: 4px;
+}
+[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
+	content: "ROLLE";
+}
+.root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
 	content: "ROLES";
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -847,7 +859,7 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	margin-right: 200px;
 	margin-bottom: 4px;
 }
-[lang="DE"] .root_e6f2d0:before {
+[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
 	content: "ROLLEN";
 }
 section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
@@ -932,7 +944,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	border: none;
 }
 /* restore "No Roles" text */
-:has(.membersGroup_cbd271) .userProfileOuter_c69a7b:Has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
+:has(.linkTop_d8bfb3) .userProfileOuter_c69a7b:has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
 	& .mutuals_fc9b46:after {
 		content: "NO ROLES";
 		position: absolute;
@@ -944,15 +956,26 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-left: 13px;
 		margin-bottom: 4px;
 	}
-	& .activity_b8cc6d:after {
+	& .activity_b8cc6d {
+		&:after {
 		content: "NO ROLES";
 		position: absolute;
 		font-size: 12px;
 		color: var(--header-secondary);
 		font-weight: 800;
 		font-family: var(--font-display);
-		margin-top: 150px;
 		margin-bottom: 4px;
+		margin-top: 108px;
+	}
+		&:has(.disabledButtonOverlay_dd4f85):after {
+			margin-top: 150px;
+		} 
+		&:has(.actions_ae1fa2 > .button_f9d37d):after {
+			margin-top: 160px;
+		}
+		&:has(.actions_ae1fa2 > .button_f9d37d:nth-of-type(2)):after {
+			margin-top: 220px;
+		}
 	}
 	&:not(:has(.descriptionClamp_abaf7d)) .biteSize_c32acf.nicknameIcons_c32acf {
 		padding-top: 60px !important;
