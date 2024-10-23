@@ -328,7 +328,8 @@
 	font-size: 14px;
 	color: var(--play-secondary) !important;
 }
-.userProfileInner_c69a7b:has(.activity_b8cc6d) :is(.section_fc9b46 > .text_fc9b46.text-xs\/normal_dc00ef, .chipletContainerInner_d5cb59 > .text_d5cb59 > .unselectable_d5cb59) {
+.userProfileInner_c69a7b:has(.activity_b8cc6d)
+	:is(.section_fc9b46 > .text_fc9b46.text-xs\/normal_dc00ef, .chipletContainerInner_d5cb59 > .text_d5cb59 > .unselectable_d5cb59) {
 	color: #fff !important;
 }
 .activity_b8cc6d .timestamp_c5d1c1,
@@ -958,18 +959,18 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 	& .activity_b8cc6d {
 		&:after {
-		content: "NO ROLES";
-		position: absolute;
-		font-size: 12px;
-		color: var(--header-secondary);
-		font-weight: 800;
-		font-family: var(--font-display);
-		margin-bottom: 4px;
-		margin-top: 108px;
-	}
+			content: "NO ROLES";
+			position: absolute;
+			font-size: 12px;
+			color: var(--header-secondary);
+			font-weight: 800;
+			font-family: var(--font-display);
+			margin-bottom: 4px;
+			margin-top: 108px;
+		}
 		&:has(.disabledButtonOverlay_dd4f85):after {
 			margin-top: 150px;
-		} 
+		}
 		&:has(.actions_ae1fa2 > .button_f9d37d):after {
 			margin-top: 160px;
 		}
