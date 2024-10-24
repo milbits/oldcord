@@ -1170,7 +1170,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 :has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
 	display: inline-flex;
-	top: 60px;
+	top: 51px;
 	left: 75px;
 	&:has(.button_f9d37d:nth-of-type(3)) {
 		left: -55px !important;
@@ -1283,9 +1283,14 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	background: none !important;
 }
 
-.userProfileModalInner_c69a7b .wrapper_cb78f1.fullSize_cb78f1 {
-	margin-top: 37px;
-	position: fixed;
+.userProfileModalInner_c69a7b {
+	& .wrapper_cb78f1.fullSize_cb78f1 {
+		margin-top: 32px;
+		position: fixed;
+	}
+	&:has(.statusBubble_d0a252):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
+		margin-top: 38px;
+	}
 }
 .banner_f9d37d.icon_f9d37d.buttonInner_f9d37d.contents_dd4f85
 	> svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
