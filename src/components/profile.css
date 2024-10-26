@@ -238,6 +238,9 @@
 
 .headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]))
 {
+	&:after {
+		text-transform: uppercase;
+	}
 	[lang="de"] &:after {
 		content: "ein spiel";
 	}
@@ -1490,7 +1493,7 @@ update: now they make me wanna kms less*/
 
 .userPanelOuter_c69a7b .container_c32acf {
 	padding-top: 100px;
-	margin-top: -164px;
+	margin: -164px -15px 0 -15px;
 }
 
 .userPanelOuter_c69a7b .container_b64375 {
@@ -1510,14 +1513,7 @@ update: now they make me wanna kms less*/
 	left: 15px;
 }
 
-.userPanelOuter_c69a7b .wrapper_cb78f1 {
-	margin-right: 20px;
-}
-
-.userPanelOuter_c69a7b .overflow_a82120 {
-	text-transform: uppercase;
-}
-.userPanelOuter_c69a7b .overflow_a82120 {
+.userPanelOuter_c69a7b .header_ae1fa2 .overflow_a82120 {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1539,6 +1535,35 @@ update: now they make me wanna kms less*/
 	color: var(--header-secondary);
 	font-weight: 600;
 	font-family: var(--font-display);
+}
+
+.userProfileInner_c69a7b .clickable_d8eba3 {
+	text-transform: uppercase;
+	justify-content: unset;
+	& .defaultColor_e42ec6.text-sm\/medium_dc00ef {
+		color: var(--channels-default) !important;
+		font-size: 12px;
+		font-weight: 600;
+		font-family: var(--font-display);
+	}
+	& svg {
+		transform: scale(0.6);
+	}
+}
+
+.userProfileInner_c69a7b .section_d8eba3 .list_d8eba3 {
+	& .listAvatar_d2d6cb {
+		width: 36px;
+		height: 36px;
+	}
+	& .mask_c51b4e {
+		width: 48px;
+		height: 48px;
+	}
+}
+
+.userPanelOuter_c69a7b .headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])) {
+	color: var(--interactive-normal) !important;
 }
 
 /* add scrollbar to user bio in profile sidebar (it's the exact same code except the classes) */
