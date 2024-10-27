@@ -1432,3 +1432,57 @@ h2.title_c46f6a {
     d: path( "M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z" );
     transform: scale(0.1);
 }
+
+/* new experimental image viewer - this sucks, don't use it
+
+.actionButtons_dda074 {
+    background: none;
+    gap: 30px;
+    display: flex;
+    position: absolute;
+    & .actionButton_dda074 {
+    }
+    & .actionButton_dda074:hover {
+        opacity: 1;
+        background: none;
+    }
+    & .actionButton_dda074:before {
+        content: attr(aria-label);
+        color: var(--white-500) !important;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        transition: opacity .15s ease;
+        opacity: .5;
+        text-wrap: nowrap;
+    }
+    & .actionButton_dda074:after {
+        content: "|";
+        color: var(--white-500) !important;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        opacity: .5;
+        margin: 0px 8px;
+        
+    }
+    & .actionButton_dda074 .contents_dd4f85 {
+        display: none;
+    }
+}
+
+.closeButton_bf8df0 {
+   display: inline-block;
+   position: relative;
+   padding: 0 0 100vh 100vw;;
+   margin: 0 0 -100vh -100vw;
+   opacity: 0;
+   cursor: default;
+}
+
+.messageContents_bf8df0 {
+    display: none;
+}
+*/
