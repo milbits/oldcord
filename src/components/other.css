@@ -1435,54 +1435,82 @@ h2.title_c46f6a {
 
 /* new experimental image viewer - this sucks, don't use it
 
+.carouselModal_c319f9 {
+    align-items: start;
+    justify-content: center;
+    width: fit-content;
+    z-index: 0;
+}
+
+.topBar_bf8df0 {
+    z-index: -1;
+}
+
+.closeButton_bf8df0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: unset;
+}
+
+.messageContents_bf8df0 {
+    display: none;
+}
+
+.wrapper_a24281 {
+    flex-grow: unset;
+    pointer-events: none;
+}
+
+.mediaWrapper_a24281 {
+    position: unset;
+    width: fit-content;
+}
+
+.imageWrapper_d4597d {
+    pointer-events: all;
+}
+
+.actionButtonContainer_c319f9 {
+    margin-top: -10px;
+    pointer-events: none;
+}
+
 .actionButtons_dda074 {
-    background: none;
-    gap: 30px;
-    display: flex;
-    position: absolute;
-    & .actionButton_dda074 {
+    background-color: transparent;
+    border-radius: 0;
+    gap: 1;
+    padding: 0;
+}
+
+.actionButtons_dda074 button {
+    background: transparent !important;
+    margin: 0;
+    padding: 1;
+    width: fit-content;
+    pointer-events: all;
+    svg {
+        display: none;
     }
-    & .actionButton_dda074:hover {
-        opacity: 1;
-        background: none;
-    }
-    & .actionButton_dda074:before {
+
+    &:after {
         content: attr(aria-label);
         color: var(--white-500) !important;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
-        -webkit-text-decoration: none;
-        text-decoration: none;
         transition: opacity .15s ease;
         opacity: .5;
-        text-wrap: nowrap;
     }
-    & .actionButton_dda074:after {
-        content: "|";
-        color: var(--white-500) !important;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        opacity: .5;
-        margin: 0px 8px;
-        
-    }
-    & .actionButton_dda074 .contents_dd4f85 {
-        display: none;
-    }
-}
 
-.closeButton_bf8df0 {
-   display: inline-block;
-   position: relative;
-   padding: 0 0 100vh 100vw;;
-   margin: 0 0 -100vh -100vw;
-   opacity: 0;
-   cursor: default;
-}
-
-.messageContents_bf8df0 {
-    display: none;
+    &:hover:after {
+        opacity: 1;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+    }
 }
 */
