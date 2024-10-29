@@ -777,19 +777,19 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 
 /*profile DM box*/
-.footer_b8cc6d:has(.channelTextArea_d0696b) {
+.footer_b8cc6d:has(.channelTextArea_bdf0de) {
 	border-top: 1px solid rgba(32, 34, 37, 0.3);
 	.theme-light & {
 		border-color: rgba(54, 57, 63, 0.1);
 	}
 }
 
-.footer_b8cc6d .themedBackground_d0696b {
+.footer_b8cc6d .inner_c59af2 {
 	background: var(--background-primary) !important;
 	border: solid 1px var(--background-tertiary) !important;
 	margin-top: 12px;
 }
-.footer_b8cc6d .scrollableContainer_d0696b {
+.footer_b8cc6d .inner_c59af2.scrollableContainer_bdf0de {
 	margin-right: -5px;
 	margin-left: -5px;
 }
@@ -1638,7 +1638,7 @@ tl;dr WIP */
 	border-bottom-right-radius: 3px;
 }
 
-.popout_a35965 .channelTextArea_d0696b {
+.popout_a35965 .channelTextArea_bdf0de {
 	background: var(--channeltextarea-background);
 	border-radius: 3px;
 	border: solid 1px var(--background-tertiary) !important;
