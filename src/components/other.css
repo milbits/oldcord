@@ -1231,6 +1231,28 @@ h2.title_c46f6a {
 	text-transform: uppercase;
 }
 
+/* fix emoji picker sizing */
+.emojiItem_fbfedd {
+	width: 40px !important;
+	height: 40px !important;
+	padding: 0;
+	margin-left: 4px;
+}
+.emojiItem_fbfedd> * {
+	transform: scale(.8);
+}
+.emojiListRow_fbfedd {
+	height: unset;
+	grid-template-columns: repeat(auto-fill,48px);
+}
+.drawerSizingWrapper_af5dbb {
+	height: 90%;
+	bottom: 0;
+}
+.emojiPickerListWrapper_c6ee36 .list_a3bc57 {
+	height: 110%;
+}
+
 /* remove emoji nitro upsell */
 .categorySectionNitroLocked_a3bc57 {
 	background-color: transparent;
