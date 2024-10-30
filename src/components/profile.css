@@ -1267,7 +1267,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 }
 
-.lookFilled_dd4f85:is(.colorBrand_dd4f85, .colorPrimary_dd4f85) svg {
+.lookFilled_dd4f85:is(.colorBrand_dd4f85) svg {
 	display: none;
 }
 .bannerColor_f9d37d {
@@ -1385,6 +1385,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :has(.tabBarItem_ecc04c:nth-child(4)) .lookFilled_dd4f85:is(.colorBrand_dd4f85, .colorPrimary_dd4f85) {
 	color: var(--blurple) !important;
 	background: #fff;
+	&:hover {
+		background: #fff !important;
+	}
 }
 :has(.tabBarItem_ecc04c:nth-child(4)) .headerInner_b9fccc rect:not(path ~ rect) {
 	fill: #fff !important;
@@ -1402,11 +1405,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	width: 80px;
 	height: 80px;
 }
-.section_ba4d80:has(.header_ae1fa2) .contentImage_fa854f {
-	max-width: 80px !important;
-	max-height: 80px !important;
-}
-.smallImageContainer_fa854f {
+.userProfileModalInner_c69a7b .smallImageContainer_fa854f {
 	width: 30px !important;
 	height: 30px !important;
 	transform: scale(1.3);
