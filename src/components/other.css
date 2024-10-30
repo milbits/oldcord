@@ -1238,12 +1238,12 @@ h2.title_c46f6a {
 	padding: 0;
 	margin-left: 4px;
 }
-.emojiItem_fbfedd> * {
-	transform: scale(.8);
+.emojiItem_fbfedd > :is(.image_b000dd, .emojiSpriteImage_bcf389) {
+	transform: scale(0.8);
 }
 .emojiListRow_fbfedd {
 	height: unset;
-	grid-template-columns: repeat(auto-fill,48px);
+	grid-template-columns: repeat(auto-fill, 48px);
 }
 .drawerSizingWrapper_af5dbb {
 	height: 90%;
