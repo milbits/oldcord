@@ -1607,6 +1607,12 @@ tl;dr WIP */
 .mask_c51b4e.svg_c51b4e > circle {
 	display: none;
 }
+.userProfileInner_c69a7b .mask_c51b4e.svg_c51b4e > rect:nth-child(1) {
+	opacity: 0 !important;
+}
+.custom-profile-theme .mask_c51b4e.svg_c51b4e > rect:nth-child(2) {
+	opacity: 0 !important;
+}
 /*thing in the member list*/
 .container_c64476 {
 	background: var(--background-modifier-hover);
