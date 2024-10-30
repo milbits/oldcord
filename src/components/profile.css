@@ -1487,6 +1487,8 @@ update: now they make me wanna kms less*/
 
 /** user panel in dms*/
 /*LESS WIP then it was before! :D - than* 🤓☝️ */
+
+/*disabled for now because it seems like it impacts performance a bit
 .userPanelInnerThemed_c69a7b {
 	background: var(--background-secondary);
 }
@@ -1564,7 +1566,7 @@ update: now they make me wanna kms less*/
 
 .userPanelOuter_c69a7b .headerText_ae1fa2:not(:has(.platformIcon_ae1fa2, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])) {
 	color: var(--interactive-normal) !important;
-}
+}*/
 
 /* add scrollbar to user bio in profile sidebar (it's the exact same code except the classes) */
 .lineClamp2Plus_a595eb {
