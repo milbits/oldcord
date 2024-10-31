@@ -1267,7 +1267,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 }
 
-.lookFilled_dd4f85:is(.colorBrand_dd4f85, .colorPrimary_dd4f85:is(.grow_dd4f85)) svg {
+.userProfileModalInner_c69a7b .lookFilled_dd4f85:is(.colorBrand_dd4f85, .colorPrimary_dd4f85:is(.grow_dd4f85)) svg {
 	display: none;
 }
 .bannerColor_f9d37d {
