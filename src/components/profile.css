@@ -938,6 +938,11 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	.theme-light & {
 		border-color: #b9bbbe;
 	}
+	.text-xs\/medium_dc00ef {
+		width: 10px;
+		margin-left: -3px;
+		padding-right: 1px;
+	}
 }
 /* remove "add role" text */
 .buttonInner_f9d37d.contents_dd4f85 > .text-xs\/normal_dc00ef {
