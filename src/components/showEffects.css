@@ -81,9 +81,11 @@
 }
 
 [class^="userProfileModalInner"]:has(.mask_d5fdb1) .body_b9fccc {
-    z-index: 2;
+	& .fullSizeOverlayBackground_c69a7b {
+		z-index: 2;
+	}
     & .container_c32acf {
-        background: transparent !important;
+	    background: transparent !important;
     }
 }
 
