@@ -1406,14 +1406,25 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /* modal presence size adjustments */
 
-.section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f {
-	width: 80px;
-	height: 80px;
-	& .contentImage_dc67b6.contentImage_fa854f {
-		max-height: unset !important;
-		max-width: unset !important;
+.section_ba4d80:has(.header_ae1fa2) {
+	& .imageContainer_fa854f {
+		width: 80px;
+		height: 80px;
+		& .contentImage_dc67b6.contentImage_fa854f {
+			max-width: unset !important;
+			max-height: unset !important;
+		}
+	}
+	& .svg_afd438 {
+		width: 80px;
+		height: 80px;
+		& .contentImage_dc67b6.contentImage_fa854f {
+			max-width: 60px !important;
+			max-height: 60px !important;
+		}
 	}
 }
+
 .userProfileModalInner_c69a7b .smallImageContainer_fa854f {
 	width: 30px !important;
 	height: 30px !important;
