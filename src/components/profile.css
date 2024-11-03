@@ -1409,6 +1409,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .section_ba4d80:has(.header_ae1fa2) .imageContainer_fa854f {
 	width: 80px;
 	height: 80px;
+	& .contentImage_dc67b6.contentImage_fa854f {
+		max-height: unset !important;
+		max-width: unset !important;
+	}
 }
 .userProfileModalInner_c69a7b .smallImageContainer_fa854f {
 	width: 30px !important;
