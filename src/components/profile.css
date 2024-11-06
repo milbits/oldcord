@@ -256,6 +256,17 @@
 :is(.headerText_ae1fa2) .live_ec1c2d {
 	display: none;
 }
+.userProfileOuter_c69a7b:has([mask="url(#svg-mask-status-streaming)"]) .headerText_ae1fa2 {
+	[lang^="en"] & {
+		text-indent: -9999px;
+		line-height: 0px;
+	}
+	[lang^="en"] &:before {
+		content: "live on twitch";
+		text-indent: 0;
+		line-height: initial;
+	}
+}
 
 /* reverts "watch stream" button in vcs */
 :is(.activityStreamPreview_c1d9fd) .lookFilled_dd4f85.colorPrimary_dd4f85 {
