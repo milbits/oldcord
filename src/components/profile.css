@@ -482,7 +482,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 /*profile stuff*/
 .inner_c69a7b.biteSize_c69a7b,
 .inner_c69a7b.fullSize_c69a7b,
-.userProfileOuterThemed_c69a7b {
+.outer_c69a7b.fullSize_c69a7b,
+.custom-profile-theme {
 	--profile-gradient-primary-color: var(--background-secondary-alt);
 	--profile-gradient-secondary-color: var(--background-secondary-alt);
 	--profile-gradient-overlay-color: transparent;
