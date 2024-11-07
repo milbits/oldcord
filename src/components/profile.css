@@ -965,7 +965,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	border: none;
 }
 /* restore "No Roles" text */
-:has(.linkTop_d8bfb3) .outer_c69a7b.fullSize_c69a7b:has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
+:has(.linkTop_d8bfb3) .outer_c69a7b.biteSize_c69a7b:has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
 	& .mutuals_fc9b46:after {
 		content: "NO ROLES";
 		position: absolute;
