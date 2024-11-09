@@ -323,7 +323,7 @@
 }
 
 /*make status icon white*/
-.inner_c69a7b.fullSize_c69a7b:has(.activity_b8cc6d) rect:not(path ~ rect) {
+.outer_c69a7b:has(.activity_b8cc6d) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
