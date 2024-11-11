@@ -1059,7 +1059,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	border: none;
 }
 .container_ecc04c {
-	background: var(--background-primary);
+	background: var(--background-secondary);
 	border-radius: 0px;
 }
 .inner_c69a7b.fullSize_c69a7b .clickable_d5cb59 {
