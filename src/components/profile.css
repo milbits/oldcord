@@ -1323,6 +1323,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 	& .clamp_d0a252.content_d0a252:has(.statusEmojiInline_d0a252) {
 		margin-left: 5px;
+			& .statusText_d0a252 {
+				display: unset;
+			}
 	}
 	& .clamp_d0a252.content_d0a252:has(.statusEmojiOnly_d0a252) {
 		margin-left: 6px;
@@ -1355,6 +1358,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 	& .singleLineAlign_d0a252 {
 		text-align: left;
+	}
+	& .statusText_d0a252 {
+		display: inherit;
 	}
 }
 
