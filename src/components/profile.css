@@ -1325,7 +1325,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-left: 5px;
 	}
 	& .clamp_d0a252.content_d0a252:has(.statusEmojiOnly_d0a252) {
-		margin-left: -53px;
+		margin-left: 6px;
 	}
 }
 :has(.statusBubble_d0a252) .inner_c69a7b.fullSize_c69a7b .container_c32acf {
@@ -1349,8 +1349,13 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	font-weight: 800;
 }
 
-.inner_c69a7b.fullSize_c69a7b .statusBubbleOuter_d0a252 .defaultColor_a595eb {
-	margin-left: 5px;
+.inner_c69a7b.fullSize_c69a7b {
+	& .statusBubbleOuter_d0a252 .defaultColor_a595eb {
+		margin-left: 5px;
+	}
+	& .singleLineAlign_d0a252 {
+		text-align: left;
+	}
 }
 
 /* connections adjustments */
