@@ -37,7 +37,7 @@
     top: 62px !important
 }
 /*move usernames etc. a bit down*/
-:is(.userPopoutOuter_c69a7b) .container_c32acf{
+:is(.biteSize_c69a7b.outer_c69a7b) .container_c32acf{
     padding-top: 50px;
 }
 .statusBubbleOuter_d0a252{
@@ -52,7 +52,7 @@
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-profile-theme .biteSizeInnerThemed_c69a7b{
+.custom-profile-theme .biteSize_c69a7b.inner_c69a7b{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color))var(--custom-user-banner-height-bite-size),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container_c32acf,.mutuals_fc9b46  {
@@ -71,16 +71,16 @@
 }
 
 /* banners behind headers */
-[class^="userProfileModalInner"] .mask_d5fdb1 {
+.fullSize_c69a7b.inner_c69a7b .mask_d5fdb1 {
 	position: absolute;
-	z-index: 2;
+	z-index: 0;
 	opacity: 25%;
 }
-[class^="userProfileModalInner"] .headerInner_b9fccc {
+.fullSize_c69a7b.inner_c69a7b .headerInner_b9fccc {
     background: transparent !important;
 }
 
-[class^="userProfileModalInner"]:has(.mask_d5fdb1) .body_b9fccc {
+.fullSize_c69a7b.inner_c69a7b:has(.mask_d5fdb1) .body_b9fccc {
 	& .fullSizeOverlayBackground_c69a7b {
 		z-index: 2;
 	}

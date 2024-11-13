@@ -1047,14 +1047,14 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /** full profile modal */
 .custom-profile-theme .fullSize_c69a7b.overlay_c69a7b {
-	background: var(--background-primary) !important;
+	background: var(--background-secondary) !important;
 	border: none !important;
 }
 .custom-profile-theme .inner_c69a7b.fullSize_c69a7b {
 	background: var(--background-tertiary);
 }
 .fullSize_c69a7b.overlay_c69a7b {
-	background: var(--background-primary) !important;
+	background: var(--background-secondary) !important;
 	border-radius: 0px;
 	border: none;
 }
@@ -1423,7 +1423,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :has(.tabBarItem_ecc04c:nth-child(4)) .statusBubble_d0a252:before {
 	color: #fff;
 }
-:has(.tabBarItem_ecc04c:nth-child(4)) :is(.tabBar_ecc04c, .scroller_c0721c, .fullSize_c69a7b.overlay_c69a7b) {
+:has(.tabBarItem_ecc04c:nth-child(4)) :is(.tabBar_ecc04c, .scroller_c0721c, .fullSize_c69a7b.overlay_c69a7b:not(:has(.listScroller_d2d6cb))) {
 	background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
 }
 
