@@ -694,6 +694,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 		content: attr(aria-label);
 		min-width: 230px;
 		text-align: left;
+		padding-top: 10px;
 		margin-left: 240px;
 		margin-top: auto;
 		max-height: 38px;
