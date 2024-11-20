@@ -273,9 +273,14 @@
 }
 
 .connectedAccountOpenIcon_ab12c6 {
-    clip-path: path( "M10.5 2.25v1.5h2.6925L5.82 11.1225 6.8775 12.18 14.25 4.8075V7.5h1.5V2.25H10.5zm3.75 12H3.75V3.75H9v-1.5H3.75c-.8325 0-1.5.675-1.5 1.5v10.5c0 .8284271.67157287 1.5 1.5 1.5h10.5c.8284271 0 1.5-.6715729 1.5-1.5V9h-1.5v5.25z" );
+    clip-path: path( "M7.5 3.75V2.25H4.0313C3.0489 2.25 2.25 3.0489 2.25 4.0313V13.9688C2.25 14.952 3.0489 15.75 4.0313 15.75H13.9688C14.952 15.75 15.75 14.952 15.75 13.9688V10.5H14.25V14.25H3.75V3.75H7.5ZM15.75 2.2492H10.5V3.7492H13.1895L6.9697 9.969 8.0303 11.0295 14.25 4.8098V7.4992H15.75V2.2492Z" );
     transform: none;
-    background: var(--interactive-normal);
+    transform: scale(1.1);
+    background: #b9bbbe;
+    color: #b9bbbe;
+}
+:is(.connectedAccountName_ab12c6) .anchor_af404b {
+    
 }
 
 .gifTag_b11e6c {

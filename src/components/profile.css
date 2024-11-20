@@ -1371,6 +1371,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	margin-top: 20px;
 	border-radius: 3px;
 }
+.connectedAccount_ab12c6 {
+	padding: 0px 14px 0px 8px;
+}
 .connectedAccountIcon_ab12c6 {
 	scale: 1.2;
 	padding-right: 5px;
