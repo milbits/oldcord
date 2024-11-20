@@ -54,6 +54,7 @@
 }
 */
 .lookFilled_dd4f85.colorBrand_dd4f85 {
+	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
 	}
