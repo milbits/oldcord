@@ -1035,6 +1035,26 @@ h2.title_c46f6a {
 	font-size: 16px;
 }
 
+/* fix headings of all shapes and sizes */
+:is(.settingsPage_a2c19a) .heading-xl\/semibold_dc00ef, .heading-lg\/semibold_dc00ef {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+:is(.settingsPage_a2c19a) .defaultColor_e42ec6.heading-lg\/semibold_dc00ef, .title_c46f6a.h3_c46f6a {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: var(--channels-default) !important;
+}
+
+/* "Request Data" button */
+:is(.settingsPage_a2c19a) .grow_dd4f85.sizeMedium_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85.grow_dd4f85.sizeMedium_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_dd4f85 {
+    color: var(--brand-experiment) !important;
+    border: solid 0.1px;
+    border-color: var(--brand-experiment) !important;
+    background: transparent !important;
+}
+
 /*Fix favorite button and delete overlap*/
 .imageAccessory_d4597d {
 	left: unset;

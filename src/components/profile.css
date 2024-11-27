@@ -18,7 +18,7 @@
 .fixed_d90b3d:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	width: max-content;
 }
-[lang^="en"] .content_d0a252 > .addStatusPrompt_d0a252 {
+[lang^="en"] .content_af9888 > .addStatusPrompt_af9888 {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -47,28 +47,28 @@
 .accountProfilePopoutWrapper_b2ca13 :is(.banner_d5fdb1, .avatar_f94206, .descriptionClamp_abaf7d, .mask_d5fdb1, .card_ae1fa2) {
 	display: none;
 }
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_af9888 {
 	top: -103px !important;
 	white-space: nowrap;
 	text-align: left !important;
 	left: -105px;
-	&:has(.addStatusPrompt_d0a252) {
+	&:has(.addStatusPrompt_af9888) {
 		top: 5px !important;
 	}
 }
-.accountProfilePopoutWrapper_b2ca13 .visibleContainer_d0a252.biteSize_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 .visibleContainer_af9888.biteSize_af9888 {
 	bottom: 0;
 	left: 106px;
 }
-.accountProfilePopoutWrapper_b2ca13 .singleLineAlign_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 .singleLineAlign_af9888 {
 	text-align: left;
 }
-.accountProfilePopoutWrapper_b2ca13 .wrapper_f7e168.visible_bba79b.popover_bba79b {
+.accountProfilePopoutWrapper_b2ca13 .wrapper_f7e168.visible_bba79b.popover_f7be4f {
 	box-shadow: none;
 	animation: none;
 	opacity: 1;
 }
-.accountProfilePopoutWrapper_b2ca13 .popover_bba79b {
+.accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
 	right: 150px;
 	margin-top: -85px;
 	opacity: 1;
@@ -80,20 +80,21 @@
 	& .button_bba79b:hover {
 		background: none;
 	}
-	& .button_f7e168.left_bba79b.button_bba79b {
+	& .button_f7e168.left_f7be4f.button_f7be4f {
 		padding-left: 147px;
 		border-radius: 0px;
 		opacity: 0;
 	}
-	& .button_f7e168.right_bba79b.button_bba79b > svg > path {
+	& .button_f7e168.right_f7be4f.button_f7be4f > svg > path {
 		d: path(
 			"M7.02799 0.333252C3.346 0.333252 0.361328 3.31792 0.361328 6.99992C0.361328 10.6819 3.346 13.6666 7.02799 13.6666C10.71 13.6666 13.6947 10.6819 13.6947 6.99992C13.6947 3.31792 10.7093 0.333252 7.02799 0.333252ZM10.166 9.19525L9.22333 10.1379L7.02799 7.94325L4.83266 10.1379L3.89 9.19525L6.08466 6.99992L3.88933 4.80459L4.832 3.86259L7.02733 6.05792L9.22266 3.86259L10.1653 4.80459L7.97066 6.99992L10.166 9.19525Z"
 		);
 		transform: scale(1.7);
 	}
 }
-:has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_bba79b {
+:has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_f7be4f {
 	display: none;
+	pointer-events: none;
 }
 
 #app-mount .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d {
@@ -105,7 +106,7 @@
 	z-index: 4;
 	margin-top: -30px;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_d0a252, .addCustomStatusButtonBubble_d0a252):hover .statusBubble_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .statusBubble_af9888 {
 	background: var(--brand-experiment-560);
 	width: 180px;
 	border-radius: 2px;
@@ -115,11 +116,11 @@
 		color: var(--white);
 	}
 }
-.accountProfilePopoutWrapper_b2ca13 .content_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 .content_af9888 {
 	margin-top: -3px;
 	max-width: 152px;
 }
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleWithTextPadding_d0a252 {
+.accountProfilePopoutWrapper_b2ca13 .statusBubbleWithTextPadding_af9888 {
 	margin-right: 73px;
 }
 .accountProfilePopoutWrapper_b2ca13 {
@@ -163,7 +164,7 @@
 	}
 }
 
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_af9888 {
 	box-shadow: none;
 	background: none !important;
 }
@@ -582,7 +583,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 .outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375)), :has(.container_b64375)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
 	padding-bottom: 40px;
 }
-.outer_c69a7b.fullSize_c69a7b:has(.statusEmojiOnly_d0a252) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
+.outer_c69a7b.fullSize_c69a7b:has(.statusEmojiOnly_af9888) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
 	padding-bottom: 90px !important;
 }
 :is(.inner_c69a7b.biteSize_c69a7b, .userPanelOuter_c69a7b) .usernameRow_c32acf {
@@ -633,7 +634,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 
 /** Custom status*/
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_af9888 {
 	position: relative;
 	right: -230px;
 	top: 25px;
@@ -642,20 +643,20 @@ html.theme-dark .badgeContainer_d60c6d path {
 	background: none !important;
 	text-align: center;
 }
-.visibleContainer_d0a252.biteSize_d0a252 {
+.visibleContainer_af9888.biteSize_af9888 {
 	left: -230px;
 }
 
-:has(.pronouns_c32acf) .statusBubbleOuter_d0a252 {
+:has(.pronouns_c32acf) .statusBubbleOuter_af9888 {
 	top: 51px;
 }
-:has(.visibleContainer_d0a252):not(:has(.singleLineAlign_d0a252)) .container_c32acf {
+:has(.visibleContainer_af9888):not(:has(.singleLineAlign_af9888)) .container_c32acf {
 	padding-bottom: 50px;
 }
-:has(.statusBubble_d0a252) .container_c32acf {
+:has(.statusBubble_af9888) .container_c32acf {
 	padding-bottom: 45px;
 }
-:has(.clanTagContainer_c32acf) .statusBubbleOuter_d0a252 {
+:has(.clanTagContainer_c32acf) .statusBubbleOuter_af9888 {
 	margin-top: 10px;
 }
 
@@ -667,24 +668,24 @@ html.theme-dark .badgeContainer_d60c6d path {
 	max-height: 700px;
 }
 
-.headerInner_b9fccc .statusBubbleOuter_d0a252 {
+.headerInner_b9fccc .statusBubbleOuter_af9888 {
 	top: 100px;
 	max-width: 500px;
 	right: 160px;
 	min-width: 0;
 }
 
-.statusBubbleOuter_d0a252 .defaultColor_a595eb {
+.statusBubbleOuter_af9888 .defaultColor_a595eb {
 	color: var(--play-secondary, var(--interactive-normal));
 }
 
-.statusBubbleOuter_d0a252,
-.statusBubble_d0a252 {
+.statusBubbleOuter_af9888,
+.statusBubble_af9888 {
 	border: none !important;
 	background: none;
 }
-.statusBubbleOuter_d0a252:before,
-.statusBubbleOuter_d0a252:after {
+.statusBubbleOuter_af9888:before,
+.statusBubbleOuter_af9888:after {
 	display: none;
 }
 
@@ -1297,7 +1298,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-top: 32px;
 		position: fixed;
 	}
-	&:has(.statusBubble_d0a252):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
+	&:has(.statusBubble_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 38px;
 	}
 }
@@ -1307,7 +1308,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /* CUSTOM STATUS */
 
-.inner_c69a7b.fullSize_c69a7b .statusBubble_d0a252 {
+.inner_c69a7b.fullSize_c69a7b .statusBubble_af9888 {
 	margin-top: 5px;
 	white-space: pre-wrap;
 	text-align: left !important;
@@ -1322,17 +1323,17 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		line-height: 22px;
 		margin-left: 5px;
 	}
-	& .clamp_d0a252.content_d0a252:has(.statusEmojiInline_d0a252) {
+	& .clamp_af9888.content_af9888:has(.statusEmojiInline_af9888) {
 		margin-left: 5px;
-			& .statusText_d0a252 {
+			& .statusText_af9888 {
 				display: unset;
 			}
 	}
-	& .clamp_d0a252.content_d0a252:has(.statusEmojiOnly_d0a252) {
+	& .clamp_af9888.content_af9888:has(.statusEmojiOnly_af9888) {
 		margin-left: 6px;
 	}
 }
-:has(.statusBubble_d0a252) .inner_c69a7b.fullSize_c69a7b .container_c32acf {
+:has(.statusBubble_af9888) .inner_c69a7b.fullSize_c69a7b .container_c32acf {
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1354,13 +1355,13 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 
 .inner_c69a7b.fullSize_c69a7b {
-	& .statusBubbleOuter_d0a252 .defaultColor_a595eb {
+	& .statusBubbleOuter_af9888 .defaultColor_a595eb {
 		margin-left: 5px;
 	}
-	& .singleLineAlign_d0a252 {
+	& .singleLineAlign_af9888 {
 		text-align: left;
 	}
-	& .statusText_d0a252 {
+	& .statusText_af9888 {
 		display: inherit;
 	}
 }
@@ -1424,7 +1425,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :has(.tabBarItem_ecc04c:nth-child(4)) .headerInner_b9fccc rect:not(path ~ rect) {
 	fill: #fff !important;
 }
-:has(.tabBarItem_ecc04c:nth-child(4)) .statusBubble_d0a252:before {
+:has(.tabBarItem_ecc04c:nth-child(4)) .statusBubble_af9888:before {
 	color: #fff;
 }
 :has(.tabBarItem_ecc04c:nth-child(4)) :is(.tabBar_ecc04c, .scroller_c0721c, .fullSize_c69a7b.overlay_c69a7b:not(:has(.listScroller_d2d6cb))) {
@@ -1511,7 +1512,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	display: none;
 }
 
-.userPanelOuter_c69a7b .statusBubbleOuter_d0a252 {
+.userPanelOuter_c69a7b .statusBubbleOuter_af9888 {
 	margin-top: -10px;
 	right: 65px;
 }
