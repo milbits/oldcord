@@ -1036,12 +1036,12 @@ h2.title_c46f6a {
 }
 
 /* fix headings of all shapes and sizes */
-:is(.settingsPage_a2c19a) .heading-xl\/semibold_dc00ef, .heading-lg\/semibold_dc00ef {
+.settingsPage_a2c19a :is(.heading-xl\/semibold_dc00ef, .heading-lg\/semibold_dc00ef) {
     font-size: 16px;
     text-transform: uppercase;
 }
 
-:is(.settingsPage_a2c19a) .defaultColor_e42ec6.heading-lg\/semibold_dc00ef, .title_c46f6a.h3_c46f6a {
+.settingsPage_a2c19a :is(.defaultColor_e42ec6.heading-lg\/semibold_dc00ef, .title_c46f6a.h3_c46f6a) {
     font-size: 12px !important;
     font-weight: 600 !important;
     color: var(--channels-default) !important;
