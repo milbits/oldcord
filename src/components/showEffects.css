@@ -40,13 +40,13 @@
 :is(.biteSize_c69a7b.outer_c69a7b) .container_c32acf{
     padding-top: 50px;
 }
-.statusBubbleOuter_d0a252{
+.statusBubbleOuter_af9888{
     top: 82px
 }
-:has(.pronouns_c32acf) .statusBubbleOuter_d0a252{
+:has(.pronouns_c32acf) .statusBubbleOuter_af9888{
     top: 101px !important;
 }
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_d0a252{
+.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_af9888{
 	top: -103px !important;
 	left: -105px
 }
