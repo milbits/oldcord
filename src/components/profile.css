@@ -1434,6 +1434,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :has(.tabBarItem_ecc04c:nth-child(4)) :is(.tabBar_ecc04c, .scroller_c0721c, .fullSize_c69a7b.overlay_c69a7b:not(:has(.listScroller_d2d6cb))) {
 	background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), linear-gradient(var(--blurple), var(--blurple)) !important;
 }
+:has(.tabBarItem_ecc04c:nth-child(4)) :is(.fullSize_cb78f1.wrapper_cb78f1) .icon_f9d37d > svg > path {
+	fill: #fff;
+}
 
 /* modal presence size adjustments */
 
