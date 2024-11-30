@@ -1303,7 +1303,12 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 }
 .icon_f9d37d svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
-	transform: rotate(90deg);
+	stroke: var(--interactive-normal);
+	stroke-width: 2px;
+	transform: scale(0.98);
+	> path {
+		d: path("M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z");
+	}
 }
 :is(.fullSize_cb78f1.wrapper_cb78f1) .icon_f9d37d > svg > path {
 	fill: var(--interactive-normal);
