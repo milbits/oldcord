@@ -970,6 +970,10 @@ code {
 		background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
 		background-image: url(https://discord.com/assets/936f353828eb5a16cd39.svg);
 	}
+	& [alt="Bluesky"] {
+		background-color: hsl(210.63,  calc(var(--saturation-factor, 1) * 99.16%), 53.14%);
+		background-image: url(https://milbits.github.io/oldcord/src/assets/bluesky.webp);
+	}
 }
 
 /** revert too powerful dialog */
