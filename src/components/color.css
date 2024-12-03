@@ -53,6 +53,9 @@
 	fill: var(--green) !important;
 }
 */
+.fixedDiscoveryIcon_fea3ef{
+	color: var(--green)
+}
 :is(.lookFilled_dd4f85.colorBrand_dd4f85, .lookFilled_dd4f85.colorBrand_dd4f85:disabled) {
 	background-color: var(--blurple);
 	&:hover {
