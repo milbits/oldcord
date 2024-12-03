@@ -581,7 +581,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	gap: 0 !important;
 }
 .outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375)), :has(.container_b64375)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 .outer_c69a7b.fullSize_c69a7b:has(.statusEmojiOnly_af9888) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
 	padding-bottom: 90px !important;
@@ -1123,10 +1123,12 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .nickname_c32acf.fullSize_c32acf {
 	transform: translateX(125px);
 	width: fit-content;
+	margin-top: 35px;
 }
 .inner_c69a7b.fullSize_c69a7b .botTag_a9e77f {
 	transform: translateX(125px);
 	width: fit-content;
+	margin-top: 35px;
 }
 .fullSize_c32acf .userTagUsername_c32acf {
 	transform: scale(0.9);
@@ -1192,13 +1194,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 :has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
 	display: inline-flex;
-	top: 51px;
-	left: 75px;
+	top: 26px;
+	left: -55px;
 	&:has(.button_f9d37d:nth-of-type(3)) {
 		left: -55px !important;
-	}
-	&:has(.button_f9d37d:nth-of-type(2)) {
-		left: 35px;
 	}
 }
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
@@ -1261,10 +1260,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .buttonContainer_ecc1b2 {
 	margin-right: 54px;
 }
-.headerButtons_b9fccc {
-	margin-left: 390px;
-	margin-top: -90px;
-}
 .inner_c69a7b.fullSize_c69a7b .sizeSmall_dd4f85.button_f9d37d {
 	background: var(--green);
 	&:hover {
@@ -1320,7 +1315,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	margin-top: 5px;
 	white-space: pre-wrap;
 	text-align: left !important;
-	margin-right: -60px;
+	margin-right: -180px;
 	/* padding-top: 30px; */
 	&:before {
 		content: "CUSTOM STATUS";
