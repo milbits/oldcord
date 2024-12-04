@@ -1345,6 +1345,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		padding-bottom: 80px;
 	}
 }
+:has(.statusBubble_af9888) .headerInner_b9fccc .headerButtons_b9fccc { /* this is needed for some reason */
+	margin-top: 5px;
+}
 
 .inner_c69a7b.fullSize_c69a7b .details_ae1fa2 .text-xs\/normal_dc00ef {
 	font-size: 14px;
@@ -1434,6 +1437,11 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	&:hover {
 		background: #fff !important;
 	}
+}
+:is(.fullSize_c69a7b) :has(.avatar_f94206 > .wrapper_c51b4e > .svg_c51b4e.mask_c51b4e > .pointerEvents_c51b4e[mask="url(#svg-mask-status-streaming)"]) .grow_dd4f85.fullWidth_dd4f85.sizeSmall_dd4f85.primary_f9d37d.themeColor_f9d37d.colorPrimary_dd4f85.lookFilled_dd4f85.button_dd4f85.button_f9d37d {
+	color: #fff !important;
+	background: unset;
+	border: solid 1px;
 }
 :has(.tabBarItem_ecc04c:nth-child(4)) .headerInner_b9fccc rect:not(path ~ rect) {
 	fill: #fff !important;
