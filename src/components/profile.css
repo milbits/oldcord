@@ -577,11 +577,11 @@ html.theme-dark .badgeContainer_d60c6d path {
 .container_c32acf {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	gap: 0 !important;
 }
-.outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375)), :has(.container_b64375)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
-	padding-bottom: 20px;
+.outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375))) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
+	padding-bottom: 40px;
 }
 .outer_c69a7b.fullSize_c69a7b:has(.statusEmojiOnly_af9888) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
 	padding-bottom: 90px !important;
@@ -1653,9 +1653,9 @@ tl;dr WIP */
 .inner_c69a7b.fullSize_c69a7b .mask_c51b4e.svg_c51b4e > rect:nth-child(1) {
 	opacity: 0 !important;
 }
-.custom-profile-theme .mask_c51b4e.svg_c51b4e > rect:nth-child(2) {
+:is(.custom-profile-theme) .avatar_f94206 .mask_c51b4e.svg_c51b4e > rect:nth-child(2) {
 	opacity: 0 !important;
-}
+} 
 /*thing in the member list*/
 .container_c64476 {
 	background: var(--background-modifier-hover);
