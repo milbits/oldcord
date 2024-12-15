@@ -577,7 +577,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 .container_c32acf {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 	gap: 0 !important;
 }
 .outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375))) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
