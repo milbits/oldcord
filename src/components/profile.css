@@ -172,6 +172,11 @@
 	font-weight: 400;
 }
 
+/* KILL upsells KILL upsells KILL */
+.upsellContainer_b8bbd6 {
+	display: none;
+}
+
 /* Switch account icon (WIP) */
 .menuItemInner_ad5fac.buttonInner_f9d37d.contents_dd4f85
 	> svg
