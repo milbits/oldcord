@@ -142,7 +142,7 @@
 	& .outer_c69a7b.biteSize_c69a7b, .outer_c69a7b.fullSize_c69a7b,
 	#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
 		width: 220px;
-		background: var(--background-floating);
+		background: transparent;
 	}
 	& .container_c32acf.username_ad5fac {
 		display: none;
@@ -520,7 +520,8 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 
 .inner_c69a7b.biteSize_c69a7b {
-	background: var(--background-secondary) !important;
+	background: transparent !important;
+	border-radius: unset;
 }
 .header_b8cc6d {
 	background: var(--play, var(--background-tertiary));
