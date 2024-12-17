@@ -520,7 +520,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 
 .inner_c69a7b.biteSize_c69a7b {
-	background: transparent !important;
+	background: var(--background-secondary) !important;
 	border-radius: unset;
 }
 .header_b8cc6d {
