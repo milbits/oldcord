@@ -1,6 +1,4 @@
 /** bottom-left popout */
-/*Code by @kinggamingyt! */
-
 .panels_a4d4d9 .avatarWrapper_b2ca13:hover {
 	background: none;
 }
@@ -8,10 +6,8 @@
 	opacity: 0.5 !important;
 }
 
-/* now with better selectors (in 2024💀💀😭😭 those who know: balkan rage (explanation in comments) */
-.biteSize_c69a7b.overlay_c69a7b:nth-of-type(2) > :is(.button_f9d37d:nth-of-type(2), .menuDivider_ad5fac),
-.biteSize_c69a7b.overlay_c69a7b:nth-of-type(1) .button_f9d37d:nth-of-type(1),
-.biteSize_c69a7b.overlay_c69a7b:nth-of-type(2) > div > :is(.button_f9d37d:nth-of-type(2), .menuDivider_ad5fac) {
+.biteSize_c69a7b.overlay_c69a7b:nth-of-type(2) :is(.button_f9d37d:nth-of-type(2), .menuDivider_ad5fac),
+.biteSize_c69a7b.overlay_c69a7b:nth-of-type(1) .button_f9d37d:nth-of-type(1) {
 	display: none;
 }
 
@@ -44,30 +40,7 @@
 	margin-left: 5%;
 	pointer-events: none;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.banner_d5fdb1, .avatar_f94206, .descriptionClamp_abaf7d, .mask_d5fdb1, .card_ae1fa2) {
-	display: none;
-}
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_af9888 {
-	top: -103px !important;
-	white-space: nowrap;
-	text-align: left !important;
-	left: -105px;
-	&:has(.addStatusPrompt_af9888) {
-		top: 5px !important;
-	}
-}
-.accountProfilePopoutWrapper_b2ca13 .visibleContainer_af9888.biteSize_af9888 {
-	bottom: 0;
-	left: 106px;
-}
-.accountProfilePopoutWrapper_b2ca13 .singleLineAlign_af9888 {
-	text-align: left;
-}
-.accountProfilePopoutWrapper_b2ca13 .wrapper_f7e168.visible_bba79b.popover_f7be4f {
-	box-shadow: none;
-	animation: none;
-	opacity: 1;
-}
+
 .accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
 	right: 150px;
 	margin-top: -85px;
@@ -92,37 +65,7 @@
 		transform: scale(1.7);
 	}
 }
-:has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_f7be4f {
-	display: none;
-	pointer-events: none;
-}
 
-#app-mount .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d {
-	min-height: 0 !important;
-	height: 38px !important;
-	background: var(--background-floating);
-	width: 212px !important;
-	position: fixed;
-	z-index: 4;
-	margin-top: -30px;
-}
-.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .statusBubble_af9888 {
-	background: var(--brand-experiment-560);
-	width: 180px;
-	border-radius: 2px;
-	block-size: 12px;
-
-	& .defaultColor_a595eb {
-		color: var(--white);
-	}
-}
-.accountProfilePopoutWrapper_b2ca13 .content_af9888 {
-	margin-top: -3px;
-	max-width: 152px;
-}
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleWithTextPadding_af9888 {
-	margin-right: 73px;
-}
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
 	bottom: 0px;
@@ -130,6 +73,15 @@
 	margin-left: 3px;
 	overflow: hidden;
 
+	& .header_b8cc6d {
+		min-height: 0 !important;
+		height: 38px !important;
+		background: var(--background-floating);
+		width: 212px !important;
+		position: fixed;
+		z-index: 4;
+		margin-top: -30px;
+	}
 	& .body_ad5fac {
 		padding: 0px;
 		gap: 0px;
@@ -139,7 +91,16 @@
 		background: var(--background-floating);
 		padding-bottom: 2px;
 	}
-	& .outer_c69a7b.biteSize_c69a7b, .outer_c69a7b.fullSize_c69a7b,
+	& .wrapper_f7e168.visible_bba79b.popover_f7be4f {
+		box-shadow: none;
+		animation: none;
+		opacity: 1;
+	}
+	& .singleLineAlign_af9888 {
+		text-align: left;
+	}
+	& .outer_c69a7b.biteSize_c69a7b,
+	.outer_c69a7b.fullSize_c69a7b,
 	#status > .scrollerBase_c49869.none_c49869.scroller_d90b3d {
 		width: 220px;
 		background: transparent;
@@ -149,6 +110,39 @@
 	}
 	& .custom-theme-background .menu_d90b3d {
 		border: 0px;
+	}
+	& :is(.banner_d5fdb1, .avatar_f94206, .descriptionClamp_abaf7d, .mask_d5fdb1, .card_ae1fa2) {
+		display: none;
+	}
+	& .statusBubbleOuter_af9888 {
+		top: -103px !important;
+		white-space: nowrap;
+		text-align: left !important;
+		left: -105px;
+		&:has(.addStatusPrompt_af9888) {
+			top: 5px !important;
+		}
+	}
+	& .visibleContainer_af9888.biteSize_af9888 {
+		bottom: 0;
+		left: 106px;
+	}
+	& .statusBubbleWithTextPadding_af9888 {
+		margin-right: 73px;
+	}
+	& .content_af9888 {
+		margin-top: -3px;
+		max-width: 152px;
+	}
+	& :is(.visibleContainer_af9888):hover .statusBubble_af9888 {
+		background: var(--brand-experiment-560);
+		width: 180px;
+		border-radius: 2px;
+		block-size: 12px;
+
+		& .defaultColor_a595eb {
+			color: var(--white);
+		}
 	}
 }
 
@@ -190,7 +184,7 @@
 /*! Revert activity profile*/
 /** Variables*/
 
-.outer_c69a7b.biteSize_c69a7b:has(.activity_b8cc6d) {
+.outer_c69a7b:has(.activity_b8cc6d) {
 	--play-tertiary: rgba(255, 255, 255, 0.6);
 	--play-secondary-2: rgba(255, 255, 255, 0.9);
 	--play-secondary: rgba(255, 255, 255, 0.8);
@@ -199,44 +193,41 @@
 	--play-dark: var(--brand-experiment-530);
 }
 /*Change color depending on activity type*/
-.outer_c69a7b.biteSize_c69a7b:not(:has(.vc-user-connection)) {
-	/* Listening to Spotify*/
-	&:has(.platformIcon_ae1fa2[style*="/assets/3912b83ecf89f78097ab.svg"]) {
+/*somehow this causes INSANE lag??????????????? */
+/*
+.outer_c69a7b {
+	/* Listening to Spotify
+	&:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
 		--play: var(--spotify);
 		--play-dark: var(--spotify-dark);
 	}
 
-	/* Live on Twitch*/
+	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
 		--play-dark: var(--twitch-dark);
 	}
 
-	/* Watching Crunchyroll*/
-	&:has([alt*="Season"]) {
-		--play: var(--crunchyroll);
-		--play-dark: var(--crunchyroll-dark);
-	}
-
-	/* Watching Watch Together*/
+	/* Watching Watch Together
 	&:has([src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])
 	{
 		--play: var(--youtube);
 		--play-dark: var(--youtube-dark);
 	}
 
-	/* Playing on XBOX*/
+	/* Playing on XBOX
 	&:has([src="/assets/9109430b0f2514a0c674.png"]) {
 		--play: var(--xbox);
 		--play-dark: var(--xbox-dark);
 	}
 
-	/* Playing on PlayStation*/
+	/* Playing on PlayStation
 	&:has([style='mask-image: url("/assets/8fca7fcefaac64787658.svg");']) {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
 }
+*/
 
 .platformIcon_ae1fa2 {
 	display: none;
@@ -439,45 +430,10 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 /*note for feature-stripped customization screen*/
 .preview_bad983:before {
-	content: "[ Disable OldCord for an accurate preview ]";
+	content: "[ Disable OldCord for a functional preview! ]";
 	color: var(--blurple);
 	font-size: 14px;
 	font-weight: 500;
-}
-
-.customizationSection_b3a5c2 .container_c32acf {
-	padding-top: 105px;
-	margin-top: -150px;
-}
-
-.customizationSection_b3a5c2 .wrapper_c51b4e {
-	bottom: 45px;
-}
-
-.customizationSection_b3a5c2 .overlayIcon_f18fcb {
-	bottom: 75px;
-}
-
-.customizationSection_b3a5c2 .avatar_f18fcb {
-	left: 85px;
-}
-
-.customizationSection_b3a5c2 .userTagUsername_c32acf {
-	margin-left: 75px;
-}
-
-.customizationSection_b3a5c2 .descriptionClamp_abaf7d {
-	max-height: unset;
-}
-
-.customizationSection_b3a5c2 .footer_b8cc6d::before {
-	content: "";
-	width: 100%;
-	height: 1px;
-	right: 0.5px;
-	margin-top: -15px;
-	position: absolute;
-	background-color: var(--background-tertiary) !important;
 }
 
 /*! normal profile popout*/
@@ -554,9 +510,6 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 .clickable_f94206:hover .overlay_f94206::before,
 .clickable_f94206:focus-within .overlay_f94206::before {
-	[lang^="en"] & {
-		content: "VIEW PROFILE";
-	}
 	[lang="de"] & {
 		content: "PROFIL ANSEHEN";
 	}
@@ -586,7 +539,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	padding-bottom: 25px;
 	gap: 0 !important;
 }
-.outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375))) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
+.outer_c69a7b.fullSize_c69a7b .container_c32acf:is(:not(:has(.container_b64375)), :has(.container_b64375)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
 	padding-bottom: 40px;
 }
 .outer_c69a7b.fullSize_c69a7b:has(.statusEmojiOnly_af9888) .container_c32acf /*more padding for profiles with single emojis for statuses */ {
@@ -661,9 +614,6 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 :has(.statusBubble_af9888) .container_c32acf {
 	padding-bottom: 45px;
-}
-:has(.clanTagContainer_c32acf) .statusBubbleOuter_af9888 {
-	margin-top: 10px;
 }
 
 /*modal profile*/
@@ -781,8 +731,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 	border: none;
 }
 
-/* mutuals section
-maybe just make the bg tertiary, adding text over it looks kinda chunky*/
+/* mutuals section*/
 .mutuals_fc9b46 {
 	background: var(--play, var(--background-tertiary));
 	/* padding-left: 12px; */
@@ -862,19 +811,8 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 }
 
 /** Roles */
-.root_e6f2d0:not(:has(.role_f9575e:nth-of-type(2))):before {
-	content: "ROLE";
-	font-size: 12px;
-	color: var(--header-secondary);
-	font-weight: 800;
-	font-family: var(--font-display);
-	margin-right: 200px;
-	margin-bottom: 4px;
-}
-[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
-	content: "ROLLE";
-}
-.root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
+
+.root_e6f2d0:before {
 	content: "ROLES";
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -882,6 +820,12 @@ maybe just make the bg tertiary, adding text over it looks kinda chunky*/
 	font-family: var(--font-display);
 	margin-right: 200px;
 	margin-bottom: 4px;
+	[lang="DE"] & {
+		content: "ROLLEN";
+	}
+}
+[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
+	content: "ROLLEN";
 }
 [lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
 	content: "ROLLEN";
@@ -896,6 +840,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 .role_f9575e {
 	background-color: transparent !important;
+	transform: translate(0);
+	border: 0;
+	border-radius: 4200px;
 }
 
 .addButtonIcon_e4010c {
@@ -909,11 +856,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	background: 0 0;
 }
 
-.role_f9575e {
-	transform: translate(0);
-	border: 0;
-	border-radius: 4200px;
-}
 .roleRemoveIcon_f9575e {
 	margin: 0;
 	left: 1px;
@@ -971,47 +913,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 .messageInputContainer_f2c0a8 {
 	border: none;
-}
-/* restore "No Roles" text */
-:has(.linkTop_d8bfb3) .outer_c69a7b.biteSize_c69a7b:has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
-	& .mutuals_fc9b46:after {
-		content: "NO ROLES";
-		position: absolute;
-		font-size: 12px;
-		color: var(--header-secondary);
-		font-weight: 800;
-		font-family: var(--font-display);
-		margin-top: 50px;
-		margin-left: 13px;
-		margin-bottom: 4px;
-	}
-	& .activity_b8cc6d {
-		&:after {
-			content: "NO ROLES";
-			position: absolute;
-			font-size: 12px;
-			color: var(--header-secondary);
-			font-weight: 800;
-			font-family: var(--font-display);
-			margin-bottom: 4px;
-			margin-top: 108px;
-		}
-		&:has(.disabledButtonOverlay_dd4f85):after {
-			margin-top: 150px;
-		}
-		&:has(.actions_ae1fa2 > .button_f9d37d):after {
-			margin-top: 160px;
-		}
-		&:has(.actions_ae1fa2 > .button_f9d37d:nth-of-type(2)):after {
-			margin-top: 220px;
-		}
-	}
-	&:not(:has(.descriptionClamp_abaf7d)) .biteSize_c32acf.nicknameIcons_c32acf {
-		padding-top: 60px !important;
-	}
-	& .descriptionClamp_abaf7d {
-		padding-top: 40px !important;
-	}
 }
 
 /* Re-add "Right click user for more actions" footnote on popouts */
@@ -1106,12 +1007,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 .inner_c69a7b.fullSize_c69a7b {
 	background: var(--background-tertiary);
-}
-
-/*re-position "unable to load" icon*/
-.warningCircleIcon-1YXIHu {
-	transform: translateX(-45px);
-	margin-top: 46px;
 }
 
 .headerInner_b9fccc .avatar_f94206 {
@@ -1209,12 +1104,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
 	left: 370px;
 }
-.inner_c69a7b.fullSize_c69a7b:has([aria-label="Mod View"]) .headerInner_b9fccc .headerButtons_b9fccc {
-	left: 370px !important;
-}
-.inner_c69a7b.fullSize_c69a7b:has([aria-label="Friends"]) .headerInner_b9fccc .headerButtons_b9fccc {
-	left: 420px;
-}
 
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
@@ -1241,36 +1130,8 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		color: var(--interactive-active);
 	}
 }
-
 .tabBar_ecc04c .tabBarItem_ecc04c {
 	border-bottom-width: 2px;
-}
-
-.friendRequestBanner_b9fccc {
-	background: var(--background-tertiary);
-	border-radius: 0;
-	& .text-sm\/normal_dc00ef {
-		margin-left: 10px;
-	}
-}
-.sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2 {
-	background: var(--green);
-	&:hover {
-		background: var(--green-active) !important;
-	}
-}
-
-.sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.button_ecc1b2 {
-	padding: 15px;
-}
-.buttonContainer_ecc1b2 {
-	margin-right: 54px;
-}
-.inner_c69a7b.fullSize_c69a7b .sizeSmall_dd4f85.button_f9d37d {
-	background: var(--green);
-	&:hover {
-		background: var(--green-hover) !important;
-	}
 }
 
 .footer_b8cc6d .button_f9d37d {
@@ -1308,7 +1169,9 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	stroke-width: 2px;
 	transform: scale(0.98);
 	> path {
-		d: path("M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z");
+		d: path(
+			"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
+		);
 	}
 }
 :is(.fullSize_cb78f1.wrapper_cb78f1) .icon_f9d37d > svg > path {
@@ -1317,7 +1180,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /* CUSTOM STATUS */
 
-.inner_c69a7b.fullSize_c69a7b .statusBubble_af9888 {
+.fullSize_c69a7b .statusBubble_af9888 {
 	margin-top: 5px;
 	white-space: pre-wrap;
 	text-align: left !important;
@@ -1334,15 +1197,15 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	}
 	& .clamp_af9888.content_af9888:has(.statusEmojiInline_af9888) {
 		margin-left: 5px;
-			& .statusText_af9888 {
-				display: unset;
-			}
+		& .statusText_af9888 {
+			display: unset;
+		}
 	}
 	& .clamp_af9888.content_af9888:has(.statusEmojiOnly_af9888) {
 		margin-left: 6px;
 	}
 }
-:has(.statusBubble_af9888) .inner_c69a7b.fullSize_c69a7b .container_c32acf {
+:has(.statusBubble_af9888) .fullSize_c69a7b .container_c32acf {
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1351,11 +1214,12 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		padding-bottom: 80px;
 	}
 }
-:has(.statusBubble_af9888) .headerInner_b9fccc .headerButtons_b9fccc { /* this is needed for some reason */
+:has(.statusBubble_af9888) .headerInner_b9fccc .headerButtons_b9fccc {
+	/* this is needed for some reason */
 	margin-top: 5px;
 }
 
-.inner_c69a7b.fullSize_c69a7b .details_ae1fa2 .text-xs\/normal_dc00ef {
+.fullSize_c69a7b .details_ae1fa2 .text-xs\/normal_dc00ef {
 	font-size: 14px;
 	color: var(--white) !important;
 }
@@ -1366,7 +1230,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	font-weight: 800;
 }
 
-.inner_c69a7b.fullSize_c69a7b {
+.fullSize_c69a7b {
 	& .statusBubbleOuter_af9888 .defaultColor_a595eb {
 		margin-left: 5px;
 	}
@@ -1406,7 +1270,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 
 /* hide "connections" text */
-:has(.connections_d53fbd).section_ba4d80 > .headings_ba4d80 > .defaultColor_e42ec6.text-xs\/semibold_dc00ef {
+:has(.connections_d53fbd).section_ba4d80 .text-xs\/semibold_dc00ef {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -1416,8 +1280,8 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	border-top: 1px solid var(--background-modifier-accent);
 }
 
-/** rich presence profile theming (now with GOOD selectors) */
-
+/** rich presence profile theming */
+/*
 :has(.tabBarItem_ecc04c:nth-child(4)) :is(.container_c32acf, .headerInner_b9fccc) {
 	background-color: var(--blurple);
 }
@@ -1468,9 +1332,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :is(.fullSize_c69a7b) .fade_c49869.scrollerBase_c49869.thin_c49869.scroller_c0721c {
 	order: -1;
 }
+*/
 
 /* modal presence size adjustments */
-
+/*
 .section_ba4d80:has(.header_ae1fa2) {
 	& .imageContainer_fa854f {
 		width: 80px;
@@ -1495,6 +1360,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	height: 30px !important;
 	transform: scale(1.3);
 }
+	*/
 /*! profile modal ends here */
 
 /** profiles in settings page, its messy but it works lmao */
@@ -1616,6 +1482,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }*/
 
 /* add scrollbar to user bio in profile sidebar (it's the exact same code except the classes) */
+/*
 .lineClamp2Plus_a595eb {
 	-webkit-line-clamp: 190 !important;
 	max-height: 112px;
@@ -1636,7 +1503,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .lineClamp2Plus_a595eb:hover::-webkit-scrollbar-thumb {
 	background: var(--bg-overlay-6, var(--background-tertiary));
 	border-radius: 999px;
-}
+}*/
 
 /* selector for status; unused because trying to position it fucking sucks
 .userPanelOuter_c69a7b .hover_f9d37d {
@@ -1659,9 +1526,9 @@ tl;dr WIP */
 .inner_c69a7b.fullSize_c69a7b .mask_c51b4e.svg_c51b4e > rect:nth-child(1) {
 	opacity: 0 !important;
 }
-:is(.custom-profile-theme) .avatar_f94206 .mask_c51b4e.svg_c51b4e > rect:nth-child(2) {
+.custom-profile-theme .mask_c51b4e.svg_c51b4e > rect:nth-child(2) {
 	opacity: 0 !important;
-} 
+}
 /*thing in the member list*/
 .container_c64476 {
 	background: var(--background-modifier-hover);
