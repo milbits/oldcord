@@ -66,6 +66,19 @@
 	}
 }
 
+:has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_f7be4f {
+	display: none;
+	pointer-events: none;
+}
+.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .statusBubble_af9888 {
+	background: var(--brand-experiment-560);
+	width: 180px;
+	border-radius: 2px;
+	block-size: 12px;
+	& .defaultColor_a595eb {
+		color: var(--white);
+	}
+}
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
 	bottom: 0px;
@@ -98,6 +111,11 @@
 	}
 	& .singleLineAlign_af9888 {
 		text-align: left;
+	}
+	& .wrapper_f7e168.visible_bba79b.popover_f7be4f {
+		box-shadow: none;
+		animation: none;
+		opacity: 1;
 	}
 	& .outer_c69a7b.biteSize_c69a7b,
 	.outer_c69a7b.fullSize_c69a7b,
@@ -206,6 +224,12 @@
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
 		--play-dark: var(--twitch-dark);
+	}
+	
+	/* Watching Crunchyroll
+	&:has([alt*="Season"]) {
+		--play: var(--crunchyroll);
+		--play-dark: var(--crunchyroll-dark);
 	}
 
 	/* Watching Watch Together
@@ -435,6 +459,34 @@ html.theme-dark .badgeContainer_d60c6d path {
 	font-size: 14px;
 	font-weight: 500;
 }
+.customizationSection_b3a5c2 .container_c32acf {
+	padding-top: 105px;
+	margin-top: -150px;
+}
+.customizationSection_b3a5c2 .wrapper_c51b4e {
+	bottom: 45px;
+}
+.customizationSection_b3a5c2 .overlayIcon_f18fcb {
+	bottom: 75px;
+}
+.customizationSection_b3a5c2 .avatar_f18fcb {
+	left: 85px;
+}
+.customizationSection_b3a5c2 .userTagUsername_c32acf {
+	margin-left: 75px;
+}
+.customizationSection_b3a5c2 .descriptionClamp_abaf7d {
+	max-height: unset;
+}
+.customizationSection_b3a5c2 .footer_b8cc6d::before {
+	content: "";
+	width: 100%;
+	height: 1px;
+	right: 0.5px;
+	margin-top: -15px;
+	position: absolute;
+	background-color: var(--background-tertiary) !important;
+}
 
 /*! normal profile popout*/
 /*Banners*/
@@ -614,6 +666,9 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 :has(.statusBubble_af9888) .container_c32acf {
 	padding-bottom: 45px;
+}
+:has(.clanTagContainer_c32acf) .statusBubbleOuter_af9888 {
+	margin-top: 10px;
 }
 
 /*modal profile*/
@@ -915,6 +970,49 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	border: none;
 }
 
+/* restore "No Roles" text
+:has(.linkTop_d8bfb3) .outer_c69a7b.biteSize_c69a7b:has(.mutuals_fc9b46):not(:has(.root_e6f2d0)) {
+	& .mutuals_fc9b46:after {
+		content: "NO ROLES";
+		position: absolute;
+		font-size: 12px;
+		color: var(--header-secondary);
+		font-weight: 800;
+		font-family: var(--font-display);
+		margin-top: 50px;
+		margin-left: 13px;
+		margin-bottom: 4px;
+	}
+	& .activity_b8cc6d {
+		&:after {
+			content: "NO ROLES";
+			position: absolute;
+			font-size: 12px;
+			color: var(--header-secondary);
+			font-weight: 800;
+			font-family: var(--font-display);
+			margin-bottom: 4px;
+			margin-top: 108px;
+		}
+		&:has(.disabledButtonOverlay_dd4f85):after {
+			margin-top: 150px;
+		}
+		&:has(.actions_ae1fa2 > .button_f9d37d):after {
+			margin-top: 160px;
+		}
+		&:has(.actions_ae1fa2 > .button_f9d37d:nth-of-type(2)):after {
+			margin-top: 220px;
+		}
+	}
+	&:not(:has(.descriptionClamp_abaf7d)) .biteSize_c32acf.nicknameIcons_c32acf {
+		padding-top: 60px !important;
+	}
+	& .descriptionClamp_abaf7d {
+		padding-top: 40px !important;
+	}
+}
+*/
+
 /* Re-add "Right click user for more actions" footnote on popouts */
 [lang^="en"] .footer_b8cc6d::after {
 	content: "Right click user for more actions";
@@ -1090,7 +1188,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	bottom: -29px;
 	left: 450px;
 	&:has(.multipleButtons_e9f973) {
-		left: 410px !important;
+		left: 410px;
 	}
 }
 :has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
@@ -1104,11 +1202,48 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
 	left: 370px;
 }
+/* this SUCKS
+.inner_c69a7b.fullSize_c69a7b:has(div:nth-of-type(3) > .bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d) .headerInner_b9fccc .headerButtons_b9fccc {
+	left: 370px !important;
+}
+.inner_c69a7b.fullSize_c69a7b:has(div:nth-of-type(2):not(:nth-of-type(3)) > .bannerColor_f9d37d.lookFilled_dd4f85.button_dd4f85.banner_f9d37d.icon_f9d37d.button_f9d37d) .headerInner_b9fccc .headerButtons_b9fccc {
+	left: 350px;
+}
+*/
+.inner_c69a7b.fullSize_c69a7b:has([aria-label="Mod View"]) .headerInner_b9fccc .headerButtons_b9fccc {
+	left: 370px !important;
+}
 
 .tabBarItem_ecc04c.item_a0 {
 	height: 37px;
 	& .defaultColor_a595eb {
 		color: var(--interactive-normal);
+	}
+}
+
+.friendRequestBanner_b9fccc {
+	background: var(--background-tertiary);
+	border-radius: 0;
+	& .text-sm\/normal_dc00ef {
+		margin-left: 10px;
+	}
+}
+.sizeSmall_dd4f85.colorBrand_dd4f85.lookFilled_dd4f85.button_ecc1b2 {
+	background: var(--green);
+	&:hover {
+		background: var(--green-active) !important;
+	}
+}
+.sizeSmall_dd4f85.lookFilled_dd4f85.button_dd4f85.button_ecc1b2 {
+	padding: 15px;
+}
+.buttonContainer_ecc1b2 {
+	margin-right: 54px;
+}
+.inner_c69a7b.fullSize_c69a7b .sizeSmall_dd4f85.button_f9d37d {
+	background: var(--green);
+	&:hover {
+		background: var(--green-hover) !important;
 	}
 }
 
@@ -1335,7 +1470,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 */
 
 /* modal presence size adjustments */
-/*
+
 .section_ba4d80:has(.header_ae1fa2) {
 	& .imageContainer_fa854f {
 		width: 80px;
@@ -1360,7 +1495,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	height: 30px !important;
 	transform: scale(1.3);
 }
-	*/
+
 /*! profile modal ends here */
 
 /** profiles in settings page, its messy but it works lmao */
