@@ -227,7 +227,7 @@
 	}
 	
 	/* Watching Crunchyroll
-	&:has([alt*="Season"]) {
+	&:has(.crunchyroll_fa854f) {
 		--play: var(--crunchyroll);
 		--play-dark: var(--crunchyroll-dark);
 	}
