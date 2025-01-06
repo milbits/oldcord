@@ -490,6 +490,7 @@ code {
 	cursor: pointer;
 }
 /* tweak hover buttons*/
+
 .hoverButtonGroup_d0395d {
 	border-radius: 4px;
 	top: 4px;
@@ -498,10 +499,18 @@ code {
 	transition: 0.1s ease;
 	outline: none;
 }
-/* keep the translucent background for stuff like images and videos bc it looks better */
-.hoverButtonGroup_d0395d:not([class^="nonVisualMedia"]) {
-	background-color: #00000040;
+/*fuck ai!! rahhh*/.hoverButton_d0395d:has(.lottieIcon_f73ef7){display:none}
+.removeMosaicItemHoverButton_e5c1dc{
+	color: var(--red) !important;
+	opacity: .7;
+	&:hover{opacity:1;};
+	&:active{color:#fff!important;background:var(--red-active)!important}
 }
+/* keep the translucent background for stuff like images and videos bc it looks better */
+.visualMediaItemContainer_cda674 .hoverButtonGroup_d0395d{
+	background-color: rgb(0,0,0,25%);
+}
+
 /* make download button bigger */
 .downloadHoverButtonIcon_e5c1dc {
 	width: 24px !important;
