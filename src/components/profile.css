@@ -896,7 +896,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 .role_f9575e {
 	background-color: transparent !important;
 	transform: translate(0);
-	border: 0;
+	border: 0 !important;
 	border-radius: 4200px;
 }
 
