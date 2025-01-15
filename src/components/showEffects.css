@@ -37,16 +37,16 @@
     top: 62px !important
 }
 /*move usernames etc. a bit down*/
-:is(.biteSize_c69a7b.outer_c69a7b) .container_c32acf{
+.outer_c69a7b:is(.biteSize_c69a7b.outer_c69a7b) .container_c32acf{
     padding-top: 50px;
 }
-.statusBubbleOuter_af9888{
-    top: 82px
+.container_af9888.biteSize_af9888{
+    top: 140px
 }
-:has(.pronouns_c32acf) .statusBubbleOuter_af9888{
-    top: 101px !important;
+.outer_c69a7b:has(.pronouns_c32acf) .container_af9888.biteSize_af9888{
+    top: 157px !important;
 }
-.accountProfilePopoutWrapper_b2ca13 .statusBubbleOuter_af9888{
+.accountProfilePopoutWrapper_b2ca13 .container_af9888.biteSize_af9888 {
 	top: -103px !important;
 	left: -105px
 }
