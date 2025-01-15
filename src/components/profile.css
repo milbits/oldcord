@@ -14,7 +14,7 @@
 .fixed_d90b3d:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	width: max-content;
 }
-[lang^="en"] .content_af9888 > .addStatusPrompt_af9888 {
+html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888 {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -262,15 +262,15 @@
 	&:after {
 		text-transform: uppercase;
 	}
-	[lang="de"] &:after {
+	html[lang="de"] &:after {
 		content: "ein spiel";
 	}
-	[lang^="en"] &:after {
+	html:is([lang="en-GB"],[lang="en-us"]) &:after {
 		content: "a game";
 	}
 }
 .headerText_ae1fa2:has(.live_ec1c2d) {
-	[lang^="en"] &:after {
+	html:is([lang="en-GB"],[lang="en-us"]) &:after {
 		content: "to a server";
 	}
 }
@@ -278,11 +278,11 @@
 	display: none;
 }
 .outer_c69a7b.fullSize_c69a7b:has([mask="url(#svg-mask-status-streaming)"]) .overlay_c69a7b:nth-of-type(1) .headerText_ae1fa2 {
-	[lang^="en"] & {
+	html:is([lang="en-GB"],[lang="en-us"]) & {
 		text-indent: -9999px;
 		line-height: 0px;
 	}
-	[lang^="en"] &:before {
+	html:is([lang="en-GB"],[lang="en-us"]) &:before {
 		content: "live on twitch";
 		text-indent: 0;
 		line-height: initial;
@@ -290,14 +290,14 @@
 }
 
 /* reverts "watch stream" button in vcs */
-:is(.activityStreamPreview_c1d9fd) .lookFilled_dd4f85.colorPrimary_dd4f85 {
+/*:is(.activityStreamPreview_c1d9fd) .lookFilled_dd4f85.colorPrimary_dd4f85 {
 	background: none;
 	border: solid 1px #72767d;
 	transition: color 0.17s ease, background-color 0.17s ease, border-color 0.17s ease;
 	&:hover {
 		border: solid 1px #fff;
 	}
-}
+}*/
 /*progress bar (like on spotify statuses)*/
 .activity_b8cc6d .bar_b5cd55 {
 	background: rgba(79, 84, 92, 0.16);
@@ -377,10 +377,10 @@
 	font-feature-settings: normal;
 	width: 1000px;
 	color: #f6fbf9 !important /*not accurate to original but tbh it looks better? maybe??*/;
-	[lang^="en"] &:after {
+	html:is([lang="en-GB"],[lang="en-us"]) &:after {
 		content: " elapsed";
 	}
-	[lang="de"] &:after {
+	html[lang="de"] &:after {
 		content: " verstrichen";
 	}
 }
@@ -562,7 +562,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 .clickable_f94206:hover .overlay_f94206::before,
 .clickable_f94206:focus-within .overlay_f94206::before {
-	[lang="de"] & {
+	html[lang="de"] & {
 		content: "PROFIL ANSEHEN";
 	}
 	content: "VIEW PROFILE";
@@ -878,14 +878,14 @@ html.theme-dark .badgeContainer_d60c6d path {
 	font-family: var(--font-display);
 	margin-right: 200px;
 	margin-bottom: 4px;
-	[lang="DE"] & {
+	html[lang="DE"] & {
 		content: "ROLLEN";
 	}
 }
-[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
+html[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
 	content: "ROLLEN";
 }
-[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
+html[lang="DE"] .root_e6f2d0:has(.role_f9575e:nth-of-type(2)):before {
 	content: "ROLLEN";
 }
 section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
@@ -1017,7 +1017,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 */
 
 /* Re-add "Right click user for more actions" footnote on popouts */
-[lang^="en"] .footer_b8cc6d::after {
+html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	content: "Right click user for more actions";
 	font-size: 12px;
 	text-align: center;
@@ -1038,7 +1038,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	&.colorBrand_dd4f85 {
 		border-left: 1px solid rgb(255, 255, 255, 0.3);
 	}
-	:has(.activity_b8cc6d) & {
+	.outer_c69a7b:has(.activity_b8cc6d) & {
 		border-top: 1px solid rgb(255, 255, 255, 0.3);
 	}
 	&:hover {
@@ -1047,10 +1047,10 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	&:active {
 		background: var(--primary-transparent) !important;
 	}
-	:has(.activity_b8cc6d) &:hover {
+	.outer_c69a7b:has(.activity_b8cc6d) &:hover {
 		background: var(--brand-experiment-460) !important;
 	}
-	:has(.activity_b8cc6d) &:active {
+	.outer_c69a7b:has(.activity_b8cc6d) &:active {
 		background: var(--brand-experiment-400) !important;
 	}
 }
@@ -1349,7 +1349,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-left: 6px;
 	}
 }
-:has(.container_af9888) .fullSize_c69a7b .container_c32acf {
+.fullSize_c69a7b:has(.container_af9888) .container_c32acf{
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1357,10 +1357,6 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	&:has(.container_b64375) {
 		padding-bottom: 80px;
 	}
-}
-:has(.container_af9888) .headerInner_b9fccc .headerButtons_b9fccc {
-	/* this is needed for some reason */
-	margin-top: 5px;
 }
 
 .fullSize_c69a7b .details_ae1fa2 .text-xs\/normal_dc00ef {
@@ -1414,7 +1410,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 
 /* hide "connections" text */
-:has(.connections_d53fbd).section_ba4d80 .text-xs\/semibold_dc00ef {
+.section_ba4d80:has(.connections_d53fbd) .text-xs\/semibold_dc00ef {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
