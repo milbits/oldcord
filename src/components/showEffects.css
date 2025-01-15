@@ -2,7 +2,7 @@
 .avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_d5fdb1{
     display: unset !important;
 }
-.animatorTop_f88ae3 .mask_d5fdb1 /*it doesnt work if i do it above and idk why*/{
+.animatorTop_f88ae3 .mask_d5fdb1{
     display: none !important
 }
 /*adjust profile effect opacity*/
