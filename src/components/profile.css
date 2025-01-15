@@ -857,7 +857,7 @@ html.theme-dark .badgeContainer_d60c6d path {
 		font-weight: 800;
 		font-family: var(--font-display);
 	}
-	[lang="de"] {
+	html[lang="de"] &:before {
 		content: "ÜBER MICH";
 	}
 }
