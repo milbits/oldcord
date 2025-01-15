@@ -42,8 +42,8 @@
 }
 
 .accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
-	right: 150px;
-	margin-top: -85px;
+	right: 115px;
+	margin-top: 72px;
 	opacity: 1;
 	background: none;
 	pointer-events: unset;
@@ -70,7 +70,7 @@
 	display: none;
 	pointer-events: none;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .statusBubble_af9888 {
+.accountProfilePopoutWrapper_b2ca13 :is(.referenceContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .container_af9888 {
 	background: var(--brand-experiment-560);
 	width: 180px;
 	border-radius: 2px;
@@ -132,11 +132,11 @@
 	& :is(.banner_d5fdb1, .avatar_f94206, .descriptionClamp_abaf7d, .mask_d5fdb1, .card_ae1fa2) {
 		display: none;
 	}
-	& .statusBubbleOuter_af9888 {
-		top: -103px !important;
+	& .container_af9888.biteSize_af9888 {
+		top: -40px !important;
+		left: 70px ;
 		white-space: nowrap;
 		text-align: left !important;
-		left: -105px;
 		&:has(.addStatusPrompt_af9888) {
 			top: 5px !important;
 		}
@@ -152,11 +152,11 @@
 		margin-top: -3px;
 		max-width: 152px;
 	}
-	& :is(.visibleContainer_af9888):hover .statusBubble_af9888 {
-		background: var(--brand-experiment-560);
-		width: 180px;
+	& :is(.container_af9888.biteSize_af9888):hover .outer_af9888.biteSize_af9888 {
+		background: var(--brand-experiment-560) !important;
+		width: 100px !important;
 		border-radius: 2px;
-		block-size: 12px;
+		block-size: 32px;
 
 		& .defaultColor_a595eb {
 			color: var(--white);
@@ -176,7 +176,7 @@
 	}
 }
 
-.statusBubbleOuter_af9888 {
+.outer_af9888 {
 	box-shadow: none;
 	background: none !important;
 }
@@ -645,30 +645,33 @@ html.theme-dark .badgeContainer_d60c6d path {
 }
 
 /** Custom status*/
-.statusBubbleOuter_af9888 {
+.outer_af9888 {
 	position: relative;
-	right: -230px;
-	top: 25px;
+	right: 105px;
+	top: 51px;
 	min-width: 250px;
 	box-shadow: none;
 	background: none !important;
 	text-align: center;
 }
+.inner_af9888 {
+	background: unset !important;
+}
 .visibleContainer_af9888.biteSize_af9888 {
 	left: -230px;
 }
 
-:has(.pronouns_c32acf) .statusBubbleOuter_af9888 {
-	top: 51px;
+:has(.pronouns_c32acf) .outer_af9888 {
+	top: 56px;
 }
 :has(.visibleContainer_af9888):not(:has(.singleLineAlign_af9888)) .container_c32acf {
 	padding-bottom: 50px;
 }
-:has(.statusBubble_af9888) .container_c32acf {
+:has(.container_af9888) .container_c32acf {
 	padding-bottom: 45px;
 }
-:has(.clanTagContainer_c32acf) .statusBubbleOuter_af9888 {
-	margin-top: 10px;
+:has(.clanTagContainer_c32acf) .outer_af9888 {
+	margin-top: 30px;
 }
 
 /*modal profile*/
@@ -679,24 +682,24 @@ html.theme-dark .badgeContainer_d60c6d path {
 	max-height: 700px;
 }
 
-.headerInner_b9fccc .statusBubbleOuter_af9888 {
+.headerInner_b9fccc .outer_af9888 {
 	top: 100px;
-	max-width: 500px;
+	max-width: 600px;
 	right: 160px;
 	min-width: 0;
 }
 
-.statusBubbleOuter_af9888 .defaultColor_a595eb {
+.outer_af9888 .defaultColor_a595eb {
 	color: var(--play-secondary, var(--interactive-normal));
 }
 
-.statusBubbleOuter_af9888,
-.statusBubble_af9888 {
+.outer_af9888,
+.container_af9888 {
 	border: none !important;
 	background: none;
 }
-.statusBubbleOuter_af9888:before,
-.statusBubbleOuter_af9888:after {
+.outer_af9888:before,
+.outer_af9888:after {
 	display: none;
 }
 
@@ -1184,19 +1187,24 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 /*call n dm btn*/
 .headerInner_b9fccc .headerButtons_b9fccc {
 	display: unset;
-	position: relative;
-	bottom: -29px;
+	position: absolute;
+	bottom: -85px;
 	left: 450px;
 	&:has(.multipleButtons_e9f973) {
 		left: 410px;
 	}
 }
 :has(.bot_c32acf) .headerInner_b9fccc .headerButtons_b9fccc {
-	display: inline-flex;
-	top: 26px;
-	left: -55px;
+	display:inline-flex;
+	top: 24px;
 	&:has(.button_f9d37d:nth-of-type(3)) {
-		left: -55px !important;
+		left: 350px; !important;
+	}
+	&:not(:has(.button_f9d37d:nth-of-type(3))) {
+		left: 420px; 
+	}
+	&:not(:has(.button_f9d37d:nth-of-type(2))) {
+		left: 450px; 
 	}
 }
 [lang="DE"] .headerInner_b9fccc .headerButtons_b9fccc {
@@ -1295,7 +1303,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-top: 32px;
 		position: fixed;
 	}
-	&:has(.statusBubble_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
+	&:has(.container_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 38px;
 	}
 }
@@ -1315,11 +1323,12 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 
 /* CUSTOM STATUS */
 
-.fullSize_c69a7b .statusBubble_af9888 {
-	margin-top: 5px;
-	white-space: pre-wrap;
+.fullSize_c69a7b .container_af9888 .content_af9888 {
+	margin-top: 20px;
+	white-space:pre-wrap;
 	text-align: left !important;
-	margin-right: -180px;
+	width: 550px;
+	max-height: unset !important;
 	/* padding-top: 30px; */
 	&:before {
 		content: "CUSTOM STATUS";
@@ -1340,7 +1349,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		margin-left: 6px;
 	}
 }
-:has(.statusBubble_af9888) .fullSize_c69a7b .container_c32acf {
+:has(.container_af9888) .fullSize_c69a7b .container_c32acf {
 	padding-bottom: 75px;
 	&:has(.pronouns_c32acf) {
 		padding-bottom: 90px;
@@ -1349,7 +1358,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 		padding-bottom: 80px;
 	}
 }
-:has(.statusBubble_af9888) .headerInner_b9fccc .headerButtons_b9fccc {
+:has(.container_af9888) .headerInner_b9fccc .headerButtons_b9fccc {
 	/* this is needed for some reason */
 	margin-top: 5px;
 }
@@ -1366,7 +1375,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 }
 
 .fullSize_c69a7b {
-	& .statusBubbleOuter_af9888 .defaultColor_a595eb {
+	& .outer_af9888 .defaultColor_a595eb {
 		margin-left: 5px;
 	}
 	& .singleLineAlign_af9888 {
@@ -1451,7 +1460,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 :has(.tabBarItem_ecc04c:nth-child(4)) .headerInner_b9fccc rect:not(path ~ rect) {
 	fill: #fff !important;
 }
-:has(.tabBarItem_ecc04c:nth-child(4)) .statusBubble_af9888:before, .heading-sm\/semibold_dc00ef {
+:has(.tabBarItem_ecc04c:nth-child(4)) .container_af9888:before, .heading-sm\/semibold_dc00ef {
 	color: #fff !important;
 }
 :has(.tabBarItem_ecc04c:nth-child(4)) :is(.tabBar_ecc04c, .scroller_c0721c, .fullSize_c69a7b.overlay_c69a7b:not(:has(.listScroller_d2d6cb))) {
@@ -1550,7 +1559,7 @@ section .headings_ba4d80:has(+.root_e6f2d0) /*"roles" header on bots*/ {
 	display: none;
 }
 
-.userPanelOuter_c69a7b .statusBubbleOuter_af9888 {
+.userPanelOuter_c69a7b .outer_af9888 {
 	margin-top: -10px;
 	right: 65px;
 }
