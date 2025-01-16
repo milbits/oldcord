@@ -42,21 +42,28 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 }
 
 .accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
-	right: 115px;
-	margin-top: 72px;
+	right: 54px;
+	margin-top: 67px;
 	opacity: 1;
 	background: none;
 	pointer-events: unset;
 	border-radius: unset;
 	box-shadow: none;
 	transition: none;
+	
+	
+	
+	
 	& .button_bba79b:hover {
 		background: none;
 	}
 	& .button_f7e168.left_f7be4f.button_f7be4f {
-		padding-left: 147px;
+		padding-left: 117px;
 		border-radius: 0px;
-		opacity: 0;
+		width: 40px;
+		height: 19px;
+		z-index: 1;
+
 	}
 	& .button_f7e168.right_f7be4f.button_f7be4f > svg > path {
 		d: path(
@@ -148,11 +155,14 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 	& .statusBubbleWithTextPadding_af9888 {
 		margin-right: 73px;
 	}
-	& .content_af9888 {
-		margin-top: -3px;
-		max-width: 152px;
+	& .outer_af9888 {
+		top: 48px !important;
+		max-width: 120px;
+		min-width: 250px !important;
+		right: 60px;
+		min-width: 190px !important;
 	}
-	& :is(.container_af9888.biteSize_af9888):hover .outer_af9888.biteSize_af9888 {
+	&  .outer_af9888:hover {
 		background: var(--brand-experiment-560) !important;
 		width: 100px !important;
 		border-radius: 2px;
@@ -161,6 +171,9 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		& .defaultColor_a595eb {
 			color: var(--white);
 		}
+	}
+	& .content_af9888{
+		margin-right: 150px;
 	}
 }
 
@@ -1330,14 +1343,17 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	width: 550px;
 	max-height: unset !important;
 	/* padding-top: 30px; */
+	
+	
 	&:before {
-		content: "CUSTOM STATUS";
+		 content: "CUSTOM STATUS"; 
 		font-size: 12px;
 		color: var(--header-secondary);
 		font-weight: 600;
 		font-family: var(--font-display);
 		line-height: 22px;
 		margin-left: 5px;
+		display: flex
 	}
 	& .clamp_af9888.content_af9888:has(.statusEmojiInline_af9888) {
 		margin-left: 5px;
@@ -1376,9 +1392,6 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	}
 	& .singleLineAlign_af9888 {
 		text-align: left;
-	}
-	& .statusText_af9888 {
-		display: inherit;
 	}
 }
 
