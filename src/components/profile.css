@@ -14,7 +14,7 @@
 .fixed_d90b3d:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	width: max-content;
 }
-html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888 {
+html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -50,10 +50,6 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 	border-radius: unset;
 	box-shadow: none;
 	transition: none;
-	
-	
-	
-	
 	& .button_bba79b:hover {
 		background: none;
 	}
@@ -63,7 +59,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		width: 40px;
 		height: 19px;
 		z-index: 1;
-
+		opacity: 0;
 	}
 	& .button_f7e168.right_f7be4f.button_f7be4f > svg > path {
 		d: path(
@@ -162,7 +158,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		right: 60px;
 		min-width: 190px !important;
 	}
-	&  .outer_af9888:hover {
+	&  .container_af9888:has(.popover_f7be4f:hover) .outer_af9888 {
 		background: var(--brand-experiment-560) !important;
 		width: 100px !important;
 		border-radius: 2px;
@@ -1315,6 +1311,10 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	& .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 32px;
 		position: fixed;
+		/* stupid upsell buttons */
+		& .getPremiumButton_d6b606, .sizeSmall_dd4f85 {
+			display: none;
+		}
 	}
 	&:has(.container_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 38px;
@@ -1431,6 +1431,11 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 }
 .connections_d53fbd {
 	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* hide "you blocked them" text on blocked accounts */
+.container_effd71 {
+	display: none;
 }
 
 /** rich presence profile theming */
