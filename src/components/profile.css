@@ -42,14 +42,15 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 }
 
 .accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
-	right: 54px;
+	right: 56px;
 	margin-top: 67px;
-	opacity: 1;
+	opacity: 1 !important;
 	background: none;
 	pointer-events: unset;
 	border-radius: unset;
-	box-shadow: none;
-	transition: none;
+	box-shadow: none !important;
+	animation: unset !important;
+	animation-delay: unset !important;
 	& .button_bba79b:hover {
 		background: none;
 	}
@@ -67,20 +68,12 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 		);
 		transform: scale(1.7);
 	}
+	margin-right: -10px !important; */
 }
 
 :has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_f7be4f {
 	display: none;
 	pointer-events: none;
-}
-.accountProfilePopoutWrapper_b2ca13 :is(.referenceContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .container_af9888 {
-	background: var(--brand-experiment-560);
-	width: 180px;
-	border-radius: 2px;
-	block-size: 12px;
-	& .defaultColor_a595eb {
-		color: var(--white);
-	}
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
@@ -137,7 +130,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 	}
 	& .container_af9888.biteSize_af9888 {
 		top: -40px !important;
-		left: 70px ;
+		left: 70px;
 		white-space: nowrap;
 		text-align: left !important;
 		&:has(.addStatusPrompt_af9888) {
@@ -154,9 +147,16 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 	& .outer_af9888 {
 		top: 48px !important;
 		max-width: 120px;
-		min-width: 250px !important;
 		right: 60px;
-		min-width: 190px !important;
+		min-width: 160px !important;
+		margin-right: 20px;
+	}
+	& .container_af9888:has(.addStatusPrompt_af9888) .outer_af9888 {
+		top: 0px !important;
+		right: 68px;
+		& .addStatusIcon_af9888 {
+			padding-right: 7px;
+		}
 	}
 	&  .container_af9888:has(.popover_f7be4f:hover) .outer_af9888 {
 		background: var(--brand-experiment-560) !important;
@@ -167,8 +167,24 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 		& .defaultColor_a595eb {
 			color: var(--white);
 		}
+		& .button_f7be4f.right_f7be4f {
+			background: var(--brand-experiment-560) !important;
+		}
 	}
-	& .content_af9888{
+	& .biteSize_af9888.editable_af9888.container_af9888:has(.addStatusPrompt_af9888):hover {
+		left: 5px !important;
+		background: var(--brand-experiment-560);
+		width: 196px;
+		border-radius: 2px;
+		block-size: 32px;
+		& .outer_af9888 {
+			right: 3px;
+		}
+		& .defaultColor_a595eb {
+			color: var(--white);
+		}
+	}
+	& .content_af9888 {
 		margin-right: 150px;
 	}
 }
