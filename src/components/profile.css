@@ -14,7 +14,7 @@
 .fixed_d90b3d:has(.userMenuUsername_e1268c, .status_ad5fac) {
 	width: max-content;
 }
-html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888 {
+html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -42,18 +42,15 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 }
 
 .accountProfilePopoutWrapper_b2ca13 .popover_f7be4f {
-	right: 54px;
+	right: 56px;
 	margin-top: 67px;
-	opacity: 1;
+	opacity: 1 !important;
 	background: none;
 	pointer-events: unset;
 	border-radius: unset;
-	box-shadow: none;
-	transition: none;
-	
-	
-	
-	
+	box-shadow: none !important;
+	animation: unset !important;
+	animation-delay: unset !important;
 	& .button_bba79b:hover {
 		background: none;
 	}
@@ -63,7 +60,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		width: 40px;
 		height: 19px;
 		z-index: 1;
-
+		opacity: 0;
 	}
 	& .button_f7e168.right_f7be4f.button_f7be4f > svg > path {
 		d: path(
@@ -71,20 +68,12 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		);
 		transform: scale(1.7);
 	}
+	margin-right: -10px !important; */
 }
 
 :has(.footer_b8cc6d, .inner_c69a7b.fullSize_c69a7b) .popover_f7be4f {
 	display: none;
 	pointer-events: none;
-}
-.accountProfilePopoutWrapper_b2ca13 :is(.referenceContainer_af9888, .addCustomStatusButtonBubble_af9888):hover .container_af9888 {
-	background: var(--brand-experiment-560);
-	width: 180px;
-	border-radius: 2px;
-	block-size: 12px;
-	& .defaultColor_a595eb {
-		color: var(--white);
-	}
 }
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0px;
@@ -141,7 +130,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 	}
 	& .container_af9888.biteSize_af9888 {
 		top: -40px !important;
-		left: 70px ;
+		left: 70px;
 		white-space: nowrap;
 		text-align: left !important;
 		&:has(.addStatusPrompt_af9888) {
@@ -158,11 +147,18 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 	& .outer_af9888 {
 		top: 48px !important;
 		max-width: 120px;
-		min-width: 250px !important;
 		right: 60px;
-		min-width: 190px !important;
+		min-width: 160px !important;
+		margin-right: 20px;
 	}
-	&  .outer_af9888:hover {
+	& .container_af9888:has(.addStatusPrompt_af9888) .outer_af9888 {
+		top: 0px !important;
+		right: 68px;
+		& .addStatusIcon_af9888 {
+			padding-right: 7px;
+		}
+	}
+	&  .container_af9888:has(.popover_f7be4f:hover) .outer_af9888 {
 		background: var(--brand-experiment-560) !important;
 		width: 100px !important;
 		border-radius: 2px;
@@ -171,8 +167,24 @@ html:is([lang="en-GB"],[lang="en-us"]) .content_af9888 > .addStatusPrompt_af9888
 		& .defaultColor_a595eb {
 			color: var(--white);
 		}
+		& .button_f7be4f.right_f7be4f {
+			background: var(--brand-experiment-560) !important;
+		}
 	}
-	& .content_af9888{
+	& .biteSize_af9888.editable_af9888.container_af9888:has(.addStatusPrompt_af9888):hover {
+		left: 5px !important;
+		background: var(--brand-experiment-560);
+		width: 196px;
+		border-radius: 2px;
+		block-size: 32px;
+		& .outer_af9888 {
+			right: 3px;
+		}
+		& .defaultColor_a595eb {
+			color: var(--white);
+		}
+	}
+	& .content_af9888 {
 		margin-right: 150px;
 	}
 }
@@ -1315,6 +1327,10 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	& .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 32px;
 		position: fixed;
+		/* stupid upsell buttons */
+		& .getPremiumButton_d6b606, .sizeSmall_dd4f85 {
+			display: none;
+		}
 	}
 	&:has(.container_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 38px;
@@ -1431,6 +1447,11 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 }
 .connections_d53fbd {
 	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* hide "you blocked them" text on blocked accounts */
+.container_effd71 {
+	display: none;
 }
 
 /** rich presence profile theming */
