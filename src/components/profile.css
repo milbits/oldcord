@@ -1315,6 +1315,10 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 	& .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 32px;
 		position: fixed;
+		/* stupid upsell buttons */
+		& .getPremiumButton_d6b606, .sizeSmall_dd4f85 {
+			display: none;
+		}
 	}
 	&:has(.container_af9888):not(:has(.botTag_a9e77f)) .wrapper_cb78f1.fullSize_cb78f1 {
 		margin-top: 38px;
@@ -1431,6 +1435,11 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer_b8cc6d::after {
 }
 .connections_d53fbd {
 	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* hide "you blocked them" text on blocked accounts */
+.container_effd71 {
+	display: none;
 }
 
 /** rich presence profile theming */
