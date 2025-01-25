@@ -239,33 +239,33 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 /*Change color depending on activity type*/
 /*somehow this causes INSANE lag??????????????? */
 
-/*.outer_c69a7b {
+.outer_c69a7b {
 	/* Listening to Spotify
 	&:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
 		--play: var(--spotify);
 		--play-dark: var(--spotify-dark);
-	}
+	} */
 
-	/* Live on Twitch
+	/* Live on Twitch */
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
 		--play-dark: var(--twitch-dark);
 	}
 	
-	/* Watching Crunchyroll
+	/* Watching Crunchyroll */
 	&:has(.crunchyroll_fa854f) {
 		--play: var(--crunchyroll);
 		--play-dark: var(--crunchyroll-dark);
 	}
 
-	/* Watching Watch Together
+	/* Watching Watch Together */
 	&:has([src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"])
 	{
 		--play: var(--youtube);
 		--play-dark: var(--youtube-dark);
 	}
 
-	/* Playing on XBOX
+	/* Playing on XBOX */
 	&:has([src="/assets/9109430b0f2514a0c674.png"]) {
 		--play: var(--xbox);
 		--play-dark: var(--xbox-dark);
@@ -276,8 +276,8 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_af9888 {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
+	*/
 }
-*/
 
 .platformIcon_ae1fa2 {
 	display: none;
