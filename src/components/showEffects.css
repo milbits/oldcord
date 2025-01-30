@@ -1,93 +1,93 @@
 /*make cosmetics show again*/
-.avatarDecoration_c51b4e,.avatarDecoration_f9f2ca,.profileEffects_f867f9,.mask_d5fdb1{
+.avatarDecoration__44b0c,.avatarDecoration_c19a55,.profileEffects__01370,.mask__68edb{
     display: unset !important;
 }
-.animatorTop_f88ae3 .mask_d5fdb1{
+.animatorTop_faf9c0 .mask__68edb{
     display: none !important
 }
 /*adjust profile effect opacity*/
-.profileEffects_f867f9{
+.profileEffects__01370{
     opacity: 0.2
 }
-.bannerColor_f9d37d{
+.bannerColor_fb7f94{
     background: #00000085 !important
 }
 
 /*move that weird circle to the middle*/
-.mask_d5fdb1 mask circle{
+.mask__68edb mask circle{
     transform: translateX(68.5px);
 }
-:has(.custom-theme-background) .mask_d5fdb1 mask circle{
+:has(.custom-theme-background) .mask__68edb mask circle{
     transform: translateX(73px) translateY(5px);
 }
-.fullSize_cb78f1 + header .mask_d5fdb1 mask circle{
+.fullSize_da5890 + header .mask__68edb mask circle{
     display: none !important
 }
 /*fix some overlaying stuff*/
-.header_b8cc6d{
+.header__5be3e{
     z-index: 2
 }
 /*make banners not so zoomed-in*/
-.userPopoutOuter_c69a7b .banner_d5fdb1{
+.userPopoutOuter_c69a7b .banner__68edb{
     max-width: 250px;
 }
 
-.avatar_f94206{
+.avatar__75742{
     position: absolute !important;
     top: 62px !important
 }
 /*move usernames etc. a bit down*/
-.outer_c69a7b:is(.biteSize_c69a7b.outer_c69a7b) .container_c32acf{
+.outer_c0bea0:is(.biteSize_c0bea0.outer_c0bea0) .container__63ed3{
     padding-top: 50px;
 }
-.container_af9888.biteSize_af9888{
+.container_ab8609.biteSize_ab8609{
     top: 140px
 }
-.outer_c69a7b:has(.pronouns_c32acf) .container_af9888.biteSize_af9888{
+.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609.biteSize_ab8609{
     top: 157px !important;
 }
-.accountProfilePopoutWrapper_b2ca13 .container_af9888.biteSize_af9888 {
+.accountProfilePopoutWrapper__37e49 .container_ab8609.biteSize_ab8609 {
 	top: -103px !important;
 	left: -105px
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-profile-theme .biteSize_c69a7b.inner_c69a7b{
+.custom-profile-theme .biteSize_c0bea0.inner_c0bea0{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
-    & .container_c32acf,.mutuals_fc9b46  {
+    & .container__63ed3,.mutuals__530ce  {
         background: var(--play, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
     }
 }
 
 
-.custom-profile-theme .footer_b8cc6d .themedBackground_bdf0de{
+.custom-profile-theme .footer__5be3e .themedBackground__74017{
     background: var(--profile-gradient-overlay-color) !important
 }
 
 
 /* banners behind headers */
-.fullSize_c69a7b.inner_c69a7b .mask_d5fdb1 {
+.fullSize_c0bea0.inner_c0bea0 .mask__68edb {
 	position: absolute;
 	z-index: 0;
 	opacity: 25%;
 }
-.fullSize_c69a7b.inner_c69a7b .headerInner_b9fccc {
+.fullSize_c0bea0.inner_c0bea0 .headerInner__24502 {
     background: transparent !important;
 }
 
-.fullSize_c69a7b.inner_c69a7b:has(.mask_d5fdb1) .body_b9fccc {
+.fullSize_c0bea0.inner_c0bea0:has(.mask__68edb) .body__24502 {
 	& .fullSizeOverlayBackground_c69a7b {
 		z-index: 2;
 	}
-    & .container_c32acf {
+    & .container__63ed3 {
 	    background: transparent !important;
     }
 }
 
 /* tinted text & profile */
-.inner_c69a7b:is(.biteSize_c69a7b,fullSize_c69a7b)
-.outer_c69a7b.fullSize_c69a7b,
+.inner_c0bea0:is(.biteSize_c0bea0,fullSize_c0bea0)
+.outer_c0bea0.fullSize_c0bea0,
 .custom-profile-theme {
     --theme-base-color-amount: 50% !important; 
 	--theme-text-color-amount: 25% !important;
