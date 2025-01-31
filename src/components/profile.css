@@ -206,7 +206,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 	box-shadow: none;
 	background: none !important;
 }
-.title_b6c092.text-sm\/normal_dc00ef {
+.title_b6c092.text-sm\/medium_cf4812 {
 	font-weight: 400;
 }
 
@@ -382,15 +382,15 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 /*change some other colors for the activity section*/
 
-.activity__5be3e .heading-sm\/semibold_dc00ef /*game title*/ {
+.activity__5be3e [data-text-variant="heading-sm/semibold"] /*game title*/ {
 	color: var(--play-secondary-2) !important;
 }
-.activity__5be3e .text-xs\/normal_dc00ef /*details*/ {
+.activity__5be3e [data-text-variant="text-xs/normal"] /*details*/ {
 	font-size: 14px;
 	color: var(--play-secondary) !important;
 }
 .inner_c0bea0.fullSize_c0bea0:has(.activity__5be3e)
-	:is(.section__530ce > .text__530ce.text-xs\/normal_dc00ef, .chipletContainerInner__4a25c > .text__4a25c > .unselectable__4a25c) {
+	:is(.section__530ce > .text__530ce.text-xs/normal_cf4812, .chipletContainerInner__4a25c > .text__4a25c > .unselectable__4a25c) {
 	color: #fff !important;
 }
 .activity__5be3e .timestamp__230d2,
@@ -798,7 +798,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /* friend requests */
-.biteSize_c0bea0.overlay_c0bea0 > .container__43a4b > .text-sm\/normal_dc00ef.defaultColor__4bd52 {
+.biteSize_c0bea0.overlay_c0bea0 > .container__43a4b > .text-sm\/medium_cf4812.defaultColor__4bd52 {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -820,10 +820,10 @@ html.theme-dark .badgeContainer__635ed path {
 	/* padding-left: 12px; */
 	padding-bottom: 3px;
 	order: -1;
-	& .text__530ce.text-sm\/normal_dc00ef {
-		font-size: 10px !important;
+	& .text__530ce.text-sm\/normal_cf4812 {
+		font-size: 12px !important;
 	}
-	.theme-light & .text__530ce.text-sm\/normal_dc00ef {
+	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
 		color: white !important;
 	}
 }
@@ -848,7 +848,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /** Bio*/
 
-.descriptionClamp_f5f93a .text-sm\/normal_dc00ef {
+.descriptionClamp_f5f93a [data-text-variant="text-sm/normal"] {
 	color: var(--text-normal) !important;
 }
 /* add a scrollbar to user bio*/
@@ -977,14 +977,14 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 	.theme-light & {
 		border-color: #b9bbbe;
 	}
-	.text-xs\/medium_dc00ef {
+	[data-text-variant="text-xs/medium"] {
 		width: 10px;
 		margin-left: -3px;
 		padding-right: 1px;
 	}
 }
 /* remove "add role" text */
-.buttonInner_fb7f94.contents__201d5 > .text-xs\/normal_dc00ef {
+.buttonInner_fb7f94.contents__201d5 > [data-text-variant="text-xs/normal"] {
 	display: none;
 }
 
@@ -1172,13 +1172,6 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	position: relative;
 }
 
-.body__24502 > .container_afed89 > div:nth-child(2) > .text-sm-normal__95a78.customStatusText_afed89 {
-	height: 0px;
-	position: relative;
-	top: 12px;
-	left: 10px;
-	margin-right: 10px;
-}
 .body__24502 {
 	gap: 0;
 }
@@ -1190,6 +1183,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	right: -119px;
 	background: none;
 	border: none;
+	z-index: 2;
 }
 .custom-profile-theme .container__8061a {
 	background: none;
@@ -1250,7 +1244,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 .friendRequestBanner__24502 {
 	background: var(--background-tertiary);
 	border-radius: 0;
-	& .text-sm\/normal_dc00ef {
+	& [data-text-variant="text-sm/normal"] {
 		margin-left: 10px;
 	}
 }
@@ -1384,12 +1378,12 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	}
 }
 
-.fullSize_c0bea0 .details__39ec2 .text-xs\/normal_dc00ef {
+.fullSize_c0bea0 .details__39ec2 [data-text-variant="text-xs/normal"] {
 	font-size: 14px;
 	color: var(--white) !important;
 }
 
-.section_bf424d .text-xs\/semibold_dc00ef {
+.section_bf424d [data-text-variant="text-xs/semibold"] {
 	text-transform: uppercase;
 	color: var(--channels-default) !important;
 	font-weight: 800;
@@ -1417,7 +1411,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	scale: 1.2;
 	padding-right: 5px;
 }
-.connectedAccountNameText_e6abe8.text-md\/semibold_dc00ef {
+.connectedAccountNameText_e6abe8.text-sm\/medium_cf4812 {
 	font-weight: 500;
 }
 
@@ -1432,7 +1426,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 
 /* hide "connections" text */
-.section_bf424d:has(.connections_fcb628) .text-xs\/semibold_dc00ef {
+.section_bf424d:has(.connections_fcb628) [data-text-variant="text-xs/semibold"] {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -1440,6 +1434,11 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 .connections_fcb628 {
 	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* remove note box outline */
+.note_fcb628 textarea {
+	border: unset !important;
 }
 
 /* hide "you blocked them" text on blocked accounts */
@@ -1483,7 +1482,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 :has(.tabBarItem_d1d9f3:nth-child(4)) .headerInner__24502 rect:not(path ~ rect) {
 	fill: #fff !important;
 }
-:has(.tabBarItem_d1d9f3:nth-child(4)) .container_ab8609:before, .heading-sm\/semibold_dc00ef {
+:has(.tabBarItem_d1d9f3:nth-child(4)) .container_ab8609:before, .heading-sm\/semibold_cf4812 {
 	color: #fff !important;
 }
 :has(.tabBarItem_d1d9f3:nth-child(4)) :is(.tabBar_d1d9f3, .scroller_ac477d, .fullSize_c0bea0.overlay_c0bea0:not(:has(.listScroller__9d78f))) {
