@@ -42,6 +42,9 @@ code {
 	text-transform: uppercase;
 	font-size: 12px;
 }
+.subtext__0a06e [data-text-variant="text-xs\/medium"] {
+	color: var(--header-secondary) !important;
+}
 
 /*bot tag*/
 :not(.botTagOP__82f07, .botTagRemix__82f07) > .botText__82f07 {
