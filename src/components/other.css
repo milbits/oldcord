@@ -46,8 +46,9 @@ code {
 .activityText__5d473 {
     color: var(--channels-default) !important;
 }
+
 .subText__20a53 [data-text-variant="text-xs\/medium"] {
-    color: var(--header-secondary) !important;
+    color: var(--channels-default) !important;
 }
 
 /*bot tag*/
