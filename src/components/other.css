@@ -47,6 +47,10 @@ code {
     color: var(--channels-default) !important;
 }
 
+.peopleListItem_cc6179 .text__8ac07 {
+    color: var(--header-secondary) !important;
+}
+
 /* style dms correctly */
 
 .channel__972a0 {
