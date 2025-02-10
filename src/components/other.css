@@ -1077,20 +1077,21 @@ code {
 }
 /* Capitalize titles in settings*/
 h2.title_b717a1 {
-	text-transform: uppercase;
-	font-size: 16px;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 /* fix headings of all shapes and sizes */
-.settingsPage_f131e9 :is(.heading-xl\/semibold_dc00ef, .heading-lg\/semibold_dc00ef) {
-	font-size: 16px;
-	text-transform: uppercase;
+.settingsPage_f131e9 :is(.heading-xl\/semibold_cf4812) {
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
-.settingsPage_f131e9 :is(.defaultColor__5345c.heading-lg\/semibold_dc00ef, .title_b717a1.h3_b717a1) {
-	font-size: 12px !important;
-	font-weight: 600 !important;
-	color: var(--channels-default) !important;
+.settingsPage_f131e9 :is(.defaultColor__5345c.heading-lg\/semibold_cf4812, .title_b717a1.h3_b717a1, .heading-lg\/semibold_cf4812) {
+    text-transform: uppercase;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: var(--channels-default) !important;
 }
 
 /* "Request Data" button */

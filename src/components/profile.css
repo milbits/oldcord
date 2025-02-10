@@ -1617,3 +1617,28 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	border-radius: 3px;
 	border: solid 1px var(--background-tertiary) !important;
 }
+
+/* dumbass nitro tooltip
+.clickTrapContainer_da8173:has(.tooltipContainer_f240e3) {
+	.tooltipContent__382e7 {
+		padding: 8px 3px;
+	}
+	.tooltipWordmarkContainer_f240e3 {
+		position: absolute;
+		bottom: 20px;
+		right: 83px;
+	}
+	img {
+		transform: scale(0.50);
+		position: absolute;
+		left: -20px;
+		top: -8px;
+	}
+	.heading-xl\/extrabold_cf4812 {
+	display: none;
+	}
+	.text-xs\/normal_cf4812 {
+		margin-left: 35px;
+	}
+}
+*/
