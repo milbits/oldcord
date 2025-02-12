@@ -1191,6 +1191,13 @@ h2.title_b717a1 {
 		display: none;
 	}
 }
+
+/* fix pinned message padding */
+.messageGroupWrapper__45690 .messageGroupCozy__45690 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
 .header__45690 {
 	background: var(--background-tertiary);
 }
