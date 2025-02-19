@@ -53,9 +53,19 @@
 	fill: var(--green) !important;
 }
 */
-.fixedDiscoveryIcon_fea3ef{
-	color: var(--green)
+/*discovery and add button*/
+.circleIcon__5bc7e{
+	color: var(--green);
+	.selected__5bc7e &{
+		color:#fff
+	}
 }
+.circleIconButton__5bc7e.selected__5bc7e{
+	color: #fff;
+	background-color: var(--green)
+}
+
+
 :is(.lookFilled__201d5.colorBrand__201d5, .lookFilled__201d5.colorBrand__201d5:disabled) {
 	background-color: var(--blurple);
 	&:hover {
