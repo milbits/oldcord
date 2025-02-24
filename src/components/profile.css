@@ -1668,6 +1668,17 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 		}
 	}
 }
+.fullSize_c0bea0 {
+	.contentImage__42bf5.contentImage_ef9ae7[src^="https://static-cdn.jtvnw.net/previews-ttv/live_user_"] {
+		min-width: 160px !important;
+		min-height: 90px !important;
+		margin-left: 80px;
+		border-radius: 8px;
+	}
+	.body__39ec2:has([src^="https://static-cdn.jtvnw.net/previews-ttv/live_user_"]) .details__39ec2 {
+		margin-left: 80px;
+	}
+}
 
 .inner_c0bea0.fullSize_c0bea0 .smallImageContainer_ef9ae7 {
 	width: 30px !important;
