@@ -308,7 +308,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 :is(.headerText__39ec2) .live_a7acae {
 	display: none;
 }
-.outer_c0bea0.fullSize_c0bea0:has([mask="url(#svg-mask-status-streaming)"]) .overlay_c0bea0:nth-of-type(1) .headerText__39ec2 {
+.outer_c0bea0:has([mask="url(#svg-mask-status-streaming)"]) .overlay_c0bea0:nth-of-type(1) .headerText__39ec2 {
 	html:is([lang="en-GB"],[lang="en-us"]) & {
 		text-indent: -9999px;
 		line-height: 0px;
