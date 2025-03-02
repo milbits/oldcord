@@ -300,9 +300,15 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 		content: "to a server";
 	}
 }
-:is(.fullSize_c0bea0.overlay_c0bea0:nth-of-type(1), .activity__5be3e):has(.voiceIcon__39ec2) {
-	.headerText__39ec2:after {
-		content: "" !important;
+:is(.fullSize_c0bea0.overlay_c0bea0:nth-of-type(1), .activity__5be3e):has(.voiceIcon__39ec2)
+	.headerText__39ec2 {
+		text-indent: -9999px;
+		line-height: 0px;
+	}
+	.headerText__39ec2:before {
+		content: "in a voice channel" !important;
+		text-indent: 0px;
+		line-height: initial;
 	}
 }
 :is(.headerText__39ec2) .live_a7acae {
