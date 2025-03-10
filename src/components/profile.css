@@ -717,9 +717,7 @@ html.theme-dark .badgeContainer__635ed path {
 .biteSize_c0bea0:has(.container_ab8609) .container__63ed3 {
 	padding-bottom: 45px;
 }
-.biteSize_c0bea0:has(.clanTagContainer__63ed3) .outer_ab8609 {
-	margin-top: 30px;
-}
+
 
 /*modal profile*/
 /*dont make profiles as gigantic as kinggamingyt (im super hilariopus i know)*/
@@ -1119,21 +1117,6 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	top: 90px;
 }
 
-/*clan tag*/
-.chipletContainerInner__4a25c,
-.text__4a25c {
-	font-weight: 600;
-	pointer-events: none;
-	border-radius: 3px;
-	height: 16px;
-}
-.chipletContainerInner__4a25c {
-	border: 1px solid var(--background-modifier-accent);
-	background: transparent !important;
-}
-.unselectable__4a25c {
-	color: var(--channels-default);
-}
 
 .fullSize_c0bea0.overlay_c0bea0,
 .body__24502 {
