@@ -341,7 +341,7 @@ code {
   border-radius: 5px;
   background: #0000 !important;
 }
-:is(.item-2idW98, .item__001a7)[aria-checked="false"] .text-md\/medium_dc00ef {
+:is(.item-2idW98, .item__001a7)[aria-checked="false"] .text-md\/medium_cf4812 {
   color: var(--radio-bar-accent-color) !important;
 }
 .item__001a7 .radioBar__001a7 {
@@ -356,15 +356,18 @@ code {
   }
 }
 
-.radioLabelDescription_b545d5 {
+.radioLabelDescription_ac72c6 {
   /*Only applies to channel creation*/
   display: none;
 }
-.radioLabelName-3FiyYq {
+.radioLabelName_ac72c6 {
   color: #fff;
 }
-[aria-checked="false"] .text-sm\/normal_dc00ef {
+[aria-checked="false"] .text-sm\/normal_cf4812 {
   color: var(--interactive-normal);
+}
+.modal_ac72c6{
+  border-radius:4px
 }
 
 .item__001a7
@@ -445,15 +448,15 @@ code {
 /* Replace "dont scan" text with how it was before. only for german and english*/
 :is([lang="DE"], [lang^="en"])
   .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-  & :is(.text-md\/medium_dc00ef, .text-sm\/normal_dc00ef) {
+  & :is(.text-md\/medium_cf4812, .text-sm\/normal_cf4812) {
     font-size: 0;
     line-height: unset;
   }
-  & .text-md\/medium_dc00ef:before {
+  & .text-md\/medium_cf4812:before {
     font-size: 16px;
     line-height: 20px;
   }
-  & .text-sm\/normal_dc00ef:before {
+  & .text-sm\/normal_cf4812:before {
     font-size: 14px;
     line-height: 18px;
   }
@@ -461,19 +464,19 @@ code {
 
 [lang="DE"]
   .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-  & .text-md\/medium_dc00ef:before {
+  & .text-md\/medium_cf4812:before {
     content: "Ich lebe am Limit";
   }
-  & .text-sm\/normal_dc00ef:before {
+  & .text-sm\/normal_cf4812:before {
     content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
   }
 }
 [lang^="en"]
   .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-  & .text-md\/medium_dc00ef:before {
+  & .text-md\/medium_cf4812:before {
     content: "I live on the edge";
   }
-  & .text-sm\/normal_dc00ef:before {
+  & .text-sm\/normal_cf4812:before {
     content: "Turn this off. Don't scan anything. Go straight to the dark side.";
   }
 }
@@ -1225,7 +1228,7 @@ h2.title_b717a1 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.header__49fc1 > div > .text-md\/medium_dc00ef {
+.header__49fc1 > div > .text-md\/medium_cf4812 {
   font-size: 12px;
 }
 
