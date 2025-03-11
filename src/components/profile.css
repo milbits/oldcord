@@ -634,7 +634,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*username*/
 
 .container__63ed3 {
-	background: var(--background-tertiary);
+	background: var(--play, var(--background-tertiary));
 	order: -1;
 	padding-bottom: 25px;
 	gap: 0 !important;
