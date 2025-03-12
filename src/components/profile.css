@@ -648,7 +648,7 @@ html.theme-dark .badgeContainer__635ed path {
 .container__63ed3 {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
-	padding-bottom: 25px;
+	padding-bottom: 23px;
 	gap: 0 !important;
 }
 .outer_c0bea0.fullSize_c0bea0 .container__63ed3:is(:not(:has(.container__8061a)), :has(.container__8061a)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
@@ -849,7 +849,9 @@ html.theme-dark .badgeContainer__635ed path {
 /* mutuals section*/
 .mutuals__530ce {
 	background: var(--play, var(--background-tertiary));
-	/* padding-left: 12px; */
+	justify-content: center;
+	& .text__530ce{
+	color: var(--play-secondary, var(--interactive-normal)) !important;}
 	padding-bottom: 3px;
 	order: -1;
 	& .text__530ce.text-sm\/normal_cf4812 {
