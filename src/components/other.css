@@ -1183,6 +1183,7 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 
 .description__6b700.text-sm\/normal_cf4812 {
     color: var(--header-primary) !important;
+    font-size: 16px;
 }
 
 /* fix headings of all shapes and sizes */
@@ -1202,20 +1203,24 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 .modal_ac72c6 {
     .header__49fc1 {
         .title_ac72c6 {
-            font-weight: 600;          
+            font-weight: 600;
         }
     }
+
     .modalContent_ac72c6 {
         .sectionTitle_ac72c6 {
-      		color: var(--header-secondary);
+            color: var(--header-secondary);
         }
     }
+
     border-radius: 4px;
 }
+
 .root__49fc1 {
-    .headerContainer_c38e9f > .defaultColor__5345c.heading-md\/semibold_cf4812{
-            text-transform: uppercase;
-        }
+    .headerContainer_c38e9f > .defaultColor__5345c.heading-md\/semibold_cf4812 {
+        text-transform: uppercase;
+    }
+
     .mainContainer_c38e9f > .pauseContainer_c38e9f {
         border: none;
         padding: unset;
@@ -1229,7 +1234,11 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
                 color: var(--header-secondary) !important;
             }
         }
+        .pauseText_c38e9f, .input__87bf1 {
+            margin-top: 20px;
+        }
     }
+
     .modalHeader_db81c6 {
         .guildName_db81c6 {
             font-size: 12px;
@@ -1237,8 +1246,15 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
         }
         box-shadow: unset !important;
     }
+
     .h5_b717a1 {
-        color: var(--channels-default) 
+        color: var(--channels-default)
+    }
+
+    .container__9d263 {
+        .input__87bf1 {
+            margin-top: 20px;
+        }
     }
 }
 /* "Request Data" button */
