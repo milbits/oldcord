@@ -1639,6 +1639,15 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     font-weight: 500;
 }
 
+/* today at */
+.timestamp_c19a55.timestampInline_c19a55 {
+    visibility: hidden;
+    :before {
+        content: attr(aria-label);
+        visibility: visible;
+    }
+}
+
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
