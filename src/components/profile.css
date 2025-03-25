@@ -228,7 +228,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 /*! Revert activity profile*/
 /** Variables*/
 
-.outer_c0bea0:has(.activity__5be3e) {
+.outer_c0bea0:has(.card__39ec2) {
 	--play-tertiary: rgba(255, 255, 255, 0.6);
 	--play-secondary-2: rgba(255, 255, 255, 0.9);
 	--play-secondary: rgba(255, 255, 255, 0.8);
@@ -240,7 +240,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 
 .outer_c0bea0:not(.fullSize_c0bea0) {
 	/* Listening to Spotify*/
-	&:has(.clickableImage__39ec2):has(.bar__8e51c) {
+	&:has(.imagePosition_ef9ae7):has(.bar__8e51c) {
 		--play: var(--spotify);
 		--play-dark: var(--spotify-dark);
 	} 
@@ -312,7 +312,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 		content: "to a server";
 	}
 }
-:is(.fullSize_c0bea0.overlay_c0bea0:nth-of-type(1), .activity__5be3e):has(.container_e928f4) {
+:is(.fullSize_c0bea0.overlay_c0bea0:nth-of-type(1), .card__39ec2):has(.container_e928f4) {
 	.headerText__39ec2 {
 		text-indent: -9999px;
 		line-height: 0px;
@@ -354,11 +354,11 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 	}
 }*/
 /*progress bar (like on spotify statuses)*/
-.activity__5be3e .bar__8e51c {
+.card__39ec2 .bar__8e51c {
 	background: rgba(79, 84, 92, 0.16);
 	height: 4px;
 }
-.activity__5be3e .progress__8e51c {
+.card__39ec2 .progress__8e51c {
 	background: #fff;
 	height: 4px;
 }
@@ -385,10 +385,8 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 	}
 }
 /* make activity the first section*/
-.activity__5be3e {
-	order: -1;
-	padding: 0;
-}
+div+div:has(.card__39ec2) {
+	order: -1}
 .scroller_d2b491 {
 	display: flex;
 	flex-direction: column;
@@ -399,7 +397,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /*make status icon white*/
-.outer_c0bea0:has(.activity__5be3e) rect:not(path ~ rect) {
+.outer_c0bea0:has(.card__39ec2) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
@@ -409,25 +407,25 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /* change activity bg color and padding*/
-.activity__5be3e {
+.card__39ec2 {
 	background-color: var(--play-dark) !important;
 	padding: 12px;
 	border-radius: 0;
 }
 /*change some other colors for the activity section*/
 
-.activity__5be3e [data-text-variant="heading-sm/semibold"] /*game title*/ {
+.card__39ec2 [data-text-variant="heading-sm/semibold"] /*game title*/ {
 	color: var(--play-secondary-2) !important;
 }
-.activity__5be3e [data-text-variant="text-xs/normal"] /*details*/ {
+.card__39ec2 [data-text-variant="text-xs/normal"] /*details*/ {
 	font-size: 14px;
 	color: var(--play-secondary) !important;
 }
-.inner_c0bea0.fullSize_c0bea0:has(.activity__5be3e)
+.inner_c0bea0.fullSize_c0bea0:has(.card__39ec2)
 	:is(.section__530ce > .text__530ce.text-xs/normal_cf4812, .chipletContainerInner__4a25c > .text__4a25c > .unselectable__4a25c) {
 	color: #fff !important;
 }
-.activity__5be3e .timestamp__230d2,
+.card__39ec2 .timestamp__230d2,
 .timestamp__230d2.bold__230d2 {
 	font-size: 14px;
 	font-weight: 400;
@@ -447,14 +445,14 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 /*icons*/
 
 /*timestamp icon*/
-.activity__5be3e svg:has(+ .timestamp__230d2),
+.card__39ec2 svg:has(+ .timestamp__230d2),
 .badgeContainer__635ed svg:has(+ .bold__230d2) {
 	display: none;
 }
 html.theme-dark .badgeContainer__635ed path {
 	fill: white;
 }
-.inner_c0bea0.fullSize_c0bea0:has(.activity__5be3e) .badges__39ec2 > .badgeContainer__635ed:nth-of-type(2) {
+.inner_c0bea0.fullSize_c0bea0:has(.card__39ec2) .badges__39ec2 > .badgeContainer__635ed:nth-of-type(2) {
 	order: -1;
 	margin-top: -5px;
 }
@@ -465,7 +463,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /*activity buttons*/
-.activity__5be3e .button_fb7f94 {
+.card__39ec2 .button_fb7f94 {
 	background: transparent !important;
 	color: var(--play-primary);
 	border: 1px solid var(--play-primary);
@@ -473,16 +471,16 @@ html.theme-dark .badgeContainer__635ed path {
 	opacity: 1 !important;
 	width: 100%;
 }
-.activity__5be3e :is(.colorBrand__201d5, .button_fb7f94):hover {
+.card__39ec2 :is(.colorBrand__201d5, .button_fb7f94):hover {
 	background: transparent !important;
 }
 
-.activity__5be3e .button_fb7f94:not(:disabled):active {
+.card__39ec2 .button_fb7f94:not(:disabled):active {
 	border-color: var(--play-primary);
 	background: #ffffff1a !important;
 }
 
-.activity__5be3e .button_fb7f94:disabled {
+.card__39ec2 .button_fb7f94:disabled {
 	border-color: #ffffff5d;
 	background: transparent;
 	color: #ffffff5d;
@@ -666,7 +664,7 @@ html.theme-dark .badgeContainer__635ed path {
 	line-height: 20px;
 	font-weight: 600;
 	color: var(--interactive-active);
-	.theme-light:has(.activity__5be3e) & {
+	.theme-light:has(.card__39ec2) & {
 		color: white;
 	}
 }
@@ -696,7 +694,7 @@ html.theme-dark .badgeContainer__635ed path {
 	color: var(--play-tertiary, var(--text-muted)) !important;
 }
 /*bot tag*/
-.outer_c0bea0.biteSize_c0bea0:has(.activity__5be3e) .botTagRegular__82f07 {
+.outer_c0bea0.biteSize_c0bea0:has(.card__39ec2) .botTagRegular__82f07 {
 	background-color: var(--white-500);
 	color: var(--blurple);
 	& svg path {
@@ -1039,7 +1037,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 		margin-left: 13px;
 		margin-bottom: 4px;
 	}
-	& .activity__5be3e {
+	& .card__39ec2 {
 		&:after {
 			content: "NO ROLES";
 			position: absolute;
@@ -1091,7 +1089,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	&.colorBrand__201d5 {
 		border-left: 1px solid rgb(255, 255, 255, 0.3);
 	}
-	.outer_c0bea0:has(.activity__5be3e) & {
+	.outer_c0bea0:has(.card__39ec2) & {
 		border-top: 1px solid rgb(255, 255, 255, 0.3);
 	}
 	&:hover {
@@ -1100,10 +1098,10 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	&:active {
 		background: var(--primary-transparent) !important;
 	}
-	.outer_c0bea0:has(.activity__5be3e) &:hover {
+	.outer_c0bea0:has(.card__39ec2) &:hover {
 		background: var(--brand-experiment-460) !important;
 	}
-	.outer_c0bea0:has(.activity__5be3e) &:active {
+	.outer_c0bea0:has(.card__39ec2) &:active {
 		background: var(--brand-experiment-400) !important;
 	}
 }
@@ -1229,7 +1227,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	display:inline-flex;
 	top: 24px;
 	&:has(.button_fb7f94:nth-of-type(3)) {
-		left: 350px; !important;
+		left: 350px !important;
 	}
 	&:not(:has(.button_fb7f94:nth-of-type(3))) {
 		left: 420px; 
