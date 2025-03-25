@@ -56,7 +56,7 @@ code {
     color: var(--channels-default) !important;
 }
 
-.peopleListItem_cc6179 .text__8ac07 {
+.peopleListItem_cc6179 .text__19b6d.text-sm\/medium_cf4812 {
     color: var(--header-secondary) !important;
 }
 
@@ -457,33 +457,33 @@ code {
         line-height: unset;
     }
 
-    & .text-md\/medium_cf4812:before {
+    & .text-md\/medium_cf4812: before {
         font-size: 16px;
         line-height: 20px;
     }
 
-    & .text-sm\/normal_cf4812:before {
+    & .text-sm\/normal_cf4812: before {
         font-size: 14px;
         line-height: 18px;
     }
 }
 
 [lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-    & .text-md\/medium_dc00ef:before {
+    & .text-md\/medium_dc00ef: before {
         content: "Ich lebe am Limit";
     }
 
-    & .text-sm\/normal_cf4812:before {
+    & .text-sm\/normal_cf4812: before {
         content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
     }
 }
 
 [lang^="en"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-    & .text-md\/medium_cf4812:before {
+    & .text-md\/medium_cf4812: before {
         content: "I live on the edge";
     }
 
-    & .text-sm\/normal_cf4812:before {
+    & .text-sm\/normal_cf4812: before {
         content: "Turn this off. Don't scan anything. Go straight to the dark side.";
     }
 }
@@ -1230,10 +1230,12 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
                 color: var(--header-primary) !important;
                 font-weight: 500;
             }
+
             [data-text-variant="text-sm/normal"] {
                 color: var(--header-secondary) !important;
             }
         }
+
         .pauseText_c38e9f, .input__87bf1 {
             margin-top: 20px;
         }
@@ -1244,6 +1246,7 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
             font-size: 12px;
             font-weight: 600;
         }
+
         box-shadow: unset !important;
     }
 
@@ -1257,6 +1260,7 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
         }
     }
 }
+
 /* "Request Data" button */
 :is(.settingsPage_f131e9) .grow__201d5.sizeMedium__201d5.colorBrand__201d5.lookFilled__201d5.button__201d5.grow__201d5.sizeMedium__201d5.colorBrand__201d5.lookFilled__201d5.button__201d5 {
     color: var(--brand-experiment) !important;
@@ -1643,12 +1647,12 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 time[aria-label^="Today at"] {
     visibility: hidden;
 }
-time[aria-label^="Today at"]:before {
-        content: attr(aria-label);
-        visibility: visible;
-    }
 
-    
+time[aria-label^="Today at"]:before {
+    content: attr(aria-label);
+    visibility: visible;
+}
+
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
