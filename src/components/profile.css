@@ -385,7 +385,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 	}
 }
 /* make activity the first section*/
-div+div:has(.card__39ec2) {
+.activity__5be3e {
 	order: -1}
 .scroller_d2b491 {
 	display: flex;
@@ -469,7 +469,7 @@ html.theme-dark .badgeContainer__635ed path {
 	border: 1px solid var(--play-primary);
 	transition: 0.17s ease;
 	opacity: 1 !important;
-	width: 100%;
+	/* width: 100%; */
 }
 .card__39ec2 :is(.colorBrand__201d5, .button_fb7f94):hover {
 	background: transparent !important;
@@ -1493,7 +1493,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 :is(.fullSize_c0bea0) :has(.tabBarItem_d1d9f3:nth-child(4)) .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
 	color: var(--blurple) !important;
-	background: #fff;
+	background: #fff !important;
 	&:hover {
 		background: #fff !important;
 	}
