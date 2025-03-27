@@ -106,7 +106,7 @@
 		}
 	}
 	/* border radius 8 list of offenders */
-	.container_e45859, .searchBar__5ec2f, .tooltip__382e7 {
+	.container_e45859, .searchBar__5ec2f, .tooltip__382e7, .link__2ea32 {
 		border-radius: 4px;
 	}
 
@@ -211,7 +211,7 @@
 		}
 	}
 
-	.base_c48ade .text-sm\/medium_cf4812 {
+	.base_c48ade .text-sm\/medium_cf4812:not(.title_b6c092, .text_c9d15c, .applicationSublabel_e1ecd3 .text-sm\/medium_cf4812) {
 		text-transform: uppercase;
 	    font-size: 12px;
 	    line-height: 16px;
@@ -229,6 +229,40 @@
 	    font-weight: 700;
 	    text-transform: uppercase;
 	    letter-spacing: .02em;
+	}
+	/* turn a dot into a divider */
+	.dot__9293f {
+		width: 1px;
+	    height: 24px;
+	    margin: 0 8px;
+	    flex: 0 0 auto;
+	    background: var(--background-modifier-accent);
+	}
+	
+	.sectionDivider__35e86 {
+		display: none;
+	}
+	.privateChannelsHeaderContainer__99e7c {
+		display: flex;
+	    padding: 18px 8px 4px 18px !important;
+	    height: 40px !important;
+	}
+	
+	/* markdown things */
+	.markup__75297 code {
+	    line-height: 1.125rem;
+	    text-indent: 0;
+	    background: var(--background-secondary) !important;
+	    border: 1px solid var(--background-tertiary) !important;
+	}
+	.markup__75297 code.inline {
+	    font-family: var(--font-code) !important;
+	}
+
+	/* discord logo */
+	.childWrapper__6e9f8 svg {
+		height: 30px !important;
+		width: 30px !important;
 	}
 }
 
@@ -271,23 +305,3 @@
 		right: 0;
 		z-index: 101;
 	}
-
-/* turn a dot into a divider */
-.dot__9293f {
-	width: 1px;
-    height: 24px;
-    margin: 0 8px;
-    flex: 0 0 auto;
-    background: var(--background-modifier-accent);
-}
-
-/* markdown things */
-.markup__75297 code {
-    line-height: 1.125rem;
-    text-indent: 0;
-    background: var(--background-secondary) !important;
-    border: 1px solid var(--background-tertiary) !important;
-}
-.markup__75297 code.inline {
-    font-family: var(--font-code) !important;
-}
