@@ -71,7 +71,7 @@ code {
     }
 
     &:hover .interactiveSelected__972a0 .name__20a53 {
-        color: var(--interactive-active);
+        color: var(--interactive-active) !important;
     }
 
     & .subText__20a53 [data-text-variant="text-xs\/medium"] {
@@ -79,7 +79,7 @@ code {
     }
 
     &:hover:has(.interactiveSelected__972a0) .interactive_bf202d {
-        background: var(--background-modifier-selected);
+        background: var(--background-modifier-selected) !important;
     }
 
     &:hover .muted__20a53 {
