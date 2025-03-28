@@ -310,6 +310,8 @@
 				fill: var(--text-muted) !important;
 			}
 		}
+		:after {
+		}
 	}
 	.bar_c38106 .trailing_c38106 {
 		top: 18px;
@@ -347,4 +349,19 @@
 	}
 	.inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
 		right: 70px;
+	}
+	.winButtons_c38106 {
+		position: absolute;
+		gap: unset;
+		justify-content: center;
+		bottom: 38px;
+		.winButton_c38106 {
+			top: -4px;
+			align-items: center;
+			width: 28px;
+			height: 22px;
+		}
+	}
+	.winButtonsWithDivider_c38106:before {
+		border: unset;
 	}
