@@ -1653,6 +1653,33 @@ time[aria-label^="Today at"]:before {
     visibility: visible;
 }
 
+/* custom status modal */
+.header_dbc4b7.header__49fc1.noWrap_abf706.alignCenter_abf706.justifyStart_abf706.horizontal__7c0ba.flex__7c0ba {
+    background-image: url('https://discord.com/assets/7d67842f58b6d155.svg');
+    background-size: 200px 120px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 120px;
+    margin-top: -93px;
+}
+.headerTitle_dbc4b7 .heading-xl\/semibold_cf4812{
+    display: none;
+}
+.scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
+    content: "Set a custom status";
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--interactive-active);
+    margin-left: 28%
+}
+.profilePreview_dbc4b7 {
+    display: none;
+}
+
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
