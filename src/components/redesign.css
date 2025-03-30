@@ -21,9 +21,15 @@
 	.bar_c38106 .trailing_c38106 {
 			top: 33px;
 	}
+	.scroller_ef3116 {
+		padding-top: 2px !important;
+	}
 }
 .visual-refresh {
 	/*servers and channels*/
+	.childWrapperNoHoverBg__6e9f8 {
+		background-color: var(--background-primary);
+	}
 	
 	.panels_c48ade {
 		display: flex;
