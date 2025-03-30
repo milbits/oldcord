@@ -1417,7 +1417,7 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     box-shadow: var(--elevation-stroke);
     border: none;
     &:hover {
-        box-shadow: var(--elevation-stroke), var(--elevation-medium);
+        box-shadow: var(--elevation-stroke), var(--elevation-medium) !important;
         border: none;
     }
 

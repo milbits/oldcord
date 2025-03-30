@@ -19,7 +19,7 @@
 		display: none;
 	}
 	.bar_c38106 .trailing_c38106 {
-			top: 33px;
+			top: 33px !important;
 	}
 	.scroller_ef3116 {
 		padding-top: 2px !important;
@@ -134,6 +134,9 @@
 			text-align: left;
 			line-height: 24px;
 		}
+	}
+	.wrapper_f7ecac {
+		background: var(--background-primary)
 	}
 	/* border radius 8 list of offenders */
 	.root__49fc1, .container_e45859, .searchBar__5ec2f, .tooltip__382e7, .link__2ea32 {
@@ -313,6 +316,59 @@
 			display: initial;
 		}
 	}
+
+	/* chat box */
+	.scrollerSpacer__36d07 {
+		height: 30px;
+	}
+	.formWithLoadedChatInput_f75fb0 {
+	    padding-left: 16px !important;
+	    padding-right: 16px !important;
+		.channelTextArea_f75fb0 {
+		    background: var(--background-primary) !important;
+		}
+		.channelTextArea__74017 {
+			border: none;
+		}
+		.themedBackground__74017 {
+			background: var(--bg-overlay-3, var(--channeltextarea-background));
+		}
+		.buttons__74017 {
+		    margin-right: -6px !important;
+			gap: unset;
+		}
+		.button__74017 {
+		    padding: 4px;
+		    margin-left: 4px;
+		    margin-right: 4px;
+		}
+		.spriteContainer__04eed {
+			--custom-emoji-sprite-size: 24px !important;
+		}
+		.lottieIcon__5eb9b {
+			height: unset !important;
+			width: unset !important;
+		}
+		.stackedBars__74017 {
+			background: var(--background-secondary);
+			&:first-child, &.floatingBars__74017:empty+.stackedBars__74017:nth-child(2) {
+			    border-top-left-radius: 8px;
+			    border-top-right-radius: 8px;
+			}
+			&:not(:last-child) {
+				border: none;
+			}
+		}
+		.channelAttachmentArea_b77158 {
+			background-color: unset;
+		}
+		.upload_aa605f {
+			background-color: unset;
+			background: var(--bg-overlay-5, var(--background-secondary));
+			border: unset;
+			border-radius: 4px;
+			box-shadow: unset;
+		}
 }
 
 	/*stuff*/
@@ -343,6 +399,7 @@
 	.bar_c38106 .trailing_c38106 {
 		top: 51px;
 		gap: 8px;
+		z-index: 102;
 	}
 	.container__01ae2 > .container__9293f {
 		z-index: 102;
@@ -394,7 +451,7 @@
 	}
 
 /* server list */
-.visual-refresh .guilds_c48ade {
+.base_c48ade .sidebar_c48ade > .guilds_c48ade {
     width: 80px;
     background: var(--background-tertiary);
 	.scroller_ef3116 {
