@@ -43,9 +43,46 @@
 		background: var(--background-floating);
 	    box-shadow: var(--shadow-high);
 	    border-radius: 4px;
+		border: none;
+	}
+	.scroller_c1e9c4, .labelContainer_c1e9c4 {
+		padding: 6px 8px;
+	}
+	.wrapper_f563df {
+		gap: unset;
+		padding: 4px 0 6px 2px;
+		.button_f563df {
+			border-radius: 50%;
+			width: 32px;
+		    height: 32px;
+		    padding: 4px;
+		}
+	}
+	.item_c1e9c4 {
+	    box-sizing: border-box;
+	    margin: 2px 0;
 	}
 	.colorDefault_c1e9c4 .label_c1e9c4 {
 		color: unset;
+	}
+	.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
+		background-color: var(--menu-item-default-active-bg);
+	}
+	.colorDefault_c1e9c4.focused_c1e9c4 {
+		border-radius: 2px;
+	}
+	.colorDanger_c1e9c4, .colorDanger_c1e9c4 .checkbox_c1e9c4, .colorDanger_c1e9c4 .radioSelection_c1e9c4 {
+		color: var(--status-danger);
+	}
+	.colorDanger_c1e9c4.focused_c1e9c4 {
+	    color: var(--white);
+	}
+	.colorDefault_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
+	    fill: var(--white);
+	}
+	.iconContainer_c1e9c4 {
+		width: 18px;
+		height: 18px;
 	}
 	.buttons__37e49 {
 		gap: 1px;
