@@ -234,9 +234,9 @@
 			line-height: 24px;
 		}
 	}
-	.wrapper_f7ecac {
+	.wrapper_f7ecac:not(.popover_c97e55) {
 		box-shadow: var(--elevation-stroke);
-		background: var(--background-primary)
+		background: var(--background-primary);
 	}
 	.toolbar__9293f {
 		gap: unset;
