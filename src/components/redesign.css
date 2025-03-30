@@ -156,7 +156,6 @@
 		}
 	}
 	
-	
 	.base_c48ade {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 18px [end];
@@ -164,7 +163,7 @@
 	.base_c48ade .sidebar_c48ade {
 		display: grid;
 		grid-template-areas: "guilds sidebar" "guilds panels";
-		grid-template-columns: [start] min-content [sidebarStart] 1fr [end];
+		grid-template-columns: [start] min-content [sidebarStart] unset [end];
 		grid-template-rows: [start] 1fr [panelsStart] min-content [end];
 		width: 310px !important;
 		border-radius: 0;
@@ -387,3 +386,60 @@
 	.winButtonsWithDivider_c38106:before {
 		border: unset;
 	}
+
+/* server list */
+.visual-refresh .guilds_c48ade {
+    width: 80px;
+    background: var(--background-tertiary);
+	.scroller_ef3116 {
+		padding-top: 18px;
+	    > div[style]:not([class]) {
+	        min-height: 50px;
+		}
+		ul.stack_dbd263 {
+		    height: auto !important;
+		}
+    }
+    .guildSeparator__252b6 {
+      height: 2px;
+    }
+    .wrapper__48112 {
+		.expandedFolderBackground__48112 {
+		    left: 15px;
+	        width: 50px;
+	        bottom: 4px;
+	        border-radius: 16px 16px 25px 25px;
+	        background: var(--background-modifier-accent);
+	        border: none;
+		}
+	    .folder__48112 {
+	        margin-left: -5px;
+	        margin-top: -4px;
+		}
+	    .folderIconWrapper__48112, .folder__48112 {
+	        width: 50px;
+	        height: 50px;
+	    }
+	    .expandedFolderIconWrapper__48112 {
+	        margin: 0;
+	        width: 50px;
+	        height: 50px;
+	        > svg {
+			    width: 24px;
+			    height: 24px;
+		    }
+	    }
+	    .closedFolderIconWrapper__48112 .guildIcon__48112 {
+	        border-radius: 32px !important;
+		}
+	    gap: 8px !important;
+	}
+	.guildsError_e8d03f {
+		width: 50px;
+	    height: 50px;
+	    background: #{ss(rgba(240,71,71,.1))};
+	    border-color: var(--red);
+	&:hover {
+	    background: var(--red);
+	}
+}
