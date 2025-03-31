@@ -1684,6 +1684,28 @@ time[aria-label^="Today at"]:before {
     display: none;
 }
 
+
+/* "My Account" settings panel */
+.accountProfileCard__1fed1 {
+    .userInfo__1fed1 > div:nth-of-type(1) {
+        width: 92px !important;
+        height: 92px !important;
+        svg {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .userInfo__1fed1 > div:nth-of-type(2) {
+        display: none;
+    }
+    .background__1fed1, .fieldList__1fed1 {
+        background: var(--background-secondary);
+    }
+    .fieldList__1fed1 {
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+}
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
