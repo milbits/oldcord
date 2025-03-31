@@ -317,11 +317,15 @@
 	    border-radius: 4px;
 	    background-color: var(--background-tertiary);
 	    box-shadow: none;
-	    color: var(--text-muted);
-		
 		.contents__201d5 {
-			text-align: left;
-			line-height: 24px;
+			width: 100%;
+		    color: var(--text-muted);
+		    text-align: left;
+		    text-overflow: ellipsis;
+		    font-size: 14px;
+		    font-weight: 500;
+		    line-height: 24px;
+		    white-space: nowrap;
 		}
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
