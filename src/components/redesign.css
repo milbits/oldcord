@@ -731,6 +731,18 @@
 		left: 0;
 		right: 0;
 	}
+	.cooldownText_b21699 {
+		color: var(--font-primary) !important;
+	}
+	.base_b88801 {
+	    left: 16px;
+	    font-size: 14px;
+	    font-weight: 500;
+	    line-height: 24px;
+	    resize: none;
+	    align-items: center;
+	    color: var(--text-normal);
+	}
 
 	/* jump to present bar */
 	.jumpToPresentBar__0f481 {
