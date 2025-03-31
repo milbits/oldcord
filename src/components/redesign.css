@@ -820,6 +820,30 @@
 	.lookLink__201d5.colorLink__201d5 {
 		color: var(--text-link);
 	}
+
+	/* file embeds */
+	.wrapperAudio_cf09d8, .file__0ccae, .container_a8e786 {
+		background-color: var(--background-secondary);
+		border: 1px solid var(--background-secondary-alt);
+		box-shadow: unset;
+	}
+	.textContainer__4d95d {
+		background-color: var(--background-secondary);
+		border: 1px solid var(--background-secondary-alt);
+	}
+	.footer__4d95d {
+	    background-color: var(--background-secondary);
+		border: 1px solid var(--background-secondary-alt);
+	}
+	.hljs {
+	    display: block;
+	    overflow-x: auto;
+	    padding: .5em;
+	    border-radius: 4px;
+	    -webkit-text-size-adjust: none;
+	    text-size-adjust: none;
+	    color: var(--text-normal);
+	}
 }
 
 :where(.visual-refresh) .item__001a7, :where(.visual-refresh) .item__001a7[aria-checked=true], :where(.visual-refresh) .itemFilled__001a7[aria-checked=true], :where(.visual-refresh) .radioBar__001a7 {
