@@ -300,8 +300,8 @@
 	    color: var(--interactive-active);
 	}
 	/* header text in DMs */
-	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium__13cf1 {
-		text-transform: unset;	
+	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium_cf4812 {
+		text-transform: unset !important;	
 	}
 	/* call background */
 	.root_bfe55a {
