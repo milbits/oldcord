@@ -188,6 +188,9 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 	& .content_ab8609{
 		margin-right: 150px;
 	}
+	& .inner_c0bea0.biteSize_c0bea0 {
+		background: transparent !important;
+	}
 }
 
 .menuItemInner_af7fb7.buttonInner_fb7f94.contents__201d5:hover {
