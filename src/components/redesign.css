@@ -10,8 +10,8 @@
 	--checkbox-background-checked: var(--blurple);
 }
 
-/* remove the title bar on web */
-.platform-web {
+/* remove the title bar on web & linux */
+.platform-web, .platform-linux {
 	.base_c48ade {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
@@ -1021,6 +1021,13 @@
 	        border-radius: 32px !important;
 		}
 	    gap: 8px !important;
+	}
+	.listItem__650eb:has(.circleIcon__5bc7e) {
+		.circleIconButton__5bc7e {
+			border-radius: 50%;
+			width: 48px;
+			height: 48px;
+		}
 	}
 	.guildsError_e8d03f {
 		width: 50px;
