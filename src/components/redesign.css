@@ -26,6 +26,13 @@
 		padding-top: 2px !important;
 	}
 }
+.platform-win .sidebarListRounded_c48ade {
+	border-top-left-radius: 8px;
+}
+.sidebarListRounded_c48ade {
+	border-top-left-radius: unset;
+}
+
 .visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
@@ -330,6 +337,10 @@
 	    padding: 2px 8px;
 	    min-height: unset;
 	}
+	.searchBar__35e86 {
+		border-bottom: unset;
+		box-shadow: var(--elevation-low);
+	}
 	.searchBar__35e86 .grow__201d5.fullWidth__201d5.sizeSmall__201d5.colorPrimary__201d5.lookFilled__201d5.button__201d5 {
 		width: 100%;
 	    height: 28px;
@@ -500,7 +511,7 @@
 	
 	.base_c48ade {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
-		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 18px [end];
+		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 22px [end];
 	}
 	.base_c48ade .sidebar_c48ade {
 		display: grid;
@@ -894,7 +905,7 @@
 }
 	/*stuff*/
 	.bar_c38106 {
-		padding: 0 12px 0;
+		padding: 0 12px 0 !important;
 		height: 50px;
 		margin-top: -33px;
 	}
@@ -907,7 +918,7 @@
 		background-repeat: no-repeat;
 		transform: translateY(40px) translateX(14px) scale(1);
 		width: 52px;
-		.text-sm\/medium__13cf1 {
+		.text-sm\/medium_cf4812 {
 			display: none;
 		}
 		svg {
@@ -959,12 +970,15 @@
 		position: absolute;
 		gap: unset;
 		justify-content: center;
-		bottom: 38px;
+		bottom: 35px;
+		left: 26px;
+		z-index: 3001;
+		-webkit-app-region: no-drag !important;
 		.winButton_c38106 {
 			top: -4px;
 			align-items: center;
 			width: 28px;
-			height: 25px;
+			height: 22px;
 		}
 	}
 	.winButtonsWithDivider_c38106:before {
