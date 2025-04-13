@@ -32,6 +32,9 @@
 .sidebarListRounded_c48ade {
 	border-top-left-radius: unset;
 }
+#app-mount .h5_b717a1.eyebrow_b717a1 {
+    text-transform: uppercase !important;
+}
 
 .visual-refresh {
 	/*servers and channels*/
@@ -904,7 +907,7 @@
 	border-radius: 5px
 }
 	/*stuff*/
-	.bar_c38106 {
+	.bar_c38106:not(.systemBar_c38106) {
 		padding: 0 12px 0 !important;
 		height: 50px;
 		margin-top: -33px;
@@ -984,7 +987,14 @@
 	.winButtonsWithDivider_c38106:before {
 		border: unset;
 	}
-
+	.systemBar_c38106 {
+		background-color: var(--background-tertiary);
+		min-height: 22px;
+		.winButtons_c38106 {
+			bottom: 40px;
+			left: -84px;
+		}
+	}
 /* server list */
 .base_c48ade .sidebar_c48ade > .guilds_c48ade {
     width: 80px;
