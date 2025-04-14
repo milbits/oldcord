@@ -8,6 +8,7 @@
 	--bg-brand: var(--blurple);
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--checkbox-background-checked: var(--blurple);
+	--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
 
 /* remove the title bar on web & linux */
@@ -26,11 +27,8 @@
 		padding-top: 2px !important;
 	}
 }
-.platform-win .sidebarListRounded_c48ade {
-	border-top-left-radius: 8px;
-}
-.sidebarListRounded_c48ade {
-	border-top-left-radius: unset;
+:is(.platform-win) .sidebarListRounded_c48ade {
+	border-top-left-radius: 8px !important;
 }
 #app-mount .h5_b717a1.eyebrow_b717a1 {
     text-transform: uppercase !important;
@@ -40,10 +38,6 @@
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
 		background-color: var(--background-primary);
-	}
-
-	.platform-win .sidebarListRounded_c48ade {
-		border-top-left-radius: 8px;
 	}
 	.sidebarListRounded_c48ade {
 		border-top-left-radius: unset;
