@@ -41,6 +41,13 @@
 	.childWrapperNoHoverBg__6e9f8 {
 		background-color: var(--background-primary);
 	}
+
+	.platform-win .sidebarListRounded_c48ade {
+		border-top-left-radius: 8px;
+	}
+	.sidebarListRounded_c48ade {
+		border-top-left-radius: unset;
+	}
 	
 	.panels_c48ade {
 		display: flex;
