@@ -1200,6 +1200,13 @@
 	display: none;
 }
 
+/* hides left sidebar when fullscreen mode */
+.base_c48ade[data-fullscreen="true"] {
+    .sidebar_c48ade{
+        display: none;
+    }
+}
+
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
 }
