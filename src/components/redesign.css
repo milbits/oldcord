@@ -957,14 +957,30 @@
 			display: none;
 		}
 	}
-    .bar_c38106 .channelTabs-trailing .trailing_c38106 {
-        top: auto;
-    }
 	.bar_c38106 .trailing_c38106 {
 		top: 51px;
 		gap: 8px;
 		z-index: 102;
 	}
+	.bar_c38106 .channelTabs-trailing .trailing_c38106 {
+		top: 44px;
+        right: 10px;
+	}
+    .channelTabs-trailing .winButtons_c38106 {
+        position: absolute;
+		top: -53px;
+        right: 6px;
+        & .winButton_c38106 {
+            width: var(--custom-app-top-bar-height);
+            height: var(--custom-app-top-bar-height);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    #channelTabs-settingsMenu {
+        position: relative;
+        right: 20px;
+    }
 	.container__01ae2 > .container__9293f {
 		z-index: 102;
 	}
@@ -1013,11 +1029,6 @@
 			height: 22px;
 		}
 	}
-    .channelTabs-trailing .winButtons_c38106 {
-        position: relative;
-        bottom: auto;
-        left: -6px;
-    }
 	.winButtonsWithDivider_c38106:before {
 		border: unset;
 	}
