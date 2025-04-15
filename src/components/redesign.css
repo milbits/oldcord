@@ -770,6 +770,9 @@
 		.lottieIcon__5eb9b {
 			height: unset !important;
 			width: unset !important;
+			.channelAppLauncher_e6e74f &{
+				width: 28px !important
+			}
 		}
 		.stackedBars__74017 {
 			background: var(--background-secondary);
