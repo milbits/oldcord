@@ -1200,6 +1200,9 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	color: var(--interactive-active);
 	position: relative;
 }
+.fullSize_c0bea0 .usernameRow__63ed3 {
+	margin-top: -20px;
+}
 
 .body__24502 {
 	gap: 0;
