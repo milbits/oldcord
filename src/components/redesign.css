@@ -927,6 +927,32 @@
 	    color: var(--white);
 		fill: var(--white);
 	}
+
+    .wrapper__260e1 {
+        display: flex;
+        align-items: stretch;
+        line-height: 20px;
+        border-radius: 10px;
+        color: var(--channels-default);
+        border: none;
+    }
+    .total__260e1 {
+        padding: 0 6px 0 0;
+        background-color: var(--background-tertiary);
+        &:after {
+            left: -8px;
+            border-right: 8px solid transparent;
+            border-right-color: var(--background-tertiary);
+        }
+    }
+    .users__260e1 {
+        padding: 0 8px 0 6px;
+        background-color: var(--background-primary);
+    }
+    .total__260e1, .users__260e1 {
+        font-feature-settings: normal;
+        font-variant-numeric: normal;
+    }
 }
 
 :where(.visual-refresh) .item__001a7, :where(.visual-refresh) .item__001a7[aria-checked=true], :where(.visual-refresh) .itemFilled__001a7[aria-checked=true], :where(.visual-refresh) .radioBar__001a7 {
