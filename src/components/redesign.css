@@ -933,7 +933,7 @@
 	border-radius: 5px
 }
 	/*stuff*/
-	.bar_c38106:not(.systemBar_c38106) {
+	.bar_c38106:not(.systemBar_c38106):not(:has(.channelTabs-trailing)) {
 		padding: 0 12px 0 !important;
 		height: 50px;
 		margin-top: -33px;
@@ -957,6 +957,9 @@
 			display: none;
 		}
 	}
+    .bar_c38106 .channelTabs-trailing .trailing_c38106 {
+        top: auto;
+    }
 	.bar_c38106 .trailing_c38106 {
 		top: 51px;
 		gap: 8px;
@@ -1010,6 +1013,11 @@
 			height: 22px;
 		}
 	}
+    .channelTabs-trailing .winButtons_c38106 {
+        position: relative;
+        bottom: auto;
+        left: -6px;
+    }
 	.winButtonsWithDivider_c38106:before {
 		border: unset;
 	}
@@ -1021,6 +1029,9 @@
 			left: -84px;
 		}
 	}
+    .channelTabs-tabContainer div {
+        margin-bottom: 0 !important;
+    }
 /* server list */
 .base_c48ade .sidebar_c48ade > .guilds_c48ade {
     width: 80px;
