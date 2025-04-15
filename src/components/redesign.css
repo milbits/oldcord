@@ -58,7 +58,7 @@
 		flex-direction: column;
 		border: none;
 		border-radius: 0;
-		background: var(--background-secondary-alt);
+		background-color: #3cff00;
 	}
 	.menu_c1e9c4, .option__3f413, .popout__3f413 {
 		background: var(--background-floating);
@@ -87,7 +87,7 @@
 		color: unset;
 	}
 	.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
-		background-color: var(--menu-item-default-active-bg);
+		background-color: #ff5202;
 	}
 	.colorDefault_c1e9c4.focused_c1e9c4 {
 		border-radius: 2px;
@@ -173,7 +173,7 @@
 		background: var(--background-tertiary);
 	}
 	.outer_bf1984.interactive_bf1984:hover {
-		background-color: var(--primary-800);
+		background-color: #0000ff;
 	}
 	.header_f37cb1 {
 		border: unset;
