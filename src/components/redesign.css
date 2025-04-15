@@ -9,6 +9,15 @@
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--checkbox-background-checked: var(--blurple);
 	--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+	--__spoiler-background-color--hidden: var(--primary-700);
+    --__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl)/0.8);
+    --__spoiler-background-color--revealed: hsl(var(--white-500-hsl)/0.1);
+    --__spoiler-text-color--hidden: transparent;
+    --__spoiler-warning-text-color: var(--primary-200);
+    --__spoiler-warning-text-color--hover: var(--white-500);
+    --__spoiler-warning-background-color: hsl(var(--black-500-hsl)/0.6);
+    --__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl)/0.9);
+    --__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl)/0.1);
 }
 
 /* remove the title bar on web & linux */
