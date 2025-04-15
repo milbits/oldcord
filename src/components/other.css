@@ -1645,11 +1645,11 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 }
 
 /* Today at */
-time[aria-label^="Today at"] {
+:is(.timestampInline_c19a55) time[aria-label^="Today at"] {
     visibility: hidden;
 }
 
-time[aria-label^="Today at"]:before {
+:is(.timestampInline_c19a55) time[aria-label^="Today at"]:before {
     content: attr(aria-label);
     visibility: visible;
 }
