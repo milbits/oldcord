@@ -1880,3 +1880,12 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	}
 }
 */
+
+/*user panel in dms*/
+.panel_c0bea0{
+	background: var(--bg-overlay-4,var(--background-secondary));
+	& .container__63ed3{
+		background: var(--bg-overlay-2,var(--background-secondary))
+	}
+
+}
