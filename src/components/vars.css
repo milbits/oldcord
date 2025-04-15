@@ -41,8 +41,8 @@
 	--legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.2);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl) / 0.6);
 
-	--logo-primary: var(--white-500);
-	--focus-primary: var(--brand-experiment);
+	--logo-primary: #0b0830;
+	--focus-primary: #5f2318;
 	--deprecated-card-bg: hsla(216, calc(var(--saturation-factor, 1) * 7%), 14%, 0.6);
 	--deprecated-card-editable-bg: #2022254d;
 	--deprecated-store-bg: var(--background-primary);
@@ -349,7 +349,7 @@ body {
     --custom-guild-shop-content-width-minimum: 688px;
     --custom-guild-shop-channel-row-gradient: linear-gradient(113deg, #2f3570 1.98%, #422c70 94.48%);
     --custom-guild-shop-channel-row-gradient-hover: linear-gradient(113deg, #383f86 1.98%, #4d3385 94.48%);
-    --custom-guild-shop-channel-row-border-gradient: linear-gradient(113deg, #6591ff, #d150ff);
+    --custom-guild-shop-channel-row-border-gradient: linear-gradient(113deg, #ffd900, #d150ff);
     --custom-guild-shop-channel-row-glow: 0 0 4px rgba(189, 149, 255, 0.5);
     --custom-guild-shop-preview-pill-shadow-dark: -4px 5px #1d1d1d;
     --custom-guild-shop-preview-pill-shadow-light: -4px 5px #d7dce8;
