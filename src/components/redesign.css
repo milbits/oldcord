@@ -372,6 +372,11 @@
 		gap: unset;
 		padding-left: unset;
 	}
+	.iconBadgeBottom__9293f {
+		right: 2px;
+		bottom: 0;
+		--custom-icon-offset: unset;
+	}
 	.navButton__08434 {
 		border-radius: 4px;
 	    color: var(--interactive-normal);
@@ -756,6 +761,9 @@
 			border: unset;
 			border-radius: 4px;
 			box-shadow: unset;
+		}
+		.spoilerContainer__54ab5.attachmentContainer__54ab5 .media__41ea0 {
+			border-radius: 3px;
 		}
 		.slateTextArea_ec4baf {
 			margin-left: unset;
