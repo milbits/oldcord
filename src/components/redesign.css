@@ -884,9 +884,10 @@
 	}
 
 	.embedFull__623de {
-		border-left: 4px solid var(--background-tertiary) !important;
 		background: var(--background-secondary);
-		border: unset;
+		border-top: unset;
+		border-right: unset;
+		border-bottom: unset;
 	}
 	
 	 .cardPrimary__73069, .cardPrimary__73069.editable__73069 {
