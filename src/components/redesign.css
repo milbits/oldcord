@@ -586,6 +586,9 @@
 
 	/* style dms correctly (refresh edition) */
 	.channel__972a0 {
+		.interactive__972a0:active, .interactiveSelected__972a0 {
+			background: var(--bg-overlay-selected,var(--background-modifier-selected));
+		}
 		.interactiveSelected__972a0 .name__20a53  {
 	        color: var(--interactive-active) !important;
 	    }
@@ -872,8 +875,9 @@
 	}
 
 	.embedFull__623de {
-		border-left: 4px solid var(--background-tertiary);
-	    background: var(--background-secondary);
+		border-left: 4px solid var(--background-tertiary) !important;
+		background: var(--background-secondary);
+		border: unset;
 	}
 	
 	 .cardPrimary__73069, .cardPrimary__73069.editable__73069 {
@@ -881,6 +885,17 @@
 	}
 	.sensitivity_ac7648 {
 		min-height: 0px;
+	}
+
+	/* add emoji button */
+	.largeReactionBtn__23977.forceShow__23977 {
+		padding: unset;
+	}
+	.reactionBtn__23977 {
+		opacity: 0;
+	}
+	.reactionBtn__23977:hover {
+		background: none;
 	}
 
 	/* channel category arrow */

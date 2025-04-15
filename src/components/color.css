@@ -367,7 +367,7 @@
 .mentioned__5126c .reactionMe_f8896c.reaction_f8896c:hover,
 .reaction_f8896c.reactionMe_f8896c,
 .reaction__23977.reactionMe__23977 {
-	background-color: var(--brand-experiment-30a);
+	background-color: var(--brand-experiment-30a) !important;
 }
 
 .reaction__23977 .reactionInner__23977,
@@ -376,7 +376,7 @@
 }
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c,
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
-	color: var(--brand-experiment);
+	color: var(--brand-experiment) !important;
 }
 .reactionMe_f8896c:hover,
 .reactionMe__23977:hover {
