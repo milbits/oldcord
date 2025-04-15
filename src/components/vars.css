@@ -121,10 +121,10 @@ body {
 	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	--font-headline: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--blurple: var(--brand-experiment);
-	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
-	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
-	--blurple-inverted: #fff;
+	--blurple: #ff0000;
+	--blurple-hover: #d3f70d;
+	--blurple-active: #00eeff;
+	--blurple-inverted: rgb(228, 24, 126)000;
 	--blurple-inverted-hover: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
 	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
 	--text-brand: var(--blurple);
