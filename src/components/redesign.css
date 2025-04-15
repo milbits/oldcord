@@ -409,6 +409,13 @@
 	.container__87bf1.checked__87bf1 {
 		border: none;
 	}
+	button.button__67645, .visual-refresh span.button__67645 {
+		transition: none;
+	}
+	/* mic button */
+	.micButtonParent__37e49:hover>button {
+		background-color: rgba(0,0,0,0);
+	}
 
 	/* search bar(s) */
 	.medium_a45028 {
@@ -591,6 +598,22 @@
 			width: 24px;
 			height: 24px;
 		}
+	}
+	.avatarWrapper__37e49 {
+		padding-left: 2px;
+		border-radius: 4px;
+		transition: none;
+		&:hover {
+			background-color: var(--background-modifier-selected);
+			color: var(--interactive-hover);
+		}
+	}
+	.avatarWrapper__37e49 .nameTag__37e49 {
+		padding-bottom: 4px;
+		padding-top: 4px;
+	}
+	.nameTag__37e49 {
+		margin-right: 4px;
 	}
 
 	/* style dms correctly (refresh edition) */
