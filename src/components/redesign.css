@@ -1073,6 +1073,9 @@
 		box-shadow: unset;
 	}
 }
+.sidebar_c48ade:after {
+	display: none;
+}
 
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
