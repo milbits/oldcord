@@ -987,6 +987,16 @@
         font-feature-settings: normal;
         font-variant-numeric: normal;
     }
+
+	/* placeholder gray square when moving a server icon */
+	.dragInner__87847 {
+		background-color: var(--background-primary) !important;
+		border: none !important;
+	}
+	svg.placeholderMask__87847 {
+		width: 50px;
+		height: 50px;
+	}
 }
 
 :where(.visual-refresh) .item__001a7, :where(.visual-refresh) .item__001a7[aria-checked=true], :where(.visual-refresh) .itemFilled__001a7[aria-checked=true], :where(.visual-refresh) .radioBar__001a7 {
