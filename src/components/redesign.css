@@ -951,6 +951,14 @@
 	    color: var(--white);
 		fill: var(--white);
 	}
+
+	/* ping icon */
+	.lowerBadge_cc5dd2 {
+		border: 5px solid var(--background-tertiary);
+	    border-radius: 50%;
+		margin-bottom: -5px;
+		margin-right: -5px;
+	}	
 }
 
 :where(.visual-refresh) .item__001a7, :where(.visual-refresh) .item__001a7[aria-checked=true], :where(.visual-refresh) .itemFilled__001a7[aria-checked=true], :where(.visual-refresh) .radioBar__001a7 {
