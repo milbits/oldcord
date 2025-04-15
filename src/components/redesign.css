@@ -689,6 +689,9 @@
 	.markup__75297 code.inline {
 	    font-family: var(--font-code) !important;
 	}
+	.embedFull__623de code.inline {
+		background: var(--background-tertiary) !important;
+	}
 
 	/* discord logo */
 	.childWrapper__6e9f8 svg {
