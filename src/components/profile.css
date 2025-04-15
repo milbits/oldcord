@@ -607,6 +607,10 @@ html.theme-dark .badgeContainer__635ed path {
 .biteSize_da5890 div:nth-child(2) {
 	display: none;
 }
+/* i hate this reaction experiment so much */
+.biteSize_c0bea0 .clickableContainer__39ec2 {
+  order: -1;
+}
 
 /*pfp (duh)*/
 .avatar__75742 {

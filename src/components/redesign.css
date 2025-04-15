@@ -45,7 +45,7 @@
 	
 	.panels_c48ade {
 		display: flex;
-		width: 240px;
+		width: 241px;
 		flex-direction: column;
 		border: none;
 		border-radius: 0;
@@ -485,6 +485,17 @@
 	.footerSeparator__49fc1 {
 		box-shadow: inset 0 1px 0 hsl(220 calc(1*6.522%) 18.039% /.6);
 	}
+	.footer__5be3e {
+		.channelTextArea__74017 {
+			box-sizing: border-box;
+		    width: 100%;
+		    border-radius: 3px;
+		    background-color: var(--deprecated-text-input-bg);
+		    border: 1px solid var(--deprecated-text-input-border);
+		    -webkit-transition: border-color .2s ease-in-out;
+		    transition: border-color .2s ease-in-out;
+		}
+	}
 
 	.addFriend__133bf:hover {
 		background: var(--green) !important;
@@ -555,6 +566,12 @@
 				width: 40px;
 				height: 40px;
 			}
+		}
+		.panel__5dec7 {
+			background-color: var(--background-secondary-alt);
+		    border-top-left-radius: unset;
+		    border-top-right-radius: unset;
+		    border-bottom: unset;
 		}
 	}
 	.toolbar__9293f > .iconWrapper__9293f {
@@ -1036,7 +1053,10 @@
 	    .folderIconWrapper__48112, .folder__48112 {
 	        width: 50px;
 	        height: 50px;
-	    }
+	        overflow: hidden;
+	        border-radius: 16px;
+			--bg-mod-subtle: rgba(114, 137, 218, 0.4) !important;
+		}
 		.iconSizeMini_f34534 {
 			width: 16px;
 			height: 16px;
