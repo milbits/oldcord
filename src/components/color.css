@@ -344,7 +344,7 @@
 	margin-right: 0.125rem;
 	margin-bottom: 0.125rem;
 	transition: background-color 0.1s ease;
-	background: var(--background-modifier-accent);
+	background: var(--background-modifier-accent) !important;
 	&:hover {
 		background-color: var(--background-modifier-selected) !important;
 	}
