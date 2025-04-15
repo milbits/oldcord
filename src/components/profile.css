@@ -1201,7 +1201,10 @@ html:is([lang="en-GB"],[lang="en-us"]) .footer__5be3e::after {
 	position: relative;
 }
 .fullSize_c0bea0 .usernameRow__63ed3 {
-	margin-top: -20px;
+	margin-top: -10px;
+}
+.fullSize_c0bea0 .username__24502.container__63ed3 {
+	margin: unset !important;
 }
 
 .body__24502 {
@@ -1751,7 +1754,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 
 .hp-customStatusContainer {
-	padding: 20px 20px 20px 31px;
+	padding: 20px 20px 20px 21px;
 	border-radius: unset;
     background: unset;
 }
