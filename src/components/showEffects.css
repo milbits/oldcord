@@ -36,6 +36,11 @@
     position: absolute !important;
     top: 62px !important
 }
+/*fix for reaction stuff*/
+.avatar__75742:has(.wrapper_f7ecac){
+    position: absolute !important;
+    top: 0 !important
+}
 /*move usernames etc. a bit down*/
 .outer_c0bea0:is(.biteSize_c0bea0.outer_c0bea0) .container__63ed3{
     padding-top: 50px;
