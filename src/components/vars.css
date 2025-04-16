@@ -28,10 +28,10 @@
 	--background-help-info: #00b0f41a;
 	--scrollbar-thin-thumb: #0763ee;
 	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #791d79;
-	--scrollbar-auto-track: #2E3338;
+	--scrollbar-auto-thumb: #ff0000;
+	--scrollbar-auto-track: #2B2D31;
 	--scrollbar-auto-scrollbar-color-thumb: #54e21c;
-	--scrollbar-auto-scrollbar-color-track: #2f3136;
+	--scrollbar-auto-scrollbar-color-track: #2B2D31;
 	--elevation-stroke: 0 0 0 1px #04040526;
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
