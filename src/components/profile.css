@@ -1,6 +1,6 @@
 /** bottom-left popout */
 .panels_c48ade .avatarWrapper__37e49:hover {
-	background: none;
+	background: none !important;
 }
 .panels_c48ade .wrapper__44b0c:hover {
 	opacity: 0.5 !important;
@@ -229,6 +229,9 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /*! Revert activity profile*/
+.activityPopover__2d0ab,.avatarPopover__2d0ab{
+	display: none
+}
 /** Variables*/
 
 .outer_c0bea0:has(.card__39ec2) {
@@ -621,7 +624,7 @@ html.theme-dark .badgeContainer__635ed path {
 .avatar__75742 {
 	left: 34% !important;
 	position: relative !important;
-	top: 13px !important;
+	top: 8px !important;
 	width: 0;
 }
 
