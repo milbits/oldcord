@@ -3,7 +3,7 @@
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
-	--channels-default: #f12004;
+	--channels-default: #04f13f;
 	--interactive-normal: #b9bbbe;
 	--interactive-hover: #dcddde;
 	--interactive-active: var(--white-500);
