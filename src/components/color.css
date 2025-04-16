@@ -330,6 +330,7 @@
 .reaction__23977 .reactionInner__23977, .reaction_f8896c.reactionInner_f8896c {
 	align-items: center;
 	 display: flex;
+	 padding: 0.18rem 0.4rem !important;
 	 position: relative;
  } 
  .reactionCount__23977 {
