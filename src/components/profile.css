@@ -295,7 +295,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 		--play: var(--playstation2);
 		--play-dark: var(--playstation-dark);
 	}
-	*/
+	
 }
 */
 
@@ -579,7 +579,7 @@ html.theme-dark .badgeContainer__635ed path {
 	--theme-text-color-amount: unset !important;
 	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
 }
-.profileEffects__01370, .avatarDecoration__44b0c, .avatarDecoration_c19a55{
+.profileEffects__01370, .avatarDecoration__44b0c, .avatarDecoration_c19a55, .nameplated__91a9d{
 	display: none
 }
 .outer_c0bea0.biteSize_c0bea0,
