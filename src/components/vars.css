@@ -26,11 +26,11 @@
 	--background-message-hover: #04040512;
 	--background-help-warning: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.102);
 	--background-help-info: #00b0f41a;
-	--scrollbar-thin-thumb: #202225;
+	--scrollbar-thin-thumb: #0763ee;
 	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #202225;
-	--scrollbar-auto-track: #2e3338;
-	--scrollbar-auto-scrollbar-color-thumb: #202225;
+	--scrollbar-auto-thumb: #791d79;
+	--scrollbar-auto-track: #f30606;
+	--scrollbar-auto-scrollbar-color-thumb: #54e21c;
 	--scrollbar-auto-scrollbar-color-track: #2f3136;
 	--elevation-stroke: 0 0 0 1px #04040526;
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
