@@ -341,8 +341,8 @@
 .reaction__23977 {
 	border-radius: 0.25rem;
 	border: none;
-	margin-right: 0.125rem;
-	margin-bottom: 0.125rem;
+	margin-right: 0.25rem;
+	margin-bottom: 0.25rem;
 	transition: background-color 0.1s ease;
 	background: var(--background-modifier-accent);
 	&:hover {
