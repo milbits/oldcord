@@ -3,7 +3,7 @@
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
-	--channels-default: #ff3300;
+	--channels-default: #ff00aa;
 	--interactive-normal: #b9bbbe;
 	--interactive-hover: #dcddde;
 	--interactive-active: var(--white-500);
@@ -118,9 +118,9 @@
 }
 body {
 	--text-muted: #72767d;
-	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	--font-headline: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-primary: "gg sans", ;
+	--font-display: "gg sans", !important;
+	--font-headline: "gg sans";
 	--blurple: #ff0000;
 	--blurple-hover: #d3f70d;
 	--blurple-active: #00eeff;
