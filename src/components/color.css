@@ -339,15 +339,19 @@
 
 .reaction_f8896c,
 .reaction__23977 {
-	border-radius: 0.25rem;
-	border: none;
-	margin-right: 0.25rem;
-	margin-bottom: 0.25rem;
-	transition: background-color 0.1s ease;
-	background: var(--background-modifier-accent);
-	&:hover {
-		background-color: var(--background-modifier-selected) !important;
-	}
+	background: var(--background-secondary) !important;
+	border: .0625rem solid transparent !important;
+	border-radius: .5rem !important;
+	box-sizing: border-box !important;
+	cursor: pointer !important;
+	flex-shrink: 0 !important;
+	margin-bottom: .25rem !important;
+	margin-right: .25rem !important;
+	transition: none .1s ease !important;
+	transition-property: background-color,border-color !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	user-select: none !important;
 }
 .reaction_f8896c:hover,
 .reaction__23977:hover {
