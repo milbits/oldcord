@@ -58,7 +58,7 @@
 		flex-direction: column;
 		border: none;
 		border-radius: 0;
-		background-color: #3cff00;
+		background-color: #222f1e;
 	}
 	.menu_c1e9c4, .option__3f413, .popout__3f413 {
 		background: var(--background-floating);
@@ -116,7 +116,7 @@
 		}
 		.refreshIconFill__001a7 {
 			fill: transparent;
-			stroke: rgb(255, 0, 0);
+			stroke: white;
 			stroke-width: 2;
 			r: 10;
 		}
