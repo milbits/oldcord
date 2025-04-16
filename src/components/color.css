@@ -338,21 +338,6 @@
 }
 
 .reaction_f8896c,
-.reaction__23977 {
-	background: var(--background-secondary) !important;
-	border: .0625rem solid transparent !important;
-	border-radius: .5rem !important;
-	box-sizing: border-box !important;
-	cursor: pointer !important;
-	flex-shrink: 0 !important;
-	margin-bottom: .25rem !important;
-	margin-right: .25rem !important;
-	transition: none .1s ease !important;
-	transition-property: background-color,border-color !important;
-	-webkit-user-select: none !important;
-	-moz-user-select: none !important;
-	user-select: none !important;
-}
 .reaction_f8896c:hover,
 .reaction__23977:hover {
 	background-color: var(--background-modifier-selected) !important;
