@@ -441,6 +441,42 @@
 .messageListItem__23977 {
     content-visibility: visible !important;
 }
+/* Fix for reaction resize issue - add this as a separate block */
+@keyframes preventResize {
+	from { opacity: 0.99; }
+	to { opacity: 1; }
+  }
+  
+  /* Force consistent sizing before elements are fully rendered */
+  .reactions_c80a5d,
+  [class*="reactions"] {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	align-items: center !important;
+	animation: preventResize 0.01s forwards !important;
+	transform: translateZ(0) !important; /* Force GPU acceleration */
+	will-change: contents !important; /* Hint to browser to prepare for changes */
+  }
+  
+  /* Prevent size changes for all reaction components */
+  [class*="reaction"] {
+	height: 24px !important;
+	box-sizing: border-box !important;
+	contain: size !important;
+  }
+  
+  /* Force consistent emoji size */
+  [class*="reaction"] .emoji {
+	height: 1.25rem !important;
+	width: 1.25rem !important;
+	object-fit: contain !important;
+  }
+  
+  /* Ensure container visibility */
+  .message-2CShn3 {
+	contain: none !important;
+	content-visibility: auto !important;
+  }
 
 
 /** Select Menus*/
