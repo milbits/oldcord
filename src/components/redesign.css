@@ -1047,6 +1047,81 @@
 		background-color: var(--background-secondary);
 		border: unset;
 	}
+
+	/* forums */
+	.container__01ae2 {
+		border-top: unset;
+		background: var(--bg-overlay-app-frame, var(--background-base-lowest));
+		box-sizing: unset;
+	}
+	.floating__01ae2 {
+		border-left: 1px solid var(--background-secondary);
+		width: 400px !important;
+		z-index: 103;
+	}
+	.card_f369db {
+		padding-bottom: 8px;
+	}
+	.grid_f369db>div:first-child, .headerRow_f369db, .list_f369db>div:first-child {
+		min-width: 400px;
+		padding-right: var(--spacing-16);
+	}
+	.list_f369db .header_f369db {
+		margin-top: 24px
+	}
+	.tagsContainer_f369db {
+		padding-top: 24px;
+	}
+	.mainCard_f369db {
+		background: var(--bg-mod-faint);
+		border: 1px solid transparent;
+	}
+	.container_faa96b {
+		padding: 12px;
+	}
+	.container_faa96b:hover {
+		background-color: var(--background-modifier-active) !important;
+	    box-shadow: var(--elevation-high) !important;
+	    transform: translateY(-2px) !important;
+	}
+	.container_faa96b.isOpen_faa96b {
+		background-color: var(--background-modifier-selected);
+		border: unset;
+		box-shadow: var(--shadow-low) !important;
+	}
+	.container__5808f {
+		background-color: var(--background-floating);
+	    border-radius: var(--radius-xs);
+	    box-shadow: var(--elevation-high);
+	    padding: 8px;
+	}
+	.pill_a2c9e8 {
+		background-color: var(--background-secondary-alt);
+	    border: 1px solid transparent;
+		color: var(--text-normal);
+	}
+	.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+		background-color: var(--background-tertiary);
+	    cursor: pointer;
+	}
+	.sortDropdown_f369db, .tagsButton_f369db {
+		background-color: var(--background-secondary-alt);
+	}
+	:is(.sortDropdown_f369db, .tagsButton_f369db):hover {
+		background-color: var(--background-tertiary);
+	}
+
+	/* message flash */
+	.flash__03436, .message__5126c {
+		border-bottom-right-radius: unset;
+	    border-top-right-radius: unset;
+	}
+	.highlighted__5126c, .replying__5126c {
+		background-color: rgba(114,137,218,.05)
+	}
+	:is(.highlighted__5126c, .replying__5126c):hover {
+		background-color: rgba(114,137,218,.1) !important;
+	}
 }
 
 :where(.visual-refresh) .item__001a7, :where(.visual-refresh) .item__001a7[aria-checked=true], :where(.visual-refresh) .itemFilled__001a7[aria-checked=true], :where(.visual-refresh) .radioBar__001a7 {
