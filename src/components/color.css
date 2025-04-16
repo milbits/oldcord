@@ -330,7 +330,6 @@
 .reaction__23977 .reactionInner__23977, .reaction_f8896c.reactionInner_f8896c {
 	align-items: center;
 	 display: flex;
-	   padding: 0.18rem 0.4rem;
 	 position: relative;
  } 
  .reactionCount__23977 {
@@ -350,9 +349,7 @@
 .reaction__23977.reactionMe__23977 .reactionCount__23977{
 color: var(--text-secondary) !important}
 
-.reactionBtn__23977.forceShow__23977:hover {box-shadow:0px 0px 0px 1.5px #4752C4 inset;
-	border-color: transparent;
-	background-color: #393D5D !important;}
+
 	
 		
 
