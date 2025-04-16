@@ -3,7 +3,7 @@
 	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
-	--channels-default: #40d314;
+	--channels-default: #149dd3;
 	--interactive-normal: #b9bbbe;
 	--interactive-hover: #dcddde;
 	--interactive-active: var(--white-500);
@@ -229,6 +229,7 @@ body {
 	--crunchyroll-dark: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55%);
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+    --reaction-background: hsla(234.935 calc(var(--saturation-factor, 1) * 85.556%) 64.706% /.15);
 }
 
 .cardPrimary__73069 {
