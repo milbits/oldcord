@@ -326,18 +326,25 @@
 .reactionBtn__23977 {
     animation: cubic-bezier(0.1, 1, 0.9, 1.1) reactionAnim 0.1s;
     animation-iteration-count: var(--reaction-animation, 0);
-    min-height: 24px; /* Set a consistent minimum height */
-    min-width: 40px; /* Set a consistent minimum width */
-    box-sizing: border-box; /* Ensure padding doesn't affect final size */
-    transition: none !important; /* Prevent transition animations that could cause visual resizing */
+    min-height: 24px !important; 
+    min-width: 40px !important;
+    height: 24px !important;
+    width: auto !important;
+    box-sizing: border-box !important;
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
 }
 
 .reaction__23977 .reactionInner__23977, 
 .reaction_f8896c.reactionInner_f8896c {
-    align-items: center;
-    display: flex;
-    padding: 0.18rem 0.4rem;
-    position: relative;
+    align-items: center !important;
+    display: flex !important;
+    padding: 0.18rem 0.4rem !important;
+    position: relative !important;
+    height: 100% !important;
+    width: auto !important;
+    transform: none !important;
 }
 
 .reactionCount__23977 {
@@ -352,7 +359,7 @@
 }
 
 .visual-refresh .reaction__23977.reactionMe__23977 {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     background-color: #393D5D !important;
 }
 
@@ -362,17 +369,23 @@
 }
 
 .reactionLarge.emoji {
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.25rem !important;
+    height: 1.25rem !important;
 }
 
-/* Ensure emoji sizes are consistent from the start */
+/* Force consistent emoji sizing */
 .reaction__23977 .emoji,
-.reaction_f8896c .emoji {
+.reaction_f8896c .emoji,
+.reactionInner__23977 .emoji,
+.reactionInner_f8896c .emoji {
     height: 1.25rem !important;
     width: 1.25rem !important;
     min-height: 1.25rem !important;
     min-width: 1.25rem !important;
+    max-height: 1.25rem !important;
+    max-width: 1.25rem !important;
+    transform: none !important;
+    transition: none !important;
 }
 
 .reactionBtn__23977.forceShow__23977 {
@@ -405,6 +418,21 @@
 .reaction_f8896c, 
 .reaction__23977 {
     border-radius: 8px;
+}
+
+/* Disable layout calculations */
+.message__23977 *,
+.messageListItem__23977 * {
+    contain: none !important;
+}
+
+/* Prevent layout shifts */
+.container_bf285b .reactions_c80a5d {
+    height: auto !important;
+    min-height: 24px !important;
+    display: flex !important;
+    transform: none !important;
+    transition: none !important;
 }
 
 /* Force the layout to be calculated immediately */
