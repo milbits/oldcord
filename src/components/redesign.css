@@ -1074,16 +1074,18 @@
 		height: 50px;
 	}
 
-	/* unreads bar */
+	/* unreads bars */
 	.bar__7aaec, .voiceBar__7aaec {
 		border: unset;
-		margin-top: 35px;
 		margin-bottom: 4px;
 		background-color: var(--background-accent);
 		opacity: 0.9;
 	}
 	.top__7aaec {
 		top: 0;
+	}
+	.bottom__7aaec {
+		bottom: 0;
 	}
 
 	/* invites */
