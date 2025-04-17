@@ -3,9 +3,9 @@
   * @version 1.0
   * @author @solae
   * @source https://github.com/solaetv/soldcord
-  * @description Restores discord's 2020 UI
+  * @description Restores discord's 2020 UI (with solae tweaks)
 */
-@import url("https://milbits.github.io/oldcord/src/main.css");
+@import url("https://solaetv.github.io/oldcord/src/main.css");
 
 
 /*
@@ -13,9 +13,9 @@ Addons
 remove a "/*" below to enable one
 */
 
-/*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
-/*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
-/*@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
+/*@import url("https://solaetv.github.io/oldcord/src/components/oldEmojis.css");*/
+/*@import url("https://solaetv.github.io/oldcord/src/components/oldContext.css");*/
+/*@import url("https://solaetv.github.io/oldcord/src/components/showEffects.css");*/
 
 /* Options */
 
