@@ -28,6 +28,17 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 
 If you use custom/quickcss, paste the CSS at the very top!
 
+## By SoldCord
+
+These are usually included in oldcord.theme.css, so all you need to do is remove `/*` in the file for each addon you want to use
+
+| Name                   | Preview                                                                                | CSS                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Bad Buttons        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/emojis.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/badButtons.css");`   |
+
+If you use custom/quickcss, paste the CSS at the very top!
+
+
 ## 3rd party
 
 | Name                                                                                                                                  | Description                                                 |
