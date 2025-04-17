@@ -1266,6 +1266,11 @@
 	.wrapper_cb9592 {
 		z-index: 102;
 	}
+
+	/* hide idle call background */
+	.gradientBackground__11664, .gradientBackground__41626 {
+		display: none;
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
