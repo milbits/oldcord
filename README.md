@@ -34,7 +34,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 
 | Name                   | Preview                                                                                | CSS                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| Bad Buttons        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/emojis.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/badButtons.css");`   |
+| Bad Buttons        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/bad-buttons.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/badButtons.css");`   |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
