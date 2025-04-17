@@ -1075,7 +1075,7 @@
 	}
 
 	/* unreads bar */
-	.bar__7aaec {
+	.bar__7aaec, .voiceBar__7aaec {
 		border: unset;
 		margin-top: 35px;
 		margin-bottom: 4px;
@@ -1248,7 +1248,7 @@
 		transform: scale(1.4) translateX(-9px);
 	}
 
-	//* voice panel */
+	/* voice panel */
 	.container_e131a9 {
 		.labelWrapper__06d62 .text-md\/medium_cf4812 {
 			font-size: 14px !important;
