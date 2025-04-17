@@ -230,6 +230,7 @@ body {
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 	--text-warning: #faa61a;
+	--notice-background-warning: #f26522
 }
 
 .cardPrimary__73069 {
