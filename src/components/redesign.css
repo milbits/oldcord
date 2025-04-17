@@ -338,6 +338,17 @@
 		cursor: default;
 		color: var(--interactive-active);
 	}
+	.topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
+		background-color: var(--background-modifier-selected);
+	}
+	.side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:hover:not(.disabled_b3f026), .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
+		background-color: var(--background-modifier-selected);
+		color: var(--text-primary);
+	}
+	.side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026), .topPill_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
+		background-color: var(--background-modifier-hover);
+	}
+	
 	/* header text in DMs */
 	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium_cf4812 {
 		text-transform: unset !important;
