@@ -4,7 +4,7 @@ A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back with
 
 ###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see Addons)
 
-### please dont make issues about half of discord being gray, its caused by betterfolders and it has been reported a gazillion times im going INSANE
+## please dont make issues about half of discord being gray, its caused by betterfolders and it has been reported a gazillion times im going INSANE
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
