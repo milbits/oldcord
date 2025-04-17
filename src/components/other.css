@@ -2,43 +2,43 @@
 @font-face {
     font-family: "Whitney";
     font-weight: 300;
-    src: url(https://milbits.github.io/oldcord/src/assets/thin.woff2) format("woff2");
+    src: url(https://solaetv.github.io/soldcord/src/assets/thin.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/normal.woff2);
+    src: url(https://solaetv.github.io/soldcord/src/assets/normal.woff2);
 }
 
 @font-face {
     font-family: "Whitney";
     font-style: italic;
-    src: url(https://milbits.github.io/oldcord/src/assets/cursive.woff2);
+    src: url(https://solaetv.github.io/soldcord/src/assets/cursive.woff2);
 }
 
 @font-face {
     font-weight: 500;
     font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/kindaBold.woff2);
+    src: url(https://solaetv.github.io/soldcord/src/assets/kindaBold.woff2);
 }
 
 @font-face {
     font-family: "Whitney";
     font-weight: 600;
-    src: url(https://milbits.github.io/oldcord/src/assets/bold.woff2) format("woff2");
+    src: url(https://solaetv.github.io/soldcord/src/assets/bold.woff2) format("woff2");
 }
 
 @font-face {
     font-weight: 700;
     font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/veryBold.woff2);
+    src: url(https://solaetv.github.io/soldcord/src/assets/veryBold.woff2);
 }
 
 @font-face {
     font-weight: 700;
     font-style: italic;
     font-family: "Whitney";
-    src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
+    src: url(https://solaetv.github.io/soldcord/src/assets/cursiveBold.woff2);
 }
 
 code {
@@ -1008,37 +1008,37 @@ code {
 .connection_c7f964 .connectionHeader_c7f964 {
     & [alt="Battle.net"] {
         background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/battle.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/battle.webp);
     }
 
     & [alt="GitHub"] {
         background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/github.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/github.svg);
     }
 
     & [alt="Reddit"] {
         background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/reddit.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/reddit.webp);
     }
 
     & [alt="Spotify"] {
         background-color: var(--spotify);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/spotify.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/spotify.svg);
     }
 
     & [alt="Steam"] {
         background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/steam.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/steam.svg);
     }
 
     & [alt="Twitch"] {
         background-color: var(--twitch);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/twitch.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/twitch.webp);
     }
 
     & :is([alt="Twitter"], [alt="X"]) {
         background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/twitter.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/twitter.webp);
         & + div > .connectionAccountLabel_c7f964 {
             font-size: 0;
             line-height: 0;
@@ -1052,42 +1052,42 @@ code {
 
     & [alt="Xbox"] {
         background-color: var(--xbox);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/xbox.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/xbox.svg);
     }
 
     & [alt="YouTube"] {
         background-color: var(--youtube);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/youtube.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/youtube.webp);
     }
 
     & [alt="Skype"] {
         background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/skype.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/skype.webp);
     }
 
     & [alt="League of Legends"] {
         background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/league.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/league.webp);
     }
 
     & [alt="Facebook"] {
         background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/facebook.webp);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/facebook.webp);
     }
 
     & [alt="PlayStation Network"] {
         background-color: var(--playstation);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/playstation.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/playstation.svg);
     }
 
     & [alt="Epic Games"] {
         background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/epic.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/epic.svg);
     }
 
     & [alt="Riot Games"] {
         background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
-        background-image: url(https://milbits.github.io/oldcord/src/assets/riot.svg);
+        background-image: url(https://solaetv.github.io/soldcord/src/assets/riot.svg);
     }
 
     & [alt="Roblox"] {
