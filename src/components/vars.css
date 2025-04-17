@@ -1,6 +1,6 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
+	--channeltextarea-background: hsl(223, calc(var(--saturation-factor, 1) * 9%), 15%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
