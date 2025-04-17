@@ -35,6 +35,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | Name                   | Preview                                                                                | CSS                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Bad Buttons        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/bad-buttons.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/badButtons.css");`   |
+| Remove Reply Highlight        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/replyHighlight.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/removeReplyHighlight.css");`   |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
