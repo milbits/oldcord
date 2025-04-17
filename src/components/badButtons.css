@@ -1,8 +1,8 @@
-/*disappear the nitro gift button*/
-.button__201d5 {
-	display: none;
+/* disappear nitro gift button*/
+.buttons__74017 > button:nth-child(1) {
+    display: none;
 }
 /* disappear activities button*/
-.channelAppLauncher_e6e74f {
-	display: none;
+.buttonContainer_e6e74f.app-launcher-entrypoint {
+    display: none;
 }
