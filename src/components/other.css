@@ -1684,6 +1684,9 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     display: none;
 }
 
+.statusText__19b6d {
+    color: var(--header-secondary);
+}
 
 /* "My Account" settings panel */
 .accountProfileCard__1fed1 {
