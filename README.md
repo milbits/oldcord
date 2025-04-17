@@ -1,12 +1,12 @@
 # OldCord
 
-A theme for Discord that brings back the 2020 UI without removing features
+A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
 
-###### Completely removes profile effects, profile colors, avatar decos, and banners (revertable, see Addons)
+###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see Addons)
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
-<details> <summary><strong>Light mode</strong></summary>
+<details> <summary>Light mode</summary>
 
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
 
@@ -25,6 +25,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
 | Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
+| HeaderPresence | ![Image](https://github.com/user-attachments/assets/1a809f81-0d76-4146-ad25-941b4332bcbd)                                                           | https://betterdiscord.app/plugin/HeaderPresence |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
