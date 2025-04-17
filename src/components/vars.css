@@ -1,6 +1,6 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--channeltextarea-background: hsl(223, calc(var(--saturation-factor, 1) * 9%), 15%);
+	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
@@ -12,9 +12,9 @@
 	--modal-background: var(--background-primary);
 	--primary-600: var(--background-primary);
 	--primary-630: var(--background-secondary);
-	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
-	--background-secondary-alt: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
-	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
+	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 9%), 15%);
+	--background-secondary-alt: hsl(228, calc(var(--saturation-factor, 1) * 8%), 12%);
+	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 10%), 9%);
 	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
 	--background-modifier-hover: #4f545c29;
