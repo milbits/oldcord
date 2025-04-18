@@ -1290,6 +1290,22 @@
 	.gradientBackground__11664, .gradientBackground__41626 {
 		display: none;
 	}
+	
+	/* fix notice positioning */
+	.notice__6e2b9 {
+		margin-top: 22px;
+		margin-bottom: -38px;
+		grid-area: channelsList / channelsList / channelsList / page;
+	}
+	.base_c48ade:has(.notice__6e2b9) .trailing_c38106 {
+		top: 89px;
+		.winButtons_c38106 {
+			bottom: 73px;
+		}
+	}
+	.base_c48ade:has(.notice__6e2b9) :is(.sidebarList_c48ade, .subtitleContainer_f75fb0) {
+		margin-top: 37px;	
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
