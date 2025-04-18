@@ -365,6 +365,9 @@
 	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium_cf4812 {
 		text-transform: unset !important;
 	}
+	.topic__6ec1a {
+		color: var(--header-secondary);
+	}
 	/* call background */
 	.root_bfe55a {
 		background: unset;
