@@ -1337,6 +1337,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	pointer-events: none;
 	color: var(--background-secondary) !important;
 	background: var(--background-secondary) !important;
+	border: unset;
 	&:after {
 		content: "";
 		width: 115%;
