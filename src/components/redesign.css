@@ -199,9 +199,15 @@ html.platform-osx .title_c38106 {
 	.outer_bf1984.interactive_bf1984:hover {
 		background-color:#18191c
 	}
-	.header_f37cb1 {
+	.container_f37cb1:not(.hasBanner_f37cb1) .header_f37cb1 {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
+	}
+	.bannerVisible_f37cb1 .header_f37cb1 {
+		border-bottom-color: transparent;
+	}
+	.headerGlass_f37cb1 {
+		display: none;
 	}
 	.container__9293f {
 		border: unset;
@@ -1344,7 +1350,12 @@ html.platform-osx .title_c38106 {
 		.buttonPresentation__0be77 {
 			border: unset;
 		}
-	}	
+	}
+
+	/* server title header */
+	.container_f37cb1 .header_f37cb1 {
+		
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
