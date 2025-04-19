@@ -43,11 +43,14 @@
 		top: 69px !important;
 	}
 }
-:is(.platform-win) .sidebarListRounded_c48ade {
+html.platform-win .sidebarListRounded_c48ade {
 	border-top-left-radius: 8px !important;
 }
-:is(.platform-win) .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8)  {
+html.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8)  {
 	transform: translateY(3px)
+}
+html.platform-osx .title_c38106 {
+	display: none;
 }
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
