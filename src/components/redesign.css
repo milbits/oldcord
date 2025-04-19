@@ -540,6 +540,12 @@ html.platform-osx .title_c38106 {
 	}
 	.button__201d5:not(.cta_a3a802) {
 		border-radius: 3px;
+		&:not(.lookOutlined__201d5){
+			border: none;
+		}
+		.panels_c48ade &{
+			background: none
+		}
 	}
 	.button__7d7f7 {
 		border-radius: 999% !important;
