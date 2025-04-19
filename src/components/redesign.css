@@ -392,7 +392,10 @@ html.platform-osx .title_c38106 {
 	:is(.sidebar__23e6b) .side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
 		background-color: var(--background-modifier-hover);
 	}
-	:is(.sidebar__23e6b) .selected_b3f026.item_b3f026:hover {
+	:is(.sidebar__23e6b) .side_b3f026 .themed_b3f026.item_b3f026:active:not(.disabled_b3f026) {
+		background-color: var(--background-modifier-active);
+	}
+	:is(.sidebar__23e6b) .selected_b3f026.item_b3f026:hover:not(:active) {
 		color: var(--text-primary);
 	}
 	.topPill_b3f026 .item_b3f026 {
@@ -640,6 +643,16 @@ html.platform-osx .title_c38106 {
 	.base_c48ade .sidebar_c48ade > .sidebarResizeHandle_c48ade,
 	:root .base_c48ade .sidebar_c48ade:after {
 		display: none;
+	}
+	/*Betterfolders (vencord)*/
+	.base_c48ade.vc-betterFolders-sidebar-grid {
+	  grid-template-columns: [start] 80px [guilds-end] min-content [betterFoldersSidebar-end] 240px [channelsEnd] 1fr [end];
+	  grid-template-areas: "titleBar titleBar titleBar titleBar" "guildsList betterFoldersSidebar notice notice" "guildsList betterFoldersSidebar channelsList page";
+	}
+	.base_c48ade.vc-betterFolders-sidebar-grid .sidebar_c48ade {
+	  grid-template-columns: [start] 80px [guilds-end] min-content [betterFoldersSidebar-end] 240px [end];
+	  grid-template-areas: "guilds betterFoldersSidebar sidebar" "guilds betterFoldersSidebar panels";
+	  width: auto !important;
 	}
 	/* user panel */
 	.base_c48ade .sidebar_c48ade > .panels_c48ade {
@@ -1571,3 +1584,5 @@ html .bar_c38106 {
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
 }
+
+
