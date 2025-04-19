@@ -231,7 +231,9 @@ body {
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 	--text-warning: #faa61a;
 	--notice-background-warning: #f26522;
-	--notice-text-warning: #fff;
+	--notice-text-warning: #fff;|
+	--notice-background-critical: #f23f42;
+	--notice-text-critical: #fff
 }
 
 .cardPrimary__73069 {

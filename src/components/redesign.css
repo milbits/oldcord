@@ -1111,6 +1111,10 @@ html.platform-osx .title_c38106 {
 		text-size-adjust: none;
 		color: var(--text-normal);
 	}
+	.audioControls_cf09d8 {
+		border-radius: 3px;
+		background-color: var(--opacity-black-60)
+	}
 	.colorDefault_c1e9c4.focused_c1e9c4 .caret_c1e9c4,
 	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c1e9c4,
 	.colorDefault_c1e9c4.focused_c1e9c4 .radioSelection_c1e9c4,
@@ -1397,6 +1401,11 @@ html.platform-osx .title_c38106 {
 		.buttonPresentation__0be77 {
 			border: unset;
 		}
+	}
+
+	/* call background */
+	.wrapper_cb9592.minimum_cb9592 .callContainer_cb9592 {
+		background: #202225;
 	}
 }
 
