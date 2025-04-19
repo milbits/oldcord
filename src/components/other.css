@@ -632,6 +632,7 @@ code {
 /* stretch play bar */
 .audioControls_cf09d8 {
     width: 108%;
+    border-radius: 3px !important;
 }
 
 /* revert the bloating of attachments in general */
