@@ -43,6 +43,30 @@
 		top: 69px !important;
 	}
 }
+/* macos platform-specific fixes */
+.platform-osx .base_c48ade {
+	grid-template-areas:
+		"titleBar titleBar titleBar"
+		"notice notice notice"
+		"guildsList channelsList page";
+	grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 35px [end] !important;
+	.sidebarListRounded_c48ade {
+		border-top-left-radius: 8px !important;
+	}
+	.bar_c38106 .trailing_c38106 {
+		top: 67px;
+	}
+	.notice__6e2b9, #bd-notices {
+		margin-top: 22px;
+		margin-bottom: -27px;
+	}
+	&:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
+		top: 94px !important;
+	}
+	&:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
+		margin-top: 27px !important;	
+	}
+}
 html.platform-win .sidebarListRounded_c48ade {
 	border-top-left-radius: 8px !important;
 }
@@ -621,7 +645,10 @@ html.platform-osx .title_c38106 {
 	}
 
 	.base_c48ade {
-		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
+		grid-template-areas:
+			"titleBar titleBar titleBar"
+			"notice notice notice"
+			"guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 22px [end];
 	}
 	.base_c48ade .sidebar_c48ade {
@@ -1353,7 +1380,7 @@ html.platform-osx .title_c38106 {
 		}
 	}
 	.base_c48ade:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
-		margin-top: 37px !important;	
+		margin-top: 37px;	
 	}
 	.page_c48ade {
 		height: auto;
