@@ -39,7 +39,7 @@
 	.notice__6e2b9, #bd-notices {
 		margin-top: 0px !important;
 	}
-	.base_c48ade:has(.notice__6e2b9, #bd-notices) .bar_c38106 .trailing_c38106 {
+	.base_c48ade:has(.notice__6e2b9, .bd-notice) .bar_c38106 .trailing_c38106 {
 		top: 69px !important;
 	}
 }
@@ -1317,13 +1317,13 @@
 		margin-bottom: -38px;
 		grid-area: channelsList / channelsList / channelsList / page;
 	}
-	.base_c48ade:has(.notice__6e2b9, #bd-notices) .trailing_c38106 {
+	.base_c48ade:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
 		top: 89px;
 		.winButtons_c38106 {
 			bottom: 73px;
 		}
 	}
-	.base_c48ade:has(.notice__6e2b9, #bd-notices) :is(.sidebarList_c48ade, .page_c48ade) {
+	.base_c48ade:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
 		margin-top: 37px !important;	
 	}
 	.page_c48ade {
