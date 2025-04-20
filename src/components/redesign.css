@@ -1364,7 +1364,7 @@ html.platform-osx .title_c38106 {
 		color: var(--text-positive);
 	}
 
-	.wrapper_cb9592 {
+	.wrapper_cb9592:has(.idle__2f4f7) {
 		z-index: 102;
 	}
 
@@ -1414,6 +1414,14 @@ html.platform-osx .title_c38106 {
 	/* call background */
 	.wrapper_cb9592.minimum_cb9592 .callContainer_cb9592 {
 		background: #202225;
+	}
+
+	/* friends tab wumpus */
+	.addFriendWumpusWrapper__72ba7 {
+		display: none;
+	}
+	.addFriendInputWrapper__72ba7:focus-within {
+		border: 1px solid var(--deprecated-text-input-border);
 	}
 }
 
