@@ -113,11 +113,6 @@
 	}
 }
 
-.colorDanger_c1e9c4.focused-3qFvc8:active {
-	background-color: var(--red-active);
-	color: var(--interactive-active);
-}
-
 .tipTitle_a2f514 {
 	color: var(--brand-experiment) !important;
 }
@@ -397,16 +392,8 @@
 	transition: border 0.2s ease-in-out;
 	cursor: default;
 }
-.select-QHUX8_ {
-	background-color: var(--deprecated-text-input-bg) !important;
-	border: 1px solid var(--deprecated-text-input-border);
-	height: 40px;
-}
 .open__3f413 {
 	border-color: var(--deprecated-text-input-border-hover) !important;
-}
-.textArea-3WXAeD:focus {
-	border-color: var(--brand-experiment) !important;
 }
 /* icon*/
 .select__3f413 [d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"] {
