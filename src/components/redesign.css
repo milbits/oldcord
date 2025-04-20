@@ -568,7 +568,7 @@ html.platform-osx .title_c38106 {
 	}
 	.button__201d5:not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.lookOutlined__201d5){
+		&:not(.lookOutlined__201d5, .card__39ec2 .button_fb7f94){
 			border: none;
 		}
 		.panels_c48ade &{

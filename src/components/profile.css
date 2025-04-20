@@ -1538,6 +1538,13 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	--interactive-normal: rgba(255, 255, 255, 0.8);
 }
 :is(.fullSize_c0bea0) :has(.hp-activityContainer:not(:empty)) .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
+	color: #fff !important;
+	background: var(--blurple) !important;
+	&:hover {
+		background: var(--blurple) !important;
+	}
+}
+:is(.fullSize_c0bea0) :has(.hp-activityContainer:not(:empty)) .headerButtons__24502 .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
 	color: var(--blurple) !important;
 	background: #fff !important;
 	&:hover {
@@ -1545,16 +1552,18 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	}
 }
 :is(.fullSize_c0bea0) :has(.avatar__75742 > .wrapper__44b0c > .svg__44b0c.mask__44b0c > .pointerEvents__44b0c[mask="url(#svg-mask-status-streaming)"]) .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
+	color: #fff !important;
+	background: var(--twitch) !important;
+	&:hover {
+		background: var(--twitch) !important;
+	}
+}
+:is(.fullSize_c0bea0) :has(.avatar__75742 > .wrapper__44b0c > .svg__44b0c.mask__44b0c > .pointerEvents__44b0c[mask="url(#svg-mask-status-streaming)"]) .headerButtons__24502 .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
 	color: var(--twitch) !important;
-	background: #fff;
+	background: #fff !important;
 	&:hover {
 		background: #fff !important;
 	}
-}
-:is(.fullSize_c0bea0) :has(.avatar__75742 > .wrapper__44b0c > .svg__44b0c.mask__44b0c > .pointerEvents__44b0c[mask="url(#svg-mask-status-streaming)"]) .grow__201d5.fullWidth__201d5.sizeSmall__201d5.primary_fb7f94.themeColor_fb7f94.colorPrimary__201d5.lookFilled__201d5.button__201d5.button_fb7f94 {
-	color: #fff !important;
-	background: unset;
-	border: solid 1px;
 }
 .fullSize_c0bea0:has(.hp-activityContainer:not(:empty)) .headerInner__24502 rect:not(path ~ rect) {
 	fill: #fff !important;
