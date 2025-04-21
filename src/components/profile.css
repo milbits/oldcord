@@ -617,7 +617,7 @@ html.theme-dark .badgeContainer__635ed path {
 	border-radius: 0px;
 }
 /*remove and move some of the button*/
-.biteSize_da5890 :is(div:nth-child(2), div:nth-of-type(3)) {
+.biteSize_da5890.wrapper_da5890 > :is(div:nth-of-type(2), div:nth-of-type(3)) {
 	display: none;
 }
 /* i hate this reaction experiment so much */
