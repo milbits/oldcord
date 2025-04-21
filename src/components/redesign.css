@@ -1423,6 +1423,77 @@ html.platform-osx .title_c38106 {
 	.addFriendInputWrapper__72ba7:focus-within {
 		border: 1px solid var(--deprecated-text-input-border);
 	}
+
+	/* inbox */
+	.container__2692d, .container_fc561d, .recentMentionsPopout__95796 {
+	    background-color: var(--background-secondary);
+		.header__45690 {
+			border-bottom: unset;
+		}
+		.header_ab6641 {
+			padding: 0 var(--space-md) 0;
+		}
+		.inboxTitle_ab6641, .inboxIcon_ab6641 {
+			display: none;
+		}
+		.controls_ab6641 {
+			margin-bottom: -65px;
+			.friendRequestsButton__523aa {
+				background-color: var(--background-tertiary);
+				color: var(--interactive-normal);
+			}
+		}
+		.top_b3f026 .item_b3f026.brand_b3f026 {
+			--selected-tab-item-color: unset;
+		}
+		.tabBar_ab6641 {
+			margin-left: 16px;
+			.tab_ab6641 {
+				padding: 8px 8px;
+				margin: 0 8px;
+				height: 10px;
+				margin-top: 4px;
+				margin-bottom: 20px;
+				border-radius: 4px;
+				background-color: var(--background-primary);
+			}
+			.tab_ab6641:is(.selected_b3f026) {
+				background-color: var(--background-accent);
+			}
+			.tab_ab6641:nth-of-type(3) {
+				order: -2;
+			}
+			.tab_ab6641:nth-of-type(2) {
+				order: -1;
+			}
+		}
+		.channelHeader__35a7e {
+		    background-color: var(--background-secondary);
+		}
+		.primary__06eda {
+			background-color: var(--background-primary);
+			color: var(--interactive-normal);
+		} 
+		.secondary__06eda {
+			background-color: var(--background-secondary);
+			color: var(--interactive-normal);
+		}
+		.tertiary__06eda {
+			background-color: var(--background-tertiary);
+			color: var(--interactive-normal);
+		}
+		.messages__1ccd1 {
+			background-color: var(--background-primary);
+			border: unset;
+		}
+		.messageContainer__95796 {
+			background-color: var(--background-primary);
+			border: unset;	
+		}
+		.container__0f711 {
+			background-color: var(--background-secondary);
+		}
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
