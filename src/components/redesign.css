@@ -1697,14 +1697,12 @@ html .bar_c38106 {
 			background: var(--red);
 		}
 	}
-	.unreadMentionsIndicatorBottom_ef3116 {
-		margin-left: 4px;
-	}
 	.mention__3b95d {
 		box-sizing: border-box;
 		opacity: 0.9;
 		border: unset;
 		box-shadow: unset;
+		right: 1px;
 	}
 }
 .sidebar_c48ade:after {
