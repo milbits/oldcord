@@ -34,7 +34,7 @@
 		top: 33px !important;
 	}
 	.scroller_ef3116 {
-		padding-top: 2px !important;
+		padding-top: 12px !important;
 	}
 	.notice__6e2b9, #bd-notices {
 		margin-top: 0px !important;
@@ -1622,6 +1622,9 @@ html .bar_c38106 {
 		bottom: 39px;
 		left: -84px;
 	}
+	.platform-linux &{
+		display: none
+	}
 }
 .channelTabs-tabContainer div {
 	margin-bottom: 0 !important;
@@ -1632,9 +1635,6 @@ html .bar_c38106 {
 	background: var(--background-tertiary);
 	.scroller_ef3116 {
 		padding-top: 2px;
-		> div[style]:not([class]) {
-			min-height: 50px;
-		}
 		ul.stack_dbd263 {
 			height: auto !important;
 		}
