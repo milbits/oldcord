@@ -234,6 +234,7 @@ body {
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;
 	--notice-text-critical: #fff;
+	--background-surface-high: var(--background-secondary);
 }
 
 .cardPrimary__73069 {
