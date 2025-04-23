@@ -4,11 +4,11 @@ A theme for Discord that brings back the 2020 UI without removing features
 
 ###### Completely removes profile effects, profile colors, avatar decos, and banners (revertable, see Addons)
 
-![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
+![Preview](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/preview.webp)
 
 <details> <summary><strong>Light mode</strong></summary>
 
-<img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
+<img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/previewLight.webp>
 
 Light theme is an afterthought, but its generally very usable
 
@@ -22,11 +22,23 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 
 | Name                   | Preview                                                                                | CSS                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
-| Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
+| Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/emojis.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/oldEmojis.css");`   |
+| Context Menu hover bg. | <img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/oldcontext.webp> | `@import url("https://solaetv.github.io/soldcord/src/components/oldContext.css");`  |
+| Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/showeffects.webp)                                                           | `@import url("https://solaetv.github.io/soldcord/src/components/showEffects.css");` |
 
 If you use custom/quickcss, paste the CSS at the very top!
+
+## By SoldCord
+
+These are usually included in oldcord.theme.css, so all you need to do is remove `/*` in the file for each addon you want to use
+
+| Name                   | Preview                                                                                | CSS                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Bad Buttons        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/bad-buttons.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/badButtons.css");`   |
+| Remove Reply Highlight        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/replyHighlight.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/removeReplyHighlight.css");`   |
+
+If you use custom/quickcss, paste the CSS at the very top!
+
 
 ## 3rd party
 
@@ -49,7 +61,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 ## [BetterDiscord](https://betterdiscord.app/)
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/solaetv/soldcord/main/soldcord.theme.css) (right-click > "Save As")
 2. Save the file to the BetterDiscord theme folder:
 
 - Windows: `%appdata%/BetterDiscord/themes`
@@ -59,7 +71,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 #### Local method
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/solaetv/soldcord/main/soldcord.theme.css) (right-click > "Save As")
 2. Move the file to the Vencord theme folder:
 
 - `Settings > Themes > Open theme folder`
@@ -68,14 +80,14 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 Paste the following in `Settings > Themes`:
 
-- `https://milbits.github.io/oldcord/src/main.css`
+- `https://solaetv.github.io/soldcord/src/main.css`
 
 ## Other
 
 1. Paste the following at **the top** of the CSS file/window:
 
 ```css
-@import url("https://milbits.github.io/oldcord/src/main.css");
+@import url("https://solaetv.github.io/soldcord/src/main.css");
 ```
 ----
 
