@@ -1555,7 +1555,19 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 /* linked roles */
 .verifiedRole_e59759 {
     padding: 8px;
-    border-radius: 3px;
+    border-radius: 999px;
+    background: none;
+    border: 2.5px solid var(--background-secondary-alt);
+    .container__183c2 {
+        order: -1;
+    }
+    div:has(.linkIcon_ebf183) {
+        display: none;
+    }
+    .roleCheckmark_e59759 {
+        right: 10px;
+        top: 10px;
+    }
 }
 
 .connectionsChecksGroup_a470b4 {

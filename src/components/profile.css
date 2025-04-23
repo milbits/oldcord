@@ -610,8 +610,8 @@ html.theme-dark .badgeContainer__635ed path {
 	min-height: 105px !important;
 }
 
-.focusLock__49fc1 .root__49fc1 {
-	border-radius: 8px !important; 
+.focusLock__49fc1 .root__49fc1:not(.modal_e59759) {
+	border-radius: 8px !important;
 }
 .inner_c0bea0.fullSize_c0bea0 {
 	border-radius: 0px;
@@ -996,6 +996,9 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleRemoveButton_dfa8b6 {
 	position: static;
 	cursor: unset;
+	&:has(.linkIcon_ebf183) .roleRemoveIcon_dfa8b6 {
+		left: 5px;	
+	}
 }
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;

@@ -1507,6 +1507,37 @@ html.platform-osx .title_c38106 {
 			background-color: var(--background-secondary);
 		}
 	}
+	
+	/* stupid header bars */
+	.container_d08938, .outerContainer_e1147e, .chat_f75fb0 {
+		z-index: 102;
+	}
+
+
+	.changelog_eae0ef, .safetyChecklist_eae0ef {
+		background-color: var(--background-secondary)
+	}
+	.auditLog__43dab {
+		background-color: rgba(32,34,37,.3);
+		padding: unset;
+		border-radius: 3px;
+		    border-color: #202225;
+		.headerClickable__43dab {
+			padding: 10px 20px 10px 10px;
+		}
+		.headerExpanded__43dab {
+			background-color: rgba(32,34,37,.3);
+		}
+		.divider__43dab {
+			background-color: var(--background-nested-floating);
+		}
+	}
+	.footerPlaceholder__98b95 {
+		.card_dc2e44 {
+			border-color: var(--background-secondary-alt);
+			border-radius: 5px;
+		}
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
