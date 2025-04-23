@@ -413,7 +413,7 @@ html:is([lang="en-GB"],[lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /* do the same in user lists */
-:is(.subText__20a53, .subText__91a9d, .subtext__0a06e, .subtext__67a11, .default__0263c) > :is(.textXs__8ac07, .textSm__8ac07).container__8ac07 > .icon__8ac07 path {
+:is(.subText__20a53, .subText__91a9d, .subtext__0a06e, .subtext__67a11, .default__0263c) > :is(.textXs_c9d15c, .textSm_c9d15c).container_c9d15c > .icon_c9d15c path {
 	fill: var(--channels-default);
 }
 
