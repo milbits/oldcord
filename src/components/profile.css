@@ -850,6 +850,9 @@ html.theme-dark .badgeContainer__635ed path {
 .footer__5be3e {
 	margin-top: 75px;
 }
+.footer__5be3e:is(:empty) {
+		display: none;
+	}
 
 /*remove badges*/
 .inner_c0bea0.biteSize_c0bea0 .container__8061a {
