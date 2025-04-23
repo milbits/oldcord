@@ -1740,6 +1740,12 @@ html .bar_c38106 {
 	display: none;
 }
 
+/* fix unread dm gap */
+.stack_dbd263[id="guild-list-unread-dms"] {
+	gap: 16px !important;
+	padding-bottom: 10px !important;
+}
+
 /* hides left sidebar when fullscreen mode */
 .base_c48ade[data-fullscreen="true"] {
 	.sidebar_c48ade {
