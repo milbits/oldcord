@@ -778,6 +778,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 .outer_ab8609 .defaultColor__4bd52 {
 	color: var(--play-secondary, var(--interactive-normal));
+	font-weight: 500;
 }
 
 .outer_ab8609,
