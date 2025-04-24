@@ -790,6 +790,11 @@ html.platform-osx .title_c38106 {
 		}
 	}
 
+	/* style member list correctly */
+	.clickable__91a9d.container__91a9d:hover .text_c9d15c, .clickable__91a9d.container__91a9d:hover .muted__91a9d .text_c9d15c, .clickable__91a9d.container__91a9d:active .text_c9d15c, .clickable__91a9d.container__91a9d:active .text_c9d15c, .highlighted__91a9d.container__91a9d .text_c9d15c, .selected__91a9d.container__91a9d .text_c9d15c {
+		color: var(--channels-default)
+	}
+
 	.base_c48ade
 		.text-sm\/medium__13cf1:not(
 			.title_b6c092,
