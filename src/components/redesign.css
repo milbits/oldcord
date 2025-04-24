@@ -788,11 +788,6 @@ html.platform-osx .title_c38106 {
 			background: var(--bg-overlay-selected, var(--background-modifier-selected));
 		}
 	}
-	
-	/* style member list correctly */
-	.clickable__91a9d.container__91a9d:hover, .clickable__91a9d.container__91a9d:hover .muted__91a9d, .clickable__91a9d.container__91a9d:active, .clickable__91a9d.container__91a9d:active, .highlighted__91a9d.container__91a9d, .selected__91a9d.container__91a9d {
-		color: var(--channels-default)
-	}
 
 	.base_c48ade
 		.text-sm\/medium__13cf1:not(
