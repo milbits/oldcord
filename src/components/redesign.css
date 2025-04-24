@@ -571,7 +571,8 @@ html.platform-osx .title_c38106 {
 	.option__56fec,
 	.wrapper_d5f3cd,
 	.section__00943,
-	.container__0be77 {
+	.container__0be77,
+	.content__07f91 {
 		border-radius: 4px;
 	}
 	.button__201d5:not(.cta_a3a802) {
@@ -1375,7 +1376,7 @@ html.platform-osx .title_c38106 {
 		color: var(--text-positive);
 	}
 
-	.wrapper_cb9592:has(.idle__2f4f7) {
+	.wrapper_cb9592:has(.idle__2f4f7), .wrapper_cb9592:is(.video_cb9592) {
 		z-index: 102;
 	}
 
