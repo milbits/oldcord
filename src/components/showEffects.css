@@ -20,7 +20,7 @@
 :has(.custom-theme-background) .mask__68edb mask circle{
     transform: translateX(73px) translateY(5px);
 }
-.fullSize_da5890 + header .mask__68edb mask circle{
+.user-profile-popout + header .mask__68edb mask circle{
     display: none !important
 }
 /*fix some overlaying stuff*/
@@ -38,22 +38,18 @@
     top: 0 !important
 }
 /*move usernames etc. a bit down*/
-.outer_c0bea0:is(.biteSize_c0bea0.outer_c0bea0) .container__63ed3{
+.outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
     padding-top: 50px;
 }
-.container_ab8609.biteSize_ab8609{
+.user-profile-popout .container_ab8609 {
     top: 140px
 }
-.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609.biteSize_ab8609{
+.user-profile-popout.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609 {
     top: 157px !important;
-}
-.accountProfilePopoutWrapper__37e49 .container_ab8609.biteSize_ab8609 {
-    top: -103px !important;
-    left: -105px
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-profile-theme .biteSize_c0bea0.inner_c0bea0{
+.custom-profile-theme .user-profile-popout .inner_c0bea0{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container__63ed3,.mutuals__530ce  {
@@ -68,16 +64,16 @@
 
 
 /* banners behind headers */
-.fullSize_c0bea0.inner_c0bea0 .mask__68edb {
+.user-profile-modal .inner_c0bea0 .mask__68edb {
     position: absolute;
     z-index: 0;
     opacity: 25%;
 }
-.fullSize_c0bea0.inner_c0bea0 .headerInner__24502 {
+.user-profile-modal .inner_c0bea0 .headerInner__24502 {
     background: transparent !important;
 }
 
-.fullSize_c0bea0.inner_c0bea0:has(.mask__68edb) .body__24502 {
+.user-profile-modal.inner_c0bea0:has(.mask__68edb) .body__24502 {
     & .fullSizeOverlayBackground_c69a7b {
         z-index: 2;
     }
@@ -87,8 +83,8 @@
 }
 
 /* tinted text & profile */
-.inner_c0bea0:is(.biteSize_c0bea0,fullSize_c0bea0)
-.outer_c0bea0.fullSize_c0bea0,
+.inner_c0bea0:is(.user-profile-popout, .user-profile-modal)
+.outer_c0bea0.user-profile-modal,
 .custom-profile-theme {
     --theme-base-color-amount: 50% !important; 
     --theme-text-color-amount: 25% !important;
