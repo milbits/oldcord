@@ -518,6 +518,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 	text-transform: uppercase;
 	font-size: 12px;
 	margin: 0;
+	margin-bottom: var(--space-16);
 	font-weight: 600;
 }
 .wrapper__00943 {

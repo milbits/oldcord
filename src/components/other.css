@@ -1666,6 +1666,25 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
 .clanTagChiplet_c19a55, .chipletContainerInline__4a25c, .chipletContainerInline__10651, .chipletContainerInner__10651, .clanTag__5d473 {
   display: none !important;
 }
+
+/* status formatting */
+:is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
+    .container_c9d15c {
+        display: flex;
+        .icon_c9d15c {
+            order: 1;
+        }
+        .emoji_c9d15c {
+            order: -1;
+        }
+        .dot_c9d15c {
+            display: none;
+        }
+    }
+    .container_c9d15c:has(.statusText__19b6d:nth-of-type(2)) .statusText__19b6d:nth-of-type(1) {
+        display: none;
+    }
+}
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {

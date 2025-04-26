@@ -182,6 +182,10 @@ html.platform-osx .title_c38106 {
 			r: 6;
 		}
 	}
+	.icon__9293f {
+	    height: 24px;
+	    width: 24px;
+	}
 	.caret_c1e9c4 {
 		width: 16px;
 		height: 16px;
@@ -458,6 +462,7 @@ html.platform-osx .title_c38106 {
 			font-weight: 500;
 			line-height: 24px;
 			white-space: nowrap;
+			margin-left: -10px;
 		}
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
@@ -793,6 +798,14 @@ html.platform-osx .title_c38106 {
 	/* style member list correctly */
 	.clickable__91a9d.container__91a9d:hover .text_c9d15c, .clickable__91a9d.container__91a9d:hover .muted__91a9d .text_c9d15c, .clickable__91a9d.container__91a9d:active .text_c9d15c, .clickable__91a9d.container__91a9d:active .text_c9d15c, .highlighted__91a9d.container__91a9d .text_c9d15c, .selected__91a9d.container__91a9d .text_c9d15c {
 		color: var(--channels-default)
+	}
+
+	/* style friends list correctly */
+	.peopleListItem_cc6179 {
+		transition: unset !important;
+	}
+	.peopleListItem_cc6179.active_cc6179 {
+		background-color: var(--background-modifier-hover)
 	}
 
 	.base_c48ade
@@ -1630,7 +1643,15 @@ html .bar_c38106 {
 	z-index: 102;
 }
 .inviteToolbar__133bf > .clickable__9293f.iconWrapper__9293f {
-	right: 70px;
+	right: 90px;
+	flex-wrap: wrap;
+}
+.inviteToolbar__133bf .iconWrapper__9293f:after {
+	border-left: 1px solid var(--border-subtle);
+    content: "";
+	margin-left: 55px;
+	margin-top: -29px;
+    height: calc(var(--custom-app-top-bar-height) - var(--space-12));
 }
 .winButtons_c38106 {
 	position: absolute;
