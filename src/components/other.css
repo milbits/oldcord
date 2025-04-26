@@ -1661,6 +1661,11 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
         margin-top: -50px;
     }
 }
+
+/* clan tags */
+.clanTagChiplet_c19a55, .chipletContainerInline__4a25c, .chipletContainerInline__10651, .chipletContainerInner__10651, .clanTag__5d473 {
+  display: none !important;
+}
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
