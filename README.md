@@ -44,7 +44,10 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 </details>
 
-#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors!
+> [!IMPORTANT]  
+> - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
+> - UI Density NEEDS to be on default, i wont support the other 2 options
+> - If you dont like the super old look, i dont care
 
 # Installation
 
