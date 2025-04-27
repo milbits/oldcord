@@ -27,13 +27,11 @@
 	--channeltextarea-background: hsl(0 0% 11% / 1);
 	--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 60%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 }
-.theme-dark .interactive__972a0 {
-    color: var(--channels-default);
+html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
+	color: var(--channels-default);
 }
-:is(.theme-midnight, .theme-darker) :is(.content_f75fb0,
-.subtitleContainer_f75fb0,
-.sidebarList_c48ade,
-.container_c8ffbb) {
+html:is(.theme-darker, .theme-midnight, .custom-theme-background)
+	:is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
 	border: none !important;
 }
 

@@ -637,10 +637,12 @@ html.theme-dark .badgeContainer__635ed path {
 .avatar__75742 {
 	left: 34% !important;
 	position: relative !important;
-	top: 7.5px !important;
+	top: 14px !important;
 	width: 0;
+	&.withReactReply__75742 {
+		top: 7.5px !important;
+	}
 }
-
 
 /* restores "View Profile" text when hovering over a pfp on profile popouts */
 .overlay__75742::before {
