@@ -8,7 +8,7 @@ A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back with
 
 > [!IMPORTANT]  
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
-> - UI Density NEEDS to be on default, i wont support the other 2 options
+> - UI Density should to be on default, i wont support the other 2 options (but they still kinda work)
 > - If you dont like the super old look, i dont care
 
 <details> <summary>Light mode</summary>
