@@ -585,7 +585,6 @@ html.theme-dark .badgeContainer__635ed path {
 	--profile-role-pill-border-color: var(--interactive-normal);
 	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
-	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
 }
 .profileEffects__01370,
 .avatarDecoration__44b0c,
