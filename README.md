@@ -2,9 +2,14 @@
 
 A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
 
-###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see Addons)
+###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see [Addons](https://github.com/milbits/oldcord#by-oldcord))
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
+
+> [!IMPORTANT]  
+> - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
+> - UI Density NEEDS to be on default, i wont support the other 2 options
+> - If you dont like the super old look, i dont care
 
 <details> <summary>Light mode</summary>
 
@@ -13,6 +18,8 @@ A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back with
 Light theme is an afterthought, but its generally very usable
 
 </details>
+
+
 
 <details><summary><strong>Addons</strong></summary>
 
@@ -43,11 +50,6 @@ If you use custom/quickcss, paste the CSS at the very top!
 ---
 
 </details>
-
-> [!IMPORTANT]  
-> - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
-> - UI Density NEEDS to be on default, i wont support the other 2 options
-> - If you dont like the super old look, i dont care
 
 # Installation
 
