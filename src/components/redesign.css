@@ -30,10 +30,10 @@
 .theme-dark .interactive__972a0 {
     color: var(--channels-default);
 }
-.content_f75fb0,
+:is(.theme-midnight, .theme-darker) :is(.content_f75fb0,
 .subtitleContainer_f75fb0,
 .sidebarList_c48ade,
-.container_c8ffbb {
+.container_c8ffbb) {
 	border: none !important;
 }
 
