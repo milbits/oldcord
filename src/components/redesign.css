@@ -152,6 +152,9 @@ html.platform-osx .title_c38106 {
 		box-sizing: border-box;
 		margin: 2px 0;
 	}
+	.brand_b3f026.item_b3f026, .themed_b3f026.item_b3f026 {
+		color: var(--interactive-normal)
+	}
 	.colorDefault_c1e9c4 .label_c1e9c4 {
 		color: unset;
 	}
