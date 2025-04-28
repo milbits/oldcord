@@ -152,7 +152,7 @@ html.platform-osx .title_c38106 {
 		box-sizing: border-box;
 		margin: 2px 0;
 	}
-	.brand_b3f026.item_b3f026, .themed_b3f026.item_b3f026 {
+	.sidebar__23e6b :is(.brand_b3f026.item_b3f026, .themed_b3f026.item_b3f026) {
 		color: var(--interactive-normal)
 	}
 	.colorDefault_c1e9c4 .label_c1e9c4 {
@@ -379,6 +379,22 @@ html.platform-osx .title_c38106 {
 	}
 	.rootWithShadow__49fc1 {
 		box-shadow: var(--legacy-elevation-border), var(--legacy-elevation-high);
+	}
+	.channelName__754bd div, .channelName__754bd input {
+		font-weight: 600;
+	}
+	.input__4f074 {
+		border-radius: 3px;
+	}
+	.outer__4f074:hover .input__4f074 {
+	    background-color: unset;
+	    outline: unset;
+		box-shadow: inset 0 0 0 1px var(--background-tertiary);
+	}
+	.input__4f074:focus, .outer__4f074:hover .input__4f074:focus {
+	    background-color: var(--input-background);
+	    box-shadow: inset 0 0 0 1px var(--background-tertiary);
+	    outline: none;
 	}
 
 	/* tab bars */
