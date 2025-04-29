@@ -1743,9 +1743,16 @@ html .bar_c38106 {
 	background: var(--background-tertiary);
 	.scroller_ef3116 {
 		padding-top: 2px;
+		gap: unset !important;
 		ul.stack_dbd263 {
 			height: auto !important;
 		}
+	}
+	.listItem__650eb:has(.guildSeparator__252b6) {
+		margin: 6px 0 8px 0;
+	}
+	.listItem__650eb {
+		margin: 0 0 0px;
 	}
 	.guildSeparator__252b6 {
 		height: 2px;
@@ -1790,6 +1797,7 @@ html .bar_c38106 {
 		gap: 8px !important;
 	}
 	.listItem__650eb:has(.circleIcon__5bc7e) {
+		margin: 6px 0 0;
 		.circleIconButton__5bc7e {
 			border-radius: 50%;
 			width: 48px;
