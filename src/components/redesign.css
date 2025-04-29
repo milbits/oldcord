@@ -1743,7 +1743,7 @@ html .bar_c38106 {
 	background: var(--background-tertiary);
 	.scroller_ef3116 {
 		padding-top: 2px;
-		gap: unset !important;
+		gap: 4px !important;
 		ul.stack_dbd263 {
 			height: auto !important;
 		}
