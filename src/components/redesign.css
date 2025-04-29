@@ -124,7 +124,7 @@ html.platform-osx .title_c38106 {
 		flex-direction: column;
 		border: none;
 		border-radius: 0;
-		background: var(--background-secondary-alt);
+		background: var(--bg-overlay-2, var(--background-secondary-alt));
 	}
 	.menu_c1e9c4,
 	.option__3f413,
@@ -758,12 +758,6 @@ html.platform-osx .title_c38106 {
 				height: 40px;
 			}
 		}
-		.panel__5dec7 {
-			background-color: var(--background-secondary-alt);
-			border-top-left-radius: unset;
-			border-top-right-radius: unset;
-			border-bottom: unset;
-		}
 	}
 	.toolbar__9293f > .iconWrapper__9293f {
 		height: 24px !important;
@@ -976,7 +970,7 @@ html.platform-osx .title_c38106 {
 		height: 30px;
 	}
 	.themedBackground__74017 {
-		background: var(--bg-overlay-3, var(--channeltextarea-background));
+		background: var(--bg-overlay-floating, var(--channeltextarea-background));
 	}
 	.formWithLoadedChatInput_f75fb0 {
 		padding-left: 16px !important;
