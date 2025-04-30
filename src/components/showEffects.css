@@ -96,3 +96,7 @@
     position: absolute !important;
     top: 60px !important;
 }
+
+.accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
+    display: none !important;
+}
