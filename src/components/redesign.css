@@ -1601,6 +1601,27 @@ html.platform-osx .title_c38106 {
 			border-radius: 5px;
 		}
 	}
+
+	/* the pin broke */
+	.primaryButton__468a6, .secondaryButton__468a6 {
+		flex: 1 1 45%;
+	}
+	.title__468a6, .body__468a6 {
+		text-align: center;
+	}
+	.modalContent__468a6 {
+		padding-bottom: 20px;
+	}
+	.form__468a6:has(.alignCenter_abf706) .separator__49fc1 {
+		box-shadow: unset;
+		align-self: center;
+	}
+	.form__468a6:has(.alignCenter_abf706) .footer__49fc1 .primaryButton__468a6.sizeMedium__201d5 {
+		height: 50px;
+	}
+	.title__468a6.defaultColor__5345c.heading-lg\/semibold_cf4812.defaultColor__4bd52  {
+		align-self: center;
+	}
 }
 
 :where(.visual-refresh) .item__001a7,

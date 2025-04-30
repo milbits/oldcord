@@ -1260,7 +1260,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	position: absolute;
 	bottom: -85px;
 	left: 450px;
-	&:has(.multipleButtons_ea99c4) {
+	&:has(.container__9e42c > div) {
 		left: 410px;
 	}
 }
@@ -1281,6 +1281,9 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	left: 370px;
 }
 
+.user-profile-modal .inner_c0bea0:has(.wrapper_da5890 > div:nth-of-type(1) > div) .headerInner__24502 .headerButtons__24502 {
+	left: 410px !important;
+}
 .user-profile-modal .inner_c0bea0:has([aria-label="Open in Mod View"]) .headerInner__24502 .headerButtons__24502 {
 	left: 370px !important;
 }
