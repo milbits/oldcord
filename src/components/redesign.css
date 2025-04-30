@@ -117,6 +117,9 @@ html.platform-osx .title_c38106 {
 	.sidebarListRounded_c48ade {
 		border-top-left-radius: unset;
 	}
+	/*weird line on the bottom*/.sidebar_c48ade:after {
+		display: none
+	}
 
 	.panels_c48ade {
 		display: flex;
@@ -1858,3 +1861,4 @@ html .bar_c38106 {
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
 }
+
