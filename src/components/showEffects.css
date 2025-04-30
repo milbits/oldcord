@@ -35,7 +35,7 @@
 /*fix for reaction stuff*/
 .avatar__75742:has(.wrapper_f7ecac){
     position: absolute !important;
-    top: 0 !important
+    top: 55px !important
 }
 /*move usernames etc. a bit down*/
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
