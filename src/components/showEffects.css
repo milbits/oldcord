@@ -20,7 +20,7 @@
 :has(.custom-theme-background) .mask__68edb mask circle{
     transform: translateX(73px) translateY(5px);
 }
-.user-profile-popout + header .mask__68edb mask circle{
+.user-profile-modal .mask__68edb mask circle{
     display: none !important
 }
 /*fix some overlaying stuff*/
@@ -68,6 +68,7 @@
     position: absolute;
     z-index: 0;
     opacity: 25%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 .user-profile-modal .inner_c0bea0 .headerInner__24502 {
     background: transparent !important;
@@ -91,7 +92,7 @@
 }
 
 /* apply ONLY if they have an avatar deco*/
-div:has(.avatarDecoration__44b0c) .avatar__75742 {
+.user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
     position: absolute !important;
-    top: 30px !important;
+    top: 60px !important;
 }
