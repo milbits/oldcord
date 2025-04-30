@@ -1640,3 +1640,15 @@ https://github.com/XYZenix/DTM-16
 		width: 35px; height: 35px;
 	}
 }
+
+:is(#equicordthemes-tab,#vencordthemes-tab) .sectionTitle__7bffb{
+	display: grid
+}
+:is(#equicordthemes-tab,#vencordthemes-tab) .sectionTitle__7bffb:before{
+	content: "Do NOT use OldCord with other themes. Things WILL break.";
+	color: #fff;
+	padding: 10px;
+	background: var(--red-transparent);
+	border: 1px solid var(--red);
+	border-radius: 3px;
+}
