@@ -1775,14 +1775,18 @@ html .bar_c38106 {
 	.guildSeparator__252b6 {
 		height: 2px;
 	}
-.folderIcon__48112{
-	margin-top: 0px;
-	& svg{
-		  width: 24px;
-  height: 24px;
+	.folderIcon__48112 {
+		margin-top: 0px;
+		& svg {
+			width: 24px;
+			height: 24px;
+		}
 	}
-
 }
+	.folderGroup__48112 {
+		--custom-folder-preview-padding: 6px;
+		--custom-folder-color: #7289da;
+	}
 	.folderGroup__48112:not(.isExpanded__48112) .folderIcon__48112 svg{
 		display: none
 	}
@@ -1806,14 +1810,15 @@ html .bar_c38106 {
 			--bg-mod-subtle: rgba(114, 137, 218, 0.4) !important;
 		}
 	.expandedFolderIconWrapper__48112 {
-			margin: 0;
-			width: 48px;
-			height: 48px;
-
-		}
+		margin: 0;
+		width: 48px;
+		height: 48px;
+	}
+	.folderGroup__48112:is(.isExpanded__48112) .folderPreviewWrapper__48112 {
+		display: none;
+	}
 	.folderPreviewGuildIcon__48112 {
-			border-radius: 32px !important;
-		}
+		border-radius: 32px !important;
 	}
 
 	.listItem__650eb:has(.circleIcon__5bc7e) {

@@ -1652,3 +1652,13 @@ https://github.com/XYZenix/DTM-16
 	border: 1px solid var(--red);
 	border-radius: 3px;
 }
+:is(#themes-tab) .bd-addon-controls:after{
+	content: "Do NOT use OldCord with other themes. Things WILL break.";
+	color: #fff;
+	margin-top: 10px;
+	padding: 10px;
+	background: var(--red-transparent);
+	border: 1px solid var(--red);
+	border-radius: 3px;
+	flex: 1 1 100%;
+}
