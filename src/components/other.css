@@ -859,99 +859,99 @@ code {
 	pointer-events: none;
 }
 .connection_c7f964 .connectionHeader_c7f964 {
-    & [alt="Battle.net"] {
-        background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/battle.webp);
-    }
+	& [alt="Battle.net"] {
+		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/battle.webp);
+	}
 
-    & [alt="GitHub"] {
-        background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/github.svg);
-    }
+	& [alt="GitHub"] {
+		background-color: hsl(0, calc(var(--saturation-factor, 1) * 4%), 9%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/github.svg);
+	}
 
-    & [alt="Reddit"] {
-        background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/reddit.webp);
-    }
+	& [alt="Reddit"] {
+		background-color: hsl(16, calc(var(--saturation-factor, 1) * 100%), 50%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/reddit.webp);
+	}
 
-    & [alt="Spotify"] {
-        background-color: var(--spotify);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/spotify.svg);
-    }
+	& [alt="Spotify"] {
+		background-color: var(--spotify);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/spotify.svg);
+	}
 
-    & [alt="Steam"] {
-        background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/steam.svg);
-    }
+	& [alt="Steam"] {
+		background-color: hsl(215, calc(var(--saturation-factor, 1) * 35%), 15%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/steam.svg);
+	}
 
-    & [alt="Twitch"] {
-        background-color: var(--twitch);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/twitch.webp);
-    }
+	& [alt="Twitch"] {
+		background-color: var(--twitch);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/twitch.webp);
+	}
 
-    & :is([alt="Twitter"], [alt="X"]) {
-        background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/twitter.webp);
-        & + div > .connectionAccountLabel_c7f964 {
-            font-size: 0;
-            line-height: 0;
-            &:before {
-                content: "Twitter";
-                font-size: 12px;
-                line-height: 16px;
-            }
-        }
-    }
+	& :is([alt="Twitter"], [alt="X"]) {
+		background-color: hsl(203, calc(var(--saturation-factor, 1) * 89%), 53%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/twitter.webp);
+		& + div > .connectionAccountLabel_c7f964 {
+			font-size: 0;
+			line-height: 0;
+			&:before {
+				content: "Twitter";
+				font-size: 12px;
+				line-height: 16px;
+			}
+		}
+	}
 
-    & [alt="Xbox"] {
-        background-color: var(--xbox);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/xbox.svg);
-    }
+	& [alt="Xbox"] {
+		background-color: var(--xbox);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/xbox.svg);
+	}
 
-    & [alt="YouTube"] {
-        background-color: var(--youtube);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/youtube.webp);
-    }
+	& [alt="YouTube"] {
+		background-color: var(--youtube);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/youtube.webp);
+	}
 
-    & [alt="Skype"] {
-        background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/skype.webp);
-    }
+	& [alt="Skype"] {
+		background-color: hsl(196, calc(var(--saturation-factor, 1) * 100%), 42%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/skype.webp);
+	}
 
-    & [alt="League of Legends"] {
-        background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/league.webp);
-    }
+	& [alt="League of Legends"] {
+		background-color: hsl(42, calc(var(--saturation-factor, 1) * 40%), 49%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/league.webp);
+	}
 
-    & [alt="Facebook"] {
-        background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/facebook.webp);
-    }
+	& [alt="Facebook"] {
+		background-color: hsl(226, calc(var(--saturation-factor, 1) * 37%), 38%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/facebook.webp);
+	}
 
-    & [alt="PlayStation Network"] {
-        background-color: var(--playstation);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/playstation.svg);
-    }
+	& [alt="PlayStation Network"] {
+		background-color: var(--playstation);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/playstation.svg);
+	}
 
-    & [alt="Epic Games"] {
-        background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/epic.svg);
-    }
+	& [alt="Epic Games"] {
+		background-color: hsl(34, calc(var(--saturation-factor, 1) * 6%), 22%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/epic.svg);
+	}
 
-    & [alt="Riot Games"] {
-        background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
-        background-image: url(https://solaetv.github.io/soldcord/src/assets/riot.svg);
-    }
+	& [alt="Riot Games"] {
+		background-color: hsl(356, calc(var(--saturation-factor, 1) * 75%), 39%);
+		background-image: url(https://solaetv.github.io/oldcord/src/assets/riot.svg);
+	}
 
-    & [alt="Roblox"] {
-        background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
-        background-image: url(https://discord.com/assets/a4d8e9b0404a2d00.svg);
-    }
+	& [alt="Roblox"] {
+		background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
+		background-image: url(https://discord.com/assets/a4d8e9b0404a2d00.svg);
+	}
 
-    & [alt="Bluesky"] {
-        background-color: hsl(210.63, calc(var(--saturation-factor, 1) * 99.16%), 53.14%);
-        background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' fill='%23fff'/%3E%3C/svg%3E");
-    }
+	& [alt="Bluesky"] {
+		background-color: hsl(210.63, calc(var(--saturation-factor, 1) * 99.16%), 53.14%);
+		background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' fill='%23fff'/%3E%3C/svg%3E");
+	}
 }
 
 /** revert too powerful dialog */
