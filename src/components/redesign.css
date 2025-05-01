@@ -21,10 +21,10 @@
 }
 .theme-darker {
 	--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 30%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--channeltextarea-background: hsl(218 4% 18% / 1);
+	--chat-background-default: hsl(218 4% 18% / 1) !important;
 }
 .theme-midnight {
-	--channeltextarea-background: hsl(0 0% 11% / 1);
+	--chat-background-default: hsl(0 0% 11% / 1) !important;
 	--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 60%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
@@ -390,14 +390,14 @@ html.platform-osx .title_c38106 {
 		border-radius: 3px;
 	}
 	.outer__4f074:hover .input__4f074 {
-	    background-color: unset;
-	    outline: unset;
+		background-color: unset;
+		outline: unset;
 		box-shadow: inset 0 0 0 1px var(--background-tertiary);
 	}
 	.input__4f074:focus, .outer__4f074:hover .input__4f074:focus {
-	    background-color: var(--input-background);
-	    box-shadow: inset 0 0 0 1px var(--background-tertiary);
-	    outline: none;
+		background-color: var(--input-background);
+		box-shadow: inset 0 0 0 1px var(--background-tertiary);
+		outline: none;
 	}
 
 	/* tab bars */
@@ -971,9 +971,6 @@ html.platform-osx .title_c38106 {
 	/* chat box */
 	.scrollerSpacer__36d07 {
 		height: 30px;
-	}
-	.themedBackground__74017 {
-		background: var(--bg-overlay-floating, var(--channeltextarea-background));
 	}
 	.formWithLoadedChatInput_f75fb0 {
 		padding-left: 16px !important;
@@ -1758,7 +1755,6 @@ html .bar_c38106 {
 /* server list */
 .base_c48ade .sidebar_c48ade > .guilds_c48ade {
 	width: 72px;
-	background: var(--background-tertiary);
 	.scroller_ef3116 {
 		padding-top: 2px;
 		gap: 4px !important;

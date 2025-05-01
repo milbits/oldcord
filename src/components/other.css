@@ -616,19 +616,13 @@ code {
 	font-weight: 500;
 }
 
-/* make background the same as text channels*/
-.container_f369db,
-.title_f75fb0 {
-	background-color: var(--background-primary) !important;
-}
-
 .theme-dark .children__9293f:after {
 	display: none;
 }
 
 /* make "search/create post" background the same as the textarea*/
 .headerRow_f369db .mainCard_f369db {
-	background: var(--bg-overlay-3, var(--channeltextarea-background));
+	background: var(--bg-overlay-3, var(--chat-background-default));
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 5px;
@@ -1645,7 +1639,7 @@ https://github.com/XYZenix/DTM-16
 }
 
 :is(#equicordthemes-tab, #vencordthemes-tab) .sectionTitle__7bffb:before {
-	content: "Do NOT use OldCord with other themes. Things WILL break.";
+	content: "Using OldCord with other themes WILL break stuff. Please don't report issues.";
 	color: #fff;
 	padding: 10px;
 	background: var(--red-transparent);
@@ -1653,7 +1647,7 @@ https://github.com/XYZenix/DTM-16
 	border-radius: 3px;
 }
 :is(#themes-tab) .bd-addon-controls:after {
-	content: "Do NOT use OldCord with other themes. Things WILL break.";
+	content: "Using OldCord with other themes WILL break stuff. Please don't report issues.";
 	color: #fff;
 	margin-top: 10px;
 	padding: 10px;

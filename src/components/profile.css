@@ -642,11 +642,10 @@ html.theme-dark .badgeContainer__635ed path {
 	position: relative !important;
 	top: 14px !important;
 	width: 0;
-	&.withReactReply__75742{
+	&.withReactReply__75742 {
 		top: 7.5px !important;
 	}
 }
-
 
 /* restores "View Profile" text when hovering over a pfp on profile popouts */
 .overlay__75742::before {
@@ -1937,7 +1936,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 
 .popout_af3b89 .channelTextArea__74017 {
-	background: var(--channeltextarea-background);
+	background: var(--chat-background-default);
 	border-radius: 3px;
 	border: solid 1px var(--background-tertiary) !important;
 }
