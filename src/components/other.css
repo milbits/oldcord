@@ -1135,9 +1135,18 @@ h2.title_b717a1,
 }
 
 /* polls */
+.normalStylesDefault_a1443c {
+	--custom-poll-style-vote-background: var(--background-secpndary);
+	--custom-poll-style-vote-percentage: var(--background-modifier-accent);
+	--polls-victor-fill: var(--green-transparent);
+	--polls-voted-fill: var(--brand-experiment-25a);
+}
 .answerInner__4c520 {
 	background-color: var(--button-secondary-background);
 	border-radius: 3px;
+	& .label__4c520 {
+		color: var(--interactive-active);
+	}
 }
 .secondaryButtonPresentation__0be77 {
 	background-color: var(--button-secondary-background);
@@ -1388,14 +1397,7 @@ h2.title_b717a1,
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.defaultColor__5345c.text-md\/medium_cf4812 {
-	font-weight: 600;
-	text-transform: uppercase;
-	.title__6b700 {
-		font-size: 12px;
-		color: var(--channels-default);
-	}
-}
+
 .scrollerBase_d125d2.thin_d125d2.container_e59759.content__49fc1 > .defaultColor__5345c.heading-md\/semibold_cf4812 {
 	font-weight: 500;
 }
@@ -1633,18 +1635,16 @@ https://github.com/XYZenix/DTM-16
 .nitroWheel_c5f0dc {
 	display: none;
 }
-.themeSelection__36dee .iconWrapper__36dee{
+.themeSelection__36dee .iconWrapper__36dee {
 	top: -4.5px;
 	left: 35px;
 	& svg {
-		width: 35px; height: 35px;
+		width: 35px;
+		height: 35px;
 	}
 }
 
-:is(#equicordthemes-tab,#vencordthemes-tab) .sectionTitle__7bffb{
-	display: grid
-}
-:is(#equicordthemes-tab,#vencordthemes-tab) .sectionTitle__7bffb:before{
+:is(#equicordthemes-tab, #vencordthemes-tab) .sectionTitle__7bffb:before {
 	content: "Do NOT use OldCord with other themes. Things WILL break.";
 	color: #fff;
 	padding: 10px;
@@ -1652,7 +1652,7 @@ https://github.com/XYZenix/DTM-16
 	border: 1px solid var(--red);
 	border-radius: 3px;
 }
-:is(#themes-tab) .bd-addon-controls:after{
+:is(#themes-tab) .bd-addon-controls:after {
 	content: "Do NOT use OldCord with other themes. Things WILL break.";
 	color: #fff;
 	margin-top: 10px;
