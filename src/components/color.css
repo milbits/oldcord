@@ -271,14 +271,14 @@
 		[d="M15.3 16.7a1 1 0 0 1 1.4-1.4l4.3 4.29V16a1 1 0 1 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 1 1 0-2h3.59l-4.3-4.3Z"],
 		[d="M14.25 1c.41 0 .75.34.75.75V3h5.25c.41 0 .75.34.75.75v.5c0 .41-.34.75-.75.75H3.75A.75.75 0 0 1 3 4.25v-.5c0-.41.34-.75.75-.75H9V1.75c0-.41.34-.75.75-.75h4.5Z"]
 	) {
-	color: var(--red);
+	color: var(--red) !important;
 }
 .side_b3f026
 	.themed_b3f026.item_b3f026:has(
 		[d="M15.3 16.7a1 1 0 0 1 1.4-1.4l4.3 4.29V16a1 1 0 1 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 1 1 0-2h3.59l-4.3-4.3Z"],
 		[d="M14.25 1c.41 0 .75.34.75.75V3h5.25c.41 0 .75.34.75.75v.5c0 .41-.34.75-.75.75H3.75A.75.75 0 0 1 3 4.25v-.5c0-.41.34-.75.75-.75H9V1.75c0-.41.34-.75.75-.75h4.5Z"]
 	):hover {
-	background-color: var(--red-transparent);
+	background-color: var(--red-transparent) !important;
 }
 .side_b3f026
 	.themed_b3f026.item_b3f026:has(
@@ -286,23 +286,24 @@
 		[d="M14.25 1c.41 0 .75.34.75.75V3h5.25c.41 0 .75.34.75.75v.5c0 .41-.34.75-.75.75H3.75A.75.75 0 0 1 3 4.25v-.5c0-.41.34-.75.75-.75H9V1.75c0-.41.34-.75.75-.75h4.5Z"]
 	):active {
 	background-color: var(--red) !important;
-	color: var(--white-500);
+	color: var(--white-500) !important;
 }
 
 .side_b3f026 .themed_b3f026.item_b3f026:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]) {
-	color: var(--blurple);
+	color: var(--blurple) !important;
 }
 .side_b3f026 .themed_b3f026.item_b3f026:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):hover {
-	background-color: var(--brand-experiment-10a);
+	background-color: var(--brand-experiment-10a) !important;
 }
 .side_b3f026
 	.themed_b3f026.item_b3f026:has([d="M5 0.5L0 5.5V10.5L5 15.5L10 10.5V5.5L5 0.5ZM8.75 9.9875L5 13.7375L1.25 9.9875V6.0125L5 2.2625L8.75 6.0125V9.9875Z"]):active {
-	color: var(--white-500);
+	color: var(--white-500) !important;
 	background-color: var(--blurple) !important;
 }
 
 /*! Reactions*/
 /*selectors for forums and normal messages*/
+
 @keyframes reactionAnim {
 	0% {
 		transform: scale(0);
@@ -360,9 +361,9 @@
 	background-color: var(--brand-experiment-30a) !important;
 }
 
-.reaction__23977 .reactionInner__23977,
+.reactionInner__23977,
 .reaction_f8896c.reactionInner_f8896c {
-	padding: 0 0.375rem;
+	padding: 0 0.375rem !important;
 }
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c,
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
