@@ -1,18 +1,25 @@
 # OldCord
 
-A theme for Discord that brings back the 2020 UI without removing features
+A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
 
-###### Completely removes profile effects, profile colors, avatar decos, and banners (revertable, see Addons)
+###### Completely removes profile effects, profile colors, avatar decos and banners (revertable, see [Addons](https://github.com/milbits/oldcord#by-oldcord))
 
 ![Preview](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/preview.webp)
 
-<details> <summary><strong>Light mode</strong></summary>
+> [!IMPORTANT]  
+> - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
+> - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
+> - To have the old gray colors, use the "Ash" theme in appearance settings
+
+<details> <summary>Light mode</summary>
 
 <img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/previewLight.webp>
 
 Light theme is an afterthought, but its generally very usable
 
 </details>
+
+
 
 <details><summary><strong>Addons</strong></summary>
 
@@ -25,6 +32,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/emojis.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/oldcontext.webp> | `@import url("https://solaetv.github.io/soldcord/src/components/oldContext.css");`  |
 | Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/showeffects.webp)                                                           | `@import url("https://solaetv.github.io/soldcord/src/components/showEffects.css");` |
+| HeaderPresence | ![Image](https://github.com/user-attachments/assets/1a809f81-0d76-4146-ad25-941b4332bcbd)                                                           | https://betterdiscord.app/plugin/HeaderPresence |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
@@ -54,8 +62,6 @@ If you use custom/quickcss, paste the CSS at the very top!
 ---
 
 </details>
-
-#### Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors!
 
 # Installation
 
