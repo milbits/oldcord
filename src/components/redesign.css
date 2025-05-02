@@ -1627,6 +1627,24 @@ html.platform-osx .title_c38106 {
 	.title__468a6.defaultColor__5345c.heading-lg\/semibold_cf4812.defaultColor__4bd52 {
 		align-self: center;
 	}
+
+	/* quick switcher */
+	.quickswitcher_ac6cb0 {
+		background-color: var(--background-secondary);
+		box-shadow: 0 2px 10px var(--opacity-black-20), 0 0 0 1px #1c242b99;
+		border: unset;
+		.input_ac6cb0 {
+			background-color: var(--deprecated-quickswitcher-input-background);
+		    border: none;
+		    border-radius: 5px;
+			box-shadow: var(--elevation-high);
+		}
+		.input_ac6cb0::placeholder {
+			font-weight: 600;
+			color: #dcddde;
+			opacity: 0.5;
+		}
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
