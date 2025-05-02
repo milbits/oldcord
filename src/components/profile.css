@@ -18,6 +18,9 @@
 .fixed_c1e9c4:has(.userMenuUsername_d40c56, .status_af7fb7) {
 	width: max-content;
 }
+.italicPrompt_ab8609 {
+	font-style: unset;
+}
 html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	text-indent: -9999px;
 	line-height: 0;
