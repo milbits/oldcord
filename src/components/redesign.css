@@ -1575,6 +1575,8 @@ html.platform-osx .title_c38106 {
 	/* stupid header bars */
 	.container_d08938,
 	.outerContainer_e1147e,
+	.applicationStore_f07d62,
+	.libraryHeader__5a895,
 	.chat_f75fb0:has(.pageBody__41ed7) {
 		z-index: 102;
 	}
