@@ -1,25 +1,24 @@
 /**
  * @name OldCord
- * @version idk
+ * @version 2.0
  * @author milbit, kinggamingyt
  * @source https://github.com/milbits/oldcord
  * @website https://github.com/milbits/oldcord
- *
  * @description Restores discord's 2020 UI
  */
 
 /*Main theme components*/
-/*Add a [slash]* at the start and *[slash] at the end to disable one, like:*/
+@import url("https://milbits.github.io/oldcord/src/components/main.css");
 
-/*@import url("https://milbits.github.io/oldcord/src/components/thisfiledoesntexistitsjustanexample.css");*/
+/*If you want to enable/disable each part (like disable profile theming), remove the above line
+and a [slash]* below. Always enable vars.css though please please pelasse plealslelle*/
 
-
- @import url("https://milbits.github.io/oldcord/src/components/vars.css"); /*!IMPORTANT!*/
- @import url("https://milbits.github.io/oldcord/src/components/color.css");
- @import url("https://milbits.github.io/oldcord/src/components/imgs.css");
- @import url("https://milbits.github.io/oldcord/src/components/other.css");
- @import url("https://milbits.github.io/oldcord/src/components/profile.css");
- @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
+/* @import url("https://milbits.github.io/oldcord/src/components/vars.css"); */ /* !IMPORTANT! */
+/* @import url("https://milbits.github.io/oldcord/src/components/color.css"); */
+/* @import url("https://milbits.github.io/oldcord/src/components/imgs.css"); */
+/* @import url("https://milbits.github.io/oldcord/src/components/other.css"); */
+/* @import url("https://milbits.github.io/oldcord/src/components/profile.css"); */
+/* @import url("https://milbits.github.io/oldcord/src/components/redesign.css"); */ /*Changes the overall layout*/
 
 
  /*
