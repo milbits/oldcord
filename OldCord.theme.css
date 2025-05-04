@@ -1,25 +1,30 @@
 /**
-  * @name OldCord
-  * @version 1.0
-  * @author @milbit
-  * @source https://github.com/milbits/oldcord
-  * @description Restores discord's 2020 UI
-*/
-@import url("https://milbits.github.io/oldcord/src/main.css");
+ * @name OldCord
+ * @version idk
+ * @author milbit, kinggamingyt
+ * @source https://github.com/milbits/oldcord
+ * @description Restores discord's 2020 UI
+ */
+
+/*Main theme components*/
+/*Add a [slash]* at the start and *[slash] at the end to disable one, like:*/
+
+/*@import url("https://milbits.github.io/oldcord/src/components/thisfiledoesntexistitsjustanexample.css");*/
 
 
-/*
-Addons
-remove a "/*" below to enable one
-*/
+ @import url("https://milbits.github.io/oldcord/src/components/vars.css"); /*!IMPORTANT!*/
+ @import url("https://milbits.github.io/oldcord/src/components/color.css");
+ @import url("https://milbits.github.io/oldcord/src/components/imgs.css");
+ @import url("https://milbits.github.io/oldcord/src/components/other.css");
+ @import url("https://milbits.github.io/oldcord/src/components/profile.css");
+ @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
 
-/*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
-/*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
-/*@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
 
-/* Options */
+ /*
+  * Addons
+  * remove a "/*" below to enable one
+  */
 
-:root {
-	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
-	--reaction-animation: 0;
-}
+  /*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
+  /*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
+  /*@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
