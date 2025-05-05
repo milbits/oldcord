@@ -1,4 +1,4 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars),.sidebarRegion__23e6b) {
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
 	--background-base-lowest: var(--background-secondary);
