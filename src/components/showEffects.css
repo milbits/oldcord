@@ -33,14 +33,14 @@
 }
 
 /*fix for reaction stuff*/
-.avatar__75742:has(.wrapper_f7ecac){
+.avatar__75742{
     position: absolute !important;
-    top: 52px !important;
-    left: 85.5px !important
+    top: 61px !important;
+    left: 85px !important
 }
 /*move usernames etc. a bit down*/
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
-    padding-top: 50px;
+    padding-top: 48px;
 }
 .user-profile-popout .container_ab8609 {
     top: 140px
