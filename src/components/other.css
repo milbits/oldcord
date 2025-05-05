@@ -402,7 +402,7 @@ code {
 	letter-spacing: unset;
 }
 
-.input__0f084:not(.textarea_dde0a8, .searchBoxInput__56498, [name="add-friend"], .note_fcb628 textarea),
+.input__0f084:not(.textarea_dde0a8, .searchBoxInput__56498, [name="add-friend"], .note_fcb628 textarea, .profileNote__9c3be textarea),
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-normal) !important;
