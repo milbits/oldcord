@@ -8,7 +8,7 @@
  */
 
 /*Main theme components*/
-@import url("https://milbits.github.io/oldcord/src/components/main.css");
+@import url("https://milbits.github.io/oldcord/src/main.css");
 
 /*If you want to enable/disable each part (like disable profile theming), remove the above line
 and a [slash]* below. Always enable vars.css though please please pelasse plealslelle*/
