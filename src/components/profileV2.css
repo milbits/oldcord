@@ -693,7 +693,10 @@ html.theme-dark .badgeContainer__635ed path {
     gap: 0 !important;
 }
 
-.outer_c0bea0.user-profile-modal-v2 .container__63ed3:has(.pronouns__63ed3) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
+.outer_c0bea0.user-profile-modal-v2 .container__63ed3:has(.pronouns__63ed3, :not(.container__8061a)) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
+	padding-bottom: 100px;
+}
+.outer_c0bea0.user-profile-modal-v2 .container__63ed3:has(.container__8061a) /*more padding for profiles without badges & for profiles with badges but without pronouns*/ {
 	padding-bottom: 70px;
 }
 .outer_c0bea0.user-profile-modal-v2:has(.statusEmojiOnly_af9888) .container__63ed3 /*more padding for profiles with single emojis for statuses */ {
