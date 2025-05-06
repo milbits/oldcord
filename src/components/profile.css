@@ -678,7 +678,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /*username*/
 
-.container__63ed3 {
+.user-profile-popout .container__63ed3 {
 	background: var(--play, var(--background-tertiary));
 	order: -1;
 	padding-bottom: 23px;
