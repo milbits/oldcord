@@ -833,9 +833,8 @@ html.theme-dark .badgeContainer__635ed path {
 	top: 150px;
 	gap: unset;
 	.tabBarPanel__37bfc {
-	padding: 0 8px;
-	overflow: hidden auto;
-	flex: 1 0 260px;
+		overflow: hidden auto;
+		flex: 1 0 280px;
 	.headings_bf424d {
 		display: none;
 	}
@@ -865,7 +864,7 @@ html.theme-dark .badgeContainer__635ed path {
 	    gap: 0;
 	    margin-left: 0;
 	    padding-bottom: 0;
-		height: 100%;
+	    height: 100%;
 	    margin-right: 4px;
 	    padding: 12px 0;
 	}
@@ -884,6 +883,7 @@ html.theme-dark .badgeContainer__635ed path {
 	order: -1;
 	background-color: var(--background-tertiary);
 	flex: 1 0 150px;
+	padding: 0 8px;
 }
 #activity-tab.tabBarPanel__37bfc:not(:has(section)) {
 	display: none;
