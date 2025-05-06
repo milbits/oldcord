@@ -1165,6 +1165,9 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	background: var(--background-secondary);
 	border-radius: 0px;
 	min-height: 347px;
+	.scroller_fcb628 {
+		padding: 20px;
+	}
 }
 .user-profile-modal .inner_c0bea0 .clickable__4a25c {
 	position: fixed;
