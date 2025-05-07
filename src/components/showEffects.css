@@ -23,6 +23,9 @@
 .user-profile-modal .mask__68edb mask circle{
     display: none !important
 }
+.user-profile-modal-v2 .mask__68edb mask circle{
+    display: none !important
+}
 /*fix some overlaying stuff*/
 .header__5be3e{
     z-index: 2
@@ -81,6 +84,25 @@
     }
     & .container__63ed3 {
         background: transparent !important;
+    }
+}
+/* banners behind headers (profilesv2) */
+.user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
+    position: absolute;
+    z-index: 0;
+    opacity: 25%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
+    background: transparent !important;
+}
+
+.user-profile-modal-v2:has(.mask__68edb) {
+    :is(.profileButtons__9c3be, .tabBar__37bfc) {
+        z-index: 2;
+    }
+    :where(.banner__68edb) {
+        border-radius: 0px;
     }
 }
 
