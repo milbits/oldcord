@@ -703,14 +703,14 @@ html.theme-dark .badgeContainer__635ed path {
 		color: white;
 	}
 }
-.tags__63ed3,
-.info_f4bc97:not(.alignPomelo__0a06e) {
+.user-profile-popout .tags__63ed3,
+.user-profile-popout .info_f4bc97:not(.alignPomelo__0a06e) {
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
 	row-gap: 0 !important;
 }
-.user-profile-modal .inner_c0bea0 :is(.tags__63ed3, .info_f4bc97:not(.alignPomelo__0a06e)) {
+.user-profile-modal .inner_c0bea0 .container__63ed3.username__24502 :is(.tags__63ed3, .info_f4bc97:not(.alignPomelo__0a06e)) {
 	display: unset;
 	text-align: center;
 }
