@@ -1798,6 +1798,7 @@ html .bar_c38106 {
 	}
 	.folderIcon__48112 {
 		margin-top: 0px;
+		margin-left: -1px;
 		& svg {
 			width: 24px;
 			height: 24px;
@@ -1818,10 +1819,6 @@ html .bar_c38106 {
 	border-radius: 16px 16px 25px 25px;
 	background: var(--background-modifier-accent);
 	border: none;
-}
-.folderButtonContent__48112 {
-	margin-left: -5px;
-	margin-top: -4px;
 }
 .folderIconWrapper__48112 {
 	width: 48px;
