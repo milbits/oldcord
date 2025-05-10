@@ -111,6 +111,106 @@ html.platform-osx .title_c38106 {
 	color: #ffdcd7;
 }
 
+.theme-dark :is(
+.hljs-attr, 
+.hljs-attribute, 
+.hljs-literal, 
+.hljs-meta, 
+.hljs-number,  
+.hljs-operator,  
+.hljs-selector-attr,  
+.hljs-selector-class,  
+.hljs-selector-id,  
+.hljs-variable) {
+	color: #79c0ff;
+}
+
+.theme-light :is(
+.hljs-attr, 
+.hljs-attribute, 
+.hljs-literal, 
+.hljs-meta, 
+.hljs-number,  
+.hljs-operator,  
+.hljs-selector-attr,  
+.hljs-selector-class,  
+.hljs-selector-id,  
+.hljs-variable) {
+	color: #005cc5;
+}
+
+.theme-dark :is(
+.hljs-title, 
+.hljs-title.class_, 
+.hljs-title.class_.inherited__, 
+.hljs-title.function_) {
+    color: #d2a8ff;
+}
+
+.theme-light :is(
+.hljs-title, 
+.hljs-title.class_, 
+.hljs-title.class_.inherited__, 
+.hljs-title.function_) {
+    color: #6f42c1;
+}
+
+.theme-dark :is(
+.hljs-code, 
+.hljs-comment, 
+.hljs-formula) {
+	color: #8b949e;
+}
+
+.theme-light :is(
+.hljs-code, 
+.hljs-comment, 
+.hljs-formula) {
+	color: #6a737d;
+}
+
+.theme-dark :is(
+.hljs-built_in, 
+.hljs-symbol) {
+	color: #ffa657;
+}
+
+.theme-light :is(
+.hljs-built_in, 
+.hljs-symbol) {
+	color: #e36209;
+}
+
+.theme-dark :is(
+.hljs-name, 
+.hljs-quote, 
+.hljs-selector-pseudo, 
+.hljs-selector-tag) {
+    color: #7ee787;
+}
+
+.theme-light :is(
+.hljs-name, 
+.hljs-quote, 
+.hljs-selector-pseudo, 
+.hljs-selector-tag) {
+    color: #22863a;
+}
+
+.theme-dark :is(
+.hljs-meta .hljs-string, 
+.hljs-regexp, 
+.hljs-) {
+    color: #a5d6ff;
+}
+
+.theme-light :is(
+.hljs-meta .hljs-string, 
+.hljs-regexp, 
+.hljs-) {
+    color: #032f62;
+}
+
 .visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
