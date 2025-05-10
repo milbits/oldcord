@@ -771,6 +771,10 @@ html.theme-dark .badgeContainer__635ed path {
 	max-height: 700px;
 }
 
+.outer_c0bea0.user-profile-modal .inner_ab8609 {
+	margin: 20px 18px;
+}
+
 .headerInner__24502 .container_ab8609 {
 	top: 116px;
 	left: -13px;
@@ -1385,14 +1389,22 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 		margin-top: 35px;
 	}
 }
-.icon_fb7f94 svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
-	stroke: var(--interactive-normal);
-	stroke-width: 2px;
-	transform: scale(0.98);
-	> path {
-		d: path(
-			"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
-		);
+
+.icon_fb7f94 {
+	.contents__201d5 {
+		overflow: unset;
+	}
+	 svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
+		stroke: var(--interactive-normal);
+		stroke-width: 2px;
+		transform: scale(0.98);
+		height: 20px;
+		>
+		path {
+			d: path(
+				"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
+			);
+		}
 	}
 }
 :is(.user-profile-modal .wrapper_da5890) .icon_fb7f94 > svg > path {
