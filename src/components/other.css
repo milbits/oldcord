@@ -1639,7 +1639,7 @@ https://github.com/XYZenix/DTM-16
 }
 
 :is(#equicordthemes-tab, #vencordthemes-tab) .sectionTitle__7bffb:before {
-	content: "Using OldCord with other themes WILL break stuff. Please don't report issues.";
+	content: "OldCord note: Using it with other themes may break stuff. Please don't report issues (this is not from vencord)";
 	color: #fff;
 	padding: 10px;
 	background: var(--red-transparent);
@@ -1647,7 +1647,7 @@ https://github.com/XYZenix/DTM-16
 	border-radius: 3px;
 }
 :is(#themes-tab) .bd-addon-controls:after {
-	content: "Using OldCord with other themes WILL break stuff. Please don't report issues.";
+	content: "OldCord note: Using it with other themes may break stuff. Please don't report issues (this is not from betterdiscord)";
 	color: #fff;
 	margin-top: 10px;
 	padding: 10px;
