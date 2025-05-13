@@ -523,7 +523,6 @@ html.theme-dark .badgeContainer__635ed path {
 	padding: 0;
 	gap: 0;
 	overflow: unset !important;
-
 }
 .user-profile-popout .inner_c0bea0 {
 	gap: 0;
@@ -642,7 +641,7 @@ html.theme-dark .badgeContainer__635ed path {
 	left: 34% !important;
 	top: 14px !important;
 	width: 0;
-	
+
 	&.withReactReply__75742 {
 		top: 7.5px !important;
 	}
@@ -1394,13 +1393,12 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	.contents__201d5 {
 		overflow: unset;
 	}
-	 svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
+	svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
 		stroke: var(--interactive-normal);
 		stroke-width: 2px;
 		transform: scale(0.98);
 		height: 20px;
-		>
-		path {
+		> path {
 			d: path(
 				"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
 			);
@@ -1922,8 +1920,12 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 }
 /*thing in the member list*/
 .container__0f2e8 {
-	background: var(--background-modifier-hover);
+	background: var(--background-secondary-alt) !important;
 	border-radius: 3px;
+	border: none !important;
+	&:hover {
+		background: var(--background-tertiary) !important;
+	}
 }
 /*game info*/
 .popoutContentWrapper_af3b89 {
