@@ -86,16 +86,16 @@ html:is(.theme-darker, .theme-midnight, .custom-theme-background)
 		margin-top: 27px !important;
 	}
 }
-.platform-osx .systemBar_c38106 {
+html.platform-osx .systemBar_c38106 {
 	background: none;
 }
-.platform-win .sidebarListRounded_c48ade {
+html.platform-win .sidebarListRounded_c48ade {
 	border-top-left-radius: 8px !important;
 }
-.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8) {
+html.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8) {
 	transform: translateY(3px);
 }
-.platform-osx .title_c38106 {
+html.platform-osx .title_c38106 {
 	display: none;
 }
 #app-mount .h5_b717a1.eyebrow_b717a1 {
