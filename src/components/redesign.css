@@ -165,10 +165,10 @@ html.platform-osx .title_c38106 {
 .theme-light :is(.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag) {
 	color: #22863a;
 }
-.theme-dark :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-) {
+.theme-dark :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
 	color: #a5d6ff;
 }
-.theme-light :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-) {
+.theme-light :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
 	color: #032f62;
 }
 
