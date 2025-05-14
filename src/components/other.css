@@ -1459,6 +1459,16 @@ h2.title_b717a1,
 		margin-left: 100px;
 		margin-top: -50px;
 	}
+	.fieldButton__1fed1:not(.removeButton__1fed1) {
+		background-color: var(--blurple);
+		color: var(--white);
+		&:hover {
+			background-color: var(--blurple-hover);
+		}
+		&:active {
+			background-color: var(--blurple-active);
+		}
+	}
 }
 
 /* clan tags */
