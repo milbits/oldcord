@@ -1787,9 +1787,6 @@ html.platform-osx .title_c38106 {
 	mask: none !important;
 }
 
-.bar_c38106 .trailing_c38106 .recentsIcon_c99c29:nth-last-child(3) + a {
-	display: none;
-}
 html .bar_c38106 {
 	top: 0;
 	right: 0;
@@ -1811,7 +1808,7 @@ html .bar_c38106 {
 	gap: unset;
 	justify-content: center;
 	bottom: 35px;
-	left: -48px;
+	left: -12px;
 	z-index: 3001;
 	-webkit-app-region: no-drag !important;
 	.winButton_c38106 {
