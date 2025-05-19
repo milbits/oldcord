@@ -359,11 +359,7 @@ code {
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
-:is([lang="DE"], [lang^="en"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-	& :is(.text-md\/medium_cf4812, .text-sm\/normal_cf4812) {
-		font-size: 0;
-		line-height: unset;
-	}
+html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 
 	&.text-md\/medium_cf4812: before {
 		font-size: 16px;
@@ -376,7 +372,7 @@ code {
 	}
 }
 
-[lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+html[lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 	&.text-md\/medium_dc00ef: before {
 		content: "Ich lebe am Limit";
 	}
@@ -386,7 +382,7 @@ code {
 	}
 }
 
-[lang^="en"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 	&.text-md\/medium_cf4812: before {
 		content: "I live on the edge";
 	}
@@ -406,7 +402,7 @@ code {
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-normal) !important;
-	background-color: var(--deprecated-text-input-bg) !important;
+	background-color: var(--deprecated-text-input-bg) ;
 	border: 1px solid var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
 	&:focus{

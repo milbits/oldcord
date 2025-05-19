@@ -80,12 +80,19 @@
 .colorDefault_c1e9c4.focused_c1e9c4 {
 	background: var(--brand-experiment-560);
 	&:active {
-		background: var(--brand-experiment-600);
+		background: var(--brand-experiment-600) !important;
 	}
 }
-/** Dropdown options*/
+/** Dropdown*/
+.popout__3f413{
+	background: var(--background-secondary);
+	margin-top: 0 !important;
+	border: none;
+	border-radius: 0 0px 4px 4px !important;
+	box-shadow:var(--legacy-elevation-border), var(--legacy-elevation-high);
+}
 .option__3f413 {
-	color: var(--text-normal);
+	color: var(--interactive-active) !important;
 	&:is(:hover, :focus) {
 		background-color: var(--background-secondary-alt) !important;
 	}
