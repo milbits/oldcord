@@ -292,7 +292,7 @@ code {
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
 	--radio-bar-accent-color: var(--interactive-active);
-	&>div: not(.info__001a7) {
+	& > div:not(.info__001a7) {
 		justify-content: flex-start;
 		align-self: flex-start;
 		height: 24px;
@@ -360,34 +360,33 @@ code {
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
 html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-
-	&.text-md\/medium_cf4812: before {
+	&.text-md\/medium_cf4812:before {
 		font-size: 16px;
 		line-height: 20px;
 	}
 
-	&.text-sm\/normal_cf4812: before {
+	&.text-sm\/normal_cf4812:before {
 		font-size: 14px;
 		line-height: 18px;
 	}
 }
 
 html[lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-	&.text-md\/medium_dc00ef: before {
+	&.text-md\/medium_dc00ef:before {
 		content: "Ich lebe am Limit";
 	}
 
-	&.text-sm\/normal_cf4812: before {
+	&.text-sm\/normal_cf4812:before {
 		content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 	}
 }
 
 html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
-	&.text-md\/medium_cf4812: before {
+	&.text-md\/medium_cf4812:before {
 		content: "I live on the edge";
 	}
 
-	&.text-sm\/normal_cf4812: before {
+	&.text-sm\/normal_cf4812:before {
 		content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 	}
 }
@@ -402,12 +401,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-normal) !important;
-	background-color: var(--deprecated-text-input-bg) ;
+	background-color: var(--deprecated-text-input-bg);
 	border: 1px solid var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
-	&:focus{
-			border-color: var(--blurple) !important;
-
+	&:focus {
+		border-color: var(--blurple) !important;
 	}
 }
 .select__3f413:hover:not([aria-disabled="true"]),
@@ -418,7 +416,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .input__0f084::-webkit-input-placeholder:not(.textarea_dde0a8) {
 	color: var(--text-muted);
 }
-
 
 .emojiInput_e7d73e.input__0f084 {
 	padding: 0 !important;
@@ -1018,8 +1015,9 @@ h2.title_b717a1,
 	font-size: 16px;
 }
 .description__6b700.text-sm\/normal_cf4812 {
-	color: var(--header-primary) !important;
-	font-size: 16px;
+	color: var(--text-secondary) !important;
+	font-size: 14px;
+	line-height: 20px !important;
 }
 
 /* fix headings of all shapes and sizes */
