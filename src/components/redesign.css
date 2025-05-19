@@ -1011,10 +1011,8 @@ html.platform-osx .title_c38106 {
 
 	.radioBar__001a7 {
 		padding: 10px !important;
-
-		circle {
-			display: initial;
-		}
+		--checkbox-border-checked: var(--brand-experiment-130);
+		--redesign-input-control-selected: none;
 	}
 	/*
 	.radioBar__001a7 .radioIndicatorGroup__001a7:before {
