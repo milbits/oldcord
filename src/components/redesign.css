@@ -1,4 +1,17 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+
+.theme-light:not(html.custom-theme-background, :has(#clientThemeVars)){
+	--bg-brand: var(--blurple);
+		--background-base-low: var(--background-primary);
+	--background-base-lower: var(--background-primary);
+	--background-base-lowest: var(--background-secondary);
+	--background-surface-highest: var(--background-primary);
+	--background-surface-higher: var(--background-floating);
+	--bg-base-tertiary: var(--background-tertiary);
+	--custom-channel-members-bg: var(--background-secondary);
+	--background-mod-subtle: var(--background-modifier-hover);
+
+
+}.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
 	--background-base-lowest: var(--background-secondary);
@@ -21,6 +34,7 @@
 	--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
+
 .theme-darker {
 	--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 30%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218 4% 18% / 1) !important;
@@ -32,11 +46,15 @@
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
 }
+.chat_f75fb0,.container__133bf,
 html:is(.theme-darker, .theme-midnight, .custom-theme-background)
 	:is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
 	border: none !important;
 }
 
+.sidebarRegionScroller__23e6b{
+	background: none !important
+}
 /* remove the title bar on web & linux */
 .platform-web,
 .platform-linux {
