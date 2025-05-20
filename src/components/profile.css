@@ -1258,9 +1258,27 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	position: absolute;
 	bottom: -85px;
 	left: 450px;
+	&:has(.container__9e42c > div button) {
+		left: 410px;
+	}
 }
-
-.user-profile-modal .headerButtons__24502 {
+.root__24502:has(.bot__63ed3) .headerInner__24502 .headerButtons__24502 {
+	display: inline-flex;
+	top: 28px;
+	&:has(.button_fb7f94:nth-of-type(3)) {
+		left: 350px !important;
+	}
+	&:not(:has(.button_fb7f94:nth-of-type(3))) {
+		left: 420px;
+	}
+	&:not(:has(.button_fb7f94:nth-of-type(2))) {
+		left: 450px;
+	}
+}
+.user-profile-modal .inner_c0bea0:has(.wrapper_da5890 > div:nth-of-type(1) > div) .headerInner__24502 .headerButtons__24502 {
+	left: 410px !important;
+}
+.user-profile-modal .inner_c0bea0:has([aria-label="Open in Mod View"]) .headerInner__24502 .headerButtons__24502 {
 	left: 370px !important;
 }
 
