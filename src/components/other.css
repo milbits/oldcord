@@ -359,7 +359,9 @@ code {
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
+/*i love lag (i thinb)
 html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+
 	&.text-md\/medium_cf4812:before {
 		font-size: 16px;
 		line-height: 20px;
@@ -390,7 +392,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 		content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 	}
 }
-
+*/
 /** revert text fields*/
 /*add friends weird font fix*/
 .inputText__72ba7 {
