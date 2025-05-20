@@ -305,6 +305,14 @@ code {
 	color: var(--interactive-normal);
 }
 
+.theme-dark .item__001a7[aria-checked="false"] .radioBar__001a7:hover {
+	border-color: #000;
+	background: rgba(0, 0, 0, 0.2);
+}
+.theme-light .item__001a7[aria-checked="false"] .radioBar__001a7:hover {
+	border-color: #b9bbbe;
+	background: rgba(247, 248, 248, 0.6);
+}
 .item__001a7[aria-checked="true"] .radioBar__001a7 {
 	--radio-bar-accent-color: var(--blurple);
 	background-color: var(--radio-bar-accent-color);
