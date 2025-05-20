@@ -1862,6 +1862,9 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .accountProfileCard__1fed1 > .userInfo__1fed1 {
 	margin-top: 10px;
 	margin-bottom: 30px;
+	button:nth-of-type(1) {
+		display: none;
+	}
 }
 .accountProfileCard__1fed1 .avatar__1fed1 {
 	position: absolute;
