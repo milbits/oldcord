@@ -11,7 +11,7 @@
 /** bottom-left popout */
 .user-profile-popout .overlay_c0bea0:nth-of-type(2) :is(.button_fb7f94:nth-of-type(2), .menuDivider_af7fb7),
 .user-profile-popout .overlay_c0bea0:nth-of-type(1) .button_fb7f94:nth-of-type(1),
-.user-profile-popout .overlay_c0bea0:nth-of-type(2) > div > .menuDivider_ce8328.divider__23eb0 {
+.user-profile-popout .overlay_c0bea0:nth-of-type(2) .divider__23eb0 {
 	display: none;
 }
 
@@ -35,7 +35,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	}
 }
 /*add separator under status button*/
-.user-profile-popout .overlay_c0bea0:nth-of-type(1) > div::after {
+.user-profile-popout .overlay_c0bea0:nth-of-type(1) > [role="list"]::after {
 	content: "";
 	position: absolute;
 	width: 86%;
@@ -1007,9 +1007,6 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleRemoveButton_dfa8b6 {
 	position: static;
 	cursor: unset;
-	&:has(.linkIcon_ebf183) .roleRemoveIcon_dfa8b6 {
-		left: 5px;
-	}
 }
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;
@@ -1261,31 +1258,9 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	position: absolute;
 	bottom: -85px;
 	left: 450px;
-	&:has(.container__9e42c > div) {
-		left: 410px;
-	}
-}
-.root__24502:has(.bot__63ed3) .headerInner__24502 .headerButtons__24502 {
-	display: inline-flex;
-	top: 24px;
-	&:has(.button_fb7f94:nth-of-type(3)) {
-		left: 350px !important;
-	}
-	&:not(:has(.button_fb7f94:nth-of-type(3))) {
-		left: 420px;
-	}
-	&:not(:has(.button_fb7f94:nth-of-type(2))) {
-		left: 450px;
-	}
-}
-html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
-	left: 370px;
 }
 
-.user-profile-modal .inner_c0bea0:has(.wrapper_da5890 > div:nth-of-type(1) > div) .headerInner__24502 .headerButtons__24502 {
-	left: 410px !important;
-}
-.user-profile-modal .inner_c0bea0:has([aria-label="Open in Mod View"]) .headerInner__24502 .headerButtons__24502 {
+.user-profile-modal .headerButtons__24502 {
 	left: 370px !important;
 }
 
@@ -1853,6 +1828,37 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 /*! profile modal ends here */
 
 /** profiles in settings page, its messy but it works lmao */
+.accountProfileCard__1fed1 {
+	.userInfo__1fed1 .wrapper__44b0c {
+		width: 92px !important;
+		height: 92px !important;
+		.svg__44b0c {
+			width: 100px;
+			height: 100px;
+		}
+	}
+	.userInfo__1fed1 :is(.profileCardUsernameRow__1fed1,.badgeList__1fed1) {
+		display: none;
+	}
+	.background__1fed1,
+	.fieldList__1fed1 {
+		background: var(--background-secondary);
+	}
+	.fieldList__1fed1 {
+		margin-left: 100px;
+		margin-top: -50px;
+	}
+	.fieldButton__1fed1:not(.removeButton__1fed1) {
+		background-color: var(--blurple);
+		color: var(--white);
+		&:hover {
+			background-color: var(--blurple-hover);
+		}
+		&:active {
+			background-color: var(--blurple-active);
+		}
+	}
+}
 .accountProfileCard__1fed1 > .userInfo__1fed1 {
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -1862,17 +1868,6 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 	top: 15px;
 	background-color: var(--background-secondary);
 }
-
-.accountProfileCard__1fed1 :nth-child(2) > .profileCardUsernameRow__1fed1 {
-	position: relative;
-	top: 5px;
-}
-.accountProfileCard__1fed1 :nth-child(2) > .badgeList__1fed1 {
-	transform: scale(1.5);
-	position: relative;
-	left: 0px;
-	bottom: 3px;
-}
 .accountProfileCard__1fed1 {
 	background: var(--background-secondary);
 }
@@ -1880,9 +1875,7 @@ html[lang="DE"] .headerInner__24502 .headerButtons__24502 {
 .fieldList__1fed1 {
 	background: var(--background-primary);
 }
-.accountProfileCard__1fed1 > .userInfo__1fed1 > .button__201d5 {
-	display: none;
-}
+
 .overflowMenuIcon__1fed1 {
 	margin-left: 340px;
 }
