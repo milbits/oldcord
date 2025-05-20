@@ -1703,6 +1703,12 @@ html.platform-osx .title_c38106 {
 			opacity: 0.5;
 		}
 	}
+
+	/* server banner images */
+	.bannerImage_f37cb1, .bannerImg_f37cb1 {
+		width: 240px;
+		aspect-ratio: unset;
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
