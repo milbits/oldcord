@@ -244,6 +244,12 @@ body {
 	--__card-accent-color: var(--background-secondary) !important;
 }
 
+.colorDanger__6e2b9 {
+    --custom-notice-background: var(--status-danger-background) !important;
+    --custom-notice-text: var(--status-danger-text) !important;
+    --custom-notice-button-hover: var(--text-danger) !important;
+}
+
 :root {
 	--custom-channel-header-height: 48px;
 	--custom-member-list-width: 240px;
