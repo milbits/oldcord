@@ -240,7 +240,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.inner_c0bea0:has(.clickableContainer__39ec2) {
+.user-profile-popout:not(.themeContainer_ce8328) .inner_c0bea0:has(.clickableContainer__39ec2) {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
