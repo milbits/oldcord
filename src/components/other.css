@@ -86,7 +86,7 @@ code {
 		visibility: visible;
 	}
 }
-.botTag__82f07{
+.botTag__82f07 {
 	border-radius: 3px !important;
 }
 .botTagRemix__82f07 {
@@ -360,7 +360,13 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	letter-spacing: unset;
 }
 
-.input__0f084:not(.textarea_dde0a8, .searchBoxInput__56498,.addFriendInput__72ba7>.input__72ba7, .note_fcb628 textarea, .profileNote__9c3be textarea),
+.input__0f084:not(
+		.textarea_dde0a8,
+		.searchBoxInput__56498,
+		.addFriendInput__72ba7 > .input__72ba7,
+		.note_fcb628 textarea,
+		.profileNote__9c3be textarea
+	),
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-normal) !important;
@@ -726,12 +732,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 .metadataContainer_c7f964 .metadataRefreshButton_c7f964 {
 	background-color: var(--blurple-inverted) !important;
-	&:hover{
+	&:hover {
 		background-color: var(--blurple-inverted-hover) !important;
 	}
-	&:active{
-			background-color: var(--blurple-inverted-active) !important;
-
+	&:active {
+		background-color: var(--blurple-inverted-active) !important;
 	}
 	color: var(--blurple) !important;
 	transition: 0.17s ease;
@@ -786,7 +791,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	top: 6px;
 	left: 6px;
 }
- .connectionDelete_c7f964 path {
+.connectionDelete_c7f964 path {
 	fill: var(--white-500);
 	transform: scale(1.1);
 }
@@ -1363,9 +1368,6 @@ h2.title_b717a1,
 	color: var(--header-secondary);
 }
 
-/* "My Account" settings panel */
-
-
 /* clan tags */
 .clanTagChiplet_c19a55,
 .chipletContainerInline__4a25c,
@@ -1545,7 +1547,22 @@ https://github.com/XYZenix/DTM-16
 		height: 35px;
 	}
 }
-
+/*custom theme*/
+.container__8fea4 {
+	display: unset;
+	border: none;
+}
+.presets__67a11 :is(.newRing__8fea4, .newBadge__8fea4) {
+	display: none;
+}
+.paletteIcon__8fea4 {
+	position: absolute;
+	top: 13px;
+	left: 49px;
+	width: 35px;
+	height: 35px;
+}
+/*idiots!!!!!!!!!*/
 :is(#equicordthemes-tab, #vencordthemes-tab) .sectionTitle__7bffb:before {
 	content: "OldCord note: Using it with other themes may break stuff. Please don't report issues (this is not from vencord)";
 	color: #fff;
