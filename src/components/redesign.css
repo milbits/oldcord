@@ -1021,6 +1021,9 @@ html.platform-osx .title_c38106 {
 		border: 1px solid var(--border-strong);
 		box-shadow: var(--shadow-border), var(--shadow-ledge), var(--shadow-low);
 	}
+	.slider_a562c8:is(.hasMarks_a562c8) .grabber_a562c8 {
+		margin-top: 16px;
+	}
 	:is(#user-context-user-volume, .column__7072d, .categorySubGroup__9f327) .slider_a562c8 .grabber_a562c8 {
 		margin-top: -7px;
 	}

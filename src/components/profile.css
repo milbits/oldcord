@@ -741,6 +741,9 @@ html.theme-dark .badgeContainer__635ed path {
 .inner_ab8609 {
 	background: unset !important;
 }
+.labelRow_ab8609 {
+	display: none;
+}
 .user-profile-popout .visibleContainer_af9888 {
 	left: -230px;
 }
