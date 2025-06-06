@@ -1582,3 +1582,12 @@ https://github.com/XYZenix/DTM-16
 	border-radius: 3px;
 	flex: 1 1 100%;
 }
+/*vc/call buttons*/
+.buttonSection__1405b{
+	background: var(--background-floating);
+	border: none;
+	border-radius: 6px;
+	& +:not(.redGlow_f1ceac) path{
+		fill: var(--interactive-hover) !important;
+	}
+}
