@@ -1270,11 +1270,21 @@ html.platform-osx .title_c38106 {
 
 	/* ping icon */
 	.lowerBadge_cc5dd2 {
-		border: 5px solid var(--background-tertiary);
+		border: 5px solid var(--background-floating);
 		border-radius: 50%;
 		margin-bottom: -5px;
 		margin-right: -5px;
 	}
+	.upperBadge_cc5dd2{
+		background: var(--background-floating);	width: 24px; height: 24px;
+		position: relative;
+		border-radius: 9999px;
+		left: 28px;	
+		&>.iconBadge__650eb{
+			top: 4px; left: 4px; position: absolute
+		}
+	}
+
 
 	/* voice channel user count */
 	.wrapper__260e1 {
