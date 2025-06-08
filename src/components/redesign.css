@@ -1838,10 +1838,9 @@
 		z-index: 3001;
 		-webkit-app-region: no-drag !important;
 		.winButton_c38106 {
-			top: -4px;
 			align-items: center;
 			width: 28px;
-			height: 22px;
+			height: 23px;
 		}
 	}
 	.winButtonsWithDivider_c38106:before {
