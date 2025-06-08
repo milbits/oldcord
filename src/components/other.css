@@ -416,13 +416,12 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 
 /* tweak hover buttons*/
 .hoverButtonGroup__06ab4 {
-	border-radius: 4px;
-	top: 4px;
-	right: 4px;
+	border-radius: 0px 0px 0px 4px;
 	background-color: transparent;
 	transition: 0.12s ease-in-out;
 	outline: none;
-	opacity: 1
+	opacity: 1;
+	right: 0px;
 
 }
 /*fuck ai!! rahhh*/
@@ -442,10 +441,10 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
 .visualMediaItemContainer_f4758a .hoverButtonGroup__06ab4 {
-	background-color: rgb(0, 0, 0, 25%);
-	transform: translateY(-40px);
+	background-color: rgb(0 0 0 / 25%);
+	top: -40px;
 	.mosaicItem__6c706:hover &{
-		transform: translateY(0px);
+		top: 0px;
 
 	}
 }
@@ -455,9 +454,14 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	height: 24px !important;
 }
 /* remove background hover */
-.hoverButton__06ab4:hover {
-	background: none;
+.hoverButton__06ab4{
+	&:hover {
+		background: none;
+		color: rgb(255 255 255 / 100%);
+	}
+	color: rgb(255 255 255 / 90%); !important;
 }
+
 /* center the download button for audio files and make it permanently visible*/
 .wrapperAudio_cf09d8 + .hoverButtonGroup__06ab4 {
 	top: 25%;
