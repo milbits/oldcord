@@ -420,44 +420,44 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	top: 4px;
 	right: 4px;
 	background-color: transparent;
-	transition: 0.1s ease;
+	transition: 0.12s ease-in-out;
 	outline: none;
-}
+	opacity: 1
 
+}
 /*fuck ai!! rahhh*/
 .hoverButton__06ab4:has(.lottieIcon__5eb9b) {
 	display: none;
 }
-
 .removeMosaicItemHoverButton__6c706 {
 	color: var(--red) !important;
 	opacity: 0.7;
 	&:hover {
 		opacity: 1;
 	}
-
 	&:active {
 		color: #fff !important;
 		background: var(--red-active) !important;
 	}
 }
-
 /* keep the translucent background for stuff like images and videos bc it looks better */
 .visualMediaItemContainer_f4758a .hoverButtonGroup__06ab4 {
 	background-color: rgb(0, 0, 0, 25%);
-}
+	transform: translateY(-40px);
+	.mosaicItem__6c706:hover &{
+		transform: translateY(0px);
 
+	}
+}
 /* make download button bigger */
 .downloadHoverButtonIcon__6c706 {
 	width: 24px !important;
 	height: 24px !important;
 }
-
 /* remove background hover */
 .hoverButton__06ab4:hover {
 	background: none;
 }
-
 /* center the download button for audio files and make it permanently visible*/
 .wrapperAudio_cf09d8 + .hoverButtonGroup__06ab4 {
 	top: 25%;
@@ -466,7 +466,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	opacity: 1;
 	background: none;
 }
-
 /* same as above but for file attachments */
 .file__0ccae + .hoverButtonGroup__06ab4 {
 	top: 50%;
