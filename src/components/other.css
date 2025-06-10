@@ -430,7 +430,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 .removeMosaicItemHoverButton__6c706 {
 	color: var(--red) !important;
-	opacity: 0.7;
+	opacity: 0.8;
 	&:hover {
 		opacity: 1;
 	}
@@ -441,7 +441,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 /* keep the translucent background for stuff like images and videos bc it looks better */
 .visualMediaItemContainer_f4758a .hoverButtonGroup__06ab4 {
-	background-color: rgb(0 0 0 / 25%);
+	background-color: rgb(0 0 0 / 0.5);
 	transform: translateY(-40px);
 	.mosaicItem__6c706:hover &{
 		transform: translateY(-4px);
@@ -457,9 +457,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .hoverButton__06ab4{
 	&:hover {
 		background: none;
-		color: rgb(255 255 255 / 100%);
 	}
-	color: rgb(255 255 255 / 90%); !important;
 }
 
 /* center the download button for audio files and make it permanently visible*/
