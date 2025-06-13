@@ -1399,6 +1399,12 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 
 /* CUSTOM STATUS */
 
+.user-profile-modal .container_ab8609 {
+	height: 68px;
+	.outer_ab8609 {
+		height: 110px;
+	}
+}
 .user-profile-modal .container_ab8609 .content_ab8609 {
 	margin-top: 20px;
 	white-space: pre-wrap;
@@ -1432,7 +1438,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		padding-bottom: 90px;
 	}
 	&:has(.container__8061a) {
-		padding-bottom: 80px;
+		padding-bottom: 100px;
 	}
 }
 
