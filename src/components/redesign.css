@@ -90,19 +90,22 @@
 		.sidebar_c48ade > .guilds_c48ade {
 			margin-top: 32px;
 		}
+		.bar_c38106 {
+			pointer-events: none;
+		}
 		.bar_c38106 .trailing_c38106 {
 			top: 32px;
 		}
 		.notice__6e2b9,
 		#bd-notices {
-			margin-top: 22px;
-			margin-bottom: -27px;
+			margin-top: 0;
+			margin-bottom: -38px;
 		}
 		&:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
-			top: 94px !important;
+			top: 70px !important;
 		}
 		&:has(.notice__6e2b9, .bd-notice) :is(.sidebarList_c48ade, .page_c48ade) {
-			margin-top: 27px !important;
+			margin-top: 38px !important;
 		}
 	}
 	.platform-osx .systemBar_c38106 {
