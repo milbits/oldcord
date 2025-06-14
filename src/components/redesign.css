@@ -1795,7 +1795,7 @@
 		position: relative;
 		right: 20px;
 	}
-	.container__01ae2 > .container__9293f {
+	:is(.container__01ae2, .container_fb64c9) > .container__9293f {
 		z-index: 102;
 	}
 	.bar_c38106 .trailing_c38106 .iconWrapper__9293f {
