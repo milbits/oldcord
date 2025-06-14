@@ -959,22 +959,14 @@ html.theme-dark .badgeContainer__635ed path {
 /** Roles */
 
 .root_fccfdf:before {
-	content: "ROLES";
+	content: attr(aria-label);
 	font-size: 12px;
 	color: var(--header-secondary);
 	font-weight: 800;
 	font-family: var(--font-display);
-	margin-right: 200px;
+	margin-right: 55%;
 	margin-bottom: 4px;
-	html[lang="DE"] & {
-		content: "ROLLEN";
-	}
-}
-html[lang="DE"] .root_fccfdf:has(.role_dfa8b6:nth-of-type(2)):before {
-	content: "ROLLEN";
-}
-html[lang="DE"] .root_fccfdf:has(.role_dfa8b6:nth-of-type(2)):before {
-	content: "ROLLEN";
+	text-transform: uppercase
 }
 section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 	display: none;
