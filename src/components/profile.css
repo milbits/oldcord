@@ -511,7 +511,7 @@ html.theme-dark .badgeContainer__635ed path {
 	padding-left: 12px;
 }
 .descriptionClamp_f5f93a {
-	padding: 16px 12px 12px 12px;
+	padding: 16px 12px 0px 12px;
 }
 
 .body__5be3e {
@@ -964,7 +964,7 @@ html.theme-dark .badgeContainer__635ed path {
 	color: var(--header-secondary);
 	font-weight: 800;
 	font-family: var(--font-display);
-	margin-right: 55%;
+	margin-right: 65%;
 	margin-bottom: 4px;
 	text-transform: uppercase
 }
