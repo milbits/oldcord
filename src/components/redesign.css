@@ -1738,6 +1738,18 @@
 			width: 240px;
 			aspect-ratio: unset;
 		}
+
+		/* server tooltip */
+		.tooltipPrimary__382e7 {
+			background: var(--background-floating)
+		}
+		.tooltipPrimary__382e7 .tooltipPointer__382e7 {
+		    border-top-color: var(--background-floating);
+		}
+		.tooltipPointer__382e7.tooltipPointerBg__382e7:after,
+		.tooltipPointer__382e7.tooltipPointerBg__382e7:before {
+			border-top: unset;
+		}
 	}
 	
 	:where(.visual-refresh) .item__001a7,
