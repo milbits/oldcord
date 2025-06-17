@@ -1892,8 +1892,8 @@
 				height: auto !important;
 			}
 		}
-		.tutorialContainer__1f388 {
-			padding-bottom: 8px;
+		#guild-list-unread-dms:has(.listItem__650eb){
+			 padding-top: 8px !important;
 		}
 		.listItem__650eb:has(.guildSeparator__252b6) {
 			margin: 6px 0 8px 0;
