@@ -1592,3 +1592,14 @@ https://github.com/XYZenix/DTM-16
 		fill: var(--interactive-hover) !important;
 	}
 }
+
+/* clan tag upsell */
+.container_cdb3b1 {
+	max-width: 220px;
+	margin-left: 4px;
+	border-radius: 4px;
+	background: var(--background-floating);
+	&:after {
+		border-top: 8px solid var(--background-floating);
+	}
+}
