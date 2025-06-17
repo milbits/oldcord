@@ -939,7 +939,8 @@
 				.lineClamp1__4bd52,
 				.searchFilter_bd8186,
 				.searchAnswer_bd8186
-			) {
+			),
+			.text-xs\/bold_cf4812 {
 			text-transform: uppercase;
 			font-size: 12px;
 			line-height: 16px;
@@ -1739,8 +1740,8 @@
 			aspect-ratio: unset;
 		}
 
-		/* server tooltip */
-		.tooltipPrimary__382e7 {
+		/* tooltips */
+		.tooltipPrimary__382e7, .reactionTooltip_b49891 {
 			background: var(--background-floating)
 		}
 		.tooltipPrimary__382e7 .tooltipPointer__382e7 {
@@ -1749,6 +1750,11 @@
 		.tooltipPointer__382e7.tooltipPointerBg__382e7:after,
 		.tooltipPointer__382e7.tooltipPointerBg__382e7:before {
 			border-top: unset;
+		}
+
+		.popout__76f04, .container__4e30a {
+			background: var(--background-floating);
+			border-radius: 4px;
 		}
 	}
 	
