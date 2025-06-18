@@ -1783,16 +1783,15 @@
 		z-index: 102;
 	}
 	.bar_c38106 .channelTabs-trailing .trailing_c38106 {
-		top: 44px;
+		top: 36px;
 		right: 10px;
 	}
 	.channelTabs-trailing .winButtons_c38106 {
 		position: absolute;
-		top: -53px;
+		top: -42px;
 		right: 6px;
 		& .winButton_c38106 {
-			width: var(--custom-app-top-bar-height);
-			height: var(--custom-app-top-bar-height);
+			height: calc(var(--custom-app-top-bar-height) + 4px);
 			padding-left: 10px;
 			padding-right: 10px;
 		}
@@ -1800,6 +1799,7 @@
 	#channelTabs-settingsMenu {
 		position: relative;
 		right: 20px;
+    top: -2px;
 	}
 	:is(.container__01ae2, .container_fb64c9) > .container__9293f {
 		z-index: 102;
