@@ -1,22 +1,10 @@
 	
-	.theme-light:not(html.custom-theme-background, :has(#clientThemeVars)){
-		--bg-brand: var(--blurple);
-			--background-base-low: var(--background-primary);
-		--background-base-lower: var(--background-primary);
-		--background-base-lowest: var(--background-secondary);
-		--background-surface-highest: var(--background-primary);
-		--background-surface-higher: var(--background-floating);
-		--bg-base-tertiary: var(--background-tertiary);
-		--custom-channel-members-bg: var(--background-secondary);
-		--background-mod-subtle: var(--background-modifier-hover);
-	
-	
-	}.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 		--background-base-low: var(--background-primary);
 		--background-base-lower: var(--background-primary);
 		--background-base-lowest: var(--background-secondary);
 		--background-surface-highest: var(--background-primary);
-		--background-surface-higher: var(--background-floating);
+		--background-surface-higher: var(--background-floating, var(--background-tertiary));
 		--bg-base-tertiary: var(--background-tertiary);
 		--custom-channel-members-bg: var(--background-secondary);
 		--background-mod-subtle: var(--background-modifier-hover);
