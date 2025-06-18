@@ -1,4 +1,4 @@
-	
+
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 		--background-base-low: var(--background-primary);
 		--background-base-lower: var(--background-primary);
@@ -1730,10 +1730,10 @@
 
 		/* tooltips */
 		.tooltipPrimary__382e7, .reactionTooltip_b49891 {
-			background: var(--background-floating)
+			background: var(--background-surface-higher)
 		}
 		.tooltipPrimary__382e7 .tooltipPointer__382e7 {
-		    border-top-color: var(--background-floating);
+		    border-top-color: var(--background-surface-higher);
 		}
 		.tooltipPointer__382e7.tooltipPointerBg__382e7:after,
 		.tooltipPointer__382e7.tooltipPointerBg__382e7:before {
@@ -1741,7 +1741,7 @@
 		}
 
 		.popout__76f04, .container__4e30a {
-			background: var(--background-floating);
+			background: var(--background-surface-higher);
 			border-radius: 4px;
 		}
 	}
