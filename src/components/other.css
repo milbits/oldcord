@@ -1397,6 +1397,53 @@ h2.title_b717a1,
 		display: none;
 	}
 }
+
+/* ban modal */
+.root__49fc1:has(.radioGroup__837b7) {
+	> .noWrap_abf706:is(.header__49fc1) {
+		visibility: hidden;
+		padding: unset;
+		margin-top: -16px
+	}
+	> .modalContent__837b7 {
+		padding-bottom: 30px;
+		.heading-lg\/semibold_cf4812 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		.heading-lg\/semibold_cf4812:before {
+			content: "WOULD YOU LIKE TO "
+		}
+		.eyebrow_b717a1 .text-md\/medium_cf4812 {
+			font-size: 12px;
+			font-weight: 600;
+			color: var(--channels-default) !important;
+		}
+		> .stack_dbd263 {
+			gap: unset !important;
+		}
+		.stack_dbd263:nth-of-type(2):before {
+			content: url(https://github.com/milbits/oldcord/blob/main/src/assets/banned.gif?raw=true);
+			transform: scale(0.93);
+			margin-left: -14px;
+		}
+		.radioGroup__837b7 {
+			gap: var(--space-8)
+		}
+		.item__001a7[aria-checked="true"] .info__001a7 {
+			color: var(--white);
+		}
+	}
+	> .footer__837b7 {
+		button {
+			height: 38px;
+			width: 96px;
+		}
+		button:nth-of-type(1) {
+			color: var(--white);
+		}
+	}
+}
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
