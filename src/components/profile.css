@@ -506,7 +506,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /* since the padding of the profile is gone, add padding to every section*/
 .descriptionClamp_f5f93a,
-.root_fccfdf,
+.user-profile-popout .root_fccfdf,
 .section_bf424d:has(.list__20827) {
 	padding-left: 12px;
 }
@@ -958,7 +958,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /** Roles */
 
-.root_fccfdf:before {
+.user-profile-popout .root_fccfdf:before {
 	content: attr(aria-label);
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -971,7 +971,7 @@ html.theme-dark .badgeContainer__635ed path {
 section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 	display: none;
 }
-.root_fccfdf {
+.user-profile-popout .root_fccfdf {
 	position: relative;
 	margin-bottom: 22px;
 	margin-top: 12px;
