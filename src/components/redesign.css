@@ -1782,6 +1782,12 @@
 		gap: 8px;
 		z-index: 102;
 	}
+	.bar_c38106 .trailing_c38106:has(> .clickable__9293f) {
+		top: 51px;
+		gap: 8px;
+		z-index: 102;
+		margin-right: -38px;
+	}
 	.bar_c38106 .channelTabs-trailing .trailing_c38106 {
 		top: 36px;
 		right: 10px;
