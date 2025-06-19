@@ -418,7 +418,7 @@
 			color: var(--interactive-normal);
 		}
 		.popoutContainer__0f481 {
-			background-color: var(--background-floating);
+			background-color: var(--background-surface-higher);
 			box-shadow: var(--elevation-low);
 			-webkit-backdrop-filter: unset;
 			backdrop-filter: unset;
