@@ -1,8 +1,8 @@
 # OldCord
 
-A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
+A theme for Discord that brings the 2020 UI back without removing features
 
- By default, it completely removes profile effects (like banners). See addons below to get them back!
+ By default, it completely removes profile effects (like banners) and clan tags. See `addons` below to get them back!
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
@@ -28,10 +28,10 @@ Light mode is currently not properly supported, please give me a trillion euros 
 These are usually included in oldcord.theme.css, so all you need to do is remove `/*` in the file for each addon you want to use
 
 | Name                   | Preview                                                                                | CSS                                                                                |
+| Show Profile Effects (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                           | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
 | HeaderPresence | ![Image](https://github.com/user-attachments/assets/1a809f81-0d76-4146-ad25-941b4332bcbd)                                                           | https://betterdiscord.app/plugin/HeaderPresence |
 | [Tanza3D & KingGamingYT's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic)                         | Restores the old image layout                               |
 
