@@ -1493,6 +1493,18 @@
 			width: 200px;
 			transform: scale(1.4) translateX(-9px);
 		}
+		.art__29209 {
+			background-image: url(https://discord.com/assets/4b9c3419c57d838c4076abc9d34dbea7.svg) !important;
+		}
+		.tile__90dc5 {
+			background-color: unset;
+		}
+		.container__29209 {
+			background: none;
+			button {
+				background: var(--background-floating);
+			}
+		}
 	
 		/* voice panel */
 		.container_e131a9 {
@@ -1729,7 +1741,7 @@
 		}
 
 		/* tooltips */
-		.tooltipPrimary__382e7, .reactionTooltip_b49891 {
+		.tooltipPrimary__382e7, .reactionTooltip_b49891, .container__50387 {
 			background: var(--background-surface-higher)
 		}
 		.tooltipPrimary__382e7 .tooltipPointer__382e7 {
