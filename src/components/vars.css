@@ -235,6 +235,8 @@ body {
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;
 	--notice-text-critical: #fff;
+    --notice-background-info: var(--blurple);
+    --notice-text-info: #fff;
 	--background-surface-high: var(--background-secondary);
 	--bg-base-secondary: var(--background-secondary);
 	--bg-base-tertiary: var(--background-tertiary);
