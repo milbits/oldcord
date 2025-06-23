@@ -1351,8 +1351,11 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .user-profile-modal .inner_c0bea0 .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5:is(.grow__201d5)) svg {
 	display: none;
 }
-.bannerColor_fb7f94 {
-	background: none !important;
+.bannerColor_fb7f94:not(:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"])) {
+	display: none !important;
+}
+.bannerColor_fb7f94{
+	background: none !important
 }
 
 .user-profile-modal .inner_c0bea0 {
