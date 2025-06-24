@@ -1919,6 +1919,9 @@
 			}
 		}
 	}
+	.base_c48ade .sidebar_c48ade > .wrapper_ef3116 {
+		background: var(--bg-base-tertiary)
+	}
 	.folderGroup__48112 {
 		--custom-folder-preview-padding: 6px;
 		--custom-folder-color: #7289da;
@@ -1997,4 +2000,8 @@
 	
 	.spriteContainer__04eed {
 		--custom-emoji-sprite-size: 24px !important;
+	}
+
+	.layer__960e4.baseLayer__960e4 {
+	    background-color: var(--bg-base-tertiary);
 	}
