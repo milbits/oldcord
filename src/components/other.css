@@ -1650,3 +1650,74 @@ https://github.com/XYZenix/DTM-16
 		border-top: 8px solid var(--background-floating);
 	}
 }
+
+/* nitro page */
+.applicationStore_f07d62 {
+	.colorBrandInverted__201d5 {
+		background: var(--green);
+		.premiumSubscribeButton_e00877, .premiumIcon_e00877, .v2SubButtonText_c880e8 {
+			color: var(--white)
+		}
+		&:hover {
+			background: var(--green-hover);
+		}
+		&:active {
+			background: var(--green-active);
+		}
+	}
+	.brandShine_e00877, .buttonShine__6a443 {
+		color: hsla(0,0%,100%,.1) !important;
+	}
+	.giftButton__82222 {
+		border: unset;
+		background-color: var(--button-secondary-background);
+	}
+	.giftButton__82222:hover {
+		background-color: var(--button-secondary-background-hover);
+	}
+	.giftButton__82222:active {
+		background-color: var(--button-secondary-background-active);
+	}
+	.heroHeadingV2Container_c880e8 .marketingPageContainer__81281 .marketingPageHeading__81281:before {
+		content: " ";
+		background-image: url(https://raw.githubusercontent.com/milbits/oldcord/refs/heads/main/src/assets/Discord_Nitro_Wordmark_Filled.svg);
+		width: 160px;
+		height: 65px;
+		display: block;
+		margin-bottom: 28px;
+	}
+	.heroHeadingV2Art_c880e8 {
+		transform: scale(1.4);
+	}
+	.marketingPageTextContainer__81281 {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.marketingPageCTAContainer__81281 {
+		order: 2;
+	}
+	.description__81281 {
+		color: var(--text-normal) !important;
+	}
+}
+.containerBackground_c880e8 {
+	background: unset;
+	padding: 60px 40px 0;
+	max-width: 660px;
+}
+.headerBar__0920e {
+	background: unset !important;
+	height: 49px !important;
+	svg path {
+		fill: var(--channel-icon)
+	}
+}
+.homeWrapper__0920e {
+	border-top: unset !important;
+}
+.heroHeaderSideGradient_c880e8,
+.bentoSideGradient_abac7b, 
+.leftGradient__14cf2, 
+.rightGradient__14cf2 {
+	display: none;
+}
