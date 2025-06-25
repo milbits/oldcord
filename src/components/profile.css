@@ -443,8 +443,8 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	:is(.section__530ce > .text__530ce.text-xs/normal_cf4812, .chipletContainerInner__4a25c > .text__4a25c > .unselectable__4a25c) {
 	color: #fff !important;
 }
-.card__39ec2 .fontCode__230d,
-.fontCode__230d2.bold__230d2 {
+.card__39ec2 .timestamp__230d2,
+.timestamp__230d2.bold__230d2 {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
