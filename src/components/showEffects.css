@@ -115,8 +115,7 @@
 
 /* apply ONLY if they have an avatar deco*/
 .user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
-    position: absolute !important;
-    top: 31px !important;
+    top: 62px !important;
 }
 
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
