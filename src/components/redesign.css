@@ -1,4 +1,3 @@
-
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 		--background-base-low: var(--background-primary);
 		--background-base-lower: var(--background-primary);
@@ -8,7 +7,7 @@
 		--bg-base-tertiary: var(--background-tertiary);
 		--custom-channel-members-bg: var(--background-secondary);
 		--background-mod-subtle: var(--background-modifier-hover);
-		--bg-brand: var(--blurple);
+		--bg-brand: var(--blurple, var(--blurple-50));
 		--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 		--checkbox-background-checked: var(--blurple);
 		--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
