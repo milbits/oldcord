@@ -23,6 +23,9 @@
 .user-profile-modal .mask__68edb mask circle{
     display: none !important
 }
+.user-profile-modal-v2 .mask__68edb mask circle{
+    display: none !important
+}
 /*fix some overlaying stuff*/
 .header__5be3e{
     z-index: 2
@@ -33,14 +36,13 @@
 }
 
 /*fix for reaction stuff*/
-.avatar__75742:has(.wrapper_f7ecac){
+.avatar__75742{
     position: absolute !important;
-    top: 52px !important;
-    left: 85.5px !important
+    top: 53px !important;
 }
 /*move usernames etc. a bit down*/
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
-    padding-top: 50px;
+    padding-top: 44px;
 }
 .user-profile-popout .container_ab8609 {
     top: 140px
@@ -50,7 +52,7 @@
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-profile-theme .user-profile-popout .inner_c0bea0{
+.custom-user-profile-theme.user-profile-popout .inner_c0bea0{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container__63ed3,.mutuals__530ce  {
@@ -59,7 +61,7 @@
 }
 
 
-.custom-profile-theme .footer__5be3e .themedBackground__74017{
+.custom-user-profile-theme .footer__5be3e .themedBackground__74017{
     background: var(--profile-gradient-overlay-color) !important
 }
 
@@ -83,6 +85,25 @@
         background: transparent !important;
     }
 }
+/* banners behind headers (profilesv2) */
+.user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
+    position: absolute;
+    z-index: 0;
+    opacity: 25%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
+    background: transparent !important;
+}
+
+.user-profile-modal-v2:has(.mask__68edb) {
+    :is(.profileButtons__9c3be, .tabBar__37bfc) {
+        z-index: 2;
+    }
+    :where(.banner__68edb) {
+        border-radius: 0px;
+    }
+}
 
 /* tinted text & profile */
 .inner_c0bea0:is(.user-profile-popout, .user-profile-modal)
@@ -94,10 +115,19 @@
 
 /* apply ONLY if they have an avatar deco*/
 .user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
-    position: absolute !important;
     top: 31px !important;
 }
 
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
     display: none !important;
+}
+
+/* clan tags */
+.guildTagContainer__63ed3,
+.clanTagChiplet_c19a55,
+.chipletContainerInline__4a25c,
+.chipletContainerInline__10651,
+.chipletContainerInner__10651,
+.clanTag__5d473 {
+	display: unset !important;
 }

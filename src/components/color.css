@@ -80,12 +80,19 @@
 .colorDefault_c1e9c4.focused_c1e9c4 {
 	background: var(--brand-experiment-560);
 	&:active {
-		background: var(--brand-experiment-600);
+		background: var(--brand-experiment-600) !important;
 	}
 }
-/** Dropdown options*/
+/** Dropdown*/
+.popout__3f413{
+	background: var(--background-secondary);
+	margin-top: 0 !important;
+	border: none;
+	border-radius: 0 0px 4px 4px !important;
+	box-shadow:var(--legacy-elevation-border), var(--legacy-elevation-high);
+}
 .option__3f413 {
-	color: var(--text-normal);
+	color: var(--interactive-active) !important;
 	&:is(:hover, :focus) {
 		background-color: var(--background-secondary-alt) !important;
 	}
@@ -312,6 +319,10 @@
 		transform: scale(1);
 	}
 }
+.reactions__23977 {
+	padding-top: 0;
+	margin-top: -0.125rem;
+}
 .reaction_f8896c,
 .reaction__23977,
 .reactionBtn__23977 {
@@ -332,7 +343,6 @@
 .reaction__23977 {
 	border-radius: 0.25rem;
 	border: none;
-	margin-right: 0.125rem;
 	margin-bottom: 0.125rem;
 	transition: background-color 0.1s ease;
 	background: var(--background-modifier-accent) !important;
@@ -368,10 +378,6 @@
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c,
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
 	color: var(--brand-experiment) !important;
-}
-.reactionMe_f8896c:hover,
-.reactionMe__23977:hover {
-	background-color: var(--brand-experiment-40a) !important;
 }
 
 .reactionCount__23977,
