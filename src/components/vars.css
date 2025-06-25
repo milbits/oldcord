@@ -1,6 +1,6 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars),.theme-darker,.theme-midnight) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--channeltextarea-background: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
+	--chat-background-default: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
@@ -94,10 +94,11 @@
     --shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 hsl(none 0% 0%/0.24));
     --shadow-top-low: 0 -1px 4px 0 hsl(none 0% 0%/0.14);
     --shadow-top-low-filter: drop-shadow(0 -1px 4px hsl(none 0% 0%/0.14));
+    --text-muted: #72767d;
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--channeltextarea-background: #ebedef;
+	--chat-background-default: #ebedef;
 	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
@@ -234,6 +235,8 @@ body {
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;
 	--notice-text-critical: #fff;
+    --notice-background-info: var(--blurple);
+    --notice-text-info: #fff;
 	--background-surface-high: var(--background-secondary);
 	--bg-base-secondary: var(--background-secondary);
 	--bg-base-tertiary: var(--background-tertiary);
@@ -241,6 +244,12 @@ body {
 
 .cardPrimary__73069 {
 	--__card-accent-color: var(--background-secondary) !important;
+}
+
+.colorDanger__6e2b9 {
+    --custom-notice-background: var(--status-danger-background) !important;
+    --custom-notice-text: var(--status-danger-text) !important;
+    --custom-notice-button-hover: var(--text-danger) !important;
 }
 
 :root {
