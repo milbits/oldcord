@@ -52,7 +52,7 @@
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-profile-theme .user-profile-popout .inner_c0bea0{
+.custom-user-profile-theme.user-profile-popout .inner_c0bea0{
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container__63ed3,.mutuals__530ce  {
@@ -61,7 +61,7 @@
 }
 
 
-.custom-profile-theme .footer__5be3e .themedBackground__74017{
+.custom-user-profile-theme .footer__5be3e .themedBackground__74017{
     background: var(--profile-gradient-overlay-color) !important
 }
 
@@ -115,7 +115,8 @@
 
 /* apply ONLY if they have an avatar deco*/
 .user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
-    top: 31px !important;}
+    top: 31px !important;
+}
 
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
     display: none !important;
