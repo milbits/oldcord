@@ -1774,6 +1774,11 @@
 				transform: scale(0.65)
 			}
 		}
+
+		/* clip footer */
+		.mosaicItem__6c706:is(.mosaicItemWithFooter__6c706) .container_b9f75c {
+			background: var(--background-base-lowest);
+		}
 	}
 	
 	:where(.visual-refresh) .item__001a7,
