@@ -1,4 +1,4 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
+.theme-dark:not(html.custom-theme-background, html:has(#clientThemeVars),.theme-darker) {
 		--background-base-low: var(--background-primary);
 		--background-base-lower: var(--background-primary);
 		--background-base-lowest: var(--background-secondary);
@@ -20,14 +20,26 @@
 		--__spoiler-warning-background-color: hsl(var(--black-500-hsl) / 0.6);
 		--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 		--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
-	}
-	
-	.theme-darker {
+}
+	.theme-darker {	
+		--background-primary: var(--background-base-low);
+		--background-base-lowest: var(--background-secondary);
+		--background-secondary: color-mix(in oklab,var(--neutral-89) 90%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+		--background-tertiary: color-mix(in oklab,var(--neutral-94) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+		--background-surface-highest: var(--background-primary);
+		
 		--header-secondary: color-mix(in oklab,var(--neutral-5) 70%,var(--theme-text-color,#000) var(--theme-text-color-amount,0%)) !important;
 		--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 30%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 		--chat-background-default: hsl(218 4% 18% / 1) !important;
 	}
 	.theme-midnight {
+		--background-primary:  color-mix(in oklab,var(--neutral-90) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+		--background-base-lowest: var(--background-secondary);
+		--background-secondary: color-mix(in oklab,var(--neutral-95) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+		--background-tertiary: color-mix(in oklab,var(--neutral-100) 50%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+		--background-surface-highest: var(--background-primary);
+		
+
 		--chat-background-default: hsl(0 0% 11% / 1) !important;
 		--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 60%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	}
