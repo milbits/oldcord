@@ -669,6 +669,9 @@
 				line-height: 20px;
 			}
 		}
+		.search__97492:is(.open__97492) .searchBar__97492 {
+			width: 240px;
+		}
 		.container__55c99 {
 			box-shadow: var(--shadow-border), var(--shadow-high);
 			border-radius: 3px;
