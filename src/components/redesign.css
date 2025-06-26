@@ -1243,6 +1243,7 @@
 			-webkit-text-size-adjust: none;
 			text-size-adjust: none;
 			color: var(--text-normal);
+			background: var(--background-base-lowest);
 		}
 		.audioControls_cf09d8 {
 			border-radius: 3px;
