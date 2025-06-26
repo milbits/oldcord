@@ -46,11 +46,7 @@
 	html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 		color: var(--channels-default);
 	}
-	.chat_f75fb0,.container__133bf,
-	html:is(.theme-darker, .theme-midnight, .custom-theme-background)
-		:is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
-		border: none !important;
-	}
+
 	
 	.sidebarRegionScroller__23e6b{
 		background: none !important
@@ -803,7 +799,7 @@
 		}
 		.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
 			grid-area: sidebar;
-			width: 242px;
+			width: 240px;
 			--custom-app-panels-height: 0;
 		}
 		.base_c48ade .sidebar_c48ade > .sidebarResizeHandle_c48ade,
