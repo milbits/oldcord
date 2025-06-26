@@ -204,7 +204,7 @@
 	
 		.panels_c48ade {
 			display: flex;
-			width: 242px;
+			width: 240px;
 			flex-direction: column;
 			border: none;
 			border-radius: 0;
@@ -669,9 +669,6 @@
 				line-height: 20px;
 			}
 		}
-		.search__97492:is(.open__97492) .searchBar__97492 {
-			width: 240px;
-		}
 		.container__55c99 {
 			box-shadow: var(--shadow-border), var(--shadow-high);
 			border-radius: 3px;
@@ -795,7 +792,11 @@
 			grid-template-columns: [start] min-content [sidebarStart] unset [end];
 			grid-template-rows: [start] 1fr [panelsStart] min-content [end];
 			border-radius: 0;
-		}
+	}
+	.chat_f75fb0,.container__133bf,
+		:is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
+		border: none !important;
+	}
 		.base_c48ade .sidebar_c48ade > .guilds_c48ade {
 			grid-area: guilds;
 			margin-bottom: 0;
@@ -809,6 +810,7 @@
 		:root .base_c48ade .sidebar_c48ade:after {
 			display: none;
 		}
+	
 		/*Betterfolders (vencord)*/
 		.base_c48ade.vc-betterFolders-sidebar-grid {
 			grid-template-columns: [start] 80px [guilds-end] min-content [betterFoldersSidebar-end] 240px [channelsEnd] 1fr [end];
