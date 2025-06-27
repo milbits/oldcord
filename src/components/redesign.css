@@ -1193,6 +1193,7 @@
 			min-height: 24px;
 			opacity: 0.95;
 			border: unset;
+			height: 0;
 		}
 	
 		.embedFull__623de {
