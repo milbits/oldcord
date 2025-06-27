@@ -677,6 +677,9 @@
 			border-radius: 3px;
 			border: none;
 			background: var(--bg-overlay-3, var(--background-primary));
+			.queryContainer__55c99 {
+				background: var(--bg-base-tertiary);
+			}
 		}
 		.container_fea832 {
 			background-color: var(--background-tertiary);
