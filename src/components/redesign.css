@@ -1799,6 +1799,17 @@
 		.mosaicItem__6c706:is(.mosaicItemWithFooter__6c706) .container_b9f75c {
 			background: var(--background-base-lowest);
 		}
+
+		/* edit group */
+		.modal__46773 {
+			padding: unset;
+			.alignCenter_abf706 button, .modalContent__46773 .inputWrapper__0f084, .footerSeparator__49fc1 {
+				padding: 12px;
+			}
+			.alignCenter_abf706 button {
+				margin-top: 4px;
+			}
+		}
 	}
 	
 	:where(.visual-refresh) .item__001a7,
