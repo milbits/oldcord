@@ -10,6 +10,7 @@ A theme for Discord that brings the 2020 UI back without removing features
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
 > - To have the old gray colors, use the "Ash" theme in appearance settings
+>   - If you use vencord's "Client Theme" plugin, use darker
 
 <details> <summary>Light mode (shit)</summary>
 
