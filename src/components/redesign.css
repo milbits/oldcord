@@ -1812,6 +1812,11 @@
 				margin-top: 4px;
 			}
 		}
+
+		/* owner crown */
+		.ownerIcon__5d473 {
+		    color: var(--text-warning);
+		}
 	}
 	
 	:where(.visual-refresh) .item__001a7,
