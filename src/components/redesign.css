@@ -14,7 +14,7 @@
 		--custom-channel-members-bg: var(--background-secondary);
 		--background-mod-subtle: var(--background-modifier-hover);
 		--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-		--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+		--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 		--__spoiler-background-color--hidden: var(--primary-700);
 		--__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl) / 0.8);
 		--__spoiler-background-color--revealed: hsl(var(--white-500-hsl) / 0.1);
@@ -350,7 +350,7 @@
 			padding-left: 8px;
 		}
 		.lookLink__201d5.colorPrimary__201d5 {
-			color: var(--text-normal);
+			color: var(--text-default);
 		}
 		/* Emojis/GIF Picker */
 		.drawerSizingWrapper__08434 {
@@ -1144,7 +1144,7 @@
 			line-height: 24px;
 			resize: none;
 			align-items: center;
-			color: var(--text-normal);
+			color: var(--text-default);
 		}
 	
 		/* jump to present bar */
@@ -1262,7 +1262,7 @@
 			border-radius: 4px;
 			-webkit-text-size-adjust: none;
 			text-size-adjust: none;
-			color: var(--text-normal);
+			color: var(--text-default);
 			background: var(--background-base-lowest);
 		}
 		.audioControls_cf09d8 {
@@ -1409,7 +1409,7 @@
 		.pill_a2c9e8 {
 			background-color: var(--background-secondary-alt);
 			border: 1px solid transparent;
-			color: var(--text-normal);
+			color: var(--text-default);
 		}
 		.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
 			background-color: var(--background-tertiary);
@@ -1450,7 +1450,7 @@
 				margin-top: -5px;
 			}
 			.headerDescription_a55fdc {
-				color: var(--text-normal) !important;
+				color: var(--text-default) !important;
 				margin-top: -1px;
 			}
 		}

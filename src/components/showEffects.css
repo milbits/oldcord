@@ -20,7 +20,7 @@
 }
 
 .custom-user-profile-theme{
-    --text-normal: #fffffff0 !important;
+    --text-default: #fffffff0 !important;
     --header-secondary: #ffffffe0 !important
 }
 

@@ -369,7 +369,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	),
 .bioTextArea__6a919 {
 	border-radius: 3px;
-	color: var(--text-normal) !important;
+	color: var(--text-default) !important;
 	background-color: var(--deprecated-text-input-bg);
 	border: 1px solid var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
@@ -628,7 +628,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	background: var(--background-secondary);
 	border: 1px solid var(--background-tertiary);
 	border-radius: 5px;
-	color: var(--text-normal);
+	color: var(--text-default);
 	font-weight: 400;
 	font-size: 15px;
 	padding: 20px;
@@ -1697,7 +1697,7 @@ https://github.com/XYZenix/DTM-16
 		order: 2;
 	}
 	.description__81281 {
-		color: var(--text-normal) !important;
+		color: var(--text-default) !important;
 	}
 }
 .containerBackground_c880e8 {

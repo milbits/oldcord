@@ -918,7 +918,7 @@ html.theme-dark .badgeContainer__635ed path {
 /** Bio*/
 
 .descriptionClamp_f5f93a [data-text-variant="text-sm/normal"] {
-	color: var(--text-normal) !important;
+	color: var(--text-default) !important;
 }
 /* add a scrollbar to user bio*/
 .viewFullBio_f5f93a {

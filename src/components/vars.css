@@ -58,7 +58,7 @@
 	--button-secondary-background-active: #72767d;
 	--primary-transparent: #ffffff1a;
 
-	--search-popout-option-user-nickname: var(--text-normal);
+	--search-popout-option-user-nickname: var(--text-default);
     --search-popout-option-user-username: var(--text-muted);
     --search-popout-option-filter-text: var(--primary-400);
     --search-popout-option-non-text-color: #caccce;
