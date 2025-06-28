@@ -1,4 +1,4 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars),.theme-darker,.theme-midnight) {
+.theme-dark:not(html.custom-theme-background, +:has(#clientThemeVars),.theme-darker,.theme-midnight) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
@@ -97,7 +97,7 @@
     --text-muted: #72767d;
 }
 
-.theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
+.theme-light:not(html.custom-theme-background, +:has(#clientThemeVars)) {
 	--chat-background-default: #ebedef;
 	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
@@ -129,7 +129,6 @@ body {
 	--blurple-inverted-hover: hsl(228, calc(var(--saturation-factor, 1) * 56%), 98%);
 	--blurple-inverted-active: hsl(229, calc(var(--saturation-factor, 1) * 60%), 93%);
 	--text-brand: var(--blurple);
-	--bg-brand: var(--blurple);
 	--brand-260: var(--brand-experiment-260);
 	--brand-360: var(--brand-experiment-360);
 	--brand-460: var(--brand-experiment-460);

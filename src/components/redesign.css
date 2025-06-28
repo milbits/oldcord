@@ -1,15 +1,19 @@
-.theme-dark:not(html.custom-theme-background, html:has(#clientThemeVars),.theme-darker) {
-		--background-base-low: var(--background-primary);
-		--background-base-lower: var(--background-primary);
-		--background-base-lowest: var(--background-secondary);
-		--background-surface-highest: var(--background-primary);
-		--background-surface-higher: var(--background-floating, var(--background-tertiary));
-		--bg-base-tertiary: var(--background-tertiary);
+.theme-dark /*general overwrites*/
+ {
+		--background-base-low: var(--background-primary) !important;
+		--background-base-lower: var(--background-primary)!important;
+		--background-base-lowest: var(--background-secondary) !important;
+		--custom-channel-members-bg: var(--background-secondary) !important;
+		--background-surface-highest: var(--background-primary)!important;
+		--background-surface-higher: var(--background-floating, var(--background-tertiary))!important;
+
+		--checkbox-background-checked: var(--blurple)!important;
+		--bg-brand: var(--blurple, var(--blurple-50))!important;
+}
+.theme-dark:not(html.custom-theme-background, html:has(+#clientThemeVars),.theme-darker) {
 		--custom-channel-members-bg: var(--background-secondary);
 		--background-mod-subtle: var(--background-modifier-hover);
-		--bg-brand: var(--blurple, var(--blurple-50));
 		--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-		--checkbox-background-checked: var(--blurple);
 		--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 		--__spoiler-background-color--hidden: var(--primary-700);
 		--__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl) / 0.8);
@@ -22,26 +26,22 @@
 		--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
 	.theme-darker {	
-		--background-primary: var(--background-base-low);
-		--background-base-lowest: var(--background-secondary);
-		--background-secondary: color-mix(in oklab,var(--neutral-89) 90%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
-		--background-tertiary: color-mix(in oklab,var(--neutral-94) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
-		--background-surface-highest: var(--background-primary);
-		
+		--bg-brand: var(--blurple, var(--blurple-50));
+
+		--background-primary: color-mix(in oklab,var(--neutral-80) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
+		--background-secondary: color-mix(in oklab,var(--neutral-85) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
+		--background-tertiary: color-mix(in oklab,var(--neutral-90) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));		
+
 		--header-secondary: color-mix(in oklab,var(--neutral-5) 70%,var(--theme-text-color,#000) var(--theme-text-color-amount,0%)) !important;
 		--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 30%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 		--chat-background-default: hsl(218 4% 18% / 1) !important;
 	}
 	.theme-midnight {
 		--background-primary:  color-mix(in oklab,var(--neutral-90) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
-		--background-base-lowest: var(--background-secondary);
 		--background-secondary: color-mix(in oklab,var(--neutral-95) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
-		--background-tertiary: color-mix(in oklab,var(--neutral-100) 50%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%));
-		--background-surface-highest: var(--background-primary);
-		
-
+		--background-secondary-alt: color-mix(in oklab, var(--neutral-85) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+		--background-tertiary: color-mix(in oklab,var(--neutral-100) 100%,var(--theme-base-color,#000) var(--theme-base-color-amount,0%)) !important;
 		--chat-background-default: hsl(0 0% 11% / 1) !important;
-		--background-secondary-alt: color-mix(in oklab, var(--neutral-86) 60%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	}
 	html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 		color: var(--channels-default);
