@@ -117,7 +117,7 @@
 	--radio-group-dot-foreground: hsl(227, calc(var(--saturation-factor, 1) * 31%), 44%);
 	--primary-transparent: hsla(214, calc(var(--saturation-factor, 1) * 10%), 50%, 0.102);
 }
-body {
+:root {
 	--text-muted: #72767d;
 	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
