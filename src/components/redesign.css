@@ -1402,7 +1402,7 @@ html.platform-osx .title_c38106 {
 		padding-top: 24px;
 	}
 	.mainCard_f369db {
-		background: var(--bg-mod-faint);
+		background: var(--background-base-lowest);
 		border: 1px solid transparent;
 	}
 	.container_faa96b {
@@ -1427,6 +1427,7 @@ html.platform-osx .title_c38106 {
 	.pill_a2c9e8 {
 		background-color: var(--background-secondary-alt);
 		border: 1px solid transparent;
+		border-radius: 4px;
 		color: var(--text-default);
 	}
 	.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
@@ -1613,6 +1614,9 @@ html.platform-osx .title_c38106 {
 	/* call background */
 	.wrapper_cb9592.minimum_cb9592 .callContainer_cb9592 {
 		background: #202225;
+	}
+	.pulseGradient__11664 {
+		display: none;
 	}
 
 	/* friends tab wumpus */
