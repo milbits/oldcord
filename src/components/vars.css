@@ -123,7 +123,7 @@
 	--primary-transparent: hsla(214, calc(var(--saturation-factor, 1) * 10%), 50%, 0.102);
 }
 :root {
-	--oldcord-tint: 200; /*this only applies to light mode. why this exists idk*/
+	--oldcord-tint: 210; /*this only applies to light mode. why this exists idk*/
 
 	--text-muted: #72767d;
 	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
