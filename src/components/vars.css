@@ -98,13 +98,19 @@
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--background-primary: hsl(var(--oldcord-tint) 11.11% 99%);
-	--background-secondary:hsl(var(--oldcord-tint) 17.11% 94%) ;
+	--background-primary: hsl(var(--oldcord-tint) 100.11% 99%);
+	--background-secondary:hsl(var(--oldcord-tint) 24.11% 94%) ;
 	--background-tertiary:hsl(var(--oldcord-tint) 22.11% 86%) ;
+	--background-secondary-alt:hsl(var(--oldcord-tint) 17.11% 90%) ;
+	
 	--text-default: hsl(0deg 0% 13.33%);
-
 	--chat-background-default: hsl(var(--oldcord-tint) 11.11% 90.94%);
+	
 	--background-modifier-accent: #06060714;
+	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 30) 25% 89.2%);
+	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 30) 25% 87%) !important;
+	--background-modifier-selected: hsl(calc(var(--oldcord-tint) + 30) 25% 84%);
+	
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
 	--background-message-hover: rgba(6, 6, 7, 0.02);
