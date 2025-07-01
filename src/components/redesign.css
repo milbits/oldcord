@@ -90,6 +90,12 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 		top: 69px !important;
 	}
 }
+  /* better support a client that like only 1 person uses but i hate disappointing people so im doing it */
+	html[data-dorion-platform="linux"] {
+		.bar_c38106 .trailing_c38106 {
+			top: 55.3px !important;
+		}
+	}
 /* platform-specific fixes */
 .platform-osx .base_c48ade {
 	grid-template-areas:
