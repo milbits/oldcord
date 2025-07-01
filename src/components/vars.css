@@ -98,11 +98,17 @@
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--chat-background-default: #ebedef;
+	--background-primary: hsl(210deg 17.11% 96%);
+	--background-secondary:hsl(210deg 17.11% 92%) ;
+	--background-tertiary:hsl(210deg 22.11% 86%) ;
+
+	--text-default: hsl(0deg 0% 13.33%);
+	--chat-background-default: hsl(210deg 11.11% 90.94%);
 	--background-modifier-accent: #06060714;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
 	--background-message-hover: rgba(6, 6, 7, 0.02);
+    
 	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
 	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);

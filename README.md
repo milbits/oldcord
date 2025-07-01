@@ -12,12 +12,12 @@ A theme for Discord that brings the 2020 UI back without removing features
 > - To have the old gray colors, use the "Ash" theme in appearance settings
 >   - If you use vencord's "Client Theme" plugin, use darker
 
-<details> <summary>Light mode (shit)</summary>
+<details> <summary>Light mode</summary>
 
-Light mode is currently not properly supported, please give me a trillion euros so i work on it :3
+Light mode does NOT have 2020 colors and it's tailored to ME but i think nobody cares at all
 
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
-
+preview outdated
 </details>
 
 

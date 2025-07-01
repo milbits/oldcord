@@ -1,4 +1,4 @@
-.theme-dark {
+.theme-dark,.theme-light {
 	&:not(.custom-theme-background) {
 		--background-base-low: var(--background-primary) !important;
 		--background-base-lower: var(--background-primary) !important;
@@ -251,7 +251,7 @@ html.platform-osx .title_c38106 {
 	.sidebar__23e6b:not(.selected_b3f026, :hover) {
 		color: var(--interactive-normal);
 	}
-	.colorDefault_c1e9c4 .label_c1e9c4 {
+	&.theme-dark .colorDefault_c1e9c4 .label_c1e9c4 {
 		color: unset;
 	}
 	.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
