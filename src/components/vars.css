@@ -98,8 +98,6 @@
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--text-link: var(--brand-experiment-530);
-	
 	--background-primary: hsl(var(--oldcord-tint) 100.11% 99%);
 	--background-secondary:hsl(var(--oldcord-tint) 24.11% 94%) ;
 	--background-tertiary:hsl(var(--oldcord-tint) 22.11% 86%) ;
@@ -134,9 +132,9 @@
 	--oldcord-tint: 210; /*this only applies to light mode. why this exists idk*/
 
 	--text-muted: #72767d;
-	--font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	--font-headline: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
+	--font-display: Whitney, "Helvetica Neue", "gg sans" ,Helvetica, Arial, sans-serif !important;
+	--font-headline: Whitney, "Helvetica Neue","gg sans" , Helvetica, Arial, sans-serif;
 	--blurple: var(--brand-experiment);
 	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
 	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
