@@ -67,7 +67,7 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	background: none !important;
 }
 /* remove the title bar on web & linux */
-.platform-web,
+.platform-web:not(html[data-dorion-platform="linux"]),
 .platform-linux {
 	.base_c48ade {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
