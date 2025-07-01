@@ -98,6 +98,8 @@
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
+	--text-link: var(--brand-experiment-530);
+	
 	--background-primary: hsl(var(--oldcord-tint) 100.11% 99%);
 	--background-secondary:hsl(var(--oldcord-tint) 24.11% 94%) ;
 	--background-tertiary:hsl(var(--oldcord-tint) 22.11% 86%) ;
