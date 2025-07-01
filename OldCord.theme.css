@@ -40,3 +40,7 @@
   
 /*this one sucks*/
   /*@import url("https://milbits.github.io/oldcord/src/components/miyamoto.css");*/
+
+:root{
+ --oldcord-tint: 210; /*Light mode tint. Has to be hue in HSL*/
+}
