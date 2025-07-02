@@ -1,6 +1,7 @@
 .theme-dark,.theme-light {
 	&:not(.custom-theme-background) {
 		--background-base-low: var(--background-primary) !important;
+		
 		--background-base-lower: var(--background-primary) !important;
 		--background-base-lowest: var(--background-secondary) !important;
 		--custom-channel-members-bg: var(--background-secondary) !important;
@@ -61,9 +62,10 @@
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
+	
 }
 
-.sidebarRegionScroller__23e6b {
+html:not(.theme-light) .sidebarRegionScroller__23e6b {
 	background: none !important;
 }
 /* remove the title bar on web & linux */
