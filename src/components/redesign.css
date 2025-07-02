@@ -45,19 +45,19 @@
 	--chat-background-default: hsl(218 4% 18% / 1) !important;
 }
 .theme-midnight {
-	--background-primary: color-mix(in oklab, var(--neutral-90) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+	--background-primary: color-mix(in oklab, var(--neutral-97) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--background-secondary: color-mix(
 		in oklab,
-		var(--neutral-95) 100%,
+		var(--neutral-98) 100%,
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
-	--background-secondary-alt: color-mix(in oklab, var(--neutral-85) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+	--background-secondary-alt: color-mix(in oklab, var(--neutral-94) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--background-tertiary: color-mix(
 		in oklab,
 		var(--neutral-100) 100%,
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
-	--chat-background-default: hsl(0 0% 11% / 1) !important;
+	--chat-background-default: hsl(0 0% 8.5% / 1) !important;
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
