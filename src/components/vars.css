@@ -14,7 +14,7 @@
 	--primary-630: var(--background-secondary);
 	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
 	--background-secondary-alt: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
-	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
+	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%) ;
 	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
 	--background-modifier-hover: #4f545c29;
@@ -36,6 +36,7 @@
 	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
 	--elevation-medium: 0 4px 4px #00000029;
 	--elevation-high: 0 8px 16px #0000003d;
+	--bg-base-tertiary: var(--background-tertiary);
 
 	--legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl) / 0.3);
 	--legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.2);
@@ -102,10 +103,10 @@
 	--background-secondary:hsl(var(--oldcord-tint) 24.11% 94%) ;
 	--background-tertiary:hsl(var(--oldcord-tint) 22.11% 86%) ;
 	--background-secondary-alt:hsl(var(--oldcord-tint) 17.11% 90%) ;
-	
 	--text-default: hsl(0deg 0% 13.33%);
 	--chat-background-default: hsl(var(--oldcord-tint) 11.11% 90.94%);
-	
+		--bg-base-tertiary: var(--background-tertiary);
+
 	--background-modifier-accent: #06060714;
 	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 30) 25% 89.2%);
 	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 30) 25% 87%) !important;
@@ -251,7 +252,6 @@
     --notice-text-info: #fff;
 	--background-surface-high: var(--background-secondary);
 	--bg-base-secondary: var(--background-secondary);
-	--bg-base-tertiary: var(--background-tertiary);
 }
 
 .cardPrimary__73069 {
