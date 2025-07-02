@@ -36,11 +36,9 @@
 /* Old color when you use right click menus*/
    /*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
 
-
-  
-/*this one sucks*/
-  /*@import url("https://milbits.github.io/oldcord/src/components/miyamoto.css");*/
-
 :root{
  --oldcord-tint: 210; /*Light mode tint. Has to be hue in HSL*/
+ --oldcord-tint-intensity: 11.11; /*Tint intensity/Saturation. 0 for grayscale, 10000 for an awesome party*/
+ 
+ --reaction-animation: 0; /*animation when someone reacts. 0 off 1 on. buggy.*/
 }
