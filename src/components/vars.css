@@ -99,12 +99,12 @@
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--background-primary: hsl(var(--oldcord-tint) 100.11% 99%);
-	--background-secondary:hsl(var(--oldcord-tint) 24.11% 94%) ;
-	--background-tertiary:hsl(var(--oldcord-tint) 22.11% 86%) ;
-	--background-secondary-alt:hsl(var(--oldcord-tint) 17.11% 90%) ;
+	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%);
+	--background-secondary:hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%) ;
+	--background-tertiary:hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%) ;
+	--background-secondary-alt:hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%) ;
 	--text-default: hsl(0deg 0% 13.33%);
-	--chat-background-default: hsl(var(--oldcord-tint) 11.11% 90.94%);
+	--chat-background-default: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90.94%);
 		--bg-base-tertiary: var(--background-tertiary);
 
 	--background-modifier-accent: #06060714;
@@ -131,7 +131,8 @@
 }
 :root {
 	--oldcord-tint: 210; /*this only applies to light mode. why this exists idk*/
-
+	--oldcord-tint-intensity: 11.11;
+	
 	--text-muted: #72767d;
 	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", "gg sans" ,Helvetica, Arial, sans-serif !important;
