@@ -1655,7 +1655,7 @@ https://github.com/XYZenix/DTM-16
 .applicationStore_f07d62 {
 	.colorBrandInverted__201d5 {
 		background: var(--green);
-		.premiumSubscribeButton_e00877, .premiumIcon_e00877, .v2SubButtonText_c880e8 {
+		.premiumSubscribeButton_e00877, .premiumIcon_e00877, .v2SubButtonText_c880e8, .v2SubButtonText_ac86f6 {
 			color: var(--white)
 		}
 		&:hover {
