@@ -1,7 +1,7 @@
 .theme-dark,.theme-light {
 	&:not(.custom-theme-background) {
 		--background-base-low: var(--background-primary) !important;
-		
+		--bg-base-tertiary: var(--background-tertiary) ;
 		--background-base-lower: var(--background-primary) !important;
 		--background-base-lowest: var(--background-secondary) !important;
 		--custom-channel-members-bg: var(--background-secondary) !important;
@@ -27,7 +27,6 @@
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
 .theme-darker {
-	--bg-brand: var(--blurple, var(--blurple-50));
 
 	--background-primary: color-mix(in oklab, var(--neutral-80) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--background-secondary: color-mix(
