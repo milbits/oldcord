@@ -27,7 +27,7 @@
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
 .theme-darker {
-
+	--background-modifier-accent: hsl(217, 0%, 20%);
 	--background-primary: color-mix(in oklab, var(--neutral-80) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--background-secondary: color-mix(
 		in oklab,
@@ -45,6 +45,7 @@
 	--chat-background-default: hsl(218 4% 18% / 1) !important;
 }
 .theme-midnight {
+	--background-modifier-accent: hsl(217, 0%, 12%);
 	--background-primary: color-mix(in oklab, var(--neutral-96) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--background-secondary: color-mix(
 		in oklab,
