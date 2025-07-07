@@ -684,8 +684,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 
 /** Connections (in settings > connections)*/
 .connectContainer_c7f964 {
-	border: 1px solid var(--deprecated-text-input-border);
-	border-radius: 6px;
+	border-radius: 8px;
+	background: var(--background-secondary-alt);
 }
 .accountButtonInner_c7f964 {
 	background-color: var(--background-modifier-hover);
@@ -1720,4 +1720,68 @@ https://github.com/XYZenix/DTM-16
 .leftGradient__14cf2, 
 .rightGradient__14cf2 {
 	display: none;
+}
+
+/* authed apps */
+.authedAppV2__50a54 {
+	border: 1px solid var(--background-tertiary);
+	border-radius: 5px;
+	background: none;
+	.headerV2__50a54 {
+		background: none;
+		.appAvatarV2__50a54 {
+			border-radius: 50%;
+		}
+	}
+	.contentExpandContainer__217b7 {
+		height: 100% !important;
+		.appDetailsSectionHeader__50a54 {
+			cursor: default;
+			.heading-sm\/medium_cf4812 {
+				font-size: 12px;
+				color: var(--header-secondary) !important;
+				font-weight: 800;
+				font-family: var(--font-display);
+				margin-bottom: 4px;
+				text-transform: uppercase;
+			}
+			svg {
+				display: none;
+			}
+		}
+	}
+	.appDetailsContainer__50a54 {
+		display: flex;
+		flex-direction: column;
+	}
+	.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+		border-bottom: unset;
+	}
+	.appDetailsContent__50a54 .text-sm\/normal_cf4812 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.permissionsDescription__50a54 {
+		display: none;
+	}
+	.footer__50a54 {
+		margin: unset;
+		order: -1;
+		position: absolute;
+		align-self: end;
+		margin-right: 47px;
+		margin-top: -57px;
+		.deauthorizeButton__50a54 {
+			opacity: 0;
+			-webkit-transition: opacity .2s ease;
+			transition: opacity .2s ease;
+		}
+		.warningContainer__50a54 {
+			display: none; /* hated trying to position this so much i gave up */
+		}
+	}
+}
+
+.authedAppV2__50a54:hover .deauthorizeButton__50a54 {
+	opacity: 1;
 }
