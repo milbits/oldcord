@@ -533,13 +533,13 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	border: none;
 }
 #app-mount .pill_a2c9e8.selected_a2c9e8 {
-	background-color: var(--brand-experiment-35a);
+	background-color: var(--brand-experiment-50a);
 	border-color: transparent;
 	color: #fff !important;
-	border-radius: 5px;
+	border-radius: 6px;
 }
 #app-mount .pill_a2c9e8.selected_a2c9e8:hover {
-	background-color: var(--brand-experiment-50a);
+	background-color: var(--brand-experiment-70a);
 	transition: 0.1s ease;
 }
 .pill_a2c9e8.selected_a2c9e8 .defaultColor__77578 {
