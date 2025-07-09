@@ -422,7 +422,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	outline: none;
 	opacity: 1;
 	right: 0px;
-
 }
 /*fuck ai!! rahhh*/
 .hoverButton__06ab4:has(.lottieIcon__5eb9b) {
@@ -443,9 +442,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .visualMediaItemContainer_f4758a .hoverButtonGroup__06ab4 {
 	background-color: rgb(0 0 0 / 0.5);
 	transform: translateY(-40px);
-	.mosaicItem__6c706:hover &{
+	.mosaicItem__6c706:hover & {
 		transform: translateY(-4px);
-		
 	}
 }
 /* make download button bigger */
@@ -454,7 +452,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	height: 24px !important;
 }
 /* remove background hover */
-.hoverButton__06ab4{
+.hoverButton__06ab4 {
 	&:hover {
 		background: none;
 	}
@@ -505,27 +503,50 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 
 /** forum channel*/
-/* tags in create post*/
+.card_f369db {
+	padding-bottom: 8px;
+}
+.grid_f369db > div:first-child,
+.headerRow_f369db,
+.list_f369db > div:first-child {
+	min-width: 400px;
+	padding-right: var(--spacing-16);
+}
+
+.tagsContainer_f369db {
+	padding-top: 24px;
+}
+
+.container_faa96b {
+	padding: 12px;
+}
+/* tags*/
+.sortDropdown_f369db,
+.tagsButton_f369db {
+	background: var(--background-secondary-alt) !important;
+	&:hover {
+		background: var(--background-tertiary) !important;
+	}
+}
+#app-mount .pill_a2c9e8 {
+	transition: 0.17s ease;
+	border: none;
+}
 #app-mount .pill_a2c9e8.selected_a2c9e8 {
 	background-color: var(--brand-experiment-35a);
 	border-color: transparent;
-	transition: 0.1s ease;
 	color: #fff !important;
+	border-radius: 5px;
 }
-
 #app-mount .pill_a2c9e8.selected_a2c9e8:hover {
 	background-color: var(--brand-experiment-50a);
 	transition: 0.1s ease;
 }
-
 .pill_a2c9e8.selected_a2c9e8 .defaultColor__77578 {
 	color: var(--interactive-active);
 	transition: 0.1s ease;
 }
 
-.theme-light .pill_a2c9e8 {
-	background: var(--background-secondary);
-}
 
 /* make the button gray when following*/
 .buttonInner__34c2c,
@@ -566,15 +587,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	min-width: 1.5rem;
 }
 
-.submitButton-3B-dZd {
-	border-radius: 3px !important;
-}
-
-/* change tag backgrounds*/
-.container-2qVG6q .pill_a2c9e8 {
-	background-color: var(--background-tertiary);
-}
-
 .botTagOP__82f07 {
 	color: var(--blurple);
 	background-color: transparent;
@@ -608,7 +620,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	border-radius: 5px;
 	box-shadow: none !important;
 	background: var(--deprecated-card-editable-bg);
-	border: none;
+	border: none !important;
 }
 
 .content__99f8c .container__9a337:hover,
@@ -1403,7 +1415,7 @@ h2.title_b717a1,
 	> .noWrap_abf706:is(.header__49fc1) {
 		visibility: hidden;
 		padding: unset;
-		margin-top: -16px
+		margin-top: -16px;
 	}
 	> .modalContent__837b7 {
 		padding-bottom: 30px;
@@ -1412,7 +1424,7 @@ h2.title_b717a1,
 			text-transform: uppercase;
 		}
 		.heading-lg\/semibold_cf4812:before {
-			content: "WOULD YOU LIKE TO "
+			content: "WOULD YOU LIKE TO ";
 		}
 		.eyebrow_b717a1 .text-md\/medium_cf4812 {
 			font-size: 12px;
@@ -1428,7 +1440,7 @@ h2.title_b717a1,
 			margin-left: -14px;
 		}
 		.radioGroup__837b7 {
-			gap: var(--space-8)
+			gap: var(--space-8);
 		}
 		.item__001a7[aria-checked="true"] .info__001a7 {
 			color: var(--white);
@@ -1631,11 +1643,11 @@ https://github.com/XYZenix/DTM-16
 	flex: 1 1 100%;
 }
 /*vc/call buttons*/
-.buttonSection__1405b{
+.buttonSection__1405b {
 	background: var(--background-floating);
 	border: none;
 	border-radius: 6px;
-	& +:not(.redGlow_f1ceac) path{
+	& + :not(.redGlow_f1ceac) path {
 		fill: var(--interactive-hover) !important;
 	}
 }
@@ -1655,8 +1667,11 @@ https://github.com/XYZenix/DTM-16
 .applicationStore_f07d62 {
 	.colorBrandInverted__201d5 {
 		background: var(--green);
-		.premiumSubscribeButton_e00877, .premiumIcon_e00877, .v2SubButtonText_c880e8, .v2SubButtonText_ac86f6 {
-			color: var(--white)
+		.premiumSubscribeButton_e00877,
+		.premiumIcon_e00877,
+		.v2SubButtonText_c880e8,
+		.v2SubButtonText_ac86f6 {
+			color: var(--white);
 		}
 		&:hover {
 			background: var(--green-hover);
@@ -1665,8 +1680,9 @@ https://github.com/XYZenix/DTM-16
 			background: var(--green-active);
 		}
 	}
-	.brandShine_e00877, .buttonShine__6a443 {
-		color: hsla(0,0%,100%,.1) !important;
+	.brandShine_e00877,
+	.buttonShine__6a443 {
+		color: hsla(0, 0%, 100%, 0.1) !important;
 	}
 	.giftButton__82222 {
 		border: unset;
@@ -1690,8 +1706,8 @@ https://github.com/XYZenix/DTM-16
 		transform: scale(1.4);
 	}
 	.marketingPageTextContainer__81281 {
-	    display: flex;
-	    flex-direction: column;
+		display: flex;
+		flex-direction: column;
 	}
 	.marketingPageCTAContainer__81281 {
 		order: 2;
@@ -1709,15 +1725,15 @@ https://github.com/XYZenix/DTM-16
 	background: unset !important;
 	height: 49px !important;
 	svg path {
-		fill: var(--channel-icon)
+		fill: var(--channel-icon);
 	}
 }
 .homeWrapper__0920e {
 	border-top: unset !important;
 }
 .heroHeaderSideGradient_c880e8,
-.bentoSideGradient_abac7b, 
-.leftGradient__14cf2, 
+.bentoSideGradient_abac7b,
+.leftGradient__14cf2,
 .rightGradient__14cf2 {
 	display: none;
 }
@@ -1773,8 +1789,8 @@ https://github.com/XYZenix/DTM-16
 		margin-top: -57px;
 		.deauthorizeButton__50a54 {
 			opacity: 0;
-			-webkit-transition: opacity .2s ease;
-			transition: opacity .2s ease;
+			-webkit-transition: opacity 0.2s ease;
+			transition: opacity 0.2s ease;
 		}
 		.warningContainer__50a54 {
 			display: none; /* hated trying to position this so much i gave up */
