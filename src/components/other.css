@@ -1801,3 +1801,64 @@ https://github.com/XYZenix/DTM-16
 .authedAppV2__50a54:hover .deauthorizeButton__50a54 {
 	opacity: 1;
 }
+
+/* new invites */
+.guildInviteContainer__083ae {
+	box-sizing: border-box;
+	cursor: default;
+	display: flex;
+	flex-direction: column;
+	max-width: 432px;
+	min-width: 160px;
+	max-height: 174px;
+	height: unset !important;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100%;
+	border: unset;
+	.cardHeightMeasure__083ae:before {
+		content: "YOU'VE BEEN INVITED TO JOIN A SERVER";
+		position: absolute;
+		top: 85px;
+		left: 16px;
+		font-family: var(--font-display);
+        font-size: 12px;
+        line-height: 1.3333333333333333;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+		color: var(--header-secondary);
+	}
+	.avatarContainer_dca174 {
+		margin-top: 36px;
+		.avatarWrapper_dca174 {
+			background: unset;
+			height: 50px;
+			width: 50px;
+		}
+	}
+	.header__6e500 {
+		position: absolute;
+		margin-top: 116px;
+		margin-left: 70px;
+	}
+	.established__6e500 {
+		display: none;
+	}
+	.body_dca174 {
+		display: none;
+	}
+	.footer__083ae {
+		display: flex;
+		flex-direction: row-reverse;
+		position: relative;
+		margin-top: -68px;
+		.gradient__083ae {
+			display: none;
+		}
+		button {
+			line-height: 20px;
+			height: 40px;
+			min-height: unset;
+		}
+	}
