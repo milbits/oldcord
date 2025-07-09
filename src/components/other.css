@@ -615,7 +615,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 /* posts*/
 .container__9a337,
 .container_faa96b {
-	transition: 0.17s ease !important;
+	transition: 0.1s ease !important;
 	transform: none !important;
 	border-radius: 5px;
 	box-shadow: none !important;
