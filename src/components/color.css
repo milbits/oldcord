@@ -553,3 +553,11 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 		backdrop-filter: none;
 	}
 }
+
+.vc-addon-card{
+	background: var(--background-secondary-alt) !important;
+	border: none !important;
+	&:hover{
+		background: var(--background-tertiary) !important:
+	}
+}
