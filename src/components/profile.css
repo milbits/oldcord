@@ -1292,7 +1292,8 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		margin-left: 10px;
 	}
 }
-.sizeSmall__201d5.colorBrand__201d5.lookFilled__201d5.button__43a4b {
+.sizeSmall__201d5.colorBrand__201d5.lookFilled__201d5.button__43a4b,
+.button__6af3a.active__6af3a {
 	background: var(--green);
 	&:hover {
 		background: var(--green-active) !important;
@@ -1306,6 +1307,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 .user-profile-modal .inner_c0bea0 .sizeSmall__201d5.button_fb7f94 {
 	background: var(--green);
+	padding: 2px 16px;
 	&:hover {
 		background: var(--green-hover) !important;
 	}
@@ -1875,6 +1877,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	.fieldButton__1fed1:not(.removeButton__1fed1) {
 		background-color: var(--blurple);
 		color: var(--white);
+		border-radius: 3px;
 		&:hover {
 			background-color: var(--blurple-hover);
 		}
