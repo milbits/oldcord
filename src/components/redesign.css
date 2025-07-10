@@ -1794,6 +1794,7 @@ html.platform-osx .title_c38106 {
 	.transparent__9293f .toolbar__9293f, 
 	.transparent__9293f .upperContainer__9293f {
 		opacity: 1;
+		pointer-events: all;
 	}
 }
 
