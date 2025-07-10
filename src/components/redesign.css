@@ -1788,6 +1788,13 @@ html.platform-osx .title_c38106 {
 	.ownerIcon__5d473 {
 		color: var(--text-warning);
 	}
+
+	/* show header elements in a call */
+	.transparent__9293f .children__9293f, 
+	.transparent__9293f .toolbar__9293f, 
+	.transparent__9293f .upperContainer__9293f {
+		opacity: 1;
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
