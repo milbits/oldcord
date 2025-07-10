@@ -528,6 +528,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 		background: var(--background-tertiary) !important;
 	}
 }
+.sortDropdownText_f369db{
+	display: none
+}
 #app-mount .pill_a2c9e8 {
 	transition: 0.17s ease;
 	border: none;
