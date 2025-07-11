@@ -59,6 +59,8 @@
 		var(--neutral-100) 100%,
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
+	--background-floating: color-mix(in oklab, var(--neutral-100) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+	
 	--chat-background-default: hsl(0 0% 8.5% / 1) !important;
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
