@@ -1398,8 +1398,14 @@ h2.title_b717a1,
 :is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
 	.container_c9d15c {
 		display: flex;
+		.textWithIconContainer_c9d15c {
+			order: 1
+		}
 		.icon_c9d15c {
 			order: 1;
+			path {
+				fill: var(--interactive-normal) !important;
+			}
 		}
 		.emoji_c9d15c {
 			order: -1;
