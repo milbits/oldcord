@@ -135,6 +135,9 @@ html.platform-win .sidebarListRounded_c48ade {
 html.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8) {
 	transform: translateY(3px);
 }
+html.platform-win .container_c48ade:has(.notice__6e2b9, .bd-notice) .sidebarListRounded_c48ade {
+	border-top-left-radius: unset !important;
+}
 html.platform-osx .title_c38106 {
 	display: none !important;
 }
@@ -1529,7 +1532,7 @@ html.platform-osx .title_c38106 {
 	.notice__6e2b9,
 	#bd-notices {
 		box-shadow: var(--elevation-low);
-		margin-top: 22px;
+		margin-top: 23px;
 		margin-bottom: -38px;
 		grid-area: channelsList / channelsList / channelsList / page;
 	}
