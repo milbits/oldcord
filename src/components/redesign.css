@@ -859,11 +859,11 @@ html.platform-osx .title_c38106 {
 
 	/*Betterfolders (vencord)*/
 	.base_c48ade.vc-betterFolders-sidebar-grid {
-		grid-template-columns: [start] 80px [guilds-end] min-content [betterFoldersSidebar-end] 240px [channelsEnd] 1fr [end];
+		grid-template-columns: [start] 100px [guilds-end] min-content [betterFoldersSidebar-end] auto [channelsEnd] 1px [end];
 		grid-template-areas: "titleBar titleBar titleBar titleBar" "guildsList betterFoldersSidebar notice notice" "guildsList betterFoldersSidebar channelsList page";
 	}
 	.base_c48ade.vc-betterFolders-sidebar-grid .sidebar_c48ade {
-		grid-template-columns: [start] 80px [guilds-end] min-content [betterFoldersSidebar-end] 240px [end];
+		grid-template-columns: [start] 70px [guilds-end] min-content [betterFoldersSidebar-end] 240px [end];
 		grid-template-areas: "guilds betterFoldersSidebar sidebar" "guilds betterFoldersSidebar panels";
 		width: auto !important;
 	}
