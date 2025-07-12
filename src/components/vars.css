@@ -37,7 +37,7 @@
 	--elevation-medium: 0 4px 4px #00000029;
 	--elevation-high: 0 8px 16px #0000003d;
 	--bg-base-tertiary: var(--background-tertiary);
-
+	--icon-primary: var(--interactive-normal);
 	--legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl) / 0.3);
 	--legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.2);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl) / 0.6);
