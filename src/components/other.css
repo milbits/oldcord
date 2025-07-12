@@ -1401,11 +1401,17 @@ h2.title_b717a1,
 		.textWithIconContainer_c9d15c {
 			order: 1
 		}
-		.icon_c9d15c {
+		.icon_c9d15c, .activityContainer_c9d15c {
 			order: 1;
 			path {
 				fill: var(--interactive-normal) !important;
 			}
+		}
+		.activityContainer_c9d15c .icon_c9d15c {
+			order: -1;
+		}
+		.activityContainer_c9d15c .activityCounter_c9d15c {
+			color: var(--interactive-normal) !important;
 		}
 		.emoji_c9d15c {
 			order: -1;
@@ -1417,6 +1423,9 @@ h2.title_b717a1,
 	.container_c9d15c:has(.statusText__19b6d:not(.dot_c9d15c):nth-of-type(3)) .statusText__19b6d:nth-of-type(1) {
 		display: none;
 	}
+}
+.tooltip__382e7 .icon_c9d15c path {
+	fill: var(--interactive-normal)
 }
 
 /* ban modal */
