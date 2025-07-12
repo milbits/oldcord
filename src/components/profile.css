@@ -238,6 +238,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 .avatarPopover__2d0ab {
 	display: none;
 }
+.cardsList__84832{
+	gap: 0px;
+
+}
 /** Variables*/
 
 .user-profile-popout:not(.themeContainer_ce8328) .inner_c0bea0:has(.clickableContainer__39ec2) {
