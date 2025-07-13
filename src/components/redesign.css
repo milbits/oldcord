@@ -759,6 +759,9 @@ html.platform-osx .title_c38106 {
 		height: var(--custom-button-button-sm-height);
 	    min-height: var(--custom-button-button-sm-height);
 	}
+	.sizeSmall__201d5 {
+		padding: 2px 16px;
+	}
 	.select__3f413 {
 		border: 1px solid transparent;
 		cursor: pointer;
@@ -1814,6 +1817,11 @@ html.platform-osx .title_c38106 {
 	/* registered games */
 	.notDetected_cc46f0 {
 		background: var(--background-base-lowest)
+	}
+
+	/* unsaved changes */
+	.container_fcf29c {
+		background-color: var(--background-tertiary);
 	}
 }
 
