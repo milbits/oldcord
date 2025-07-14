@@ -1467,10 +1467,17 @@ h2.title_b717a1,
 	> .footer__837b7 {
 		button {
 			height: 38px;
+			min-height: 38px;
 			width: 96px;
 		}
 		button:nth-of-type(1) {
 			color: var(--white);
+			.lineClamp1__4bd52 {
+				font-size: 14px;
+			}
+		}
+		button:nth-of-type(1):hover .lineClamp1__4bd52 {
+			text-decoration: underline;
 		}
 	}
 }
