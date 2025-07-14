@@ -763,7 +763,7 @@ html.platform-osx .title_c38106 {
 		padding: 2px 16px;
 	}
 	.secondary__6af3a {
-		background-color: var(--background-secondary)
+		background-color: unset;
 	}
 	.select__3f413 {
 		border: 1px solid transparent;
