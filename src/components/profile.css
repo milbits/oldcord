@@ -1181,7 +1181,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	padding: 0 !important;
 }
 .user-profile-modal .inner_c0bea0 {
-	background: var(--background-tertiary);
+	background: var(--background-tertiary) !important;
 }
 
 .headerInner__24502 .avatar__75742 {
