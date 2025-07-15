@@ -864,7 +864,7 @@ html.platform-osx .title_c38106 {
 
 	/*Betterfolders (vencord)*/
 	.base_c48ade.vc-betterFolders-sidebar-grid {
-		grid-template-columns: [start] 100px [guilds-end] min-content [betterFoldersSidebar-end] auto [channelsEnd] 1px [end];
+		grid-template-columns: [start] 100px [guilds-end] min-content [betterFoldersSidebar-end] auto [channelsEnd] 1fr [end];
 		grid-template-areas: "titleBar titleBar titleBar titleBar" "guildsList betterFoldersSidebar notice notice" "guildsList betterFoldersSidebar channelsList page";
 	}
 	.base_c48ade.vc-betterFolders-sidebar-grid .sidebar_c48ade {
@@ -878,7 +878,7 @@ html.platform-osx .title_c38106 {
 			"titleBar titleBar titleBar titleBar"
 			"notice notice notice notice"
 			"guildsList guildsList channelsList page";
-		grid-template-columns: [start] min-content [guildsEnd] min-content [guildsEnd] min-content [channelsEnd] 1px [end];
+		grid-template-columns: [start] min-content [guildsEnd] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
 	}
 	.folderContentIsOpen_ac0584 .base_c48ade .sidebar_c48ade {
 		grid-template-areas:
