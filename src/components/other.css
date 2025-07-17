@@ -1836,7 +1836,6 @@ https://github.com/XYZenix/DTM-16
 	user-select: none;
 	width: 100%;
 	border: unset;
-	}
 	.established__6e500{
 		display: none
 	}
@@ -1855,10 +1854,8 @@ https://github.com/XYZenix/DTM-16
         text-transform: uppercase;
         letter-spacing: 0.02em;
 		color: var(--header-secondary);
-
 	}
 	.avatarContainer_dca174 {
-
 		margin-top: 36px;
 		.avatarWrapper_dca174 {
 			background: unset;
