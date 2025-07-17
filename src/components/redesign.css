@@ -1767,6 +1767,10 @@ html.platform-osx .title_c38106 {
 		border-radius: 4px;
 	}
 
+	.caretIcon_d6f39b .caretFill_d6f39b {
+		fill: var(--background-surface-higher)
+	}
+
 	/* channel updates */
 	.wrapper__44df5 {
 		background: var(--background-tertiary);

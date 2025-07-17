@@ -1678,14 +1678,12 @@ https://github.com/XYZenix/DTM-16
 }
 
 /* clan tag upsell */
-.container_cdb3b1 {
+.popover_d6f39b {
 	max-width: 220px;
-	margin-left: 4px;
+	margin-left: 63px;
+	margin-bottom: 8px;
 	border-radius: 4px;
 	background: var(--background-floating);
-	&:after {
-		border-top: 8px solid var(--background-floating);
-	}
 }
 
 /* nitro page */
