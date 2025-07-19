@@ -236,7 +236,7 @@ html.platform-osx .title_c38106 {
 		flex-direction: column;
 		border: none;
 		border-radius: 0;
-		background: var(--bg-overlay-2, var(--background-secondary-alt));
+		background: var(--background-gradient-lower, var(--background-secondary-alt));
 	}
 
 	.menu_c1e9c4 {
@@ -467,22 +467,8 @@ html.platform-osx .title_c38106 {
 		border-radius: 8px;
 		max-height: 91vh !important;
 	}
-	.messageGroupWrapper__45690 {
-		border: 1px solid var(--background-tertiary);
-		border-radius: 4px;
-		-webkit-user-select: none;
-		background: var(--background-primary);
-		margin-right: unset;
-	}
-	.searchHeader_f3b986 {
-		background: var(--bg-overlay-chat);
-		height: 48px;
-		padding: 0 20px;
-		border: unset;
-	}
-	.content__49fc1 {
-		padding-top: unset;
-	}
+
+
 	.root__49fc1 {
 		border: none;
 		outline: none;
@@ -683,7 +669,7 @@ html.platform-osx .title_c38106 {
 		margin: 0 8px;
 	}
 	.searchBar__97492 {
-		background: var(--bg-overlay-3, var(--background-tertiary));
+		background: var(--background-gradient-low, var(--background-tertiary));
 		padding: 0 2px;
 		height: 24px;
 		width: 144px;
@@ -702,7 +688,7 @@ html.platform-osx .title_c38106 {
 		box-shadow: var(--shadow-border), var(--shadow-high);
 		border-radius: 3px;
 		border: none;
-		background: var(--bg-overlay-3, var(--background-primary));
+		background: var(--background-gradient-low, var(--background-primary));
 		.queryContainer__55c99 {
 			background: var(--bg-base-tertiary);
 		}
@@ -1143,7 +1129,7 @@ html.platform-osx .title_c38106 {
 		}
 		.upload_aa605f {
 			background-color: unset;
-			background: var(--bg-overlay-5, var(--background-secondary));
+			background: var(--background-gradient-higher, var(--background-secondary));
 			border: unset;
 			border-radius: 4px;
 			box-shadow: unset;

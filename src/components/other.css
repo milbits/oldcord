@@ -603,7 +603,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 
 /* make "search/create post" background the same as the textarea*/
 .headerRow_f369db .mainCard_f369db {
-	background: var(--bg-overlay-3, var(--chat-background-default));
+	background: var(--background-gradient-low, var(--chat-background-default));
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 5px;

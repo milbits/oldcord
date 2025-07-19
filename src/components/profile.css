@@ -5,7 +5,7 @@
 	opacity: 0.5 !important;
 }
 .panel__5dec7 {
-	background-color: var(--bg-overlay-1, var(--background-secondary-alt)) !important;
+	background-color: var(--background-gradient-lowest, var(--background-secondary-alt)) !important;
 }
 
 /** bottom-left popout */
@@ -838,7 +838,7 @@ html.theme-dark .badgeContainer__635ed path {
 		border-radius: 10px;
 	}
 	&:hover::-webkit-scrollbar-thumb {
-		background: var(--bg-overlay-6, var(--background-tertiary));
+		background: var(--background-gradient-highest, var(--background-tertiary));
 		border-radius: 999px;
 	}
 	& .button_fb7f94 {
@@ -945,7 +945,7 @@ html.theme-dark .badgeContainer__635ed path {
 		border-radius: 10px;
 	}
 	&:hover::-webkit-scrollbar-thumb {
-		background: var(--bg-overlay-6, var(--background-tertiary));
+		background: var(--background-gradient-highest, var(--background-tertiary));
 		border-radius: 999px;
 	}
 	&:before {
