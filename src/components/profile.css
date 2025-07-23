@@ -50,10 +50,11 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 
 .themeContainer_ce8328 .popover_c97e55 {
 	right: 56px;
-	margin-top: 64px;
+	margin-top: 66px;
 	opacity: 1 !important;
 	background: none;
 	pointer-events: unset;
+	border: unset;
 	border-radius: unset;
 	box-shadow: none !important;
 	animation: unset !important;
@@ -117,7 +118,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	& .custom-theme-background .menu_c1e9c4 {
 		border: 0px;
 	}
-	& :is(.banner__68edb, .avatar__75742, .descriptionClamp_f5f93a, .mask__68edb, .card__39ec2, .container__63ed3.username_ce8328) {
+	& :is(.banner__68edb, .avatar__75742, .descriptionClamp_f5f93a, .mask__68edb, .card__39ec2, .container__63ed3.username_ce8328, .activityContainer__84832) {
 		display: none;
 	}
 	& .container_ab8609 {
@@ -192,6 +193,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 		border-radius: 4px;
 		box-shadow: unset !important;
 	}
+}
+
+#set-status-submenu .clickTrapContainer_da8173 .label_c1e9c4 {
+	padding-left: 10px !important
 }
 
 .statusPickerModalMenu_ce8328 .labelContainer_c1e9c4 {
