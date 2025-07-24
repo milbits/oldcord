@@ -96,6 +96,28 @@
     --shadow-top-low: 0 -1px 4px 0 hsl(none 0% 0%/0.14);
     --shadow-top-low-filter: drop-shadow(0 -1px 4px hsl(none 0% 0%/0.14));
     --text-muted: #72767d;
+	
+	--info-positive-foreground: var(--green);
+    --text-positive: var(--green);
+    --status-positive-background: var(--green);
+	--button-danger-background-active: var(--red-active);
+    --button-danger-background: var(--red);
+    --text-danger: var(--red);
+    --info-danger-foreground: var(--red);
+    --status-danger-background: var(--red);
+    --font-display: var(--font-primary);
+    --control-brand-foreground: var(--brand-experiment);
+	--notice-background-warning: #f26522;
+    --notice-text-warning: #fff;
+    --notice-background-critical: #f23f42;
+    --notice-text-critical: #fff;
+    --notice-background-info: var(--blurple);
+    --notice-text-info: #fff;
+    --background-surface-high: var(--background-secondary);
+	--control-background-active-default: var(--green);
+	--control-background-active-hover: var(--green-hover);
+	--control-background-active-active: var(--green-active);
+	--control-text-active-default: var(--white);
 }
 
 .theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
@@ -128,6 +150,28 @@
 	--focus-primary: var(--brand-experiment);
 	--radio-group-dot-foreground: hsl(227, calc(var(--saturation-factor, 1) * 31%), 44%);
 	--primary-transparent: hsla(214, calc(var(--saturation-factor, 1) * 10%), 50%, 0.102);
+
+		--info-positive-foreground: var(--green);
+    --text-positive: var(--green);
+    --status-positive-background: var(--green);
+	--button-danger-background-active: var(--red-active);
+    --button-danger-background: var(--red);
+    --text-danger: var(--red);
+    --info-danger-foreground: var(--red);
+    --status-danger-background: var(--red);
+    --font-display: var(--font-primary);
+    --control-brand-foreground: var(--brand-experiment);
+	--notice-background-warning: #f26522;
+    --notice-text-warning: #fff;
+    --notice-background-critical: #f23f42;
+    --notice-text-critical: #fff;
+    --notice-background-info: var(--blurple);
+    --notice-text-info: #fff;
+    --background-surface-high: var(--background-secondary);
+	--control-background-active-default: var(--green);
+	--control-background-active-hover: var(--green-hover);
+	--control-background-active-active: var(--green-active);
+	--control-text-active-default: var(--white);
 }
 :root {
 	--oldcord-tint: 210; /*this only applies to light mode. why this exists idk*/
@@ -230,6 +274,19 @@
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
+	--text-warning: #faa61a;
+	--notice-background-warning: #f26522;
+	--notice-text-warning: #fff;
+	--notice-background-critical: #f23f42;
+	--notice-text-critical: #fff;
+    --notice-background-info: var(--blurple);
+    --notice-text-info: #fff;
+	--background-surface-high: var(--background-secondary);
+	--bg-base-secondary: var(--background-secondary);
+	--control-background-active-default: var(--green);
+	--control-background-active-hover: var(--green-hover);
+	--control-background-active-active: var(--green-active);
+	--control-text-active-default: var(--white);
 	/* activity colors*/
 	--twitch-dark: hsl(262, calc(var(--saturation-factor, 1) * 47%), 36%);
 	--twitch: hsl(262, calc(var(--saturation-factor, 1) * 47%), 40%);
@@ -244,15 +301,6 @@
 	--crunchyroll-dark: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55%);
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
-	--text-warning: #faa61a;
-	--notice-background-warning: #f26522;
-	--notice-text-warning: #fff;
-	--notice-background-critical: #f23f42;
-	--notice-text-critical: #fff;
-    --notice-background-info: var(--blurple);
-    --notice-text-info: #fff;
-	--background-surface-high: var(--background-secondary);
-	--bg-base-secondary: var(--background-secondary);
 }
 
 .cardPrimary__73069 {
