@@ -60,9 +60,9 @@
 		color: #fff;
 	}
 }
-.circleIconButton__5bc7e.selected__5bc7e {
+.circleIconButton__5bc7e:is(.selected__5bc7e,:hover) {
 	color: #fff;
-	background-color: var(--green);
+	background-color: var(--green) !important;
 }
 
 :is(.lookFilled__201d5.colorBrand__201d5, .lookFilled__201d5.colorBrand__201d5:disabled, .primary__6af3a, .primary__6af3a:disabled) {
