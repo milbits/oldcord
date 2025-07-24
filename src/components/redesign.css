@@ -1816,6 +1816,10 @@ html.platform-osx .title_c38106 {
 	.container_fcf29c {
 		background-color: var(--background-tertiary);
 	}
+
+	.container__53b23 {
+		background: var(--background-base-lowest);
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
