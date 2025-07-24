@@ -1839,6 +1839,7 @@ https://github.com/XYZenix/DTM-16
 	user-select: none;
 	width: 100%;
 	border: unset;
+	background: var(--background-secondary);
 	.established__6e500{
 		display: none
 	}
@@ -1870,5 +1871,8 @@ https://github.com/XYZenix/DTM-16
 		position: absolute;
 		margin-top: 116px;
 		margin-left: 70px;
+	}
+	.footerContent__083ae {
+		background: unset;
 	}
 }
