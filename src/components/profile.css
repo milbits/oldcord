@@ -334,7 +334,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	}
 }
 */
-:is(.user-profile-modal .overlay_c0bea0:nth-of-type(1), .card__39ec2):has(.container_e928f4) {
+:is(.card__39ec2):has(.container_e928f4) {
 	.headerText__39ec2 {
 		text-indent: -9999px;
 		line-height: 0px;
@@ -392,12 +392,6 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	width: 38px;
 }
 
-.user-profile-modal .inner_c0bea0 .headerText__39ec2:not(.platformIcon__39ec2) {
-	/* specifically for full profiles */
-	text-transform: uppercase;
-	color: var(--header-secondary);
-	font-weight: 800;
-}
 
 .user-profile-popout .inner_c0bea0 .headerText__39ec2 {
 	text-transform: uppercase;
@@ -446,11 +440,6 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 .card__39ec2 [data-text-variant="text-xs/normal"] /*details*/ {
 	font-size: 14px;
 	color: var(--text-secondary) !important;
-}
-.user-profile-modal
-	.inner_c0bea0:has(.card__39ec2)
-	:is(.section__530ce > .text__530ce.text-xs/normal_cf4812, .chipletContainerInner__4a25c > .text__4a25c > .unselectable__4a25c) {
-	color: #fff !important;
 }
 .card__39ec2 .tabularNumbers__4bd52,
 .tabularNumbers__4bd52.bold__230d2 {
@@ -767,47 +756,35 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /*modal profile*/
-/*dont make profiles as gigantic as kinggamingyt (im super hilariopus i know)*/
-.outer_c0bea0.user-profile-modal {
-	height: fit-content;
-	min-height: 450px;
-	max-height: 700px;
+.user-profile-modal-v2{
+	border: none;
+	border-radius: 8px;
+}
+.user-profile-modal-v2 .inner_c0bea0 {
+	padding: 0px;
+}
+.profile__9c3be{
+	background: var(--background-tertiary);
+	box-shadow: none;
+	outline: none;
+	border-radius: 0
+}
+.usernameRow__63ed3,.tags__63ed3{
+	background: var(--background-tertiary);
+	justify-content: center;
+	flex-direction:column
+}
+.container__8061a /*badges*/{
+	left: 0
+}
+.profileBody__9c3be{
+	background: var(--background-secondary);
+	padding: 0;
+}
+.section_bf424d,.user-profile-modal-v2 .markup__75297{
+	margin-left: 12px
 }
 
-.outer_c0bea0.user-profile-modal .inner_ab8609 {
-	margin: 20px 18px;
-}
-
-.headerInner__24502 .container_ab8609 {
-	top: 96px;
-	left: -23px;
-	width: 613px;
-}
-.headerInner__24502 .outer_ab8609 {
-	top: -25px;
-	max-width: 600px;
-	left: 4px;
-	min-width: 0;
-	&:has(.clickable_ab8609) {
-		top: 5px;
-		left: -192px;
-	}
-}
-
-.outer_ab8609 .defaultColor__4bd52 {
-	color: var(--interactive-normal);
-	font-weight: 500;
-}
-
-.outer_ab8609,
-.container_ab8609 {
-	border: none !important;
-	background: none;
-}
-.outer_ab8609:before,
-.outer_ab8609:after {
-	display: none;
-}
 
 /*note button*/
 .nicknameIcons__63ed3 {
