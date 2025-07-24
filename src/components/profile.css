@@ -414,7 +414,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /*make status icon white*/
-.outer_c0bea0:has(.card__39ec2) rect:not(path ~ rect) {
+.user-profile-popout .outer_c0bea0:has(.card__39ec2) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
