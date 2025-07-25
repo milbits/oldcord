@@ -249,13 +249,13 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.user-profile-popout:not(.themeContainer_ce8328) .inner_c0bea0:has(.clickableContainer__39ec2) {
+.user-profile-popout:not(.themeContainer_ce8328) .inner_c0bea0:has(.clickableContainer__39ec2){
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
 	--interactive-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
-	--background-tertiary: var(--brand-experiment);
+	--background-tertiary: var(--brand-experiment) !important;
 	--background-tertiary-alt: var(--brand-experiment-530);
 }
 /*Change color based on activity type*/
@@ -427,7 +427,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 }
 
 /* change activity bg color and padding*/
-.card__39ec2 {
+.user-profile-popout .card__39ec2 {
 	background-color: var(--background-tertiary-alt) !important;
 	padding: 12px;
 	border-radius: 0;
@@ -771,9 +771,6 @@ background: none
 
 
 .icon_fb7f94 {
-	.contents__201d5 {
-		overflow: unset;
-	}
 	svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
 		stroke: var(--interactive-normal);
 		stroke-width: 2px;
@@ -808,6 +805,10 @@ background: none
 	bottom: 630px;
 	left: 100px
 }
+.user-profile-modal-v2 .inner_ab8609{
+	right: -115px;
+	padding: 0;
+}
 .profileBody__9c3be{
 	background: var(--background-secondary);
 	padding: 0;
@@ -820,7 +821,7 @@ background: none
 }
 /*activity*/
 .user-profile-modal-v2 .cards__764cd {
-		gap: 4px;
+	gap: 4px;
 
 }
 .user-profile-modal-v2 .cards__764cd li{
@@ -835,9 +836,137 @@ background: none
 		border-bottom-right-radius: 20px;
 	}
 }
+.user-profile-modal-v2 .card__39ec2{	
+	background: var(--background-secondary-alt)
+}
+
+
 .backgroundImage__9c3be{
 	display: none
 }
+
+/* CUSTOM STATUS */
+
+.user-profile-modal-v2 .container_ab8609 {
+	.outer_ab8609 {
+		border: none;
+		min-width: 450px !important;
+	}
+	left: 0px !important;
+
+}
+.user-profile-modal-v2 .container_ab8609 .content_ab8609 {
+	white-space: pre-wrap;
+	text-align: left !important;
+	width: 450px;
+	height: unset !important;
+	&:before {
+		content: "CUSTOM STATUS";
+		font-size: 12px;
+		color: var(--header-secondary);
+		font-weight: 600;
+		font-family: var(--font-display);
+		line-height: 22px;
+		margin-left: 5px;
+		display: flex;
+	}
+	html[lang="de"] &:before{
+		content: "PERSONALISIERTER STATUS";
+
+	}
+	& :has(.statusEmoji_ab8609) .statusText_ab8609,
+	.statusEmoji_ab8609 {
+		margin-left: 5px;
+		& .statusText_ab8609 {
+			display: unset;
+		}
+	}
+	& :not(:has(.statusText_ab8609)) .statusEmoji_ab8609 {
+		margin-left: 0px;
+	}
+}
+.user-profile-modal:has(.container_ab8609) .container__63ed3 {
+	padding-bottom: 75px;
+	&:has(.pronouns__63ed3) {
+		padding-bottom: 90px;
+	}
+	&:has(.container__8061a) {
+		padding-bottom: 100px;
+	}
+}
+
+.user-profile-modal-v2 .details__39ec2 [data-text-variant="text-xs/normal"] {
+	font-size: 14px;
+	color: var(--white) !important;
+}
+
+.section_bf424d [data-text-variant="text-xs/semibold"] {
+	text-transform: uppercase;
+	color: var(--channels-default) !important;
+	font-weight: 800;
+}
+
+.user-profile-modal-v2 .statusEmoji_ab8609 {
+	height: 20px !important;
+	width: 20px !important;
+	margin-left: 4px;
+}
+.user-profile-modal-v2 .statusEmoji_ab8609:not(:has(+ .statusText_ab8609)) {
+	min-width: 48px !important;
+	max-width: 48px !important;
+	max-height: 48px !important;
+	margin-left: 5px;
+}
+
+.user-profile-modal-v2 {
+	& .outer_ab8609 .defaultColor__4bd52 {
+		margin-left: 5px;
+	}
+	& .singleLineAlign_af9888 {
+		text-align: left;
+	}
+}
+
+/*connections */
+.connectedAccount_e6abe8 {
+	padding: 0px 14px 0px 8px;
+}
+.platformIconContainer__9bfb9{
+	background: none;
+	border: none;
+	scale: 1.7
+}
+.connection__9bfb9{
+	border: 1px solid var(--background-modifier-accent);	
+	padding: 12px 14px 12px 8px;
+
+}
+.accountNameText__9bfb9{
+	font-weight: 500
+}
+
+/* put note above connections for accuracy */
+.section_bf424d:has(.profileAppConnections__9c3be) {
+	order: 1;
+	padding: 0;
+}
+
+/* hide "connections" text */
+.section_bf424d:has(.profileAppConnections__9c3be) [data-text-variant="text-xs/semibold"] {
+	text-indent: -9999px;
+	line-height: 0;
+	display: inline-flex;
+	margin-right: 10px;
+}
+.profileAppConnections__9c3be {
+	border-top: 1px solid var(--background-modifier-accent);
+}
+
+/* remove note box outline */
+.note_fcb628 textarea {
+	border: unset !important;
+}
+
 /*! end of modal*/
 /*note button*/
 .nicknameIcons__63ed3 {
@@ -1177,123 +1306,6 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 
 
 
-/* CUSTOM STATUS */
-
-.user-profile-modal-v2 .container_ab8609 {
-	height: 68px;
-	.outer_ab8609 {
-		height: 110px;
-	}
-}
-.user-profile-modal-v2 .container_ab8609 .content_ab8609 {
-	white-space: pre-wrap;
-	text-align: left !important;
-	width: 550px;
-	max-height: unset !important;
-	&:before {
-		content: "CUSTOM STATUS";
-		font-size: 12px;
-		color: var(--header-secondary);
-		font-weight: 600;
-		font-family: var(--font-display);
-		line-height: 22px;
-		margin-left: 5px;
-		display: flex;
-	}
-	& :has(.statusEmoji_ab8609) .statusText_ab8609,
-	.statusEmoji_ab8609 {
-		margin-left: 5px;
-		& .statusText_ab8609 {
-			display: unset;
-		}
-	}
-	& :not(:has(.statusText_ab8609)) .statusEmoji_ab8609 {
-		margin-left: 0px;
-	}
-}
-.user-profile-modal:has(.container_ab8609) .container__63ed3 {
-	padding-bottom: 75px;
-	&:has(.pronouns__63ed3) {
-		padding-bottom: 90px;
-	}
-	&:has(.container__8061a) {
-		padding-bottom: 100px;
-	}
-}
-
-.user-profile-modal-v2 .details__39ec2 [data-text-variant="text-xs/normal"] {
-	font-size: 14px;
-	color: var(--white) !important;
-}
-
-.section_bf424d [data-text-variant="text-xs/semibold"] {
-	text-transform: uppercase;
-	color: var(--channels-default) !important;
-	font-weight: 800;
-}
-
-.user-profile-modal-v2 .statusEmoji_ab8609 {
-	height: 20px !important;
-	width: 20px !important;
-	margin-left: 4px;
-}
-.user-profile-modal-v2 .statusEmoji_ab8609:not(:has(+ .statusText_ab8609)) {
-	min-width: 48px !important;
-	max-width: 48px !important;
-	max-height: 48px !important;
-	margin-left: 5px;
-}
-
-.user-profile-modal-v2 {
-	& .outer_ab8609 .defaultColor__4bd52 {
-		margin-left: 5px;
-	}
-	& .singleLineAlign_af9888 {
-		text-align: left;
-	}
-}
-
-/* connections adjustments */
-
-
-.connectedAccount_e6abe8 {
-	padding: 0px 14px 0px 8px;
-}
-.platformIconContainer__9bfb9{
-	background: none;
-	border: none;
-	scale: 1.7
-}
-.connection__9bfb9{
-	border: 1px solid var(--background-modifier-accent);	
-	padding: 12px 14px 12px 8px;
-
-}
-.accountNameText__9bfb9{
-	font-weight: 500
-}
-
-/* put note above connections for accuracy */
-.section_bf424d:has(.profileAppConnections__9c3be) {
-	order: 1;
-	padding: 0;
-}
-
-/* hide "connections" text */
-.section_bf424d:has(.profileAppConnections__9c3be) [data-text-variant="text-xs/semibold"] {
-	text-indent: -9999px;
-	line-height: 0;
-	display: inline-flex;
-	margin-right: 10px;
-}
-.profileAppConnections__9c3be {
-	border-top: 1px solid var(--background-modifier-accent);
-}
-
-/* remove note box outline */
-.note_fcb628 textarea {
-	border: unset !important;
-}
 
 
 
