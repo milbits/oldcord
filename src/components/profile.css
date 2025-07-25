@@ -765,8 +765,8 @@ background: none
 .user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
 	transform: scale(0.666);
 	position: absolute !important;
-	top: 1px !important;
-	left: 30px !important;
+	top: 10px !important;
+	left: 80px !important;
 }
 
 
@@ -784,15 +784,22 @@ background: none
 	}
 }
 
-.user-profile-modal-v2 .container__63ed3,.user-profile-modal-v2 .tags__63ed3{
+.user-profile-modal-v2 .tags__63ed3{
 	background: var(--background-tertiary);
 	flex-direction:column;
 	position: fixed;
-	width: 350px;
+	top: 170px;
+	left: 60px
+}
+.user-profile-modal-v2 .nickname__63ed3{
+	position: fixed;
+	top: 150px;
+	left: 120px;
+
 }
 .container__8061a /*badges*/{
 	left: 0;
-		transform-origin: top left;
+	transform-origin: top left;
 	transform: scale(1.255);
 	position: relative;
 	right: -119px;
@@ -802,9 +809,11 @@ background: none
 }
 .profileButtons__9c3be{
 	position: fixed;
-	bottom: 630px;
-	left: 100px;
-	z-index: 1000
+	left: 0px;
+	width: 350px;
+	background: var(--background-tertiary);
+	justify-content: center;
+	padding-bottom: 6px
 }
 .user-profile-modal-v2 .inner_ab8609{
 	right: -115px;
@@ -818,7 +827,7 @@ background: none
 	margin-left: 12px
 }
 .user-profile-modal-v2 .profileBody__9c3be .markup__75297{
-	margin-top: 100px
+	margin-top: 30px
 }
 /*activity*/
 .user-profile-modal-v2 .cards__764cd {
@@ -854,7 +863,8 @@ background: none
 		min-width: 450px !important;
 	}
 	left: -0px !important;
-	z-index: 1
+	z-index: 1;
+	top: 50px
 
 }
 .user-profile-modal-v2 .container_ab8609 .content_ab8609 {
