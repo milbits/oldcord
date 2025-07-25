@@ -743,11 +743,20 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-modal-v2 .inner_c0bea0 {
 	padding: 0px;
 }
+.custom-user-profile-theme.user-profile-modal-v2 .inner_c0bea0 {
+background: none
+}
+.user-profile-modal-v2 [data-text-variant="text-xs/medium"]{
+	font-weight: 900;
+	text-transform: uppercase;
+	color: var(--header-secondary) !important
+}
 .profile__9c3be{
 	background: var(--background-tertiary);
 	box-shadow: none;
 	outline: none;
-	border-radius: 0
+	border-radius: 0;
+	min-width: 350px;
 }
 .profileHeader__9c3be{
 	min-height: 250px !important
@@ -782,7 +791,7 @@ html.theme-dark .badgeContainer__635ed path {
 	background: var(--background-tertiary);
 	flex-direction:column;
 	position: fixed;
-	width: 400px;
+	width: 350px;
 }
 .container__8061a /*badges*/{
 	left: 0;
@@ -809,7 +818,27 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-modal-v2 .profileBody__9c3be .markup__75297{
 	margin-top: 100px
 }
+/*activity*/
+.user-profile-modal-v2 .cards__764cd {
+		gap: 4px;
 
+}
+.user-profile-modal-v2 .cards__764cd li{
+	border-radius: 5px;
+	background: var(--background-secondary-alt) !important;
+	&:first-child{
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	&:last-child{
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+}
+.backgroundImage__9c3be{
+	display: none
+}
+/*! end of modal*/
 /*note button*/
 .nicknameIcons__63ed3 {
 	& [aria-label]:after {
