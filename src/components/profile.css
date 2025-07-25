@@ -803,7 +803,8 @@ background: none
 .profileButtons__9c3be{
 	position: fixed;
 	bottom: 630px;
-	left: 100px
+	left: 100px;
+	z-index: 1000
 }
 .user-profile-modal-v2 .inner_ab8609{
 	right: -115px;
@@ -852,7 +853,8 @@ background: none
 		border: none;
 		min-width: 450px !important;
 	}
-	left: 0px !important;
+	left: -0px !important;
+	z-index: 1
 
 }
 .user-profile-modal-v2 .container_ab8609 .content_ab8609 {
