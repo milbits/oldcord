@@ -789,13 +789,13 @@ background: none
 	flex-direction:column;
 	position: fixed;
 	top: 170px;
-	left: 60px
+	min-width: 350px
 }
 .user-profile-modal-v2 .nickname__63ed3{
 	position: fixed;
 	top: 150px;
-	left: 120px;
-
+	width: 350px;
+	text-align: center
 }
 .container__8061a /*badges*/{
 	left: 0;
