@@ -373,7 +373,7 @@ html.platform-osx .title_c38106 {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
 	}
-	.title_f75fb0 {
+	.title_f75fb0:has(foreignObject) {
 		&:not(.gdm_f75fb0) {
 			.children__9293f .titleWrapper__9293f {
 				order: -1;
