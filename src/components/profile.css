@@ -838,17 +838,19 @@ background: none
 	border-radius: 5px;
 	background: var(--background-secondary-alt) !important;
 	&:first-child{
-		border-top-left-radius: 60px;
-		border-top-right-radius: 60px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
 	}
 	&:last-child{
-		border-bottom-left-radius: 60px;
-		border-bottom-right-radius: 60px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
 	}
 }
 .user-profile-modal-v2 .card__39ec2{	
-	background: var(--background-secondary-alt)
+	background: none
 }
+
+
 
 
 .backgroundImage__9c3be{
