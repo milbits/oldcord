@@ -499,7 +499,7 @@ html.theme-dark .badgeContainer__635ed path {
 	border: 1px solid var(--text-primary);
 	transition: 0.17s ease;
 	opacity: 1 !important;
-	/* width: 100%; */
+	padding: 14px 16px
 }
 .card__39ec2 :is(.colorBrand__201d5, .button_fb7f94):hover {
 	background: transparent !important;
@@ -851,6 +851,16 @@ background: none
 .user-profile-modal-v2 .cards__764cd li{
 	border-radius: 5px;
 	background: var(--background-secondary-alt) !important;
+	&:has(.tabularNumbers__4bd52){
+		background: var(--brand-experiment-530) !important;
+		& h3{
+			color: white !important
+		}
+		& .headerText__39ec2{
+			font-weight: 800;
+			text-transform: uppercase
+		}
+	}
 	&:first-child{
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
@@ -1415,24 +1425,37 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 /*thing in the member list*/
 .container__0f2e8 {
 	background: var(--background-secondary-alt) !important;
+	&:has(.tabularNumbers__4bd52){
+		background: var(--brand-experiment-10a) !important;			transition: 0.1s ease;
+
+		&:hover{
+			background: var(--brand-experiment-20a) !important;
+			transition: 0.1s ease
+		}
+	}
 	border-radius: 3px;
 	border: none !important;
 	&:hover {
 		background: var(--background-tertiary) !important;
 	}
+
+
 }
 /*game info*/
 .popoutContentWrapper_af3b89 {
 	background: var(--background-tertiary);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	&:has(.tabularNumbers__4bd52){
+		background: var(--brand-experiment-530) !important;	
+	}
 }
 .hero_af3b89 {
 	background: none !important;
 	padding: 0;
 }
-.interactionsContainerHeader_af3b89 /*weird line*/ {
-	border: none;
+.interactionsContainer_af3b89:before /*weird line*/ {
+	display: none !important;
 }
 .badgeContainer__635ed path {
 	fill: black;
@@ -1440,7 +1463,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .theme-light .popoutContentWrapper_af3b89 :is(.defaultColor__4bd52, .lineClamp1__4bd52) {
 	color: #000000 !important;
 }
-/*shitty dm box that has 0 reason to exist but the whole purpose of this theme is to not remove anything so im styling it*/
+/*shitty dm box*/
 .interactionsContainer_af3b89 {
 	background: var(--background-secondary);
 	border-bottom-left-radius: 3px;
@@ -1448,7 +1471,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 
 .popout_af3b89 .channelTextArea__74017 {
-	background: var(--chat-background-default);
+	background: var(--chat-background-default) !important;
 	border-radius: 3px;
 	border: solid 1px var(--background-tertiary) !important;
 }
