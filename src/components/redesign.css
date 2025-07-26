@@ -437,6 +437,12 @@ html.platform-osx .title_c38106 {
 		grid-template-rows: auto 1fr auto;
 		height: var(--custom-emoji-picker-constants-emoji-picker-height);
 		width: var(--custom-emoji-picker-constants-min-emoji-picker-width);
+		.headerLabel__14245 {
+			text-transform: uppercase;
+			font-size: 12px;
+			margin-right: 8px;
+			margin-top: 3px;
+		}
 	}
 	.emojiPickerHasTabWrapper_c0e32c .emojiPicker_c0e32c {
 		background-color: transparent;
@@ -742,6 +748,7 @@ html.platform-osx .title_c38106 {
 	.lookFilled__3f413.select__3f413 {
 		background-color: var(--input-background);
 		border-color: var(--input-background);
+		padding: 8px 8px 8px 12px;
 	}
 	/* border radius 9 list of offenders */
 	.root__49fc1,
