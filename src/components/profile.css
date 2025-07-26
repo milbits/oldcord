@@ -746,7 +746,7 @@ html.theme-dark .badgeContainer__635ed path {
 .custom-user-profile-theme.user-profile-modal-v2 .inner_c0bea0 {
 background: none
 }
-.user-profile-modal-v2 [data-text-variant="text-xs/medium"]:not(.tabularNumbers__4bd52){
+.user-profile-modal-v2 h2{
 	font-weight: 900;
 	text-transform: uppercase;
 	color: var(--header-secondary) !important
