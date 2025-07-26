@@ -874,6 +874,8 @@ background: none
 	text-align: left !important;
 	width: 450px;
 	height: unset !important;
+	max-height: 100px !important;
+
 	&:before {
 		content: "CUSTOM STATUS";
 		font-size: 12px;
