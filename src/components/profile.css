@@ -25,13 +25,25 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
-	margin-right: 10px;
 
 	&::after {
 		content: "Set a custom status";
 		text-indent: 0;
 		display: flex;
 		line-height: initial;
+	}
+}
+html[lang="de"] .addStatusPrompt_ab8609 {
+	text-indent: -9999px;
+	line-height: 0;
+	display: inline-flex;
+
+	&::after {
+		content: "Personalisierten Status setzen";
+		text-indent: 0;
+		display: flex;
+		line-height: initial;
+		color: var(--interactive-normal)
 	}
 }
 /*add separator under status button*/
@@ -146,8 +158,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 		margin-right: 20px;
 	}
 	& .container_ab8609:has(.addStatusPrompt_ab8609) .outer_ab8609 {
-		top: 0px !important;
-		right: 68px;
+		top: 4px !important;
+		right: 67px;
+		min-width: 215px !important;
+		border: none;
 		& .addStatusIcon_ab8609 {
 			padding-right: 7px;
 		}
@@ -765,8 +779,8 @@ background: none
 .user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
 	transform: scale(0.666);
 	position: absolute !important;
-	top: 10px !important;
-	left: 80px !important;
+	top: 0px !important;
+	left: 130px !important;
 }
 
 
@@ -788,12 +802,12 @@ background: none
 	background: var(--background-tertiary);
 	flex-direction:column;
 	position: fixed;
-	top: 170px;
+	top: 130px;
 	min-width: 350px
 }
 .user-profile-modal-v2 .nickname__63ed3{
 	position: fixed;
-	top: 150px;
+	top: 110px;
 	width: 350px;
 	text-align: center
 }
@@ -851,8 +865,6 @@ background: none
 }
 
 
-
-
 .backgroundImage__9c3be{
 	display: none
 }
@@ -866,7 +878,7 @@ background: none
 	}
 	left: -0px !important;
 	z-index: 1;
-	top: 50px
+	top: 150px
 
 }
 .user-profile-modal-v2 .container_ab8609 .content_ab8609 {
@@ -875,7 +887,6 @@ background: none
 	width: 450px;
 	height: unset !important;
 	max-height: 100px !important;
-
 	&:before {
 		content: "CUSTOM STATUS";
 		font-size: 12px;
