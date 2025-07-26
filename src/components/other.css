@@ -1381,6 +1381,10 @@ h2.title_b717a1,
 	font-weight: 600;
 	color: var(--interactive-active);
 	margin-left: 28%;
+
+}
+html[lang="de"] .scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before{
+	content: "Einen Personalisierten Status festlegen";	margin-left: 8%;
 }
 .profilePreview_dbc4b7 {
 	display: none;
