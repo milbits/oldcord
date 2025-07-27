@@ -378,13 +378,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	}
 }
 .select__3f413:hover:not([aria-disabled="true"]),
-.input__0f084:hover,
+.input__0ed4f:hover,
 .bioTextArea__6a919:hover {
 	border-color: var(--deprecated-text-input-border-hover) !important;
 }
-.input__0f084::-webkit-input-placeholder:not(.textarea_dde0a8) {
-	color: var(--text-muted);
-}
+
 
 .emojiInput_e7d73e {
 	padding: 0 !important;
