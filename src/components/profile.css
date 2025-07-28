@@ -274,7 +274,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /*Change color based on activity type*/
 
-.inner_c0bea0 {
+.user-profile-popout .inner_c0bea0 {
 	/* Listening to Spotify*/
 	&:has([src^="https://i.scdn.co/"]) {
 		--background-tertiary: var(--spotify) !important;
@@ -428,17 +428,11 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 
 /*make status icon white*/
-.user-profile-popout .outer_c0bea0:has(.card__39ec2) rect:not(path ~ rect) {
+.user-profile-popout.outer_c0bea0:has(.activityContainer__84832) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
-/* do the same in user lists */
-:is(.subText__20a53, .subText__91a9d, .subtext__0a06e, .subtext__67a11, .default__0263c)
-	> :is(.textXs_c9d15c, .textSm_c9d15c).container_c9d15c
-	> .icon_c9d15c
-	path {
-	fill: var(--channels-default);
-}
+
 
 /* change activity bg color and padding*/
 .user-profile-popout .card__39ec2 {
@@ -1431,7 +1425,6 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .custom-user-profile-theme :is(.headerInner__24502) .mask__44b0c.svg__44b0c > rect:nth-child(2) {
 	opacity: 0 !important;
 }
-/*thing in the member list*/
 /*thing in the member list*/
 .container__0f2e8 {
 	background: var(--background-secondary-alt) !important;
