@@ -673,9 +673,7 @@ html.platform-osx .title_c38106 {
 	button.button__67645.enabled__67645:hover {
 		background-color: var(--background-modifier-selected);
 	}
-	.container__87bf1.checked__87bf1 {
-		border: none;
-	}
+
 	button.button__67645,
 	.visual-refresh span.button__67645 {
 		transition: none;
