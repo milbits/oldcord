@@ -1,5 +1,5 @@
 /*make cosmetics show again*/
-.avatarDecoration__44b0c,.avatarDecoration_c19a55,.profileEffects__01370,.mask__68edb,.container__4bbc6{
+.avatarDecoration__44b0c,.avatarDecoration_c19a55,.profileEffects__01370,.mask__68edb,.container__4bbc6,.backgroundImage__9c3be{
     display: unset !important;
 }
 .guildTagContainer__63ed3,
@@ -30,9 +30,6 @@
 }
 .custom-theme-background .mask__68edb mask circle{
     transform: translateX(73px) translateY(5px);
-}
-.user-profile-modal .mask__68edb mask circle{
-    display: none !important
 }
 .user-profile-modal-v2 .mask__68edb mask circle{
     display: none !important
@@ -72,48 +69,35 @@
 }
 
 /*add colors back (but without that annoying border ew)*/
-.custom-user-profile-theme.user-profile-popout .inner_c0bea0{
+.custom-user-profile-theme :is(.inner_c0bea0,.profileBody__9c3be,.user-profile-modal-v2 .profileHeader__9c3be){
     --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
     background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
     & .container__63ed3,.mutuals__530ce  {
         background: var(--background-tertiary-alt, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
     }
 }
-
+.custom-user-profile-theme :is(.tags__63ed3,.profileButtons__9c3be){
+    background: none;
+}
 
 .custom-user-profile-theme .footer__5be3e .themedBackground__74017{
     background: var(--profile-gradient-overlay-color) !important
 }
 
 
-/* banners behind headers */
-.user-profile-modal .inner_c0bea0 .mask__68edb {
-    position: absolute;
-    z-index: 0;
-    opacity: 25%;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-}
-.user-profile-modal .inner_c0bea0 .headerInner__24502 {
-    background: transparent !important;
-}
 
-.user-profile-modal.inner_c0bea0:has(.mask__68edb) .body__24502 {
-    & .fullSizeOverlayBackground_c69a7b {
-        z-index: 2;
-    }
-    & .container__63ed3 {
-        background: transparent !important;
-    }
-}
 /* banners behind headers (profilesv2) */
 .user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
     position: absolute;
     z-index: 0;
-    opacity: 25%;
+    opacity: 45%;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 .user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
     background: transparent !important;
+}
+.user-profile-modal-v2 .banner__68edb{
+    max-width: 350px
 }
 
 .user-profile-modal-v2:has(.mask__68edb) {
