@@ -1432,14 +1432,16 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	opacity: 0 !important;
 }
 /*thing in the member list*/
+/*thing in the member list*/
 .container__0f2e8 {
 	background: var(--background-secondary-alt) !important;
-	border-radius: 3px;
+	border-radius: 5px 5px 3px 3px;
 	border: 1px solid var(--background-tertiary) !important;
 	margin-top: 4px;
 	&:has(.tabularNumbers__4bd52){
 		background: var(--brand-experiment-10a) !important;			
 		transition: 0.1s ease;
+		--background-tertiary: var(--brand-experiment-10a);
 		&:hover{
 			background: var(--brand-experiment-20a) !important;
 			transition: 0.1s ease
