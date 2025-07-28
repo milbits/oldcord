@@ -269,19 +269,18 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	--text-secondary: rgba(255, 255, 255, 0.8);
 	--interactive-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
-	--background-tertiary: var(--brand-experiment) !important;
+	--background-tertiary: var(--brand-experiment);
 	--background-tertiary-alt: var(--brand-experiment-530);
 }
 /*Change color based on activity type*/
-/*
-.inner_c0bea0 {
-	/* Listening to Spotify
-	&:has(.imagePosition_ef9ae7):has(.bar__8e51c) {
-		--play: var(--spotify);
-		--play-dark: var(--spotify-dark);
-	}
 
-/* Live on Twitch 
+.inner_c0bea0 {
+	/* Listening to Spotify*/
+	&:has([src^="https://i.scdn.co/"]) {
+		--background-tertiary: var(--spotify) !important;
+		--background-tertiary-alt: var(--spotify-dark) !important;
+	}
+	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
 		--play-dark: var(--twitch-dark);
@@ -323,12 +322,13 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	&:has([style='mask-image: url("/assets/eed203a7ec517e23.svg");']) {
 		--background-tertiary: var(--playstation2);
 		--background-tertiary-alt: var(--playstation-dark);
-	}
-	
+	}*/
 }
-*/
+
 .platformIcon__39ec2 {
-	display: none;
+	background: white !important;
+	height: 16px;
+	width: 16px;
 }
 /*
 .headerText__39ec2:not(:has(.platformIcon__39ec2)) {
