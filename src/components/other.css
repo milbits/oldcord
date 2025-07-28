@@ -165,12 +165,13 @@ code {
 	&:checked:before {
 		background: var(--brand-experiment);
 	}
+		&:checked:hover:before{
+		background: var(--brand-experiment-400);
+	}
 	&:checked:active:before {
 		background: var(--blurple-hover);
 	}
-	&:checked:hover:before{
-		background: var(--brand-experiment-400);
-	}
+
 
 	&:checked:after {
 		transform: translate3d(18px, 0, 0);
