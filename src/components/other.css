@@ -1415,7 +1415,7 @@ html[lang="de"] .scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).con
 		.icon_c9d15c, .activityContainer_c9d15c {
 			order: 1;
 			path {
-				fill: var(--interactive-normal) !important;
+				fill: var(--channels-default) !important;
 			}
 		}
 		.activityContainer_c9d15c .icon_c9d15c {
