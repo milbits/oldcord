@@ -264,7 +264,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.user-profile-popout:not(.themeContainer_ce8328) .inner_c0bea0:has(.clickableContainer__39ec2){
+.inner_c0bea0:has(.clickableContainer__39ec2){
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
@@ -272,14 +272,13 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	--text-primary: #fff;
 	--background-tertiary: var(--brand-experiment);
 	--background-tertiary-alt: var(--brand-experiment-530);
-}
-/*Change color based on activity type*/
+	
+	/*Change color based on activity type*/
 
- .inner_c0bea0 {
 	/* Listening to Spotify*/
 	&:has([src*="i.scdn.co"]) {
-		--background-tertiary: var(--spotify) !important;
-		--background-tertiary-alt: var(--spotify-dark) !important;
+		--background-tertiary: var(--spotify);
+		--background-tertiary-alt: var(--spotify-dark);
 	}
 	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
@@ -292,7 +291,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 	*/
 
-/* Watching Crunchyroll 
+	/* Watching Crunchyroll 
 	&:has(.crunchyroll_ef9ae7) {
 		--play: var(--crunchyroll);
 		--play-dark: var(--crunchyroll-dark);
@@ -313,7 +312,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 	*/
 
-/* Playing on XBOX
+	/* Playing on XBOX
 	&:has([style="mask-image: url(\"/assets/c4f09fda61827e19.svg\");"]) {
 		--background-tertiary: var(--xbox);
 		--background-tertiary-alt: var(--xbox-dark);
@@ -866,6 +865,12 @@ background: var(--background-primary)
 	&:has(.tabularNumbers__4bd52){
 		background: var(--brand-experiment-530) !important;
 			& h3{
+			color: white !important
+		}
+	}
+	&:has([src^="https://i.scdn.co/image/"]){
+		background: var(--spotify-dark) !important;
+		& h3{
 			color: white !important
 		}
 	}
