@@ -33,6 +33,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .addStatusPrompt_ab8609 {
 		line-height: initial;
 	}
 }
+
 html[lang="de"] .addStatusPrompt_ab8609 {
 	text-indent: -9999px;
 	line-height: 0;
@@ -274,9 +275,9 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /*Change color based on activity type*/
 
-.user-profile-popout .inner_c0bea0 {
+ .inner_c0bea0 {
 	/* Listening to Spotify*/
-	&:has([src^="https://i.scdn.co/"]) {
+	&:has([src*="i.scdn.co"]) {
 		--background-tertiary: var(--spotify) !important;
 		--background-tertiary-alt: var(--spotify-dark) !important;
 	}
@@ -847,6 +848,9 @@ background: var(--background-primary)
 	margin-top: 30px
 }
 /*activity*/
+#activity-tab{
+	margin-right: 24px;
+}
 .user-profile-modal-v2 .cards__764cd {
 	gap: 4px;
 
@@ -854,14 +858,21 @@ background: var(--background-primary)
 .user-profile-modal-v2 .cards__764cd li{
 	border-radius: 5px;
 	background: var(--background-secondary-alt) !important;
-	&:has(.tabularNumbers__4bd52){
-		background: var(--brand-experiment-530) !important;
-		& h3{
-			color: white !important
-		}
+
 		& .headerText__39ec2{
 			font-weight: 800;
 			text-transform: uppercase
+		}
+	&:has(.tabularNumbers__4bd52){
+		background: var(--brand-experiment-530) !important;
+			& h3{
+			color: white !important
+		}
+	}
+	&:has([src^="https://i.scdn.co/image/"]){
+		background: var(--spotify-dark) !important;
+		& h3{
+			color: white !important
 		}
 	}
 	&:first-child{
