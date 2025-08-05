@@ -254,7 +254,7 @@
 	background: transparent;
 }
 .interactive:hover {
-	color: var(--white-500);
+	color: white;
 	background-color: var(--brand-experiment);
 }
 
@@ -275,7 +275,7 @@
 }
 .item_b3f026.destructive_b3f026:active {
 	background-color: var(--red) !important;
-	color: var(--white-500) !important;
+	color: white !important;
 }
 
 .serverBoostTabItem_cbe0b4,.premiumTab__581ea {
@@ -285,7 +285,7 @@
 	background-color: var(--brand-experiment-10a) !important;
 }
 :is(.serverBoostTabItem_cbe0b4,.premiumTab__581ea):active {
-	color: var(--white-500) !important;
+	color: white !important;
 	background-color: var(--blurple) !important;
 }
 
@@ -459,7 +459,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 	opacity: 0.9;
 }
 .barText__7aaec {
-	color: var(--white-500) !important;
+	color: white !important;
 }
 /* unread bar in channels*/
 .newMessagesBar__0f481 {
