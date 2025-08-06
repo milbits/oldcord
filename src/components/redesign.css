@@ -1891,17 +1891,7 @@ html.platform-osx .title_c38106 {
 		}
 	}
 
-	/* input */
-	.wrapper_d14335 {
-		border-radius: 3px;
-		border: 1px solid var(--deprecated-text-input-border);
-		background-color: var(--deprecated-text-input-bg);
-		transition: border-color .2s ease-in-out;
-	}
-	.wrapper_d14335:not([data-read-only=true]):focus-within {
-		border-color: var(--blurple);
-	}
-
+	
 	/* owner crown */
 	.ownerIcon__5d473 {
 		color: var(--text-warning);
