@@ -364,27 +364,21 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	letter-spacing: unset;
 }
 
-.input__0ed4f:not(
-		.textarea_dde0a8,
-		.searchBoxInput__56498,
-		.addFriendInput__72ba7 > .input__72ba7,
-		.note_fcb628 textarea,
-		.profileNote__9c3be textarea
-	),
+.wrapper_d14335,
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-default) !important;
-	background-color: var(--deprecated-text-input-bg);
+	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
-	&:focus {
+	&:focus-within {
 		border-color: var(--blurple) !important;
 	}
 }
 .select__3f413:hover:not([aria-disabled="true"]),
-.input__0ed4f:hover,
+.wrapper_d14335:hover,
 .bioTextArea__6a919:hover {
-	border-color: var(--deprecated-text-input-border-hover) !important;
+	border-color: var(--deprecated-text-input-border-hover);
 }
 
 
