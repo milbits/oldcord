@@ -790,6 +790,15 @@ html.platform-osx .title_c38106 {
 	.sizeSmall__201d5:not(.lookBlank__201d5) {
 		padding: 2px 16px;
 	}
+	.md__6af3a:not(.icon-only__6af3a) {
+		width: auto;
+		height: 38px;
+		min-width: 96px;
+		min-height: 38px;
+	}
+	.buttonChildren__6af3a .text-md\/medium_cf4812 {
+		font-size: 14px;
+	}
 	.secondary__6af3a {
 		background-color: unset;
 	}
@@ -1823,7 +1832,7 @@ html.platform-osx .title_c38106 {
 		background: var(--background-base-lowest);
 	}
 
-	/* edit group */
+	/* mana modals */
 	[data-mana-component="modal"] {
 		padding: unset;
 		border-radius: 5px;
@@ -1841,8 +1850,6 @@ html.platform-osx .title_c38106 {
 		.header__53cea .stack_dbd263 {
 			justify-content: center;
 			.heading-lg\/semibold_cf4812 {
-				align-self: center;
-				margin-left: 20px;
 				text-transform: uppercase;
 				font-size: 16px;
 			}
@@ -1852,13 +1859,17 @@ html.platform-osx .title_c38106 {
 				margin-top: unset;
 			}
 		}
-		.bodySpacerTop__53cea {
-			display: none;
+		.bodyControls__53cea {
+			padding-left: 13px;
+			padding-right: 13px;
 		}
 		.body__53cea {
-			padding: 24px 0 24px 0;
-			padding-right: 14px !important;
+			padding: 0 0 24px 0;
 			overflow: hidden !important;
+			.bodyInner__53cea {
+				padding-left: 13px;
+				padding-right: 13px;
+			}
 		}
 		.input__0ed4f {
 			border-radius: 3px;
@@ -1869,6 +1880,8 @@ html.platform-osx .title_c38106 {
 		.actionBar__53cea {
 			border-top: 1px var(--border-subtle);
 			background: var(--modal-footer-background);
+			padding: 16px;
+			border-radius: 5px;
 			.actionBarTrailing__53cea {
 				flex-direction: row-reverse;
 			}
@@ -1876,6 +1889,17 @@ html.platform-osx .title_c38106 {
 				width: auto;
 			}
 		}
+	}
+
+	/* input */
+	.wrapper_d14335 {
+		border-radius: 3px;
+		border: 1px solid var(--deprecated-text-input-border);
+		background-color: var(--deprecated-text-input-bg);
+		transition: border-color .2s ease-in-out;
+	}
+	.wrapper_d14335:not([data-read-only=true]):focus-within {
+		border-color: var(--blurple);
 	}
 
 	/* owner crown */
