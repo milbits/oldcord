@@ -1981,7 +1981,7 @@ html.platform-osx .title_c38106 {
 	right: 20px;
 	top: -2px;
 }
-:is(.container__01ae2, .container_fb64c9) > .container__9293f {
+:is(.container__01ae2, .container_fb64c9) > .container__9293f, .page_c48ade .container__01ae2 {
 	z-index: 102;
 }
 .bar_c38106 .trailing_c38106 .iconWrapper__9293f {
