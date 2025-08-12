@@ -275,11 +275,11 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	
 	/*Change color based on activity type*/
 
-	/* Listening to Spotify*/
+	/* Listening to Spotify
 	&:has([src*="i.scdn.co"]) {
 		--background-tertiary: var(--spotify);
 		--background-tertiary-alt: var(--spotify-dark);
-	}
+	}*/
 	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
@@ -772,7 +772,7 @@ background: var(--background-primary)
 	box-shadow: none;
 	outline: none;
 	border-radius: 0;
-	min-width: 350px;
+	width: 350px;
 }
 .profileHeader__9c3be{
 	min-height: 250px !important;
@@ -865,12 +865,6 @@ background: var(--background-primary)
 	&:has(.tabularNumbers__4bd52){
 		background: var(--brand-experiment-530) !important;
 			& h3{
-			color: white !important
-		}
-	}
-	&:has([src^="https://i.scdn.co/image/"]){
-		background: var(--spotify-dark) !important;
-		& h3{
 			color: white !important
 		}
 	}
