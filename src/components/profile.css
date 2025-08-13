@@ -780,10 +780,10 @@ background: var(--background-primary)
 }
 
 .user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
-	transform: scale(0.666);
+	transform: scale(0.8);
 	position: absolute !important;
-	top: 0px !important;
-	left: 130px !important;
+	top: 5px !important;
+	left: 70px !important;
 }
 
 
