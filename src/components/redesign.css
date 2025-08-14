@@ -8,6 +8,7 @@
 		--custom-channel-members-bg: var(--background-secondary) !important;
 		--background-surface-highest: var(--background-primary) !important;
 		--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
+		--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 	}
 	--checkbox-background-checked: var(--blurple) !important;
 	--bg-brand: var(--blurple, var(--blurple-50)) !important;
@@ -15,7 +16,6 @@
 	--custom-channel-members-bg: var(--background-secondary);
 	--background-mod-subtle: var(--background-modifier-hover);
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 
 	--__spoiler-background-color--hidden: var(--primary-700);
 	--__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl) / 0.8);
