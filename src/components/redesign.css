@@ -110,7 +110,8 @@ html[data-dorion-platform="linux"] {
 	.sidebar_c48ade > .guilds_c48ade {
 		margin-top: 32px;
 	}
-	.bar_c38106 {
+	.title_c38106,
+	.leading_c38106 {
 		pointer-events: none;
 	}
 	.bar_c38106 .trailing_c38106 {
