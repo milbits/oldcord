@@ -415,7 +415,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 }
 /* make activity the first section*/
-.activity__5be3e {
+section:has(.activityContainer__84832) {
 	order: -1;
 }
 .scroller_d2b491 {
