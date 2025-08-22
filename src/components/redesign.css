@@ -788,7 +788,7 @@ html.platform-osx .title_c38106 {
 		height: var(--custom-button-button-sm-height);
 	    min-height: var(--custom-button-button-sm-height);
 	}
-	.sizeSmall__201d5:not(.lookBlank__201d5) {
+	.sizeSmall__201d5:not(.lookBlank__201d5, .disabledButtonWrapper__201d5) {
 		padding: 2px 16px;
 	}
 	.md__6af3a:not(.icon-only__6af3a) {
