@@ -54,8 +54,9 @@
 }
 /*fix for reaction stuff*/
 .avatar__75742{
-    position: absolute !important;
-    top: 53px !important;
+    margin-top: 19px !important;
+    position:absolute;
+    margin-left: 0.5px
 }
 /*move usernames etc. a bit down*/
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
@@ -112,9 +113,7 @@
 
 
 /* apply ONLY if they have an avatar deco*/
-.user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
-    top: 31px !important;
-}
+
 
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
     display: none !important;
