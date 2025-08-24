@@ -65,7 +65,7 @@
 	background-color: var(--green) !important;
 }
 
-:is(.lookFilled__201d5.colorBrand__201d5, .lookFilled__201d5.colorBrand__201d5:disabled, .primary__6af3a, .primary__6af3a:disabled) {
+:is(.primary__6af3a, .primary__6af3a:disabled) {
 	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
@@ -100,7 +100,6 @@
 	}
 }
 
-.lookFilled__201d5.colorRed__201d5,
 .colorDanger_c1e9c4.focused_c1e9c4,
 .button__6af3a.critical-primary__6af3a {
 	background-color: var(--red);
@@ -128,15 +127,7 @@
 	border-color: hsla(153, calc(var(--saturation-factor, 1) * 46%), 49%, 0.302);
 }*/
 
-.lookFilled__201d5.colorGreen__201d5 {
-	background-color: var(--green);
-	&:hover {
-		background-color: var(--green-hover);
-	}
-	&:active {
-		background-color: var(--green-active);
-	}
-}
+
 
 /* Green Speaking Border in Maximized Voice Chats */
 .border__2f4f7.speaking__2f4f7 {
@@ -151,17 +142,6 @@
 	background-color: var(--background-primary);
 	color: var(--interactive-active);
 	opacity: 0.3;
-}
-
-.lookOutlined__201d5.colorPrimary__201d5 {
-	color: var(--interactive-active) !important;
-	border-color: var(--interactive-active) !important;
-}
-.lookOutlined__201d5.colorPrimary__201d5:hover {
-	background: none;
-}
-.lookOutlined__201d5.colorPrimary__201d5:active {
-	background-color: var(--primary-transparent);
 }
 
 /*.folderIconWrapper__48112[style="background-color: rgba(88, 101, 242, 0.4);"] {
@@ -407,23 +387,13 @@
 	color: #72767d !important;
 }
 
-.lookOutlined__201d5.colorBrand__201d5 {
-	color: var(--brand-experiment) !important;
-	border-color: var(--brand-experiment) !important;
-	background: transparent !important;
-	&:active{
-		background: var(--brand-experiment-10a) !important;
-	}
-}
 
 
-.lookOutlined__201d5.colorRed__201d5,
 .button__6af3a.critical-secondary__6af3a {
 	background: transparent !important;
 	color: var(--red) !important;
 	border: 1px solid var(--text-danger) !important;
 }
-.lookOutlined__201d5.colorRed__201d5:active,
 .button__6af3a.critical-secondary__6af3a:active {
 	background: var(--red-transparent) !important;
 }
