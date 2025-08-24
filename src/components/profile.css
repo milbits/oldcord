@@ -1638,3 +1638,20 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		color: var(--interactive-normal) !important;
 	}
 }
+
+.guildTagContainer__63ed3{
+	border: none
+}
+
+.clanTag__5d473,.guildTag__63ed3{
+	background: var(--background-modifier-accent);
+	& .tagText__10651 {
+			color: var(--text-secondary, var(--header-secondary))
+	}
+	& img{
+		opacity: 0.6;
+	}
+	&:hover img{
+			opacity: 1
+		}
+}
