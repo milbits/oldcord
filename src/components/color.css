@@ -127,6 +127,16 @@
 	border-color: hsla(153, calc(var(--saturation-factor, 1) * 46%), 49%, 0.302);
 }*/
 
+.lookFilled__201d5.colorGreen__201d5 {
+	background-color: var(--green);
+	&:hover {
+		background-color: var(--green-hover);
+	}
+	&:active {
+		background-color: var(--green-active);
+	}
+}
+
 
 
 /* Green Speaking Border in Maximized Voice Chats */
