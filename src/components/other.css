@@ -1835,7 +1835,7 @@ https://github.com/XYZenix/DTM-16
 		display: none
 	}
 	html[lang="de"] & .cardHeightMeasure__083ae:before{
-		content: "Du wurdest zum beitritt eingeladen" ;
+		content: "Du wurdest zum Beitritt eingeladen" ;
 	}
 	.cardHeightMeasure__083ae:before {
 		content: "YOU'VE BEEN INVITED TO JOIN A SERVER";
@@ -1866,4 +1866,23 @@ https://github.com/XYZenix/DTM-16
 	.footerContent__083ae {
 		background: unset;
 	}
+}
+
+
+.container_a3e8db{
+	margin-right: 50px;
+	border: none;
+	border-radius: 3px;
+	background: var(--background-tertiary) !important;
+	& .balanceCounterText__98f64{
+		color: inherit
+	}
+	& path{
+		fill: var(--blurple)
+	}
+}
+
+.shopCard_c3d04b{
+	border: none;
+	border-radius: 12px
 }
