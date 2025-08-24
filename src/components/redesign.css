@@ -767,12 +767,13 @@ html.platform-osx .title_c38106 {
 	}
 	:is(.button__201d5, .button__6af3a, .expressiveRive__6af3a):not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.lookOutlined__201d5, .card__39ec2 .button_fb7f94, .button_fb7f94) {
+		&:not(.card__39ec2 .button_fb7f94) {
 			border: none;
 		}
 		.panels_c48ade & {
 			background: none;
 		}
+
 	}
 	.button__6af3a {
 		padding: 2px 16px;
@@ -802,6 +803,10 @@ html.platform-osx .title_c38106 {
 	}
 	.secondary__6af3a {
 		background-color: unset;
+		border: 1px solid !important;
+		&:active{
+			background: rgb(255 255 255 / 10%)
+		}
 	}
 	.select__3f413 {
 		border: 1px solid transparent;
