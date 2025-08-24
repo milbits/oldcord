@@ -591,8 +591,18 @@ html.theme-dark .badgeContainer__635ed path {
 .profileEffects__01370,
 .avatarDecoration__44b0c,
 .avatarDecoration_c19a55,
-.nameplated__91a9d .container__4bbc6 {
+.container__4bbc6 {
 	display: none;
+}
+.nameplated__91a9d .closeButtonPlated__972a0 {
+	opacity: 0.7;
+}
+.innerCloseButtonPlated__972a0 {
+	background-color: unset !important;
+	opacity: 0.7 !important;
+}
+.innerCloseButtonPlated__972a0:hover {
+	opacity: 0.9 !important;
 }
 .outer_c0bea0.user-profile-popout,
 .userPopoutOverlayBackground_c69a7b {
