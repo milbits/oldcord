@@ -553,7 +553,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	transition: 0.17s ease;
 	color: #fff !important;
 	background-color: var(--button-secondary-background) !important;
-	border-radius: 3px;
 	&:hover {
 		background-color: var(--button-secondary-background-hover) !important;
 	}
@@ -567,7 +566,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	) {
 	background-color: var(--green) !important;
 	color: white;
-	border-radius: 3px;
+	border-radius: 16px !important;
 	border: none;
 	transition: 0.17s ease;
 	&:hover {
