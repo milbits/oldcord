@@ -65,7 +65,7 @@
 	background-color: var(--green) !important;
 }
 
-:is(.primary__6af3a, .primary__6af3a:disabled) {
+:is(.lookFilled__201d5.colorBrand__201d5,.primary__6af3a, .primary__6af3a:disabled) {
 	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
