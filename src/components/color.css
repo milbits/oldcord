@@ -53,6 +53,8 @@
 	fill: var(--green) !important;
 }
 */
+
+
 /*discovery and add button*/
 .circleIcon__5bc7e {
 	color: var(--green);
@@ -65,7 +67,7 @@
 	background-color: var(--green) !important;
 }
 
-:is(.lookFilled__201d5.colorBrand__201d5,.primary__6af3a, .primary__6af3a:disabled) {
+ :is(.lookFilled__201d5.colorBrand__201d5,.primary__6af3a, .primary__6af3a:disabled) {
 	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
@@ -118,6 +120,15 @@
 		background-color: var(--background-secondary) !important;
 	}
 }
+.overlay-primary__6af3a{
+	background: var(--blurple-inverted);
+	&:hover{
+		background: var(--blurple-inverted-hover);
+	}
+	&:active{
+		background: var(--blurple-inverted-active);
+	}
+}
 
 .tipTitle_a2f514 {
 	color: var(--brand-experiment) !important;
@@ -146,12 +157,6 @@
 
 .newlyAddedBadge_aeaaeb {
 	background: var(--green);
-}
-
-.button_e131a9 .buttonColor_e131a9:disabled {
-	background-color: var(--background-primary);
-	color: var(--interactive-active);
-	opacity: 0.3;
 }
 
 /*.folderIconWrapper__48112[style="background-color: rgba(88, 101, 242, 0.4);"] {
