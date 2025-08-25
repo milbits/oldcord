@@ -1639,20 +1639,11 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	}
 }
 
-.guildTagContainer__63ed3{
-	border: none
-}
-
-.clanTag__5d473,.guildTag__63ed3{
-	border-radius: 3px;
-	background: var(--background-modifier-accent);
-	& .tagText__10651 {
-			color: var(--text-secondary, var(--header-secondary))
-	}
-	& img{
-		opacity: 0.6;
-	}
-	&:hover img{
-			opacity: 1
-		}
+.guildTagContainer__63ed3,
+.clanTagChiplet_c19a55,
+.chipletContainerInline__4a25c,
+.chipletContainerInline__10651,
+.chipletContainerInner__10651,
+.clanTag__5d473 {
+	display: none !important;
 }
