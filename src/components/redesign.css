@@ -767,7 +767,7 @@ html.platform-osx .title_c38106 {
 	}
 	:is(.button__201d5, .button__6af3a, .expressiveRive__6af3a):not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.card__39ec2 .button_fb7f94,.critical-secondary__6af3a,.secondary__6af3a) {
+		&:not(.card__39ec2 .button_fb7f94,.critical-secondary__6af3a,.secondary__6af3a,.customButton__39ec2) {
 			border: none !important;
 		}
 		.panels_c48ade & {
