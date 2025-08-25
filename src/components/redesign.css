@@ -767,8 +767,8 @@ html.platform-osx .title_c38106 {
 	}
 	:is(.button__201d5, .button__6af3a, .expressiveRive__6af3a):not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.card__39ec2 .button_fb7f94) {
-			border: none;
+		&:not(.card__39ec2 .button_fb7f94,.critical-secondary__6af3a,.secondary__6af3a) {
+			border: none !important;
 		}
 		.panels_c48ade & {
 			background: none;
@@ -802,10 +802,10 @@ html.platform-osx .title_c38106 {
 		font-size: 14px;
 	}
 	.secondary__6af3a {
-		background-color: unset;
-		border: 1px solid !important;
-		&:active{
-			background: rgb(255 255 255 / 10%)
+		background-color: var(--interactive-muted);
+		transition: ease 0.17s;
+		&:hover{
+			background: hsl(217,8%, 44%)
 		}
 	}
 	.select__3f413 {
