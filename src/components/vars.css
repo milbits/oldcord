@@ -173,11 +173,7 @@
 	--control-background-active-active: var(--green-active);
 	--control-text-active-default: var(--white);
 }
-:root {
-	--oldcord-tint: 210; /*this only applies to light mode. why this exists idk*/
-	--oldcord-tint-intensity: 11.11;
-	
-	--text-muted: #72767d;
+:root {	
 	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
 	--font-display: Whitney, "Helvetica Neue", "gg sans" ,Helvetica, Arial, sans-serif !important;
 	--font-headline: Whitney, "Helvetica Neue","gg sans" , Helvetica, Arial, sans-serif;
@@ -250,14 +246,18 @@
 	--yellow-hover: #e19517;
 	--yellow-inverted: #fffbf4;
 	--yellow-inverted-active: #feedd1;
+	
 	--green-inverted: #f6fbf9;
 	--green-inverted-active: #d9f0e6;
 	--green: hsl(153, calc(var(--saturation-factor, 1) * 46%), 49%);
-	--status-green-600: var(--green);
-	--green-360: var(--green);
 	--green-hover: hsl(153, calc(var(--saturation-factor, 1) * 46%), 44%);
 	--green-active: hsl(152, calc(var(--saturation-factor, 1) * 46%), 39%);
 	--green-transparent: hsl(153, calc(var(--saturation-factor, 1) * 46%), 49%, 20%);
+	
+	--button-positive-background: var(--green);
+	--status-green-600: var(--green);
+	--green-360: var(--green);
+
 	--blue-345: hsl(199.524 calc(1*100%) 49.412% /1);
 	--info-positive-foreground: var(--green);
 	--text-positive: var(--green);
