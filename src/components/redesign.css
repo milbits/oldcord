@@ -2251,7 +2251,7 @@ html .bar_c38106 {
 	.circleIconButton__5bc7e {
 		transition: ease 0.17s;
 		&.selected__5bc7e{
-			border-radius: 18px !important;
+			border-radius: 15px !important;
 		}
 		border-radius: 50%;
 		width: 48px;
