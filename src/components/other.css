@@ -1891,7 +1891,7 @@ https://github.com/XYZenix/DTM-16
 	}
 }
 
-
+/*shop*/
 .container_a3e8db{
 	margin-right: 50px;
 	border: none;
@@ -1904,8 +1904,52 @@ https://github.com/XYZenix/DTM-16
 		fill: var(--blurple)
 	}
 }
-
 .shopCard_c3d04b{
 	border: none;
 	border-radius: 12px
+}
+/*discovery tab*/
+.navItem__551b0{
+	padding: 8px;
+	border-radius: 4px;
+}
+.navItem__551b0.selected__551b0{
+	background: var(--blurple);
+}
+.navItemIcon__551b0{
+	padding-right: 4px
+}
+
+.gradientBackground_e9ef78{
+	content: url("https://raw.githubusercontent.com/milbits/oldcord/refs/heads/main/.github/thething.svg")
+}
+.searchBar__1ac1c{
+	background: white !important;
+}
+.description_e9ef78{
+	color: rgba(255, 255, 255, 0.8) !Important
+}
+.textContainer_e9ef78{
+	text-align: center;
+padding-top: 100px}
+.content_e9ef78{
+	flex-direction:column
+}
+
+.guildDetails__4cb8a{
+	outline: none !important;
+border-radius:4px;background-color:var(--background-tertiary);
+	&:hover{
+		box-shadow: var(--legacy-elevation-high)
+	}
+}
+.transitionGroup__4cb8a{
+	transition: ease 0.5s;
+		&:hover{
+		box-shadow: var(--legacy-elevation-high);
+		transform: translateY(-5px)
+	}
+}
+.card__84e3e{
+	border: none !important
 }
