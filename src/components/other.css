@@ -1084,17 +1084,38 @@ h2.title_b717a1,
 }
 
 /* polls */
+.bottomBar__0be77 .secondary__6af3a{
+	background: var(--red) !important;
+	&:hover{
+		background: var(--red-hover) !important;
+	}
+	&:active{
+		background: var(--red-active) !important;
+
+	}
+}
 .normalStylesDefault_a1443c {
-	--custom-poll-style-vote-background: var(--background-secpndary);
+	--icon-primary: var(--brand-experiment-460);
 	--custom-poll-style-vote-percentage: var(--background-modifier-accent);
 	--polls-victor-fill: var(--green-transparent);
-	--polls-voted-fill: var(--brand-experiment-25a);
+	--polls-voted-fill: var(--brand-experiment-30a);
 }
-.answerInner__4c520 {
-	background-color: var(--button-secondary-background);
+.victorStyles_a1443c .answerInner__4c520{
+	border-radius: 12px;
+}
+.answerInner__4c520 {		
+	background-color:  hsl(216.92deg 7.6% 26.53%);
 	border-radius: 3px;
 	& .label__4c520 {
 		color: var(--interactive-active);
+	}
+	&.currentlyVoting__4c520:not(.selected__4c520):hover{
+		outline: transparent !important;
+		background-color:  hsl(216.92deg 7.6% 32.53%);
+	}
+	&.selected__4c520{
+		background: var(--brand-experiment-25a);
+		transition: 0s
 	}
 }
 .secondaryButtonPresentation__0be77 {
