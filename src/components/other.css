@@ -585,7 +585,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .botTagOP__82f07 {
 	color: var(--blurple);
 	background-color: transparent;
-	border: 1px solid var(--blurple);
+	outline: 1px solid var(--blurple);
 	font-weight: 500;
 }
 
@@ -637,7 +637,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 /* make description a card*/
 .description__803f2 {
 	background: var(--background-secondary);
-	border: 1px solid var(--background-tertiary);
+	outline: 1px solid var(--background-tertiary);
 	border-radius: 5px;
 	color: var(--text-default);
 	font-weight: 400;
@@ -1622,7 +1622,7 @@ https://github.com/XYZenix/DTM-16
 			width: 130px;
 			height: auto;
 			padding: 10px 0;
-			color: var(--interactive-active);
+			color: var(--interactive-hover);
 			text-align: center;
 		}
 		&.selected__36dee:before {
@@ -1631,6 +1631,7 @@ https://github.com/XYZenix/DTM-16
 		&.selected__36dee:after {
 			background: var(--blurple);
 			border-color: var(--blurple);
+			color: var(--interactive-active)
 		}
 	}
 }
@@ -1664,7 +1665,7 @@ https://github.com/XYZenix/DTM-16
 }
 /*idiots!!!!!!!!!*/
 :is(#equicordthemes-tab, #vencordthemes-tab) .sectionTitle__7bffb:before {
-	content: "OldCord note: Using it with other themes may break stuff. Please don't report issues (this is not from vencord)";
+	content: "Using OldCord with other themes may break stuff. Please don't report issues. (this is not from vencord)";
 	color: #fff;
 	padding: 10px;
 	background: var(--red-transparent);
@@ -1672,7 +1673,7 @@ https://github.com/XYZenix/DTM-16
 	border-radius: 3px;
 }
 :is(#themes-tab) .bd-addon-controls:after {
-	content: "OldCord note: Using it with other themes may break stuff. Please don't report issues (this is not from betterdiscord)";
+	content: "Using OldCord with other themes may break stuff. Please don't report issues (this is not from betterdiscord)";
 	color: #fff;
 	margin-top: 10px;
 	padding: 10px;
