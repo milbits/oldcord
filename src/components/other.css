@@ -502,12 +502,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .card_f369db {
 	padding-bottom: 8px;
 }
-.grid_f369db > div:first-child,
-.headerRow_f369db,
-.list_f369db > div:first-child {
-	min-width: 400px;
-	padding-right: var(--spacing-16);
-}
 
 .tagsContainer_f369db {
 	padding-top: 24px;
@@ -614,25 +608,29 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 }
 
 /* posts*/
+/*this is cool  cubic-bezier(0.5, 1.34, 0.5, 1.31) */
 .container__9a337,
 .container_faa96b {
-	transition: 0.1s ease !important;
+	transition: .15s ease !important;
 	transform: none !important;
-	border-radius: 5px;
-	box-shadow: none !important;
+	border-radius: 6px;
 	background: var(--deprecated-card-editable-bg);
 	border: none !important;
 }
 
 .content__99f8c .container__9a337:hover,
 .content__99f8c .container_faa96b:hover {
-	background-color: var(--background-modifier-hover) !important;
-	border: none;
+	background-color: var(--background-modifier-hover);
 }
 
-.container__9a337:active,
-.container_faa96b:active {
+.content__99f8c .container__9a337:active,
+.content__99f8c .container_faa96b:active {
 	background-color: var(--background-modifier-active) !important;
+}
+.content__99f8c .isOpen_faa96b{
+	transform: translateY(-5px) !important;
+	background: var(--background-secondary-alt) !important;
+	box-shadow: var(--elevation-high), var(--legacy-elevation-border) !important;
 }
 
 /** Devices Tab*/
@@ -1099,9 +1097,6 @@ h2.title_b717a1,
 	--custom-poll-style-vote-percentage: var(--background-modifier-accent);
 	--polls-victor-fill: var(--green-transparent);
 	--polls-voted-fill: var(--brand-experiment-30a);
-}
-.victorStyles_a1443c .answerInner__4c520{
-	border-radius: 12px;
 }
 .answerInner__4c520 {		
 	background-color:  hsl(216.92deg 7.6% 26.53%);
