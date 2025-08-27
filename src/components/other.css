@@ -1736,7 +1736,7 @@ https://github.com/XYZenix/DTM-16
 	.giftButton__82222:active {
 		background-color: var(--button-secondary-background-active);
 	}
-	.heroHeadingV2Container_c880e8 .marketingPageTextContainer__81281 .marketingPageHeading__81281:before {
+	.marketingPageTextContainer__81281 .marketingPageHeading__81281:before {
 		content: " ";
 		background-image: url(https://raw.githubusercontent.com/milbits/oldcord/refs/heads/main/src/assets/Discord_Nitro_Wordmark_Filled.svg);
 		width: 160px;
