@@ -11,6 +11,8 @@ A theme for Discord that brings the 2020 UI back without removing features
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
 > - To have the old gray colors, use the "Ash" theme in appearance settings
 >   - If you use vencord's "Client Theme" plugin, use darker
+>  
+> - If you use BetterFolders, expect half of your screen to become black. I always try to fix this but no promises
 
 <details> <summary><h3>Light mode (usable!)</h3></summary>
 
