@@ -1949,3 +1949,52 @@ border-radius:4px;background-color:var(--background-tertiary);
 .card__84e3e{
 	border: none !important
 }
+/*events tab*/
+.card__88264{
+	background: var(--background-secondary);
+	border: 0;
+	&:hover{
+		background: var(--background-secondary-alt);
+	}
+	#app-mount & .active__6af3a{
+		background: transparent;
+		border: 1px solid #fff !important;
+		&:active{
+			background: var(--primary-transparent)
+		}
+	}
+}
+
+/*channels tab*/
+.pageBody__41ed7{
+	padding: 12px 0
+}
+.channelRow_e4503a{
+	border: none
+}
+.separator_e4503a{
+	display: block
+}
+.viewChannelButtonWrapper_e4503a .button__6af3a{
+	background: var(--green);
+	&:hover{
+		background: var(--green-hover);
+	}
+	&:active{
+			background: var(--green-active);
+
+	}
+	color: white
+}
+/*members tab*/
+.content_f75fb0{
+	padding: 0;
+}
+.mainTableContainer__09a38{
+	border: none;
+	& .button__71c22{
+		background: var(--background-secondary)
+	}
+	& .heading-md\/medium_cf4812{display: none};
+	
+}
