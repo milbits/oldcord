@@ -364,7 +364,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	letter-spacing: unset;
 }
 
-.wrapper_d14335,
+.wrapper__3412a,
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-default) !important;
@@ -376,7 +376,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	}
 }
 .select__3f413:hover:not([aria-disabled="true"]),
-.wrapper_d14335:hover,
+.wrapper__3412a:hover,
 .bioTextArea__6a919:hover {
 	border-color: var(--deprecated-text-input-border-hover);
 }
@@ -569,7 +569,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	&:active {
 		background-color: var(--green-active) !important;
 	}
-}.secondary__6af3a:has([d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]){
+}
+.secondary__6af3a:has([d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]){
 	background: none !important;
 	padding: 8px !important;
 }
@@ -618,16 +619,16 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	border: none !important;
 }
 
-.content__99f8c .container__9a337:hover,
-.content__99f8c .container_faa96b:hover {
+.container__9a337:hover,
+ .container_faa96b:hover {
 	background-color: var(--background-modifier-hover);
 }
 
-.content__99f8c .container__9a337:active,
-.content__99f8c .container_faa96b:active {
+ .container__9a337:active,
+.container_faa96b:active {
 	background-color: var(--background-modifier-active) !important;
 }
-.content__99f8c .isOpen_faa96b{
+:is(.isOpen_faa96b,.isOpen__9a337){
 	transform: translateY(-5px) !important;
 	background: var(--background-secondary-alt) !important;
 	box-shadow: var(--elevation-high), var(--legacy-elevation-border) !important;
