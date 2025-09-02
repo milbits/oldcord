@@ -1999,7 +1999,6 @@ html.platform-osx .title_c38106 {
 	}
 
 	.bd-radio-option {
-		gap: unset;
 		padding: 10px 10px 10px 7px;
 		margin-bottom: 8px;
 		background-color: var(--background-base-lower);
@@ -2045,7 +2044,60 @@ html.platform-osx .title_c38106 {
 		color: #fff;
 	}
 
+	.bd-select {
+	    position: relative;
+	    cursor: pointer;
+	    font-size: 14px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    background-color: var(--deprecated-text-input-bg);
+	    border: 1px solid var(--deprecated-text-input-border);
+	    border-radius: 3px;
+	    padding: 5px 5px 5px 5px;
+	    transition: 150ms ease border-color;
+	}
 
+	.bd-store-card {
+	    padding: 12px;
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: center;
+	    background-color: var(--background-secondary);
+	    border-radius: var(--radius-sm);
+	    cursor: pointer;
+	    margin: 10px 0;
+		border: unset;
+		border-radius: 5px;
+	}
+
+	.bd-addon-store-card {
+	    background-color: var(--background-secondary) !important;
+	}
+
+	.bd-addon-list .bd-addon-card {
+	    display: flex;
+	    flex-direction: column;
+	    margin-bottom: 20px;
+	    border-radius: 5px;
+	    overflow: hidden;
+		border: unset;
+	    background: var(--background-primary);
+	}
+
+	.bd-addon-list .bd-addon-header {
+	    color: var(--header-primary);
+	    background: var(--background-base-lowest);
+	    padding: 16px;
+	    font-size: 14px;
+	    line-height: 20px;
+	    font-weight: 600;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    overflow: hidden;
+	}
 }
 
 :where(.visual-refresh) .item__001a7,
