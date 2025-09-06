@@ -1,4 +1,3 @@
-/*WIP: clean that shit up jesus christtdfgnbijsdfbgbdfsguoibsd*/
 /*
 [fill="#3ba55c"],
 [fill="#3BA55C"],
@@ -54,7 +53,6 @@
 }
 */
 
-
 /*discovery and add button*/
 .circleIcon__5bc7e {
 	color: var(--green);
@@ -62,12 +60,12 @@
 		color: #fff;
 	}
 }
-.circleIconButton__5bc7e:is(.selected__5bc7e,:hover) {
+.circleIconButton__5bc7e:is(.selected__5bc7e, :hover) {
 	color: #fff;
 	background-color: var(--green) !important;
 }
 
- :is(.lookFilled__201d5.colorBrand__201d5,.primary__6af3a, .primary__6af3a:disabled) {
+:is(.lookFilled__201d5.colorBrand__201d5, .primary__6af3a, .primary__6af3a:disabled) {
 	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
@@ -120,12 +118,12 @@
 		background-color: var(--background-secondary) !important;
 	}
 }
-.overlay-primary__6af3a{
+.overlay-primary__6af3a {
 	background: var(--blurple-inverted);
-	&:hover{
+	&:hover {
 		background: var(--blurple-inverted-hover);
 	}
-	&:active{
+	&:active {
 		background: var(--blurple-inverted-active);
 	}
 }
@@ -147,8 +145,6 @@
 		background-color: var(--green-active);
 	}
 }
-
-
 
 /* Green Speaking Border in Maximized Voice Chats */
 .border__2f4f7.speaking__2f4f7 {
@@ -201,7 +197,7 @@
 	height: 48px;
 	padding: 0 20px;
 }
-.searchHeaderTabList_f3b986 [aria-selected="true"] {
+.searchHeaderTabList_f3b986 .selected_b3f026 {
 	box-shadow: inset 0 -2px var(--interactive-active);
 }
 .searchHeaderTabList_f3b986 .item_b3f026 {
@@ -273,13 +269,14 @@
 	color: white !important;
 }
 
-.serverBoostTabItem_cbe0b4,.premiumTab__581ea {
+.serverBoostTabItem_cbe0b4,
+.premiumTab__581ea {
 	color: var(--blurple) !important;
 }
-:is(.serverBoostTabItem_cbe0b4,.premiumTab__581ea):hover {
+:is(.serverBoostTabItem_cbe0b4, .premiumTab__581ea):hover {
 	background-color: var(--brand-experiment-10a) !important;
 }
-:is(.serverBoostTabItem_cbe0b4,.premiumTab__581ea):active {
+:is(.serverBoostTabItem_cbe0b4, .premiumTab__581ea):active {
 	color: white !important;
 	background-color: var(--blurple) !important;
 }
@@ -401,8 +398,6 @@
 .keybind_c2b141 {
 	color: #72767d !important;
 }
-
-
 
 .button__6af3a.critical-secondary__6af3a {
 	background: transparent !important;

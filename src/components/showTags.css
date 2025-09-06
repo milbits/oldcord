@@ -7,19 +7,21 @@
 	display: unset !important;
 }
 
-.guildTagContainer__63ed3{
-	border: none
+.guildTagContainer__63ed3 {
+	border: none;
 }
-.clanTag__5d473,.guildTag__63ed3,.clanTag__972a0{
+.clanTag__5d473,
+.guildTag__63ed3,
+.clanTag__972a0 {
 	border-radius: 3px;
 	background: var(--background-modifier-accent);
 	& .tagText__10651 {
-			color: var(--text-secondary, var(--header-secondary))
+		color: var(--text-secondary, var(--header-secondary));
 	}
-	& img{
+	& img {
 		opacity: 0.6;
 	}
-	&:hover img{
-			opacity: 1
-		}
+	&:hover img {
+		opacity: 1;
+	}
 }
