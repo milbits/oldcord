@@ -784,6 +784,9 @@ html.platform-osx .title_c38106 {
 					background: var(--green-active) !important;
 				}
 			}
+			&.fauxDisabled_e131a9{
+				display: none
+			}
 		}
 	}
 	.button__6af3a {
