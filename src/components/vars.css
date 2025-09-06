@@ -286,6 +286,7 @@
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
+	--text-warning: hsl(40 calc(var(--saturation-factor, 1)*86.4%) 56.9%/1);
 	--notice-background-warning: #f26522;
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;
