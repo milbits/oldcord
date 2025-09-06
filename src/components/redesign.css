@@ -771,6 +771,19 @@ html.platform-osx .title_c38106 {
 		}
 		.panels_c48ade & {
 			background: none;
+			&.buttonColor_e131a9:hover{
+				background: var(--button-secondary) !Important
+			}
+			&.buttonActive_e131a9{
+				background: var(--green) !important;
+				color: white;
+				&:hover{
+					background: var(--green-hover) !important;
+				}
+				&:active{
+					background: var(--green-active) !important;
+				}
+			}
 		}
 	}
 	.button__6af3a {
