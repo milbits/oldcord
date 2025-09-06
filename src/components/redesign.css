@@ -1007,15 +1007,9 @@ html.platform-osx .title_c38106 {
 	}
 
 	/* style member list correctly */
-	.clickable__91a9d.container__91a9d:hover .text_c9d15c,
-	.clickable__91a9d.container__91a9d:hover .muted__91a9d .text_c9d15c,
-	.clickable__91a9d.container__91a9d:active .text_c9d15c,
-	.clickable__91a9d.container__91a9d:active .text_c9d15c,
-	.highlighted__91a9d.container__91a9d .text_c9d15c,
-	.selected__91a9d.container__91a9d .text_c9d15c {
-		color: var(--channels-default);
+	.member__5d473 .childContainer__91a9d{
+		padding: 0px 8px 0px 8px;
 	}
-
 	/* style friends list correctly */
 	.peopleListItem_cc6179 {
 		transition: unset !important;
@@ -1060,7 +1054,7 @@ html.platform-osx .title_c38106 {
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
 	}
-	/* turn a dot into a divider */
+	/* turn dot between "friends" and "online"  into a line*/
 	.dot__9293f {
 		width: 1px;
 		height: 24px;
@@ -1356,14 +1350,6 @@ html.platform-osx .title_c38106 {
 		border-radius: 3px;
 		background-color: var(--opacity-black-60);
 	}
-	.colorDefault_c1e9c4.focused_c1e9c4 .caret_c1e9c4,
-	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c1e9c4,
-	.colorDefault_c1e9c4.focused_c1e9c4 .radioSelection_c1e9c4,
-	.colorDefault_c1e9c4.focused_c1e9c4 .subtext_c1e9c4,
-	.colorDefault_c1e9c4.focused_c1e9c4 .refreshIcon__001a7 {
-		color: var(--white);
-		fill: var(--white);
-	}
 
 	/* ping icon */
 	.lowerBadge_cc5dd2 {
@@ -1625,11 +1611,8 @@ html.platform-osx .title_c38106 {
 	}
 
 	/* friends tab wumpus */
-	.addFriendWumpusWrapper__72ba7 {
+	.addFriendWumpusWrapper__72ba7 .description_ddd181 {
 		display: none;
-	}
-	.addFriendInputWrapper__72ba7:focus-within {
-		border: 1px solid var(--deprecated-text-input-border);
 	}
 
 	/* inbox */
@@ -1666,7 +1649,6 @@ html.platform-osx .title_c38106 {
 				margin-top: 4px;
 				margin-bottom: 20px;
 				border-radius: 4px;
-				background-color: var(--background-primary);
 			}
 			.tab_ab6641:is(.selected_b3f026) {
 				background-color: var(--background-accent);
@@ -2097,12 +2079,6 @@ html.platform-osx .title_c38106 {
 	}
 }
 
-:where(.visual-refresh) .item__001a7,
-:where(.visual-refresh) .item__001a7[aria-checked="true"],
-:where(.visual-refresh) .itemFilled__001a7[aria-checked="true"],
-:where(.visual-refresh) .radioBar__001a7 {
-	border-radius: 5px;
-}
 /*ttitle bar. and stufuff. i guess*/
 .bar_c38106:not(.systemBar_c38106):not(:has(.channelTabs-trailing)) {
 	padding: 0 12px 0 !important;
