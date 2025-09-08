@@ -731,6 +731,12 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /** Custom status*/
+.statusText__19b6d {
+	color: var(--header-secondary);
+}
+.userInfo__0a06e .text__19b6d{
+	color: var(--text-muted)
+}
 .outer_ab8609 {
 	position: relative;
 	right: 105px;
