@@ -42,10 +42,10 @@
 .user-profile-popout .banner__68edb {
 	min-height: 55px !important;
 	height: 100px !important;
-	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 50%));
+	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
 .user-profile-popout.custom-user-profile-theme .banner__68edb {
-	mask-image: linear-gradient(to bottom, #fff, #ffffffad);
+	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
 .custom-user-profile-theme .header__5be3e {
 	background: var(--profile-gradient-overlay-color);
@@ -65,7 +65,7 @@
 	top: 61px !important;
 	left: 85px !important;
 }
-/*add colors back (but without that annoying border ew)*/
+/*add colors back*/
 .custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be, .user-profile-modal-v2 .profileHeader__9c3be) {
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
 	background: linear-gradient(
@@ -93,7 +93,7 @@
 	background: var(--profile-gradient-overlay-color) !important;
 }
 
-/* banners behind headers (profilesv2) */
+/* banners */
 .user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
 	position: absolute;
 	z-index: 0;
