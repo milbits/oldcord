@@ -369,7 +369,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	border-radius: 3px;
 	color: var(--text-default) !important;
 	background-color: var(--deprecated-text-input-bg) !important;
-	border: 1px solid var(--deprecated-text-input-border) !important;
+	border-color: var(--deprecated-text-input-border);
 	transition: border-color 0.2s ease-in-out;
 	&:focus-within {
 		border-color: var(--blurple) !important;
@@ -378,7 +378,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 .select__3f413:hover:not([aria-disabled="true"]),
 .wrapper__3412a:hover,
 .bioTextArea__6a919:hover {
-	border-color: var(--deprecated-text-input-border-hover)!important;
+	border-color: var(--deprecated-text-input-border-hover);
 }
 
 .emojiInput_e7d73e {
