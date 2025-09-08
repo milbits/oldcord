@@ -97,8 +97,6 @@
 .user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
 	position: absolute;
 	z-index: 0;
-	opacity: 45%;
-	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 .user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
 	background: transparent !important;
