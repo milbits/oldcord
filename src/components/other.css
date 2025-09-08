@@ -1372,38 +1372,25 @@ h2.title_b717a1,
 }
 
 /* custom status modal */
-.header_dbc4b7 {
+.header__53cea {
 	background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
-	background-size: 200px 120px;
-	background-position: center bottom;
+	background-position: center top;
 	background-repeat: no-repeat;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	padding-top: 120px !important;
-	margin-top: -93px;
+	padding-top: 100px !important;
+	margin-top: -60px;
+	box-shadow: none !important
 }
-.headerTitle_dbc4b7 .heading-xl\/semibold_cf4812 {
-	display: none;
-}
-.scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
-	content: "Set a custom status";
-	font-size: 20px;
-	line-height: 24px;
-	font-weight: 600;
-	color: var(--interactive-active);
-	margin-left: 28%;
-}
-html[lang="de"] .scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
-	content: "Einen Personalisierten Status festlegen";
-	margin-left: 8%;
+.headerTitle__53cea {
+	margin-left: 36%;
+	top: 35px;
+	position: relative;
+	font-size: 22px !important;
+	text-transform: none !important
 }
 .profilePreview_dbc4b7 {
 	display: none;
 }
-.statusText__19b6d {
-	color: var(--header-secondary);
-}
+
 
 /* status formatting */
 :is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
