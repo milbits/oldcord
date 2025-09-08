@@ -42,16 +42,35 @@
 .user-profile-popout .banner__68edb {
 	min-height: 55px !important;
 	height: 100px !important;
+}
+.user-profile-popout .banner__68edb {
 	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
-.user-profile-popout.custom-user-profile-theme .banner__68edb {
-	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
-}
+
 .custom-user-profile-theme .header__5be3e {
 	background: var(--profile-gradient-overlay-color);
 }
 
 /*move header stuff a bit down*/
+.profileHeader__9c3be {
+	min-height: 295px !important;
+}
+.user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
+	top: 85px !important;
+	background: var(--background-floating);
+	outline: 10px solid var(--background-floating)
+}
+.user-profile-modal-v2 .nickname__63ed3 {
+	top: 195px;
+}
+.user-profile-modal-v2 .tags__63ed3 {
+	top: 220px;
+}
+.profileButtons__9c3be {
+	top: 300px
+}
+
+
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3 {
 	padding-top: 44px;
 }
@@ -66,23 +85,17 @@
 	left: 85px !important;
 }
 /*add colors back*/
-.custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be, .user-profile-modal-v2 .profileHeader__9c3be) {
+.custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be,.container__63ed3,
+	.mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
+	margin-top: 0;
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
 	background: linear-gradient(
 		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
 		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
 		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color))
 	) !important;
-	& .container__63ed3,
-	.mutuals__530ce {
-		background: var(
-			--background-tertiary-alt,
-			linear-gradient(
-				color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
-				color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
-				color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color))
-			)
-		) !important;
+	& .profile__9c3be .profileHeader__9c3be {
+	--profile-gradient-overlay-color: rgb(0 0 0 / 60%);
 	}
 }
 .custom-user-profile-theme :is(.tags__63ed3, .profileButtons__9c3be) {
