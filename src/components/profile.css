@@ -1632,5 +1632,5 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .chipletContainerInline__10651,
 .chipletContainerInner__10651,
 .clanTag__5d473 {
-	display: none !important;
+	display: none;
 }
