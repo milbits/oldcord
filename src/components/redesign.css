@@ -1464,6 +1464,40 @@ html.platform-osx .title_c38106 {
 		background-color: rgba(114, 137, 218, 0.1) !important;
 	}
 
+	/* custom status modal */
+	.header_dbc4b7 {
+		background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
+		background-size: 200px 120px;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		padding-top: 120px !important;
+		margin-top: -93px;
+	}
+	.headerTitle_dbc4b7 .heading-xl\/semibold_cf4812 {
+		display: none;
+	}
+	.scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
+		content: "Set a custom status";
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 600;
+		color: var(--interactive-active);
+		margin-left: 28%;
+	}
+	html[lang="de"] .scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
+		content: "Einen Personalisierten Status festlegen";
+		margin-left: 8%;
+	}
+	.profilePreview_dbc4b7 {
+		display: none;
+	}
+	.statusText__19b6d {
+		color: var(--header-secondary);
+	}
+
 	/* voice panel */
 	.container_e131a9 {
 		.labelWrapper__06d62 .text-md\/medium_cf4812 {

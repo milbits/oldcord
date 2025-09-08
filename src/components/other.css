@@ -1382,10 +1382,13 @@ h2.title_b717a1,
 }
 .headerTitle__53cea {
 	margin-left: 36%;
-	top: 35px;
+	top: 30px;
 	position: relative;
 	font-size: 22px !important;
 	text-transform: none !important
+}
+.headerTrailing__53cea {
+	margin-top: -30px !important;
 }
 .profilePreview_dbc4b7 {
 	display: none;
