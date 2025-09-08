@@ -23,7 +23,7 @@
 
 /*move that weird circle to the middle*/
 .mask__68edb mask circle {
-	transform: translateX(69.5px);
+	transform: translateX(69px);
 }
 .custom-theme-background .mask__68edb mask circle {
 	transform: translateX(73px) translateY(5px);
@@ -42,7 +42,7 @@
 .user-profile-popout .banner__68edb {
 	min-height: 55px !important;
 	height: 100px !important;
-	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 15%));
+	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 50%));
 }
 .user-profile-popout.custom-user-profile-theme .banner__68edb {
 	mask-image: linear-gradient(to bottom, #fff, #ffffffad);
@@ -50,13 +50,8 @@
 .custom-user-profile-theme .header__5be3e {
 	background: var(--profile-gradient-overlay-color);
 }
-/*fix for reaction stuff*/
-.avatar__75742 {
-	margin-top: 19px !important;
-	position: absolute;
-	margin-left: 0.5px;
-}
-/*move usernames etc. a bit down*/
+
+/*move header stuff a bit down*/
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3 {
 	padding-top: 44px;
 }
@@ -64,9 +59,12 @@
 	top: 140px;
 }
 .user-profile-popout.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609 {
-	top: 157px !important;
+	top: 147px !important;
 }
-
+.user-profile-popout .inner_c0bea0 .avatar__75742{
+	top: 61px !important;
+	left: 85px !important;
+}
 /*add colors back (but without that annoying border ew)*/
 .custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be, .user-profile-modal-v2 .profileHeader__9c3be) {
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
