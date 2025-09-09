@@ -981,6 +981,13 @@ html.platform-osx .title_c38106 {
 	.avatarWrapper__37e49 .nameTag__37e49 {
 		padding-bottom: 4px;
 		padding-top: 4px;
+		margin-right: 0;
+		& .title_b6c092{
+		font-size: 14px;
+		text-overflow:unset}
+	}
+	.container__37e49{
+		padding: 12px 3px 12px 12px;
 	}
 	.nameTag__37e49 {
 		margin-right: 4px;
