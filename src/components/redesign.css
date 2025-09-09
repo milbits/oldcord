@@ -77,11 +77,14 @@ html:not(.theme-light) .sidebarRegionScroller__23e6b {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
 	}
+	.bar_c38106{
+		height: 0;
+	}
 	.bar_c38106 .title_c38106 {
 		display: none;
 	}
 	.bar_c38106 .trailing_c38106 {
-		top: 33px !important;
+		top: 37px !important;
 	}
 	.scroller_ef3116 {
 		padding-top: 12px !important;
