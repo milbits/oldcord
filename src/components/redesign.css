@@ -1193,9 +1193,7 @@ html.platform-osx .title_c38106 {
 				border: none;
 			}
 		}
-		.channelAttachmentArea_b77158 {
-			background-color: unset;
-		}
+
 		.upload_aa605f {
 			background-color: unset;
 			background: var(--background-gradient-higher, var(--background-secondary));
@@ -1206,13 +1204,12 @@ html.platform-osx .title_c38106 {
 		.spoilerContainer__54ab5.attachmentContainer__54ab5 .media__41ea0 {
 			border-radius: 3px;
 		}
-		.slateTextArea_ec4baf {
-			margin-left: unset;
-		}
-		.attachButton__0923f {
-			height: 40px;
-			padding: 10px 16px;
-			margin-right: 0;
+
+
+		.attachWrapper__0923f{
+			padding:6px 0px 6px 6px;
+			position: relative;
+			bottom: 2px
 		}
 		.attachButtonInner__0923f {
 			svg {
