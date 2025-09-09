@@ -1380,18 +1380,34 @@ h2.title_b717a1,
 	margin-top: -60px;
 	box-shadow: none !important
 }
-.headerTitle__53cea {
+.headerMain__53cea .headerTitle__53cea {
 	margin-left: 36%;
 	top: 30px;
 	position: relative;
 	font-size: 22px !important;
 	text-transform: none !important
 }
-.headerTrailing__53cea {
+.headerTrailing__53cea:not(.headerTrailingAbsolute__53cea) {
 	margin-top: -30px !important;
+}
+.headerTrailingAbsolute__53cea {
+	margin-top: 50px !important;
+	margin-right: -50px !important;
 }
 .profilePreview_dbc4b7 {
 	display: none;
+}
+.headerGraphic__53cea {
+	display: none;
+}
+.headerGradient__53cea:before {
+	display: none;
+}
+.bodyInner__53cea .textArea__08bd2 {
+	border-radius: 3px;
+    color: var(--text-default);
+    background-color: var(--deprecated-text-input-bg);
+    border: 1px solid var(--deprecated-text-input-border);
 }
 
 

@@ -2076,6 +2076,10 @@ html.platform-osx .title_c38106 {
 	z-index: 102;
 	margin-right: -38px;
 }
+.bar_c38106 .trailing_c38106 .clickable_c99c29 {
+	margin: unset;
+	margin-top: 6px;
+}
 .bar_c38106 .channelTabs-trailing .trailing_c38106 {
 	top: 36px;
 	right: 10px;
@@ -2139,7 +2143,7 @@ html .bar_c38106 {
 	gap: unset;
 	justify-content: center;
 	bottom: 35px;
-	left: -12px;
+	left: -10px;
 	z-index: 3001;
 	-webkit-app-region: no-drag !important;
 	.winButton_c38106 {
