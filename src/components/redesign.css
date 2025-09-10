@@ -17,7 +17,7 @@
 	--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
-html.theme-dark:not(.custom-theme-background){
+.theme-dark:not(.custom-theme-background){
 	--background-base-low: var(--background-primary) !important;
 		--bg-base-tertiary: var(--background-tertiary);
 		--background-base-lower: var(--background-primary) !important;
