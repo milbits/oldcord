@@ -1200,7 +1200,9 @@ html.platform-osx .title_c38106 {
 				border: none;
 			}
 		}
-
+		.channelTextArea_f75fb0 {
+			--custom-chat-input-margin-bottom: 24px;
+		}
 		.upload_aa605f {
 			background-color: unset;
 			background: var(--background-gradient-higher, var(--background-secondary));
@@ -1214,14 +1216,27 @@ html.platform-osx .title_c38106 {
 
 
 		.attachWrapper__0923f{
-			padding:6px 0px 6px 6px;
+			padding: 6px 0px 6px 6px;
 			position: relative;
 			bottom: 2px
 		}
+		.button__24af7:not(.noHover__24af7) {
+			transition: unset;
+		}
+		.button__24af7:not(.noHover__24af7):hover {
+		    background-color: unset;
+		}
 		.attachButtonInner__0923f {
+			transition: unset;
 			svg {
 				width: 24px;
 				height: 24px;
+				path {
+					d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z")
+				}
+			}
+			&:hover {
+				background: unset;
 			}
 		}
 	}
@@ -1247,9 +1262,20 @@ html.platform-osx .title_c38106 {
 		font-size: 14px;
 		font-weight: 500;
 		line-height: 24px;
+		bottom: 1px !important;
+		top: unset !important;
 		resize: none;
 		align-items: center;
 		color: var(--text-default);
+		strong {
+		    font-weight: var(--font-weight-bold) !important;
+		}
+		.text_b88801 {
+			margin-left: 4px !important
+		}
+		.typingDots_b88801 {
+			margin-left: unset;
+		}
 	}
 
 	/* jump to present bar */
