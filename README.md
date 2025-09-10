@@ -10,10 +10,18 @@ A theme for Discord that brings the 2020 UI back without removing features
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
 > - To have the old gray colors, use the "Ash" theme in appearance settings
+>   - If you use vencord's "Client Theme" plugin, use darker
+>  
+> - If you use BetterFolders, expect half of your screen to become black. I always try to fix this but no promises
 
-<details> <summary>Light mode (shit)</summary>
+<details> <summary><h3>Light mode (usable!)</h3></summary>
 
-<img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/previewLight.webp>
+Light mode does NOT have 2020 colors and it's tailored to ME but i think nobody cares at all
+
+<img src=img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/previewLight.webp>
+preview outdated
+
+there's a `--oldcord-tint` variable to adjust the tint, value/number has to be in HSL hue
 
 </details>
 
@@ -28,6 +36,7 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | Name                   | Preview                                                                                | CSS                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/emojis.webp)     | `@import url("https://solaetv.github.io/soldcord/src/components/oldEmojis.css");`   |
+| Show Clan Tags | im too lazy for an image                                                     | `@import url("https://solaetv.github.io/soldcord/src/components/showTags.css");` |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/oldcontext.webp> | `@import url("https://solaetv.github.io/soldcord/src/components/oldContext.css");`  |
 | Show Profile Cosmetics (Light theme not supported for now) | ![Image](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/showeffects.webp)                                                           | `@import url("https://solaetv.github.io/soldcord/src/components/showEffects.css");` |
 | HeaderPresence | ![Image](https://github.com/user-attachments/assets/1a809f81-0d76-4146-ad25-941b4332bcbd)                                                           | https://betterdiscord.app/plugin/HeaderPresence |

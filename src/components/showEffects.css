@@ -1,133 +1,134 @@
 /*make cosmetics show again*/
-.avatarDecoration__44b0c,.avatarDecoration_c19a55,.profileEffects__01370,.mask__68edb,.nameplated__91a9d{
-    display: unset !important;
+.avatarDecoration__44b0c,
+.avatarDecoration_c19a55,
+.profileEffects__01370,
+.mask__68edb,
+.container__4bbc6,
+.backgroundImage__9c3be {
+	display: unset !important;
 }
-.animatorTop_faf9c0 .mask__68edb{
-    display: none !important
+
+.animatorTop_faf9c0 .mask__68edb {
+	display: none !important;
 }
 /*adjust profile effect opacity*/
-.profileEffects__01370{
-    opacity: 0.2
+.profileEffects__01370 {
+	opacity: 0.2;
 }
-.bannerColor_fb7f94{
-    background: #00000085 !important
+
+.custom-user-profile-theme {
+	--text-default: #fffffff0 !important;
+	--header-secondary: #ffffffe0 !important;
 }
 
 /*move that weird circle to the middle*/
-.mask__68edb mask circle{
-    transform: translateX(69.5px);
+.mask__68edb mask circle {
+	transform: translateX(69px);
 }
-:has(.custom-theme-background) .mask__68edb mask circle{
-    transform: translateX(73px) translateY(5px);
+.custom-theme-background .mask__68edb mask circle {
+	transform: translateX(73px) translateY(5px);
 }
-.user-profile-modal .mask__68edb mask circle{
-    display: none !important
-}
-.user-profile-modal-v2 .mask__68edb mask circle{
-    display: none !important
+.user-profile-modal-v2 .mask__68edb mask circle {
+	display: none !important;
 }
 /*fix some overlaying stuff*/
-.header__5be3e{
-    z-index: 2
+.header__5be3e {
+	z-index: 2;
 }
 /*make banners not so zoomed-in*/
-.userPopoutOuter_c69a7b .banner__68edb{
-    max-width: 250px;
+.user-profile-popout .banner__68edb {
+	max-width: 250px;
+}
+.user-profile-popout .banner__68edb {
+	min-height: 55px !important;
+	height: 100px !important;
+}
+.user-profile-popout .banner__68edb {
+	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
 
-/*fix for reaction stuff*/
-.avatar__75742{
-    position: absolute !important;
-    top: 53px !important;
+.custom-user-profile-theme .header__5be3e {
+	background: var(--profile-gradient-overlay-color);
 }
-/*move usernames etc. a bit down*/
-.outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3{
-    padding-top: 44px;
+
+/*move header stuff a bit down*/
+.profileHeader__9c3be {
+	min-height: 295px !important;
+}
+.user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
+	top: 85px !important;
+	background: var(--background-floating);
+	outline: 10px solid var(--background-floating)
+}
+.user-profile-modal-v2 .nickname__63ed3 {
+	top: 195px;
+}
+.user-profile-modal-v2 .tags__63ed3 {
+	top: 220px;
+}
+.profileButtons__9c3be {
+	top: 300px
+}
+
+
+.outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3 {
+	padding-top: 44px;
 }
 .user-profile-popout .container_ab8609 {
-    top: 140px
+	top: 140px;
 }
 .user-profile-popout.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609 {
-    top: 157px !important;
+	top: 147px !important;
+}
+.user-profile-popout .inner_c0bea0 .avatar__75742{
+	top: 61px !important;
+	left: 85px !important;
+}
+/*add colors back*/
+.custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be,.container__63ed3,
+	.mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
+	margin-top: 0;
+	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
+	background: linear-gradient(
+		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
+		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
+		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color))
+	) !important;
+	& .profile__9c3be .profileHeader__9c3be {
+	--profile-gradient-overlay-color: rgb(0 0 0 / 60%);
+	}
+}
+.custom-user-profile-theme :is(.tags__63ed3, .profileButtons__9c3be) {
+	background: none;
 }
 
-/*add colors back (but without that annoying border ew)*/
-.custom-user-profile-theme.user-profile-popout .inner_c0bea0{
-    --profile-gradient-overlay-color: rgb(0 0 0 / 40%);
-    background: linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color))) !important;
-    & .container__63ed3,.mutuals__530ce  {
-        background: var(--play, linear-gradient(color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-primary-color)),color-mix(in oklab,var(--profile-gradient-overlay-color)100%,var(--profile-gradient-secondary-color)))) !important
-    }
+.custom-user-profile-theme .footer__5be3e .themedBackground__74017 {
+	background: var(--profile-gradient-overlay-color) !important;
 }
 
-
-.custom-user-profile-theme .footer__5be3e .themedBackground__74017{
-    background: var(--profile-gradient-overlay-color) !important
-}
-
-
-/* banners behind headers */
-.user-profile-modal .inner_c0bea0 .mask__68edb {
-    position: absolute;
-    z-index: 0;
-    opacity: 25%;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-}
-.user-profile-modal .inner_c0bea0 .headerInner__24502 {
-    background: transparent !important;
-}
-
-.user-profile-modal.inner_c0bea0:has(.mask__68edb) .body__24502 {
-    & .fullSizeOverlayBackground_c69a7b {
-        z-index: 2;
-    }
-    & .container__63ed3 {
-        background: transparent !important;
-    }
-}
-/* banners behind headers (profilesv2) */
+/* banners */
 .user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
-    position: absolute;
-    z-index: 0;
-    opacity: 25%;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	z-index: 0;
 }
 .user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
-    background: transparent !important;
+	background: transparent !important;
+}
+.user-profile-modal-v2 .banner__68edb {
+	max-width: 350px;
 }
 
 .user-profile-modal-v2:has(.mask__68edb) {
-    :is(.profileButtons__9c3be, .tabBar__37bfc) {
-        z-index: 2;
-    }
-    :where(.banner__68edb) {
-        border-radius: 0px;
-    }
-}
-
-/* tinted text & profile */
-.inner_c0bea0:is(.user-profile-popout, .user-profile-modal)
-.outer_c0bea0.user-profile-modal,
-.custom-profile-theme {
-    --theme-base-color-amount: 50% !important; 
-    --theme-text-color-amount: 25% !important;
+	:is(.profileButtons__9c3be, .tabBar__37bfc) {
+		z-index: 2;
+	}
+	:where(.banner__68edb) {
+		border-radius: 0px;
+	}
 }
 
 /* apply ONLY if they have an avatar deco*/
-.user-profile-popout div:has(.avatarDecoration__44b0c) .avatar__75742 {
-    top: 31px !important;
-}
 
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
-    display: none !important;
-}
-
-/* clan tags */
-.guildTagContainer__63ed3,
-.clanTagChiplet_c19a55,
-.chipletContainerInline__4a25c,
-.chipletContainerInline__10651,
-.chipletContainerInner__10651,
-.clanTag__5d473 {
-	display: unset !important;
+	display: none !important;
 }
