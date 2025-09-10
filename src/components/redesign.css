@@ -1280,7 +1280,7 @@ html.platform-osx .title_c38106 {
 
 	/* jump to present bar */
 	.jumpToPresentBar__0f481 {
-		bottom: 0;
+		bottom: 12px;
 		border-radius: 8px 8px 0 0;
 		background-color: var(--background-accent);
 		opacity: 0.95 !important;
