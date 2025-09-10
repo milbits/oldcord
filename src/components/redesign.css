@@ -1168,6 +1168,7 @@ html.platform-osx .title_c38106 {
 	.formWithLoadedChatInput_f75fb0 {
 		padding-left: 16px !important;
 		padding-right: 16px !important;
+		margin-top: -12px;
 		.channelTextArea__74017 {
 			border: none;
 		}
@@ -1215,7 +1216,6 @@ html.platform-osx .title_c38106 {
 			border-radius: 3px;
 		}
 
-
 		.attachWrapper__0923f{
 			padding: 6px 0px 6px 6px;
 			position: relative;
@@ -1243,7 +1243,7 @@ html.platform-osx .title_c38106 {
 	}
 	.channelTextArea__74017 {
 		border: unset;
-		border-radius: 4px;
+		border-radius: 8px;
 	}
 	.separator__49fc1 {
 		box-shadow: 0 1px 0 0 hsl(240 calc(1 * 5.263%) 7.451% /0.3), 0 1px 2px 0 hsl(240 calc(1 * 5.263%) 7.451% /0.3);
