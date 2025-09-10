@@ -1540,12 +1540,14 @@ html.platform-osx .title_c38106 {
 			font-size: 14px !important;
 			font-weight: 600;
 		}
+		&:has(.voiceTimer) .connection_e131a9 {
+			padding-bottom: 20px;
+		}
+	}
+	.container_e131a9:has(.largePing__06d62) {
 		.subtext__339d0 {
 			position: fixed;
 			margin-left: -20px;
-		}
-		&:has(.voiceTimer) .connection_e131a9 {
-			padding-bottom: 20px;
 		}
 	}
 	.largePing__06d62 {
