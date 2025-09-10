@@ -1,15 +1,5 @@
 .theme-dark,
-.theme-light {
-	&:not(.custom-theme-background) {
-		--background-base-low: var(--background-primary) !important;
-		--bg-base-tertiary: var(--background-tertiary);
-		--background-base-lower: var(--background-primary) !important;
-		--background-base-lowest: var(--background-secondary) !important;
-		--custom-channel-members-bg: var(--background-secondary) !important;
-		--background-surface-highest: var(--background-primary) !important;
-		--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
-		--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
-	}
+.theme-light{
 	--checkbox-background-checked: var(--blurple) !important;
 	--bg-brand: var(--blurple, var(--blurple-50)) !important;
 
@@ -26,6 +16,16 @@
 	--__spoiler-warning-background-color: hsl(var(--black-500-hsl) / 0.6);
 	--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
+}
+html.theme-dark:not(.custom-theme-background){
+	--background-base-low: var(--background-primary) !important;
+		--bg-base-tertiary: var(--background-tertiary);
+		--background-base-lower: var(--background-primary) !important;
+		--background-base-lowest: var(--background-secondary) !important;
+		--custom-channel-members-bg: var(--background-secondary) !important;
+		--background-surface-highest: var(--background-primary) !important;
+		--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
+		--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
 .theme-darker {
 	--background-modifier-accent: hsl(217, 0%, 20%);
@@ -224,7 +224,7 @@ html.platform-osx .title_c38106 {
 .visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
-		background-color: var(--background-primary);
+		background-color: var(--background-mod-strong);
 	}
 	.sidebarListRounded_c48ade {
 		border-top-left-radius: unset;
@@ -624,24 +624,13 @@ html.platform-osx .title_c38106 {
 		border-bottom: unset;
 		box-shadow: var(--elevation-low);
 	}
-	.searchBar__35e86 .grow__201d5.fullWidth__201d5.sizeSmall__201d5.colorPrimary__201d5.lookFilled__201d5.button__201d5 {
-		width: 100%;
+	.searchBar__35e86 .button__201d5 {
 		height: 28px;
 		min-height: unset;
-		overflow: hidden;
 		border-radius: 4px;
-		background-color: var(--background-tertiary);
-		box-shadow: none;
-		padding: 6px;
+		background: var(--background-gradient-lowest, var(--background-tertiary));
 		.contents__201d5 {
-			width: 100%;
 			color: var(--text-muted);
-			text-align: left;
-			text-overflow: ellipsis;
-			font-size: 14px;
-			font-weight: 500;
-			line-height: 24px;
-			white-space: nowrap;
 		}
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
