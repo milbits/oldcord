@@ -1372,7 +1372,7 @@ h2.title_b717a1,
 }
 
 /* custom status modal */
-.header__53cea {
+.container__53cea:has(.textArea__08bd2, textarea) .header__53cea {
 	background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -1380,14 +1380,14 @@ h2.title_b717a1,
 	margin-top: -60px;
 	box-shadow: none !important
 }
-.headerMain__53cea .headerTitle__53cea {
+.container__53cea:has(.textArea__08bd2, textarea) .headerMain__53cea .headerTitle__53cea {
 	margin-left: 36%;
 	top: 30px;
 	position: relative;
 	font-size: 22px !important;
 	text-transform: none !important
 }
-.headerTrailing__53cea:not(.headerTrailingAbsolute__53cea) {
+.container__53cea:has(.textArea__08bd2, textarea) .headerTrailing__53cea:not(..headerTrailingAbsolute__53cea) {
 	margin-top: -30px !important;
 }
 .headerTrailingAbsolute__53cea {

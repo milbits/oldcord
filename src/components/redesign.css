@@ -796,6 +796,7 @@ html.platform-osx .title_c38106 {
 		padding: 2px 16px;
 		.buttonChildrenWrapper__6af3a {
 			min-width: unset;
+			min-height: unset;
 			padding: unset;
 		}
 	}
@@ -1532,11 +1533,41 @@ html.platform-osx .title_c38106 {
 	}
 
 	/* voice panel */
+	.wrapper_e131a9 {
+		margin-left: unset;
+	}
 	.container_e131a9 {
+		gap: var(--space-xs);
+		margin: auto var(--space-xs);
+		padding: var(--space-xs);
+		padding-left: 0;
+		padding-right: 0;
 		.labelWrapper__06d62 .text-md\/medium_cf4812 {
 			font-size: 14px !important;
 			font-weight: 600;
 		}
+		.subtext__339d0 {
+			position: fixed;
+			margin-left: -20px;
+		}
+		&:has(.voiceTimer) .connection_e131a9 {
+			padding-bottom: 20px;
+		}
+	}
+	.largePing__06d62 {
+		display: block;
+	    flex: 0 0 auto;
+	    height: 18px;
+	    margin-left: 0;
+	    margin-right: 4px;
+	    width: 16px;
+		background: unset !important;
+		box-shadow: unset;
+		padding: 0;
+		align-self: start;
+	}
+	.rtcConnectionStatus__06d62 {
+	    height: unset;
 	}
 	.rtcConnectionStatusWrapper__06d62 .text-sm\/medium_cf4812.lineClamp1__4bd52 {
 		font-size: 12px !important;
