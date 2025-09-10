@@ -243,8 +243,11 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	box-shadow: none;
 	background: none !important;
 }
-.title_b6c092.text-sm\/medium_cf4812 {
+.title_b6c092.text-sm\/medium_cf4812, .gameName__8c6c2.text-md\/medium_cf4812 {
 	font-weight: 400;
+}
+.gameName__8c6c2.text-md\/medium_cf4812 {
+	font-size: 14px;
 }
 
 /* KILL upsells KILL upsells KILL */

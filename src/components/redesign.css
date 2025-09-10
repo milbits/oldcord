@@ -1154,6 +1154,9 @@ html.platform-osx .title_c38106 {
 	.scrollerSpacer__36d07 {
 		height: 30px;
 	}
+	.chatGradientBase__36d07 {
+		display: none;
+	}
 	.formWithLoadedChatInput_f75fb0 {
 		padding-left: 16px !important;
 		padding-right: 16px !important;
