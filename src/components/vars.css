@@ -1,4 +1,4 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars), .theme-darker, .theme-midnight) {
+.theme-dark:not(html.custom-theme-background, .theme-darker, .theme-midnight) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
@@ -121,7 +121,7 @@
 	--control-text-active-default: var(--white);
 }
 
-.theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
+.theme-light:not(html.custom-theme-background) {
 	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%);
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
