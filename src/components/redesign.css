@@ -81,7 +81,7 @@ html:not(.theme-light) .sidebarRegionScroller__23e6b {
 		height: 0;
 	}
 	.bar_c38106 .title_c38106 {
-		display: none;
+		display: none	
 	}
 	.bar_c38106 .trailing_c38106 {
 		top: 37px !important;
@@ -1226,6 +1226,9 @@ html.platform-osx .title_c38106 {
 		}
 		.button__24af7:not(.noHover__24af7):hover {
 		    background-color: unset;
+		}
+		 .buttonWrapper__24af7:hover {
+		    color: var(--interactive-hover);
 		}
 		.attachButtonInner__0923f {
 			transition: unset;
