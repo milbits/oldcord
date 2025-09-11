@@ -81,7 +81,7 @@ html.platform-linux {
 		height: 0;
 	}
 	.bar_c38106 .title_c38106 {
-		display: none	
+		display: none
 	}
 	.bar_c38106 .trailing_c38106 {
 		top: 37px !important;
@@ -302,7 +302,7 @@ html.platform-osx .title_c38106 {
 	.checkbox_c4538f{
 		border-radius: 3px
 	}
-	
+
 	.iconContainer_c1e9c4 {
 		width: 18px;
 		height: 18px;
@@ -640,7 +640,7 @@ html.platform-osx .title_c38106 {
 		box-shadow: var(--elevation-low);
 	}
 	.searchBar__35e86 .button__201d5 {
-		
+
 		height: 28px;
 		min-height: unset;
 		border-radius: 4px;
@@ -1225,10 +1225,13 @@ html.platform-osx .title_c38106 {
 			border-radius: 3px;
 		}
 
-		.attachWrapper__0923f{
-			padding: 6px 0px 6px 6px;
+		.attachWrapper__0923f {
 			position: relative;
 			bottom: 2px
+		}
+		.attachButton__0923f {
+			padding: 12px;
+			margin-right: 6px;
 		}
 		.button__24af7:not(.noHover__24af7) {
 			transition: unset;
