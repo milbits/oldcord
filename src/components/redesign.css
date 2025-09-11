@@ -1549,6 +1549,7 @@ html.platform-osx .title_c38106 {
 		.subtext__339d0 {
 			position: fixed;
 			margin-left: -20px;
+			max-width: 190px;
 		}
 	}
 	.largePing__06d62 {
