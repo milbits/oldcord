@@ -631,6 +631,7 @@ html.platform-osx .title_c38106 {
 		background: var(--background-gradient-lowest, var(--background-tertiary));
 		.contents__201d5 {
 			color: var(--text-muted);
+			margin-left: -5px;
 		}
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
@@ -1873,11 +1874,13 @@ html.platform-osx .title_c38106 {
 		}
 		.body__53cea {
 			padding: 0 0 24px 0;
-			overflow: hidden !important;
 			.bodyInner__53cea {
 				padding-left: 13px;
 				padding-right: 13px;
 			}
+		}
+		.body__53cea:has(.control__2e2f2) {
+			overflow: hidden !important;
 		}
 		.input__0ed4f {
 			border-radius: 3px;
