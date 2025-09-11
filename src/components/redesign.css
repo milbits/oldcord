@@ -71,8 +71,8 @@ html:not(.theme-light) .sidebarRegionScroller__23e6b {
 	background: none !important;
 }
 /* remove the title bar on web & linux */
-.platform-web:not(html[data-dorion-platform="linux"]),
-.platform-linux {
+html.platform-web:not(html[data-dorion-platform="linux"]),
+html.platform-linux {
 	.base_c48ade {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
@@ -132,7 +132,7 @@ html[data-dorion-platform="linux"] {
 		margin-top: 38px !important;
 	}
 }
-.platform-osx .systemBar_c38106 {
+html.platform-osx .systemBar_c38106 {
 	background: none;
 }
 html.platform-win .sidebarListRounded_c48ade {
@@ -268,13 +268,16 @@ html.platform-osx .title_c38106 {
 	.sidebar__23e6b:not(.selected_b3f026, :hover) {
 		color: var(--interactive-normal);
 	}
-	&.theme-dark .colorDefault_c1e9c4 .label_c1e9c4 {
+	&.theme-dark .colorDefault_c1e9c4:not(.colorBrand_c1e9c4) .label_c1e9c4 {
 		color: unset;
+	}
+	.colorBrand_c1e9c4 .label_c1e9c4 {
+		color: var(--blurple);
 	}
 	.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
 		background-color: var(--menu-item-default-active-bg);
 	}
-	.colorDefault_c1e9c4.focused_c1e9c4 {
+	.colorDefault_c1e9c4 {
 		border-radius: 2px;
 	}
 	.colorDanger_c1e9c4,
@@ -283,11 +286,23 @@ html.platform-osx .title_c38106 {
 		color: var(--status-danger);
 	}
 	.colorDanger_c1e9c4.focused_c1e9c4 {
-		color: var(--white);
+		color: white;
 	}
-	.colorDefault_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-		fill: var(--white);
+
+	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f {
+		border-color: white;
+		color: white
 	}
+	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f.checked_c4538f {
+		background: var(--blurple-inverted);
+		& path{
+			fill: var(--blurple) !important
+		}
+	}
+	.checkbox_c4538f{
+		border-radius: 3px
+	}
+	
 	.iconContainer_c1e9c4 {
 		width: 18px;
 		height: 18px;
@@ -625,13 +640,14 @@ html.platform-osx .title_c38106 {
 		box-shadow: var(--elevation-low);
 	}
 	.searchBar__35e86 .button__201d5 {
+		
 		height: 28px;
 		min-height: unset;
 		border-radius: 4px;
 		background: var(--background-gradient-lowest, var(--background-tertiary));
 		.contents__201d5 {
-			color: var(--text-muted);
 			margin-left: -5px;
+			color: var(--text-muted);
 		}
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
@@ -1547,9 +1563,9 @@ html.platform-osx .title_c38106 {
 	}
 	.container_e131a9:has(.largePing__06d62) {
 		.subtext__339d0 {
+			max-width: 190px;
 			position: fixed;
 			margin-left: -20px;
-			max-width: 190px;
 		}
 	}
 	.largePing__06d62 {
@@ -1879,9 +1895,6 @@ html.platform-osx .title_c38106 {
 				padding-left: 13px;
 				padding-right: 13px;
 			}
-		}
-		.body__53cea:has(.control__2e2f2) {
-			overflow: hidden !important;
 		}
 		.input__0ed4f {
 			border-radius: 3px;
@@ -2354,6 +2367,7 @@ html .bar_c38106 {
 .layer__960e4.baseLayer__960e4 {
 	background-color: var(--bg-base-tertiary);
 }
+
 
 #app-mount .emojiRemove_e7d73e{
 	opacity: 0;
