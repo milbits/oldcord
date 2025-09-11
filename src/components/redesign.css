@@ -2354,3 +2354,28 @@ html .bar_c38106 {
 .layer__960e4.baseLayer__960e4 {
 	background-color: var(--bg-base-tertiary);
 }
+
+#app-mount .emojiRemove_e7d73e{
+	opacity: 0;
+	color: transparent;
+	position: absolute;
+	right: -12px;
+	width: 24px;
+	height: 24px;
+	box-shadow: var(--legacy-elevation-border), var(--legacy-elevation-low);
+	background-color: var(--background-primary);
+	background-image: url(https://discord.com/assets/b5ad3c52d0699af9b6987839875450d4.svg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease;
+	.emojiRow_e7d73e:hover &{
+		cursor:pointer;
+		opacity: 1
+	}
+	&:active{
+		transform: translateY(2px)
+	}
+}
+#app-mount .emojiRow_e7d73e:before{
+display: none}
