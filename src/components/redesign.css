@@ -509,9 +509,7 @@ html.platform-osx .title_c38106 {
 		padding: 12px;
 		border-bottom: unset;
 	}
-	.childContainer__91a9d {
-		padding: 2px 0;
-	}
+
 	.clickable__9293f .icon__9293f {
 		color: var(--interactive-normal);
 	}
@@ -785,6 +783,7 @@ html.platform-osx .title_c38106 {
 		}
 		.panels_c48ade & {
 			background: none;
+			
 			&.buttonColor_e131a9:hover {
 				background: var(--button-secondary) !important;
 			}
@@ -1034,11 +1033,6 @@ html.platform-osx .title_c38106 {
 		.interactive__972a0:focus-within {
 			background: var(--bg-overlay-selected, var(--background-modifier-selected));
 		}
-	}
-
-	/* style member list correctly */
-	.member__5d473 .childContainer__91a9d {
-		padding: 0px 8px 0px 8px;
 	}
 	/* style friends list correctly */
 	.peopleListItem_cc6179 {
