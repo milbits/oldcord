@@ -783,7 +783,6 @@ html.platform-osx .title_c38106 {
 		}
 		.panels_c48ade & {
 			background: none;
-			
 			&.buttonColor_e131a9:hover {
 				background: var(--button-secondary) !important;
 			}
@@ -1516,18 +1515,6 @@ html.platform-osx .title_c38106 {
 	}
 	.headerTitle_dbc4b7 .heading-xl\/semibold_cf4812 {
 		display: none;
-	}
-	.scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
-		content: "Set a custom status";
-		font-size: 20px;
-		line-height: 24px;
-		font-weight: 600;
-		color: var(--interactive-active);
-		margin-left: 28%;
-	}
-	html[lang="de"] .scrollerBase_d125d2.thin_d125d2:has(.profilePreview_dbc4b7).content__49fc1:before {
-		content: "Einen Personalisierten Status festlegen";
-		margin-left: 8%;
 	}
 	.profilePreview_dbc4b7 {
 		display: none;
