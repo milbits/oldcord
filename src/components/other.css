@@ -366,7 +366,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 
 .wrapper__3412a,
 .bioTextArea__6a919 {
-	border-radius: 3px;	
+	border-radius: 3px;
 	color: var(--text-default) !important;
 	background-color: var(--deprecated-text-input-bg) !important;
 	border: 1px solid var(--deprecated-text-input-border) !important;
@@ -1654,8 +1654,7 @@ https://github.com/XYZenix/DTM-16
 }
 /*custom theme*/
 .container__8fea4 {
-	display: unset;
-	border: none;
+	display: flow;
 }
 .presets__67a11 :is(.newRing__8fea4, .newBadge__8fea4) {
 	display: none;
