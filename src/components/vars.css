@@ -1,4 +1,5 @@
-.theme-dark:not(html.custom-theme-background, .theme-darker, .theme-midnight) {
+html:not(.custom-theme-background).theme-dark:not(.theme-darker, .theme-midnight),
+html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnight) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
@@ -95,7 +96,7 @@
 	--shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 hsl(none 0% 0%/0.24));
 	--shadow-top-low: 0 -1px 4px 0 hsl(none 0% 0%/0.14);
 	--shadow-top-low-filter: drop-shadow(0 -1px 4px hsl(none 0% 0%/0.14));
-    
+
 	--text-muted: #72767d;
 
 	--info-positive-foreground: var(--green);
@@ -121,7 +122,8 @@
 	--control-text-active-default: var(--white);
 }
 
-.theme-light:not(html.custom-theme-background) {
+html:not(html.custom-theme-background).theme-light,
+html:not(html.custom-theme-background) .theme-light {
 	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%);
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
@@ -250,8 +252,8 @@
 	--yellow-active: hsl(37, 81%, 44%);
 
 	--yellow-inverted: #fffbf4;
-	--yellow-inverted-active: #feedd1;	
-    --yellow-360: var(--yellow);
+	--yellow-inverted-active: #feedd1;
+	--yellow-360: var(--yellow);
 	--status-yellow-560: var(--yellow);
 
 	--green-inverted: #f6fbf9;
@@ -286,7 +288,7 @@
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
-	--text-warning: hsl(40 calc(var(--saturation-factor, 1)*86.4%) 56.9%/1);
+	--text-warning: hsl(40 calc(var(--saturation-factor, 1) * 86.4%) 56.9%/1);
 	--notice-background-warning: #f26522;
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;

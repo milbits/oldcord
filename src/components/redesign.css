@@ -1,5 +1,5 @@
 .theme-dark,
-.theme-light{
+.theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
 	--bg-brand: var(--blurple, var(--blurple-50)) !important;
 
@@ -17,15 +17,20 @@
 	--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
-.theme-dark:not(.custom-theme-background){
+html:not(.custom-theme-background) .theme-dark,
+html:not(.custom-theme-background).theme-dark {
 	--background-base-low: var(--background-primary) !important;
-		--bg-base-tertiary: var(--background-tertiary);
-		--background-base-lower: var(--background-primary) !important;
-		--background-base-lowest: var(--background-secondary) !important;
-		--custom-channel-members-bg: var(--background-secondary) !important;
-		--background-surface-highest: var(--background-primary) !important;
-		--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
-		--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+	--bg-base-tertiary: var(--background-tertiary);
+	--background-base-lower: var(--background-primary) !important;
+	--background-base-lowest: var(--background-secondary) !important;
+	--custom-channel-members-bg: var(--background-secondary) !important;
+	--background-surface-highest: var(--background-primary) !important;
+	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
+	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+}
+.custom-theme-background.theme-dark {
+	--background-tertiary: var(--background-base-lowest);
+	--background-secondary: var(--background-base-low);
 }
 .theme-darker {
 	--background-modifier-accent: hsl(217, 0%, 20%);
@@ -77,11 +82,11 @@ html.platform-linux {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
 	}
-	.bar_c38106{
+	.bar_c38106 {
 		height: 0;
 	}
 	.bar_c38106 .title_c38106 {
-		display: none	
+		display: none;
 	}
 	.bar_c38106 .trailing_c38106 {
 		top: 37px !important;
@@ -291,18 +296,18 @@ html.platform-osx .title_c38106 {
 
 	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f {
 		border-color: white;
-		color: white
+		color: white;
 	}
 	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f.checked_c4538f {
 		background: var(--blurple-inverted);
-		& path{
-			fill: var(--blurple) !important
+		& path {
+			fill: var(--blurple) !important;
 		}
 	}
-	.checkbox_c4538f{
-		border-radius: 3px
+	.checkbox_c4538f {
+		border-radius: 3px;
 	}
-	
+
 	.iconContainer_c1e9c4 {
 		width: 18px;
 		height: 18px;
@@ -640,7 +645,6 @@ html.platform-osx .title_c38106 {
 		box-shadow: var(--elevation-low);
 	}
 	.searchBar__35e86 .button__201d5 {
-		
 		height: 28px;
 		min-height: unset;
 		border-radius: 4px;
@@ -780,21 +784,21 @@ html.platform-osx .title_c38106 {
 		}
 		.panels_c48ade & {
 			background: none;
-			&.buttonColor_e131a9:hover{
-				background: var(--button-secondary) !Important
+			&.buttonColor_e131a9:hover {
+				background: var(--button-secondary) !important;
 			}
-			&.buttonActive_e131a9{
+			&.buttonActive_e131a9 {
 				background: var(--green) !important;
 				color: white;
-				&:hover{
+				&:hover {
 					background: var(--green-hover) !important;
 				}
-				&:active{
+				&:active {
 					background: var(--green-active) !important;
 				}
 			}
-			&.fauxDisabled_e131a9{
-				display: none
+			&.fauxDisabled_e131a9 {
+				display: none;
 			}
 		}
 	}
@@ -828,9 +832,9 @@ html.platform-osx .title_c38106 {
 		font-size: 14px;
 	}
 	.secondary__6af3a {
-		background-color: var(--interactive-muted);
+		background-color: var(--button-secondary);
 		&:hover {
-			background: hsl(217, 8%, 44%);
+			background: var(--button-secondary-hover);
 		}
 	}
 	.select__3f413 {
@@ -989,11 +993,11 @@ html.platform-osx .title_c38106 {
 		padding-bottom: 4px;
 		padding-top: 4px;
 		margin-right: 0;
-		& .title_b6c092{
-		font-size: 14px;
+		& .title_b6c092 {
+			font-size: 14px;
 		}
 	}
-	.container__37e49{
+	.container__37e49 {
 		padding: 12px 3px 12px 12px;
 	}
 	.nameTag__37e49 {
@@ -1002,10 +1006,6 @@ html.platform-osx .title_c38106 {
 
 	/* style dms correctly (refresh edition) */
 	.channel__972a0 {
-		.interactive__972a0:active,
-		.interactiveSelected__972a0 {
-			background: var(--bg-overlay-selected, var(--background-modifier-selected));
-		}
 		.interactiveSelected__972a0 :is(.name__20a53, .subtext__972a0) {
 			color: var(--interactive-active) !important;
 		}
@@ -1018,19 +1018,15 @@ html.platform-osx .title_c38106 {
 		.interactiveSelected__972a0 .subText__20a53 [data-text-variant="text-xs\/medium"] {
 			color: var(--interactive-active) !important;
 		}
-
 		&:hover:not(:has(.interactiveSelected__972a0)) .subText__20a53 [data-text-variant="text-xs\/medium"] {
 			color: var(--interactive-hover) !important;
 		}
-
 		&:hover .interactiveSelected__972a0 .name__20a53 {
 			color: var(--interactive-active) !important;
 		}
-
 		& .subText__20a53 [data-text-variant="text-xs\/medium"] {
 			color: var(--channels-default) !important;
 		}
-
 		&:hover:has(.interactiveSelected__972a0) .interactive_bf202d {
 			background: var(--background-modifier-selected) !important;
 		}
@@ -1040,7 +1036,7 @@ html.platform-osx .title_c38106 {
 	}
 
 	/* style member list correctly */
-	.member__5d473 .childContainer__91a9d{
+	.member__5d473 .childContainer__91a9d {
 		padding: 0px 8px 0px 8px;
 	}
 	/* style friends list correctly */
@@ -1225,19 +1221,19 @@ html.platform-osx .title_c38106 {
 			border-radius: 3px;
 		}
 
-		.attachWrapper__0923f{
+		.attachWrapper__0923f {
 			padding: 6px 0px 6px 6px;
 			position: relative;
-			bottom: 2px
+			bottom: 2px;
 		}
 		.button__24af7:not(.noHover__24af7) {
 			transition: unset;
 		}
 		.button__24af7:not(.noHover__24af7):hover {
-		    background-color: unset;
+			background-color: unset;
 		}
-		 .buttonWrapper__24af7:hover {
-		    color: var(--interactive-hover);
+		.buttonWrapper__24af7:hover {
+			color: var(--interactive-hover);
 		}
 		.attachButtonInner__0923f {
 			transition: unset;
@@ -1245,7 +1241,9 @@ html.platform-osx .title_c38106 {
 				width: 24px;
 				height: 24px;
 				path {
-					d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z")
+					d: path(
+						"M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z"
+					);
 				}
 			}
 			&:hover {
@@ -1281,10 +1279,10 @@ html.platform-osx .title_c38106 {
 		align-items: center;
 		color: var(--text-default);
 		strong {
-		    font-weight: var(--font-weight-bold) !important;
+			font-weight: var(--font-weight-bold) !important;
 		}
 		.text_b88801 {
-			margin-left: 4px !important
+			margin-left: 4px !important;
 		}
 		.typingDots_b88801 {
 			margin-left: unset;
@@ -1570,18 +1568,18 @@ html.platform-osx .title_c38106 {
 	}
 	.largePing__06d62 {
 		display: block;
-	    flex: 0 0 auto;
-	    height: 18px;
-	    margin-left: 0;
-	    margin-right: 4px;
-	    width: 16px;
+		flex: 0 0 auto;
+		height: 18px;
+		margin-left: 0;
+		margin-right: 4px;
+		width: 16px;
 		background: unset !important;
 		box-shadow: unset;
 		padding: 0;
 		align-self: start;
 	}
 	.rtcConnectionStatus__06d62 {
-	    height: unset;
+		height: unset;
 	}
 	.rtcConnectionStatusWrapper__06d62 .text-sm\/medium_cf4812.lineClamp1__4bd52 {
 		font-size: 12px !important;
@@ -2368,8 +2366,7 @@ html .bar_c38106 {
 	background-color: var(--bg-base-tertiary);
 }
 
-
-#app-mount .emojiRemove_e7d73e{
+#app-mount .emojiRemove_e7d73e {
 	opacity: 0;
 	color: transparent;
 	position: absolute;
@@ -2383,13 +2380,14 @@ html .bar_c38106 {
 	background-repeat: no-repeat;
 	border-radius: 50%;
 	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease;
-	.emojiRow_e7d73e:hover &{
-		cursor:pointer;
-		opacity: 1
+	.emojiRow_e7d73e:hover & {
+		cursor: pointer;
+		opacity: 1;
 	}
-	&:active{
-		transform: translateY(2px)
+	&:active {
+		transform: translateY(2px);
 	}
 }
-#app-mount .emojiRow_e7d73e:before{
-display: none}
+#app-mount .emojiRow_e7d73e:before {
+	display: none;
+}
