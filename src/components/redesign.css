@@ -72,9 +72,6 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	color: var(--channels-default);
 }
 
-html:not(.theme-light) .sidebarRegionScroller__23e6b {
-	background: none !important;
-}
 /* remove the title bar on web & linux */
 html.platform-web:not(html[data-dorion-platform="linux"]),
 html.platform-linux {
