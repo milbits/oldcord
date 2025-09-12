@@ -9,11 +9,10 @@ A theme for Discord that brings the 2020 UI back without removing features
 > [!IMPORTANT]  
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
-> - To have the old gray colors, use the "Ash" theme in appearance settings
->   - If you use vencord's "Client Theme" plugin, use darker
+> - For the old gray colors, use the "Ash" theme in appearance settings
+>   - Don't use vencord's "Client Theme" plugin. Use discord's own theme picker (with fakenitro if needed)
 >  
-> - If you use BetterFolders, expect half of your screen to become black. I always try to fix this but no promises
-
+> - If you use BetterFolders, expect half of your screen to become black at some point
 <details> <summary><h3>Light mode (usable!)</h3></summary>
 
 Light mode does NOT have 2020 colors and it's tailored to ME but i think nobody cares at all
