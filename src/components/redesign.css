@@ -31,6 +31,10 @@ html:not(.custom-theme-background).theme-dark {
 .custom-theme-background.theme-dark {
 	--background-tertiary: var(--background-base-lowest);
 	--background-secondary: var(--background-base-low);
+	--button-secondary: hsl(0deg 0% 100% / 20%);
+	--button-secondary-hover: hsl(0deg 0% 100% / 30%);
+	--background-primary: var(--background-surface-highest);
+	--background-message-hover: var(--background-gradient-lower);
 }
 .theme-darker {
 	--background-modifier-accent: hsl(217, 0%, 20%);
