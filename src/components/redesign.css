@@ -28,6 +28,7 @@ html:not(.custom-theme-background).theme-dark {
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
 	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
+
 .custom-theme-background.theme-dark {
 	--background-tertiary: var(--background-base-lowest);
 	--background-secondary: var(--background-base-low);
@@ -36,6 +37,13 @@ html:not(.custom-theme-background).theme-dark {
 	--background-primary: var(--background-surface-highest);
 	--background-message-hover: var(--background-gradient-lower);
 }
+html.custom-theme-background .contentRegionScroller__23e6b{
+	background: var(--background-primary) 
+}
+html.custom-theme-background .sidebarRegionScroller__23e6b{
+	background: var(--background-secondary)
+}
+
 .theme-darker {
 	--background-modifier-accent: hsl(217, 0%, 20%);
 	--background-primary: color-mix(in oklab, var(--neutral-80) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
@@ -1150,6 +1158,7 @@ html.platform-osx .title_c38106 {
 		padding: 10px !important;
 		--checkbox-border-checked: var(--brand-experiment-130);
 		--redesign-input-control-selected: none;
+		border-radius: 5px;
 	}
 	/*
 		.radioBar__001a7 .radioIndicatorGroup__001a7:before {
@@ -2464,3 +2473,4 @@ html .bar_c38106 {
 #app-mount .emojiRow_e7d73e:before {
 	display: none;
 }
+
