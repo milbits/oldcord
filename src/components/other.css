@@ -551,7 +551,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	}
 }
 /*make follow button green*/
-.secondary__6af3a:has(
+.secondary_a22cb0:has(
 		[d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"]
 	) {
 	background-color: var(--green) !important;
@@ -566,7 +566,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 		background-color: var(--green-active) !important;
 	}
 }
-.secondary__6af3a:has(
+.secondary_a22cb0:has(
 		[d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]
 	) {
 	background: none !important;
@@ -1081,7 +1081,7 @@ h2.title_b717a1,
 }
 
 /* polls */
-.bottomBar__0be77 .secondary__6af3a {
+.bottomBar__0be77 .secondary_a22cb0 {
 	background: var(--red) !important;
 	&:hover {
 		background: var(--red-hover) !important;
@@ -1961,7 +1961,7 @@ https://github.com/XYZenix/DTM-16
 	&:hover {
 		background: var(--background-secondary-alt);
 	}
-	#app-mount & .active__6af3a {
+	#app-mount & .active_a22cb0 {
 		background: transparent;
 		border: 1px solid #fff !important;
 		&:active {
@@ -1980,7 +1980,7 @@ https://github.com/XYZenix/DTM-16
 .separator_e4503a {
 	display: block;
 }
-.viewChannelButtonWrapper_e4503a .button__6af3a {
+.viewChannelButtonWrapper_e4503a .button_a22cb0 {
 	background: var(--green);
 	&:hover {
 		background: var(--green-hover);
