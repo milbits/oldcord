@@ -29,13 +29,21 @@ html:not(.custom-theme-background).theme-dark {
 	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
 
-.custom-theme-background.theme-dark {
+html.custom-theme-background.theme-dark {
 	--background-tertiary: var(--background-base-lowest);
 	--background-secondary: var(--background-base-low);
 	--button-secondary: hsl(0deg 0% 100% / 20%);
 	--button-secondary-hover: hsl(0deg 0% 100% / 30%);
 	--background-primary: var(--background-surface-highest);
 	--background-message-hover: var(--background-gradient-lower);
+}
+html.custom-theme-background.theme-light {
+	--background-tertiary: var(--background-surface-highest);
+	--background-secondary: var(--background-base-lowest);
+	--button-secondary: hsl(0deg 0% 0% / 20%);
+	--button-secondary-hover: hsl(0deg 0% 0% / 30%);
+	--background-primary: var(--background-base-low);
+	--background-message-hover: var(--background-gradient-lowest);
 }
 html.custom-theme-background .contentRegionScroller__23e6b{
 	background: var(--background-primary) 
