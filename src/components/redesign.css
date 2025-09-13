@@ -45,11 +45,11 @@ html.custom-theme-background.theme-light {
 	--background-primary: var(--background-base-low);
 	--background-message-hover: var(--background-gradient-lowest);
 }
-html.custom-theme-background .contentRegionScroller__23e6b{
-	background: var(--background-primary) 
+html.custom-theme-background .contentRegionScroller__23e6b {
+	background: var(--background-primary);
 }
-html.custom-theme-background .sidebarRegionScroller__23e6b{
-	background: var(--background-secondary)
+html.custom-theme-background .sidebarRegionScroller__23e6b {
+	background: var(--background-secondary);
 }
 
 .theme-darker {
@@ -174,15 +174,15 @@ html.platform-osx .title_c38106 {
 }
 /*codeblock*/
 
-.theme-dark .hljs-addition {
+html.theme-dark .hljs-addition {
 	background-color: #033a16;
 	color: #aff5b4;
 }
-.theme-dark .hljs-deletion {
+html.theme-dark .hljs-deletion {
 	background-color: #67060c;
 	color: #ffdcd7;
 }
-.theme-dark
+html.theme-dark
 	:is(
 		.hljs-attr,
 		.hljs-attribute,
@@ -197,7 +197,7 @@ html.platform-osx .title_c38106 {
 	) {
 	color: #79c0ff;
 }
-.theme-light
+html.theme-light
 	:is(
 		.hljs-attr,
 		.hljs-attribute,
@@ -212,38 +212,38 @@ html.platform-osx .title_c38106 {
 	) {
 	color: #005cc5;
 }
-.theme-dark :is(.hljs-title, .hljs-title.class_, .hljs-title.class_.inherited__, .hljs-title.function_) {
+html.theme-dark :is(.hljs-title, .hljs-title.class_, .hljs-title.class_.inherited__, .hljs-title.function_) {
 	color: #d2a8ff;
 }
-.theme-light :is(.hljs-title, .hljs-title.class_, .hljs-title.class_.inherited__, .hljs-title.function_) {
+html.theme-light :is(.hljs-title, .hljs-title.class_, .hljs-title.class_.inherited__, .hljs-title.function_) {
 	color: #6f42c1;
 }
-.theme-dark :is(.hljs-code, .hljs-comment, .hljs-formula) {
+html.theme-dark :is(.hljs-code, .hljs-comment, .hljs-formula) {
 	color: #8b949e;
 }
-.theme-light :is(.hljs-code, .hljs-comment, .hljs-formula) {
+html.theme-light :is(.hljs-code, .hljs-comment, .hljs-formula) {
 	color: #6a737d;
 }
-.theme-dark :is(.hljs-built_in, .hljs-symbol) {
+html.theme-dark :is(.hljs-built_in, .hljs-symbol) {
 	color: #ffa657;
 }
-.theme-light :is(.hljs-built_in, .hljs-symbol) {
+html.theme-light :is(.hljs-built_in, .hljs-symbol) {
 	color: #e36209;
 }
-.theme-dark :is(.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag) {
+html.theme-dark :is(.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag) {
 	color: #7ee787;
 }
-.theme-light :is(.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag) {
+html.theme-light :is(.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag) {
 	color: #22863a;
 }
-.theme-dark :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
+html.theme-dark :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
 	color: #a5d6ff;
 }
-.theme-light :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
+html.theme-light :is(.hljs-meta .hljs-string, .hljs-regexp, .hljs-string) {
 	color: #032f62;
 }
 
-.visual-refresh {
+html.visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
 		background-color: var(--background-mod-strong);
@@ -1541,7 +1541,6 @@ html.platform-osx .title_c38106 {
 		color: var(--header-secondary);
 	}
 
-	
 	/* go live modal */
 	.container_a55fdc {
 		background: unset;
@@ -2481,4 +2480,3 @@ html .bar_c38106 {
 #app-mount .emojiRow_e7d73e:before {
 	display: none;
 }
-
