@@ -126,7 +126,7 @@ html[data-dorion-platform="linux"] {
 	}
 }
 /* platform-specific fixes */
-.platform-osx .base_c48ade {
+html.platform-osx .base_c48ade {
 	grid-template-areas:
 		"titleBar titleBar titleBar"
 		"notice notice notice"
@@ -2326,7 +2326,7 @@ html .bar_c38106 {
 		bottom: 39px;
 		left: -84px;
 	}
-	.platform-linux & {
+	html.platform-linux & {
 		display: none;
 	}
 }
