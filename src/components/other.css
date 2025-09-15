@@ -824,7 +824,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 	border-radius: 5px;
 	pointer-events: none;
 }
-.connectionHeader_c7f964 {
+	.connectionHeader_c7f964 {
 	& [alt="Battle.net"] {
 		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/battle.webp);
@@ -910,6 +910,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-acce
 		background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' fill='%23fff'/%3E%3C/svg%3E");
 	}
 }
+
 
 .imageAccessory__9614b {
 	left: unset;
@@ -1371,55 +1372,15 @@ h2.title_b717a1,
 	visibility: visible;
 }
 
-/* custom status modal */
-.container__53cea:has(.textArea__08bd2, textarea) .header__53cea {
-	background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
-	background-position: center top;
-	background-repeat: no-repeat;
-	padding-top: 100px !important;
-	margin-top: -60px;
-	box-shadow: none !important;
-}
-.container__53cea:has(.textArea__08bd2, textarea) .headerMain__53cea .headerTitle__53cea {
-	margin-left: 36%;
-	top: 30px;
-	position: relative;
-	font-size: 22px !important;
-	text-transform: none !important;
-}
-.container__53cea:has(.textArea__08bd2, textarea) .headerTrailing__53cea:not(..headerTrailingAbsolute__53cea) {
-	margin-top: -30px !important;
-}
-.headerTrailingAbsolute__53cea {
-	margin-top: 50px !important;
-	margin-right: -50px !important;
-}
-.profilePreview_dbc4b7 {
-	display: none;
-}
-.headerGraphic__53cea {
-	display: none;
-}
-.headerGradient__53cea:before {
-	display: none;
-}
-.bodyInner__53cea .textArea__08bd2 {
-	border-radius: 3px;
-	color: var(--text-default);
-	background-color: var(--deprecated-text-input-bg);
-	border: 1px solid var(--deprecated-text-input-border);
-}
+
 
 /* status formatting */
 :is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
 	.container_c9d15c {
 		display: flex;
-		.textWithIconContainer_c9d15c {
-			order: 1;
-		}
+
 		.icon_c9d15c,
 		.activityContainer_c9d15c {
-			order: 1;
 			path {
 				fill: var(--channels-default) !important;
 			}
@@ -1445,59 +1406,6 @@ h2.title_b717a1,
 	fill: var(--interactive-normal);
 }
 
-/* ban modal */
-.root__49fc1:has(.radioGroup__837b7) {
-	> .noWrap_abf706:is(.header__49fc1) {
-		visibility: hidden;
-		padding: unset;
-		margin-top: -16px;
-	}
-	> .modalContent__837b7 {
-		padding-bottom: 30px;
-		.heading-lg\/semibold_cf4812 {
-			font-size: 16px;
-			text-transform: uppercase;
-		}
-		.heading-lg\/semibold_cf4812:before {
-			content: "WOULD YOU LIKE TO ";
-		}
-		.eyebrow_b717a1 .text-md\/medium_cf4812 {
-			font-size: 12px;
-			font-weight: 600;
-			color: var(--channels-default) !important;
-		}
-		> .stack_dbd263 {
-			gap: unset !important;
-		}
-		.stack_dbd263:nth-of-type(2):before {
-			content: url(https://github.com/milbits/oldcord/blob/main/src/assets/banned.gif?raw=true);
-			transform: scale(0.93);
-			margin-left: -14px;
-		}
-		.radioGroup__837b7 {
-			gap: var(--space-8);
-		}
-		.item__001a7[aria-checked="true"] .info__001a7 {
-			color: var(--white);
-		}
-	}
-	> .footer__837b7 {
-		button {
-			height: 38px;
-			min-height: 38px;
-			width: 96px;
-		}
-		button:nth-of-type(1) {
-			color: var(--white);
-			.lineClamp1__4bd52 {
-				font-size: 14px;
-			}
-		}
-		button:nth-of-type(1):hover .lineClamp1__4bd52 {
-			text-decoration: underline;
-		}
-	}
-}
 /* new experimental image viewer - this sucks, don't use it
 
 .carouselModal_d3a6f0 {
