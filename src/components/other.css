@@ -1372,13 +1372,55 @@ h2.title_b717a1,
 	visibility: visible;
 }
 
-
+/* custom status modal */
+.container__53cea:has(.textArea__08bd2, .actionBarLeading__53cea) .header__53cea {
+	background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 100px !important;
+	margin-top: -60px;
+	box-shadow: none !important;
+}
+.container__53cea:has(.textArea__08bd2, .actionBarLeading__53cea) .headerMain__53cea .headerTitle__53cea {
+	margin-left: 36%;
+	top: 30px;
+	position: relative;
+	font-size: 22px !important;
+	text-transform: none !important;
+}
+.container__53cea:has(.textArea__08bd2, .actionBarLeading__53cea) .scrollerBase_d125d2 {
+	overflow: unset !important;
+}
+.container__53cea:has(.textArea__08bd2, .actionBarLeading__53cea) .headerTrailing__53cea:not(..headerTrailingAbsolute__53cea) {
+	margin-top: -30px !important;
+}
+.headerTrailingAbsolute__53cea {
+	margin-top: 50px !important;
+	margin-right: -50px !important;
+}
+.profilePreview_dbc4b7 {
+	display: none;
+}
+.headerGraphic__53cea {
+	display: none;
+}
+.headerGradient__53cea:before {
+	display: none;
+}
+.bodyInner__53cea .textArea__08bd2 {
+	border-radius: 3px;
+	color: var(--text-default);
+	background-color: var(--deprecated-text-input-bg);
+	border: 1px solid var(--deprecated-text-input-border);
+}
 
 /* status formatting */
 :is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
 	.container_c9d15c {
 		display: flex;
-
+		.textWithIconContainer_c9d15c {
+			order: 1;
+		}
 		.icon_c9d15c,
 		.activityContainer_c9d15c {
 			path {
@@ -1404,6 +1446,49 @@ h2.title_b717a1,
 }
 .tooltip__382e7 .icon_c9d15c path {
 	fill: var(--interactive-normal);
+}
+
+/* ban modal */
+.container__53cea:has(.radioGroup__837b7) {
+	.header__53cea {
+		box-shadow: unset !important;
+	}
+	.headerLayout__53cea {
+		.heading-lg\/semibold_cf4812 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		.heading-lg\/semibold_cf4812:before {
+			content: "WOULD YOU LIKE TO ";
+		}
+	}
+	.bodySpacerTopBorder__53cea, .bodySpacerBottomBorder__53cea {
+		display: none;
+	}
+	.bodyInner__53cea {
+		padding-top: unset;
+	}
+	.body__53cea {
+		.eyebrow_b717a1 .text-md\/medium_cf4812 {
+			font-size: 12px;
+			font-weight: 600;
+			color: var(--channels-default) !important;
+		}
+		.stack_dbd263 {
+			order: 1 !important;
+		}
+		.stack_dbd263 > div:last-child:not(.reasonFreeText__837b7) > div:before {
+			content: url(https://github.com/milbits/oldcord/blob/main/src/assets/banned.gif?raw=true);
+			display: flex;
+			margin-bottom: 20px;
+		}
+		.radioGroup__837b7 {
+			gap: var(--space-8);
+		}
+		.item__001a7[aria-checked="true"] .info__001a7 {
+			color: var(--white);
+		}
+	}
 }
 
 /* new experimental image viewer - this sucks, don't use it

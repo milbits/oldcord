@@ -1021,8 +1021,25 @@ html.visual-refresh {
 
 	/* style dms correctly (refresh edition) */
 	.channel__972a0 {
-		.interactiveSelected__972a0 :is(.name__20a53, .subtext__972a0) {
+		.highlighted__20a53 .subtext__972a0 {
+			color: var(--interactive-active);
+		}
+		.interactive_bf202d:hover {
+			color: var(--interactive-hover) !important;
+		}
+		.interactiveSelected__972a0 .name__20a53,
+		.interactiveSelected__972a0 .subText__20a53 [data-text-variant="text-xs\/medium"],
+		.interactiveSelected__972a0 .subtext__972a0 {
 			color: var(--interactive-active) !important;
+		}
+		&:hover:not(:has(.interactiveSelected__972a0)) .subText__20a53 [data-text-variant="text-xs\/medium"] {
+			color: var(--interactive-hover) !important;
+		}
+		& .subText__20a53 [data-text-variant="text-xs\/medium"] {
+			color: var(--channels-default) !important;
+		}
+		&:hover:has(.interactiveSelected__972a0) .interactive_bf202d {
+			background: var(--background-modifier-selected) !important;
 		}
 		.interactive__972a0:focus-within {
 			background: var(--background-modifier-selected);
