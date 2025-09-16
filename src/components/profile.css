@@ -643,14 +643,6 @@ html.theme-dark .badgeContainer__635ed path {
 	border-radius: 8px !important;
 }
 
-/*remove and move some of the button*/
-.user-profile-popout .wrapper_da5890 > :is(div:nth-of-type(2), div:nth-of-type(3)) {
-	display: none;
-}
-/* i hate this reaction experiment so much */
-.user-profile-popout .activityContainer__84832 {
-	order: -1;
-}
 
 /*pfp (duh)*/
 .user-profile-popout .inner_c0bea0 .avatar__75742 {
@@ -1225,7 +1217,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;
 }
-.role_dfa8b6 > div:first-child {
+.role_dfa8b6>:first-child {
 	margin: 0;
 }
 /* Add a colored border around the role */
