@@ -643,7 +643,10 @@ html.theme-dark .badgeContainer__635ed path {
 	border-radius: 8px !important;
 }
 
-
+/* i hate this reaction experiment so much */
+.user-profile-popout .activityContainer__84832 {
+	order: -1;
+}
 /*pfp (duh)*/
 .user-profile-popout .inner_c0bea0 .avatar__75742 {
 	left: 34% !important;
