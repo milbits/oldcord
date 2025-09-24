@@ -1325,15 +1325,13 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	order: -1;
 	gap: 0;
 }
-/*WIP: make it look nicer on bots without activity*/
-.buttons_bc38cd .lookFilled__201d5 {
-	background: var(--background-primary);
-	border-radius: 0;
-	&.colorBrand__201d5 {
-		border-left: 1px solid rgb(255, 255, 255, 0.3);
-	}
-	.outer_c0bea0:has(.card__39ec2) & {
-		border-top: 1px solid rgb(255, 255, 255, 0.3);
+#app-mount .buttons_bc38cd button {
+	background: var(--background-tertiary);
+	border-radius: 0;		
+	border-top: 1px solid rgb(255, 255, 255, 0.15) !important;
+
+	&.primary_a22cb0 {
+		border-left: 1px solid rgb(255, 255, 255, 0.15) !important;
 	}
 	&:hover {
 		background: var(--background-primary) !important;
@@ -1341,10 +1339,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	&:active {
 		background: var(--primary-transparent) !important;
 	}
-	.outer_c0bea0:has(.card__39ec2) &:hover {
+	.outer_c0bea0:has(.activityContainer__84832) &:hover {
 		background: var(--brand-experiment-460) !important;
 	}
-	.outer_c0bea0:has(.card__39ec2) &:active {
+	.outer_c0bea0:has(.activityContainer__84832) &:active {
 		background: var(--brand-experiment-400) !important;
 	}
 }
