@@ -806,7 +806,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	fill: var(--white-500);
 	transform: scale(1.1);
 }
-.connectionOptionSwitch_c7f964 .container__6f89e .input__6f89e1:before {
+.connectionOptionSwitch_c7f964 .container__6f89e .input__6f89e:before {
 	background: #0000;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
