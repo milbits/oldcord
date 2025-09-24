@@ -111,14 +111,14 @@ code {
 }
 
 /** revert switches*/
-.container__6f89e {
+.container__3f21e {
 	background: none !important;
 	border: none;
 }
 .slider__6f89e {
 	display: none;
 }
-.input__6f89e {
+.input__3f21e {
 	opacity: 1;
 	width: 0;
 	&:active:after {
@@ -806,11 +806,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	fill: var(--white-500);
 	transform: scale(1.1);
 }
-.connectionOptionSwitch_c7f964 .container__6f89e .input__6f89e:before {
+.connectionOptionSwitch_c7f964 .container__3f21e .input__3f21e:before {
 	background: #0000;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
-.connectionOptionSwitch_c7f964 .container__6f89e .input__6f89e:checked:before {
+.connectionOptionSwitch_c7f964 .container__3f21e .input__3f21e:checked:before {
 	background: rgba(255, 255, 255, 0.3);
 	box-shadow: none;
 }
