@@ -276,18 +276,18 @@ code {
 
 /** radiobars (like channel type)*/
 /*event creation double check thing*/
-.item__001a7.itemFilled__001a7 .icon__001a7 {
+.item__1bda4.itemFilled__001a7 .icon__001a7 {
 	display: none;
 }
-.item__001a7 {
-	border-radius: 5px;
-	background: #0000 !important;
+.item__1bda4 {
+	background: none !important;
 }
-.item__001a7[aria-checked="false"] .text-md\/medium_cf4812 {
+.item__1bda4[aria-checked="false"] .text-md\/medium_cf4812 {
 	color: var(--radio-bar-accent-color) !important;
 }
-.item__001a7 .radioBar__001a7 {
+.item__1bda4 .radioBar__1bda4 {
 	border: solid 1px var(--background-tertiary);
+	border-radius: 5px;
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
 	--radio-bar-accent-color: var(--interactive-active);
@@ -309,15 +309,15 @@ code {
 	color: var(--interactive-normal);
 }
 
-.theme-dark .item__001a7[aria-checked="false"] .radioBar__001a7:hover {
+.theme-dark .item__1bda4[aria-checked="false"] .radioBar__1bda4:hover {
 	border-color: #000;
 	background: rgba(0, 0, 0, 0.2);
 }
-.theme-light .item__001a7[aria-checked="false"] .radioBar__001a7:hover {
+.theme-light .item__1bda4[aria-checked="false"] .radioBar__1bda4:hover {
 	border-color: #b9bbbe;
 	background: rgba(247, 248, 248, 0.6);
 }
-.item__001a7[aria-checked="true"] .radioBar__001a7 {
+.item__1bda4[aria-checked="true"] .radioBar__1bda4 {
 	--radio-bar-accent-color: var(--blurple);
 	background-color: var(--radio-bar-accent-color);
 	border-color: var(--radio-bar-accent-color);
@@ -325,7 +325,7 @@ code {
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
 /*i love lag (i thinb)
-html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 
 	&.text-md\/medium_cf4812:before {
 		font-size: 16px;
@@ -338,7 +338,7 @@ html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--r
 	}
 }
 
-html[lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+html[lang="DE"] .radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 	&.text-md\/medium_dc00ef:before {
 		content: "Ich lebe am Limit";
 	}
@@ -348,7 +348,7 @@ html[lang="DE"] .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400)
 	}
 }
 
-html:is([lang="en-us"], [lang="en-gb"]) .radioBar__001a7[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
+html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
 	&.text-md\/medium_cf4812:before {
 		content: "I live on the edge";
 	}
