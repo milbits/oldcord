@@ -115,7 +115,7 @@ code {
 	background: none !important;
 	border: none;
 }
-.slider__6f89e {
+.slider__3f21e {
 	display: none;
 }
 .input__3f21e {
@@ -741,7 +741,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .metadataContainer_c7f964 .text-xs-normal_ccc5fb {
 	color: #fff !important;
 }
-.metadataContainer_c7f964 .metadataRefreshButton_c7f964 {
+.metadataContainer_c7f964 .metadataRefreshButton_c7f964 button {
 	background-color: var(--blurple-inverted) !important;
 	&:hover {
 		background-color: var(--blurple-inverted-hover) !important;
