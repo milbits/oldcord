@@ -275,22 +275,22 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.inner_c0bea0:has(.clickableContainer__39ec2) {
+.inner_c0bea0:has(.activityContainer__84832) {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
 	--interactive-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
 	--background-tertiary: var(--brand-experiment);
-	--background-tertiary-alt: var(--brand-experiment-530);
+	--background-secondary-alt: var(--brand-experiment-530);
 
 	/*Change color based on activity type*/
 
-	/* Listening to Spotify
-	&:has([src*="i.scdn.co"]) {
+	/* Listening to Spotify*/
+	&:has([src^="https://i.scdn.co/"]) {	
 		--background-tertiary: var(--spotify);
-		--background-tertiary-alt: var(--spotify-dark);
-	}*/
+		--background-secondary-alt: var(--spotify-dark);
+	}
 	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
@@ -326,13 +326,13 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	/* Playing on XBOX
 	&:has([style="mask-image: url(\"/assets/c4f09fda61827e19.svg\");"]) {
 		--background-tertiary: var(--xbox);
-		--background-tertiary-alt: var(--xbox-dark);
+		--background-secondary-alt: var(--xbox-dark);
 	}
 
 	/* Playing on PlayStation
 	&:has([style='mask-image: url("/assets/eed203a7ec517e23.svg");']) {
 		--background-tertiary: var(--playstation2);
-		--background-tertiary-alt: var(--playstation-dark);
+		--background-secondary-alt: var(--playstation-dark);
 	}*/
 }
 
@@ -444,7 +444,7 @@ section:has(.activityContainer__84832) {
 
 /* change activity bg color and padding*/
 .user-profile-popout .card__39ec2 {
-	background-color: var(--background-tertiary-alt) !important;
+	background-color: var(--background-secondary-alt) !important;
 	padding: 12px;
 	border-radius: 0;
 }
@@ -678,7 +678,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*username*/
 
 .user-profile-popout .container__63ed3 {
-	background: var(--background-tertiary);
+	background: var(--background-tertiary) !important;
 	order: -1;
 	padding-bottom: 23px;
 	gap: 0 !important;
