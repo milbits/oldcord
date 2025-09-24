@@ -133,3 +133,7 @@
 .accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
 	display: none !important;
 }
+
+.custom-user-profile-theme .cards__764cd li {
+	background: rgba(255, 255, 255, 0.1) !important
+}
