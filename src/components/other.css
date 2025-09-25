@@ -902,7 +902,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 
 	& [alt="Roblox"] {
 		background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
-		background-image: url(https://cdn.discordapp.com/attachments/824698117768478762/1420513688045228182/Roblox-Logo-PNG-Clipart-Background-2437284567.png?ex=68d5abf7&is=68d45a77&hm=bf6f59ac6a21bb205c3c027100b07302ff6e3e01a9ba145c8ef8cfe57abdd839&);
+		background-image: url(https://discord.com/assets/a4d8e9b0404a2d00.svg);
 	}
 
 	& [alt="Bluesky"] {
@@ -1256,7 +1256,6 @@ h2.title_b717a1,
 }
 
 /** Game profile */
-/*
 .gameProfileModal__8e830 [data-text-variant="heading-md\/bold"] {
 	visibility: hidden;
 }
@@ -1309,6 +1308,7 @@ h2.title_b717a1,
 .gameProfileModal__8e830 .logoWrapper__8e830 {
 	background-color: unset;
 	border-radius: 4px;
+	margin-left: -3px;
 }
 
 .gameProfileModal__8e830 .friends_b37a75.text-xs\/semibold_cf4812 {
@@ -1316,8 +1316,8 @@ h2.title_b717a1,
 	font-weight: 400;
 	font-size: 14px;
 }
-*/
-/* move game icon 
+
+/* move game icon */
 .gameProfileModal__8e830 .gameIcon__8e830 {
 	position: absolute;
 	margin-top: -32px;
@@ -1329,7 +1329,7 @@ h2.title_b717a1,
 	transform: scale(1.5);
 	margin-left: 45px;
 }
-*/
+
 /*change x to twitter (bluesky better [follow me @milbit.bsky.social])*/
 .gameProfileModal__8e830
 	.anchor_edefb8
