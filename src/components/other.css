@@ -1389,7 +1389,7 @@ h2.title_b717a1,
 		margin-top: -60px;
 		box-shadow: none !important;
 	}
-	.headerTitle__53cea {
+	.headerTitle__53cea:not([data-text-variant="heading-xl/semibold"]) {
 		margin-left: 36%;
 		top: 30px;
 		position: relative;
