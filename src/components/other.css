@@ -1544,18 +1544,16 @@ h2.title_b717a1,
 stolen and modified from 11pixels' dtm16
 https://github.com/XYZenix/DTM-16
 */
-.themeTitleContainer__3e443 .title__3e443,
-.header__67a11 .titleText__67a11 {
+.titleText__67a11.text-md\/medium_cf4812 {
 	color: var(--header-secondary);
 	font-size: 12px;
 	font-weight: 900;
+	text-transform:uppercase 
 }
-
-.layers__960e4.layers__160d8
-	.layer__960e4:not(.baseLayer__960e4)
-	.contentRegion__23e6b
-	.contentColumn__23e6b#appearance-tab
-	.presets__67a11 {
+:is(.themeTitleContainer__3e443,.headings_a00e6e) .subtext__3e443,.headings__67a11 .subtext__67a11{
+	display: none !important
+}
+.contentColumn__23e6b#appearance-tab {
 	& .themeSelectionContainer__36dee {
 		width: 132px;
 		height: 81px;
@@ -1603,7 +1601,7 @@ https://github.com/XYZenix/DTM-16
 
 .themeSelectionContainer__36dee .selectionCircle__36dee,
 .nitroWheel_c5f0dc,
-.borderOverlay__8fea4 {
+.borderOverlay__8fea4,.container_a1d343 {
 	display: none;
 }
 .themeSelection__36dee .iconWrapper__36dee {
