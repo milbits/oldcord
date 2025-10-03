@@ -1380,8 +1380,8 @@ h2.title_b717a1,
 }
 
 /* custom status modal */
-.container__53cea:has(.textArea__08bd2, .actionBarLeading__53cea) {
-	.header__53cea {
+.container__8a031:has(.textArea__08bd2, .actionBarLeading__8a031) {
+	.header__8a031 {
 		background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
 		background-position: center top;
 		background-repeat: no-repeat;
@@ -1389,7 +1389,7 @@ h2.title_b717a1,
 		margin-top: -60px;
 		box-shadow: none !important;
 	}
-	.headerTitle__53cea:not([data-text-variant="heading-xl/semibold"]) {
+	.headerTitle__8a031:not([data-text-variant="heading-xl/semibold"]) {
 		margin-left: 36%;
 		top: 30px;
 		position: relative;
@@ -1399,24 +1399,24 @@ h2.title_b717a1,
 	.scrollerBase_d125d2 {
 		overflow: unset !important;
 	}
-	.headerTrailing__53cea:not(.headerTrailingAbsolute__53cea) {
+	.headerTrailing__8a031:not(.headerTrailingAbsolute__8a031) {
 		margin-top: -30px !important;
 	}
 }
-.headerTrailingAbsolute__53cea {
+.headerTrailingAbsolute__8a031 {
 	margin-top: 50px !important;
 	margin-right: -50px !important;
 }
 .profilePreview_dbc4b7 {
 	display: none;
 }
-.headerGraphic__53cea {
+.headerGraphic__8a031 {
 	display: none;
 }
-.headerGradient__53cea:before {
+.headerGradient__8a031:before {
 	display: none;
 }
-.bodyInner__53cea .textArea__08bd2 {
+.bodyInner__8a031 .textArea__08bd2 {
 	border-radius: 3px;
 	color: var(--text-default);
 	background-color: var(--deprecated-text-input-bg);
@@ -1892,3 +1892,48 @@ https://github.com/XYZenix/DTM-16
 		display: none;
 	}
 }
+
+/* ban modal 
+.container__8a031:has(.radioGroup__837b7) {
+	.header__8a031 {
+		box-shadow: unset !important;
+	}
+	.headerLayout__8a031 {
+		.heading-lg\/semibold_cf4812 {
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		.heading-lg\/semibold_cf4812:before {
+			content: "WOULD YOU LIKE TO ";
+		}
+	}
+	.body__8a031:before {
+			content: url(https://github.com/milbits/oldcord/blob/main/src/assets/banned.gif?raw=true);
+			display: flex;
+			margin-bottom: 20px;
+			margin-left: 14px;
+		}
+	.bodySpacerTopBorder__8a031, .bodySpacerBottomBorder__8a031 {
+		display: none;
+	}
+	.bodyInner__8a031 {
+		padding-top: unset;
+	}
+	.body__8a031 {
+		.eyebrow_b717a1 .text-md\/medium_cf4812 {
+			font-size: 12px;
+			font-weight: 600;
+			color: var(--channels-default) !important;
+		}
+		.stack_dbd263 {
+			order: 1 !important;
+		}
+		.radioGroup__837b7 {
+			gap: var(--space-8);
+		}
+		.item__001a7[aria-checked="true"] .info__001a7 {
+			color: var(--white);
+		}
+	}
+}
+*/
