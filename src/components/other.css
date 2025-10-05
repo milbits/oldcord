@@ -726,6 +726,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	color: var(--white-500);
 	font-weight: 400;
 }
+.connectionOptions_c7f964, .upsellWrapper_c7f964 {
+	position: relative;
+}
 .metadataContainer_c7f964 {
 	position: relative;
 	z-index: 10;

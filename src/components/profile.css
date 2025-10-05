@@ -1015,59 +1015,70 @@ html.theme-dark .badgeContainer__635ed path {
 /*! end of modal*/
 /*note button*/
 .nicknameIcons__63ed3 {
-	& [aria-label]:after {
-		content: attr(aria-label);
-		min-width: 230px;
-		text-align: left;
-		padding-top: 10px;
-		margin-left: 240px;
-		margin-top: auto;
-		max-height: 38px;
-		white-space: pre-wrap;
-		font-size: 12px;
-		color: var(--interactive-normal);
-	}
 	top: 100%;
 	position: absolute;
 	display: flex !important;
 	padding-top: 15px !important;
-	padding-right: 230px;
-	padding-bottom: 35px;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	&::-webkit-scrollbar-thumb {
-		background: transparent;
-		border-radius: 99px;
-	}
+	width: 100%;
+	margin-top: auto;
 	&::-webkit-scrollbar {
-		width: 4px;
+		display: none;
 	}
-	&:hover::-webkit-scrollbar-track {
-		background: 0 0;
-		border-radius: 10px;
-	}
-	&:hover::-webkit-scrollbar-thumb {
-		background: var(--background-gradient-highest, var(--background-tertiary));
-		border-radius: 999px;
-	}
-	& .button_fb7f94 {
+	& .button__0f074 {
 		opacity: 1;
+		width: 10px;
 	}
-	& .button_fb7f94:before {
+	& .hiddenVisually_b18fe2:before {
 		content: "NOTE";
-		padding-bottom: 30px;
-		left: 70%;
+		left: 5%;
 		position: absolute;
+		margin-top: -25px;
 		color: var(--header-secondary);
 		font-weight: 800;
 		font-family: var(--font-display);
 		font-size: 12px;
 	}
-	html[lang="de"] & .button_fb7f94:before {
+	html[lang="de"] & .hiddenVisually_b18fe24:before {
 		content: "NOTIZ";
 	}
-	& .buttonInner_fb7f94 {
+	& .button__0f074 svg {
 		display: none;
+	}
+	& .hiddenVisually_b18fe2 {
+		display: inline-block;
+		align-content: start;
+		text-align: left;
+		max-height: 38px;
+		margin-top: 10px;
+		white-space: pre-wrap;
+		color: var(--interactive-normal);
+		font-weight: 500;
+		font-family: var(--font-display);
+		font-size: 12px;
+		user-select: text;
+		clip: unset;
+		clip-path: unset;
+		height: unset;
+		overflow: auto;
+		position: unset;
+		width: unset;
+		&::-webkit-scrollbar-thumb {
+			background: transparent;
+			border-radius: 99px;
+		}
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+		&:hover::-webkit-scrollbar-track {
+			background: 0 0;
+			border-radius: 10px;
+		}
+		&:hover::-webkit-scrollbar-thumb {
+			background: var(--background-gradient-highest, var(--background-tertiary));
+			border-radius: 999px;
+		}
 	}
 }
 .footer__5be3e {
