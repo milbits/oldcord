@@ -28,7 +28,11 @@ html:not(.custom-theme-background).theme-dark {
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
 	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
-
+html.theme-darker,
+html.theme-midnight{
+	--button-secondary: hsl(220deg 100% 90% / 20%);
+	--button-secondary-hover: hsl(220deg 100% 90% / 30%);
+}
 html.custom-theme-background.theme-dark {
 	--background-tertiary: var(--background-base-lowest);
 	--background-secondary: var(--background-base-low);
