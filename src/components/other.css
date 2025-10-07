@@ -1374,12 +1374,8 @@ h2.title_b717a1,
 }
 
 /* Today at */
-:is(.timestampInline_c19a55) time[aria-label^="Today at"] {
-	visibility: hidden;
-}
-:is(.timestampInline_c19a55) time[aria-label^="Today at"]:before {
-	content: attr(aria-label);
-	visibility: visible;
+html:is([lang="en-us"]) :is(.timestampInline_c19a55) time:before {
+	content: "Today at ";
 }
 
 /* custom status modal */
