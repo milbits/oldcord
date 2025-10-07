@@ -1373,11 +1373,6 @@ h2.title_b717a1,
 	font-weight: 500;
 }
 
-/* Today at */
-html:is([lang="en-us"]) :is(.timestampInline_c19a55) time:before {
-	content: "Today at ";
-}
-
 /* custom status modal */
 .container__8a031:has(.textArea__08bd2, .actionBarLeading__8a031) {
 	.header__8a031 {
