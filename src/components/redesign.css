@@ -934,9 +934,9 @@ html.visual-refresh {
 		grid-template-rows: [start] 1fr [panelsStart] min-content [end];
 		border-radius: 0;
 	}
-	.chat_f75fb0,
-	.container__133bf,
-	:is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
+	&:not(.theme-midnight) .chat_f75fb0,
+	&:not(.theme-midnight) .container__133bf,
+	&:not(.theme-midnight) :is(.content_f75fb0, .subtitleContainer_f75fb0, .sidebarList_c48ade, .container_c8ffbb) {
 		border: none !important;
 	}
 	.base_c48ade .sidebar_c48ade > .guilds_c48ade {
