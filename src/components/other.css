@@ -241,7 +241,7 @@ code {
 
 /** display:none graveyard*/
 .sessionMoreButton__803f2 svg, .newMemberBadge_f80704, .option__56fec:after, .premiumLabel_e681d1 > svg, .banner_ec75b3, .unreadIcon__7aaec /* new unread bar icon*/
-, .container__87bf1 svg, .communityInfoPill_f37cb1, .item_b3f026 svg {
+, .container__87bf1 svg, .communityInfoPill_f37cb1, .item_aa8da2 svg {
 	display: none;
 }
 
@@ -1133,7 +1133,7 @@ h2.title_b717a1,
 .voteSelected__01c8c {
 	background-color: rgba(79, 84, 92, 0.3);
 }
-.side_b3f026 .item_b3f026:is(.voteDefault__01c8c, .voteSelected__01c8c) {
+.side_aa8da2 .item_aa8da2:is(.voteDefault__01c8c, .voteSelected__01c8c) {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
