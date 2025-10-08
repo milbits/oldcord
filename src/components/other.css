@@ -1374,7 +1374,7 @@ h2.title_b717a1,
 }
 
 /* custom status modal */
-.container__8a031:has(.textArea__08bd2, .actionBarLeading__8a031) {
+.container__8a031:not(.size-sm__8a031):not(:has(.destinationRow__62280, .radioBar__1bda4)) {
 	.header__8a031 {
 		background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
 		background-position: center top;
