@@ -318,6 +318,12 @@ html:not(html.custom-theme-background) .theme-light {
 	--__card-accent-color: var(--background-secondary) !important;
 }
 
+.colorDefault__6e2b9, .colorSuccess__6e2b9 {
+    --custom-notice-background: var(--status-positive-background);
+    --custom-notice-text: var(--status-positive-text);
+    --custom-notice-button-hover: var(--status-positive-background);
+}
+
 .colorDanger__6e2b9 {
 	--custom-notice-background: var(--status-danger-background) !important;
 	--custom-notice-text: var(--status-danger-text) !important;
