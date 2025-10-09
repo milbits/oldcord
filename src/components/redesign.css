@@ -1082,10 +1082,10 @@ html.visual-refresh {
 		font-family: var(--font-display);
 		font-weight: 800;
 	}
-	.h5_b717a1:not(.isEnabled__2666b) {
+	.h5_b717a1:not(.isEnabled__2666b), .container__5a838[data-layout="vertical"] .label__5a838, .fieldTitle__1fed1 {
 		color: var(--header-secondary);
 	}
-	.eyebrow_b717a1 {
+	.eyebrow_b717a1, .container__5a838[data-layout="vertical"] .label__5a838, .fieldTitle__1fed1 {
 		font-family: var(--font-display);
 		font-size: 12px;
 		line-height: 1.3333333333333333;
