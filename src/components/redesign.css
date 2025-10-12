@@ -1300,13 +1300,15 @@ html.visual-refresh {
 		}
 	}
 
-	/* jump to present bar */
-	.jumpToPresentBar__0f481 {
-		bottom: 12px;
+	/* jump to present bar & failed to load bar */
+	.jumpToPresentBar__0f481, .messagesErrorBar__0f481 {
+		bottom: 6px;
+		padding-bottom: 4px !important;
 		border-radius: 8px 8px 0 0;
+	}
+	.jumpToPresentBar__0f481 {
 		background-color: var(--background-accent);
 		opacity: 0.95 !important;
-		padding-bottom: 4px !important;
 		color: var(--white-500);
 		.barButtonBase__0f481 {
 			padding-left: unset;
