@@ -1374,7 +1374,7 @@ h2.title_b717a1,
 }
 
 /* custom status modal */
-.container__8a031:has(.profilePreview_dbc4b7) {
+.container__8a031:has(.profilePreview_dbc4b7, .headerLeadingAbsolute__8a031) {
 	.header__8a031 {
 		background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
 		background-position: center top;
@@ -1448,7 +1448,7 @@ h2.title_b717a1,
 		display: none;
 	}
 }
-.tooltip__382e7 .icon_c9d15c path {
+.tooltip_c36707 .icon_c9d15c path {
 	fill: var(--interactive-normal);
 }
 
