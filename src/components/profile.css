@@ -175,6 +175,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		& .addStatusIcon_ab8609 {
 			padding-right: 7px;
 		}
+		background: none !important
 	}
 	& .container_ab8609:has(.popover_c97e55:hover) .outer_ab8609 {
 		background: var(--brand-experiment-560) !important;
@@ -742,11 +743,11 @@ html.theme-dark .badgeContainer__635ed path {
 	min-width: 250px;
 	box-shadow: none;
 	background: none !important;
-	transition: 0.4s;
+	transition: ease 0.4s background;
 
 	&:hover {
 		background: var(--background-tertiary) !important;
-		transition: 0.2s;
+		transition: ease height background-color 0.2s;
 	}
 	text-align: center;
 	border: none !important;
