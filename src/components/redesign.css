@@ -366,6 +366,9 @@ html.visual-refresh {
 	}
 	.buttons__37e49 {
 		gap: 1px;
+		.buttonChevron__37e49 {
+			display: none;
+		}
 	}
 
 	.wrapper_cc5dd2,
