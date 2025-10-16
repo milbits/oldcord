@@ -376,6 +376,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 	&:focus-within {
 		border-color: var(--blurple) !important;
+		--custom-input-focus-border-color: var(--blurple) !important;
 	}
 }
 

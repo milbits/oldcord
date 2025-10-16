@@ -531,6 +531,9 @@ html.visual-refresh {
 		margin: 0 -1px;
 		padding: 12px;
 		border-bottom: unset;
+		.sizeMedium__201d5 {
+			display: none;
+		}
 	}
 
 	.clickable__9293f .icon__9293f {
