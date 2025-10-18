@@ -961,7 +961,7 @@ html.visual-refresh {
 
 	/*Betterfolders (vencord)*/
 	.base_c48ade.vc-betterFolders-sidebar-grid {
-		grid-template-columns: [start] 100px [guilds-end] min-content [betterFoldersSidebar-end] auto [channelsEnd] 0 [end];
+		grid-template-columns: [start] 100px [guilds-end] min-content [betterFoldersSidebar-end] auto [channelsEnd] 1fr [end];
 		grid-template-areas: "titleBar titleBar titleBar titleBar" "guildsList betterFoldersSidebar notice notice" "guildsList betterFoldersSidebar channelsList page";
 	}
 	.base_c48ade.vc-betterFolders-sidebar-grid .sidebar_c48ade {
