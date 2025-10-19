@@ -695,7 +695,7 @@ html.theme-dark .badgeContainer__635ed path {
 	font-weight: 600;
 	color: var(--interactive-active);
 	.theme-light:has(.card__39ec2) & {
-		color: white;
+		color: var(--interactive-active);
 	}
 }
 .user-profile-popout .tags__63ed3,
