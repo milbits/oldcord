@@ -28,6 +28,19 @@ html:not(.custom-theme-background).theme-dark {
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
 	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
+html:not(.custom-theme-background).theme-light,
+html:not(.custom-theme-background) .theme-light{
+	--background-base-low: var(--background-primary) !important;
+	--background-base-lower: var(--background-primary) !important;
+	--background-base-lowest: var(--background-secondary) !important;
+	--custom-channel-members-bg: var(--background-secondary) !important;
+	--background-surface-highest: var(--background-primary) !important;
+	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
+
+	--button-secondary: hsl(0deg 0% 0% / 10%);
+	--button-secondary-hover: hsl(0deg 0% 0% / 17%);
+	
+}
 html.theme-darker,
 html.theme-midnight{
 	--button-secondary: hsl(220deg 100% 90% / 20%);
@@ -96,15 +109,7 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	color: var(--channels-default);
 }
 
-html.theme-light,html .theme-light{
-	--background-base-low: var(--background-primary) !important;
-	--background-base-lower: var(--background-primary) !important;
-	--background-base-lowest: var(--background-secondary) !important;
-	--custom-channel-members-bg: var(--background-secondary) !important;
-	--background-surface-highest: var(--background-primary) !important;
-	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
 
-}
 /* remove the title bar on web & linux */
 html.platform-web:not(html[data-dorion-platform="linux"]),
 html.platform-linux {
@@ -1952,10 +1957,12 @@ html.visual-refresh {
 				color: var(--header-primary);
 			}
 		}
-		&:not(:has(img)) .content__44df5:before {
-			content: url(https://discord.com/assets/dc7e9e55b3a6d39d24acdd650ecc2ef3.svg);
-			transform: scale(0.65);
-		}
+				&:not(:has(img)) .content__44df5:before {
+		.content__44df5:before {
+ 			content: url(https://discord.com/assets/dc7e9e55b3a6d39d24acdd650ecc2ef3.svg);
+ 			transform: scale(0.65);
+ 		}
+ 		}
 		.image__44df5 {
 			margin-left: 5px;
 		}
