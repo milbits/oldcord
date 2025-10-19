@@ -948,6 +948,7 @@ html.visual-refresh {
 	.base_c48ade .sidebar_c48ade > .guilds_c48ade {
 		grid-area: guilds;
 		margin-bottom: 0;
+		mask: none;
 	}
 	.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
 		grid-area: sidebar;
