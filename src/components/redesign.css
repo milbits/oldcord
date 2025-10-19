@@ -96,6 +96,15 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	color: var(--channels-default);
 }
 
+html.theme-light,html .theme-light{
+	--background-base-low: var(--background-primary) !important;
+	--background-base-lower: var(--background-primary) !important;
+	--background-base-lowest: var(--background-secondary) !important;
+	--custom-channel-members-bg: var(--background-secondary) !important;
+	--background-surface-highest: var(--background-primary) !important;
+	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
+
+}
 /* remove the title bar on web & linux */
 html.platform-web:not(html[data-dorion-platform="linux"]),
 html.platform-linux {
