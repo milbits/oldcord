@@ -164,6 +164,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		top: 48px !important;
 		max-width: 120px;
 		right: 60px;
+		left: -64px;
 		min-width: 160px !important;
 		margin-right: 20px;
 	}
@@ -754,6 +755,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 .inner_ab8609 {
 	background: unset !important;
+	margin: 0;
 }
 .labelRow_ab8609 {
 	display: none;
