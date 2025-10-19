@@ -1104,6 +1104,27 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	background: none;
 	border: none;
 }
+.user-profile-popout .breadcrumb_c2a763 .overlay_c0bea0 {
+	flex-direction: column;
+	flex-wrap: unset;
+	align-items: start;
+	padding: 16px 12px 20px 12px;
+	.text-xs\/medium_cf4812 {
+		font-size: 12px;
+        color: var(--header-secondary);
+        font-weight: 800;
+        font-family: var(--font-display);
+		margin-bottom: 4px;
+		text-transform: uppercase;
+	}
+	.icons_c2a763:hover {
+		background: var(--user-profile-overlay-background);
+	    border-radius: var(--radius-sm);
+	}
+	&:hover {
+		background: unset;
+	}
+}
 .theme-dark.custom-user-profile-theme .user-profile-popout .overlay_c0bea0 {
 	background: none;
 	border: none;
