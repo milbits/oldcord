@@ -1143,7 +1143,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
-		color: white !important;
+		color: var(--interactive-active) !important;
 	}
 }
 
