@@ -1728,7 +1728,8 @@ html.visual-refresh {
 	}
 
 	.section__00943 {
-		background: #2f3136;
+		background: var(--background-secondary);
+		border: none
 	}
 
 	/* polls */
