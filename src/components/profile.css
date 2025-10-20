@@ -696,7 +696,7 @@ html.theme-dark .badgeContainer__635ed path {
 	font-weight: 600;
 	color: var(--interactive-active);
 	.theme-light:has(.card__39ec2) & {
-		color: white;
+		color: var(--interactive-active);
 	}
 }
 .user-profile-popout .tags__63ed3,
@@ -1145,7 +1145,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
-		color: white !important;
+		color: var(--interactive-active) !important;
 	}
 }
 

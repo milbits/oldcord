@@ -122,9 +122,9 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--control-text-active-default: var(--white);
 }
 
-html:not(html.custom-theme-background).theme-light,
-html:not(html.custom-theme-background) .theme-light {
-	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%);
+html:not(.custom-theme-background).theme-light,
+html:not(.custom-theme-background) .theme-light {
+	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%) !important;
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
 	--background-secondary-alt: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%);
@@ -133,9 +133,9 @@ html:not(html.custom-theme-background) .theme-light {
 	--bg-base-tertiary: var(--background-tertiary);
 
 	--background-modifier-accent: #06060714;
-	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 30) 25% 89.2%);
-	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 30) 25% 87%) !important;
-	--background-modifier-selected: hsl(calc(var(--oldcord-tint) + 30) 25% 84%);
+	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 12) 25% 88.5%);
+	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 15) 25% 87%) !important;
+	--background-modifier-selected: hsl(calc(var(--oldcord-tint) + 20) 25% 84%);
 
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
