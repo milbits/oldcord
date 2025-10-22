@@ -2511,3 +2511,37 @@ html .bar_c38106 {
 #app-mount .emojiRow_e7d73e:before {
 	display: none;
 }
+
+
+/*new settings*/
+.container__8a031{
+	border: none;
+}
+.sidebar__409aa{
+	background: var(--background-secondary);
+	border: none !important;
+	& h1{
+		text-transform:uppercase;
+		font-weight: 700;
+		font-size: 12px;
+    letter-spacing: .02em;
+    line-height: 1.3333333333333333;
+		padding: 6px 10px;
+		margin: 0
+}	
+}
+html.density-default .item_caf372{
+	border-radius: 4px;
+	transition: none;
+	margin: 0 0 2px;
+	padding: 6px 10px;
+	&:active{
+		background: var(--background-modifier-active)
+	}
+	&.active_caf372{
+		transition: none
+	}
+}
+.fixedContent__409aa:after{
+    background: linear-gradient(to bottom,var(--background-secondary),transparent);
+}
