@@ -2353,6 +2353,7 @@ html .bar_c38106 {
 .systemBar_c38106 {
 	background-color: var(--background-tertiary);
 	min-height: 22px;
+	z-index: 999999 !important;
 	.winButtons_c38106 {
 		bottom: 39px;
 		left: -84px;
@@ -2514,21 +2515,69 @@ html .bar_c38106 {
 
 
 /*new settings*/
-.container__8a031{
+.container__8a031[data-mana-component="layer-modal"] {
 	border: none;
+	max-width: 1080px !important;
+	.panel__6131a {
+		margin: unset;
+	}
+	.content_e9e3ed {
+		gap: var(--space-12)
+	}
+	.contentHeader_e9e3ed {
+		border: unset;
+		padding: 0 var(--space-24) 0 var(--space-30);
+		h1 {
+			text-transform: uppercase;
+			font-weight: 600;
+			color: var(--header-primary) !important;
+		}
+	}
+	.contentHeader_e9e3ed .buttonChildren_a22cb0 {
+		align-items: center;
+	    border-radius: 50%;
+	    border-style: solid;
+	    border-width: 3px;
+	    cursor: pointer;
+	    display: flex;
+	    flex: 0 0 36px;
+	    height: 36px;
+	    justify-content: center;
+	    width: 36px;
+	}
+	.contentHeader_e9e3ed .icon-only_a22cb0 {
+		align-self: end;
+		border-radius: 50%;
+		width: 42px;
+		height: 40px;
+		.buttonChildrenWrapper_a22cb0 {
+			min-width: 42px;
+			min-height: 40px;
+		}
+	}
+	.contentHeader_e9e3ed .icon-only_a22cb0:after {
+		position: absolute;
+		content: "ESC";
+		top: 43px;
+		color: #72767d;
+		font-size: 13px;
+		font-weight: var(--font-weight-semibold)
+	}
 }
+
 .sidebar__409aa{
 	background: var(--background-secondary);
 	border: none !important;
-	& h1{
+	& h1 {
 		text-transform:uppercase;
 		font-weight: 700;
 		font-size: 12px;
-    letter-spacing: .02em;
-    line-height: 1.3333333333333333;
+	    letter-spacing: .02em;
+	    line-height: 1.3333333333333333;
 		padding: 6px 10px;
-		margin: 0
-}	
+		margin: 0;
+		color: var(--channels-default) !important;
+	}	
 }
 html.density-default .item_caf372{
 	border-radius: 4px;
@@ -2542,4 +2591,9 @@ html.density-default .item_caf372{
 }
 .fixedContent__409aa:after{
     background: linear-gradient(to bottom,var(--background-secondary),transparent);
+}
+@container outer-container (max-width: 1080px) {
+    .modal_e44912 {
+		padding-top: 21px;
+	}
 }
