@@ -1,8 +1,8 @@
 # OldCord
 
-A theme for Discord that brings the 2020 UI back without removing features
+A Discord theme that tries to restore its 2020 UI
 
- By default, it completely removes profile effects (like banners) and clan tags. See `addons` below to get them back!
+ By default, it removes profile effects (like banners) and clan tags. See `addons` below to get them back!
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
@@ -10,17 +10,21 @@ A theme for Discord that brings the 2020 UI back without removing features
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
 > - For the old gray colors, use the "Ash" theme in appearance settings
->   - Don't use vencord's "Client Theme" plugin. Use discord's own theme picker (with fakenitro if needed)
+>   - Don't use vencord's "Client Theme" plugin, use Discord's own theme creator (with fakenitro if needed)
 >  
-> - If you use BetterFolders, expect half of your screen to become black at some point
-<details> <summary><h3>Light mode (usable!)</h3></summary>
+> - If you use BetterFolders, expect half your screen to turn blank sometimes
 
-Light mode does NOT have 2020 colors and it's tailored to ME but i think nobody cares at all
+<details> <summary><h3>Light mode</h3></summary>
+
+Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas. feedback is welcome :3
+
+It is currently not compatible with ShowEffects, sorry
 
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
-preview outdated
 
-there's a `--oldcord-tint` variable to adjust the tint, value/number has to be in HSL hue
+###### preview slightly outdated
+
+Adjust the tint with `--oldcord-tint`, value/number has to be in HSL hue (e.g. 200). You can find it in the theme's `oldcord.theme.css` file.
 
 </details>
 
@@ -38,7 +42,6 @@ These are usually included in oldcord.theme.css, so all you need to do is remove
 | Show Clan Tags | im too lazy for an image                                                     | `@import url("https://milbits.github.io/oldcord/src/components/showTags.css");` |
 | Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
 | Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| HeaderPresence | ![Image](https://github.com/user-attachments/assets/1a809f81-0d76-4146-ad25-941b4332bcbd)                                                           | https://betterdiscord.app/plugin/HeaderPresence |
 | [Tanza3D & KingGamingYT's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic)                         | Restores the old image layout                               |
 
 If you use custom/quickcss, paste the CSS at the very top!
@@ -60,10 +63,11 @@ If you use custom/quickcss, paste the CSS at the very top!
 ## 🚮[BetterDiscord](https://betterdiscord.app/)
 
 1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
-2. Save the file to the BetterDiscord theme folder:
+2. Save the file to your BetterDiscord theme folder:
 
 - Windows: `%appdata%/BetterDiscord/themes`
 - Linux: `~/.config/BetterDiscord/themes`
+- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
 
 ## 😺[Vencord](https://github.com/Vendicated/Vencord)
 

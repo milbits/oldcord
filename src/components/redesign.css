@@ -36,7 +36,7 @@ html:not(.custom-theme-background) .theme-light{
 	--custom-channel-members-bg: var(--background-secondary) !important;
 	--background-surface-highest: var(--background-primary) !important;
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
-
+	--background-floating: #fff;
 	--button-secondary: hsl(0deg 0% 0% / 10%);
 	--button-secondary-hover: hsl(0deg 0% 0% / 17%);
 	
