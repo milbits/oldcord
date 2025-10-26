@@ -2537,6 +2537,12 @@ html .bar_c38106 {
 			color: var(--header-primary) !important;
 		}
 	}
+	[data-text-variant="heading-lg/semibold"], legend, .debugTitle_bc4a3e {
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 14px;
+		color: var(--header-secondary) !important;
+	}
 	.contentHeader_e9e3ed .buttonChildren_a22cb0 {
 		align-items: center;
 	    border-radius: 50%;
