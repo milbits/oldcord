@@ -381,7 +381,11 @@ html.visual-refresh {
 	.buttons__37e49 {
 		gap: 1px;
 		.buttonChevron__37e49 {
-			display: none;
+			margin: 0;
+		}
+		/*hide arrows when there's an extra button (like a game activity toggle plugin)*/
+		&:has(>:nth-child(6)) .buttonChevron__37e49 {
+			display: none
 		}
 	}
 
