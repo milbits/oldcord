@@ -683,11 +683,11 @@ html.visual-refresh {
 		padding: 2px 8px;
 		min-height: unset;
 	}
-	.searchBar__35e86 {
+	.searchBar_e6b769 {
 		border-bottom: unset;
 		box-shadow: var(--elevation-low);
 	}
-	.searchBar__35e86 .button__201d5 {
+	.searchBar_e6b769 .button__201d5 {
 		height: 28px;
 		min-height: unset;
 		border-radius: 4px;
@@ -1126,7 +1126,7 @@ html.visual-refresh {
 		background: var(--background-modifier-accent);
 	}
 
-	.sectionDivider__35e86 {
+	.sectionDivider_e6b769 {
 		display: none;
 	}
 	.privateChannelsHeaderContainer__99e7c {
