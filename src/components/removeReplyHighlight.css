@@ -1,0 +1,9 @@
+/* This removes the orange line in front */
+.mentioned__5126c:before {
+    background: none !important;
+}
+
+/* This removes the orange background */
+.mentioned__5126c {
+    background: none !important;
+}

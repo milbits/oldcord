@@ -9,13 +9,13 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--interactive-hover: #dcddde;
 	--interactive-active: var(--white-500);
 	--interactive-muted: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
-	--background-primary: hsl(220, calc(var(--saturation-factor, 1) * 8%), 23%);
+	--background-primary: hsl(220, calc(var(--saturation-factor, 1) * 10%), 18%);
 	--modal-background: var(--background-primary);
 	--primary-600: var(--background-primary);
 	--primary-630: var(--background-secondary);
-	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
-	--background-secondary-alt: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
-	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
+	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 9%), 15%);
+	--background-secondary-alt: hsl(228, calc(var(--saturation-factor, 1) * 8%), 12%);
+	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 10%), 9%);
 	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
 	--background-modifier-hover: #4f545c29;
