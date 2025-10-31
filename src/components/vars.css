@@ -1,4 +1,5 @@
-.theme-dark:not(html.custom-theme-background, :has(#clientThemeVars), .theme-darker, .theme-midnight) {
+html:not(.custom-theme-background).theme-dark:not(.theme-darker, .theme-midnight),
+html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnight) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218, calc(var(--saturation-factor, 1) * 8%), 27%);
 	--header-primary: var(--white-500);
@@ -95,7 +96,7 @@
 	--shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 hsl(none 0% 0%/0.24));
 	--shadow-top-low: 0 -1px 4px 0 hsl(none 0% 0%/0.14);
 	--shadow-top-low-filter: drop-shadow(0 -1px 4px hsl(none 0% 0%/0.14));
-    
+
 	--text-muted: #72767d;
 
 	--info-positive-foreground: var(--green);
@@ -121,8 +122,9 @@
 	--control-text-active-default: var(--white);
 }
 
-.theme-light:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%);
+html:not(.custom-theme-background).theme-light,
+html:not(.custom-theme-background) .theme-light {
+	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%) !important;
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
 	--background-secondary-alt: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%);
@@ -131,9 +133,9 @@
 	--bg-base-tertiary: var(--background-tertiary);
 
 	--background-modifier-accent: #06060714;
-	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 30) 25% 89.2%);
-	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 30) 25% 87%) !important;
-	--background-modifier-selected: hsl(calc(var(--oldcord-tint) + 30) 25% 84%);
+	--background-modifier-hover: hsl(calc(var(--oldcord-tint) + 12) 25% 88.5%);
+	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 15) 25% 87%) !important;
+	--background-modifier-selected: hsl(calc(var(--oldcord-tint) + 20) 25% 84%);
 
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
@@ -250,8 +252,8 @@
 	--yellow-active: hsl(37, 81%, 44%);
 
 	--yellow-inverted: #fffbf4;
-	--yellow-inverted-active: #feedd1;	
-    --yellow-360: var(--yellow);
+	--yellow-inverted-active: #feedd1;
+	--yellow-360: var(--yellow);
 	--status-yellow-560: var(--yellow);
 
 	--green-inverted: #f6fbf9;
@@ -286,7 +288,7 @@
 	--font-display: var(--font-primary);
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
-	--text-warning: hsl(40 calc(var(--saturation-factor, 1)*86.4%) 56.9%/1);
+	--text-warning: hsl(40 calc(var(--saturation-factor, 1) * 86.4%) 56.9%/1);
 	--notice-background-warning: #f26522;
 	--notice-text-warning: #fff;
 	--notice-background-critical: #f23f42;
@@ -314,6 +316,12 @@
 
 .cardPrimary__73069 {
 	--__card-accent-color: var(--background-secondary) !important;
+}
+
+.colorDefault__6e2b9, .colorSuccess__6e2b9 {
+    --custom-notice-background: var(--status-positive-background);
+    --custom-notice-text: var(--status-positive-text);
+    --custom-notice-button-hover: var(--status-positive-background);
 }
 
 .colorDanger__6e2b9 {

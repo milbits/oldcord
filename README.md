@@ -1,27 +1,31 @@
 # OldCord
 
-A theme for Discord that brings the 2020 UI back without removing features
+A Discord theme that tries to restore its 2020 UI
 
- By default, it completely removes profile effects (like banners) and clan tags. See `addons` below to get them back!
+ By default, it removes profile effects (like banners) and clan tags. See `addons` below to get them back!
 
 ![Preview](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/preview.webp)
 
 > [!IMPORTANT]  
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
 > - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
-> - To have the old gray colors, use the "Ash" theme in appearance settings
->   - If you use vencord's "Client Theme" plugin, use darker
+> - For the old gray colors, use the "Ash" theme in appearance settings
+>   - Don't use vencord's "Client Theme" plugin, use Discord's own theme creator (with fakenitro if needed)
 >  
-> - If you use BetterFolders, expect half of your screen to become black. I always try to fix this but no promises
+> - If you use BetterFolders, expect half your screen to turn blank sometimes
 
-<details> <summary><h3>Light mode (usable!)</h3></summary>
+<details> <summary><h3>Light mode</h3></summary>
 
-Light mode does NOT have 2020 colors and it's tailored to ME but i think nobody cares at all
+Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas. feedback is welcome :3
+
+It is currently not compatible with ShowEffects, sorry
 
 <img src=img src=https://raw.githubusercontent.com/solaetv/soldcord/master/.github/previewLight.webp>
 preview outdated
 
-there's a `--oldcord-tint` variable to adjust the tint, value/number has to be in HSL hue
+###### preview slightly outdated
+
+Adjust the tint with `--oldcord-tint`, value/number has to be in HSL hue (e.g. 200). You can find it in the theme's `oldcord.theme.css` file.
 
 </details>
 
@@ -60,11 +64,9 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 | Name                                                                                                                                  | Description                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37) |
 | [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                               |
-| [NoSuperReactions](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions)                                       | Removes super reactions                                     |
-| [OldFileUpload](https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/OldFileUpload)                                             | Open the file picker with just one click                    |
 | [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                            |
-| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause huge lag (see #37) |
 
 ---
 
@@ -79,6 +81,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 - Windows: `%appdata%/BetterDiscord/themes`
 - Linux: `~/.config/BetterDiscord/themes`
+- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
 
 ## 😺[Vencord](https://github.com/Vendicated/Vencord)
 

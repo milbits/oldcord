@@ -1,7 +1,7 @@
-.panels_c48ade .avatarWrapper__37e49:hover {
+.panels__5e434 .avatarWrapper__37e49:hover {
 	background: none !important;
 }
-.panels_c48ade .wrapper__44b0c:hover {
+.panels__5e434 .wrapper__44b0c:hover {
 	opacity: 0.5 !important;
 }
 .panel__5dec7 {
@@ -175,6 +175,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		& .addStatusIcon_ab8609 {
 			padding-right: 7px;
 		}
+		background: none !important
 	}
 	& .container_ab8609:has(.popover_c97e55:hover) .outer_ab8609 {
 		background: var(--brand-experiment-560) !important;
@@ -243,8 +244,11 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	box-shadow: none;
 	background: none !important;
 }
-.title_b6c092.text-sm\/medium_cf4812 {
+.title_b6c092.text-sm\/medium_cf4812, .gameName__8c6c2.text-md\/medium_cf4812 {
 	font-weight: 400;
+}
+.gameName__8c6c2.text-md\/medium_cf4812 {
+	font-size: 14px;
 }
 
 /* KILL upsells KILL upsells KILL */
@@ -272,22 +276,22 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.inner_c0bea0:has(.clickableContainer__39ec2) {
+.inner_c0bea0:has(.activityContainer__84832) {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
 	--interactive-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
 	--background-tertiary: var(--brand-experiment);
-	--background-tertiary-alt: var(--brand-experiment-530);
+	--background-secondary-alt: var(--brand-experiment-530);
 
 	/*Change color based on activity type*/
 
-	/* Listening to Spotify
-	&:has([src*="i.scdn.co"]) {
+	/* Listening to Spotify*/
+	&:has([src^="https://i.scdn.co/"]) {	
 		--background-tertiary: var(--spotify);
-		--background-tertiary-alt: var(--spotify-dark);
-	}*/
+		--background-secondary-alt: var(--spotify-dark);
+	}
 	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
 		--play: var(--twitch);
@@ -323,13 +327,13 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	/* Playing on XBOX
 	&:has([style="mask-image: url(\"/assets/c4f09fda61827e19.svg\");"]) {
 		--background-tertiary: var(--xbox);
-		--background-tertiary-alt: var(--xbox-dark);
+		--background-secondary-alt: var(--xbox-dark);
 	}
 
 	/* Playing on PlayStation
 	&:has([style='mask-image: url("/assets/eed203a7ec517e23.svg");']) {
 		--background-tertiary: var(--playstation2);
-		--background-tertiary-alt: var(--playstation-dark);
+		--background-secondary-alt: var(--playstation-dark);
 	}*/
 }
 
@@ -441,7 +445,7 @@ section:has(.activityContainer__84832) {
 
 /* change activity bg color and padding*/
 .user-profile-popout .card__39ec2 {
-	background-color: var(--background-tertiary-alt) !important;
+	background-color: var(--background-secondary-alt) !important;
 	padding: 12px;
 	border-radius: 0;
 }
@@ -551,7 +555,7 @@ html.theme-dark .badgeContainer__635ed path {
 	padding-top: 105px;
 	margin-top: -150px;
 }
-.customizationSection_ace4f5 .wrapper__44b0c {
+.customizationSection_ace4f5 .header__5be3e .wrapper__44b0c {
 	bottom: 45px;
 	left: 70px;
 }
@@ -574,7 +578,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*! normal profile popout*/
 /*Banners*/
 .mask__68edb,
-.bannerColor_fb7f94 {
+.bannerButton_de8008 {
 	display: none;
 }
 /*profile stuff*/
@@ -640,15 +644,10 @@ html.theme-dark .badgeContainer__635ed path {
 	border-radius: 8px !important;
 }
 
-/*remove and move some of the button*/
-.user-profile-popout .wrapper_da5890 > :is(div:nth-of-type(2), div:nth-of-type(3)) {
-	display: none;
-}
 /* i hate this reaction experiment so much */
 .user-profile-popout .activityContainer__84832 {
 	order: -1;
 }
-
 /*pfp (duh)*/
 .user-profile-popout .inner_c0bea0 .avatar__75742 {
 	left: 34% !important;
@@ -680,7 +679,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*username*/
 
 .user-profile-popout .container__63ed3 {
-	background: var(--background-tertiary);
+	background: var(--background-tertiary) !important;
 	order: -1;
 	padding-bottom: 23px;
 	gap: 0 !important;
@@ -696,7 +695,7 @@ html.theme-dark .badgeContainer__635ed path {
 	font-weight: 600;
 	color: var(--interactive-active);
 	.theme-light:has(.card__39ec2) & {
-		color: white;
+		color: var(--interactive-active);
 	}
 }
 .user-profile-popout .tags__63ed3,
@@ -744,11 +743,11 @@ html.theme-dark .badgeContainer__635ed path {
 	min-width: 250px;
 	box-shadow: none;
 	background: none !important;
-	transition: 0.4s;
+	transition: ease 0.4s background;
 
 	&:hover {
 		background: var(--background-tertiary) !important;
-		transition: 0.2s;
+		transition: ease height background-color 0.2s;
 	}
 	text-align: center;
 	border: none !important;
@@ -809,17 +808,15 @@ html.theme-dark .badgeContainer__635ed path {
 	outline: 10px solid var(--background-tertiary)
 }
 
-.icon_fb7f94 {
-	svg:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
-		stroke: var(--interactive-normal);
-		stroke-width: 2px;
-		transform: scale(0.98);
-		height: 20px;
-		> path {
-			d: path(
-				"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
-			);
-		}
+svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
+	stroke: var(--interactive-normal);
+	stroke-width: 2px;
+	transform: scale(0.98);
+	height: 20px;
+	> path {
+		d: path(
+			"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
+		);
 	}
 }
 
@@ -1017,59 +1014,70 @@ html.theme-dark .badgeContainer__635ed path {
 /*! end of modal*/
 /*note button*/
 .nicknameIcons__63ed3 {
-	& [aria-label]:after {
-		content: attr(aria-label);
-		min-width: 230px;
-		text-align: left;
-		padding-top: 10px;
-		margin-left: 240px;
-		margin-top: auto;
-		max-height: 38px;
-		white-space: pre-wrap;
-		font-size: 12px;
-		color: var(--interactive-normal);
-	}
 	top: 100%;
 	position: absolute;
 	display: flex !important;
 	padding-top: 15px !important;
-	padding-right: 230px;
-	padding-bottom: 35px;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	&::-webkit-scrollbar-thumb {
-		background: transparent;
-		border-radius: 99px;
-	}
+	width: 100%;
+	margin-top: auto;
 	&::-webkit-scrollbar {
-		width: 4px;
+		display: none;
 	}
-	&:hover::-webkit-scrollbar-track {
-		background: 0 0;
-		border-radius: 10px;
-	}
-	&:hover::-webkit-scrollbar-thumb {
-		background: var(--background-gradient-highest, var(--background-tertiary));
-		border-radius: 999px;
-	}
-	& .button_fb7f94 {
+	& .button__0f074 {
 		opacity: 1;
+		width: 10px;
 	}
-	& .button_fb7f94:before {
+	& .hiddenVisually_b18fe2:before {
 		content: "NOTE";
-		padding-bottom: 30px;
-		left: 70%;
+		left: 5%;
 		position: absolute;
+		margin-top: -25px;
 		color: var(--header-secondary);
 		font-weight: 800;
 		font-family: var(--font-display);
 		font-size: 12px;
 	}
-	html[lang="de"] & .button_fb7f94:before {
+	html[lang="de"] & .hiddenVisually_b18fe24:before {
 		content: "NOTIZ";
 	}
-	& .buttonInner_fb7f94 {
+	& .button__0f074 svg {
 		display: none;
+	}
+	& .hiddenVisually_b18fe2 {
+		display: inline-block;
+		align-content: start;
+		text-align: left;
+		max-height: 38px;
+		margin-top: 10px;
+		white-space: pre-wrap;
+		color: var(--interactive-normal);
+		font-weight: 500;
+		font-family: var(--font-display);
+		font-size: 12px;
+		user-select: text;
+		clip: unset;
+		clip-path: unset;
+		height: unset;
+		overflow: auto;
+		position: unset;
+		width: unset;
+		&::-webkit-scrollbar-thumb {
+			background: transparent;
+			border-radius: 99px;
+		}
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+		&:hover::-webkit-scrollbar-track {
+			background: 0 0;
+			border-radius: 10px;
+		}
+		&:hover::-webkit-scrollbar-thumb {
+			background: var(--background-gradient-highest, var(--background-tertiary));
+			border-radius: 999px;
+		}
 	}
 }
 .footer__5be3e {
@@ -1096,6 +1104,27 @@ html.theme-dark .badgeContainer__635ed path {
 	background: none;
 	border: none;
 }
+.user-profile-popout .breadcrumb_c2a763 .overlay_c0bea0 {
+	flex-direction: column;
+	flex-wrap: unset;
+	align-items: start;
+	padding: 16px 12px 20px 12px;
+	.text-xs\/medium_cf4812 {
+		font-size: 12px;
+        color: var(--header-secondary);
+        font-weight: 800;
+        font-family: var(--font-display);
+		margin-bottom: 4px;
+		text-transform: uppercase;
+	}
+	.icons_c2a763:hover {
+		background: var(--user-profile-overlay-background);
+	    border-radius: var(--radius-sm);
+	}
+	&:hover {
+		background: unset;
+	}
+}
 .theme-dark.custom-user-profile-theme .user-profile-popout .overlay_c0bea0 {
 	background: none;
 	border: none;
@@ -1114,7 +1143,7 @@ html.theme-dark .badgeContainer__635ed path {
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
-		color: white !important;
+		color: var(--interactive-active) !important;
 	}
 }
 
@@ -1222,7 +1251,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;
 }
-.role_dfa8b6 > div:first-child {
+.role_dfa8b6>:first-child {
 	margin: 0;
 }
 /* Add a colored border around the role */
@@ -1327,15 +1356,13 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	order: -1;
 	gap: 0;
 }
-/*WIP: make it look nicer on bots without activity*/
-.buttons_bc38cd .lookFilled__201d5 {
-	background: var(--background-primary);
-	border-radius: 0;
-	&.colorBrand__201d5 {
-		border-left: 1px solid rgb(255, 255, 255, 0.3);
-	}
-	.outer_c0bea0:has(.card__39ec2) & {
-		border-top: 1px solid rgb(255, 255, 255, 0.3);
+#app-mount .buttons_bc38cd button {
+	background: var(--background-tertiary);
+	border-radius: 0;		
+	border-top: 1px solid rgb(255, 255, 255, 0.15) !important;
+
+	&.primary_a22cb0 {
+		border-left: 1px solid rgb(255, 255, 255, 0.15) !important;
 	}
 	&:hover {
 		background: var(--background-primary) !important;
@@ -1343,10 +1370,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	&:active {
 		background: var(--primary-transparent) !important;
 	}
-	.outer_c0bea0:has(.card__39ec2) &:hover {
+	.outer_c0bea0:has(.activityContainer__84832) &:hover {
 		background: var(--brand-experiment-460) !important;
 	}
-	.outer_c0bea0:has(.card__39ec2) &:active {
+	.outer_c0bea0:has(.activityContainer__84832) &:active {
 		background: var(--brand-experiment-400) !important;
 	}
 }

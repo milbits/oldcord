@@ -56,6 +56,7 @@
 /*discovery and add button*/
 .circleIcon__5bc7e {
 	color: var(--green);
+	transform: scale(1.3);
 	.selected__5bc7e & {
 		color: #fff;
 	}
@@ -65,7 +66,7 @@
 	background-color: var(--green) !important;
 }
 
-:is(.lookFilled__201d5.colorBrand__201d5, .primary__6af3a, .primary__6af3a:disabled) {
+:is(.lookFilled__201d5.colorBrand__201d5, .primary_a22cb0, .primary_a22cb0:disabled) {
 	background-color: var(--blurple);
 	&:hover {
 		background-color: var(--blurple-hover) !important;
@@ -101,7 +102,7 @@
 }
 
 .colorDanger_c1e9c4.focused_c1e9c4,
-.button__6af3a.critical-primary__6af3a {
+.button_a22cb0.critical-primary_a22cb0 {
 	background-color: var(--red);
 	&:hover {
 		background-color: var(--red-hover);
@@ -118,7 +119,7 @@
 		background-color: var(--background-secondary) !important;
 	}
 }
-.overlay-primary__6af3a {
+.overlay-primary_a22cb0 {
 	background: var(--blurple-inverted);
 	&:hover {
 		background: var(--blurple-inverted-hover);
@@ -372,7 +373,7 @@
 .closeButton_c2b141 path {
 	d: path("M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12");
 }
-.theme-light .closeButton_c2b141 {
+.theme-light .closeButton_c2b141, .theme-light .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
 	color: #dcddde !important;
 	background: #0000 !important;
 	&:hover {
@@ -383,7 +384,7 @@
 		color: #72767d !important;
 	}
 }
-.theme-dark .closeButton_c2b141 {
+.theme-dark .closeButton_c2b141, .theme-dark .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
 	color: #72767d !important;
 	background: #0000 !important;
 	& svg {
@@ -399,12 +400,12 @@
 	color: #72767d !important;
 }
 
-.button__6af3a.critical-secondary__6af3a {
+.button_a22cb0.critical-secondary_a22cb0 {
 	background: transparent !important;
 	color: var(--red) !important;
 	border: 1px solid var(--text-danger) !important;
 }
-.button__6af3a.critical-secondary__6af3a:active {
+.button_a22cb0.critical-secondary_a22cb0:active {
 	background: var(--red-transparent) !important;
 }
 
@@ -416,7 +417,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 	color: var(--text-danger);
 }
 
-.expressive__6af3a canvas {
+.expressive_a22cb0 canvas {
 	display: none;
 }
 
