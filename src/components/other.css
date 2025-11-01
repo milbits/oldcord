@@ -1624,7 +1624,7 @@ https://github.com/XYZenix/DTM-16
 	height: 35px;
 }
 /*idiots!!!!!!!!!*/
-#vencordthemes-tab h5:before {
+#vencordthemes-tab section section:before {
 	content: "Using OldCord with other themes may break stuff.  Please don't report issues. ";
 	color: #fff;
 	padding: 10px;
@@ -1632,7 +1632,7 @@ https://github.com/XYZenix/DTM-16
 	border: 1px solid var(--red);
 	border-radius: 3px;
 }
-:is(#themes-tab) .bd-addon-controls:after {
+#themes-tab .bd-addon-controls:after {
 	content: "Using OldCord with other themes may break stuff.  Please don't report issues.";
 	color: #fff;
 	margin-top: 10px;
