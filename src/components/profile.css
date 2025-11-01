@@ -9,11 +9,6 @@
 }
 
 /** bottom-left popout */
-.user-profile-popout .overlay_c0bea0:nth-of-type(2) :is(.button_fb7f94:nth-of-type(2), .menuDivider_af7fb7),
-.user-profile-popout .overlay_c0bea0:nth-of-type(1) .button_fb7f94:nth-of-type(1),
-.user-profile-popout .overlay_c0bea0:nth-of-type(2) .divider__23eb0 {
-	display: none;
-}
 
 .fixed_c1e9c4:has(.userMenuUsername_d40c56, .status_af7fb7) {
 	width: max-content;
@@ -46,19 +41,6 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		line-height: initial;
 		color: var(--interactive-normal);
 	}
-}
-/*add separator under status button*/
-.user-profile-popout .overlay_c0bea0:nth-of-type(1) > [role="list"]::after {
-	content: "";
-	position: absolute;
-	width: 86%;
-	height: 1px;
-	background-color: var(--profile-body-divider-color);
-	padding: 0 4px;
-	bottom: 0;
-	left: 0;
-	margin-left: 5%;
-	pointer-events: none;
 }
 
 .themeContainer_ce8328 .popover_c97e55 {
@@ -106,23 +88,10 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		background: var(--background-floating);
 		width: 220px !important;
 		position: fixed;
-		z-index: 4;
 		margin-top: -30px;
-		border-top-left-radius: 4px;
-		border-top-right-radius: 4px;
 	}
 	& .menus_ce8328 {
-		gap: 0px !important;
 		background: var(--background-floating);
-		padding-bottom: 2px;
-	}
-	& .wrapper_f7ecac.visible_bba79b.popover_c97e55 {
-		box-shadow: none;
-		animation: none;
-		opacity: 1;
-	}
-	& .singleLineAlign_af9888 {
-		text-align: left;
 	}
 	& .body_ce8328 {
 		width: 230px;
@@ -145,7 +114,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 	& .container_ab8609 {
 		top: -40px !important;
-		left: 70px;
+		left: 46px;
 		white-space: nowrap;
 		text-align: left !important;
 		&:has(.addStatusPrompt_ab8609) {
@@ -175,7 +144,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		& .addStatusIcon_ab8609 {
 			padding-right: 7px;
 		}
-		background: none !important
+		background: none !important;
 	}
 	& .container_ab8609:has(.popover_c97e55:hover) .outer_ab8609 {
 		background: var(--brand-experiment-560) !important;
@@ -220,35 +189,15 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 }
 
-#set-status-submenu .clickTrapContainer_da8173 .label_c1e9c4 {
-	padding-left: 10px !important;
-}
-
-.statusPickerModalMenu_ce8328 .labelContainer_c1e9c4 {
-	padding: initial !important;
-}
-
-.menuItemInner_af7fb7.buttonInner_fb7f94.contents__201d5:hover {
+.menuItemInner_ce8328:hover {
 	background-color: var(--brand-experiment-560);
 	border-radius: 2px;
-
 	& .menuItemLabel_af7fb7 {
 		color: var(--white);
 	}
 	& .status_a423bd {
 		background-color: var(--white) !important;
 	}
-}
-
-.outer_ab8609 {
-	box-shadow: none;
-	background: none !important;
-}
-.title_b6c092.text-sm\/medium_cf4812, .gameName__8c6c2.text-md\/medium_cf4812 {
-	font-weight: 400;
-}
-.gameName__8c6c2.text-md\/medium_cf4812 {
-	font-size: 14px;
 }
 
 /* KILL upsells KILL upsells KILL */
@@ -288,7 +237,8 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	/*Change color based on activity type*/
 
 	/* Listening to Spotify*/
-	&:has([src^="https://i.scdn.co/"]) {	
+	&:has([src^="https://i.scdn.co/"])
+	{
 		--background-tertiary: var(--spotify);
 		--background-secondary-alt: var(--spotify-dark);
 	}
@@ -578,7 +528,8 @@ html.theme-dark .badgeContainer__635ed path {
 /*! normal profile popout*/
 /*Banners*/
 .mask__68edb,
-.bannerButton_de8008,.bannerColor_fb7f94 {
+.bannerButton_de8008,
+.bannerColor_fb7f94 {
 	display: none;
 }
 /*profile stuff*/
@@ -805,7 +756,7 @@ html.theme-dark .badgeContainer__635ed path {
 	top: 35px !important;
 	left: 114px !important;
 	background: var(--background-tertiary);
-	outline: 10px solid var(--background-tertiary)
+	outline: 10px solid var(--background-tertiary);
 }
 
 svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
@@ -839,7 +790,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	transform: scale(1.255);
 	position: relative;
 	background: none;
-	top: -6px
+	top: -6px;
 }
 .profileButtons__9c3be {
 	position: fixed;
@@ -1111,15 +1062,15 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	padding: 16px 12px 20px 12px;
 	.text-xs\/medium_cf4812 {
 		font-size: 12px;
-        color: var(--header-secondary);
-        font-weight: 800;
-        font-family: var(--font-display);
+		color: var(--header-secondary);
+		font-weight: 800;
+		font-family: var(--font-display);
 		margin-bottom: 4px;
 		text-transform: uppercase;
 	}
 	.icons_c2a763:hover {
 		background: var(--user-profile-overlay-background);
-	    border-radius: var(--radius-sm);
+		border-radius: var(--radius-sm);
 	}
 	&:hover {
 		background: unset;
@@ -1251,7 +1202,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 .roleCircle__4f569 {
 	margin: 0 4px 0px 1px !important;
 }
-.role_dfa8b6>:first-child {
+.role_dfa8b6 > :first-child {
 	margin: 0;
 }
 /* Add a colored border around the role */
@@ -1358,7 +1309,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 #app-mount .buttons_bc38cd button {
 	background: var(--background-tertiary);
-	border-radius: 0;		
+	border-radius: 0;
 	border-top: 1px solid rgb(255, 255, 255, 0.15) !important;
 
 	&.primary_a22cb0 {
@@ -1663,19 +1614,19 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 
 /*profile widgets/board/game collection*/
-.container__62dd3{
+.container__62dd3 {
 	background: var(--background-secondary-alt);
 	border: none;
 	border-radius: 12px;
-	& h3{
+	& h3 {
 		font-weight: 800;
 		text-transform: uppercase;
 		color: var(--header-secondary) !important;
 	}
-	& h4{
-		font-weight: 600
+	& h4 {
+		font-weight: 600;
 	}
 }
-.scroller__3b923{
-	gap: 8px
+.scroller__3b923 {
+	gap: 8px;
 }
