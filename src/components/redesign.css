@@ -1055,6 +1055,7 @@ html.visual-refresh {
 		}
 		.interactiveSelected__972a0 .name__20a53,
 		.interactiveSelected__972a0 .subText__20a53 [data-text-variant="text-xs\/medium"],
+		.interactiveSelected__972a0 .subText__20a53 .textWithIconContainer_c9d15c:before,
 		.interactiveSelected__972a0 .subtext__972a0 {
 			color: var(--interactive-active) !important;
 		}
