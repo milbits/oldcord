@@ -6,17 +6,17 @@ A Discord theme that tries to restore its 2020 UI
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> - For the old grey colors, use the "Ash" theme in `Appearance` under settings
+>   - Don't use vencord's "Client Theme" plugin, use Discord's own theme picker (with fakenitro if needed)
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
-> - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
-> - For the old gray colors, use the "Ash" theme in appearance settings
->   - Don't use vencord's "Client Theme" plugin, use Discord's own theme creator (with fakenitro if needed)
->  
-> - If you use BetterFolders, expect half your screen to turn blank sometimes
+> - Disable "display name style" in `Settings > Accessibility`  if you don't want the flashy names
+> - UI Density should be on default, i won't support the other 2 options (they still kinda work, though)
+> - If you use BetterFolders, expect half your screen to turn blank every few months
 
 <details> <summary><h3>Light mode</h3></summary>
 
-Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas. feedback is welcome :3
+Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas
 
 It is currently not compatible with ShowEffects, sorry
 
