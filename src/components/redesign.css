@@ -964,6 +964,7 @@ html.visual-refresh {
 	.base__5e434 .sidebar__5e434 > .guilds__5e434 {
 		grid-area: guilds;
 		margin-bottom: 0;
+		mask: none;
 	}
 	.base__5e434 .sidebar__5e434 > .sidebarList__5e434 {
 		grid-area: sidebar;
