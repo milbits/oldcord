@@ -1661,3 +1661,21 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .clanTag__5d473 {
 	display: none;
 }
+
+/*profile widgets/board/game collection*/
+.container__62dd3{
+	background: var(--background-secondary-alt);
+	border: none;
+	border-radius: 12px;
+	& h3{
+		font-weight: 800;
+		text-transform: uppercase;
+		color: var(--header-secondary) !important;
+	}
+	& h4{
+		font-weight: 600
+	}
+}
+.scroller__3b923{
+	gap: 8px
+}
