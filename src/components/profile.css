@@ -753,7 +753,7 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
 	transform: scale(0.666);
 	position: absolute !important;
-	top: 35px !important;
+	top: 0px !important;
 	left: 114px !important;
 	background: var(--background-tertiary);
 	outline: 10px solid var(--background-tertiary);
@@ -775,12 +775,12 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	background: var(--background-tertiary);
 	flex-direction: column;
 	position: fixed;
-	top: 160px;
+	top: 130px;
 	min-width: 350px;
 }
 .user-profile-modal-v2 .nickname__63ed3 {
 	position: fixed;
-	top: 140px;
+	top: 110px;
 	width: 350px;
 	text-align: center;
 }
@@ -803,6 +803,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 .user-profile-modal-v2 .inner_ab8609 {
 	right: -115px;
 	padding: 0;
+	margin: 0
 }
 .profileBody__9c3be {
 	background: var(--background-secondary);
@@ -858,16 +859,17 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 .user-profile-modal-v2 .container_ab8609 {
 	.outer_ab8609 {
 		border: none;
-		min-width: 450px !important;
+		min-width: 450px !important;	
+		background: none !important
 	}
-	left: -50px !important;
+	left: -110px !important;
 	z-index: 1;
-	top: 210px;
+	top: 205px;
 }
 .user-profile-modal-v2 .container_ab8609 .content_ab8609 {
 	white-space: pre-wrap;
 	text-align: left !important;
-	width: 450px;
+	width: 350px;
 	height: unset !important;
 	max-height: 100px !important;
 	& :has(.statusEmoji_ab8609) .statusText_ab8609,
@@ -916,8 +918,8 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 
 .user-profile-modal-v2 {
 	& .outer_ab8609 .defaultColor__4bd52 {
-		margin-left: 5px;
-	}
+text-align: center;
+	width:320px; }
 	& .singleLineAlign_af9888 {
 		text-align: left;
 	}
