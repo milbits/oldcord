@@ -562,11 +562,11 @@ html.visual-refresh {
 		backdrop-filter: unset;
 	}
 	/* channel menus */
-	.header__45690 {
+	.header_e8b59c {
 		background: var(--background-tertiary);
 		border-bottom: 2px solid var(--background-modifier-accent);
 	}
-	.messagesPopoutWrap__45690 {
+	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-secondary);
 		border-radius: 8px;
 		max-height: 91vh !important;
@@ -1777,7 +1777,7 @@ html.visual-refresh {
 	.container_fc561d,
 	.recentMentionsPopout__95796 {
 		background-color: var(--background-secondary);
-		.header__45690 {
+		.header_e8b59c {
 			border-bottom: unset;
 		}
 		.header_ab6641 {

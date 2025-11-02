@@ -1065,7 +1065,7 @@ h2.title_b717a1,
 }
 
 /* pinned messages popout header */
-.titleContainer__45690 {
+.titleContainer_e8b59c {
 	.text-lg\/semibold_cf4812 {
 		font-size: 15px;
 	}
@@ -1076,19 +1076,19 @@ h2.title_b717a1,
 }
 
 /* fix pinned message padding */
-.messageGroupWrapper__45690 {
+.messageGroupWrapper_e8b59c {
 	background: var(--background-primary);
 	border: 1px solid var(--background-tertiary);
 	border-radius: 4px;
 }
-.messageGroupWrapper__45690 .messageGroupCozy__45690 {
+.messageGroupWrapper_e8b59c .messageGroupCozy_e8b59c {
 	padding-top: 12px !important;
 	padding-bottom: 12px !important;
 }
-.header__45690 {
+.header_e8b59c {
 	background: var(--background-tertiary);
 }
-.messagesPopoutWrap__45690 {
+.messagesPopoutWrap_e8b59c {
 	border-radius: 4px;
 }
 
