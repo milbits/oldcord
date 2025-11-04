@@ -551,6 +551,14 @@ html.visual-refresh {
 			display: none;
 		}
 	}
+	.header_d5f3cd {
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	.infoIcon_ae2544 {
+		margin-bottom: -3px;
+		margin-left: 5px
+	}
 
 	.clickable__9293f .icon__9293f {
 		color: var(--interactive-normal);
