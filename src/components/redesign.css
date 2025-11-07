@@ -1262,6 +1262,9 @@ html.visual-refresh {
 			border: unset;
 			border-radius: 4px;
 			box-shadow: unset;
+			.media__41ea0  {
+				border-radius: 4px;
+			}
 		}
 		.spoilerContainer__54ab5.attachmentContainer__54ab5 .media__41ea0 {
 			border-radius: 3px;
