@@ -693,13 +693,20 @@ html.visual-refresh {
 		border-bottom: unset;
 		box-shadow: var(--elevation-low);
 	}
-	.searchBar_e6b769 .button__201d5 {
-		height: 28px;
-		min-height: unset;
-		border-radius: 4px;
-		background: var(--background-gradient-lowest, var(--background-tertiary));
-		.contents__201d5 {
-			margin-left: -5px;
+	.searchBar_e6b769 .button_a22cb0 {
+		width: 100%;
+	    height: 28px;
+		min-height: 28px;
+	    overflow: hidden;
+	    border-radius: 4px;
+	    background: var(--background-gradient-lowest, var(--background-tertiary));
+	    box-shadow: none;
+		&:hover {
+			background: var(--background-gradient-lowest, var(--background-tertiary));
+		}
+		.buttonChildrenWrapper_a22cb0 {
+			justify-content: start;
+			margin-left: -20px;
 			color: var(--text-muted);
 		}
 	}
