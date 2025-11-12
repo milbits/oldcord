@@ -372,12 +372,22 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	width: 38px;
 }
 
+.user-profile-popout .inner_c0bea0 .header__39ec2 {
+	font-size: 12px;
+	height: 12px;
+}
+
 .user-profile-popout .inner_c0bea0 .headerText__39ec2 {
 	text-transform: uppercase;
 	font-weight: 700;
 	html.theme-light & {
 		color: white !important;
 	}
+}
+.contentImage_ef9ae7[src*="/app-icons/"] {
+	max-width: 40px !important;
+	min-width: 40px;
+	min-height: 40px !important;
 }
 /* make activity the first section*/
 section:has(.activityContainer__84832) {
@@ -400,7 +410,7 @@ section:has(.activityContainer__84832) {
 /* change activity bg color and padding*/
 .user-profile-popout .card__39ec2 {
 	background-color: var(--background-secondary-alt) !important;
-	padding: 12px;
+	padding: 16px;
 	border-radius: 0;
 }
 /*change some other colors for the activity section*/
@@ -477,10 +487,11 @@ html.theme-dark .badgeContainer__635ed path {
 .descriptionClamp_f5f93a,
 .user-profile-popout .root_fccfdf,
 .section_bf424d:has(.list__20827) {
-	padding-left: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 .descriptionClamp_f5f93a {
-	padding: 16px 12px 0px 12px;
+	padding: 16px 16px 0px 16px;
 }
 
 .body__5be3e {
@@ -688,6 +699,9 @@ html.theme-dark .badgeContainer__635ed path {
 .statusText__19b6d {
 	color: var(--header-secondary);
 }
+.user-profile-popout .statusText_ab8609 {
+	color: var(--interactive-normal)
+}
 .user-profile-popout .userInfo__0a06e .text__19b6d {
 	color: var(--text-muted);
 }
@@ -708,6 +722,7 @@ html.theme-dark .badgeContainer__635ed path {
 	border: none !important;
 }
 .inner_ab8609 {
+	padding: 8px 16px;
 	background: unset !important;
 }
 .labelRow_ab8609 {
@@ -984,7 +999,7 @@ text-align: center;
 	}
 	& span:nth-of-type(1) {
 		width: 0;
-		margin-left: 10px;
+		margin-left: 15px;
 	}
 	& .button__0f074 {
 		opacity: 1;
@@ -992,7 +1007,7 @@ text-align: center;
 	}
 	& .hiddenVisually_b18fe2:before {
 		content: "NOTE";
-		left: 5%;
+		left: 7%;
 		position: absolute;
 		margin-top: -25px;
 		color: var(--header-secondary);
@@ -1069,7 +1084,7 @@ text-align: center;
 	flex-direction: column;
 	flex-wrap: unset;
 	align-items: start;
-	padding: 16px 12px 20px 12px;
+	padding: 16px 16px 20px 16px;
 	.text-xs\/medium_cf4812 {
 		font-size: 12px;
 		color: var(--header-secondary);
@@ -1098,7 +1113,7 @@ text-align: center;
 	& .text__530ce {
 		color: var(--interactive-normal) !important;
 	}
-	padding-bottom: 3px;
+	padding-bottom: 10px;
 	order: -1;
 	& .text__530ce.text-sm\/normal_cf4812 {
 		font-size: 12px !important;
@@ -1187,6 +1202,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 	border: 0 !important;
 	border-radius: 4200px;
 	max-width: 225px !important;
+	height: 22px;
 }
 
 .addButtonIcon__48c1c {
