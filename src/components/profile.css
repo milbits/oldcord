@@ -685,6 +685,9 @@ html.theme-dark .badgeContainer__635ed path {
 
 .pronounsText__63ed3 {
 	color: var(--text-tertiary) !important;
+	max-width: 255px;
+	white-space: wrap;
+	padding: 0px 16px;
 }
 /*bot tag*/
 .outer_c0bea0.user-profile-popout:has(.card__39ec2) .botTagRegular__82f07 {
@@ -700,7 +703,7 @@ html.theme-dark .badgeContainer__635ed path {
 	color: var(--header-secondary);
 }
 .user-profile-popout .statusText_ab8609 {
-	color: var(--interactive-normal)
+	color: var(--text-tertiary);
 }
 .user-profile-popout .userInfo__0a06e .text__19b6d {
 	color: var(--text-muted);
