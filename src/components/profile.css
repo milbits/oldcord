@@ -390,6 +390,10 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 .user-profile-popout .content__39ec2 {
 	align-items: center;
 }
+.user-profile-popout .actions__39ec2 button {
+	background-color: var(--control-background-secondary-default) !important;
+    border: 1px solid var(--white) !important;
+}
 .user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
 	order: -1;
 }

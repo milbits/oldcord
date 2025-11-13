@@ -58,7 +58,7 @@ code {
 	&:hover:not(:has(.interactiveSelected__972a0)) .subText__20a53 [data-text-variant="text-xs\/medium"] {
 		color: var(--interactive-hover) !important;
 	}
-	&:hover .interactiveSelected__972a0 .name__20a53 {
+	&:hover .interactiveSelected__972a0 .name__20a53, .interactiveSelected__972a0 .subText__20a53 {
 		color: var(--interactive-active) !important;
 	}
 	& .subText__20a53 [data-text-variant="text-xs\/medium"] {
