@@ -384,6 +384,15 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		color: white !important;
 	}
 }
+.user-profile-popout .details__39ec2 {
+	gap: unset;
+}
+.user-profile-popout .content__39ec2 {
+	align-items: center;
+}
+.user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
+	order: -1;
+}
 .contentImage_ef9ae7[src*="/app-icons/"] {
 	max-width: 40px !important;
 	min-width: 40px;
