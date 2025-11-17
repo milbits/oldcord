@@ -384,6 +384,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		color: white !important;
 	}
 }
+
 .user-profile-popout .details__39ec2 {
 	gap: unset;
 }
@@ -397,6 +398,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 .user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
 	order: -1;
 }
+
 .contentImage_ef9ae7[src*="/app-icons/"] {
 	max-width: 40px !important;
 	min-width: 40px;
@@ -473,26 +475,26 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /*activity buttons*/
-.card__39ec2 .button_fb7f94 {
+.card__39ec2 :is(.button_fb7f94, .button_a22cb0) {
 	background: transparent !important;
 	color: var(--text-primary);
-	border: 1px solid var(--text-primary);
+	border: 1px solid var(--text-primary) !important;
 	transition: 0.17s ease;
 	opacity: 1 !important;
 	padding: 14px 16px;
 }
-.card__39ec2 :is(.colorBrand__201d5, .button_fb7f94):hover {
+.card__39ec2 :is(.colorBrand__201d5, .button_fb7f94, .button_a22cb0):hover {
 	background: transparent !important;
 }
 
-.card__39ec2 .button_fb7f94:not(:disabled):active {
+.card__39ec2 :is(.button_fb7f94, .button_a22cb0):not(:disabled):active {
 	border-color: var(--text-primary);
 	background: #ffffff1a !important;
 }
 
-.card__39ec2 .button_fb7f94:disabled {
+.card__39ec2 .:is(.button_fb7f94, .button_a22cb0):disabled {
 	border-color: #ffffff5d;
-	background: transparent;
+	background: transparent !important;
 	color: #ffffff5d;
 }
 
@@ -1129,13 +1131,16 @@ text-align: center;
 	& .text__530ce {
 		color: var(--interactive-normal) !important;
 	}
-	padding-bottom: 10px;
+	padding: 0 16px 10px 16px;
 	order: -1;
 	& .text__530ce.text-sm\/normal_cf4812 {
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
 		color: var(--interactive-active) !important;
+	}
+	.spacer__530ce {
+		visibility: hidden;
 	}
 }
 
