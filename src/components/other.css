@@ -276,19 +276,13 @@ code {
 }
 
 /** radiobars (like channel type)*/
-/*event creation double check thing*/
-.item__88a69.itemFilled__001a7 .icon__001a7 {
-	display: none;
-}
-.item__88a69 {
-	background: none !important;
-}
+
 .item__88a69[aria-checked="false"] .text-md\/medium_cf4812 {
 	color: var(--radio-bar-accent-color) !important;
 }
 .item__88a69 .radioBar__88a69 {
 	border: solid 1px var(--background-tertiary);
-	border-radius: 5px;
+	border-radius: 4px;
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
 	padding: 10px !important;
