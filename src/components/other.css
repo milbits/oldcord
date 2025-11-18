@@ -58,7 +58,8 @@ code {
 	&:hover:not(:has(.interactiveSelected__972a0)) .subText__20a53 [data-text-variant="text-xs\/medium"] {
 		color: var(--interactive-hover) !important;
 	}
-	&:hover .interactiveSelected__972a0 .name__20a53, .interactiveSelected__972a0 .subText__20a53 {
+	&:hover .interactiveSelected__972a0 .name__20a53,
+	.interactiveSelected__972a0 .subText__20a53 {
 		color: var(--interactive-active) !important;
 	}
 	& .subText__20a53 [data-text-variant="text-xs\/medium"] {
@@ -276,21 +277,24 @@ code {
 
 /** radiobars (like channel type)*/
 /*event creation double check thing*/
-.item__1bda4.itemFilled__001a7 .icon__001a7 {
+.item__88a69.itemFilled__001a7 .icon__001a7 {
 	display: none;
 }
-.item__1bda4 {
+.item__88a69 {
 	background: none !important;
 }
-.item__1bda4[aria-checked="false"] .text-md\/medium_cf4812 {
+.item__88a69[aria-checked="false"] .text-md\/medium_cf4812 {
 	color: var(--radio-bar-accent-color) !important;
 }
-.item__1bda4 .radioBar__1bda4 {
+.item__88a69 .radioBar__88a69 {
 	border: solid 1px var(--background-tertiary);
 	border-radius: 5px;
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
-	--radio-bar-accent-color: var(--interactive-active);
+	padding: 10px !important;
+	--checkbox-border-checked: var(--brand-experiment-130);
+	--redesign-input-control-selected: none;
+
 	& > .radioIndicatorGroup__001a7 {
 		justify-content: flex-start;
 		align-self: flex-start;
@@ -298,26 +302,19 @@ code {
 	}
 }
 
-.radioLabelDescription_ac72c6 {
-	/*Only applies to channel creation*/
-	display: none;
-}
-.radioLabelName_ac72c6 {
-	color: var(--header-primary);
-}
 [aria-checked="false"] .text-sm\/normal_cf4812 {
 	color: var(--interactive-normal);
 }
 
-.theme-dark .item__1bda4[aria-checked="false"] .radioBar__1bda4:hover {
+.theme-dark .item__88a69[aria-checked="false"] .radioBar__88a69:hover {
 	border-color: #000;
 	background: rgba(0, 0, 0, 0.2);
 }
-.theme-light .item__1bda4[aria-checked="false"] .radioBar__1bda4:hover {
+.theme-light .item__88a69[aria-checked="false"] .radioBar__88a69:hover {
 	border-color: #b9bbbe;
 	background: rgba(247, 248, 248, 0.6);
 }
-.item__1bda4[aria-checked="true"] .radioBar__1bda4 {
+.item__88a69[aria-checked="true"] .radioBar__88a69 {
 	--radio-bar-accent-color: var(--blurple);
 	background-color: var(--radio-bar-accent-color);
 	border-color: var(--radio-bar-accent-color);
@@ -727,7 +724,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	color: var(--white-500);
 	font-weight: 400;
 }
-.connectionOptions_c7f964, .upsellWrapper_c7f964 {
+.connectionOptions_c7f964,
+.upsellWrapper_c7f964 {
 	position: relative;
 }
 .metadataContainer_c7f964 {
@@ -828,7 +826,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	border-radius: 5px;
 	pointer-events: none;
 }
-	.connectionHeader_c7f964 {
+.connectionHeader_c7f964 {
 	& [alt="Battle.net"] {
 		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/battle.webp);
@@ -914,14 +912,13 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' fill='%23fff'/%3E%3C/svg%3E");
 	}
 	& [alt="TikTok"] {
-		background-color: #FF0050;
-		background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512' xml:space='preserve'%3E%3Cg%3E%3Cpath fill='%23fff' d='M267.2,0.4C295.2,0,322.9,0.3,350.7,0c1.7,32.7,13.4,65.9,37.3,89c23.9,23.7,57.6,34.5,90.4,38.2v85.9 c-30.8-1-61.7-7.4-89.6-20.7c-12.2-5.5-23.5-12.6-34.6-19.8c-0.1,62.3,0.3,124.6-0.4,186.7c-1.7,29.8-11.5,59.5-28.9,84.1 c-27.9,40.9-76.3,67.6-126.1,68.4c-30.5,1.7-61-6.6-87-21.9C68.8,464.5,38.5,417.9,34.1,368c-0.5-10.7-0.7-21.3-0.3-31.7 c3.8-40.6,23.9-79.4,55.1-105.8c35.3-30.8,84.8-45.4,131.2-36.8c0.4,31.6-0.8,63.2-0.8,94.8c-21.2-6.8-45.9-4.9-64.4,7.9 c-13.5,8.8-23.8,22.2-29.1,37.3c-4.4,10.8-3.1,22.8-2.9,34.3c5.1,35,38.7,64.4,74.7,61.3c23.8-0.3,46.7-14.1,59.1-34.3 c4-7.1,8.5-14.3,8.8-22.7c2.1-38.2,1.3-76.2,1.5-114.3C267,171.9,266.6,86.2,267.2,0.4L267.2,0.4z'/%3E%3C/g%3E%3C/svg%3E")
+		background-color: #ff0050;
+		background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512' xml:space='preserve'%3E%3Cg%3E%3Cpath fill='%23fff' d='M267.2,0.4C295.2,0,322.9,0.3,350.7,0c1.7,32.7,13.4,65.9,37.3,89c23.9,23.7,57.6,34.5,90.4,38.2v85.9 c-30.8-1-61.7-7.4-89.6-20.7c-12.2-5.5-23.5-12.6-34.6-19.8c-0.1,62.3,0.3,124.6-0.4,186.7c-1.7,29.8-11.5,59.5-28.9,84.1 c-27.9,40.9-76.3,67.6-126.1,68.4c-30.5,1.7-61-6.6-87-21.9C68.8,464.5,38.5,417.9,34.1,368c-0.5-10.7-0.7-21.3-0.3-31.7 c3.8-40.6,23.9-79.4,55.1-105.8c35.3-30.8,84.8-45.4,131.2-36.8c0.4,31.6-0.8,63.2-0.8,94.8c-21.2-6.8-45.9-4.9-64.4,7.9 c-13.5,8.8-23.8,22.2-29.1,37.3c-4.4,10.8-3.1,22.8-2.9,34.3c5.1,35,38.7,64.4,74.7,61.3c23.8-0.3,46.7-14.1,59.1-34.3 c4-7.1,8.5-14.3,8.8-22.7c2.1-38.2,1.3-76.2,1.5-114.3C267,171.9,266.6,86.2,267.2,0.4L267.2,0.4z'/%3E%3C/g%3E%3C/svg%3E");
 	}
 	& [alt="Domain"] {
 		background-image: url(https://discord.com/assets/b4376756bcbbf1ef.svg);
 	}
 }
-
 
 .imageAccessory__9614b {
 	left: unset;
@@ -1422,7 +1419,8 @@ h2.title_b717a1,
 :is(.subText__20a53, .subText__91a9d, .subtext__0a06e) {
 	.container_c9d15c {
 		display: flex;
-		.textWithIconContainer_c9d15c, .activityContainer_c9d15c {
+		.textWithIconContainer_c9d15c,
+		.activityContainer_c9d15c {
 			order: 2;
 			.truncated_c9d15c {
 				font-weight: 600;
@@ -1465,43 +1463,69 @@ h2.title_b717a1,
 }
 
 :is(.subText__91a9d, .subText__20a53) :is(.textWithIconContainer_c9d15c, .activityContainer_c9d15c):has(.truncated_c9d15c) {
-	html:is([lang="en-us"], [lang="en-gb"]) &:has(svg path[d="M20.97 4.06c0 .18.08.35.24.43.55.28.9.82 1.04 1.42.3 1.24.75 3.7.75 7.09v4.91a3.09 3.09 0 0 1-5.85 1.38l-1.76-3.51a1.09 1.09 0 0 0-1.23-.55c-.57.13-1.36.27-2.16.27s-1.6-.14-2.16-.27c-.49-.11-1 .1-1.23.55l-1.76 3.51A3.09 3.09 0 0 1 1 17.91V13c0-3.38.46-5.85.75-7.1.15-.6.49-1.13 1.04-1.4a.47.47 0 0 0 .24-.44c0-.7.48-1.32 1.2-1.47l2.93-.62c.5-.1 1 .06 1.36.4.35.34.78.71 1.28.68a42.4 42.4 0 0 1 4.4 0c.5.03.93-.34 1.28-.69.35-.33.86-.5 1.36-.39l2.94.62c.7.15 1.19.78 1.19 1.47ZM20 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 7a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2H7v1a1 1 0 1 1-2 0v-1H4a1 1 0 1 1 0-2h1V7Z"]):before {
+	html:is([lang="en-us"], [lang="en-gb"])
+		&:has(
+			svg
+				path[d="M20.97 4.06c0 .18.08.35.24.43.55.28.9.82 1.04 1.42.3 1.24.75 3.7.75 7.09v4.91a3.09 3.09 0 0 1-5.85 1.38l-1.76-3.51a1.09 1.09 0 0 0-1.23-.55c-.57.13-1.36.27-2.16.27s-1.6-.14-2.16-.27c-.49-.11-1 .1-1.23.55l-1.76 3.51A3.09 3.09 0 0 1 1 17.91V13c0-3.38.46-5.85.75-7.1.15-.6.49-1.13 1.04-1.4a.47.47 0 0 0 .24-.44c0-.7.48-1.32 1.2-1.47l2.93-.62c.5-.1 1 .06 1.36.4.35.34.78.71 1.28.68a42.4 42.4 0 0 1 4.4 0c.5.03.93-.34 1.28-.69.35-.33.86-.5 1.36-.39l2.94.62c.7.15 1.19.78 1.19 1.47ZM20 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 7a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2H7v1a1 1 0 1 1-2 0v-1H4a1 1 0 1 1 0-2h1V7Z"]
+		):before {
 		content: "Playing";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
 	}
-	html:is([lang="en-us"], [lang="en-gb"]) &:has(svg path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]):before {
+	html:is([lang="en-us"], [lang="en-gb"])
+		&:has(
+			svg
+				path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]
+		):before {
 		content: "Listening to";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
 	}
-	html:is([lang="en-us"], [lang="en-gb"]) &:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
+	html:is([lang="en-us"], [lang="en-gb"])
+		&:has(
+			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
+		):before {
 		content: "Watching";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
-	}	
-	html[lang="de"] &:has(svg path[d="M20.97 4.06c0 .18.08.35.24.43.55.28.9.82 1.04 1.42.3 1.24.75 3.7.75 7.09v4.91a3.09 3.09 0 0 1-5.85 1.38l-1.76-3.51a1.09 1.09 0 0 0-1.23-.55c-.57.13-1.36.27-2.16.27s-1.6-.14-2.16-.27c-.49-.11-1 .1-1.23.55l-1.76 3.51A3.09 3.09 0 0 1 1 17.91V13c0-3.38.46-5.85.75-7.1.15-.6.49-1.13 1.04-1.4a.47.47 0 0 0 .24-.44c0-.7.48-1.32 1.2-1.47l2.93-.62c.5-.1 1 .06 1.36.4.35.34.78.71 1.28.68a42.4 42.4 0 0 1 4.4 0c.5.03.93-.34 1.28-.69.35-.33.86-.5 1.36-.39l2.94.62c.7.15 1.19.78 1.19 1.47ZM20 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 7a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2H7v1a1 1 0 1 1-2 0v-1H4a1 1 0 1 1 0-2h1V7Z"]):before {
+	}
+	html[lang="de"]
+		&:has(
+			svg
+				path[d="M20.97 4.06c0 .18.08.35.24.43.55.28.9.82 1.04 1.42.3 1.24.75 3.7.75 7.09v4.91a3.09 3.09 0 0 1-5.85 1.38l-1.76-3.51a1.09 1.09 0 0 0-1.23-.55c-.57.13-1.36.27-2.16.27s-1.6-.14-2.16-.27c-.49-.11-1 .1-1.23.55l-1.76 3.51A3.09 3.09 0 0 1 1 17.91V13c0-3.38.46-5.85.75-7.1.15-.6.49-1.13 1.04-1.4a.47.47 0 0 0 .24-.44c0-.7.48-1.32 1.2-1.47l2.93-.62c.5-.1 1 .06 1.36.4.35.34.78.71 1.28.68a42.4 42.4 0 0 1 4.4 0c.5.03.93-.34 1.28-.69.35-.33.86-.5 1.36-.39l2.94.62c.7.15 1.19.78 1.19 1.47ZM20 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 7a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2H7v1a1 1 0 1 1-2 0v-1H4a1 1 0 1 1 0-2h1V7Z"]
+		):before {
 		content: "Spielt";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
 	}
-	html[lang="de"] &:has(svg path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]):before {
+	html[lang="de"]
+		&:has(
+			svg
+				path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]
+		):before {
 		content: "Hört ";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
 	}
-	html[lang="de"] &:has(svg path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]):after {
+	html[lang="de"]
+		&:has(
+			svg
+				path[d="M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z"]
+		):after {
 		content: " zu";
 		font-size: 12px;
 		font-weight: 500;
 		margin-right: -1px;
 	}
-	html[lang="de"] &:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
+	html[lang="de"]
+		&:has(
+			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
+		):before {
 		content: "Schaut ";
 		font-size: 12px;
 		font-weight: 500;
@@ -1597,10 +1621,11 @@ https://github.com/XYZenix/DTM-16
 	color: var(--header-secondary);
 	font-size: 12px;
 	font-weight: 900;
-	text-transform:uppercase 
+	text-transform: uppercase;
 }
-:is(.themeTitleContainer__3e443,.headings_a00e6e) .subtext__3e443,.headings__67a11 .subtext__67a11{
-	display: none !important
+:is(.themeTitleContainer__3e443, .headings_a00e6e) .subtext__3e443,
+.headings__67a11 .subtext__67a11 {
+	display: none !important;
 }
 .contentColumn__23e6b#appearance-tab {
 	& .themeSelectionContainer__36dee {
@@ -1650,7 +1675,8 @@ https://github.com/XYZenix/DTM-16
 
 .themeSelectionContainer__36dee .selectionCircle__36dee,
 .nitroWheel_c5f0dc,
-.borderOverlay__8fea4,.container_a1d343 {
+.borderOverlay__8fea4,
+.container_a1d343 {
 	display: none;
 }
 .themeSelection__36dee .iconWrapper__36dee {
@@ -1712,8 +1738,6 @@ https://github.com/XYZenix/DTM-16
 	border-radius: 4px;
 	background: var(--background-floating);
 }
-
-
 
 /* authed apps */
 .authedAppV2__50a54 {
