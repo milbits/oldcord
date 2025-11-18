@@ -885,10 +885,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	}
 	&:has(.tabularNumbers__4bd52) {
 		background: var(--brand-experiment-530) !important;
-		--text-tertiary: rgba(255, 255, 255, 0.9);
-		& h3 {
-			color: white !important;
-		}
+		--text-secondary: rgba(255, 255, 255, 0.9);
 	}
 	&:first-child {
 		border-top-left-radius: 20px;
