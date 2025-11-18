@@ -399,7 +399,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	order: -1;
 }
 
-.contentImage_ef9ae7[src*="/app-icons/"] {
+.contentImage_ef9ae7[src^="https://cdn.discordapp.com/app-icons/"] {
 	max-width: 40px !important;
 	min-width: 40px;
 	min-height: 40px !important;
@@ -870,6 +870,7 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	}
 	&:has(.tabularNumbers__4bd52) {
 		background: var(--brand-experiment-530) !important;
+		--text-tertiary: rgba(255, 255, 255, 0.9);
 		& h3 {
 			color: white !important;
 		}
