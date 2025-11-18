@@ -276,7 +276,9 @@ code {
 }
 
 /** radiobars (like channel type)*/
-
+.item__88a69 {
+	background: none !important;
+}
 .item__88a69[aria-checked="false"] .text-md\/medium_cf4812 {
 	color: var(--radio-bar-accent-color) !important;
 }
