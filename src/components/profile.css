@@ -693,7 +693,7 @@ html.theme-dark .badgeContainer__635ed path {
 .userTagUsername__63ed3,
 .userTagDiscriminator__63ed3 {
 	color: var(--text-secondary);
-	.container__63ed3 &:before {
+	.container__63ed3:not(.bot__63ed3) &:before {
 		content: "@";
 	}
 }
