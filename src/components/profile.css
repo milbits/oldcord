@@ -857,6 +857,21 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 #activity-tab {
 	margin-right: 24px;
 }
+#activity-tab h3{
+	font-weight: 900;
+	text-transform: uppercase;
+	color: var(--header-secondary) !important;
+}
+#activity-tab .text-xs\/normal_cf4812{
+	color: var(--text-secondary) !important
+}
+#activity-tab .heading-sm\/semibold_cf4812 {
+	color: var(--text-secondary) !important
+
+}
+#activity-tab .lineClamp1__4bd52{
+	color: var(--text-tertiary) !important
+}
 .user-profile-modal-v2 .cards__764cd {
 	gap: 4px;
 }
