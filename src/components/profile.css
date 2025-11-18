@@ -761,7 +761,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /*! modal profile*/
 .user-profile-modal-v2 {
-	border: none;
+	outline: none;
 	border-radius: 8px;
 }
 .user-profile-modal-v2 .inner_c0bea0 {
