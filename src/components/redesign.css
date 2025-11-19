@@ -915,7 +915,7 @@ html.visual-refresh {
 	.footerSeparator__49fc1 {
 		box-shadow: inset 0 1px 0 hsl(220 calc(1 * 6.522%) 18.039% /0.6);
 	}
-	.footer__5be3e {
+	.footer__5be3e, .inputWrapper {
 		.channelTextArea__74017 {
 			box-sizing: border-box;
 			width: 100%;
@@ -925,6 +925,26 @@ html.visual-refresh {
 			border: 1px solid var(--deprecated-text-input-border);
 			-webkit-transition: border-color 0.2s ease-in-out;
 			transition: border-color 0.2s ease-in-out;
+			.scrollableContainer__74017 {
+				height: 50px;
+			}
+		}
+	}
+	.inputWrapper {
+		.textArea__74017 {
+			height: 24px !important;
+			min-height: 24px;
+			max-height: 24px;
+			.slateTextArea_ec4baf {
+				padding: 8px 0;
+			}
+		}
+		.emojiButton__74017 {
+			min-height: 30px;
+			max-height: 30px;
+			.spriteContainer__04eed {
+				height: 30px;
+			}
 		}
 	}
 
