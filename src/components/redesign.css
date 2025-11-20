@@ -992,7 +992,7 @@ html.visual-refresh {
 	}
 	.base__5e434 .sidebar__5e434 > .guilds__5e434 {
 		grid-area: guilds;
-		margin-bottom: 0;
+		margin-bottom: -13.5px;
 	}
 	.base__5e434 .sidebar__5e434 > .sidebarList__5e434 {
 		grid-area: sidebar;
