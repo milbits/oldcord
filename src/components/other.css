@@ -224,15 +224,24 @@ code {
 }
 
 /** checkboxes*/
-.checkbox_f525d3 {
+.checkbox__09aca {
+	border-radius: 3px;
 	&:not(.round_f525d3) {
 		border-color: #72767d !important ;
 		border-radius: 3px;
 		border-width: 1px !important;
 	}
-
-	&.checked_f525d3 {
+	&.checked__09aca {
 		border: none !important;
+	}
+}
+.colorDefault_c1e9c4.focused_c1e9c4 .checkbox__09aca {
+	border-color: white !important;
+}
+.colorDefault_c1e9c4.focused_c1e9c4 .checkbox__09aca.checked__09aca {
+	background: var(--blurple-inverted);
+	& path {
+		fill: var(--blurple) !important;
 	}
 }
 
@@ -279,9 +288,6 @@ code {
 .item__88a69 {
 	background: none !important;
 }
-.item__88a69[aria-checked="false"] .text-md\/medium_cf4812 {
-	color: var(--radio-bar-accent-color) !important;
-}
 .item__88a69 .radioBar__88a69 {
 	border: solid 1px var(--background-tertiary);
 	border-radius: 4px;
@@ -289,7 +295,6 @@ code {
 	grid-gap: 10px;
 	padding: 10px !important;
 	--checkbox-border-checked: var(--brand-experiment-130);
-	--redesign-input-control-selected: none;
 
 	& > .radioIndicatorGroup__001a7 {
 		justify-content: flex-start;
@@ -311,9 +316,8 @@ code {
 	background: rgba(247, 248, 248, 0.6);
 }
 .item__88a69[aria-checked="true"] .radioBar__88a69 {
-	--radio-bar-accent-color: var(--blurple);
-	background-color: var(--radio-bar-accent-color);
-	border-color: var(--radio-bar-accent-color);
+	background-color: var(--blurple);
+	border-color: var(--blurple);
 }
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
@@ -1109,7 +1113,7 @@ h2.title_b717a1,
 		min-height: 0;
 		width: auto;
 		&:hover {
-			color: var(--interactive-active)
+			color: var(--interactive-active);
 		}
 	}
 }

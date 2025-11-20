@@ -319,26 +319,12 @@ html.visual-refresh {
 		border-radius: 2px;
 	}
 	.colorDanger_c1e9c4,
-	.colorDanger_c1e9c4 .checkbox_c1e9c4,
+	.colorDanger_c1e9c4 .checkbox__09aca,
 	.colorDanger_c1e9c4 .radioSelection_c1e9c4 {
 		color: var(--status-danger);
 	}
 	.colorDanger_c1e9c4.focused_c1e9c4 {
 		color: white;
-	}
-
-	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f {
-		border-color: white;
-		color: white;
-	}
-	.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c4538f.checked_c4538f {
-		background: var(--blurple-inverted);
-		& path {
-			fill: var(--blurple) !important;
-		}
-	}
-	.checkbox_c4538f {
-		border-radius: 3px;
 	}
 
 	.iconContainer_c1e9c4 {
@@ -835,7 +821,14 @@ html.visual-refresh {
 	}
 	:is(.button__201d5, .button_a22cb0, .expressiveRive_a22cb0):not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.card__39ec2 .button_fb7f94, .critical-secondary_a22cb0, .secondary_a22cb0, .customButton__39ec2, .themeColor_fb7f94, .actionButtons_e8b59c button) {
+		&:not(
+				.card__39ec2 .button_fb7f94,
+				.critical-secondary_a22cb0,
+				.secondary_a22cb0,
+				.customButton__39ec2,
+				.themeColor_fb7f94,
+				.actionButtons_e8b59c button
+			) {
 			border: none !important;
 		}
 		.panels__5e434 & {
@@ -915,7 +908,8 @@ html.visual-refresh {
 	.footerSeparator__49fc1 {
 		box-shadow: inset 0 1px 0 hsl(220 calc(1 * 6.522%) 18.039% /0.6);
 	}
-	.footer__5be3e, .inputWrapper {
+	.footer__5be3e,
+	.inputWrapper {
 		.channelTextArea__74017 {
 			box-sizing: border-box;
 			width: 100%;
@@ -1140,20 +1134,17 @@ html.visual-refresh {
 		font-family: var(--font-display);
 		font-weight: 800;
 	}
-	.h5_b717a1:not(.isEnabled__2666b),
-	.container__5a838[data-layout="vertical"] .label__5a838,
-	.fieldTitle__1fed1 {
-		color: var(--header-secondary);
-	}
 	.eyebrow_b717a1,
 	.container__5a838[data-layout="vertical"] .label__5a838,
-	.fieldTitle__1fed1 {
+	.fieldTitle__1fed1,
+	legend /*of zelda*/ {
 		font-family: var(--font-display);
 		font-size: 12px;
 		line-height: 1.3333333333333333;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
+		color: var(--header-secondary) !important;
 	}
 	/* turn dot between "friends" and "online"  into a line*/
 	.dot__9293f {
@@ -1973,7 +1964,7 @@ html.visual-refresh {
 	.tooltipPointer_c36707.tooltipPointerBg_c36707:before {
 		border-top: unset;
 	}
-	
+
 	.dialogWrapper_b1f768,
 	.popout__76f04,
 	.container__4e30a {
