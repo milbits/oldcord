@@ -835,7 +835,7 @@ html.visual-refresh {
 	}
 	:is(.button__201d5, .button_a22cb0, .expressiveRive_a22cb0):not(.cta_a3a802) {
 		border-radius: 3px;
-		&:not(.card__39ec2 .button_fb7f94, .critical-secondary_a22cb0, .secondary_a22cb0, .customButton__39ec2, .themeColor_fb7f94) {
+		&:not(.card__39ec2 .button_fb7f94, .critical-secondary_a22cb0, .secondary_a22cb0, .customButton__39ec2, .themeColor_fb7f94, .actionButtons_e8b59c button) {
 			border: none !important;
 		}
 		.panels__5e434 & {

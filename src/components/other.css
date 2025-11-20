@@ -1078,6 +1078,41 @@ h2.title_b717a1,
 	padding-top: 12px !important;
 	padding-bottom: 12px !important;
 }
+.messageGroupWrapper_e8b59c .actionButtons_e8b59c {
+	align-items: center;
+	gap: unset !important;
+	.hasText_a22cb0 {
+		background-color: var(--background-surface-high);
+		border: 1px solid var(--border-subtle) !important;
+		color: var(--interactive-normal);
+		min-height: 14px;
+		min-width: 0;
+		width: auto;
+		line-height: 14px;
+		margin: unset;
+		margin-inline: 6px 4px;
+		padding: 2px 8px;
+		user-select: none;
+		.lineClamp1__4bd52 {
+			font-size: 11px;
+			font-weight: var(--font-weight-medium);
+		}
+		&:hover {
+			color: var(--interactive-active);
+		}
+	}
+	.sm_a22cb0:not(.hasText_a22cb0) {
+		background: transparent;
+		color: var(--interactive-normal);
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+		width: auto;
+		&:hover {
+			color: var(--interactive-active)
+		}
+	}
+}
 .header_e8b59c {
 	background: var(--background-tertiary);
 }
