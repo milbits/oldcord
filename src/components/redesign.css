@@ -1960,6 +1960,7 @@ html.visual-refresh {
 	}
 
 	/* tooltips */
+	.dialogWrapper_b1f768,
 	.tooltipPrimary_c36707,
 	.reactionTooltip_b49891,
 	.container__50387 {
@@ -1972,7 +1973,8 @@ html.visual-refresh {
 	.tooltipPointer_c36707.tooltipPointerBg_c36707:before {
 		border-top: unset;
 	}
-
+	
+	.dialogWrapper_b1f768,
 	.popout__76f04,
 	.container__4e30a {
 		background: var(--background-surface-higher);
