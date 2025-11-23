@@ -1244,6 +1244,12 @@ html.visual-refresh {
 			margin-left: 4px;
 			margin-right: 4px;
 		}
+		.buttonContainer_e6e74f.app-launcher-entrypoint {
+			width: 32px;
+			height: 32px;
+			margin-left: 4px;
+			margin-right: 4px;
+		}
 		.spriteContainer__04eed {
 			--custom-emoji-sprite-size: 24px !important;
 		}
