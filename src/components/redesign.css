@@ -806,6 +806,7 @@ html.visual-refresh {
 	/* border radius 9 list of offenders */
 	.root__49fc1,
 	.container_e45859,
+	.container__60fa3,
 	.searchBar__5ec2f,
 	.tooltip_c36707,
 	.link__2ea32,
@@ -2544,6 +2545,10 @@ html .bar_c38106 {
 }
 #app-mount .emojiRow_e7d73e:before {
 	display: none;
+}
+
+.container__60fa3 {
+	border: 1px solid var(--background-base-lowest);
 }
 
 /*new settings*/
