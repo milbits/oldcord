@@ -58,7 +58,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	box-shadow: none !important;
 	animation: unset !important;
 	animation-delay: unset !important;
-	margin-right: -10px !important;
+	margin-right: 35px !important;
 	& .button_bba79b:hover {
 		background: none;
 	}
@@ -66,9 +66,10 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		background: none;
 	}
 	& .button_f7ecac.left_c97e55.button_c97e55 {
-		padding-left: 117px;
+		padding-left: 80px;
+		margin-right: 10px;
 		border-radius: 0px;
-		width: 40px;
+		width: 90px;
 		height: 19px;
 		z-index: 1;
 		opacity: 0;
@@ -92,20 +93,19 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		background: var(--background-floating);
 		width: 220px !important;
 		position: fixed;
-		margin-top: -30px;
+		margin-top: -34px;
 	}
 	& .menus_ce8328 {
-		background: var(--background-floating);
+		background: var(--background-floating)
 	}
-	& .body_ce8328 {
+	& .inner_c0bea0>.body_ce8328 {
 		width: 230px;
 		background: transparent;
 	}
 	& .custom-theme-background .menu_c1e9c4 {
 		border: 0px;
 	}
-	&
-		:is(
+	& :is(
 			.banner__68edb,
 			.avatar__75742,
 			.descriptionClamp_f5f93a,
@@ -117,8 +117,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		display: none;
 	}
 	& .container_ab8609 {
-		top: -40px !important;
-		left: 46px;
+		top: -45px !important;
 		white-space: nowrap;
 		text-align: left !important;
 		&:has(.addStatusPrompt_ab8609) {
@@ -135,24 +134,25 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	}
 	& .outer_ab8609 {
 		top: 48px !important;
-		max-width: 120px;
 		right: 60px;
 		min-width: 160px !important;
 		margin-right: 20px;
 	}
 	& .container_ab8609:has(.addStatusPrompt_ab8609) .outer_ab8609 {
 		top: 4px !important;
-		right: 67px;
-		min-width: 215px !important;
 		border: none;
+		margin-top: -5px;
 		& .addStatusIcon_ab8609 {
-			padding-right: 7px;
+			padding-right: 4px;
+		}
+		& .defaultColor__4bd52 {
+			color: var(--header-secondary);
 		}
 		background: none !important;
 	}
 	& .container_ab8609:has(.popover_c97e55:hover) .outer_ab8609 {
 		background: var(--brand-experiment-560) !important;
-		width: 100px !important;
+		width: 190px !important;
 		border-radius: 2px;
 		block-size: 32px;
 
@@ -161,6 +161,12 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		}
 		& .button_c97e55.right_c97e55 {
 			background: var(--brand-experiment-560) !important;
+		}
+	}
+	& .editable_ab8609.container_ab8609:has(.addStatusPrompt_ab8609):not(:has(.popover_c97e55:hover)):hover {
+		background: var(--brand-experiment-560);
+		& .outer_ab8609 {
+			right: 10px;
 		}
 	}
 	& .editable_ab8609.container_ab8609:has(.addStatusPrompt_ab8609):hover {
@@ -183,13 +189,19 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	& .menus_ce8328,
 	.body_ce8328 {
 		padding: unset !important;
-		gap: unset !important;
+		gap: 1px !important;
 	}
 	&.user-profile-popout,
 	.userPopoutOverlayBackground_c69a7b {
 		width: 220px !important;
 		border-radius: 4px;
 		box-shadow: unset !important;
+	}
+	& .cardsList__9d597 {
+		display: none;
+	}
+	& .menuOverlay_ce8328:first-child ul>li:first-child {
+		display: none;
 	}
 }
 
