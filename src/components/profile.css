@@ -997,7 +997,7 @@ text-align: center;
 	scale: 1.7;
 }
 .connection__9bfb9 {
-	border: 1px solid var(--background-modifier-accent);
+	border: 1px solid var(--border-subtle);
 	padding: 12px 14px 12px 8px;
 }
 .accountNameText__9bfb9 {
@@ -1686,7 +1686,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 
 /*profile widgets/board/game collection*/
-.container__62dd3 {
+#widgets-tab .container__62dd3 {
 	background: var(--background-secondary-alt);
 	border: none;
 	border-radius: 12px;
@@ -1699,6 +1699,27 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		font-weight: 600;
 	}
 }
-.scroller__3b923 {
+#widgets-tab .scroller__3b923 {
 	gap: 8px;
+}
+#widgets-tab .button_b46968{
+	background: var(--button-secondary);
+	padding: 8px 16px;
+	width: fit-content;
+	color: #fff;
+	border-radius: 3px;
+	transition: 0.17s;
+	&:hover{
+		background: var(--button-secondary-hover);
+		text-decoration: none;
+	}
+}
+#widgets-tab .secondary_a22cb0{
+	background: var(--blurple);
+	&:hover{
+		background: var(--blurple-hover);
+	}
+		&:active{
+		background: var(--blurple-active);
+	}
 }
