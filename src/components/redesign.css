@@ -1249,13 +1249,14 @@ html.visual-refresh {
 			height: 32px;
 			margin-left: 4px;
 			margin-right: 4px;
+			--background-modifier-selected: transparent;
 		}
 		.spriteContainer__04eed {
 			--custom-emoji-sprite-size: 24px !important;
 		}
 		.lottieIcon__5eb9b {
-			height: unset !important;
-			width: unset !important;
+			height: 24px !important;
+			width: 24px !important;
 			.channelAppLauncher_e6e74f & {
 				width: 24px !important;
 			}
