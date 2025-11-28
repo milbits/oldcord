@@ -1715,11 +1715,11 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	}
 }
 #widgets-tab .secondary_a22cb0{
-	background: var(--blurple);
+	background: var(--green);
 	&:hover{
-		background: var(--blurple-hover);
+		background: var(--green-hover);
 	}
 		&:active{
-		background: var(--blurple-active);
+		background: var(--green-active);
 	}
 }
