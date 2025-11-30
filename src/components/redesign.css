@@ -862,6 +862,9 @@ html.visual-refresh {
 	}
 	.button__7d7f7 {
 		border-radius: 999% !important;
+		[data-text-variant="text-xs/normal"] {
+			display: none;
+		}
 	}
 	.sm_a22cb0 {
 		height: var(--custom-button-button-sm-height);
