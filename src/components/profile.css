@@ -241,7 +241,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 /** Variables*/
 
-.inner_c0bea0:has(.activityContainer__84832) {
+.inner_c0bea0:has(.clickableContainer__39ec2) {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
@@ -417,7 +417,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	min-height: 40px !important;
 }
 /* make activity the first section*/
-section:has(.activityContainer__84832) {
+section:has(.clickableContainer__39ec2) {
 	order: -1;
 }
 .scroller_d2b491 {
@@ -430,7 +430,7 @@ section:has(.activityContainer__84832) {
 }
 
 /*make status icon white*/
-.user-profile-popout.outer_c0bea0:has(.activityContainer__84832) rect:not(path ~ rect) {
+.user-profile-popout.outer_c0bea0:has(.clickableContainer__39ec2) rect:not(path ~ rect) {
 	fill: #fff !important;
 }
 
@@ -1156,7 +1156,7 @@ text-align: center;
 	& .text__530ce {
 		color: var(--interactive-normal) !important;
 	}
-	padding: 0 0 10px 0;
+	padding: 0 16px 10px 16px;
 	order: -1;
 	& .text__530ce.text-sm\/normal_cf4812 {
 		font-size: 12px !important;
@@ -1164,7 +1164,9 @@ text-align: center;
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
 		color: var(--interactive-active) !important;
 	}
-
+	.spacer__530ce {
+		visibility: hidden;
+	}
 }
 
 /*profile DM box*/
