@@ -122,7 +122,7 @@ html.platform-linux {
 		display: none;
 	}
 	.bar_c38106 .trailing_c38106 {
-		top: 37px !important;
+		top: 40px !important;
 	}
 	.scroller_ef3116 {
 		padding-top: 12px !important;
@@ -176,14 +176,14 @@ html.platform-osx .systemBar_c38106 {
 html.platform-win .sidebarListRounded__5e434 {
 	border-top-left-radius: 8px !important;
 }
-html.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8) {
-	transform: translateY(3px);
-}
 html.platform-win .container__5e434:has(.notice__6e2b9, .bd-notice) .sidebarListRounded__5e434 {
 	border-top-left-radius: unset !important;
 }
 html.platform-osx .title_c38106 {
 	display: none !important;
+}
+html.platform-win .trailing_c38106 {
+	margin-top: 6px !important;
 }
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
@@ -1249,13 +1249,14 @@ html.visual-refresh {
 			height: 32px;
 			margin-left: 4px;
 			margin-right: 4px;
+			--background-modifier-selected: transparent;
 		}
 		.spriteContainer__04eed {
 			--custom-emoji-sprite-size: 24px !important;
 		}
 		.lottieIcon__5eb9b {
-			height: unset !important;
-			width: unset !important;
+			height: 24px !important;
+			width: 24px !important;
 			.channelAppLauncher_e6e74f & {
 				width: 24px !important;
 			}
@@ -2312,7 +2313,6 @@ html.visual-refresh {
 }
 .bar_c38106 .trailing_c38106 .clickable_c99c29 {
 	margin: unset;
-	margin-top: 6px;
 }
 .bar_c38106 .channelTabs-trailing .trailing_c38106 {
 	top: 36px;
@@ -2341,7 +2341,6 @@ html.visual-refresh {
 	width: 30px;
 	height: 30px;
 	border-radius: 4px;
-	top: 3px;
 }
 .bar_c38106 .trailing_c38106 .iconWrapper__9293f .icon__9293f {
 	width: 24px;
