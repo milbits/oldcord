@@ -1156,16 +1156,13 @@ text-align: center;
 	& .text__530ce {
 		color: var(--interactive-normal) !important;
 	}
-	padding: 0 16px 10px 16px;
+	padding: 0 0 10px 0;
 	order: -1;
 	& .text__530ce.text-sm\/normal_cf4812 {
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
 		color: var(--interactive-active) !important;
-	}
-	.spacer__530ce {
-		visibility: hidden;
 	}
 }
 
