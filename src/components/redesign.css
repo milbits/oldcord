@@ -413,6 +413,9 @@ html.visual-refresh {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
 	}
+	.invitesRefresh_f37cb1 .header_f37cb1 {
+		padding: unset;
+	}
 	.bannerVisible_f37cb1 .header_f37cb1 {
 		border-bottom-color: transparent;
 	}
@@ -422,6 +425,20 @@ html.visual-refresh {
 	.container__9293f {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
+	}
+	.invitesRefresh_f37cb1 .headerContent_f37cb1 {
+		gap: unset;
+		justify-content: unset;
+		height: 100%;
+		span {
+			display: none;
+		}
+		.guildDropdown_f37cb1 {
+		    gap: unset;
+			width: 100%;
+			padding: var(--space-xs);
+			border-radius: 0;
+		}
 	}
 	.title_f75fb0:has(.wrapper__44b0c) {
 		&:not(.gdm_f75fb0) {
