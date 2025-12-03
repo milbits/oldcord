@@ -436,8 +436,11 @@ html.visual-refresh {
 		.guildDropdown_f37cb1 {
 		    gap: unset;
 			width: 100%;
-			padding: var(--space-xs);
+			padding: var(--space-xs) var(--space-md);
 			border-radius: 0;
+		}
+		.guildIconContainer__85d16:not(.invitesRefresh__85d16) {
+			margin-inline-end: 0;
 		}
 	}
 	.title_f75fb0:has(.wrapper__44b0c) {
@@ -1073,7 +1076,7 @@ html.visual-refresh {
 				width: 20px;
 				height: 20px;
 			}
-			
+
 		}
 		.iconBadgeBottom__9293f {
 			bottom: 1px;
