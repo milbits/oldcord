@@ -108,9 +108,8 @@ html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .i
 	color: var(--channels-default);
 }
 
-/* remove the title bar on web & linux */
-html.platform-web:not(html[data-dorion-platform="linux"]),
-html.platform-linux {
+/* remove the title bar on web */
+html.platform-web {
 	.base__5e434 {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
@@ -135,12 +134,7 @@ html.platform-linux {
 		top: 69px !important;
 	}
 }
-/* better support a client that like only 1 person uses but i hate disappointing people so im doing it */
-html[data-dorion-platform="linux"] {
-	.bar_c38106 .trailing_c38106 {
-		top: 55.3px !important;
-	}
-}
+
 /* platform-specific fixes */
 html.platform-osx .base__5e434 {
 	grid-template-areas:
@@ -173,18 +167,19 @@ html.platform-osx .base__5e434 {
 html.platform-osx .systemBar_c38106 {
 	background: none;
 }
-html.platform-win .sidebarListRounded__5e434 {
+:is(html.platform-linux, html.platform-win) .sidebarListRounded__5e434 {
 	border-top-left-radius: 8px !important;
 }
-html.platform-win .container__5e434:has(.notice__6e2b9, .bd-notice) .sidebarListRounded__5e434 {
+:is(html.platform-linux, html.platform-win) .container__5e434:has(.notice__6e2b9, .bd-notice) .sidebarListRounded__5e434 {
 	border-top-left-radius: unset !important;
 }
 html.platform-osx .title_c38106 {
 	display: none !important;
 }
-html.platform-win .trailing_c38106 {
+:is(html.platform-linux, html.platform-win) .trailing_c38106{
 	margin-top: 6px !important;
 }
+
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
 }
