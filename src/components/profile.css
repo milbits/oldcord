@@ -833,6 +833,16 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	width: 350px;
 	text-align: center;
 }
+.user-profile-modal-v2 .nicknameWithDisplayNameStyles__63ed3 {
+	position: fixed;
+	top: 100px;
+	width: 350px;
+	text-align: center;
+}
+
+.showEffect_dfb989.container_dfb989 .pop_dfb989:before /*! Fix misallined shadow text effect on floating username nitro effect*/ {
+    width: auto;
+}
 .container__8061a /*badges*/ {
 	left: -10px;
 	transform-origin: top left;
