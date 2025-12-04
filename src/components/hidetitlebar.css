@@ -1,0 +1,31 @@
+html {
+	.base__5e434 {
+		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
+		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
+	}
+	.bar_c38106 {
+		height: 0 !important;
+	}
+	.bar_c38106 .title_c38106 {
+		display: none;
+	}
+	.bar_c38106 .trailing_c38106 {
+		top: 40px !important;
+	}
+	.scroller_ef3116 {
+		padding-top: 12px !important;
+	}
+	.notice__6e2b9,
+	#bd-notices {
+		margin-top: 0px !important;
+	}
+	.base__5e434:has(.notice__6e2b9, .bd-notice) .bar_c38106 .trailing_c38106 {
+		top: 69px !important;
+	}
+}
+#app-mount .sidebarListRounded__5e434 {
+	border-top-left-radius: 0px !important;
+}
+#app-mount .trailing_c38106{
+	margin-top: 0px !important;
+}
