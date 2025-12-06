@@ -26,7 +26,11 @@ html:not(.custom-theme-background).theme-dark {
 	--custom-channel-members-bg: var(--background-secondary) !important;
 	--background-surface-highest: var(--background-primary) !important;
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
-	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--text-primary:var(--neutral-1);
+	--text-secondary:var(--neutral-16);
+	--text-tertiary:var(--neutral-22);
+	--header-secondary: color-mix(in oklab,var(--neutral-9) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%))
 }
 html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
@@ -121,7 +125,7 @@ html.platform-web {
 		display: none;
 	}
 	.bar_c38106 .trailing_c38106 {
-		top: 40px !important;
+		top: 30px !important;
 	}
 	.scroller_ef3116 {
 		padding-top: 12px !important;
