@@ -1662,8 +1662,7 @@ https://github.com/XYZenix/DTM-16
 .headings__67a11 .subtext__67a11 {
 	display: none !important;
 }
-.contentColumn__23e6b#appearance-tab {
-	& .themeSelectionContainer__36dee {
+.themeSelectionContainer__36dee {
 		width: 132px;
 		height: 81px;
 		margin-bottom: 15px;
@@ -1706,7 +1705,7 @@ https://github.com/XYZenix/DTM-16
 			color: var(--interactive-active);
 		}
 	}
-}
+
 
 .themeSelectionContainer__36dee .selectionCircle__36dee,
 .nitroWheel_c5f0dc,
