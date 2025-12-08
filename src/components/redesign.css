@@ -1175,9 +1175,9 @@ html.visual-refresh {
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
-		color: var(--header-secondary) !important;
+		color: var(--header-secondary,var(--header-primary)) !important;
 	}
-	/* turn dot between "friends" and "online"  into a line*/
+	/* turn dot between "friends" and a"online"  into a line*/
 	.dot__9293f {
 		width: 1px;
 		height: 24px;
