@@ -370,34 +370,38 @@
 }
 
 /** Close Button*/
-.closeButton_c2b141 path {
+:is(.buttonChildren_a22cb0,.closeButton_c2b141) path {
 	d: path("M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12");
 }
 .theme-light .closeButton_c2b141, .theme-light .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
-	color: #dcddde !important;
-	background: #0000 !important;
+	outline: 2px solid #dcddde;
+	border: none;
+	background: transparent !important;
 	&:hover {
 		background: #f6f6f7 !important;
 		color: #dcddde !important;
 	}
 	& svg {
-		color: #72767d !important;
+		color: var(--text-muted) !important;
+		transform: scale(1.4);
+
 	}
 }
 .theme-dark .closeButton_c2b141, .theme-dark .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
-	color: #72767d !important;
-	background: #0000 !important;
+	outline: 2px solid var(--text-muted);
+	border: none;
+	background: transparent !important;
 	& svg {
 		color: #dcddde !important;
-		transform: scale(1.15);
+		transform: scale(1.4);
 	}
 	&:hover {
-		background: #72767e4d !important;
-		color: #72767d !important;
+		background: rgb(114 118 126 / 30%) !important;
+		color: var(--text-muted) !important;
 	}
 }
 .keybind_c2b141 {
-	color: #72767d !important;
+	color: var(--text-muted) !important;
 }
 
 .button_a22cb0.critical-secondary_a22cb0 {
