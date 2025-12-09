@@ -450,7 +450,7 @@ section:has(.clickableContainer__39ec2) {
 	color: var(--text-secondary) !important;
 }
 .card__39ec2 .tabularNumbers__4bd52,
-.tabularNumbers__4bd52.bold__230d2 {
+.tabularNumbers__4bd52.fontCode__230d2 {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
@@ -470,7 +470,7 @@ section:has(.clickableContainer__39ec2) {
 
 /*timestamp icon*/
 .card__39ec2 svg:has(+ .timestamp__230d2),
-.badgeContainer__635ed svg:has(+ .bold__230d2) {
+.badgeContainer__635ed svg:has(+ .fontCode__230d2) {
 	display: none;
 }
 html.theme-dark .badgeContainer__635ed path {
