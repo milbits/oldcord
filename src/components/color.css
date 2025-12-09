@@ -370,7 +370,7 @@
 }
 
 /** Close Button*/
-:is(.buttonChildren_a22cb0,.closeButton_c2b141) path {
+:is(.contentHeader_e9e3ed .buttonChildren_a22cb0, .closeButton_c2b141) path {
 	d: path("M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12");
 }
 .theme-light .closeButton_c2b141, .theme-light .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
