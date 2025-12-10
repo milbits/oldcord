@@ -1725,7 +1725,7 @@ html.visual-refresh {
 		margin-left: unset;
 	}
 	.container_e131a9 {
-		gap: var(--space-xs);
+		gap: 12px;
 		margin: auto var(--space-xs);
 		padding: var(--space-xs);
 		padding-left: 0;
@@ -1736,6 +1736,9 @@ html.visual-refresh {
 		}
 		&:has(.voiceTimer) .connection_e131a9 {
 			padding-bottom: 20px;
+		}
+		&:has(p){
+			gap: 28px
 		}
 	}
 	.container_e131a9:has(.largePing__06d62) {
