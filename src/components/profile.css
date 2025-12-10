@@ -450,7 +450,7 @@ section:has(.clickableContainer__39ec2) {
 	color: var(--text-secondary) !important;
 }
 .card__39ec2 .tabularNumbers__4bd52,
-.tabularNumbers__4bd52.fontCode__230d2 {
+.tabularNumbers__4bd52.fontCode__230d2:not(:only-child) {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
