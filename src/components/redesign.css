@@ -1,7 +1,7 @@
 .theme-dark,
 .theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
-	--bg-brand: var(--blurple, var(--blurple-50)) !important;
+	--background-brand: var(--blurple, var(--blurple-50)) !important;
 
 	--custom-channel-members-bg: var(--background-secondary);
 	--background-mod-subtle: var(--background-modifier-hover);
@@ -1221,7 +1221,7 @@ html.visual-refresh {
 		--bar-size: 4px !important;
 	}
 	.slider_a562c8 .barFill_a562c8 {
-		background-color: var(--bg-brand);
+		background-color: var(--background-brand);
 	}
 	.grabber_a562c8 {
 		top: 9px;
@@ -2618,6 +2618,15 @@ html .bar_c38106 {
 		font-weight: 600;
 		font-size: 14px;
 		color: var(--header-secondary) !important;
+	}
+	.itemContent_caf372 {
+		color: var(--interactive-normal) !important;
+	}
+	.item_caf372:hover .itemContent_caf372 {
+		color: var(--interactive-hover) !important;
+	}
+	.active_caf372 .itemContent_caf372 {
+		color: var(--interactive-active) !important;
 	}
 	.contentHeader_e9e3ed .buttonChildren_a22cb0 {
 		align-items: center;
