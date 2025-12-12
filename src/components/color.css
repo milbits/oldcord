@@ -137,7 +137,8 @@
 	border-color: hsla(153, calc(var(--saturation-factor, 1) * 46%), 49%, 0.302);
 }*/
 
-.lookFilled__201d5.colorGreen__201d5 {
+.lookFilled__201d5.colorGreen__201d5,
+.button_a22cb0.active_a22cb0  {
 	background-color: var(--green);
 	&:hover {
 		background-color: var(--green-hover);
