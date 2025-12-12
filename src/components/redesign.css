@@ -1,7 +1,7 @@
 .theme-dark,
 .theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
-	--bg-brand: var(--blurple, var(--blurple-50)) !important;
+	--background-brand: var(--blurple, var(--blurple-50)) !important;
 
 	--custom-channel-members-bg: var(--background-secondary);
 	--background-mod-subtle: var(--background-modifier-hover);
@@ -1221,7 +1221,7 @@ html.visual-refresh {
 		--bar-size: 4px !important;
 	}
 	.slider_a562c8 .barFill_a562c8 {
-		background-color: var(--bg-brand);
+		background-color: var(--background-brand);
 	}
 	.grabber_a562c8 {
 		top: 9px;
