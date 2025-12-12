@@ -412,7 +412,7 @@ html.visual-refresh {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
 	}
-	.invitesRefresh_f37cb1 .header_f37cb1 {
+	.header_f37cb1 {
 		padding: unset;
 	}
 	.bannerVisible_f37cb1 .header_f37cb1 {
@@ -425,7 +425,7 @@ html.visual-refresh {
 		border: unset;
 		box-shadow: var(--shadow-ledge);
 	}
-	.invitesRefresh_f37cb1 .headerContent_f37cb1 {
+	.headerContent_f37cb1 {
 		gap: unset;
 		justify-content: unset;
 		height: 100%;
@@ -437,9 +437,6 @@ html.visual-refresh {
 			width: 100%;
 			padding: var(--space-xs) var(--space-md);
 			border-radius: 0;
-		}
-		.guildIconContainer__85d16:not(.invitesRefresh__85d16) {
-			margin-inline-end: 0;
 		}
 	}
 	.title_f75fb0:has(.wrapper__44b0c) {
