@@ -1,3 +1,12 @@
+# a fix is being worked on!
+There's nothing *you* can do. This is neither vencord's, mine or discord's (intentional) fault.
+
+Discord changed something behind-the-scenes, and as a side effect, it killed every theme.
+It seems like it's easy to fix, though! please be patient :3
+
+It's not to get you to use the new ui, it's simply them updating their [backend](https://en.wikipedia.org/wiki/Front_end_and_back_end).
+Discord themes are also not dependent on vencord or betterdiscord, they simply add the theme into discord's code.
+
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
@@ -60,15 +69,6 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 # Installation
 
-## 🚮[BetterDiscord](https://betterdiscord.app/)
-
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
-2. Save the file to your BetterDiscord theme folder:
-
-- Windows: `%appdata%/BetterDiscord/themes`
-- Linux: `~/.config/BetterDiscord/themes`
-- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
-
 ## 😺[Vencord](https://github.com/Vendicated/Vencord)
 
 #### Local method
@@ -83,6 +83,17 @@ If you use custom/quickcss, paste the CSS at the very top!
 Paste the following in `Settings > Themes`:
 
 - `https://milbits.github.io/oldcord/src/main.css`
+
+
+## 🚮[BetterDiscord](https://betterdiscord.app/)
+
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+2. Save the file to your BetterDiscord theme folder:
+
+- Windows: `%appdata%/BetterDiscord/themes`
+- Linux: `~/.config/BetterDiscord/themes`
+- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
+
 
 ## 🎛️ Other
 
