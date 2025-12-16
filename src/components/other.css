@@ -1737,7 +1737,7 @@ https://github.com/XYZenix/DTM-16
 	height: 35px;
 }
 /*idiots!!!!!!!!!*/
-.vc-settings-tab section:before {
+.vc-settings-tab:has(.vc-settings-theme-grid) section:before {
 	/*content: "Using OldCord with other themes may break stuff.  Please don't report issues. ";*/
 	content: "a fix is currently being worked on, please be patient!";
 	color: #fff;
