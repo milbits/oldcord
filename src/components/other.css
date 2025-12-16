@@ -1737,16 +1737,19 @@ https://github.com/XYZenix/DTM-16
 	height: 35px;
 }
 /*idiots!!!!!!!!!*/
-#vencordthemes-tab section section:before {
-	content: "Using OldCord with other themes may break stuff.  Please don't report issues. ";
+.vc-settings-tab section:before {
+	/*content: "Using OldCord with other themes may break stuff.  Please don't report issues. ";*/
+	content: "a fix is currently being worked on, please be patient!";
 	color: #fff;
 	padding: 10px;
 	background: var(--red-transparent);
 	border: 1px solid var(--red);
 	border-radius: 3px;
+	display: flex
 }
 #themes-tab .bd-addon-controls:after {
-	content: "Using OldCord with other themes may break stuff.  Please don't report issues.";
+	/*content: "Using OldCord with other themes may break stuff.  Please don't report issues. ";*/
+	content: "a fix is currently being worked on, please be patient!";
 	color: #fff;
 	margin-top: 10px;
 	padding: 10px;
