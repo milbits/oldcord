@@ -715,6 +715,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: none;
 	border-radius: 5px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+	width: 660px;
 }
 .c7f964e7e0fc8b47-connectionAccountLabel {
 	color: #fff8 !important;
@@ -759,6 +760,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .c7f964e7e0fc8b47-connectionHeader:after {
 	content: "";
 	position: absolute;
+	margin-left: -18px;
 	width: 660px;
 	height: 73px;
 	background: rgba(0, 0, 0, 0.1);
@@ -828,6 +830,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	pointer-events: none;
 }
 .c7f964e7e0fc8b47-connectionHeader {
+	margin-bottom: 20px;
 	& [alt="Battle.net"] {
 		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/battle.webp);

@@ -30,7 +30,8 @@ html:not(.custom-theme-background).theme-dark {
 	--text-primary:var(--neutral-1);
 	--text-secondary:var(--neutral-16);
 	--text-tertiary:var(--neutral-22);
-	--header-secondary: color-mix(in oklab,var(--neutral-9) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%))
+	--header-secondary: color-mix(in oklab,var(--neutral-9) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--message-background-hover: hsl(var(--primary-900-hsl)/0.06);
 }
 html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
@@ -2128,6 +2129,19 @@ html.visual-refresh {
 		background: var(--background-base-lowest);
 	}
 
+	/* channel select */
+	._2ea32c412048f708-modeSelected ._2ea32c412048f708-link, 
+	._2ea32c412048f708-modeSelected:hover ._2ea32c412048f708-link {
+		background: var(--interactive-background-active);
+	}
+	._2ea32c412048f708-modeConnected ._2ea32c412048f708-icon, 
+	._2ea32c412048f708-modeConnected:hover ._2ea32c412048f708-icon, 
+	._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon, 
+	._2ea32c412048f708-modeSelected:hover 
+	._2ea32c412048f708-icon {
+		color: var(--channel-icon)
+	}
+
 	/* BetterDiscord Elements */
 	.bd-button {
 		border-radius: 3px;
@@ -2630,6 +2644,7 @@ html .c38106a3f0c3ca76-bar {
 		border-radius: 50%;
 		border-style: solid;
 		border-width: 3px;
+		border-color: var(--text-muted);
 		cursor: pointer;
 		display: flex;
 		flex: 0 0 36px;
