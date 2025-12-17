@@ -1,3 +1,12 @@
+# a fix is being worked on!
+There's nothing *you* can do. This is neither vencord's, mine or discord's (intentional) fault.
+
+Discord changed something behind-the-scenes, and as a side effect, it killed every theme.
+It seems like it's easy to fix, though! please be patient :3
+
+It's not to get you to use the new ui, it's simply them updating their [backend](https://en.wikipedia.org/wiki/Front_end_and_back_end).
+Discord themes are also not dependent on vencord or betterdiscord, they simply add the theme into discord's code.
+
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
@@ -6,17 +15,17 @@ A Discord theme that tries to restore its 2020 UI
 
 ![Preview](https://raw.githubusercontent.com/solaetv/soldcord/master/.github/preview.webp)
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> - For the old grey colors, use the "Ash" theme in `Appearance` under settings
+>   - Don't use vencord's "Client Theme" plugin, use Discord's own theme picker (with fakenitro if needed)
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
-> - UI Density should be on default, i wont support the other 2 options (they still kinda work though)
-> - For the old gray colors, use the "Ash" theme in appearance settings
->   - Don't use vencord's "Client Theme" plugin, use Discord's own theme creator (with fakenitro if needed)
->  
-> - If you use BetterFolders, expect half your screen to turn blank sometimes
+> - Disable "display name style" in `Settings > Accessibility`  if you don't want the flashy names
+> - UI Density should be on default, i won't support the other 2 options (they still kinda work, though)
+> - If you use BetterFolders, expect half your screen to turn blank every few months
 
 <details> <summary><h3>Light mode</h3></summary>
 
-Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas. feedback is welcome :3
+Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas
 
 It is currently not compatible with ShowEffects, sorry
 
@@ -74,15 +83,6 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 # Installation
 
-## 🚮[BetterDiscord](https://betterdiscord.app/)
-
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/solaetv/soldcord/main/soldcord.theme.css) (right-click > "Save As")
-2. Save the file to the BetterDiscord theme folder:
-
-- Windows: `%appdata%/BetterDiscord/themes`
-- Linux: `~/.config/BetterDiscord/themes`
-- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
-
 ## 😺[Vencord](https://github.com/Vendicated/Vencord)
 
 #### Local method
@@ -97,6 +97,18 @@ If you use custom/quickcss, paste the CSS at the very top!
 Paste the following in `Settings > Themes`:
 
 - `https://solaetv.github.io/soldcord/src/main.css`
+
+
+## 🚮[BetterDiscord](https://betterdiscord.app/)
+
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/solaetv/soldcord/main/soldcord.theme.css) (right-click > "Save As")
+2. Save the file to the BetterDiscord theme folder:
+
+- Windows: `%appdata%/BetterDiscord/themes`
+- Linux: `~/.config/BetterDiscord/themes`
+- MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
+
+
 
 ## 🎛️ Other
 

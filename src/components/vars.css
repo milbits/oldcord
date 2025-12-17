@@ -314,17 +314,17 @@ html:not(.custom-theme-background) .theme-light {
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
 
-.cardPrimary__73069 {
+._730694f5672c9601-cardPrimary {
 	--__card-accent-color: var(--background-secondary) !important;
 }
 
-.colorDefault__6e2b9, .colorSuccess__6e2b9 {
+._6e2b9359c6f84cfd-colorDefault, .colorSuccess__6e2b9 {
     --custom-notice-background: var(--status-positive-background);
     --custom-notice-text: var(--status-positive-text);
     --custom-notice-button-hover: var(--status-positive-background);
 }
 
-.colorDanger__6e2b9 {
+._6e2b9359c6f84cfd-colorDanger {
 	--custom-notice-background: var(--status-danger-background) !important;
 	--custom-notice-text: var(--status-danger-text) !important;
 	--custom-notice-button-hover: var(--text-danger) !important;
