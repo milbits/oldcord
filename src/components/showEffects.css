@@ -1,18 +1,18 @@
 /*make cosmetics show again*/
-.avatarDecoration__44b0c,
-.avatarDecoration_c19a55,
-.profileEffects__01370,
-.mask__68edb,
-.container__4bbc6,
-.backgroundImage__9c3be {
+._44b0c28be7879b7b-avatarDecoration,
+.c19a557985eb7793-avatarDecoration,
+._0137000bc80ab6ea-profileEffects,
+._68edb95846a37624-mask,
+._4bbc6dc06e75ad52-container,
+._9c3bea41fd465666-backgroundImage {
 	display: unset !important;
 }
 
-.animatorTop_faf9c0 .mask__68edb {
+.faf9c0f0be1b8685-animatorTop ._68edb95846a37624-mask {
 	display: none !important;
 }
 /*adjust profile effect opacity*/
-.profileEffects__01370 {
+._0137000bc80ab6ea-profileEffects {
 	opacity: 0.2;
 }
 
@@ -22,74 +22,74 @@
 }
 
 /*move that weird circle to the middle*/
-.mask__68edb mask circle {
+._68edb95846a37624-mask mask circle {
 	transform: translateX(69px);
 }
-.custom-theme-background .mask__68edb mask circle {
+.custom-theme-background ._68edb95846a37624-mask mask circle {
 	transform: translateX(73px) translateY(5px);
 }
-.user-profile-modal-v2 .mask__68edb mask circle {
+.user-profile-modal-v2 ._68edb95846a37624-mask mask circle {
 	display: none !important;
 }
 /*fix some overlaying stuff*/
-.header__5be3e {
+._5be3ef42f92174b2-header {
 	z-index: 2;
 }
 /*make banners not so zoomed-in*/
-.user-profile-popout .banner__68edb {
+.user-profile-popout ._68edb95846a37624-banner {
 	max-width: 250px;
 }
-.user-profile-popout .banner__68edb {
+.user-profile-popout ._68edb95846a37624-banner {
 	min-height: 55px !important;
 	height: 100px !important;
 }
-.user-profile-popout .banner__68edb {
+.user-profile-popout ._68edb95846a37624-banner {
 	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
 
-.custom-user-profile-theme .header__5be3e {
+.custom-user-profile-theme ._5be3ef42f92174b2-header {
 	background: var(--profile-gradient-overlay-color);
 }
 
 /*move header stuff a bit down*/
-.profileHeader__9c3be {
+._9c3bea41fd465666-profileHeader {
 	min-height: 295px !important;
 }
-.user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
+.user-profile-modal-v2 ._9c3bea41fd465666-profileHeader ._75742e4cc9019aeb-avatar {
 	top: 85px !important;
 	background: var(--background-floating);
 	outline: 10px solid var(--background-floating);
 }
-.user-profile-modal-v2 .nickname__63ed3 {
+.user-profile-modal-v2 ._63ed30c16c7151f2-nickname {
 	top: 195px;
 }
-.user-profile-modal-v2 .tags__63ed3 {
+.user-profile-modal-v2 ._63ed30c16c7151f2-tags {
 	top: 220px;
 }
-.user-profile-modal-v2 .container_ab8609{
+.user-profile-modal-v2 .ab86098b36386ff7-container{
 	top: 270px !important;
 }
-.profileButtons__9c3be {
+._9c3bea41fd465666-profileButtons {
 	top: 290px;
 	padding-top: 20px;
 }
 
-.outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3 {
+.c0bea05627c5dc35-outer:is(.user-profile-popout.c0bea05627c5dc35-outer) ._63ed30c16c7151f2-container {
 	padding-top: 44px;
 }
-.user-profile-popout .container_ab8609 {
+.user-profile-popout .ab86098b36386ff7-container {
 	top: 140px;
 }
-.user-profile-popout.outer_c0bea0:has(.pronouns__63ed3) .container_ab8609 {
+.user-profile-popout.c0bea05627c5dc35-outer:has(._63ed30c16c7151f2-pronouns) .ab86098b36386ff7-container {
 	top: 147px !important;
 }
-.user-profile-popout .inner_c0bea0 .avatar__75742 {
+.user-profile-popout .c0bea05627c5dc35-inner ._75742e4cc9019aeb-avatar {
 	top: 61px !important;
 	left: 85px !important;
 }
 /*add colors back*/
 .custom-user-profile-theme
-	:is(.inner_c0bea0, .profileBody__9c3be, .container__63ed3, .mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
+	:is(.c0bea05627c5dc35-inner, ._9c3bea41fd465666-profileBody, ._63ed30c16c7151f2-container, ._530ce51b6bf15868-mutuals, ._9c3bea41fd465666-profile ._9c3bea41fd465666-profileHeader) {
 	margin-top: 0;
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
 	background: linear-gradient(
@@ -97,46 +97,46 @@
 		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color)),
 		color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color))
 	) !important;
-	& .profile__9c3be .profileHeader__9c3be {
+	& ._9c3bea41fd465666-profile ._9c3bea41fd465666-profileHeader {
 		--profile-gradient-overlay-color: rgb(0 0 0 / 60%);
 	}
 }
-.custom-user-profile-theme :is(.tags__63ed3, .profileButtons__9c3be) {
+.custom-user-profile-theme :is(._63ed30c16c7151f2-tags, ._9c3bea41fd465666-profileButtons) {
 	background: none;
 }
 
-.custom-user-profile-theme .footer__5be3e .themedBackground__74017 {
+.custom-user-profile-theme ._5be3ef42f92174b2-footer ._740174f3d6a2c8fe-themedBackground {
 	background: var(--profile-gradient-overlay-color) !important;
 }
 
 /* banners */
-.user-profile-modal-v2 .inner_c0bea0 .mask__68edb {
+.user-profile-modal-v2 .c0bea05627c5dc35-inner ._68edb95846a37624-mask {
 	position: absolute;
 	z-index: 0;
 }
-.user-profile-modal-v2 .inner_c0bea0 .headerInner__24502 {
+.user-profile-modal-v2 .c0bea05627c5dc35-inner ._24502a4069848acb-headerInner {
 	background: transparent !important;
 }
-.user-profile-modal-v2 .banner__68edb {
+.user-profile-modal-v2 ._68edb95846a37624-banner {
 	max-width: 350px;
 }
 
-.user-profile-modal-v2:has(.mask__68edb) {
-	:is(.profileButtons__9c3be, .tabBar__37bfc) {
+.user-profile-modal-v2:has(._68edb95846a37624-mask) {
+	:is(._9c3bea41fd465666-profileButtons, .tabBar__37bfc) {
 		z-index: 2;
 	}
-	:where(.banner__68edb) {
+	:where(._68edb95846a37624-banner) {
 		border-radius: 0px;
 	}
 }
 
 /* apply ONLY if they have an avatar deco*/
 
-.accountProfileCard__1fed1 :is(.banner__68edb, .mask__68edb) {
+._1fed1dd06c7aabf7-accountProfileCard :is(._68edb95846a37624-banner, ._68edb95846a37624-mask) {
 	display: none !important;
 }
 
-.custom-user-profile-theme .cards__764cd li,
-.custom-user-profile-theme .container__62dd3 {
+.custom-user-profile-theme ._764cdd81a2bebd88-cards li,
+.custom-user-profile-theme ._62dd31d5e86f2841-container {
 	background: rgba(255, 255, 255, 0.1) !important;
 }

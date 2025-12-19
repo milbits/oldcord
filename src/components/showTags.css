@@ -1,21 +1,21 @@
-.guildTagContainer__63ed3,
-.clanTagChiplet_c19a55,
+._63ed30c16c7151f2-guildTagContainer,
+.c19a557985eb7793-clanTagChiplet,
 .chipletContainerInline__4a25c,
-.chipletContainerInline__10651,
-.chipletContainerInner__10651,
-.clanTag__5d473 {
+._10651c5cfe637db6-chipletContainerInline,
+._10651c5cfe637db6-chipletContainerInner,
+._5d473ecff348c314-clanTag {
 	display: unset !important;
 }
 
-.guildTagContainer__63ed3 {
+._63ed30c16c7151f2-guildTagContainer {
 	border: none;
 }
-.clanTag__5d473,
-.guildTag__63ed3,
-.clanTag__972a0 {
+._5d473ecff348c314-clanTag,
+._63ed30c16c7151f2-guildTag,
+._972a0d22c8afa7f0-clanTag {
 	border-radius: 3px;
 	background: var(--background-modifier-accent);
-	& .tagText__10651 {
+	& ._10651c5cfe637db6-tagText {
 		color: var(--text-secondary, var(--header-secondary));
 	}
 	& img {
