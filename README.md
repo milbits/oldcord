@@ -1,12 +1,3 @@
-# a fix is being worked on!
-There's nothing *you* can do. This is neither vencord's, mine or discord's (intentional) fault.
-
-Discord changed something behind-the-scenes, and as a side effect, it killed every theme.
-It seems like it's easy to fix, though! please be patient :3
-
-It's not to get you to use the new ui, it's simply them updating their [backend](https://en.wikipedia.org/wiki/Front_end_and_back_end).
-Discord themes are also not dependent on vencord or betterdiscord, they simply add the theme into discord's code.
-
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
