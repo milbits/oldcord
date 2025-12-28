@@ -841,8 +841,8 @@ html.visual-refresh {
 		border-radius: 3px;
 		&:not(
 				._39ec2e3dfb4fd2f2-card .fb7f9476ada049c8-button,
-				.critical-a22cb0c66246f5d3-secondary,
 				.a22cb0c66246f5d3-secondary,
+				.a22cb0c66246f5d3-critical-secondary,
 				.customButton__39ec2,
 				.fb7f9476ada049c8-themeColor,
 				.e8b59c4b335dd2fc-actionButtons button
@@ -1996,7 +1996,7 @@ html.visual-refresh {
 	._50387b5c048bc9e1-container {
 		background: var(--background-surface-higher);
 	}
-	.c36707910f687430-tooltipPrimary .c36707910f687430-tooltipPointer {
+	._4e35b986167c457d-tooltip, .c36707910f687430-tooltipPrimary .c36707910f687430-tooltipPointer {
 		border-top-color: var(--background-surface-higher);
 	}
 	.c36707910f687430-tooltipPointer.c36707910f687430-tooltipPointerBg:after,
@@ -2004,6 +2004,7 @@ html.visual-refresh {
 		border-top: unset;
 	}
 
+	._4e35b986167c457d-tooltip,
 	.dialogWrapper_b1f768,
 	._76f047ded9fef6d4-popout,
 	._4e30a003110eaaf1-container {
@@ -2011,7 +2012,8 @@ html.visual-refresh {
 		border-radius: 4px;
 	}
 
-	.d6f39bdbd19328a0-caretIcon .d6f39bdbd19328a0-caretFill {
+	.d6f39bdbd19328a0-caretIcon .d6f39bdbd19328a0-caretFill,
+	._4e35b986167c457d-caretIcon ._4e35b986167c457d-caretFill {
 		fill: var(--background-surface-higher);
 	}
 

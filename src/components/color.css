@@ -405,12 +405,12 @@
 	color: var(--text-muted) !important;
 }
 
-.a22cb0c66246f5d3-button.critical-a22cb0c66246f5d3-secondary {
+.a22cb0c66246f5d3-button.a22cb0c66246f5d3-critical-secondary {
 	background: transparent !important;
 	color: var(--red) !important;
-	border: 1px solid var(--text-danger) !important;
+	border: 1px solid var(--red) !important;
 }
-.a22cb0c66246f5d3-button.critical-a22cb0c66246f5d3-secondary:active {
+.a22cb0c66246f5d3-button.a22cb0c66246f5d3-critical-secondary:active {
 	background: var(--red-transparent) !important;
 }
 

@@ -320,6 +320,9 @@ code {
 	background-color: var(--blurple);
 	border-color: var(--blurple);
 }
+._88a69141dd70013a-radioIndicatorChecked ._88a69141dd70013a-refreshIconStroke {
+	stroke: var(--white);
+}
 
 /* Replace "dont scan" text with how it was before. only for german and english*/
 /*i love lag (i thinb)
