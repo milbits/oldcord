@@ -825,7 +825,6 @@ html.visual-refresh {
 	.e45859d60799ad7c-container,
 	._60fa3b8f3ca9845f-container,
 	._5ec2fb8b5de26b21-searchBar,
-	.c36707910f687430-tooltip,
 	._2ea32c412048f708-link,
 	.container_a45028,
 	._91a9d7f7e5248a56-container,
@@ -1995,6 +1994,8 @@ html.visual-refresh {
 	.b49891f8a231dbff-reactionTooltip,
 	._50387b5c048bc9e1-container {
 		background: var(--background-surface-higher);
+		border: unset;
+		border-radius: 5px;
 	}
 	._4e35b986167c457d-tooltip, .c36707910f687430-tooltipPrimary .c36707910f687430-tooltipPointer {
 		border-top-color: var(--background-surface-higher);
