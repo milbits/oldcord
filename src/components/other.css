@@ -77,7 +77,7 @@ code {
 }
 
 /*bot tag*/
-:not(._82f0793afa59e5dc-botTagOP, .botTagRemix__82f07) > ._82f0793afa59e5dc-botText {
+:not(._82f0793afa59e5dc-botTagOP, .botTagRemix__82f07, .InMyVoiceTag) > ._82f0793afa59e5dc-botText {
 	visibility: hidden;
 	font-size: 0 !important;
 	&:before {
