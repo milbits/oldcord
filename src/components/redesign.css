@@ -1716,6 +1716,89 @@ html.visual-refresh {
 			background: var(--background-floating);
 		}
 	}
+	/* go live modal v2 */
+	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(._7f7273e3e762eb9d-confirmStep)) {
+		width: 400px;
+	}
+	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl {
+		._7f7273e3e762eb9d-root {
+			overflow: unset;
+		}
+		._7f7273e3e762eb9d-header {
+			padding: unset;
+			padding-inline: 22px;
+			._9e06aaa5aecd6e3e-pillContainer {
+				background: unset;
+				._9e06aaa5aecd6e3e-pillItem {
+					background: unset;
+					border-radius: unset;
+					padding: 20px 0 8px 0;
+					flex: unset;
+					margin-right: 20px;
+					line-height: 20px;
+					&._9e06aaa5aecd6e3e-pillItemSelected {
+						border-bottom: 2px solid var(--white);
+					}
+					svg {
+						display: none;
+					}
+				}
+			}
+			&:before {
+				content: url(https://static.discord.com/assets/3d0b430b1bae9f90.svg) !important;
+				display: inline-block;
+				height: var(--custom-go-live-modal-art-height);
+				width: 200px;
+				margin: -35px 0 0 90px;
+				transform: scale(1.4) translateX(-9px);
+			}
+		}
+		.febe194135dcdd22-source:hover .febe194135dcdd22-sourcePreviewContainer:before {
+			box-shadow: inset 0 0 0 2px var(--blurple);
+		} 
+		.febe194135dcdd22-sourcePreviewContainer {
+			&:before {
+				z-index: 1;
+				border: unset;
+				top: -2px;
+				bottom: -2px;
+				right: -2px;
+				left: -2px;
+				border-radius: 4px;
+				box-shadow: inset 0 0 0 2px transparent;
+				transition: box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+			}
+			.febe194135dcdd22-sourcePreview {
+				width: 170px;
+				height: 96px;
+				border-radius: 4px;
+			}
+			.febe194135dcdd22-sourceOverlay {
+				background: unset;
+			}
+		}
+		.febe194135dcdd22-sourceNameContainer {
+			img, svg {
+				display: none;
+			}
+			.febe194135dcdd22-sourceName {
+				color: var(--text-strong);
+				font-weight: 600;
+				text-align: center;
+			}
+		}
+		.febe194135dcdd22-sourceOverlayCTA {
+			display: none;
+		}
+		._7f7273e3e762eb9d-footer {
+			button:not(.a22cb0c66246f5d3-hasText) .a22cb0c66246f5d3-buttonChildrenWrapper {
+				display: none;
+			}
+			button:not(.a22cb0c66246f5d3-hasText):after {
+				content: attr(aria-label);
+			}
+		}
+	}
 
 	/* voice panel */
 	.e131a99484292a19-wrapper {
