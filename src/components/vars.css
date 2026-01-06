@@ -121,6 +121,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--control-background-active-active: var(--green-active);
 	--control-text-active-default: var(--white);
 	--badge-background-default: var(--blurple);
+	--badge-background-brand: var(--blurple);
 }
 
 html:not(.custom-theme-background).theme-light,
@@ -177,6 +178,7 @@ html:not(.custom-theme-background) .theme-light {
 	--control-background-active-active: var(--green-active);
 	--control-text-active-default: var(--white);
 	--badge-background-default: var(--blurple);
+	--badge-background-brand: var(--blurple);
 }
 :root {
 	--oldcord-tint: 210; /* light mode */

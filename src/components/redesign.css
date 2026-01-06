@@ -778,7 +778,7 @@ html.visual-refresh {
 	._496769951eb140fe-search {
 		margin: 0 8px;
 	}
-	._974928fe84ca9647-searchBar {
+	.c322aadb96ff59c9-searchBar {
 		background: var(--background-gradient-low, var(--background-tertiary));
 		padding: 0 2px;
 		height: 24px;
@@ -794,7 +794,7 @@ html.visual-refresh {
 			fill: var(--text-muted);
 		}
 	}
-	._974928fe84ca9647-search:is(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar {
+	.c322aadb96ff59c9-search:is(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar {
 		width: 240px;
 	}
 	._55c999adcf6db265-container {
@@ -828,7 +828,7 @@ html.visual-refresh {
 	._2ea32c412048f708-link,
 	.container_a45028,
 	._91a9d7f7e5248a56-container,
-	._56fec8e8b8048fe0-option,
+	._16eb0bfd5c5a90d1-option,
 	.d5f3cd116f175f35-wrapper,
 	._083ae98ea5145b08-guildInviteContainer,
 	._00943886e1cf89d1-section,
@@ -1154,7 +1154,7 @@ html.visual-refresh {
 		font-family: var(--font-display);
 		font-weight: 600;
 	}
-	._56fec8e8b8048fe0-header {
+	._16eb0bfd5c5a90d1-header {
 		text-transform: uppercase;
 		font-size: 12px;
 		line-height: 16px;
