@@ -126,6 +126,8 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 
 html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
+	--__spoiler-background-color--hidden: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 75%);
+	
 	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%) !important;
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
