@@ -626,7 +626,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 
 ._9a337c84ff86a914-container:active,
 .faa96b2163f6a142-container:active {
-	background-color: var(--background-modifier-active) !important;
+	background-color: var(--background-mod-muted) !important;
 }
 :is(.faa96b2163f6a142-isOpen, ._9a337c84ff86a914-isOpen) {
 	transform: translateY(-5px) !important;

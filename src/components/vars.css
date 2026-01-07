@@ -20,7 +20,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
 	--background-mod-subtle: #4f545c29;
-	--background-modifier-active: #4f545c3d;
+	--background-mod-muted: #4f545c3d;
 	--background-mod-strong: #4f545c52;
 	--background-modifier-accent: #ffffff0f;
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.051);
@@ -138,7 +138,7 @@ html:not(.custom-theme-background) .theme-light {
 
 	--background-modifier-accent: #06060714;
 	--background-mod-subtle: hsl(calc(var(--oldcord-tint) + 12) 25% 88.5%);
-	--background-modifier-active: hsl(calc(var(--oldcord-tint) + 15) 25% 87%) !important;
+	--background-mod-muted: hsl(calc(var(--oldcord-tint) + 15) 25% 87%) !important;
 	--background-mod-strong: hsl(calc(var(--oldcord-tint) + 20) 25% 84%);
 
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);

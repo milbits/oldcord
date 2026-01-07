@@ -573,7 +573,7 @@ html.visual-refresh {
 	:is(._23e6b439306f125a-sidebar)
 		.aa8da23faa27393c-side
 		.aa8da23faa27393c-themed.aa8da23faa27393c-item:active:not(.aa8da23faa27393c-disabled) {
-		background-color: var(--background-modifier-active);
+		background-color: var(--background-mod-muted);
 		color: var(--text-primary);
 	}
 	:is(._23e6b439306f125a-sidebar) .aa8da23faa27393c-selected.aa8da23faa27393c-item:hover {
@@ -2670,7 +2670,7 @@ html.density-default .caf372efc4d47562-item {
 	border-radius: 4px;
 	padding: 7px 10px;
 	&:active {
-		background: var(--background-modifier-active);
+		background: var(--background-mod-muted);
 	}
 	&.caf372efc4d47562-active {
 		transition: none;
