@@ -193,7 +193,7 @@ html.visual-refresh {
 		margin: 2px 0;
 	}
 	._23e6b439306f125a-sidebar:not(.aa8da23faa27393c-selected, :hover) {
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 	}
 	&.theme-dark .c1e9c47c23f12ca3-colorDefault:not(.c1e9c47c23f12ca3-colorBrand) .c1e9c47c23f12ca3-label {
 		color: unset;
@@ -453,7 +453,7 @@ html.visual-refresh {
 	}
 
 	._9293f6b2fc12398a-clickable ._9293f6b2fc12398a-icon {
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 	}
 	._0f481cbbd7530492-popoutContainer {
 		background-color: var(--background-surface-higher);
@@ -620,7 +620,7 @@ html.visual-refresh {
 	}
 	._084343c4f11eaaab-navButton {
 		border-radius: 4px;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 		font-size: 16px;
 		font-weight: 600;
 		line-height: 20px;
@@ -1828,7 +1828,7 @@ html.visual-refresh {
 			margin-bottom: -65px;
 			._523aa09e59621644-friendRequestsButton {
 				background-color: var(--background-tertiary);
-				color: var(--interactive-normal);
+				color: var(--interactive-text-normal);
 			}
 		}
 		.aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-brand {
@@ -1859,15 +1859,15 @@ html.visual-refresh {
 		}
 		._06eda958b510be67-primary {
 			background-color: var(--background-primary);
-			color: var(--interactive-normal);
+			color: var(--interactive-text-normal);
 		}
 		._06eda958b510be67-secondary {
 			background-color: var(--background-secondary);
-			color: var(--interactive-normal);
+			color: var(--interactive-text-normal);
 		}
 		._06eda958b510be67-tertiary {
 			background-color: var(--background-tertiary);
-			color: var(--interactive-normal);
+			color: var(--interactive-text-normal);
 		}
 		._1ccd1ba5cb2270c2-messages {
 			background-color: var(--background-primary);
@@ -2199,7 +2199,7 @@ html.visual-refresh {
 		margin-bottom: 8px;
 		background-color: var(--background-base-lower);
 		border-radius: 3px;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 	}
 
 	.bd-radio-option:hover {
@@ -2611,7 +2611,7 @@ html .c38106a3f0c3ca76-bar {
 		color: var(--header-secondary) !important;
 	}
 	.caf372efc4d47562-itemContent {
-		color: var(--interactive-normal) !important;
+		color: var(--interactive-text-normal) !important;
 	}
 	.caf372efc4d47562-item:hover .caf372efc4d47562-itemContent {
 		color: var(--interactive-text-hover) !important;

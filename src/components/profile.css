@@ -43,7 +43,7 @@ html[lang="de"] .ab86098b36386ff7-addStatusPrompt {
 		text-indent: 0;
 		display: flex;
 		line-height: initial;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 	}
 }
 
@@ -245,7 +245,7 @@ html[lang="de"] .ab86098b36386ff7-addStatusPrompt {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
-	--interactive-normal: rgba(255, 255, 255, 0.8);
+	--interactive-text-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
 	--background-tertiary: var(--brand-experiment);
 	--background-secondary-alt: var(--brand-experiment-530);
@@ -474,7 +474,7 @@ section:has(._39ec2e3dfb4fd2f2-clickableContainer) {
 	display: none;
 }
 html.theme-dark ._635edac6e9713347-badgeContainer path {
-	fill: var(--interactive-normal);
+	fill: var(--interactive-text-normal);
 }
 .user-profile-modal .c0bea05627c5dc35-inner:has(._39ec2e3dfb4fd2f2-card) ._39ec2e3dfb4fd2f2-badges > ._635edac6e9713347-badgeContainer:nth-of-type(2) {
 	order: -1;
@@ -587,7 +587,7 @@ html.theme-dark ._635edac6e9713347-badgeContainer path {
 	--profile-body-background-hover: var(--background-mod-subtle);
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
-	--profile-role-pill-border-color: var(--interactive-normal);
+	--profile-role-pill-border-color: var(--interactive-text-normal);
 	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
 }
@@ -809,7 +809,7 @@ html.theme-dark ._635edac6e9713347-badgeContainer path {
 }
 
 svg.a22cb0c66246f5d3-icon:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
-	stroke: var(--interactive-normal);
+	stroke: var(--interactive-text-normal);
 	stroke-width: 2px;
 	transform: scale(0.98);
 	height: 20px;
@@ -1081,7 +1081,7 @@ text-align: center;
 		max-height: 38px;
 		margin-top: 10px;
 		white-space: pre-wrap;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 		font-weight: 500;
 		font-family: var(--font-display);
 		font-size: 12px;
@@ -1164,7 +1164,7 @@ text-align: center;
 	background: var(--background-tertiary);
 	justify-content: center;
 	& ._530ce51b6bf15868-text {
-		color: var(--interactive-normal) !important;
+		color: var(--interactive-text-normal) !important;
 	}
 	padding: 0 0 10px 0;
 	order: -1;
@@ -1377,7 +1377,7 @@ html:is([lang="en-GB"], [lang="en-us"]) ._5be3ef42f92174b2-footer::after {
 	font-size: 12px;
 	text-align: center;
 	margin-top: 10px;
-	color: var(--interactive-normal);
+	color: var(--interactive-text-normal);
 }
 
 /** bot profile*/
@@ -1679,7 +1679,7 @@ html:is([lang="en-GB"], [lang="en-us"]) ._5be3ef42f92174b2-footer::after {
 
 	._39ec2e3dfb4fd2f2-headerText:not(:has(._39ec2e3dfb4fd2f2-platformIcon, [src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]))
 	{
-		color: var(--interactive-normal) !important;
+		color: var(--interactive-text-normal) !important;
 	}
 }
 

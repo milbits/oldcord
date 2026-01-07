@@ -305,7 +305,7 @@ code {
 }
 
 [aria-checked="false"] .cf48127484dbde85-text-sm\/normal {
-	color: var(--interactive-normal);
+	color: var(--interactive-text-normal);
 }
 
 .theme-dark ._88a69141dd70013a-item[aria-checked="false"] ._88a69141dd70013a-radioBar:hover {
@@ -651,7 +651,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: none !important;
 }
 ._803f2f55621144fb-sessionIcon path {
-	fill: var(--interactive-normal);
+	fill: var(--interactive-text-normal);
 }
 ._803f2f55621144fb-currentSession ._803f2f55621144fb-sessionIcon path {
 	fill: var(--green);
@@ -943,7 +943,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	display: none;
 }
 .a8e786485f0c32f8-playIcon {
-	color: var(--interactive-normal) !important;
+	color: var(--interactive-text-normal) !important;
 	width: 25px;
 	height: 25px;
 }
@@ -1100,7 +1100,7 @@ h2.b717a15017b82443-title,
 	.a22cb0c66246f5d3-hasText {
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--border-subtle) !important;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 		min-height: 14px;
 		min-width: 0;
 		width: auto;
@@ -1119,7 +1119,7 @@ h2.b717a15017b82443-title,
 	}
 	.a22cb0c66246f5d3-sm:not(.a22cb0c66246f5d3-hasText) {
 		background: transparent;
-		color: var(--interactive-normal);
+		color: var(--interactive-text-normal);
 		margin: 0;
 		padding: 0;
 		min-height: 0;
@@ -1490,7 +1490,7 @@ h2.b717a15017b82443-title,
 			order: -1;
 		}
 		.c9d15c8a962de3c8-activityContainer .c9d15c8a962de3c8-activityCounter {
-			color: var(--interactive-normal) !important;
+			color: var(--interactive-text-normal) !important;
 		}
 		.c9d15c8a962de3c8-emoji {
 			order: -1;
@@ -1513,7 +1513,7 @@ h2.b717a15017b82443-title,
 	}
 }
 .c36707910f687430-tooltip .c9d15c8a962de3c8-icon path {
-	fill: var(--interactive-normal);
+	fill: var(--interactive-text-normal);
 }
 
 :is(._91a9d7f7e5248a56-subText, ._20a53846fe2e8513-subText)
