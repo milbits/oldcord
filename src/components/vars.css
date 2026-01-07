@@ -249,6 +249,7 @@ html:not(.custom-theme-background) .theme-light {
 	--brand-experiment-85a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 85%);
 	--brand-experiment-90a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 90%);
 	--brand-experiment-95a: hsl(227, calc(var(--saturation-factor, 1) * 58%), 65%, 95%);
+	--blurple-50: var(--blurple);
 
 	--red-inverted: hsl(0, calc(var(--saturation-factor, 1) * 80%), 98%);
 	--red-inverted-active: hsl(0, calc(var(--saturation-factor, 1) * 85%), 92%);
