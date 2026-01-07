@@ -1016,12 +1016,9 @@ html.visual-refresh {
 	}
 	._5e434347c823b592-base ._5e434347c823b592-sidebar > ._5e434347c823b592-sidebarList {
 		grid-area: sidebar;
-		width: 240px;
+		min-width: 240px;
+		max-width: none;
 		--custom-app-panels-height: 0;
-	}
-	._5e434347c823b592-base ._5e434347c823b592-sidebar > ._5e434347c823b592-sidebarResizeHandle,
-	:root ._5e434347c823b592-base ._5e434347c823b592-sidebar:after {
-		display: none;
 	}
 
 	/*Betterfolders (vencord)*/
@@ -1370,7 +1367,6 @@ html.visual-refresh {
 		line-height: 24px;
 		bottom: 1px !important;
 		top: unset !important;
-		resize: none;
 		align-items: center;
 		color: var(--text-default);
 		strong {
