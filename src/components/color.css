@@ -92,7 +92,7 @@
 	box-shadow: var(--legacy-elevation-border), var(--legacy-elevation-high);
 }
 .option__3f413 {
-	color: var(--interactive-active) !important;
+	color: var(--interactive-text-active) !important;
 	&:is(:hover, :focus) {
 		background-color: var(--background-secondary-alt) !important;
 	}
@@ -114,7 +114,7 @@
 
 .e131a99484292a19-buttonColor {
 	background-color: var(--background-primary) !important;
-	color: var(--interactive-active);
+	color: var(--interactive-text-active);
 	&:hover {
 		background-color: var(--background-secondary) !important;
 	}
@@ -200,7 +200,7 @@
 	padding: 0 20px;
 }
 .f3b986a284a18c78-searchHeaderTabList .selected_b3f026 {
-	box-shadow: inset 0 -2px var(--interactive-active);
+	box-shadow: inset 0 -2px var(--interactive-text-active);
 }
 .f3b986a284a18c78-searchHeaderTabList .item_b3f026 {
 	padding: 15px 8px;
@@ -309,12 +309,12 @@
 	transition: background-color 0.1s ease;
 	background: var(--background-modifier-accent) !important;
 	&:hover {
-		background-color: var(--background-modifier-selected) !important;
+		background-color: var(--background-mod-strong) !important;
 	}
 }
 .f8896c4f6be18f59-reaction:hover,
 ._23977d5b7cef7361-reaction:hover {
-	background-color: var(--background-modifier-selected) !important;
+	background-color: var(--background-mod-strong) !important;
 }
 ._5126c0cd07f243a0-mentioned .f8896c4f6be18f59-reaction,
 ._5126c0cd07f243a0-mentioned .f8896c4f6be18f59-reaction:hover {
@@ -323,7 +323,7 @@
 
 ._23977d5b7cef7361-reaction:hover ._23977d5b7cef7361-reactionCount,
 .f8896c4f6be18f59-reaction:hover .f8896c4f6be18f59-reactionCount {
-	color: var(--interactive-active) !important;
+	color: var(--interactive-text-active) !important;
 }
 
 ._5126c0cd07f243a0-mentioned .f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe,
@@ -367,7 +367,7 @@
 	color: var(--text-muted);
 }
 .select__3f413.open__3f413 .icons__3f413 {
-	color: var(--interactive-active);
+	color: var(--interactive-text-active);
 }
 
 /** Close Button*/
@@ -463,7 +463,7 @@ html:not(.custom-theme-background) ._2ea32c412048f708-icon:not(._2ea32c412048f70
 	background-color: var(--background-primary) !important;
 }
 .e4503acec53c64dd-channelRow:hover {
-	background-color: var(--background-modifier-hover) !important;
+	background-color: var(--background-mod-subtle) !important;
 }
 
 ._270d7a28db32b312-optionButtonWrapper {

@@ -584,7 +584,7 @@ html.theme-dark ._635edac6e9713347-badgeContainer path {
 	--profile-avatar-border-color: var(--background-secondary-alt);
 	--profile-message-input-border-color: var(--background-modifier-accent);
 	--profile-body-background-color: var(--background-floating);
-	--profile-body-background-hover: var(--background-modifier-hover);
+	--profile-body-background-hover: var(--background-mod-subtle);
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--background-secondary-alt);
 	--profile-role-pill-border-color: var(--interactive-normal);
@@ -686,9 +686,9 @@ html.theme-dark ._635edac6e9713347-badgeContainer path {
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 600;
-	color: var(--interactive-active);
+	color: var(--interactive-text-active);
 	.theme-light:has(._39ec2e3dfb4fd2f2-card) & {
-		color: var(--interactive-active);
+		color: var(--interactive-text-active);
 	}
 }
 .user-profile-popout ._63ed30c16c7151f2-tags,
@@ -1172,7 +1172,7 @@ text-align: center;
 		font-size: 12px !important;
 	}
 	.theme-light & ._530ce51b6bf15868-text.cf48127484dbde85-text-sm\/normal {
-		color: var(--interactive-active) !important;
+		color: var(--interactive-text-active) !important;
 	}
 }
 
