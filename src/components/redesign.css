@@ -1993,6 +1993,10 @@ html.visual-refresh {
 		border-radius: 4px;
 	}
 
+	.c36707910f687430-tooltip {
+		border-radius: 4px;
+	}
+
 	.d6f39bdbd19328a0-caretIcon .d6f39bdbd19328a0-caretFill,
 	._4e35b986167c457d-caretIcon ._4e35b986167c457d-caretFill {
 		fill: var(--background-surface-higher);
