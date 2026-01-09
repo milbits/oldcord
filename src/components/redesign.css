@@ -162,6 +162,7 @@ html.visual-refresh {
 	}
 
 	._5e434347c823b592-panels {
+		max-width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)); 
 		display: flex;
 		width: 100%;
 		flex-direction: column;
