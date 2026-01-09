@@ -163,6 +163,7 @@ html.visual-refresh {
 
 	._5e434347c823b592-panels {
 		max-width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)); 
+		min-width: 240px;
 		display: flex;
 		width: 100%;
 		flex-direction: column;
@@ -1611,14 +1612,14 @@ html.visual-refresh {
 		}
 	}
 	/* go live modal v2 */
-	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(._7f7273e3e762eb9d-confirmStep)) {
+	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(.a55fdc2c56e0e44c-confirmStep)) {
 		width: 400px;
 	}
 	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl {
-		._7f7273e3e762eb9d-root {
+		.a55fdc2c56e0e44c-root {
 			overflow: unset;
 		}
-		._7f7273e3e762eb9d-header {
+		.a55fdc2c56e0e44c-header {
 			padding: unset;
 			padding-inline: 22px;
 			._9e06aaa5aecd6e3e-pillContainer {
@@ -1647,10 +1648,10 @@ html.visual-refresh {
 				transform: scale(1.4) translateX(-9px);
 			}
 		}
-		.febe194135dcdd22-source:hover .febe194135dcdd22-sourcePreviewContainer:before {
+		._2f580f2547433e2e-source:hover ._2f580f2547433e2e-sourcePreviewContainer:before {
 			box-shadow: inset 0 0 0 2px var(--blurple);
 		}
-		.febe194135dcdd22-sourcePreviewContainer {
+		._2f580f2547433e2e-sourcePreviewContainer {
 			&:before {
 				z-index: 1;
 				border: unset;
@@ -1662,30 +1663,30 @@ html.visual-refresh {
 				box-shadow: inset 0 0 0 2px transparent;
 				transition: box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 			}
-			.febe194135dcdd22-sourcePreview {
+			._2f580f2547433e2e-sourcePreview {
 				width: 170px;
 				height: 96px;
 				border-radius: 4px;
 			}
-			.febe194135dcdd22-sourceOverlay {
+			._2f580f2547433e2e-sourceOverlay {
 				background: unset;
 			}
 		}
-		.febe194135dcdd22-sourceNameContainer {
+		._2f580f2547433e2e-sourceNameContainer {
 			img,
 			svg {
 				display: none;
 			}
-			.febe194135dcdd22-sourceName {
+			._2f580f2547433e2e-sourceName {
 				color: var(--text-strong);
 				font-weight: 600;
 				text-align: center;
 			}
 		}
-		.febe194135dcdd22-sourceOverlayCTA {
+		._2f580f2547433e2e-sourceOverlayCTA {
 			display: none;
 		}
-		._7f7273e3e762eb9d-footer {
+		.a55fdc2c56e0e44c-footer {
 			button:not(.a22cb0c66246f5d3-hasText) .a22cb0c66246f5d3-buttonChildrenWrapper {
 				display: none;
 			}
