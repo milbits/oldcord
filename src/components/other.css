@@ -1361,7 +1361,7 @@ h2.b717a15017b82443-title,
 ._8e830531d896108a-gameProfileModal ._8e830531d896108a-logoWrapper {
 	background-color: unset;
 	border-radius: 4px;
-	margin-left: -3px;
+	margin-left: -12px;
 }
 
 ._8e830531d896108a-gameProfileModal .b37a7512dc73c48c-friends.cf48127484dbde85-text-xs\/semibold {
@@ -1934,15 +1934,27 @@ https://github.com/XYZenix/DTM-16
 ._551b0894962ff66f-navItemIcon {
 	padding-right: 4px;
 }
-
+.e9ef783a74d3f83a-container {
+	padding: 48px 16px 16px 16px;
+}
+.f0d60d50be10f2ef-content {
+	padding: var(--space-md) var(--space-md);
+}
 .e9ef783a74d3f83a-gradientBackground {
 	content: url("https://raw.githubusercontent.com/milbits/oldcord/refs/heads/main/.github/thething.svg");
+	opacity: 1 !important;
 }
-._1ac1c54c56e5807c-searchBar {
-	background: white !important;
+.f0d60d50be10f2ef-sectionTitle {
+	padding-inline-start: 16px;
 }
 .e9ef783a74d3f83a-description {
 	color: rgba(255, 255, 255, 0.8) !important;
+	align-self: center;
+}
+.e9ef783a74d3f83a-title {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: none;
 }
 .e9ef783a74d3f83a-textContainer {
 	text-align: center;
@@ -1959,6 +1971,13 @@ https://github.com/XYZenix/DTM-16
 	&:hover {
 		box-shadow: var(--legacy-elevation-high);
 	}
+}
+._4cb8ad5be329b603-icon > svg {
+	width: 48px;
+	height: 48px;
+}
+&.theme-dark ._4cb8ad5be329b603-iconMask, &.theme-light ._4cb8ad5be329b603-iconMask {
+    background-color: var(--background-tertiary);
 }
 ._4cb8ad5be329b603-transitionGroup {
 	transition: ease 0.5s;
