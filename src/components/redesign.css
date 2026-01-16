@@ -1612,7 +1612,7 @@ html.visual-refresh {
 		}
 	}
 	/* go live modal v2 */
-	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(.a55fdc2c56e0e44c-confirmStep)) {
+	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(.a55fdc2c56e0e44c-confirmStep, ._8e830531d896108a-gameProfileModal)) {
 		width: 400px;
 	}
 	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl {

@@ -115,6 +115,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--notice-text-critical: #fff;
 	--notice-background-info: var(--blurple);
 	--notice-text-info: #fff;
+	--icon-feedback-critical: var(--notice-background-critical);
 	--background-surface-high: var(--background-secondary);
 	--control-background-active-default: var(--green);
 	--control-background-active-hover: var(--green-hover);
