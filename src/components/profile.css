@@ -1230,8 +1230,7 @@ text-align: center;
 }
 
 /** Roles */
-
-.user-profile-popout .fccfdf3cfff21921-root:before {
+.user-profile-popout .af3987915705da59-roleListContainer .af3987915705da59-listContentsInteractive:before {
 	content: attr(aria-label);
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1241,21 +1240,29 @@ text-align: center;
 	margin-bottom: 4px;
 	text-transform: uppercase;
 }
-section .bf424dc3dc4c8775-headings:has(+.fccfdf3cfff21921-root) /*"roles" header on bots*/ {
+section .bf424dc3dc4c8775-headings:has(+.af3987915705da59-roleListContainer) /*"roles" header on bots*/ {
 	display: none;
 }
-.user-profile-popout .fccfdf3cfff21921-root {
+.user-profile-popout .af3987915705da59-roleListContainer .af3987915705da59-listContentsInteractive {
 	position: relative;
 	margin-bottom: 22px;
 	margin-top: 12px;
+	padding: 16px 16px 0 16px;
+	max-width: 225px;
 }
-.dfa8b6b94cddb191-role {
+.af3987915705da59-role {
 	background-color: transparent !important;
 	transform: translate(0);
 	border: 0 !important;
 	border-radius: 4200px;
 	max-width: 225px !important;
 	height: 22px;
+	[data-text-variant="text-xs/normal"] {
+		font-weight: 500;
+	}
+}
+.af3987915705da59-roleListContainer:has(> .af3987915705da59-addButton) {
+	padding: 16px
 }
 
 ._48c1c0768f2a2421-addButtonIcon {
@@ -1269,26 +1276,27 @@ section .bf424dc3dc4c8775-headings:has(+.fccfdf3cfff21921-root) /*"roles" header
 	background: 0 0;
 }
 
-.dfa8b6b94cddb191-roleRemoveIcon {
+.af3987915705da59-roleRemoveIcon {
 	margin: 0;
 	left: 1px;
 	transform: translate(50%, -50%);
 }
-.dfa8b6b94cddb191-roleRemoveButton {
+.af3987915705da59-removeButton {
 	position: static;
 	cursor: unset;
 }
 ._4f569b8941af22d1-roleCircle {
 	margin: 0 4px 0px 1px !important;
 }
-.dfa8b6b94cddb191-role > :first-child {
+.af3987915705da59-role > :first-child {
 	margin: 0;
 }
 /* Add a colored border around the role */
-.dfa8b6b94cddb191-roleRemoveButton :is(._4f569b8941af22d1-roleCircle,.dfa8b6b94cddb191-roleFlowerStar/*linked roles*/):before {
+:is(._4f569b8941af22d1-roleCircle,.af3987915705da59-roleFlowerStar/*linked roles*/):before {
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin-left: -2px;
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
@@ -1305,9 +1313,9 @@ section .bf424dc3dc4c8775-headings:has(+.fccfdf3cfff21921-root) /*"roles" header
 /* border around addrole button*/
 .fccfdf3cfff21921-root ._201d5e8a3c09670a-button,
 ._7d7f78b99d0a7581-button,
-.fccfdf3cfff21921-expandButton,
-.fccfdf3cfff21921-collapseButton {
-	border: 1px solid var(--interactive-muted);
+.af3987915705da59-pillButton,
+.af3987915705da59-addButton {
+	border: 1px solid var(--interactive-muted) !important;
 	background: none !important;
 	border-radius: 999%;
 	.theme-light & {
@@ -1320,7 +1328,7 @@ section .bf424dc3dc4c8775-headings:has(+.fccfdf3cfff21921-root) /*"roles" header
 	}
 }
 /* remove "add role" text */
-.fb7f9476ada049c8-buttonInner._201d5e8a3c09670a-contents > [data-text-variant="text-xs/normal"] {
+.af3987915705da59-addButton > [data-text-variant="text-xs/normal"] {
 	display: none;
 }
 

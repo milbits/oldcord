@@ -77,8 +77,9 @@
 }
 
 /*context menu*/
-.c1e9c47c23f12ca3-colorDefault.c1e9c47c23f12ca3-focused, .c1e9c47c23f12ca3-item:hover {
+.c1e9c47c23f12ca3-colorDefault.c1e9c47c23f12ca3-focused, .c1e9c47c23f12ca3-item:not(.c1e9c47c23f12ca3-colorDanger):hover {
 	background: var(--brand-experiment-560);
+	color: var(--text-strong);
 	&:active {
 		background: var(--brand-experiment-600) !important;
 	}
