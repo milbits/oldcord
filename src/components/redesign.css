@@ -1091,13 +1091,19 @@ html.visual-refresh {
 		line-height: 1.125rem;
 		text-indent: 0;
 		background: var(--background-secondary) !important;
-		border: 1px solid var(--background-tertiary) !important;
+	}
+	._752971923a1e6683-markup > code {
+		border: unset;
+		color: var(--text-strong);
 	}
 	._752971923a1e6683-markup code.inline {
-		font-family: var(--font-code) !important;
+		font-family: "Consolas" !important;
 	}
 	._623de82e76ad7f82-embedFull code.inline {
 		background: var(--background-tertiary) !important;
+	}
+	._752971923a1e6683-markup blockquote {
+		color: var(--text-default);
 	}
 
 	/* discord logo */
@@ -1396,8 +1402,9 @@ html.visual-refresh {
 		border-radius: 4px;
 		-webkit-text-size-adjust: none;
 		text-size-adjust: none;
-		color: var(--text-default);
+		color: var(--text-subtle);
 		background: var(--background-base-lowest);
+		border: 1px solid var(--background-tertiary) !important;
 	}
 	.cf09d85aafe7e124-audioControls {
 		border-radius: 3px;

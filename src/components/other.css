@@ -35,7 +35,7 @@
 	src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
 }
 code {
-	font-family: "Source Code Pro";
+	font-family: "Consolas";
 }
 .eyebrow /*rare NORMAL class??!?!??!?!!*/ {
 	font-weight: 600;
