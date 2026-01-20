@@ -2128,6 +2128,11 @@ html.visual-refresh {
 		color: var(--channel-icon);
 	}
 
+	/* search header */
+	.ae7890a1b8e75804-searchHeader {
+		background: var(--background-tertiary)
+	}
+
 	/* BetterDiscord Elements */
 	.bd-button {
 		border-radius: 3px;
