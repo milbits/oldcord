@@ -1,12 +1,3 @@
-# a fix is being worked on!
-There's nothing *you* can do. This is neither vencord's, mine or discord's (intentional) fault.
-
-Discord changed something behind-the-scenes, and as a side effect, it killed every theme.
-It seems like it's easy to fix, though! please be patient :3
-
-It's not to get you to use the new ui, it's simply them updating their [backend](https://en.wikipedia.org/wiki/Front_end_and_back_end).
-Discord themes are also not dependent on vencord or betterdiscord, they simply add the theme into discord's code.
-
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
@@ -75,6 +66,8 @@ If you use custom/quickcss, paste the CSS at the very top!
 | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37) |
 | [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                               |
+| [KingGamingYT's NoMosaic plugin](https://betterdiscord.app/plugin/NoMosaic)                                                           | BetterDiscord NoMosaic plugin
+| [NewOldProfiles](https://betterdiscord.app/plugin/NewOldProfiles)                                                                     | Restores period-accurate profiles w/ modern enhancements    |
 | [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                            |
 
 ---
