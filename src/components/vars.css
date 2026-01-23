@@ -322,18 +322,18 @@ html:not(.custom-theme-background) .theme-light {
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 }
 
-._730694f5672c9601-cardPrimary {
+.cardPrimary__73069 {
 	--__card-accent-color: var(--background-secondary) !important;
 }
 
-._6e2b9359c6f84cfd-colorDefault,
+.colorDefault__6e2b9,
 .colorSuccess__6e2b9 {
 	--custom-notice-background: var(--status-positive-background);
 	--custom-notice-text: var(--status-positive-text);
 	--custom-notice-button-hover: var(--status-positive-background);
 }
 
-._6e2b9359c6f84cfd-colorDanger {
+.colorDanger__6e2b9 {
 	--custom-notice-background: var(--status-danger-background) !important;
 	--custom-notice-text: var(--status-danger-text) !important;
 	--custom-notice-button-hover: var(--text-danger) !important;
@@ -645,10 +645,10 @@ html.custom-theme-background.theme-light {
 	--background-primary: var(--background-base-low);
 	--background-message-hover: var(--background-gradient-lowest);
 }
-html.custom-theme-background ._23e6b439306f125a-contentRegionScroller {
+html.custom-theme-background .contentRegionScroller__23e6b {
 	background: var(--background-primary);
 }
-html.custom-theme-background ._23e6b439306f125a-sidebarRegionScroller {
+html.custom-theme-background .sidebarRegionScroller__23e6b {
 	background: var(--background-secondary);
 }
 
@@ -684,6 +684,6 @@ html.custom-theme-background ._23e6b439306f125a-sidebarRegionScroller {
 
 	--chat-background-default: hsl(0 0% 8.5% / 1) !important;
 }
-html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) ._972a0d22c8afa7f0-interactive {
+html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
 }

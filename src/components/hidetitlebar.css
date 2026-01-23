@@ -1,31 +1,31 @@
 html {
-	._5e434347c823b592-base {
+	.base__5e434 {
 		grid-template-areas: "titleBar titleBar titleBar" "notice notice notice" "guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 0px [end] !important;
 	}
-	.c38106a3f0c3ca76-bar {
+	.bar_c38106 {
 		height: 0 !important;
 	}
-	.c38106a3f0c3ca76-bar .c38106a3f0c3ca76-title {
+	.bar_c38106 .title_c38106 {
 		display: none;
 	}
-	.c38106a3f0c3ca76-bar .c38106a3f0c3ca76-trailing {
+	.bar_c38106 .trailing_c38106 {
 		top: 40px !important;
 	}
-	.ef3116c2da186559-scroller {
+	.scroller_ef3116 {
 		padding-top: 12px !important;
 	}
-	._6e2b9359c6f84cfd-notice,
+	.notice__6e2b9,
 	#bd-notices {
 		margin-top: 0px !important;
 	}
-	._5e434347c823b592-base:has(._6e2b9359c6f84cfd-notice, .bd-notice) .c38106a3f0c3ca76-bar .c38106a3f0c3ca76-trailing {
+	.base__5e434:has(.notice__6e2b9, .bd-notice) .bar_c38106 .trailing_c38106 {
 		top: 69px !important;
 	}
 }
-#app-mount ._5e434347c823b592-sidebarListRounded {
+#app-mount .sidebarListRounded__5e434 {
 	border-top-left-radius: 0px !important;
 }
-#app-mount .c38106a3f0c3ca76-trailing{
+#app-mount .trailing_c38106{
 	margin-top: 0px !important;
 }
