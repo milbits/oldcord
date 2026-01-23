@@ -1,5 +1,3 @@
-# i know it broke, be patient
-
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
