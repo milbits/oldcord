@@ -546,7 +546,7 @@ html.visual-refresh {
 	}
 
 	/* header text in DMs */
-	.titleWrapper__9293f > .defaultColor__5345c.text-md_cf4812\/medium {
+	.titleWrapper__9293f > .defaultColor__5345c.text-md\/medium_cf4812 {
 		text-transform: unset !important;
 	}
 	.topic__6ec1a {
@@ -907,7 +907,7 @@ html.visual-refresh {
 		min-width: 96px;
 		min-height: 38px;
 	}
-	.buttonChildren_a22cb0 .text-md_cf4812\/medium {
+	.buttonChildren_a22cb0 .text-md\/medium_cf4812 {
 		font-size: 14px;
 	}
 	.secondary_a22cb0 {
@@ -1147,15 +1147,15 @@ html.visual-refresh {
 	}
 
 	.base__5e434
-		.text-sm__13cf1\/medium:not(
+		.text-sm\/medium__13cf1:not(
 			.title_b6c092,
 			.text_c9d15c,
-			.applicationSublabel_e1ecd3 .text-sm__13cf1\/medium,
+			.applicationSublabel_e1ecd3 .text-sm\/medium__13cf1
 			.lineClamp1__4bd52,
 			.searchFilter_bd8186,
 			.searchAnswer_bd8186
 		),
-	.text-xs_cf4812\/bold {
+	.text-xs\/bold_cf4812 {
 		text-transform: uppercase;
 		font-size: 12px;
 		line-height: 16px;
@@ -1637,7 +1637,7 @@ html.visual-refresh {
 		padding-top: 120px !important;
 		margin-top: -93px;
 	}
-	.headerTitle_dbc4b7 .heading-xl_cf4812\/semibold {
+	.headerTitle_dbc4b7 .heading-xl\/semibold_cf4812 {
 		display: none;
 	}
 	.profilePreview_dbc4b7 {
@@ -1830,7 +1830,7 @@ html.visual-refresh {
 		padding: var(--space-xs);
 		padding-left: 0;
 		padding-right: 0;
-		.labelWrapper__06d62 .text-md_cf4812\/medium {
+		.labelWrapper__06d62 .text-md\/medium_cf4812 {
 			font-size: 14px !important;
 			font-weight: 600;
 		}
@@ -1863,7 +1863,7 @@ html.visual-refresh {
 	.rtcConnectionStatus__06d62 {
 		height: unset;
 	}
-	.rtcConnectionStatusWrapper__06d62 .text-sm_cf4812\/medium.lineClamp1__4bd52 {
+	.rtcConnectionStatusWrapper__06d62 .text-sm\/medium_cf4812.lineClamp1__4bd52 {
 		font-size: 12px !important;
 		color: var(--header-secondary) !important;
 	}
@@ -2062,7 +2062,7 @@ html.visual-refresh {
 	.form__468a6:has(.alignCenter_abf706) .footer__49fc1 .primaryButton__468a6.sizeMedium__201d5 {
 		height: 50px;
 	}
-	.title__468a6.defaultColor__5345c.heading-lg_cf4812\/semibold.defaultColor__4bd52 {
+	.title__468a6.defaultColor__5345c.heading-lg\/semibold_cf4812.defaultColor__4bd52 {
 		align-self: center;
 	}
 
@@ -2172,7 +2172,7 @@ html.visual-refresh {
 		}
 		.header__8a031 .stack_dbd263 {
 			justify-content: center;
-			.heading-lg_cf4812\/semibold {
+			.heading-lg\/semibold_cf4812 {
 				text-transform: uppercase;
 				font-size: 16px;
 			}
