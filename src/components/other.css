@@ -35,7 +35,7 @@
 	src: url(https://milbits.github.io/oldcord/src/assets/cursiveBold.woff2);
 }
 code {
-	font-family: "Consolas";
+	font-family: var(--font-code);
 }
 .eyebrow /*rare NORMAL class??!?!??!?!!*/ {
 	font-weight: 600;
@@ -554,8 +554,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 /*make follow button green*/
 .secondary_a22cb0:has(
+	path
 		[d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"]
-	) {
+) {
 	background-color: var(--green) !important;
 	color: white;
 	border-radius: 16px !important;
@@ -569,8 +570,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 .secondary_a22cb0:has(
+	path
 		[d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]
-	) {
+) {
 	background: none !important;
 	padding: 8px !important;
 }
@@ -676,7 +678,10 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	transition: opacity 0.1s ease-in-out, box-shadow 0.1s ease-in-out, transform 0.2s ease;
+	transition:
+		opacity 0.1s ease-in-out,
+		box-shadow 0.1s ease-in-out,
+		transform 0.2s ease;
 }
 .session__803f2:hover .sessionMoreButton__803f2,
 .sessionMoreButton__803f2:hover {
@@ -991,12 +996,7 @@ h2.title_b717a1,
 	font-size: 16px;
 	text-transform: uppercase;
 }
-.settingsPage_f131e9
-	:is(
-		.defaultColor__5345c.heading-lg\/semibold_cf4812,
-		.title_b717a1.h3_b717a1,
-		.heading-lg\/semibold_cf4812
-	) {
+.settingsPage_f131e9 :is(.defaultColor__5345c.heading-lg\/semibold_cf4812, .title_b717a1.h3_b717a1, .heading-lg\/semibold_cf4812) {
 	text-transform: uppercase;
 	font-size: 12px !important;
 	font-weight: 600 !important;
@@ -1314,12 +1314,7 @@ h2.title_b717a1,
 	margin-left: 55px;
 }
 
-.gameProfileModal__8e830
-	.sectionHeader__8e830:is(
-		.text-xs\/semibold_cf4812,
-		.text-md\/semibold_cf4812,
-		.text-sm\/semibold_cf4812
-	) {
+.gameProfileModal__8e830 .sectionHeader__8e830:is(.text-xs\/semibold_cf4812, .text-md\/semibold_cf4812, .text-sm\/semibold_cf4812) {
 	text-transform: uppercase !important;
 }
 
@@ -1419,8 +1414,7 @@ h2.title_b717a1,
 	text-transform: uppercase;
 }
 
-.scrollerBase_d125d2.thin_d125d2.container_e59759.content__49fc1
-	> .defaultColor__5345c.heading-md\/semibold_cf4812 {
+.scrollerBase_d125d2.thin_d125d2.container_e59759.content__49fc1 > .defaultColor__5345c.heading-md\/semibold_cf4812 {
 	font-weight: 500;
 }
 
@@ -1499,8 +1493,7 @@ h2.title_b717a1,
 			display: none;
 		}
 	}
-	.container_c9d15c:has(.statusText__19b6d:not(.dot_c9d15c):nth-of-type(3))
-		.statusText__19b6d:nth-of-type(1) {
+	.container_c9d15c:has(.statusText__19b6d:not(.dot_c9d15c):nth-of-type(3)) .statusText__19b6d:nth-of-type(1) {
 		display: none;
 	}
 }
@@ -1516,8 +1509,7 @@ h2.title_b717a1,
 	fill: var(--interactive-text-normal);
 }
 
-:is(.subText__91a9d, .subText__20a53)
-	:is(.textWithIconContainer_c9d15c, .activityContainer_c9d15c):has(.truncated_c9d15c) {
+:is(.subText__91a9d, .subText__20a53) :is(.textWithIconContainer_c9d15c, .activityContainer_c9d15c):has(.truncated_c9d15c) {
 	html:is([lang="en-us"], [lang="en-gb"])
 		&:has(
 			svg
@@ -1976,8 +1968,9 @@ https://github.com/XYZenix/DTM-16
 	width: 48px;
 	height: 48px;
 }
-&.theme-dark .iconMask__4cb8a, &.theme-light .iconMask__4cb8a {
-    background-color: var(--background-tertiary);
+&.theme-dark .iconMask__4cb8a,
+&.theme-light .iconMask__4cb8a {
+	background-color: var(--background-tertiary);
 }
 .transitionGroup__4cb8a {
 	transition: ease 0.5s;

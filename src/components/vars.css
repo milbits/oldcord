@@ -15,7 +15,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--primary-630: var(--background-secondary);
 	--background-secondary: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
 	--background-secondary-alt: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
-	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);	
+	--background-tertiary: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
 	--bg-base-tertiary: var(--background-tertiary);
 	--background-accent: hsl(217, calc(var(--saturation-factor, 1) * 8%), 34%);
 	--background-floating: #18191c;
@@ -294,6 +294,7 @@ html:not(.custom-theme-background) .theme-light {
 	--status-danger-background: var(--red);
 
 	--font-display: var(--font-primary);
+	--font-code: Consolas, "source code pro", "gg code", monospace;
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 	--text-warning: hsl(40 calc(var(--saturation-factor, 1) * 86.4%) 56.9%/1);

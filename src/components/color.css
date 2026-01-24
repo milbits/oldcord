@@ -77,7 +77,8 @@
 }
 
 /*context menu*/
-.colorDefault_c1e9c4.focused_c1e9c4, .item_c1e9c4:not(.colorDanger_c1e9c4):hover {
+.colorDefault_c1e9c4.focused_c1e9c4,
+.item_c1e9c4:not(.colorDanger_c1e9c4):hover {
 	background: var(--brand-experiment-560);
 	color: var(--text-strong);
 	&:active {
@@ -139,7 +140,7 @@
 }*/
 
 .lookFilled__201d5.colorGreen__201d5,
-.button_a22cb0.active_a22cb0  {
+.button_a22cb0.active_a22cb0 {
 	background-color: var(--green);
 	&:hover {
 		background-color: var(--green-hover);
@@ -239,7 +240,9 @@
 }
 
 .interactive {
-	transition: background-color 50ms ease-out, color 50ms ease-out;
+	transition:
+		background-color 50ms ease-out,
+		color 50ms ease-out;
 	cursor: pointer;
 	text-decoration: none !important;
 }
@@ -361,7 +364,7 @@
 	border-color: var(--deprecated-text-input-border-hover) !important;
 }
 /* icon*/
-.select__3f413 [d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"] {
+.select__3f413 path[d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"] {
 	d: path("M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z");
 }
 .icons__3f413 {
@@ -375,7 +378,8 @@
 :is(.contentHeader_e9e3ed .buttonChildren_a22cb0, .closeButton_c2b141) path {
 	d: path("M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12");
 }
-.theme-light .closeButton_c2b141, .theme-light .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
+.theme-light .closeButton_c2b141,
+.theme-light .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
 	outline: 2px solid #dcddde;
 	border: none;
 	background: transparent !important;
@@ -386,10 +390,10 @@
 	& svg {
 		color: var(--text-muted) !important;
 		transform: scale(1.4);
-
 	}
 }
-.theme-dark .closeButton_c2b141, .theme-dark .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
+.theme-dark .closeButton_c2b141,
+.theme-dark .container__8a031[data-mana-component="layer-modal"] .contentHeader_e9e3ed .buttonChildren_a22cb0 {
 	outline: 2px solid var(--text-muted);
 	border: none;
 	background: transparent !important;
@@ -497,7 +501,9 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 
 /*GIF Selector*/
 .result__2dc39:hover:after {
-	box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 3px var(--primary-630);
+	box-shadow:
+		inset 0 0 0 2px var(--brand-experiment),
+		inset 0 0 0 3px var(--primary-630);
 }
 .result__2dc39:after {
 	background: none !important;
