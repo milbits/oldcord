@@ -186,9 +186,13 @@ html:not(.custom-theme-background) .theme-light {
 :root {
 	--oldcord-tint: 210; /* light mode */
 	--oldcord-tint-intensity: 11.11;
+
 	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
-	--font-display: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif !important;
-	--font-headline: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
+	--font-display: var(--font-primary);
+	--font-headline:  var(--font-primary);
+	--font-display: var(--font-primary);
+	--font-code: Consolas, "source code pro", "noto sans mono", "gg code", monospace;
+
 	--blurple: var(--brand-experiment);
 	--blurple-hover: hsl(227, calc(var(--saturation-factor, 1) * 44%), 59%);
 	--blurple-active: hsl(226, calc(var(--saturation-factor, 1) * 34%), 52%);
@@ -293,8 +297,6 @@ html:not(.custom-theme-background) .theme-light {
 	--info-danger-foreground: var(--red);
 	--status-danger-background: var(--red);
 
-	--font-display: var(--font-primary);
-	--font-code: Consolas, "source code pro", "gg code", monospace;
 	--control-brand-foreground: var(--brand-experiment);
 	--bdfdb-green: var(--green);
 	--text-warning: hsl(40 calc(var(--saturation-factor, 1) * 86.4%) 56.9%/1);

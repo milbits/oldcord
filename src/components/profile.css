@@ -96,16 +96,17 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		margin-top: -34px;
 	}
 	& .menus_ce8328 {
-		background: var(--background-floating)
+		background: var(--background-floating);
 	}
-	& .inner_c0bea0>.body_ce8328 {
+	& .inner_c0bea0 > .body_ce8328 {
 		width: 230px;
 		background: transparent;
 	}
 	& .custom-theme-background .menu_c1e9c4 {
 		border: 0px;
 	}
-	& :is(
+	&
+		:is(
 			.banner__68edb,
 			.avatar__75742,
 			.descriptionClamp_f5f93a,
@@ -200,7 +201,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	& .cardsList__9d597 {
 		display: none;
 	}
-	& .menuOverlay_ce8328:first-child ul>li:first-child {
+	& .menuOverlay_ce8328:first-child ul > li:first-child {
 		display: none;
 	}
 }
@@ -253,8 +254,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	/*Change color based on activity type*/
 
 	/* Listening to Spotify*/
-	&:has(img[src^="https://i.scdn.co/"])
-	{
+	&:has(img[src^="https://i.scdn.co/"]) {
 		--background-tertiary: var(--spotify);
 		--background-secondary-alt: var(--spotify-dark);
 	}
@@ -405,7 +405,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 }
 .user-profile-popout .actions__39ec2 button {
 	background-color: var(--control-background-secondary-default) !important;
-    border: 1px solid var(--white) !important;
+	border: 1px solid var(--white) !important;
 }
 .user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
 	order: -1;
@@ -616,7 +616,9 @@ html.theme-dark .badgeContainer__635ed path {
 	max-height: calc(100vh - 20px);
 }
 .outer_c0bea0.user-profile-popout {
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
+	box-shadow:
+		0 2px 10px 0 rgba(0, 0, 0, 0.2),
+		0 0 0 1px var(--deprecated-card-bg) !important;
 	border-radius: 5px;
 	padding: 0 !important;
 }
@@ -841,7 +843,7 @@ svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 
 }
 
 .showEffect_dfb989.container_dfb989 .pop_dfb989:before /*! Fix misallined shadow text effect on floating username nitro effect*/ {
-    width: auto;
+	width: auto;
 }
 .container__8061a /*badges*/ {
 	left: -10px;
@@ -862,7 +864,7 @@ svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 
 .user-profile-modal-v2 .inner_ab8609 {
 	right: -115px;
 	padding: 0;
-	margin: 0
+	margin: 0;
 }
 .profileBody__9c3be {
 	background: var(--background-secondary);
@@ -879,20 +881,19 @@ svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 
 #activity-tab {
 	margin-right: 24px;
 }
-#activity-tab h3{
+#activity-tab h3 {
 	font-weight: 900;
 	text-transform: uppercase;
 	color: var(--header-secondary) !important;
 }
 #activity-tab .text-xs\/normal_cf4812 {
-	color: var(--text-secondary) !important
+	color: var(--text-secondary) !important;
 }
 #activity-tab .heading-sm\/semibold_cf4812 {
-	color: var(--text-secondary) !important
-
+	color: var(--text-secondary) !important;
 }
-#activity-tab .lineClamp1__4bd52{
-	color: var(--text-tertiary) !important
+#activity-tab .lineClamp1__4bd52 {
+	color: var(--text-tertiary) !important;
 }
 .user-profile-modal-v2 .cards__764cd {
 	gap: 4px;
@@ -931,8 +932,8 @@ svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 
 .user-profile-modal-v2 .container_ab8609 {
 	.outer_ab8609 {
 		border: none;
-		min-width: 450px !important;	
-		background: none !important
+		min-width: 450px !important;
+		background: none !important;
 	}
 	left: -110px !important;
 	z-index: 1;
@@ -990,8 +991,9 @@ svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 
 
 .user-profile-modal-v2 {
 	& .outer_ab8609 .defaultColor__4bd52 {
-text-align: center;
-	width:320px; }
+		text-align: center;
+		width: 320px;
+	}
 	& .singleLineAlign_af9888 {
 		text-align: left;
 	}
@@ -1168,7 +1170,7 @@ text-align: center;
 	}
 	padding: 0 0 10px 0;
 	order: -1;
-	& .text__530ce.text-sm\/normal_cf4812{
+	& .text__530ce.text-sm\/normal_cf4812 {
 		font-size: 12px !important;
 	}
 	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
@@ -1262,7 +1264,7 @@ text-align: center;
 	}
 }
 .roleListContainer_af3987:has(> .addButton_af3987) {
-	padding: 16px
+	padding: 16px;
 }
 
 .addButtonIcon__48c1c {
@@ -1303,7 +1305,9 @@ text-align: center;
 	background: inherit;
 	border-radius: 50px;
 	border: 0.65px solid transparent;
-	-webkit-mask: linear-gradient(#000, #000) padding-box, linear-gradient(#000, #000);
+	-webkit-mask:
+		linear-gradient(#000, #000) padding-box,
+		linear-gradient(#000, #000);
 	-webkit-mask-composite: xor;
 	opacity: 0.6;
 	content: "";
@@ -1480,7 +1484,9 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 /*add a shadow and border like on profiles*/
 .popout_af3b89 {
 	border-radius: 3px;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--deprecated-card-bg) !important;
+	box-shadow:
+		0 2px 10px 0 rgba(0, 0, 0, 0.2),
+		0 0 0 1px var(--deprecated-card-bg) !important;
 }
 /* remove shadow on status bubbles */
 .mask__44b0c.svg__44b0c > circle {
@@ -1685,8 +1691,12 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		}
 	}
 
-	.headerText__39ec2:not(:has(.platformIcon__39ec2, img[src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]))
-	{
+	.headerText__39ec2:not(
+		:has(
+			.platformIcon__39ec2,
+			img[src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]
+		)
+	) {
 		color: var(--interactive-text-normal) !important;
 	}
 }
@@ -1717,24 +1727,24 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 #widgets-tab .scroller__3b923 {
 	gap: 8px;
 }
-#widgets-tab .button_b46968{
+#widgets-tab .button_b46968 {
 	background: var(--button-secondary);
 	padding: 8px 16px;
 	width: fit-content;
 	color: #fff;
 	border-radius: 3px;
 	transition: 0.17s;
-	&:hover{
+	&:hover {
 		background: var(--button-secondary-hover);
 		text-decoration: none;
 	}
 }
-#widgets-tab .secondary_a22cb0{
+#widgets-tab .secondary_a22cb0 {
 	background: var(--green);
-	&:hover{
+	&:hover {
 		background: var(--green-hover);
 	}
-		&:active{
+	&:active {
 		background: var(--green-active);
 	}
 }
