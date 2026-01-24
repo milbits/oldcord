@@ -46,7 +46,7 @@ code {
 .activityText__5d473 {
 	color: var(--channels-default) !important;
 }
-.peopleListItem_cc6179 .text__19b6d.text-sm_cf4812\/medium {
+.peopleListItem_cc6179 .text__19b6d.text-sm\/medium_cf4812 {
 	color: var(--header-secondary) !important;
 }
 
@@ -304,7 +304,7 @@ code {
 	}
 }
 
-[aria-checked="false"] .text-sm_cf4812\/normal {
+[aria-checked="false"] .text-sm\/normal_cf4812 {
 	color: var(--interactive-text-normal);
 }
 
@@ -690,7 +690,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .sessionInfoRow__803f2 span:last-child {
 	color: var(--header-secondary);
 }
-.heading-md-bold__17daa {
+.heading-md\/bold__17daa {
 	font-weight: 600;
 }
 
@@ -709,7 +709,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.connectContainer_c7f964 .text-xs-normal_ccc5fb {
+.connectContainer_c7f964 .text-xs\/normal_ccc5fb {
 	color: var(--interactive-text-hover) !important;
 	font-size: 13px;
 }
@@ -745,7 +745,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: none;
 	border: solid 1px #fff3;
 }
-.metadataContainer_c7f964 .text-xs-normal_ccc5fb {
+.metadataContainer_c7f964 .text-xs\/normal_ccc5fb {
 	color: #fff !important;
 }
 .metadataContainer_c7f964 .metadataRefreshButton_c7f964 button {
@@ -777,7 +777,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .connectionOptionSwitch_c7f964 {
 	margin-top: 2px;
 }
-.labelRow__0d850 .title__0d850 .text-sm-semibold_a5824d {
+.labelRow__0d850 .title__0d850 .text-sm\/semibold_a5824d {
 	font-weight: 500 !important;
 	color: var(--white-500);
 }
@@ -980,22 +980,22 @@ h2.title_b717a1,
 	text-transform: uppercase !important;
 	font-size: 16px;
 }
-.description__6b700.text-sm_cf4812\/normal {
+.description__6b700.text-sm\/normal_cf4812 {
 	color: var(--text-secondary) !important;
 	font-size: 14px;
 	line-height: 20px !important;
 }
 
 /* fix headings of all shapes and sizes */
-.settingsPage_f131e9 :is(.heading-xl_cf4812\/semibold) {
+.settingsPage_f131e9 :is(.heading-xl\/semibold_cf4812) {
 	font-size: 16px;
 	text-transform: uppercase;
 }
 .settingsPage_f131e9
 	:is(
-		.defaultColor__5345c.heading-lg_cf4812\/semibold,
+		.defaultColor__5345c.heading-lg\/semibold_cf4812,
 		.title_b717a1.h3_b717a1,
-		.heading-lg_cf4812\/semibold
+		.heading-lg\/semibold_cf4812
 	) {
 	text-transform: uppercase;
 	font-size: 12px !important;
@@ -1019,7 +1019,7 @@ h2.title_b717a1,
 	border-radius: 4px;
 }
 .root__49fc1 {
-	.headerContainer_c38e9f > .defaultColor__5345c.heading-md_cf4812\/semibold {
+	.headerContainer_c38e9f > .defaultColor__5345c.heading-md\/semibold_cf4812 {
 		text-transform: uppercase;
 	}
 	.mainContainer_c38e9f > .pauseContainer_c38e9f {
@@ -1075,7 +1075,7 @@ h2.title_b717a1,
 
 /* pinned messages popout header */
 .titleContainer_e8b59c {
-	.text-lg_cf4812\/semibold {
+	.text-lg\/semibold_cf4812 {
 		font-size: 15px;
 	}
 
@@ -1182,7 +1182,7 @@ h2.title_b717a1,
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-.header__49fc1 .text-md_cf4812\/medium {
+.header__49fc1 .text-md\/medium_cf4812 {
 	font-size: 12px;
 }
 
@@ -1308,7 +1308,7 @@ h2.title_b717a1,
 	visibility: hidden;
 }
 
-.gameProfileModal__8e830 .heading-xl_cf4812\/bold {
+.gameProfileModal__8e830 .heading-xl\/bold_cf4812 {
 	font-weight: 600;
 	font-size: 20px;
 	margin-left: 55px;
@@ -1316,14 +1316,14 @@ h2.title_b717a1,
 
 .gameProfileModal__8e830
 	.sectionHeader__8e830:is(
-		.text-xs_cf4812\/semibold,
-		.text-md_cf4812\/semibold,
-		.text-sm_cf4812\/semibold
+		.text-xs\/semibold_cf4812,
+		.text-md\/semibold_cf4812,
+		.text-sm\/semibold_cf4812
 	) {
 	text-transform: uppercase !important;
 }
 
-.gameProfileModal__8e830 .text-md_cf4812\/semibold {
+.gameProfileModal__8e830 .text-md\/semibold_cf4812 {
 	color: var(--header-secondary) !important;
 	font-size: 13px;
 	font-weight: 500;
@@ -1339,7 +1339,7 @@ h2.title_b717a1,
 	}
 }
 
-.gameProfileModal__8e830 .gapSm__8e830.row__8e830 > .text-sm_cf4812\/semibold {
+.gameProfileModal__8e830 .gapSm__8e830.row__8e830 > .text-sm\/semibold_cf4812 {
 	color: var(--header-secondary) !important;
 	font-weight: 500;
 	margin-left: 55px;
@@ -1364,7 +1364,7 @@ h2.title_b717a1,
 	margin-left: -12px;
 }
 
-.gameProfileModal__8e830 .friends_b37a75.text-xs_cf4812\/semibold {
+.gameProfileModal__8e830 .friends_b37a75.text-xs\/semibold_cf4812 {
 	background: none;
 	font-weight: 400;
 	font-size: 14px;
@@ -1412,7 +1412,7 @@ h2.title_b717a1,
 	border-radius: 3px;
 	padding: 8px;
 }
-.headerText_a470b4 .heading-xl_cf4812\/extrabold {
+.headerText_a470b4 .heading-xl\/extrabold_cf4812 {
 	font-size: 16px;
 	letter-spacing: 0.3;
 	font-weight: 600;
@@ -1420,7 +1420,7 @@ h2.title_b717a1,
 }
 
 .scrollerBase_d125d2.thin_d125d2.container_e59759.content__49fc1
-	> .defaultColor__5345c.heading-md_cf4812\/semibold {
+	> .defaultColor__5345c.heading-md\/semibold_cf4812 {
 	font-weight: 500;
 }
 
@@ -1672,7 +1672,7 @@ h2.title_b717a1,
 stolen and modified from 11pixels' dtm16
 https://github.com/XYZenix/DTM-16
 */
-.titleText__67a11.text-md_cf4812\/medium {
+.titleText__67a11.text-md\/medium_cf4812 {
 	color: var(--header-secondary);
 	font-size: 12px;
 	font-weight: 900;
@@ -1810,7 +1810,7 @@ https://github.com/XYZenix/DTM-16
 		height: 100% !important;
 		.appDetailsSectionHeader__50a54 {
 			cursor: default;
-			.heading-sm_cf4812\/medium {
+			.heading-sm\/medium_cf4812 {
 				font-size: 12px;
 				color: var(--header-secondary) !important;
 				font-weight: 800;
@@ -1830,7 +1830,7 @@ https://github.com/XYZenix/DTM-16
 	.appDetailsContainer__50a54 .appDetailsSection__50a54 {
 		border-bottom: unset;
 	}
-	.appDetailsContent__50a54 .text-sm_cf4812\/normal {
+	.appDetailsContent__50a54 .text-sm\/normal_cf4812 {
 		font-size: 14px;
 		font-weight: 500;
 	}
@@ -2034,7 +2034,7 @@ https://github.com/XYZenix/DTM-16
 	& .button__71c22 {
 		background: var(--background-secondary);
 	}
-	& .heading-md_cf4812\/medium {
+	& .heading-md\/semibold_cf4812 {
 		display: none;
 	}
 }
@@ -2045,11 +2045,11 @@ https://github.com/XYZenix/DTM-16
 		box-shadow: unset !important;
 	}
 	.headerLayout__8a031 {
-		.heading-lg_cf4812\/semibold {
+		.heading-lg\/semibold_cf4812 {
 			font-size: 16px;
 			text-transform: uppercase;
 		}
-		.heading-lg_cf4812\/semibold:before {
+		.heading-lg\/semibold_cf4812:before {
 			content: "WOULD YOU LIKE TO ";
 		}
 	}
@@ -2066,7 +2066,7 @@ https://github.com/XYZenix/DTM-16
 		padding-top: unset;
 	}
 	.body__8a031 {
-		.eyebrow_b717a1 .text-md_cf4812\/medium {
+		.eyebrow_b717a1 .text-md\/medium_cf4812 {
 			font-size: 12px;
 			font-weight: 600;
 			color: var(--channels-default) !important;

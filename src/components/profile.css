@@ -442,7 +442,7 @@ section:has(.clickableContainer__39ec2) {
 }
 /*change some other colors for the activity section*/
 
-.card__39ec2 .heading-sm_cf4812\/semibold /*game title*/ {
+.card__39ec2 .heading-sm\/semibold_cf4812 /*game title*/ {
 	color: var(--text-tertiary) !important;
 }
 .card__39ec2 [data-text-variant="text-xs/normal"] /*details*/ {
@@ -884,10 +884,10 @@ svg.icon_a22cb0:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 
 	text-transform: uppercase;
 	color: var(--header-secondary) !important;
 }
-#activity-tab .text-xs_cf4812\/normal{
+#activity-tab .text-xs\/normal_cf4812 {
 	color: var(--text-secondary) !important
 }
-#activity-tab .heading-sm_cf4812\/semibold {
+#activity-tab .heading-sm\/semibold_cf4812 {
 	color: var(--text-secondary) !important
 
 }
@@ -1122,7 +1122,7 @@ text-align: center;
 }
 
 /* friend res */
-.user-profile-popout .overlay_c0bea0 > .container__43a4b > .text-sm_cf4812\/normal.defaultColor__4bd52 {
+.user-profile-popout .overlay_c0bea0 > .container__43a4b > .text-sm\/normal_cf4812.defaultColor__4bd52 {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1138,7 +1138,7 @@ text-align: center;
 	flex-wrap: unset;
 	align-items: start;
 	padding: 16px 16px 20px 16px;
-	.text-xs_cf4812\/medium {
+	.text-xs\/medium_cf4812 {
 		font-size: 12px;
 		color: var(--header-secondary);
 		font-weight: 800;
@@ -1168,10 +1168,10 @@ text-align: center;
 	}
 	padding: 0 0 10px 0;
 	order: -1;
-	& .text__530ce.text-sm_cf4812\/normal {
+	& .text__530ce.text-sm\/normal_cf4812{
 		font-size: 12px !important;
 	}
-	.theme-light & .text__530ce.text-sm_cf4812\/normal {
+	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
 		color: var(--interactive-text-active) !important;
 	}
 }
@@ -1586,7 +1586,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		left: -20px;
 		top: -8px;
 	}
-	.heading-xl_cf4812\/extrabold {
+	.heading-xl\/extrabold_cf4812 {
 	display: none;
 	}
 	.text-xs_cf4812\/normal {
@@ -1663,7 +1663,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	.clickable_c7ac92 {
 		text-transform: uppercase;
 		justify-content: unset;
-		& .defaultColor__5345c.text-sm_cf4812\/medium {
+		& .defaultColor__5345c.text-sm\/medium_cf4812 {
 			color: var(--channels-default) !important;
 			font-size: 12px;
 			font-weight: 600;
