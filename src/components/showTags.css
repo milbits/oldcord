@@ -12,7 +12,7 @@
 }
 .clanTag__5d473,
 .guildTag__63ed3,
-.clanTag__972a0 {
+.clanTag__972a0,.clanTagChiplet_c19a55 {
 	border-radius: 3px;
 	background: var(--background-modifier-accent);
 	& .tagText__10651 {
