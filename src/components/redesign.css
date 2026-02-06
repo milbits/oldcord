@@ -716,6 +716,11 @@ html.visual-refresh {
 				font-size: 16px;
 			}
 		}
+		.groupWrapper__971b5[aria-labelledby="Message Contains-header"] {
+			[data-text-variant="text-sm/medium"]:first-of-type {
+				display: flex;
+			}
+		}
 		svg:not(.clearSearchHistoryIcon__971b5, .svg__44b0c, .channelNameIcon__971b5) {
 			display: none;
 		}
