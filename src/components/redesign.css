@@ -1205,6 +1205,10 @@ html.visual-refresh {
 		height: 40px !important;
 	}
 
+	.typeThread__2ea32 .name__2ea32 {
+		font-size: 16px;
+	}
+
 	/* markdown things */
 	.markup__75297 code {
 		line-height: 1.125rem;
