@@ -976,19 +976,16 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /* Capitalize titles in settings*/
-h2.title_b717a1,
-.modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold"]) {
-	text-transform: uppercase;
-	font-size: 16px;
-}
-.header__49fc1 [data-text-variant="heading-lg/semibold"] {
-	text-transform: uppercase !important;
-	font-size: 16px;
-}
 .description__6b700.text-sm\/normal_cf4812 {
-	color: var(--text-secondary) !important;
+	color: var(--text-strong) !important;
 	font-size: 14px;
 	line-height: 20px !important;
+}
+.breadcrumbsNav__6989f .breadcrumbText__6989f {
+	color: var(--text-strong) !important;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 /* fix headings of all shapes and sizes */
