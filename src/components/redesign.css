@@ -1089,16 +1089,16 @@ html.visual-refresh {
 			bottom: 1px;
 		}
 	}
-	.avatarWrapper__37e49 {
+	.accountPopoutButtonWrapper__37e49 {
 		padding-left: 2px;
 		border-radius: 4px;
 		transition: none;
 		&:hover {
-			background-color: var(--background-mod-strong);
+			background-color: unset;
 			color: var(--interactive-text-hover);
 		}
 	}
-	.avatarWrapper__37e49 .nameTag__37e49 {
+	.accountPopoutButtonWrapper__37e49 .nameTag__37e49 {
 		padding-bottom: 4px;
 		padding-top: 4px;
 		margin-right: 0;
