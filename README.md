@@ -1,3 +1,7 @@
+
+> [!IMPORTANT]
+> Following discord's [age verification](https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally) announcement from today (9th feb), i decided to archive this theme as i can no longer justify creating a theme for a platform that wants me to send my ugly ass face just to use it. i don't trust them with my sensitive data, especially after the last leak.
+
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
