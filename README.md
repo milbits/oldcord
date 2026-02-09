@@ -1,8 +1,11 @@
 
 > [!NOTE]
 > Following discord's [age verification](https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally) announcement from the 9th feb, i (milbit) decided to step down indefinitely. kinggamingyt will be the maintainer going forward.
+> 
 >  i can no longer justify creating a theme for a platform that wants me to send my ugly ass face just to use it. i don't trust them with my sensitive data, especially after the [last breach](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service).
-
+>
+> 
+> if you're looking for an alternative, there is [stoat](https://stoat.chat/). no other real option.
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
