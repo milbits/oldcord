@@ -4,6 +4,3 @@
 @import url("https://milbits.github.io/oldcord/src/components/other.css");
 @import url("https://milbits.github.io/oldcord/src/components/profile.css");
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
-[href="/shop"], [href="/store"], [href="/quest-home"],[aria-label="Ein Geschenk senden"], [aria-label="Send a gift"] {
-    display: none
-}
