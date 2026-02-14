@@ -674,7 +674,6 @@ html.visual-refresh {
 		width: 144px;
 		border-radius: 4px;
 		border: none;
-		margin-right: 80px;
 		.DraftEditor-root {
 			padding: 2px 0;
 			line-height: 20px;
@@ -1007,7 +1006,7 @@ html.visual-refresh {
 	.toolbar__9293f.toolbar__9293f {
 	  gap: 0;
 	  margin-left: 10px;
-	  margin-right: calc(20px * var(--trailingCounter));
+	  margin-right: calc(40px * var(--trailingCounter));
 	  padding: 0;
 	}
 	.base__5e434 {
@@ -2514,10 +2513,12 @@ html:is([lang="en-us"]) .groupHeader__971b5[id="Filters"] [data-text-variant="te
 	top: 51px;
 	gap: 8px;
 	z-index: 102;
-	margin-right: -38px;
 }
 .bar_c38106 .trailing_c38106 .clickable_c99c29 {
-	margin: unset;
+	svg {
+		height: 32px;
+		width: 24px;
+	}
 }
 .bar_c38106 .channelTabs-trailing .trailing_c38106 {
 	top: 36px;
