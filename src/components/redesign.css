@@ -1004,12 +1004,34 @@ html.visual-refresh {
 		margin-right: 4px;
 	}
 
+	.toolbar__9293f.toolbar__9293f {
+	  gap: 0;
+	  margin-left: 10px;
+	  margin-right: calc(20px * var(--trailingCounter));
+	  padding: 0;
+	}
 	.base__5e434 {
 		grid-template-areas:
 			"titleBar titleBar titleBar"
 			"notice notice notice"
 			"guildsList channelsList page";
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 22px [end];
+		--trailingCounter: 1;
+		&:has(.trailing_c38106 > :nth-child(2 of :not(span, .winButtons_c38106))) {
+		  --trailingCounter: 2;
+		}
+		&:has(.trailing_c38106 > :nth-child(3 of :not(span, .winButtons_c38106))) {
+		  --trailingCounter: 3;
+		}
+		&:has(.trailing_c38106 > :nth-child(4 of :not(span, .winButtons_c38106))) {
+		 --trailingCounter: 4;
+		}
+		&:has(.trailing_c38106 > :nth-child(5 of :not(span, .winButtons_c38106))) {
+		  --trailingCounter: 5;
+		}
+		&:has(.trailing_c38106 > :nth-child(6 of :not(span, .winButtons_c38106))) {
+		  --trailingCounter: 6;
+		}
 	}
 	.base__5e434 .sidebar__5e434 {
 		display: grid;
@@ -2560,7 +2582,7 @@ html .bar_c38106 {
 	gap: unset;
 	justify-content: center;
 	bottom: 38px;
-	left: -14px;
+	right: -12px;
 	z-index: 3001;
 	-webkit-app-region: no-drag !important;
 	.winButton_c38106 {
@@ -2580,8 +2602,8 @@ html .bar_c38106 {
 	min-height: 22px;
 	z-index: 999999 !important;
 	.winButtons_c38106 {
-		bottom: 39px;
-		left: -84px;
+		bottom: 42px;
+		left: -96px;
 	}
 	html.platform-linux & {
 		display: none;
