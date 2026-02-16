@@ -5,7 +5,9 @@
 >  i can no longer justify creating a theme for a platform that wants me to send my ugly ass face just to use it. i don't trust them with my sensitive data, especially after the [last breach](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service).
 >
 > 
-> if you're looking for an alternative, there is [stoat](https://stoat.chat/), [fluxer](https://fluxer.app/) and [spacebar](https://spacebar.chat/), stoat having the most users
+> if you're looking for an alternative, there is [stoat](https://stoat.chat/) and [spacebar](https://spacebar.chat/), stoat having the most users
+>
+> **Avoid Fluxer.** While it may be open-source, [the project maintainer Hampus owns all contributor code and make it closed-source later](https://cla-assistant.io/fluxerapp/fluxer), a technique used by things like MongoDB to lock users in and enshittify later
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
