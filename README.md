@@ -7,7 +7,7 @@
 > 
 > if you're looking for an alternative, there is [stoat](https://stoat.chat/) and [spacebar](https://spacebar.chat/), stoat having the most users
 >
-> **Avoid Fluxer.** While it may be open-source under the AGPL license, [it uses a CLA. **The project maintainer Hampus owns all contributor code and make it closed-source later**](https://cla-assistant.io/fluxerapp/fluxer), a technique used by things like MongoDB to lock users in and enshittify later
+> **Avoid Fluxer.** While it may be open-source under the AGPL license, [it uses a CLA; **The project maintainer Hampus owns all contributor code and make it closed-source later**](https://cla-assistant.io/fluxerapp/fluxer), a technique used by things like MongoDB to lock users in and enshittify later
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
