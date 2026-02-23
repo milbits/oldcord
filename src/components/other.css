@@ -180,6 +180,39 @@ code {
 	}
 }
 
+/* mana switches */
+.switchIndicator_a28278 {
+	height: 28px;
+	width: 44px;
+	background-color: #72767d !important;
+	transition: 0.1s;
+	&:hover {
+		background-color: hsl(222deg 4.63% 55.35%) !important;
+	}
+	&:active {
+		background-color: hsl(222deg 4.63% 42.35%) !important;
+	}
+	.thumb_a28278 {
+		width: 32px;
+		height: 32px;
+		margin-left: -5px;
+		margin-top: -3px;
+	}
+}
+
+.switchIndicator_a28278:has(>.thumb_a28278[style="left: 24px;"]) {
+	background-color: var(--blurple) !important;
+	&:hover {
+		background-color: var(--brand-experiment-400) !important;
+	}
+	&:active {
+		background-color: var(--blurple-hover) !important;
+	}
+	.thumb_a28278 {
+		margin-left: -10px;
+	}
+}
+
 /* change color to green just for the role permissions form */
 .permissionsForm__16663 .container__87bf1 .input__87bf1 {
 	&:checked:before {

@@ -887,6 +887,9 @@ html.visual-refresh {
 			min-height: unset;
 			padding: unset;
 		}
+		.buttonChildrenWrapper_a22cb0, .buttonChildren_a22cb0 {
+			overflow: visible;
+		}
 	}
 	.button__7d7f7 {
 		border-radius: 999% !important;
@@ -2148,6 +2151,7 @@ html.visual-refresh {
 	.tooltip__4e35b,
 	.dialogWrapper_b1f768,
 	.popout__76f04,
+	.popout_a16aea,
 	.container__4e30a {
 		background: var(--background-surface-higher);
 		border-radius: 4px;
@@ -2237,13 +2241,29 @@ html.visual-refresh {
 			background-color: var(--deprecated-text-input-bg);
 			border: 1px solid var(--deprecated-text-input-border);
 		}
+		.color-mix_a22cb0 {
+			&:before {
+				all: unset;
+			}
+			&:hover {
+				color: var(--icon-normal);
+			}
+		}
 		.actionBar__8a031 {
 			border-top: 1px var(--border-subtle);
 			background: var(--modal-footer-background);
 			padding: 16px;
 			border-radius: 5px;
+			.actionBarLeading__8a031 {
+				.clearAfterSelectContainer_dbc4b7 {
+					margin-inline-start: 0;
+				}
+			}
 			.actionBarTrailing__8a031 {
 				flex-direction: row-reverse;
+				.stack_dbd263[data-direction="vertical"] {
+					flex-direction: row;
+				}
 			}
 			.stack_dbd263 {
 				width: auto;
