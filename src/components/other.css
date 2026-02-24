@@ -182,7 +182,7 @@ code {
 
 /* mana switches */
 .switchIndicator_a28278 {
-	height: 28px;
+	height: 24px;
 	width: 44px;
 	background-color: #72767d !important;
 	transition: 0.1s;
@@ -193,10 +193,16 @@ code {
 		background-color: hsl(222deg 4.63% 42.35%) !important;
 	}
 	.thumb_a28278 {
-		width: 32px;
-		height: 32px;
-		margin-left: -5px;
-		margin-top: -3px;
+		width: 24px;
+		height: 24px;
+		margin-left: -4px;
+		margin-top: -2px;
+		rect {
+			width: 18px;
+			height: 18px;
+			rx: 50px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+		}
 	}
 }
 
@@ -209,7 +215,7 @@ code {
 		background-color: var(--blurple-hover) !important;
 	}
 	.thumb_a28278 {
-		margin-left: -10px;
+		margin-left: -6px;
 	}
 }
 
