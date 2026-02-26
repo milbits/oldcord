@@ -141,6 +141,8 @@ html:not(.custom-theme-background) .theme-light {
 	--background-secondary-alt: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%);
 	--text-default: hsl(0deg 0% 13.33%);
 	--chat-background-default: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90.94%);
+	--primary-630: var(--background-secondary);
+    --primary-660: var(--background-tertiary);
 	--primary-700: var(--background-tertiary);
 
 	--background-modifier-accent: #06060714;
