@@ -12,7 +12,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--primary-600: hsl(220, calc(var(--saturation-factor, 1) * 8%), 23%);
 	--primary-630: hsl(223, calc(var(--saturation-factor, 1) * 7%), 20%);
 	--primary-660: hsl(220, calc(var(--saturation-factor, 1) * 7%), 17%);
-	--primary-700: hsl(216, calc(var(--saturation-factor, 1) * 7%), 15%);
+	--primary-700: hsl(216, calc(var(--saturation-factor, 1) * 7%), 14%);
 	--primary-800: hsl(220, calc(var(--saturation-factor, 1) * 8%), 10%);
 	--interactive-muted: var(--primary-500);
 	--background-primary: var(--primary-600);
