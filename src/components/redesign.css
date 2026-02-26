@@ -777,7 +777,7 @@ html.visual-refresh {
 			margin-top: -7px;
 			height: 20px;
 		}
-		.item__971b5:has(.labelWithElements__971b5) > div {
+		.item__971b5 > svg+div:has(.labelWithElements__971b5) {
 			display: grid;
 			grid-template-areas: "category user tag";
 			.filterSublabelTextContainer__971b5 {

@@ -693,8 +693,7 @@ html.theme-dark .badgeContainer__635ed path {
 		color: var(--interactive-text-active);
 	}
 }
-.user-profile-popout .tags__63ed3,
-.user-profile-popout .info_f4bc97:not(.alignPomelo__0a06e) {
+.user-profile-popout .tags__63ed3 {
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
@@ -719,12 +718,12 @@ html.theme-dark .badgeContainer__635ed path {
 	padding: 0px 16px;
 }
 /*bot tag*/
+.botTagRegular__82f07 svg path {
+	fill: currentColor;
+}
 .outer_c0bea0.user-profile-popout:has(.card__39ec2) .botTagRegular__82f07 {
 	background-color: var(--white-500);
 	color: var(--blurple);
-	& svg path {
-		fill: var(--blurple) !important;
-	}
 }
 
 /** Custom status*/
@@ -808,18 +807,6 @@ html.theme-dark .badgeContainer__635ed path {
 	left: 114px !important;
 	background: var(--background-tertiary);
 	outline: 10px solid var(--background-tertiary);
-}
-
-svg.icon_a22cb0:has(path[d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"]) {
-	stroke: var(--interactive-text-normal);
-	stroke-width: 2px;
-	transform: scale(0.98);
-	height: 20px;
-	> path {
-		d: path(
-			"M12 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Zm0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2m0 10c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2Z"
-		);
-	}
 }
 
 .user-profile-modal-v2 .tags__63ed3 {
