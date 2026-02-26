@@ -1,28 +1,17 @@
-
-> [!NOTE]
-> Following discord's [age verification](https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally) announcement from the 9th feb, i (milbit) decided to step down indefinitely. kinggamingyt will be the maintainer going forward.
-> 
->  i can no longer justify creating a theme for a platform that wants me to send my ugly ass face just to use it. i don't trust them with my sensitive data, especially after the [last breach](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service).
->
-> 
-> if you're looking for an alternative, there is [stoat](https://stoat.chat/) and [spacebar](https://spacebar.chat/), stoat having the most users
->
-> ~~**Avoid Fluxer.** While it may be open-source under the AGPL license, [it uses a CLA; **The project maintainer Hampus owns all contributor code and can make it closed-source later**](https://cla-assistant.io/fluxerapp/fluxer), a technique used by things like MongoDB to lock users in and enshittify later. It is not truly free~~
-> 
-> CLA was removed on the 18th february!
 # OldCord
 
 A Discord theme that tries to restore its 2020 UI
 
- By default, it removes profile effects (like banners) and clan tags. See `addons` below to get them back!
+By default, it removes profile effects (like banners) and clan tags. See `addons` below to get them back!
 
 ![Preview](https://raw.githubusercontent.com/milbits/oldcord/master/.github/preview.webp)
 
 > [!IMPORTANT]
+>
 > - For the old grey colors, use the "Ash" theme in `Appearance` under settings
 >   - Don't use vencord's "Client Theme" plugin, use Discord's own theme picker (with fakenitro if needed)
 > - Enable "Sync Profile Themes" in `Settings > Accessibility` to fix broken profile colors
-> - Disable "display name style" in `Settings > Accessibility`  if you don't want the flashy names
+> - Disable "display name style" in `Settings > Accessibility` if you don't want the flashy names
 > - UI Density should be on default, i won't support the other 2 options (they still kinda work, though)
 > - If you use BetterFolders, expect half your screen to turn blank every few months
 
@@ -40,33 +29,31 @@ Adjust the tint with `--oldcord-tint`, value/number has to be in HSL hue (e.g. 2
 
 </details>
 
-
-
 <details><summary><h1>Addons</h1></summary>
 
 ## By OldCord
 
 These are usually included in oldcord.theme.css, so all you need to do is remove `/*` in the file for each addon you want to use
 
-| Name                   | Preview                                                                                | CSS                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| Show Profile Effects (the one you prob want) | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp)                                                         | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
-| Show Clan Tags | im too lazy for an image                                                     | `@import url("https://milbits.github.io/oldcord/src/components/showTags.css");` |
-| Old Plead Emoji        | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)     | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
-| Context Menu hover bg. | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp> | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
-| [Tanza3D & KingGamingYT's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic)                         | Restores the old image layout                               |
+| Name                                                                                                          | Preview                                                                                     | CSS                                                                                |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Show Profile Effects (the one you prob want)                                                                  | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/showeffects.webp) | `@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");` |
+| Show Clan Tags                                                                                                | im too lazy for an image                                                                    | `@import url("https://milbits.github.io/oldcord/src/components/showTags.css");`    |
+| Old Plead Emoji                                                                                               | ![Image](https://raw.githubusercontent.com/milbits/oldcord/master/.github/emojis.webp)      | `@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");`   |
+| Context Menu hover bg.                                                                                        | <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/oldcontext.webp>  | `@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");`  |
+| [Tanza3D & KingGamingYT's NoMosaic plugin (BetterDiscord)](https://github.com/KingGamingYT/discord-no-mosaic) | Restores the old image layout                                                               |
 
 If you use custom/quickcss, paste the CSS at the very top!
 
 ## 3rd party
 
-| Name                                                                                                                                  | Description                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37) |
-| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                               |
-| [KingGamingYT's NoMosaic plugin](https://betterdiscord.app/plugin/NoMosaic)                                                           | BetterDiscord NoMosaic plugin
-| [NewOldProfiles](https://betterdiscord.app/plugin/NewOldProfiles)                                                                     | Restores period-accurate profiles w/ modern enhancements    |
-| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                            |
+| Name                                                                                                                                  | Description                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37)   |
+| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                            |
+| [KingGamingYT's NoMosaic plugin](https://betterdiscord.app/plugin/NoMosaic)                                                           | BetterDiscord NoMosaic plugin                            |
+| [NewOldProfiles](https://betterdiscord.app/plugin/NewOldProfiles)                                                                     | Restores period-accurate profiles w/ modern enhancements |
+| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                         |
 
 ---
 
@@ -89,7 +76,6 @@ Paste the following in `Settings > Themes`:
 
 - `https://milbits.github.io/oldcord/src/main.css`
 
-
 ## 🚮[BetterDiscord](https://betterdiscord.app/)
 
 1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
@@ -99,7 +85,6 @@ Paste the following in `Settings > Themes`:
 - Linux: `~/.config/BetterDiscord/themes`
 - MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
 
-
 ## 🎛️ Other
 
 1. Paste the following at **the top** of the CSS file/window:
@@ -107,5 +92,3 @@ Paste the following in `Settings > Themes`:
 ```css
 @import url("https://milbits.github.io/oldcord/src/main.css");
 ```
-
-

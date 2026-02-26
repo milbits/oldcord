@@ -206,7 +206,7 @@ code {
 	}
 }
 
-.switchIndicator_a28278:has(>.thumb_a28278[style="left: 24px;"]) {
+.switchIndicator_a28278:has(> .thumb_a28278[style="left: 24px;"]) {
 	background-color: var(--blurple) !important;
 	&:hover {
 		background-color: var(--brand-experiment-400) !important;
@@ -232,7 +232,7 @@ code {
 
 /* revert channel role permissions (beta), looks kinda bad when zoomed in but i'll try to fix that */
 .group__344e6 {
-	background-color: var(--background-tertiary);
+	background-color: var(--primary-700);
 	width: 108px;
 	grid-gap: 1px;
 }
@@ -329,7 +329,7 @@ code {
 	background: none !important;
 }
 .item__88a69 .radioBar__88a69 {
-	border: solid 1px var(--background-tertiary);
+	border: solid 1px var(--primary-700);
 	border-radius: 4px;
 	background: var(--deprecated-card-editable-bg);
 	grid-gap: 10px;
@@ -551,9 +551,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 /* tags*/
 .sortDropdown_f369db,
 .tagsButton_f369db {
-	background: var(--background-secondary-alt) !important;
+	background: var(--primary-660) !important;
 	&:hover {
-		background: var(--background-tertiary) !important;
+		background: var(--primary-700) !important;
 	}
 }
 .sortDropdownText_f369db {
@@ -592,10 +592,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 /*make follow button green*/
-.secondary_a22cb0:has(
-	path
-		[d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"]
-) {
+.container_faa96b
+	.secondary_a22cb0:has(
+		path
+			[d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"]
+	) {
 	background-color: var(--green) !important;
 	color: white;
 	border-radius: 16px !important;
@@ -608,10 +609,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		background-color: var(--green-active) !important;
 	}
 }
-.secondary_a22cb0:has(
-	path
-		[d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]
-) {
+.container_faa96b
+	.secondary_a22cb0:has(
+		path
+			[d="M16.32 14.72a1 1 0 0 1 0-1.41l2.51-2.51a3.98 3.98 0 0 0-5.62-5.63l-2.52 2.51a1 1 0 0 1-1.41-1.41l2.52-2.52a5.98 5.98 0 0 1 8.45 8.46l-2.52 2.51a1 1 0 0 1-1.41 0ZM7.68 9.29a1 1 0 0 1 0 1.41l-2.52 2.51a3.98 3.98 0 1 0 5.63 5.63l2.51-2.52a1 1 0 0 1 1.42 1.42l-2.52 2.51a5.98 5.98 0 0 1-8.45-8.45l2.51-2.51a1 1 0 0 1 1.42 0Z"]
+	) {
 	background: none !important;
 	padding: 8px !important;
 }
@@ -671,15 +673,15 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 :is(.isOpen_faa96b, .isOpen__9a337) {
 	transform: translateY(-5px) !important;
-	background: var(--background-secondary-alt) !important;
+	background: var(--primary-660) !important;
 	box-shadow: var(--elevation-high), var(--legacy-elevation-border) !important;
 }
 
 /** Devices Tab*/
 /* make description a card*/
 .description__803f2 {
-	background: var(--background-secondary);
-	outline: 1px solid var(--background-tertiary);
+	background: var(--primary-630);
+	outline: 1px solid var(--primary-700);
 	border-radius: 5px;
 	color: var(--text-default);
 	font-weight: 400;
@@ -741,7 +743,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 /** Connections (in settings > connections)*/
 .connectContainer_c7f964 {
 	border-radius: 8px;
-	background: var(--background-secondary-alt);
+	background: var(--primary-660);
 }
 .accountButtonInner_c7f964 {
 	background-color: var(--background-mod-subtle);
@@ -1123,7 +1125,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 /* fix pinned message padding */
 .messageGroupWrapper_e8b59c {
 	background: var(--background-primary);
-	border: 1px solid var(--background-tertiary);
+	border: 1px solid var(--primary-700);
 	border-radius: 4px;
 }
 .messageGroupWrapper_e8b59c .messageGroupCozy_e8b59c {
@@ -1166,7 +1168,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 .header_e8b59c {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 }
 .messagesPopoutWrap_e8b59c {
 	border-radius: 4px;
@@ -1429,7 +1431,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	padding: 8px;
 	border-radius: 999px;
 	background: none;
-	border: 2.5px solid var(--background-secondary-alt);
+	border: 2.5px solid var(--primary-660);
 	.container__183c2 {
 		order: -1;
 	}
@@ -1615,87 +1617,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		margin-right: -1px;
 	}
 }
-
-/* new experimental image viewer - this sucks, don't use it
-
-.carouselModal_d3a6f0 {
-	align-items: start;
-	justify-content: center;
-	width: fit-content;
-	z-index: 0;
-}
-
-.topBar__6088c {
-	z-index: -1;
-}
-
-.closeButton__6088c {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	padding: 0;
-	opacity: 0;
-	cursor: unset;
-}
-
-.messageContents__6088c {
-	display: none;
-}
-
-.wrapper_b2eddf {
-	flex-grow: unset;
-	pointer-events: none;
-}
-
-.mediaWrapper_b2eddf {
-	position: unset;
-	width: fit-content;
-}
-
-.imageWrapper_af017a {
-	pointer-events: all;
-}
-
-.actionButtonContainer_c319f9 {
-	margin-top: -10px;
-	pointer-events: none;
-}
-
-.actionButtons_cc1819 {
-	background-color: transparent;
-	border-radius: 0;
-	gap: 1;
-	padding: 0;
-}
-.actionButtons_cc1819 button {
-	background: transparent !important;
-	margin: 0;
-	padding: 1;
-	width: fit-content;
-	pointer-events: all;
-	svg {
-		display: none;
-	}
-
-	&:after {
-		content: attr(aria-label);
-		color: var(--white-500) !important;
-		font-size: 14px;
-		font-weight: 500;
-		line-height: 18px;
-		transition: opacity 0.15s ease;
-		opacity: 0.5;
-	}
-
-	&:hover:after {
-		opacity: 1;
-		-webkit-text-decoration: underline;
-		text-decoration: underline;
-	}
-}
-*/
 /*themes in appearance
 stolen and modified from 11pixels' dtm16
 https://github.com/XYZenix/DTM-16
@@ -1727,7 +1648,7 @@ https://github.com/XYZenix/DTM-16
 		width: 130px;
 		height: 60px;
 		background-size: 130px 100px;
-		border: solid 1px var(--background-secondary-alt);
+		border: solid 1px var(--primary-660);
 		border-bottom: none;
 		border-radius: 4px 4px 0 0;
 	}
@@ -1735,8 +1656,8 @@ https://github.com/XYZenix/DTM-16
 		content: attr(aria-label);
 		font-weight: 600;
 		font-size: 14px;
-		background: var(--background-secondary);
-		border: solid 1px var(--background-secondary-alt);
+		background: var(--primary-630);
+		border: solid 1px var(--primary-660);
 		border-radius: 0 0 4px 4px;
 		width: 130px;
 		height: auto;
@@ -1825,7 +1746,7 @@ https://github.com/XYZenix/DTM-16
 
 /* authed apps */
 .authedAppV2__50a54 {
-	border: 1px solid var(--background-tertiary);
+	border: 1px solid var(--primary-700);
 	border-radius: 5px;
 	background: none;
 	.headerV2__50a54 {
@@ -1896,7 +1817,7 @@ https://github.com/XYZenix/DTM-16
 	user-select: none;
 	width: 100%;
 	border: unset;
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	.established__6e500 {
 		display: none;
 	}
@@ -1939,7 +1860,7 @@ https://github.com/XYZenix/DTM-16
 	margin-right: 50px;
 	border: none;
 	border-radius: 3px;
-	background: var(--background-tertiary) !important;
+	background: var(--primary-700) !important;
 	& .balanceCounterText__98f64 {
 		color: inherit;
 	}
@@ -1995,7 +1916,7 @@ https://github.com/XYZenix/DTM-16
 .guildDetails__4cb8a {
 	outline: none !important;
 	border-radius: 4px;
-	background-color: var(--background-tertiary);
+	background-color: var(--primary-700);
 	&:hover {
 		box-shadow: var(--legacy-elevation-high);
 	}
@@ -2006,7 +1927,7 @@ https://github.com/XYZenix/DTM-16
 }
 &.theme-dark .iconMask__4cb8a,
 &.theme-light .iconMask__4cb8a {
-	background-color: var(--background-tertiary);
+	background-color: var(--primary-700);
 }
 .transitionGroup__4cb8a {
 	transition: ease 0.5s;
@@ -2020,10 +1941,10 @@ https://github.com/XYZenix/DTM-16
 }
 /*events tab*/
 .card__88264 {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	border: 0;
 	&:hover {
-		background: var(--background-secondary-alt);
+		background: var(--primary-660);
 	}
 	#app-mount & .active_a22cb0 {
 		background: transparent;
@@ -2061,7 +1982,7 @@ https://github.com/XYZenix/DTM-16
 .mainTableContainer__09a38 {
 	border: none;
 	& .button__71c22 {
-		background: var(--background-secondary);
+		background: var(--primary-630);
 	}
 	& .heading-md\/semibold_cf4812 {
 		display: none;

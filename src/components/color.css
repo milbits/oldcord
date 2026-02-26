@@ -87,7 +87,7 @@
 }
 /** Dropdown*/
 .popout__3f413 {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	margin-top: 0 !important;
 	border: none;
 	border-radius: 0 0px 4px 4px !important;
@@ -96,10 +96,10 @@
 .option__3f413 {
 	color: var(--interactive-text-active) !important;
 	&:is(:hover, :focus) {
-		background-color: var(--background-secondary-alt) !important;
+		background-color: var(--primary-660) !important;
 	}
 	&[aria-selected="true"] {
-		background-color: var(--background-tertiary) !important;
+		background-color: var(--primary-700) !important;
 	}
 }
 
@@ -118,7 +118,7 @@
 	background-color: var(--background-primary) !important;
 	color: var(--interactive-text-active);
 	&:hover {
-		background-color: var(--background-secondary) !important;
+		background-color: var(--primary-630) !important;
 	}
 }
 .overlay-a22cb0c66246f5d3-primary {
@@ -191,7 +191,7 @@
 	background: var(--background-gradient-low, var(--background-primary));
 }
 .container__55c99 .option__56fec:hover {
-	background: var(--background-gradient-lowest, var(--background-tertiary));
+	background: var(--background-gradient-lowest, var(--primary-700));
 }
 /*search results*/
 .searchHeader_f3b986 {
@@ -223,7 +223,7 @@
 }
 
 .searchResult__02a39 {
-	border: solid 1px var(--background-tertiary);
+	border: solid 1px var(--primary-700);
 	border-radius: 4px;
 }
 
@@ -355,7 +355,7 @@
 /** Select Menus*/
 .select__3f413,
 .copyInput_fffc15 {
-	background-color: var(--background-secondary) !important;
+	background-color: var(--primary-630) !important;
 	border-radius: 3px;
 	transition: border 0.2s ease-in-out;
 	cursor: default !important;
@@ -480,7 +480,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 .nowPlayingColumn__133bf .container__7d20c,
 .profileCard__5d7c9,
 .prompt__5d7c9 {
-	background-color: var(--background-secondary);
+	background-color: var(--primary-630);
 }
 .scroller__7d20c {
 	border: none;
@@ -495,7 +495,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 }
 .wrapper__00943 {
 	border: none;
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	border-radius: 4px;
 }
 
@@ -527,9 +527,9 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 }
 
 .vc-addon-card {
-	background: var(--background-secondary-alt) !important;
+	background: var(--primary-660) !important;
 	border: none !important;
 	&:hover {
-		background: var(--background-tertiary) !important;
+		background: var(--primary-700) !important;
 	}
 }

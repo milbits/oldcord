@@ -5,7 +5,7 @@
 	opacity: 0.5 !important;
 }
 .panel__5dec7 {
-	background-color: var(--background-gradient-lowest, var(--background-secondary-alt)) !important;
+	background-color: var(--background-gradient-lowest, var(--primary-660)) !important;
 	.gameName__8c6c2 {
 		color: var(--header-secondary);
 		font-size: 14px;
@@ -248,15 +248,15 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	--text-secondary: rgba(255, 255, 255, 0.8);
 	--interactive-text-normal: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
-	--background-tertiary: var(--brand-experiment);
-	--background-secondary-alt: var(--brand-experiment-530);
+	--primary-700: var(--brand-experiment);
+	--primary-660: var(--brand-experiment-530);
 
 	/*Change color based on activity type*/
 
 	/* Listening to Spotify*/
 	&:has(img[src^="https://i.scdn.co/"]) {
-		--background-tertiary: var(--spotify);
-		--background-secondary-alt: var(--spotify-dark);
+		--primary-700: var(--spotify);
+		--primary-660: var(--spotify-dark);
 	}
 	/* Live on Twitch
 	&:has([mask="url(#svg-mask-status-streaming)"]) {
@@ -292,14 +292,14 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 
 	/* Playing on XBOX
 	&:has([style="mask-image: url(\"/assets/c4f09fda61827e19.svg\");"]) {
-		--background-tertiary: var(--xbox);
-		--background-secondary-alt: var(--xbox-dark);
+		--primary-700: var(--xbox);
+		--primary-660: var(--xbox-dark);
 	}
 
 	/* Playing on PlayStation
 	&:has([style='mask-image: url("/assets/eed203a7ec517e23.svg");']) {
-		--background-tertiary: var(--playstation2);
-		--background-secondary-alt: var(--playstation-dark);
+		--primary-700: var(--playstation2);
+		--primary-660: var(--playstation-dark);
 	}*/
 }
 
@@ -404,7 +404,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	align-items: center;
 }
 .user-profile-popout .actions__39ec2 button {
-	background-color: var(--control-background-secondary-default) !important;
+	background-color: var(--control-primary-630-default) !important;
 	border: 1px solid var(--white) !important;
 }
 .user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
@@ -436,7 +436,7 @@ section:has(.clickableContainer__39ec2) {
 
 /* change activity bg color and padding*/
 .user-profile-popout .card__39ec2 {
-	background-color: var(--background-secondary-alt) !important;
+	background-color: var(--primary-660) !important;
 	padding: 16px;
 	border-radius: 0;
 }
@@ -564,7 +564,7 @@ html.theme-dark .badgeContainer__635ed path {
 	right: 0.5px;
 	margin-top: -15px;
 	position: absolute;
-	background-color: var(--background-tertiary) !important;
+	background-color: var(--primary-700) !important;
 }
 
 /*! normal profile popout*/
@@ -577,16 +577,16 @@ html.theme-dark .badgeContainer__635ed path {
 /*profile stuff*/
 .user-profile-popout .inner_c0bea0,
 .custom-user-profile-theme {
-	--profile-gradient-primary-color: var(--background-secondary-alt);
-	--profile-gradient-secondary-color: var(--background-secondary-alt);
+	--profile-gradient-primary-color: var(--primary-660);
+	--profile-gradient-secondary-color: var(--primary-660);
 	--profile-gradient-overlay-color: transparent;
 	--profile-gradient-button-color: var(--button-secondary);
-	--profile-avatar-border-color: var(--background-secondary-alt);
+	--profile-avatar-border-color: var(--primary-660);
 	--profile-message-input-border-color: var(--background-modifier-accent);
 	--profile-body-background-color: var(--background-floating);
 	--profile-body-background-hover: var(--background-mod-subtle);
 	--profile-body-divider-color: var(--background-modifier-accent);
-	--profile-role-pill-background-color: var(--background-secondary-alt);
+	--profile-role-pill-background-color: var(--primary-660);
 	--profile-role-pill-border-color: var(--interactive-text-normal);
 	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
@@ -624,11 +624,11 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 .user-profile-popout .inner_c0bea0 {
-	background: var(--background-secondary) !important;
+	background: var(--primary-630) !important;
 	border-radius: unset;
 }
 .header__5be3e {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	box-shadow: none;
 	padding: 0 !important;
 	display: flex;
@@ -674,7 +674,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*username*/
 
 .user-profile-popout .container__63ed3 {
-	background: var(--background-tertiary) !important;
+	background: var(--primary-700) !important;
 	order: -1;
 	padding-bottom: 23px;
 	gap: 0 !important;
@@ -746,7 +746,7 @@ html.theme-dark .badgeContainer__635ed path {
 	transition: ease 0.4s background;
 
 	&:hover {
-		background: var(--background-tertiary) !important;
+		background: var(--primary-700) !important;
 		transition: ease height background-color 0.2s;
 	}
 	text-align: center;
@@ -789,7 +789,7 @@ html.theme-dark .badgeContainer__635ed path {
 	color: var(--header-secondary) !important;
 }
 .profile__9c3be {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	box-shadow: none;
 	outline: none;
 	border-radius: 0;
@@ -797,7 +797,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 .profileHeader__9c3be {
 	min-height: 250px !important;
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 }
 
 .user-profile-modal-v2 .profileHeader__9c3be .avatar__75742 {
@@ -805,12 +805,12 @@ html.theme-dark .badgeContainer__635ed path {
 	position: absolute !important;
 	top: 0px !important;
 	left: 114px !important;
-	background: var(--background-tertiary);
-	outline: 10px solid var(--background-tertiary);
+	background: var(--primary-700);
+	outline: 10px solid var(--primary-700);
 }
 
 .user-profile-modal-v2 .tags__63ed3 {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	flex-direction: column;
 	position: fixed;
 	top: 130px;
@@ -844,7 +844,7 @@ html.theme-dark .badgeContainer__635ed path {
 	position: fixed;
 	left: 0px;
 	width: 350px;
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	justify-content: center;
 	padding-bottom: 6px;
 }
@@ -854,7 +854,7 @@ html.theme-dark .badgeContainer__635ed path {
 	margin: 0;
 }
 .profileBody__9c3be {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	padding: 0;
 }
 .user-profile-modal-v2 .section_bf424d,
@@ -887,7 +887,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 .user-profile-modal-v2 .cards__764cd li {
 	border-radius: 5px;
-	background: var(--background-secondary-alt) !important;
+	background: var(--primary-660) !important;
 
 	& .headerText__39ec2 {
 		font-weight: 800;
@@ -1093,7 +1093,7 @@ html.theme-dark .badgeContainer__635ed path {
 			border-radius: 10px;
 		}
 		&:hover::-webkit-scrollbar-thumb {
-			background: var(--background-gradient-highest, var(--background-tertiary));
+			background: var(--background-gradient-highest, var(--primary-700));
 			border-radius: 999px;
 		}
 	}
@@ -1150,7 +1150,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /* mutuals section*/
 .mutuals__530ce {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	justify-content: center;
 	& .text__530ce {
 		color: var(--interactive-text-normal) !important;
@@ -1203,7 +1203,7 @@ html.theme-dark .badgeContainer__635ed path {
 		border-radius: 10px;
 	}
 	&:hover::-webkit-scrollbar-thumb {
-		background: var(--background-gradient-highest, var(--background-tertiary));
+		background: var(--background-gradient-highest, var(--primary-700));
 		border-radius: 999px;
 	}
 	&:before {
@@ -1386,7 +1386,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	gap: 0;
 }
 #app-mount .buttons_bc38cd button {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	border-radius: 0;
 	border-top: 1px solid rgb(255, 255, 255, 0.15) !important;
 
@@ -1424,7 +1424,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	}
 	.background__1fed1,
 	.fieldList__1fed1 {
-		background: var(--background-secondary);
+		background: var(--primary-630);
 	}
 	.fieldList__1fed1 {
 		margin-left: 100px;
@@ -1452,10 +1452,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .accountProfileCard__1fed1 .avatar__1fed1 {
 	position: absolute;
 	top: 15px;
-	background-color: var(--background-secondary);
+	background-color: var(--primary-630);
 }
 .accountProfileCard__1fed1 {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 }
 .background__1fed1,
 .fieldList__1fed1 {
@@ -1487,21 +1487,21 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 /*thing in the member list*/
 .container__0f2e8 {
-	background: var(--background-secondary-alt) !important;
+	background: var(--primary-660) !important;
 	border-radius: 5px 5px 3px 3px;
-	border: 1px solid var(--background-tertiary) !important;
+	border: 1px solid var(--primary-700) !important;
 	margin-top: 4px;
 	&:has(.tabularNumbers__4bd52) {
 		background: var(--brand-experiment-10a) !important;
 		transition: 0.1s ease;
-		--background-tertiary: var(--brand-experiment-10a);
+		--primary-700: var(--brand-experiment-10a);
 		&:hover {
 			background: var(--brand-experiment-20a) !important;
 			transition: 0.1s ease;
 		}
 	}
 	&:hover {
-		background: var(--background-tertiary) !important;
+		background: var(--primary-700) !important;
 	}
 	&:before {
 		content: "";
@@ -1511,7 +1511,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		right: -1px;
 		height: 18px;
 		border-radius: 5px 5px 0 0;
-		background: var(--background-tertiary);
+		background: var(--primary-700);
 	}
 	& .contentImage__42bf5 {
 		z-index: 1;
@@ -1530,7 +1530,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 
 /*game info*/
 .popoutContentWrapper_af3b89 {
-	background: var(--background-tertiary);
+	background: var(--primary-700);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	&:has(.tabularNumbers__4bd52) {
@@ -1552,7 +1552,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 /*shitty dm box*/
 .interactionsContainer_af3b89 {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
@@ -1560,7 +1560,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .popout_af3b89 .channelTextArea__74017 {
 	background: var(--chat-background-default) !important;
 	border-radius: 3px;
-	border: solid 1px var(--background-tertiary) !important;
+	border: solid 1px var(--primary-700) !important;
 }
 
 /* dumbass nitro tooltip
@@ -1590,9 +1590,9 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 
 /*user panel in dms*/
 .panel_c0bea0 {
-	background: var(--background-secondary);
+	background: var(--primary-630);
 	& .container__63ed3 {
-		background: var(--background-tertiary);
+		background: var(--primary-700);
 		margin-left: -20px;
 		margin-right: -20px;
 		z-index: 1;
@@ -1601,7 +1601,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		background: unset;
 	}
 	& .header__537ec {
-		background: var(--background-tertiary);
+		background: var(--primary-700);
 	}
 	& .avatar__75742 {
 		left: 37% !important;
@@ -1699,7 +1699,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 
 /*profile widgets/board/game collection*/
 #widgets-tab .container__62dd3 {
-	background: var(--background-secondary-alt);
+	background: var(--primary-660);
 	border: none;
 	border-radius: 12px;
 	& h3 {
