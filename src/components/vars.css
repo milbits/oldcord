@@ -330,6 +330,7 @@ html:not(.custom-theme-background) .theme-light {
 	--crunchyroll-dark: hsl(29, calc(var(--saturation-factor, 1) * 93%), 55%);
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
+	--progressbar-indicator-background: var(--blurple);
 }
 
 .cardPrimary__73069 {
