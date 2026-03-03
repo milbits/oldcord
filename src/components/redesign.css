@@ -244,6 +244,7 @@ html.visual-refresh {
 	.icon__9293f {
 		height: 24px;
 		width: 24px;
+		padding: unset;
 	}
 	.caret_c1e9c4 {
 		width: 16px;
@@ -1095,6 +1096,10 @@ html.visual-refresh {
 				height: 40px;
 			}
 		}
+	}
+	.toolbar__9293f .clickable_c99c29 svg {
+		height: 24px !important;
+		width: 24px;
 	}
 	.toolbar__9293f > .iconWrapper__9293f {
 		height: 24px !important;
