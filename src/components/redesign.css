@@ -2396,7 +2396,9 @@ html.visual-refresh {
 		margin-bottom: 8px;
 		background-color: var(--background-base-lower);
 		border-radius: 3px;
-		color: var(--interactive-text-normal);
+		.bd-radio-description {
+			color: var(--interactive-text-normal);
+		}
 	}
 
 	.bd-radio-option:hover {
