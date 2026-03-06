@@ -1736,12 +1736,17 @@ https://github.com/XYZenix/DTM-16
 }
 
 /* clan tag upsell */
-.popover_d6f39b {
+.popover_d6f39b[data-dialog="non-modal"] {
 	max-width: 220px;
 	margin-left: 63px;
 	margin-bottom: 8px;
 	border-radius: 4px;
 	background: var(--background-floating);
+}
+
+/* vc popovers */
+.container__4e30a, .streamPreview__0489e {
+	border-radius: 4px;
 }
 
 /* authed apps */
