@@ -1745,7 +1745,7 @@ https://github.com/XYZenix/DTM-16
 }
 
 /* vc popovers */
-.container__4e30a, .streamPreview__0489e {
+.popover_d6f39b:not([data-dialog="non-modal"]), .container__4e30a, .streamPreview__0489e {
 	border-radius: 4px;
 }
 
