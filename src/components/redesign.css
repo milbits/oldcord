@@ -2013,7 +2013,7 @@ html.visual-refresh {
 		.tabBar_ab6641 {
 			margin-left: 16px;
 			.tab_ab6641 {
-				flex: 0;
+				flex: 0 0 fit-content;
 				padding: 8px 8px;
 				margin: 0 8px;
 				height: 10px;
