@@ -2013,6 +2013,7 @@ html.visual-refresh {
 		.tabBar_ab6641 {
 			margin-left: 16px;
 			.tab_ab6641 {
+				flex: 0;
 				padding: 8px 8px;
 				margin: 0 8px;
 				height: 10px;
@@ -2553,6 +2554,7 @@ html:is([lang="en-us"]) .groupHeader__971b5[id="Filters"] [data-text-variant="te
 	z-index: 102;
 }
 .bar_c38106 .trailing_c38106 .clickable__81391 {
+	margin: 3px;
 	svg {
 		height: 32px;
 		width: 24px;
@@ -2619,7 +2621,7 @@ html .bar_c38106 {
 	position: absolute;
 	gap: unset;
 	justify-content: center;
-	bottom: 38px;
+	bottom: 35px;
 	right: -12px;
 	z-index: 3001;
 	-webkit-app-region: no-drag !important;
