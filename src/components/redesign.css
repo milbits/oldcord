@@ -1497,6 +1497,10 @@ html.visual-refresh {
 		height: 0;
 	}
 
+	.barButtonMain__0f481 {
+		height: unset;
+	}
+
 	.embedFull__623de {
 		border-top: unset;
 		border-right: unset;
