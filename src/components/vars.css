@@ -110,6 +110,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--status-positive-background: var(--green);
 	--button-danger-background-active: var(--red-active);
 	--button-danger-background: var(--red);
+	--text-feedback-critical: var(--red);
 	--text-danger: var(--red);
 	--info-danger-foreground: var(--red);
 	--status-danger-background: var(--red);

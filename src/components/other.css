@@ -1994,6 +1994,47 @@ https://github.com/XYZenix/DTM-16
 	}
 }
 
+/* failed to load image */
+.imageErrorWrapper_af017a {
+	.imageErrorIllustration_af017a {
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 102px;
+		width: 200px;
+		img {
+			display: none;
+		}		
+	}
+	.imageErrorText_af017a {
+		display: none;
+	}
+}
+.theme-dark .imageErrorIllustration_af017a {
+	background-image: url('https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg');
+}
+.theme-light .imageErrorIllustration_af017a {
+	background-image: url('https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg');
+}
+
+/* invalid invite */
+.guildIconExpired_d5f3cd {
+	background-color: var(--background-base-lowest);
+	background-size: 50px 26px;
+	background-repeat: no-repeat;
+	border: unset;
+	svg {
+		display: none;
+	}
+}
+.theme-dark .guildIconExpired_d5f3cd {
+	background-image: url('https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg');
+}
+
+.theme-light .guildIconExpired_d5f3cd {
+	background-image: url('https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg');
+}
+
 /* ban modal 
 .container__8a031:has(.radioGroup__837b7) {
 	.header__8a031 {

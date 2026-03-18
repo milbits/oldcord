@@ -2302,11 +2302,6 @@ html.visual-refresh {
 		pointer-events: all;
 	}
 
-	/* registered games */
-	.notDetected_cc46f0 {
-		background: var(--background-base-lowest);
-	}
-
 	/* unsaved changes */
 	.container_fcf29c {
 		background-color: var(--primary-700);
@@ -2331,6 +2326,36 @@ html.visual-refresh {
 	/* search header */
 	.searchHeader_ae7890 {
 		background: var(--primary-700);
+	}
+
+	/* nsfw channels */
+	.gatedContent__7184c {
+		.stack_dbd263[data-direction="vertical"]:before {
+			content: url('https://discord.com/assets/a36505883459aecf5df0ae54c6d7495f.svg');
+			height: 250px;
+		    width: 250px;
+		}
+		.title__7184c {
+			color: var(--text-strong) !important;
+		}
+		.description__7184c {
+			color: var(--text-default) !important;
+		}
+		.primary_a22cb0 {
+			background-color: var(--control-critical-primary-background-default);
+			border-color: var(--control-critical-primary-border-default);
+			color: var(--control-critical-primary-text-default);
+			&:hover {
+				background-color: var(--control-critical-primary-background-hover) !important;
+				border-color: var(--control-critical-primary-border-hover) !important;
+				color: var(--control-critical-primary-text-hover) !important;
+			}
+			&:active {
+				background-color: var(--control-critical-primary-background-active) !important;
+				border-color: var(--control-critical-primary-border-active) !important;
+				color: var(--control-critical-primary-text-active) !important;
+			}
+		}
 	}
 
 	/* BetterDiscord Elements */
@@ -2895,7 +2920,7 @@ html .bar_c38106 {
 		font-size: 13px;
 		font-weight: var(--font-weight-semibold);
 	}
-	.defaultKeybindGroup__740f2 {
+	.defaultKeybindGroup__57111 {
 		border-radius: 5px;
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--background-surface-higher);
