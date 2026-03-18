@@ -1410,8 +1410,8 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 /*! profile modal ends here */
 
 /** profiles in settings page, its messy but it works lmao */
-.accountProfileCard__1fed1 {
-	.userInfo__1fed1 .wrapper__44b0c {
+.accountProfileCard_a27e58 {
+	.userInfo_a27e58 .wrapper__44b0c {
 		width: 92px !important;
 		height: 92px !important;
 		.svg__44b0c {
@@ -1419,18 +1419,18 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 			height: 100px;
 		}
 	}
-	.userInfo__1fed1 :is(.profileCardUsernameRow__1fed1, .badgeList__1fed1) {
+	.userInfo_a27e58 :is(.profileCardUsernameRow_a27e58, .badgeList_a27e58) {
 		display: none;
 	}
-	.background__1fed1,
-	.fieldList__1fed1 {
+	.background_a27e58,
+	.fieldList_a27e58 {
 		background: var(--primary-630);
 	}
-	.fieldList__1fed1 {
+	.fieldList_a27e58 {
 		margin-left: 100px;
 		margin-top: -50px;
 	}
-	.fieldButton__1fed1:not(.removeButton__1fed1) {
+	.fieldButton_a27e58:not(.removeButton_a27e58) {
 		background-color: var(--blurple);
 		color: var(--white);
 		border-radius: 3px;
@@ -1442,28 +1442,32 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		}
 	}
 }
-.accountProfileCard__1fed1 > .userInfo__1fed1 {
+.accountProfileCard_a27e58 > .userInfo_a27e58 {
 	margin-top: 10px;
 	margin-bottom: 30px;
 	button:nth-of-type(1) {
 		display: none;
 	}
 }
-.accountProfileCard__1fed1 .avatar__1fed1 {
+.accountProfileCard_a27e58 .avatar_a27e58 {
 	position: absolute;
 	top: 15px;
 	background-color: var(--primary-630);
 }
-.accountProfileCard__1fed1 {
+.accountProfileCard_a27e58 {
 	background: var(--primary-630);
 }
-.background__1fed1,
-.fieldList__1fed1 {
+.background_a27e58,
+.fieldList_a27e58 {
 	background: var(--background-primary);
 }
 
-.overflowMenuIcon__1fed1 {
+.overflowMenuIcon_a27e58 {
 	margin-left: 340px;
+}
+
+.status_d878e7 {
+	padding: 0 var(--space-20) var(--space-8) 0;
 }
 
 /** activities section in member list*/

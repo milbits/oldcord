@@ -741,60 +741,60 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /** Connections (in settings > connections)*/
-.connectContainer_c7f964 {
+.connectContainer__4109d {
 	border-radius: 8px;
 	background: var(--primary-660);
 }
-.accountButtonInner_c7f964 {
+.accountButtonInner__4109d {
 	background-color: var(--background-mod-subtle);
 	background-size: 32px;
 }
-.connectHeader_c7f964 {
+.connectHeader__4109d {
 	color: #7b7c80 !important;
 	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.connectContainer_c7f964 .text-xs\/normal_ccc5fb {
+.connectContainer__4109d .text-xs\/normal_ccc5fb {
 	color: var(--interactive-text-hover) !important;
 	font-size: 13px;
 }
-.connection_c7f964 {
+.connection__4109d {
 	overflow: hidden;
 	background: none;
 	border-radius: 5px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 	width: 660px;
 }
-.connectionAccountLabel_c7f964 {
+.connectionAccountLabel__4109d {
 	color: #fff8 !important;
 }
-.connectionAccountValue_c7f964 .connectionAccountLabelContainer_c7f964 {
+.connectionAccountValue__4109d .connectionAccountLabelContainer__4109d {
 	font-size: 16px;
 	margin-top: 4px;
 	color: var(--white-500);
 	font-weight: 400;
 }
-.connectionOptions_c7f964,
-.upsellWrapper_c7f964 {
+.connectionOptions__4109d,
+.upsellWrapper__4109d {
 	position: relative;
 }
-.metadataContainer_c7f964 {
+.metadataContainer__4109d {
 	position: relative;
 	z-index: 10;
 	background: #0004;
 	border: solid 1px #0004;
 	border-radius: 3px;
 }
-.metadataContainer_c7f964 .connectedAccountVanityMetadataTag_fffe42 {
+.metadataContainer__4109d .connectedAccountVanityMetadataTag_fffe42 {
 	border-radius: 3px;
 	background: none;
 	border: solid 1px #fff3;
 }
-.metadataContainer_c7f964 .text-xs\/normal_ccc5fb {
+.metadataContainer__4109d .text-xs\/normal_ccc5fb {
 	color: #fff !important;
 }
-.metadataContainer_c7f964 .metadataRefreshButton_c7f964 button {
+.metadataContainer__4109d .metadataRefreshButton__4109d button {
 	background-color: var(--blurple-inverted) !important;
 	&:hover {
 		background-color: var(--blurple-inverted-hover) !important;
@@ -806,7 +806,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	transition: 0.17s ease;
 }
 
-.connectionHeader_c7f964:after {
+.connectionHeader__4109d:after {
 	content: "";
 	position: absolute;
 	margin-left: -18px;
@@ -815,12 +815,12 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: rgba(0, 0, 0, 0.1);
 	border-bottom: solid 1px rgba(0, 0, 0, 0.15);
 }
-.connectionOptionsWrapper_c7f964 .container__0d850,
-.connectionDelete_c7f964,
+.connectionOptionsWrapper__4109d .container__0d850,
+.connectionDelete__4109d,
 .integrationsWrapper-3a2pGd {
 	z-index: 50;
 }
-.connectionOptionSwitch_c7f964 {
+.connectionOptionSwitch__4109d {
 	margin-top: 2px;
 }
 .labelRow__0d850 .title__0d850 .text-sm\/semibold_a5824d {
@@ -828,7 +828,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	color: var(--white-500);
 }
 
-.integration_c7f964 {
+.integration__4109d {
 	z-index: 999;
 	width: calc(50% - 8px);
 	position: relative;
@@ -837,7 +837,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	border-radius: 3px;
 	padding: 10px;
 }
-.integration_c7f964 .lookFilled__201d5 {
+.integration__4109d .lookFilled__201d5 {
 	border: solid 1px #0000004d;
 	background: #593695;
 	padding: 5px 16px;
@@ -845,30 +845,30 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	height: auto;
 	min-width: 0px;
 }
-.connectionDelete_c7f964 {
+.connectionDelete__4109d {
 	width: 32px;
 	height: 32px;
 	border: solid 1px rgba(255, 255, 255, 0.3);
 	border-radius: 3px;
 }
-.connectionDelete_c7f964 svg {
+.connectionDelete__4109d svg {
 	position: relative;
 	top: 6px;
 	left: 6px;
 }
-.connectionDelete_c7f964 path {
+.connectionDelete__4109d path {
 	fill: var(--white-500);
 	transform: scale(1.1);
 }
-.connectionOptionSwitch_c7f964 .container__3f21e .input__3f21e:before {
+.connectionOptionSwitch__4109d .container__3f21e .input__3f21e:before {
 	background: #0000;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
-.connectionOptionSwitch_c7f964 .container__3f21e .input__3f21e:checked:before {
+.connectionOptionSwitch__4109d .container__3f21e .input__3f21e:checked:before {
 	background: rgba(255, 255, 255, 0.3);
 	box-shadow: none;
 }
-.connectionHeader_c7f964 [alt] {
+.connectionHeader__4109d [alt] {
 	margin: -572px -610px -4500px -16px;
 	padding: 2000px 330px;
 	background-color: var(--blurple);
@@ -878,7 +878,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	border-radius: 5px;
 	pointer-events: none;
 }
-.connectionHeader_c7f964 {
+.connectionHeader__4109d {
 	margin-bottom: 20px;
 	& [alt="Battle.net"] {
 		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);

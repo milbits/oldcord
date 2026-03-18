@@ -1214,7 +1214,9 @@ html.visual-refresh {
 
 	.eyebrow_b717a1,
 	.container__5a838[data-layout="vertical"] .label__5a838,
-	.fieldTitle__1fed1,
+	[data-text-variant="heading-xl/normal"],
+	.fieldTitle_a27e58,
+	.title__28f6b,
 	legend /*of zelda*/ {
 		font-family: var(--font-display);
 		font-size: 12px;
@@ -2844,12 +2846,14 @@ html .bar_c38106 {
 		}
 	}
 	[data-text-variant="heading-lg/semibold"],
-	legend,
 	.debugTitle_bc4a3e {
 		text-transform: uppercase;
 		font-weight: 600;
 		font-size: 14px;
 		color: var(--header-secondary) !important;
+	}
+	.categories__6131a .stack_dbd263 {
+		padding-bottom: var(--space-4) !important;
 	}
 	.itemContent_caf372 {
 		color: var(--interactive-text-normal) !important;
@@ -2891,12 +2895,34 @@ html .bar_c38106 {
 		font-size: 13px;
 		font-weight: var(--font-weight-semibold);
 	}
+	.defaultKeybindGroup__740f2 {
+		border-radius: 5px;
+		background-color: var(--background-surface-high);
+		border: 1px solid var(--background-surface-higher);
+	}
+	.activeGame_cc46f0 {
+		border-radius: 4px;
+	}
+	.activeGame_cc46f0.notDetected_cc46f0 {
+		background-color: var(--text-muted);
+		.lastPlayed_cc46f0 {
+			color: var(--text-default);
+		}
+	}
+	.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
+		padding: unset;
+	}
+	.game_cc46f0 {
+		background: unset;
+		border-radius: 0;
+		border-bottom: solid 2px var(--background-mod-strong);
+		margin-bottom: 0px;
+	}
 }
 
 .sidebar__409aa {
 	background: var(--background-base-lowest);
 	border: none !important;
-
 	& h1 {
 		text-transform: uppercase;
 		font-weight: 700;
