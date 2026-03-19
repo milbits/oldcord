@@ -864,6 +864,52 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-modal-v2 .profileBody__9c3be .markup__75297 {
 	margin-top: 30px;
 }
+/* modal profile v2 (delete everything for profiles v2 styling above this **VERY WIP!!!**)
+.user-profile-modal-v2 {
+	.inner_c0bea0 {
+		flex-direction: column;
+		padding: unset;
+	}
+	.profile__9c3be {
+		max-width: unset;
+		width: 960px;
+		height: 250px;
+		.profileHeader__9c3be {
+			margin-top: -50px;
+			.referenceContainer_ab8609 {
+				margin-inline: unset;
+			}
+		}
+		.profileBody__9c3be {
+			display: grid;
+			grid-template-areas: ". info bio bio bio . . . buttons" "joindate note connections . . . . . .";	
+			grid-template-columns: auto;
+	        grid-template-rows: auto;
+			margin-top: -120px;
+			margin-left: 40px;
+			.container__63ed3 {
+				grid-area: info;
+			}
+			.markup__75297 {
+				width: 220px;
+				grid-area: bio;
+			}
+			section:nth-of-type(2) {
+				grid-area: joindate;
+			}
+			section:nth-of-type(3) {
+				grid-area: connections;
+			}
+			section:nth-of-type(4) {
+				grid-area: note;
+			}
+			.profileButtons__9c3be {
+				grid-area: buttons;
+			}
+		}
+	}
+}
+*/
 /*activity*/
 #activity-tab {
 	margin-right: 24px;
