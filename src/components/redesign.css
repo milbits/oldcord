@@ -2925,19 +2925,19 @@ html .bar_c38106 {
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--background-surface-higher);
 	}
-	.activeGame_cc46f0 {
+	.activeGame__497cd {
 		border-radius: 4px;
 	}
-	.activeGame_cc46f0.notDetected_cc46f0 {
+	.activeGame__497cd.notDetected__497cd {
 		background-color: var(--text-muted);
-		.lastPlayed_cc46f0 {
+		.lastPlayed__497cd {
 			color: var(--text-default);
 		}
 	}
 	.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
 		padding: unset;
 	}
-	.game_cc46f0 {
+	.game__497cd {
 		background: unset;
 		border-radius: 0;
 		border-bottom: solid 2px var(--background-mod-strong);
