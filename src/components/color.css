@@ -361,7 +361,7 @@
 	cursor: default !important;
 }
 .open__3f413 {
-	border-color: var(--deprecated-text-input-border-hover) !important;
+	border-color: var(--input-border-hover) !important;
 }
 /* icon*/
 .select__3f413 path[d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"] {

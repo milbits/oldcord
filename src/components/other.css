@@ -344,7 +344,7 @@ code {
 }
 
 [aria-checked="false"] .text-sm\/normal_cf4812 {
-	color: var(--interactive-text-normal);
+	color: var(--interactive-text-default);
 }
 
 .theme-dark .item__88a69[aria-checked="false"] .radioBar__88a69:hover {
@@ -408,15 +408,15 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .bioTextArea__6a919 {
 	border-radius: 3px;
 	color: var(--text-default) !important;
-	background-color: var(--deprecated-text-input-bg) !important;
-	border: 1px solid var(--deprecated-text-input-border) !important;
+	background-color: var(--input-background-default) !important;
+	border: 1px solid var(--input-border-default) !important;
 	transition: border-color 0.2s ease-in-out;
 	&:hover {
-		border-color: var(--deprecated-text-input-border-hover) !important;
+		border-color: var(--input-border-hover) !important;
 	}
 	&:focus-within {
+		outline: 0 !important;
 		border-color: var(--blurple) !important;
-		--custom-input-focus-border-color: var(--blurple) !important;
 	}
 }
 
@@ -694,7 +694,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: none !important;
 }
 .sessionIcon__803f2 path {
-	fill: var(--interactive-text-normal);
+	fill: var(--interactive-text-default);
 }
 .currentSession__803f2 .sessionIcon__803f2 path {
 	fill: var(--green);
@@ -989,7 +989,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	display: none;
 }
 .playIcon_a8e786 {
-	color: var(--interactive-text-normal) !important;
+	color: var(--interactive-text-default) !important;
 	width: 25px;
 	height: 25px;
 }
@@ -1138,7 +1138,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	.hasText_a22cb0 {
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--border-subtle) !important;
-		color: var(--interactive-text-normal);
+		color: var(--interactive-text-default);
 		min-height: 14px;
 		min-width: 0;
 		width: auto;
@@ -1157,7 +1157,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 	.sm_a22cb0:not(.hasText_a22cb0) {
 		background: transparent;
-		color: var(--interactive-text-normal);
+		color: var(--interactive-text-default);
 		margin: 0;
 		padding: 0;
 		min-height: 0;
@@ -1496,8 +1496,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .bodyInner__8a031 .textArea__08bd2 {
 	border-radius: 3px;
 	color: var(--text-default);
-	background-color: var(--deprecated-text-input-bg);
-	border: 1px solid var(--deprecated-text-input-border);
+	background-color: var(--input-background-default);
+	border: 1px solid var(--input-border-default);
 }
 
 /* status formatting */
@@ -1522,7 +1522,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 			order: -1;
 		}
 		.activityContainer_c9d15c .activityCounter_c9d15c {
-			color: var(--interactive-text-normal) !important;
+			color: var(--interactive-text-default) !important;
 		}
 		.emoji_c9d15c {
 			order: -1;
@@ -1544,7 +1544,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 .tooltip_c36707 .icon_c9d15c path {
-	fill: var(--interactive-text-normal);
+	fill: var(--interactive-text-default);
 }
 
 :is(.subText__91a9d, .subText__20a53) :is(.textWithIconContainer_c9d15c, .activityContainer_c9d15c):has(.truncated_c9d15c) {
@@ -1745,7 +1745,9 @@ https://github.com/XYZenix/DTM-16
 }
 
 /* vc popovers */
-.popover_d6f39b:not([data-dialog="non-modal"]), .container__4e30a, .streamPreview__0489e {
+.popover_d6f39b:not([data-dialog="non-modal"]),
+.container__4e30a,
+.streamPreview__0489e {
 	border-radius: 4px;
 }
 
@@ -2004,17 +2006,17 @@ https://github.com/XYZenix/DTM-16
 		width: 200px;
 		img {
 			display: none;
-		}		
+		}
 	}
 	.imageErrorText_af017a {
 		display: none;
 	}
 }
 .theme-dark .imageErrorIllustration_af017a {
-	background-image: url('https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg');
+	background-image: url("https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg");
 }
 .theme-light .imageErrorIllustration_af017a {
-	background-image: url('https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg');
+	background-image: url("https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg");
 }
 
 /* invalid invite */
@@ -2028,11 +2030,11 @@ https://github.com/XYZenix/DTM-16
 	}
 }
 .theme-dark .guildIconExpired_d5f3cd {
-	background-image: url('https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg');
+	background-image: url("https://discord.com/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg");
 }
 
 .theme-light .guildIconExpired_d5f3cd {
-	background-image: url('https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg');
+	background-image: url("https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg");
 }
 
 /* ban modal 

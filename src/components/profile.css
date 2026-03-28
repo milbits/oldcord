@@ -43,7 +43,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		text-indent: 0;
 		display: flex;
 		line-height: initial;
-		color: var(--interactive-text-normal);
+		color: var(--interactive-text-default);
 	}
 }
 
@@ -246,7 +246,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	--text-muted: rgba(255, 255, 255, 0.6);
 	--text-tertiary: rgba(255, 255, 255, 0.9);
 	--text-secondary: rgba(255, 255, 255, 0.8);
-	--interactive-text-normal: rgba(255, 255, 255, 0.8);
+	--interactive-text-default: rgba(255, 255, 255, 0.8);
 	--text-primary: #fff;
 	--primary-700: var(--brand-experiment);
 	--primary-660: var(--brand-experiment-530);
@@ -474,7 +474,7 @@ section:has(.clickableContainer__39ec2) {
 	display: none;
 }
 html.theme-dark .badgeContainer__635ed path {
-	fill: var(--interactive-text-normal);
+	fill: var(--interactive-text-default);
 }
 .user-profile-modal .inner_c0bea0:has(.card__39ec2) .badges__39ec2 > .badgeContainer__635ed:nth-of-type(2) {
 	order: -1;
@@ -587,7 +587,7 @@ html.theme-dark .badgeContainer__635ed path {
 	--profile-body-background-hover: var(--background-mod-subtle);
 	--profile-body-divider-color: var(--background-modifier-accent);
 	--profile-role-pill-background-color: var(--primary-660);
-	--profile-role-pill-border-color: var(--interactive-text-normal);
+	--profile-role-pill-border-color: var(--interactive-text-default);
 	--theme-base-color-amount: unset !important;
 	--theme-text-color-amount: unset !important;
 }
@@ -1116,7 +1116,7 @@ html.theme-dark .badgeContainer__635ed path {
 		max-height: 38px;
 		margin-top: 10px;
 		white-space: pre-wrap;
-		color: var(--interactive-text-normal);
+		color: var(--interactive-text-default);
 		font-weight: 500;
 		font-family: var(--font-display);
 		font-size: 12px;
@@ -1199,7 +1199,7 @@ html.theme-dark .badgeContainer__635ed path {
 	background: var(--primary-700);
 	justify-content: center;
 	& .text__530ce {
-		color: var(--interactive-text-normal) !important;
+		color: var(--interactive-text-default) !important;
 	}
 	padding: 0 0 10px 0;
 	order: -1;
@@ -1422,7 +1422,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	font-size: 12px;
 	text-align: center;
 	margin-top: 10px;
-	color: var(--interactive-text-normal);
+	color: var(--interactive-text-default);
 }
 
 /** bot profile*/
@@ -1734,7 +1734,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 			img[src="https://cdn.discordapp.com/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp?size=160&keep_aspect_ratio=false"]
 		)
 	) {
-		color: var(--interactive-text-normal) !important;
+		color: var(--interactive-text-default) !important;
 	}
 }
 
