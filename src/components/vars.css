@@ -648,7 +648,8 @@ html.custom-theme-background.theme-dark {
 	--button-secondary: hsl(0deg 0% 100% / 20%);
 	--button-secondary-hover: hsl(0deg 0% 100% / 30%);
 	--background-primary: var(--background-surface-highest);
-	--background-message-hover: var(--background-gradient-lower);
+	--primary-660: var(--background-gradient-high, var(--background-surface-high));
+	--primary-700: var(--background-gradient-higher, var(--background-surface-higher));
 }
 html.custom-theme-background.theme-light {
 	--background-tertiary: var(--background-surface-highest);

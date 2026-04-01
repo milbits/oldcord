@@ -368,24 +368,22 @@ html.visual-refresh {
 	.lookLink__201d5.colorPrimary__201d5 {
 		color: var(--text-default);
 	}
+
 	/* Emojis/GIF Picker */
 	.drawerSizingWrapper__08434 {
 		right: 0px !important;
 	}
 	.contentWrapper__08434 {
-		background-color: var(--primary-630);
 		border-radius: 8px;
 		box-shadow: var(--shadow-border), var(--shadow-high);
 		border: unset;
 	}
 	.header_fed6d3,
 	.soundboardHeader__08434 {
-		background-color: var(--primary-630);
 		box-shadow: var(--shadow-ledge);
 		border-bottom: unset;
 	}
 	.emojiPicker_c0e32c {
-		background-color: var(--primary-630);
 		box-shadow: var(--shadow-border), var(--shadow-high);
 		border-bottom-right-radius: var(--custom-emoji-picker-border-radius);
 		border-bottom-left-radius: var(--custom-emoji-picker-border-radius);
@@ -428,13 +426,13 @@ html.visual-refresh {
 		border-top: unset;
 	}
 	.wrapper__14245 {
-		background-color: var(--primary-630);
+		background-color: transparent;
 	}
 	.wrapper__4e6ce {
 		background-color: var(--primary-700);
 	}
 	.header_c0e32c {
-		background-color: var(--primary-630);
+		background-color: var(--background-surface-high);
 		box-shadow: var(--shadow-low);
 		margin: 0 -1px;
 		padding: 12px;
@@ -1273,7 +1271,7 @@ html.visual-refresh {
 	.childWrapper__6e9f8 svg {
 		height: 30px !important;
 		width: 30px !important;
-		transform:rotate(2deg)
+		transform: rotate(2deg);
 	}
 
 	/* sliders & bars */
