@@ -1273,6 +1273,7 @@ html.visual-refresh {
 	.childWrapper__6e9f8 svg {
 		height: 30px !important;
 		width: 30px !important;
+		transform:rotate(2deg)
 	}
 
 	/* sliders & bars */
