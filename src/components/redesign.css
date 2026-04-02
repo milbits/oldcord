@@ -856,7 +856,8 @@ html.visual-refresh {
 			.critical-secondary_a22cb0,
 			.customButton__39ec2,
 			.themeColor_fb7f94,
-			.actionButtons_e8b59c button
+			.actionButtons_e8b59c button,
+			.streamPreviewWrapper__0489e button
 		) {
 			border: none !important;
 		}
@@ -2941,6 +2942,95 @@ html .bar_c38106 {
 		border-radius: 0;
 		border-bottom: solid 2px var(--background-mod-strong);
 		margin-bottom: 0px;
+	}
+}
+
+/* stream preview popout */
+.popover_d6f39b.container__218f7:has(.streamPreviewWrapper__0489e) {
+	background-color: var(--background-surface-higher);
+	padding: unset !important;
+	overflow: unset !important;
+	width: 252px;
+	[data-text-variant="text-xs/medium"] {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 0.02em;
+		line-height: 1.3333333333333333;
+		margin: 0;
+		color: var(--channels-default) !important;
+	}
+	.streamHeaderVoiceUserActivities__0489e {
+		display: none;
+	}
+	.previewContainerUserActivity__0489e {
+		border-radius: 4px;
+		border-bottom-left-radius: unset;
+		border-bottom-right-radius: unset;
+	}
+	.bodyUserActivity__0489e {
+		padding: 10px;
+	}
+	.bodyUserActivity__0489e:after {
+		font-size: 12px;
+		color: var(--text-muted);
+		content: "Double click a user to watch";
+		margin-left: 20%;
+	}
+	.content__2ef49 {
+		align-content: center;
+		.nameNormal__2ef49, .activityNameUserActivityHover__2ef49 {
+			font-weight: 600;
+		}
+		.playTime__2ef49 {
+			color: var(--text-default);
+		}
+	}
+	.hasText_a22cb0 {
+		background: unset;
+		border: 1px solid var(--text-muted);
+		margin-bottom: 10px;
+		transition: color .17s ease, background-color .17s ease, border-color .17s ease;
+		&:hover {
+			border-color: var(--text-strong);
+		}
+	}
+	.white__0489e {
+		font-weight: 600;
+	}
+	.hangStatusContainer__218f7 {
+		padding: 10px 10px 0 10px;
+	}
+}
+
+/* actual garbage */
+.popover_d6f39b.container__218f7:has(.activityVoiceChannel__2ef49) {
+	background-color: var(--background-surface-higher);
+	[data-text-variant="text-xs/medium"] {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 0.02em;
+		line-height: 1.3333333333333333;
+		margin: 0;
+		color: var(--channels-default) !important;
+	}
+	.content__2ef49 {
+		align-content: center;
+		.nameNormal__2ef49, .activityNameUserActivityHover__2ef49 {
+			font-weight: 600;
+		}
+		.playTime__2ef49 {
+			color: var(--text-default);
+		}
+	}
+	.hasText_a22cb0 {
+		background: unset;
+		border: 1px solid var(--text-muted);
+		transition: color .17s ease, background-color .17s ease, border-color .17s ease;
+		&:hover {
+			border-color: var(--text-strong);
+		}
 	}
 }
 
