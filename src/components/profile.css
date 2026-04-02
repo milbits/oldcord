@@ -537,27 +537,27 @@ html.theme-dark .badgeContainer__635ed path {
 	display: none;
 }
 /*note for feature-stripped customization screen*/
-.preview__44061:before {
+.previewsContainer__44061:before {
 	content: "[ Disable OldCord for a functional preview! ]";
 	color: var(--blurple);
 	font-size: 14px;
 	font-weight: 500;
 }
-.customizationSection_ace4f5 .container__63ed3 {
+.profileCustomizationSection__44061 .container__63ed3 {
 	padding-top: 105px;
 	margin-top: -150px;
 }
-.customizationSection_ace4f5 .header__5be3e .wrapper__44b0c {
+.profileCustomizationSection__44061 .header__5be3e .wrapper__44b0c {
 	bottom: 45px;
 	left: 70px;
 }
-.customizationSection_ace4f5 .overlayIcon_f9d668 {
+.profileCustomizationSection__44061 .overlayIcon_f9d668 {
 	bottom: 75px;
 }
-.customizationSection_ace4f5 .descriptionClamp_f5f93a {
+.profileCustomizationSection__44061 .descriptionClamp_f5f93a {
 	max-height: unset;
 }
-.customizationSection_ace4f5 .footer__5be3e::before {
+.profileCustomizationSection__44061 .footer__5be3e::before {
 	content: "";
 	width: 100%;
 	height: 1px;
@@ -565,6 +565,10 @@ html.theme-dark .badgeContainer__635ed path {
 	margin-top: -15px;
 	position: absolute;
 	background-color: var(--primary-700) !important;
+}
+.profileCustomizationSection__44061 .avatar_d28e10 {
+	left: 34%;
+	top: 3%;
 }
 
 /*! normal profile popout*/
