@@ -687,10 +687,10 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 	--background-modifier-accent: hsl(217, 0%, 12%);
 	--primary-600: color-mix(in oklab, var(--neutral-96) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--primary-630: color-mix(in oklab, var(--neutral-98) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)) !important;
-	--primary-660: color-mix(in oklab, var(--neutral-94) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+	--primary-660: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--primary-700: color-mix(in oklab, var(--neutral-100) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)) !important;
 	--background-floating: color-mix(in oklab, var(--neutral-100) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--chat-background-default: hsl(0 0% 8.5% / 1) !important;
+	--chat-background-default: hsl(0 0% 6.7% / 1) !important;
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
