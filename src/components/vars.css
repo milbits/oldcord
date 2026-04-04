@@ -588,11 +588,8 @@ html:not(.custom-theme-background) .theme-light {
 .theme-light {
 	--checkbox-background-checked: var(--blurple) !important;
 	--background-brand: var(--blurple) !important;
-
 	--custom-channel-members-bg: var(--background-secondary);
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-
-	--__spoiler-background-color--hidden: var(--primary-700);
 	--__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl) / 0.8);
 	--__spoiler-background-color--revealed: hsl(var(--white-500-hsl) / 0.1);
 	--__spoiler-text-color--hidden: transparent;
@@ -604,6 +601,8 @@ html:not(.custom-theme-background) .theme-light {
 }
 html:not(.custom-theme-background) .theme-dark,
 html:not(.custom-theme-background).theme-dark {
+		 --__spoiler-background-color--hidden: var(--primary-700);
+
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
 	--background-base-lowest: var(--background-secondary);
