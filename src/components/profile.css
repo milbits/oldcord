@@ -410,6 +410,9 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 .user-profile-popout .badgesContainer__635ed .badgeContainer__635ed:nth-child(2) {
 	order: -1;
 }
+.image__39ec2 span .contentImage__42bf5 {
+	border-radius: var(--radius-sm);
+}
 
 .contentImage_ef9ae7[src^="https://cdn.discordapp.com/app-icons/"] {
 	max-width: 40px !important;
@@ -929,7 +932,7 @@ html.theme-dark .badgeContainer__635ed path {
 #activity-tab .heading-sm\/semibold_cf4812 {
 	color: var(--text-secondary) !important;
 }
-#activity-tab .lineClamp1__4bd52 {
+#activity-tab .badgeContainer__635ed .lineClamp1__4bd52 {
 	color: var(--text-tertiary) !important;
 }
 .user-profile-modal-v2 .cards__764cd {
@@ -938,26 +941,54 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-modal-v2 .cards__764cd li {
 	border-radius: 5px;
 	background: var(--primary-660) !important;
-
 	& .headerText__39ec2 {
 		font-weight: 800;
 		text-transform: uppercase;
 	}
-	&:has(.tabularNumbers__4bd52) {
+	&:has(.tabularNumbers__4bd52, .container__8e51c) {
 		background: var(--brand-experiment-530) !important;
 		--text-secondary: rgba(255, 255, 255, 0.9);
 	}
-	&:first-child {
+	&:first-child:not(:only-child) {
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
 	}
-	&:last-child {
+	&:last-child:not(:only-child) {
 		border-bottom-left-radius: 20px;
 		border-bottom-right-radius: 20px;
 	}
 }
 .user-profile-modal-v2 .card__39ec2 {
 	background: none;
+	.details__39ec2 {
+		display: grid;
+		grid-template-areas:
+			"title buttons"
+			"details buttons";
+	}
+	.clickableText__39ec2,
+	h4 {
+		grid-area: title;
+	}
+	.badgesContainer__635ed, 
+	[data-text-variant="text-xs/normal"],
+	.container__8e51c {
+		grid-area: details;
+	}
+	.actions__39ec2 {
+		grid-area: buttons;
+		align-items: start;
+		justify-self: end;
+		flex-direction: column;
+		max-width: 200px;
+	}
+	button :is(svg > path, span) {
+		color: var(--text-primary) !important;
+		fill: var(--text-primary);
+	}
+}
+.user-profile-modal-v2 .card__39ec2:has(.actions__39ec2) :is(.badgesContainer__635ed, [data-text-variant="text-xs/normal"], .container__8e51c) {
+	max-width: 220px;
 }
 
 .backgroundImage__9c3be {
