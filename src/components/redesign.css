@@ -2857,6 +2857,7 @@ html .bar_c38106 {
 	max-width: 1080px !important;
 	.panel__6131a {
 		margin: unset;
+		padding-left: unset;
 	}
 	.content_e9e3ed {
 		gap: var(--space-12);
