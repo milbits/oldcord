@@ -316,6 +316,17 @@
 		background-color: var(--background-mod-strong) !important;
 	}
 }
+.reaction__23977 .emoji {
+    height: 1rem;
+    margin: .125rem 0;
+    min-height: auto;
+    min-width: auto;
+    width: 1rem;
+}
+.reactionCount__23977 {
+	min-width: 9px !important;
+	font-size: 0.875rem;
+}
 .reaction_f8896c:hover,
 .reaction__23977:hover {
 	background-color: var(--background-mod-strong) !important;

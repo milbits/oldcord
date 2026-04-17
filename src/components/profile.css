@@ -662,12 +662,12 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /* restores "View Profile" text when hovering over a pfp on profile popouts */
-.overlay__75742::before {
+.header__5be3e .overlay__75742::before {
 	position: absolute;
 	z-index: 1;
 }
-.clickable__75742:hover .overlay__75742::before,
-.clickable__75742:focus-within .overlay__75742::before {
+.header__5be3e .clickable__75742:hover .overlay__75742::before,
+.header__5be3e .clickable__75742:focus-within .overlay__75742::before {
 	content: "VIEW PROFILE";
 	opacity: 1;
 	font-size: 10px;
