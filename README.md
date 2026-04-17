@@ -9,7 +9,7 @@ By default, it removes profile effects (like banners) and clan tags. See `addons
 > [!IMPORTANT]
 >
 > - **Enable "Apply theme on other users' profiles" in `Settings > Appearence` to fix broken profile colors**
-> - **For the old grey colors, use the "Ash" theme in `Appearance` under settings**
+> - **For the old gray colors, use the "Ash" theme in `Settings > Appearance`**
 >   - Don't use vencord's "Client Theme" plugin, use Discord's own theme picker (with fakenitro if needed)
 > - Disable "display name style" in `Settings > Accessibility` if you don't want the flashy names
 > - UI Density should be on default, i won't support the other 2 options (they still kinda work, though)
