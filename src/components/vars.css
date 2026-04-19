@@ -140,7 +140,7 @@ html:not(.custom-theme-background) .theme-light {
 	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
 	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
 	--background-secondary-alt: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%);
-	--text-default: hsl(0deg 0% 13.33%);
+	--text-default: oklch(0.42 0.02 279);
 	--chat-background-default: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90.94%);
 	--primary-630: var(--background-secondary);
 	--primary-660: var(--background-tertiary);
