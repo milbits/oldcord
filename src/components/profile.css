@@ -1622,6 +1622,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 		background: var(--brand-experiment-530) !important;
 	}
 }
+.popoutThumbnailContainer_af3b89 {
+	width: initial;
+	min-height: unset;
+}
 .hero_af3b89 {
 	background: none !important;
 	padding: 0;
