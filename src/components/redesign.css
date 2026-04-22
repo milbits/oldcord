@@ -2948,7 +2948,7 @@ html .bar_c38106 {
 }
 
 /* stream preview popout */
-.popover_d6f39b.container__218f7:has(.streamPreviewWrapper__0489e) {
+.popover_d6f39b.container_d7bc5d:has(.streamPreviewWrapper__0489e) {
 	background-color: var(--background-surface-higher);
 	padding: unset !important;
 	overflow: unset !important;
@@ -3000,13 +3000,10 @@ html .bar_c38106 {
 	.white__0489e {
 		font-weight: 600;
 	}
-	.hangStatusContainer__218f7 {
-		padding: 10px 10px 0 10px;
-	}
 }
 
 /* actual garbage */
-.popover_d6f39b.container__218f7:has(.activityVoiceChannel__2ef49) {
+.popover_d6f39b.container_d7bc5d:has(.activityVoiceChannel__2ef49) {
 	background-color: var(--background-surface-higher);
 	[data-text-variant="text-xs/medium"] {
 		text-transform: uppercase;
