@@ -857,7 +857,8 @@ html.visual-refresh {
 			.customButton__39ec2,
 			.themeColor_fb7f94,
 			.actionButtons_e8b59c button,
-			.streamPreviewWrapper__0489e button
+			.streamPreviewWrapper__0489e button,
+			.popoutContentWrapper_af3b89 button
 		) {
 			border: none !important;
 		}

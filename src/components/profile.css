@@ -1620,6 +1620,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	border-top-right-radius: 3px;
 	&:has(.tabularNumbers__4bd52) {
 		background: var(--brand-experiment-530) !important;
+		.button__2cbe2 {
+		    background: unset;
+		    border: 1px solid;
+		}
 	}
 }
 .popoutThumbnailContainer_af3b89 {
