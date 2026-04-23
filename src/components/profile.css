@@ -533,6 +533,53 @@ html.theme-dark .badgeContainer__635ed path {
 	gap: 0;
 }
 
+/* profile popout skeleton */
+.profilePopout__1add6 {
+	width: 250px;
+	border-radius: 5px;
+}
+.profileBanner__1add6 {
+	background: unset;
+	animation: unset;
+	height: 50px;
+}
+.profileAvatar__1add6 {
+	width: 96px;
+	height: 96px;
+	align-self: center;
+	margin-inline-start: unset;
+}
+.profileHeader__1add6 {
+	align-content: center;
+	flex-wrap: wrap;
+	.bar__1add6 {
+		align-self: center;
+	}
+}
+.profileTabs__1add6 {
+	display: none;
+}
+.profileContent__1add6 {
+	background: var(--background-mod-subtle);
+	.bar__1add6:nth-child(1) {
+		width: 35% !important;
+	}
+	.bar__1add6:nth-child(2) {
+		margin-bottom: 8px;
+	}
+	.bar__1add6:nth-child(3) {
+		width: 25% !important;
+	}
+	&:after {
+		background: var(--background-surface-high);
+		border-radius: 5px;
+		margin-top: 8px;
+		height: 40px;
+		width: 220px;
+		content: ""
+	}
+}
+
 /*customization screen ad-eliminator 3000*/
 .container__8279f,
 .tryItOutSection__9d295,
