@@ -112,7 +112,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 			.descriptionClamp_f5f93a,
 			.mask__68edb,
 			.card__39ec2,
-			.container__63ed3.username_ce8328,
+			.userInfo_ce8328,
 			.activityContainer__84832
 		) {
 		display: none;
@@ -734,11 +734,26 @@ html.theme-dark .badgeContainer__635ed path {
 	gap: 0 !important;
 }
 
+:is(.user-profile-popout .inner_c0bea0, .userPanelOuter_c69a7b) .body__5be3e > div:first-child {
+	background: var(--primary-700);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding: 0 0 30px 0;
+    order: -1;
+}
+
 :is(.user-profile-popout .inner_c0bea0, .userPanelOuter_c69a7b) .usernameRow__63ed3 {
 	text-align: center;
 	justify-content: center;
 }
-.nickname__63ed3 {
+.displayNameRow__26b1f {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.displayNameRow__26b1f .defaultColor__4bd52 {
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 600;
@@ -747,14 +762,14 @@ html.theme-dark .badgeContainer__635ed path {
 		color: var(--interactive-text-active);
 	}
 }
-.user-profile-popout .tags__63ed3 {
+.user-profile-popout .usernameAndPronounsRow__26b1f {
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
 	row-gap: 0 !important;
 }
 
-.dotSpacer__63ed3 {
+.dotSpacer__26b1f {
 	display: none;
 }
 .userTagUsername__63ed3,
@@ -765,7 +780,7 @@ html.theme-dark .badgeContainer__635ed path {
 	}
 }
 
-.pronounsText__63ed3 {
+.pronouns__26b1f {
 	color: var(--text-tertiary) !important;
 	max-width: 255px;
 	white-space: wrap;
@@ -793,12 +808,13 @@ html.theme-dark .badgeContainer__635ed path {
 .user-profile-popout .outer_ab8609 {
 	position: relative;
 	right: 105px;
-	top: 48px;
+	top: 62px;
 	min-width: 250px;
 	box-shadow: none;
 	background: none !important;
 	transition: ease 0.4s background;
-
+	
+	
 	&:hover {
 		background: var(--primary-700) !important;
 		transition: ease height background-color 0.2s;
@@ -824,6 +840,13 @@ html.theme-dark .badgeContainer__635ed path {
 }
 .user-profile-popout:has(.container_ab8609) .container__63ed3 {
 	padding-bottom: 45px;
+}
+
+/* stupid buttons */
+.row_e4172d {
+	order: 3;
+	padding: 0 16px;
+	width: unset;
 }
 
 /*! modal profile*/
@@ -1155,7 +1178,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /*! end of modal*/
 /*note button*/
-.nicknameIcons__63ed3 {
+.displayNameTrailing__26b1f {
 	top: 100%;
 	position: absolute;
 	display: flex !important;
