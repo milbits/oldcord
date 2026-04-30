@@ -480,6 +480,15 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		transform: translateY(-4px);
 	}
 }
+.nonVisualMediaItemContainer_f4758a:has(.imageWrapper) .hoverButtonGroup__06ab4 {
+	background-color: rgb(0 0 0 / 0.5);
+	opacity: 0;
+	transform: translateY(-20px);
+	.mosaicItem__6c706:hover & {
+		opacity: 1;
+		transform: translateY(8px);
+	}
+}
 /* make download button bigger */
 .downloadHoverButtonIcon__6c706 {
 	width: 24px !important;
