@@ -2148,13 +2148,6 @@ html.visual-refresh {
 		}
 	}
 
-	/* server banner images */
-	.bannerImage_f37cb1,
-	.bannerImg_f37cb1 {
-		width: 240px;
-		aspect-ratio: unset;
-	}
-
 	/* tooltips */
 	.dialogWrapper_b1f768,
 	.tooltipPrimary_c36707,
