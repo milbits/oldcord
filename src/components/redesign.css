@@ -1096,6 +1096,10 @@ html.visual-refresh {
 				width: 40px;
 				height: 40px;
 			}
+			svg.avatarDecorationContainer__44b0c {
+				width: 46.4px;
+				height: 38.4px;
+			}
 		}
 	}
 	.toolbar__9293f .clickable__81391 {
@@ -2142,13 +2146,6 @@ html.visual-refresh {
 			color: #dcddde;
 			opacity: 0.5;
 		}
-	}
-
-	/* server banner images */
-	.bannerImage_f37cb1,
-	.bannerImg_f37cb1 {
-		width: 240px;
-		aspect-ratio: unset;
 	}
 
 	/* tooltips */
