@@ -1352,7 +1352,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 
 /** Game profile */
 .gameProfileModal__8e830 [data-text-variant="heading-md\/bold"] {
-	visibility: hidden;
+	display: none;
 }
 
 .gameProfileModal__8e830 .heading-xl\/bold_cf4812 {
