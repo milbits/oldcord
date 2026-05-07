@@ -1713,6 +1713,16 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 .theme-light .popoutContentWrapper_af3b89 :is(.defaultColor__4bd52, .lineClamp1__4bd52) {
 	color: #000000 !important;
 }
+.followGameButtonActivityFeed__93528:disabled {
+	background: unset;
+	border: 1px solid var(--border-subtle);
+	opacity: 0.8;
+	transition: color .17s ease, background-color .17s ease, border-color .17s ease;
+	&:hover {
+		background: unset !important;
+		border: 1px solid var(--border-strong);
+	}
+}
 /*shitty dm box*/
 .interactionsContainer_af3b89 {
 	background: var(--primary-630);
