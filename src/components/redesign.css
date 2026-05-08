@@ -918,10 +918,10 @@ html.visual-refresh {
 	.buttonChildren_a22cb0 .text-md\/medium_cf4812 {
 		font-size: 14px;
 	}
-	.secondary_a22cb0 {
+	.secondary_a22cb0, .lookFilled__201d5:not(.arrow__94d97)  {
 		background-color: var(--button-secondary);
 		&:hover {
-			background: var(--button-secondary-hover);
+			background: var(--button-secondary-hover) !important;
 		}
 	}
 	.select__3f413 {
