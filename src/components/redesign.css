@@ -703,16 +703,14 @@ html.visual-refresh {
 				border-radius: 4px;
 				line-height: 1.25;
 			}
-			[data-text-variant="text-sm/medium"]:first-of-type {
-				display: none;
-			}
+
 			[data-text-variant="text-sm/semibold"]:first-of-type {
 				color: var(--interactive-text-default) !important;
-				font-size: 16px;
+				font-size: 1rem;
 				font-weight: 500;
 			}
 			[data-text-variant="text-sm/medium"] {
-				font-size: 16px;
+				font-size: 1rem;
 			}
 		}
 		.groupWrapper__971b5[aria-labelledby="Message Contains-header"] {
@@ -720,9 +718,7 @@ html.visual-refresh {
 				display: flex;
 			}
 		}
-		svg:not(.clearSearchHistoryIcon__971b5, .svg__44b0c, .channelNameIcon__971b5) {
-			display: none;
-		}
+
 		.itemContainer__971b5:hover {
 			background: var(--primary-700);
 			[data-text-variant="text-sm/medium"] {
