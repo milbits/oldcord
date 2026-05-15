@@ -2533,6 +2533,10 @@ html:is([lang="en-US"]) .groupWrapper__971b5 [data-text-variant="text-sm/medium"
 	display: none;
 }
 
+html:not(:is([lang="en-US"])) .container__16eb0[aria-activedescendant$="--1"] .groupWrapper__971b5 [data-text-variant="text-sm/medium"]:first-of-type {
+	display: none;
+}
+
 html:is([lang="en-us"]) .groupHeader__971b5[id="Filters"] [data-text-variant="text-xs/semibold"] {
 	line-height: 0;
 	text-indent: -9999px;
