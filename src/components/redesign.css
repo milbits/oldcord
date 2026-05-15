@@ -703,7 +703,6 @@ html.visual-refresh {
 				border-radius: 4px;
 				line-height: 1.25;
 			}
-
 			[data-text-variant="text-sm/semibold"]:first-of-type {
 				color: var(--interactive-text-default) !important;
 				font-size: 1rem;
@@ -718,7 +717,9 @@ html.visual-refresh {
 				display: flex;
 			}
 		}
-
+		svg:not(.clearSearchHistoryIcon__971b5, .svg__44b0c, .channelNameIcon__971b5) {
+			display: none;
+		}
 		.itemContainer__971b5:hover {
 			background: var(--primary-700);
 			[data-text-variant="text-sm/medium"] {
@@ -914,7 +915,7 @@ html.visual-refresh {
 	.buttonChildren_a22cb0 .text-md\/medium_cf4812 {
 		font-size: 14px;
 	}
-	.secondary_a22cb0, .followGameButtonActivityFeed__93528:not(:disabled)  {
+	.secondary_a22cb0, :not(.popoutContainer__0f481) .followGameButtonActivityFeed__93528:not(:disabled)  {
 		background-color: var(--button-secondary);
 		&:hover {
 			background: var(--button-secondary-hover);
@@ -2526,6 +2527,10 @@ html.visual-refresh {
 		justify-content: space-between;
 		overflow: hidden;
 	}
+}
+
+html:is([lang="en-US"]) .groupWrapper__971b5 [data-text-variant="text-sm/medium"]:first-of-type {
+	display: none;
 }
 
 html:is([lang="en-us"]) .groupHeader__971b5[id="Filters"] [data-text-variant="text-xs/semibold"] {
