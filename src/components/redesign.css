@@ -1787,7 +1787,7 @@ html.visual-refresh {
 		}
 	}
 	/* go live modal v2 */
-	.container__8a031.size-xl__8a031:not(:has(.confirmStep_a55fdc, .gameProfileModal__8e830)) {
+	.container__8a031.size-xl__8a031:not(:has(.confirmStep_a55fdc, .gameProfile_d100d9)) {
 		width: 400px;
 	}
 	.container__8a031.size-xl__8a031 {
