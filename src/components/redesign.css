@@ -1936,14 +1936,15 @@ html.visual-refresh {
 	}
 
 	/* fix notice positioning */
-	.notice__6e2b9,
+	.notice__6e2b9, 
+	.notice__29487,
 	#bd-notices {
 		box-shadow: var(--elevation-low);
 		margin-top: 23px;
 		margin-bottom: -38px;
 		grid-area: channelsList / channelsList / channelsList / page;
 	}
-	.base__5e434:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
+	.base__5e434:has(.notice__6e2b9, .notice__29487, .bd-notice) .trailing_c38106 {
 		top: 89px;
 		.winButtons_c38106 {
 			bottom: 73px;
@@ -1951,6 +1952,9 @@ html.visual-refresh {
 	}
 	.base__5e434:has(.notice__6e2b9, .bd-notice) :is(.sidebarList__5e434, .page__5e434) {
 		margin-top: 37px;
+	}
+	.base__5e434:has(.notice__29487) :is(.sidebarList__5e434, .page__5e434) {
+		margin-top: 54px;
 	}
 	.page__5e434 {
 		height: auto;
