@@ -666,8 +666,9 @@ html.visual-refresh {
 	}
 	.search__49676 {
 		margin: 0 8px;
+		min-width: unset;
 	}
-	.searchBar_c322aa {
+	.search_c322aa, .searchBar_c322aa {
 		background: var(--background-gradient-low, var(--primary-700));
 		padding: 0 2px;
 		height: 24px;
