@@ -665,8 +665,10 @@ html.visual-refresh {
 		background-color: var(--primary-700);
 	}
 	.search__49676 {
+		flex: unset;
 		margin: 0 8px;
 		min-width: unset;
+		max-width: 144px;
 	}
 	.search_c322aa, .searchBar_c322aa {
 		background: var(--background-gradient-low, var(--primary-700));
@@ -1008,9 +1010,11 @@ html.visual-refresh {
 	}
 
 	.toolbar__9293f.toolbar__9293f {
+		flex: 0 0 auto;
 		gap: 0;
 		margin-left: 10px;
 		margin-right: calc(40px * var(--trailingCounter));
+		max-width: unset;
 		padding: 0;
 	}
 	.base__5e434 {
