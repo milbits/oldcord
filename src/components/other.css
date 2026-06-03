@@ -750,60 +750,60 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /** Connections (in settings > connections)*/
-.connectContainer__4109d {
+.connectContainer__41de9 {
 	border-radius: 8px;
 	background: var(--primary-660);
 }
-.accountButtonInner__4109d {
+.accountButtonInner__41de9 {
 	background-color: var(--background-mod-subtle);
 	background-size: 32px;
 }
-.connectHeader__4109d {
+.connectHeader__41de9 {
 	color: #7b7c80 !important;
 	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.connectContainer__4109d .text-xs\/normal_ccc5fb {
+.connectContainer__41de9 .text-xs\/normal_ccc5fb {
 	color: var(--interactive-text-hover) !important;
 	font-size: 13px;
 }
-.connection__4109d {
+.connection__41de9 {
 	overflow: hidden;
 	background: none;
 	border-radius: 5px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 	width: 660px;
 }
-.connectionAccountLabel__4109d {
+.connectionAccountLabel__41de9 {
 	color: #fff8 !important;
 }
-.connectionAccountValue__4109d .connectionAccountLabelContainer__4109d {
+.connectionAccountValue__41de9 .connectionAccountLabelContainer__41de9 {
 	font-size: 16px;
 	margin-top: 4px;
 	color: var(--white-500);
 	font-weight: 400;
 }
-.connectionOptions__4109d,
-.upsellWrapper__4109d {
+.connectionOptions__41de9,
+.upsellWrapper__41de9 {
 	position: relative;
 }
-.metadataContainer__4109d {
+.metadataContainer__41de9 {
 	position: relative;
 	z-index: 10;
 	background: #0004;
 	border: solid 1px #0004;
 	border-radius: 3px;
 }
-.metadataContainer__4109d .connectedAccountVanityMetadataTag_fffe42 {
+.metadataContainer__41de9 .connectedAccountVanityMetadataTag_fffe42 {
 	border-radius: 3px;
 	background: none;
 	border: solid 1px #fff3;
 }
-.metadataContainer__4109d .text-xs\/normal_ccc5fb {
+.metadataContainer__41de9 .text-xs\/normal_ccc5fb {
 	color: #fff !important;
 }
-.metadataContainer__4109d .metadataRefreshButton__4109d button {
+.metadataContainer__41de9 .metadataRefreshButton__41de9 button {
 	background-color: var(--blurple-inverted) !important;
 	&:hover {
 		background-color: var(--blurple-inverted-hover) !important;
@@ -815,7 +815,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	transition: 0.17s ease;
 }
 
-.connectionHeader__4109d:after {
+.connectionHeader__41de9:after {
 	content: "";
 	position: absolute;
 	margin-left: -18px;
@@ -824,12 +824,12 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: rgba(0, 0, 0, 0.1);
 	border-bottom: solid 1px rgba(0, 0, 0, 0.15);
 }
-.connectionOptionsWrapper__4109d .container__0d850,
-.connectionDelete__4109d,
+.connectionOptionsWrapper__41de9 .container__0d850,
+.connectionDelete__41de9,
 .integrationsWrapper-3a2pGd {
 	z-index: 50;
 }
-.connectionOptionSwitch__4109d {
+.connectionOptionSwitch__41de9 {
 	margin-top: 2px;
 }
 .labelRow__0d850 .title__0d850 .text-sm\/semibold_a5824d {
@@ -837,7 +837,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	color: var(--white-500);
 }
 
-.integration__4109d {
+.integration__41de9 {
 	z-index: 999;
 	width: calc(50% - 8px);
 	position: relative;
@@ -846,7 +846,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	border-radius: 3px;
 	padding: 10px;
 }
-.integration__4109d .lookFilled__201d5 {
+.integration__41de9 .lookFilled__201d5 {
 	border: solid 1px #0000004d;
 	background: #593695;
 	padding: 5px 16px;
@@ -854,30 +854,23 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	height: auto;
 	min-width: 0px;
 }
-.connectionDelete__4109d {
+.connectionDelete__41de9 {
 	width: 32px;
 	height: 32px;
 	border: solid 1px rgba(255, 255, 255, 0.3);
 	border-radius: 3px;
 }
-.connectionDelete__4109d svg {
+.connectionDelete__41de9 svg {
 	position: relative;
 	top: 6px;
 	left: 6px;
 }
-.connectionDelete__4109d path {
+.connectionDelete__41de9 path {
 	fill: var(--white-500);
 	transform: scale(1.1);
 }
-.connectionOptionSwitch__4109d .container__3f21e .input__3f21e:before {
-	background: #0000;
-	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
-}
-.connectionOptionSwitch__4109d .container__3f21e .input__3f21e:checked:before {
-	background: rgba(255, 255, 255, 0.3);
-	box-shadow: none;
-}
-.connectionHeader__4109d [alt] {
+
+.connectionHeader__41de9 [alt] {
 	margin: -572px -610px -4500px -16px;
 	padding: 2000px 330px;
 	background-color: var(--blurple);
@@ -887,7 +880,19 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	border-radius: 5px;
 	pointer-events: none;
 }
-.connectionHeader__4109d {
+.connection__41de9 .container__35859 {
+	position: relative;
+	color: #fff;
+	border-radius: 3px;
+}
+.connection__41de9 .divider__1de9c {
+	display: none;
+}
+.connectionOptions__41de9 .switchIndicator_a28278 {
+	background-color: hsla(0, 0%, 100%, 0.2) !important;
+	--blurple: hsla(0, 0%, 100%, 0.3) !important;
+}
+.connectionHeader__41de9 {
 	margin-bottom: 20px;
 	& [alt="Battle.net"] {
 		background-color: hsl(200, calc(var(--saturation-factor, 1) * 100%), 45%);
@@ -950,7 +955,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 
 	& [alt="PlayStation Network"] {
-		background-color: var(--playstation);
+		background-color: var(--playstation2);
 		background-image: url(https://milbits.github.io/oldcord/src/assets/playstation.svg);
 	}
 
@@ -968,7 +973,6 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		background-color: hsl(4, calc(var(--saturation-factor, 1) * 75%), 44%);
 		background-image: url(https://discord.com/assets/a4d8e9b0404a2d00.svg);
 	}
-
 	& [alt="Bluesky"] {
 		background-color: hsl(210.63, calc(var(--saturation-factor, 1) * 99.16%), 53.14%);
 		background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z' fill='%23fff'/%3E%3C/svg%3E");
@@ -1578,9 +1582,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		margin-right: -1px;
 	}
 	html:is([lang="en-us"], [lang="en-gb"])
-		&:has(
-			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
-		):before {
+		&:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
 		content: "Watching";
 		font-size: 12px;
 		font-weight: 500;
@@ -1617,9 +1619,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		margin-right: -1px;
 	}
 	html[lang="de"]
-		&:has(
-			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
-		):before {
+		&:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
 		content: "Schaut ";
 		font-size: 12px;
 		font-weight: 500;

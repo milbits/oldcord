@@ -105,16 +105,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 	& .custom-theme-background .menu_c1e9c4 {
 		border: 0px;
 	}
-	&
-		:is(
-			.banner__68edb,
-			.avatar__75742,
-			.descriptionClamp_f5f93a,
-			.mask__68edb,
-			.card__39ec2,
-			.userInfo_ce8328,
-			.activityContainer__84832
-		) {
+	& :is(.banner__68edb, .avatar__75742, .descriptionClamp_f5f93a, .mask__68edb, .card__39ec2, .userInfo_ce8328, .activityContainer__84832) {
 		display: none;
 	}
 	& .container_ab8609 {
@@ -264,7 +255,7 @@ html[lang="de"] .addStatusPrompt_ab8609 {
 		--play-dark: var(--twitch-dark);
 	}
 	/*&:has(.platformIcon__39ec2[style='mask-image: url("/assets/487de5256b2ae540.svg");']) {
-		--play: var(--twitch);
+		--play: var(--twitch);<^
 		--play-dark: var(--twitch-dark);
 	}
 	*/
@@ -576,7 +567,7 @@ html.theme-dark .badgeContainer__635ed path {
 		margin-top: 8px;
 		height: 40px;
 		width: 220px;
-		content: ""
+		content: "";
 	}
 }
 
@@ -624,8 +615,7 @@ html.theme-dark .badgeContainer__635ed path {
 /*! normal profile popout*/
 /*Banners*/
 .mask__68edb,
-.bannerButton_de8008,
-.bannerColor_fb7f94 {
+.bannerButton_fb7f94 {
 	display: none;
 }
 /*profile stuff*/
@@ -740,8 +730,7 @@ html.theme-dark .badgeContainer__635ed path {
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
-	padding: 0 0 30px 0;
-    order: -1;
+	order: -1;
 }
 
 :is(.user-profile-popout .inner_c0bea0, .userPanelOuter_c69a7b) .usernameRow__63ed3 {
@@ -754,7 +743,7 @@ html.theme-dark .badgeContainer__635ed path {
 	justify-content: center;
 }
 .displayNameRow__26b1f .defaultColor__4bd52 {
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 20px;
 	font-weight: 600;
 	color: var(--interactive-text-active);
@@ -772,10 +761,9 @@ html.theme-dark .badgeContainer__635ed path {
 .dotSpacer__26b1f {
 	display: none;
 }
-.userTagUsername__63ed3,
-.userTagDiscriminator__63ed3 {
+.userTagUsername__26b1f {
 	color: var(--text-secondary);
-	.container__63ed3:not(.bot__63ed3) &:before {
+	&:before {
 		content: "@";
 	}
 }
@@ -813,8 +801,7 @@ html.theme-dark .badgeContainer__635ed path {
 	box-shadow: none;
 	background: none !important;
 	transition: ease 0.4s background;
-	
-	
+
 	&:hover {
 		background: var(--primary-700) !important;
 		transition: ease height background-color 0.2s;
@@ -852,7 +839,8 @@ html.theme-dark .badgeContainer__635ed path {
 /*! modal profile*/
 .user-profile-modal-v2 {
 	outline: none;
-	border-radius: 5px !important;
+	border: 0;
+	border-radius: 6px !important;
 }
 .user-profile-modal-v2 .inner_c0bea0 {
 	padding: 0px;
@@ -873,7 +861,7 @@ html.theme-dark .badgeContainer__635ed path {
 	width: 350px;
 }
 .profileHeader__9c3be {
-	min-height: 250px !important;
+	min-height: 210px !important;
 	background: var(--primary-700);
 }
 
@@ -881,9 +869,8 @@ html.theme-dark .badgeContainer__635ed path {
 	transform: scale(0.666);
 	position: absolute !important;
 	top: 0px !important;
-	left: 114px !important;
+	left: 126px !important;
 	background: var(--primary-700);
-	outline: 10px solid var(--primary-700);
 }
 
 .user-profile-modal-v2 .tags__63ed3 {
@@ -893,17 +880,19 @@ html.theme-dark .badgeContainer__635ed path {
 	top: 130px;
 	min-width: 350px;
 }
-.user-profile-modal-v2 .nickname__63ed3 {
-	position: fixed;
-	top: 110px;
-	width: 350px;
-	text-align: center;
-}
-.user-profile-modal-v2 .nicknameWithDisplayNameStyles__63ed3 {
+.user-profile-modal-v2 .displayNameRow__26b1f {
 	position: fixed;
 	top: 100px;
 	width: 350px;
 	text-align: center;
+}
+.user-profile-modal-v2 .usernameAndPronounsRow__26b1f {
+	position: fixed;
+	top: 125px;
+	width: 350px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .showEffect_dfb989.container_dfb989 .pop_dfb989:before /*! Fix misallined shadow text effect on floating username nitro effect*/ {
@@ -1040,7 +1029,7 @@ html.theme-dark .badgeContainer__635ed path {
 	h4 {
 		grid-area: title;
 	}
-	.badgesContainer__635ed, 
+	.badgesContainer__635ed,
 	[data-text-variant="text-xs/normal"],
 	.container__8e51c {
 		grid-area: details;
@@ -1181,7 +1170,6 @@ html.theme-dark .badgeContainer__635ed path {
 .displayNameTrailing__26b1f {
 	top: 100%;
 	position: absolute;
-	display: flex !important;
 	padding-top: 15px !important;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -1691,8 +1679,8 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	&:has(.tabularNumbers__4bd52) {
 		background: var(--brand-experiment-530) !important;
 		.button__2cbe2 {
-		    background: unset;
-		    border: 1px solid;
+			background: unset;
+			border: 1px solid;
 		}
 	}
 }
@@ -1717,7 +1705,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	background: unset;
 	border: 1px solid var(--border-subtle);
 	opacity: 0.8;
-	transition: color .17s ease, background-color .17s ease, border-color .17s ease;
+	transition:
+		color 0.17s ease,
+		background-color 0.17s ease,
+		border-color 0.17s ease;
 	&:hover {
 		background: unset !important;
 		border: 1px solid var(--border-strong);
@@ -1871,6 +1862,10 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 }
 
 /*profile widgets/board/game collection*/
+
+.gameWidgetGrid__7f3a7 {
+	grid-template-columns: repeat(5, 1fr);
+}
 #widgets-tab .container__62dd3 {
 	background: var(--primary-660);
 	border: none;

@@ -1,4 +1,4 @@
-# OldCord 🏳️‍🌈
+# OldCord 🏳️‍🌈🏳️‍⚧️
 
 A Discord theme that tries to restore its 2020 UI
 
@@ -47,13 +47,14 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 ## 3rd party
 
-| Name                                                                                                                                  | Description                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37)   |
-| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                            |
-| [KingGamingYT's NoMosaic plugin](https://betterdiscord.app/plugin/NoMosaic)                                                           | BetterDiscord NoMosaic plugin                            |
-| [NewOldProfiles](https://betterdiscord.app/plugin/NewOldProfiles)                                                                     | Restores period-accurate profiles w/ modern enhancements |
-| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                         |
+| Name                                                                                                                                  | Description                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Old Roles](https://github.com/KhimarikMayer/OldRoles)                                                                                | Improves gradient role borders and adds the old role design as a standalone option |
+| [Icon Revert](https://github.com/davart154/Icon-Revert-2023/blob/main/2023%20Icon%20Revert.theme.css)                                 | Reverts all icons to pre-2023. Can cause lag (see #37)                             |
+| [Vencord's NoMosaic plugin](https://vencord.dev/plugins/NoMosaic)                                                                     | Restores the old image layout                                                      |
+| [KingGamingYT's NoMosaic plugin](https://betterdiscord.app/plugin/NoMosaic)                                                           | BetterDiscord NoMosaic plugin                                                      |
+| [NewOldProfiles](https://betterdiscord.app/plugin/NewOldProfiles)                                                                     | Restores period-accurate profiles w/ modern enhancements                           |
+| [hide-nitro-upselling](https://github.com/D3SOX/complementary-discord-theme/blob/master/hide-nitro-upselling.betterdiscord.theme.css) | Hides nitro ads, could cause lag                                                   |
 
 ---
 

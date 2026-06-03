@@ -39,8 +39,7 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 	--scrollbar-auto-scrollbar-color-track: var(--primary-630);
 	--elevation-stroke: 0 0 0 1px hsla(240, calc(var(--saturation-factor, 1) * 11%), 2%, 0.15);
 	--elevation-low:
-		0 1px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 2%, 0.2),
-		0 1.5px 0 hsla(240, calc(var(--saturation-factor, 1) * 8%), 3%, 0.05),
+		0 1px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 2%, 0.2), 0 1.5px 0 hsla(240, calc(var(--saturation-factor, 1) * 8%), 3%, 0.05),
 		0 2px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 2%, 0.05);
 	--elevation-medium: 0 4px 4px hsla(0, 0%, 0%, 0.16);
 	--elevation-high: 0 8px 16px hsla(0, 0%, 0%, 0.24);
@@ -601,7 +600,7 @@ html:not(.custom-theme-background) .theme-light {
 }
 html:not(.custom-theme-background) .theme-dark,
 html:not(.custom-theme-background).theme-dark {
-		 --__spoiler-background-color--hidden: var(--primary-700);
+	--__spoiler-background-color--hidden: var(--primary-700);
 
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
@@ -609,19 +608,11 @@ html:not(.custom-theme-background).theme-dark {
 	--custom-channel-members-bg: var(--background-base-lowest);
 	--background-surface-highest: var(--background-primary);
 	--background-surface-higher: var(--background-floating, var(--background-tertiary));
-	--text-default: color-mix(
-		in oklab,
-		var(--primary-230) 100%,
-		var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%)
-	);
+	--text-default: color-mix(in oklab, var(--primary-230) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--text-primary: var(--neutral-1);
 	--text-secondary: var(--neutral-16);
 	--text-tertiary: var(--neutral-22);
-	--header-secondary: color-mix(
-		in oklab,
-		var(--neutral-9) 100%,
-		var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%)
-	);
+	--header-secondary: color-mix(in oklab, var(--neutral-9) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--message-background-hover: hsl(var(--primary-900-hsl) / 0.06);
 }
 html:not(.custom-theme-background).theme-light,
@@ -674,11 +665,7 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
 	--primary-700: color-mix(in oklab, var(--neutral-89) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--header-secondary: color-mix(
-		in oklab,
-		var(--neutral-5) 70%,
-		var(--theme-text-color, #000) var(--theme-text-color-amount, 0%)
-	) !important;
+	--header-secondary: color-mix(in oklab, var(--neutral-5) 70%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%)) !important;
 	--background-floating: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--primary-660: color-mix(in oklab, var(--neutral-87) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(218 4% 18% / 1) !important;

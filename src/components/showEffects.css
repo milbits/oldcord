@@ -60,11 +60,11 @@
 	background: var(--background-floating);
 	outline: 10px solid var(--background-floating);
 }
-.user-profile-modal-v2 .nickname__63ed3 {
-	top: 195px;
+.user-profile-modal-v2 .displayNameRow__26b1f {
+	top: 175px;
 }
-.user-profile-modal-v2 .tags__63ed3 {
-	top: 220px;
+.user-profile-modal-v2 .usernameAndPronounsRow__26b1f {
+	top: 195px;
 }
 .user-profile-modal-v2 .container_ab8609 {
 	top: 270px !important;
@@ -88,8 +88,7 @@
 	left: 85px !important;
 }
 /*add colors back*/
-.custom-user-profile-theme
-	:is(.inner_c0bea0, .profileBody__9c3be, .container__63ed3, .mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
+.custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be, .container__63ed3, .mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
 	margin-top: 0;
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
 	background: linear-gradient(

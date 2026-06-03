@@ -317,11 +317,11 @@
 	}
 }
 .reaction__23977 .emoji {
-    height: 1rem;
-    margin: .125rem 0;
-    min-height: auto;
-    min-width: auto;
-    width: 1rem;
+	height: 1rem;
+	margin: 0.125rem 0;
+	min-height: auto;
+	min-width: auto;
+	width: 1rem;
 }
 .reactionCount__23977 {
 	min-width: 9px !important;
