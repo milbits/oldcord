@@ -677,6 +677,7 @@ html.visual-refresh {
 		width: 144px;
 		border-radius: 4px;
 		border: none;
+		justify-self: end;
 		.DraftEditor-root {
 			padding: 2px 0;
 			line-height: 20px;
@@ -685,6 +686,7 @@ html.visual-refresh {
 			fill: var(--text-muted);
 		}
 	}
+	.search_c322aa:is(.open_c322aa),
 	.search_c322aa:is(.open_c322aa) .searchBar_c322aa {
 		width: 240px;
 	}
