@@ -668,7 +668,6 @@ html.visual-refresh {
 		flex: unset;
 		margin: 0 8px;
 		min-width: unset;
-		max-width: 144px;
 	}
 	.search_c322aa,
 	.searchBar_c322aa {
@@ -686,6 +685,9 @@ html.visual-refresh {
 		svg path {
 			fill: var(--text-muted);
 		}
+	}
+	.search_c322aa:not(.open_c322aa) {
+		max-width: 144px;
 	}
 	.search_c322aa:is(.open_c322aa),
 	.search_c322aa:is(.open_c322aa) .searchBar_c322aa {
