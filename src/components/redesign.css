@@ -669,6 +669,9 @@ html.visual-refresh {
 		margin: 0 8px;
 		min-width: unset;
 	}
+	.search__49676:not(:has(> .open_c322aa)) {
+		max-width: 144px;
+	}
 	.search_c322aa,
 	.searchBar_c322aa {
 		background: var(--background-gradient-low, var(--primary-700));
