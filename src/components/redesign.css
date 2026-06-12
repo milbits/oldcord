@@ -1171,7 +1171,7 @@ html.visual-refresh {
 		.highlighted__20a53 .subtext__972a0 {
 			color: var(--interactive-text-active);
 		}
-		.interactive_bf202d:hover {
+		.interactive_f88cfd:hover {
 			color: var(--interactive-text-hover) !important;
 		}
 		.interactiveSelected__972a0 .name__20a53,
@@ -1186,7 +1186,7 @@ html.visual-refresh {
 		& .subText__20a53 [data-text-variant="text-xs\/medium"] {
 			color: var(--channels-default) !important;
 		}
-		&:hover:has(.interactiveSelected__972a0) .interactive_bf202d {
+		&:hover:has(.interactiveSelected__972a0) .interactive_f88cfd {
 			background: var(--background-mod-strong) !important;
 		}
 		.interactive__972a0:focus-within {
@@ -1525,8 +1525,8 @@ html.visual-refresh {
 		border-bottom: unset;
 	}
 
-	.cardPrimary__73069,
-	.cardPrimary__73069.editable__73069 {
+	.cardPrimary_b5dd01,
+	.cardPrimary_b5dd01.editable_b5dd01 {
 		background: var(--__card-accent-color);
 	}
 	.sensitivity_ac7648 {

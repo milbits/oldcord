@@ -65,7 +65,7 @@ code {
 	& .subText__20a53 [data-text-variant="text-xs\/medium"] {
 		color: var(--channels-default) !important;
 	}
-	&:hover:has(.interactiveSelected__972a0) .interactive_bf202d {
+	&:hover:has(.interactiveSelected__972a0) .interactive_f88cfd {
 		background: var(--background-mod-strong) !important;
 	}
 	&:hover .muted__20a53 {
