@@ -3036,6 +3036,20 @@ html .bar_c38106 {
 		width: unset;
 	}
 }
+.sidebar__409aa {
+	background: var(--background-base-lowest);
+	border: none !important;
+	& .label__409aa {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 0.02em;
+		line-height: 1.3333333333333333;
+		padding: 6px 10px;
+		margin: 0;
+		color: var(--channels-default) !important;
+	}
+}
 
 /* actual garbage */
 .popover_d6f39b:has(.flexColumn__4364d) {
@@ -3072,20 +3086,6 @@ html .bar_c38106 {
 	}
 }
 
-.sidebar__409aa {
-	background: var(--background-base-lowest);
-	border: none !important;
-	& h1 {
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 12px;
-		letter-spacing: 0.02em;
-		line-height: 1.3333333333333333;
-		padding: 6px 10px;
-		margin: 0;
-		color: var(--channels-default) !important;
-	}
-}
 .item_caf372 {
 	border-radius: 4px;
 	&:active {
