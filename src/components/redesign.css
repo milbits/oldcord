@@ -1675,6 +1675,64 @@ html.visual-refresh {
 		border: unset;
 	}
 
+	/* invite modal */
+	.modalContainer__9b0f4 {
+		margin-top: unset;
+		margin-bottom: unset;
+	}
+
+	.inviteContent__9b0f4 {
+		padding-top: 20px;
+		.guildIcon_fa285e {
+			height: 80px;
+			width: 80px;
+			foreignObject {
+				mask: unset;
+			}
+			.iconActiveLarger_f34534 {
+				border-radius: 12px;
+			}
+		}
+		.pill__921c5 {
+			background: var(--primary-700);
+			border-radius: 24px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			[data-text-variant="text-sm/normal"] {
+				margin-right: 10px;
+			}
+			.pillIcon__921c5 {
+				margin-left: 10px;
+			}
+			.pillIconOnline__921c5 {
+				background-color: rgb(69, 163, 102);
+			}
+		}
+		.accordionContainer__7e354 {
+			background: var(--primary-700);
+			border-radius: 4px;
+			.header__7e354 {
+				border-radius: 4px;
+				background: unset;
+			}
+			.content__7e354 {
+				border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px;
+			}
+		}
+		button {
+			width: 100% !important;
+		}
+		.textButton__7a01b {
+			color: var(--blurple);
+			justify-content: center;
+			padding: 8px 16px;
+			[data-text-variant="text-sm/medium"] {
+				font-weight: 600;
+			}
+		}
+	}
+
 	/* message flash */
 	.flash__03436,
 	.message__5126c {
@@ -1801,7 +1859,7 @@ html.visual-refresh {
 		}
 	}
 	/* go live modal v2 */
-	.container__8a031.size-xl__8a031:not(:has(.confirmStep_a55fdc, .gameProfile_d100d9)) {
+	.container__8a031.size-xl__8a031:not(:has(.confirmStep_a55fdc, .inviteSplash__9b0f4, .gameProfile_d100d9)) {
 		width: 400px;
 	}
 	.container__8a031.size-xl__8a031 {
