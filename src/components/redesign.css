@@ -592,7 +592,7 @@ html.visual-refresh {
 		background: var(--background-gradient-lowest, var(--primary-700));
 		box-shadow: none;
 		&:hover {
-			background: var(--background-gradient-lowest, var(--primary-700));
+			background: var(--background-gradient-lowest, var(--primary-700)) !important;
 		}
 		.buttonChildrenWrapper_a22cb0 {
 			justify-content: start;
