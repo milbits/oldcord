@@ -1125,7 +1125,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /* pinned messages popout header */
-.titleContainer_e8b59c {
+.titleContainer__432f4 {
 	.text-lg\/semibold_cf4812 {
 		font-size: 15px;
 	}
@@ -1136,16 +1136,16 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /* fix pinned message padding */
-.messageGroupWrapper_e8b59c {
+.messageGroupWrapper__432f4 {
 	background: var(--background-primary);
 	border: 1px solid var(--primary-700);
 	border-radius: 4px;
 }
-.messageGroupWrapper_e8b59c .messageGroupCozy_e8b59c {
+.messageGroupWrapper__432f4 .messageGroupCozy__432f4 {
 	padding-top: 12px !important;
 	padding-bottom: 12px !important;
 }
-.messageGroupWrapper_e8b59c .actionButtons_e8b59c {
+.messageGroupWrapper__432f4 .actionButtons__432f4 {
 	align-items: center;
 	gap: unset !important;
 	.hasText_a22cb0 {
@@ -1180,10 +1180,10 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		}
 	}
 }
-.header_e8b59c {
+.header__432f4 {
 	background: var(--primary-700);
 }
-.messagesPopoutWrap_e8b59c {
+.messagesPopoutWrap__432f4 {
 	border-radius: 4px;
 }
 
