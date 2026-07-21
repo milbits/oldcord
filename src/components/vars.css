@@ -190,6 +190,9 @@ html:not(.custom-theme-background) .theme-light {
 	--control-text-active-default: var(--white);
 	--badge-background-default: var(--blurple);
 	--badge-background-brand: var(--blurple);
+
+	--expressive-gradient-nitro-pink-start: transparent !important;
+	--expressive-gradient-nitro-pink-end: transparent !important;
 }
 :root {
 	--oldcord-tint: 210; /* light mode */
@@ -333,6 +336,9 @@ html:not(.custom-theme-background) .theme-light {
 	--crunchyroll: hsl(29, calc(var(--saturation-factor, 1) * 93%), 60%);
 	--text-link: color-mix(in oklab, var(--blue-345) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 	--progressbar-indicator-background: var(--blurple);
+
+	--expressive-gradient-nitro-pink-start: transparent !important;
+	--expressive-gradient-nitro-pink-end: transparent !important;
 }
 
 .cardPrimary_b5dd01 {
@@ -614,6 +620,9 @@ html:not(.custom-theme-background).theme-dark {
 	--text-tertiary: var(--neutral-22);
 	--header-secondary: color-mix(in oklab, var(--neutral-9) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--message-background-hover: hsl(var(--primary-900-hsl) / 0.06);
+
+	--expressive-gradient-nitro-pink-start: transparent !important;
+	--expressive-gradient-nitro-pink-end: transparent !important;
 }
 html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
