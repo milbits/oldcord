@@ -1205,14 +1205,19 @@ html.visual-refresh {
 	}
 
 	.base__5e434
-		.text-sm\/medium__13cf1:not(
-			.title_b6c092,
-			.text_c9d15c,
-			.applicationSublabel_e1ecd3 .text-sm\/medium__13cf1 .lineClamp1__4bd52,
-			.searchFilter_bd8186,
-			.searchAnswer_bd8186
-		),
-	.text-xs\/bold_cf4812 {
+		:not(
+		.topic__6ec1a, 
+		.name__2ea32,
+		.textSm_c9d15c,
+		.buttonChildren_a22cb0
+	) > [data-text-variant="text-sm/medium"]:not(
+		.title_b6c092,
+		.text_c9d15c,
+		.applicationSublabel_e1ecd3 [data-text-variant="text-sm/medium"] .lineClamp1__4bd52,
+		.searchFilter_bd8186,
+		.searchAnswer_bd8186
+	),
+	[data-text-variant="text-xs/bold"] {
 		text-transform: uppercase;
 		font-size: 12px;
 		line-height: 16px;
@@ -1263,7 +1268,7 @@ html.visual-refresh {
 		height: 40px !important;
 	}
 
-	.typeThread__2ea32 .name__2ea32 {
+	.typeThread__2ea32 .name__2ea32 [data-text-variant="text-sm/medium"] {
 		font-size: 16px;
 	}
 
@@ -1991,7 +1996,7 @@ html.visual-refresh {
 	.rtcConnectionStatus__06d62 {
 		height: unset;
 	}
-	.rtcConnectionStatusWrapper__06d62 .text-sm\/medium_cf4812.lineClamp1__4bd52 {
+	.rtcConnectionStatusWrapper__06d62 .lineClamp1__4bd52[data-text-variant="text-sm/medium"] {
 		font-size: 12px !important;
 		color: var(--header-secondary) !important;
 	}
@@ -2075,6 +2080,7 @@ html.visual-refresh {
 	/* inbox */
 	.container_d15d9e,
 	.container_fc561d,
+	.container__8cb2e,
 	.widerInbox__8cb2e {
 		background-color: var(--primary-630);
 		.header_e8b59c {
