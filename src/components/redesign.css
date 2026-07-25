@@ -1209,8 +1209,11 @@ html.visual-refresh {
 		.topic__6ec1a, 
 		.name__2ea32,
 		.textSm_c9d15c,
-		.buttonChildren_a22cb0
+		.buttonChildren_a22cb0,
+		.favoriteGameContainer__4e338,
+		.footerContainer__122e4
 	) > [data-text-variant="text-sm/medium"]:not(
+		div,
 		.title_b6c092,
 		.text_c9d15c,
 		.applicationSublabel_e1ecd3 [data-text-variant="text-sm/medium"] .lineClamp1__4bd52,
