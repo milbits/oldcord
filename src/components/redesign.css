@@ -2090,31 +2090,36 @@ html.visual-refresh {
 			border-bottom: unset;
 		}
 		.header__06f80 {
-			padding: 0 var(--space-md) 0;
+			background: var(--primary-700);
+			padding: 0 var(--space-lg) 0;
 		}
 		.inboxTitle__06f80,
 		.inboxIcon__06f80 {
 			display: none;
 		}
 		.controls__06f80 {
-			margin-bottom: -65px;
+			margin-bottom: -54px;
+			gap: unset;
 			.friendRequestsButton_c7a32c {
-				background-color: var(--primary-700);
-				color: var(--interactive-text-default);
+				display: none;
+			}
+			button {
+				background-color: var(--primary-630);
+				color: var(--icon-muted);
+				padding: 2px 8px;
+				border-radius: 121px;
 			}
 		}
 		.top_aa8da2 .item_aa8da2.brand_aa8da2 {
 			--selected-tab-item-color: unset;
 		}
 		.tabBar__06f80 {
-			margin-left: 16px;
 			.tab__06f80 {
 				flex: 0 0 fit-content;
-				padding: 8px 8px;
-				margin: 0 8px;
+				padding: 6px 8px;
+				margin: 0 4px;
 				height: 10px;
-				margin-top: 4px;
-				margin-bottom: 20px;
+				margin-bottom: 14px;
 				border-radius: 4px;
 			}
 			.tab__06f80:is(.selected_aa8da2) {
@@ -2125,10 +2130,70 @@ html.visual-refresh {
 			}
 			.tab__06f80:nth-of-type(2) {
 				order: -1;
+				margin-left: 8px;
+			}
+			.itemText_aa8da2 {
+				font-weight: 500;
 			}
 		}
-		.channelHeader__35a7e {
+		.box__376cb {
+			background: var(--primary-630);
+			border: unset;
+			border-radius: var(--radius-xs);
+		}
+		.channelHeader__5d903 {
 			background-color: var(--primary-630);
+			border-bottom: unset;
+			margin-left: -4px;
+			padding: 0 4px 0 0;
+			.button__52d59 {
+				order: -1;
+			}
+			button {
+				background-color: var(--primary-700);
+				padding: 2px 8px;
+				border-radius: 121px;
+				svg {
+					color: var(--icon-muted);
+				}
+			}
+			.iconClickable__5d903 {
+				width: 36px;
+				.icon_f34534 {
+					width: 36px;
+					height: 36px;
+				}
+			}
+			.chevron__5d903 {
+				display: none;
+			}
+			.channelNameSection__5d903 {
+				margin-left: 5px;
+				.channelNameClickable__5d903 .channelNameSpan__5d903 {
+					color: var(--text-strong)
+				}
+			}
+			.channelTypeIcon__5d903 {
+				margin-right: unset;
+				path {
+					stroke: var(--text-strong);
+					stroke-width: 2;
+				}
+			}
+			[data-text-variant="text-xs/normal"] .channelNameSpan__5d903 {
+				font-weight: 500;
+			}
+		}
+		.divider__908e2 {
+			background: unset;
+			border: unset;
+			border-top: unset;
+		}
+		.collapsible__5c0bc {
+			border-radius: var(--radius-sm);
+		}
+		.messages_d06995 {
+			border-radius: var(--radius-sm);
 		}
 		.primary__06eda {
 			background-color: var(--background-primary);

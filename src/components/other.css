@@ -548,6 +548,17 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 /** forum channel*/
 .card_f369db {
 	padding-bottom: 8px;
+	.secondary_a22cb0 {
+		padding: 2px 8px !important;
+		border-radius: 121px !important;
+	}
+	.sortDropdown_f369db {
+		padding-inline: 8px 8px;
+		border-radius: 121px !important;
+		svg:last-of-type {
+			display: none;
+		}
+	}
 }
 
 .tagsContainer_f369db {
