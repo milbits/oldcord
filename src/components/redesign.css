@@ -1070,6 +1070,9 @@ html.visual-refresh {
 		min-width: 240px;
 		max-width: none;
 		--custom-app-panels-height: 0;
+		.scroller__629e4 {
+			margin-bottom: unset;
+		}
 	}
 
 	/*Betterfolders (vencord)*/
@@ -1360,6 +1363,10 @@ html.visual-refresh {
 			margin-left: 4px;
 			margin-right: 4px;
 		}
+		.emojiButton__74017:hover,
+		.buttonContainer_e6e74f:hover {
+			background-color: unset;
+		}
 		.buttonContainer_e6e74f.app-launcher-entrypoint {
 			width: 32px;
 			height: 32px;
@@ -1368,7 +1375,7 @@ html.visual-refresh {
 			--background-mod-strong: transparent;
 		}
 		.spriteContainer__04eed {
-			--custom-emoji-sprite-size: 24px !important;
+			--custom-emoji-sprite-size: 20px !important;
 		}
 		.lottieIcon__5eb9b {
 			height: 24px !important;
@@ -1404,11 +1411,12 @@ html.visual-refresh {
 		.spoilerContainer__54ab5.attachmentContainer__54ab5 .media__41ea0 {
 			border-radius: 3px;
 		}
-
 		.attachWrapper__0923f {
 			padding: 6px 0px 6px 6px;
 			position: relative;
-			bottom: 2px;
+		}
+		.attachButton__0923f {
+			margin-inline: calc((var(--space-xs) + var(--space-6)) * -1) 6px;
 		}
 		.button__24af7:not(.noHover__24af7) {
 			transition: unset;
@@ -1472,6 +1480,10 @@ html.visual-refresh {
 		.typingDots_b88801 {
 			margin-left: unset;
 		}
+	}
+	.menu_c1e9c4[id="channel-attach"] {
+		margin-left: -7px;
+		margin-bottom: 5px;
 	}
 
 	/* jump to present bar & failed to load bar */
@@ -1580,6 +1592,12 @@ html.visual-refresh {
 		border: 1px solid var(--primary-660);
 		box-shadow: unset;
 	}
+	.file__0ccae:has(.cancelButton__0ccae) {
+		padding-right: 15px;
+		.cancelButton__0ccae {
+			margin-inline-start: 24px;
+		}
+	}
 	.textContainer__4d95d {
 		background-color: var(--primary-630);
 		border: 1px solid var(--primary-660);
@@ -1667,7 +1685,7 @@ html.visual-refresh {
 	.bar__7aaec,
 	.voiceBar__7aaec {
 		border: unset;
-		margin-bottom: 4px;
+		margin-bottom: 10px;
 		background-color: var(--background-accent);
 		opacity: 0.9;
 	}
@@ -1757,6 +1775,19 @@ html.visual-refresh {
 	}
 	:is(.highlighted__5126c, .replying__5126c):hover {
 		background-color: rgba(114, 137, 218, 0.1) !important;
+	}
+
+	/* message actions bar */
+	.buttonContainer_c19a55 {
+		.buttonsInner__5126c {
+			background-color: var(--background-base-lower);
+			box-shadow: var(--elevation-stroke) !important;
+			border: solid 1px var(--primary-630);
+			border-radius: 4px;
+			&:hover {
+				box-shadow: var(--elevation-medium), var(--elevation-stroke) !important;
+			}
+		}
 	}
 
 	/* custom status modal */
@@ -1979,7 +2010,7 @@ html.visual-refresh {
 	}
 	.container_e131a9:has(.largePing__06d62) {
 		.subtext__339d0 {
-			max-width: 190px;
+			max-width: 160px;
 			position: fixed;
 			margin-left: -20px;
 		}
@@ -2322,7 +2353,8 @@ html.visual-refresh {
 	.popout__76f04,
 	.popout_a16aea,
 	.container__4e30a {
-		background: var(--background-surface-higher);
+		background-color: var(--background-surface-higher);
+		box-shadow: var(--shadow-high);
 		border-radius: 4px;
 	}
 

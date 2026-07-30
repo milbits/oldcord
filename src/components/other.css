@@ -2057,6 +2057,10 @@ https://github.com/XYZenix/DTM-16
 	background-image: url("https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg");
 }
 
+/* staging panel */
+.devBanner__56d75 {
+	order: 999;
+}
 /* ban modal 
 .container__8a031:has(.radioGroup__837b7) {
 	.header__8a031 {
