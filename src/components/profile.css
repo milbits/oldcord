@@ -617,6 +617,10 @@ html.theme-dark .badgeContainer__635ed path {
 .mask__68edb {
 	display: none;
 }
+.fill_b83360 {
+	mask: unset;
+	display: none;
+}
 /*profile stuff*/
 .user-profile-popout .inner_c0bea0,
 .custom-user-profile-theme {
