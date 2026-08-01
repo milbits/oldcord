@@ -1414,6 +1414,7 @@ html.visual-refresh {
 		.attachWrapper__0923f {
 			padding: 6px 0px 6px 6px;
 			position: relative;
+			bottom: 2px;
 		}
 		.attachButton__0923f {
 			margin-inline: calc((var(--space-xs) + var(--space-6)) * -1) 6px;
@@ -1432,6 +1433,7 @@ html.visual-refresh {
 			svg {
 				width: 24px;
 				height: 24px;
+				
 				path {
 					d: path(
 						"M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z"
