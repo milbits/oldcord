@@ -178,9 +178,10 @@ html.visual-refresh {
 		border: none;
 	}
 
-	&:not(html:is(.density-cozy, .density-compact)) :is(.scroller_c1e9c4, .labelContainer_c1e9c4) {
-		overflow: unset !important;
-		overflow-y: hidden scroll;
+	&:not(html:is(.density-cozy, .density-compact)) .scroller_c1e9c4 {
+		padding: 6px 0px 6px 8px;
+	}
+	&:not(html:is(.density-cozy, .density-compact)) .labelContainer_c1e9c4 {
 		padding: 6px 8px;
 	}
 	.wrapper_f563df {
