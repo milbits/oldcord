@@ -172,10 +172,16 @@ html.visual-refresh {
 		background: var(--background-gradient-lower, var(--primary-660));
 	}
 
+	/* context menus */
+
 	.menu_c1e9c4 {
 		box-shadow: var(--shadow-high);
 		border-radius: 4px;
 		border: none;
+	}
+
+	.flexible_c1e9c4 {
+		min-width: 188px;
 	}
 
 	&:not(html:is(.density-cozy, .density-compact)) .scroller_c1e9c4 {
@@ -221,6 +227,15 @@ html.visual-refresh {
 		color: white;
 	}
 
+	.labelContainer_c1e9c4 {
+		.iconContainerLeft_c1e9c4 {
+			order: 1;
+			margin-inline: unset;
+		}
+		&:has(> .iconContainer_c1e9c4 > :is(.caret_c1e9c4, .checkboxOption__714a9)) .iconContainerLeft_c1e9c4 {
+			display: none;
+		}
+	}
 	.iconContainer_c1e9c4 {
 		width: 18px;
 		height: 18px;
