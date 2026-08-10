@@ -1216,6 +1216,7 @@ html.visual-refresh {
 
 	.base__5e434
 		:not(
+		button,
 		.topic__6ec1a, 
 		.name__2ea32,
 		.textSm_c9d15c,
