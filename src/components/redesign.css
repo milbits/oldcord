@@ -1074,7 +1074,7 @@ html.visual-refresh {
 	.base__5e434 .sidebar__5e434 {
 		display: grid;
 		grid-template-areas: "guilds sidebar" "guilds panels";
-		grid-template-columns: [start] min-content [sidebarStart] [notice] auto [end];
+		grid-template-columns: [start] min-content [sidebarStart] auto [end];
 		grid-template-rows: [start] 1fr [panelsStart] min-content [end];
 		border-radius: 0;
 	}
