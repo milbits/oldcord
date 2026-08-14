@@ -1772,19 +1772,19 @@ https://github.com/XYZenix/DTM-16
 }
 
 /* authed apps */
-.authedAppV2__50a54 {
+.authedAppV2__92059 {
 	border: 1px solid var(--primary-700);
 	border-radius: 5px;
 	background: none;
-	.headerV2__50a54 {
+	.headerV2__92059 {
 		background: none;
-		.appAvatarV2__50a54 {
+		.appAvatarV2__92059 {
 			border-radius: 50%;
 		}
 	}
 	.contentExpandContainer__217b7 {
 		height: 100% !important;
-		.appDetailsSectionHeader__50a54 {
+		.appDetailsSectionHeader__92059 {
 			cursor: default;
 			.heading-sm\/medium_cf4812 {
 				font-size: 12px;
@@ -1799,39 +1799,39 @@ https://github.com/XYZenix/DTM-16
 			}
 		}
 	}
-	.appDetailsContainer__50a54 {
+	.appDetailsContainer__92059 {
 		display: flex;
 		flex-direction: column;
 	}
-	.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+	.appDetailsContainer__92059 .appDetailsSection__92059 {
 		border-bottom: unset;
 	}
-	.appDetailsContent__50a54 .text-sm\/normal_cf4812 {
+	.appDetailsContent__92059 .text-sm\/normal_cf4812 {
 		font-size: 14px;
 		font-weight: 500;
 	}
-	.permissionsDescription__50a54 {
+	.permissionsDescription__92059 {
 		display: none;
 	}
-	.footer__50a54 {
+	.footer__92059 {
 		margin: unset;
 		order: -1;
 		position: absolute;
 		align-self: end;
 		margin-right: 47px;
 		margin-top: -57px;
-		.deauthorizeButton__50a54 {
+		.deauthorizeButton__92059 {
 			opacity: 0;
 			-webkit-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 		}
-		.warningContainer__50a54 {
+		.warningContainer__92059 {
 			display: none; /* hated trying to position this so much i gave up */
 		}
 	}
 }
 
-.authedAppV2__50a54:hover .deauthorizeButton__50a54 {
+.authedAppV2__92059:hover .deauthorizeButton__92059 {
 	opacity: 1;
 }
 

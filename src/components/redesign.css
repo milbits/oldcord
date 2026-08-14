@@ -1255,6 +1255,7 @@ html.visual-refresh {
 		font-weight: 600;
 	}
 	.header__16eb0,
+	.sortDropdown__7db08 [data-text-variant="text-sm/medium"],
 	.groupHeader__971b5 [data-text-variant="text-xs/semibold"] {
 		text-transform: uppercase;
 		font-size: 12px;
@@ -3168,26 +3169,35 @@ html .bar_c38106 {
 		font-size: 13px;
 		font-weight: var(--font-weight-semibold);
 	}
-	.defaultKeybindGroup__57111 {
+	.defaultKeybindGroup_f82450,
+	.card_b2d910,
+	.emptyContainer__88a04 {
 		border-radius: 5px;
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--background-surface-higher);
 	}
-	.activeGame__497cd {
+	.card_b2d910 {
+		.cardHeader_b2d910,
+		.cardBody_b2d910 {
+			background: unset;
+		}
+	}
+	.activeGame_b53c4e {
 		border-radius: 4px;
 	}
-	.activeGame__497cd.notDetected__497cd {
+	.activeGame_b53c4e.notDetected_b53c4e {
 		background-color: var(--text-muted);
-		.lastPlayed__497cd {
+		.lastPlayed_b53c4e {
 			color: var(--text-default);
 		}
 	}
 	.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
-		padding: unset;
+		padding: 0 0 0 11px;
 	}
-	.game__497cd {
+	.game_b53c4e {
 		background: unset;
 		border-radius: 0;
+		box-shadow: unset;
 		border-bottom: solid 2px var(--background-mod-strong);
 		margin-bottom: 0px;
 	}
