@@ -2057,6 +2057,195 @@ https://github.com/XYZenix/DTM-16
 	background-image: url("https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg");
 }
 
+/* game profiles v2 */
+.container__8e830 {
+	.compactBarContainer__8e688 {
+		.overflowMenuContainer__8e688 {
+			> :is(button[aria-describedby], button:last-child), div[aria-describedby] button {
+				border-radius: 325px !important;
+				padding: 2px 8px;
+			}
+		}
+	}
+	.heroContent__8e688 {
+		.heroCoverArt__8e688 {
+			display: none;
+		}
+		.heroDetails__8e688 {
+			[data-text-variant="text-md/normal"] {
+				background: linear-gradient(to right, var(--background-surface-high), transparent);
+				border-radius: var(--radius-xs);
+				padding-inline: 5px;
+			}
+		}
+	}
+	[data-text-variant="heading-lg/medium"],
+	h2:is([data-text-variant="heading-sm/semibold"]) {
+		font-family: var(--font-display);
+		font-size: 12px;
+		line-height: 1.3333333333333333;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+		color: var(--text-default) !important;
+	}
+	.twoColumnMainContent__8e830 {
+		.twoColumnLeftSections__8e830 {
+			.container_a1cc72 {
+				.trailerSection_a1cc72 {
+					.videoWrapper_a1cc72 {
+						border-radius: var(--radius-xs);
+					}	
+				}
+				.heroArea_a1cc72 {
+					.heroImage_a1cc72 {
+						border-radius: var(--radius-xs);
+					}
+				}
+				.container__11938 {
+					.thumbnailWrapper_a1cc72, .thumbnail_a1cc72 {
+						border-radius: var(--radius-xs);
+					}
+					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+						transform: scale(1.05) !important;
+					}
+					.thumbnailClickable_a1cc72:not(.thumbnailSelected_a1cc72) .thumbnail_a1cc72 {
+						transform: unset;
+						opacity: 0.6;
+					}
+					.thumbnailClickable_a1cc72:hover .thumbnail_a1cc72 {
+						transform: unset;
+						transition: opacity .3s ease;
+						opacity: 1;
+					}
+					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+						opacity: 1;
+					}
+					.thumbnailSelected_a1cc72 .thumbnailWrapper_a1cc72::after {
+						border-radius: var(--radius-xs);
+						border: 2px solid var(--blurple);
+					    box-shadow: unset;
+					}
+				}
+			}
+			.recentNewsContainer__94d97 {
+				.news__94d97 {
+					border-radius: var(--radius-xs);
+					.timestamp__94d97 {
+						color: var(--text-muted);
+						text-transform: uppercase;
+						font-weight: 600;
+					}
+				}
+			}
+			.container__11938 {
+				.button__11938 button,
+				.thumbnailPlayIcon_a1cc72 button {
+					border-radius: 325px;
+					padding: 2px 8px;
+					min-width: unset;
+				}
+			}
+			.smallCard__250d5,
+			.smallCardItem__02912, 
+			.smallCardItem__02912 .card_abfd90,
+			.card_a02225 {
+				border-radius: var(--radius-xs);
+				border: unset;
+			}
+		}
+	}
+	.twoColumnSidebar__8e830 {
+		.sections__8e830 {
+			.storeLinksContainer__4177a {
+				background: var(--background-surface-higher);
+				border-radius: var(--radius-xs);
+				padding: 10px 20px 10px 20px;
+			}
+			.section__3ae56 {
+				order: 4;
+				.container__3ae56 {
+					background: var(--background-base-lowest);
+					border-radius: var(--radius-xs);
+					
+				}
+			}
+			.section__04bc3 {
+				order: 3;
+				.container__04bc3 {
+					border-radius: var(--radius-xs);
+					.textContainerCondensed__04bc3 {
+						margin-top: 6px;
+					}
+					.description__04bc3 {
+						display: none;
+					}
+				}
+			}
+			.section_ceab1a {
+				margin-top: -40px;
+				.sectionTitle_ceab1a {
+					display: none;
+				}
+				.container_ceab1a {
+					background: unset;
+					border: unset;
+					border-radius: unset;
+					.innerContainer_ceab1a {
+						background: var(--background-base-lowest);
+						border-radius: var(--radius-xs);
+						border-bottom: unset;
+						margin-bottom: 2px;
+						height: 42px;
+						.steamContainer_ceab1a {
+							padding-top: 12px;
+						}
+						.opencriticContainer_ceab1a {
+							padding-top: 5px;
+						}
+						h2 {
+							color: var(--text-subtle) !important;
+						}
+						svg path {
+							fill: var(--icon-subtle);
+						}
+					}
+				}
+				order: 2;
+			}
+			.section_d9246e {
+				order: 1;
+				.container_d9246e {
+					background: unset;
+					border: unset;
+					border-radius: unset;
+					.detailsRow_d9246e {
+						background: var(--background-base-lowest);
+						border-radius: var(--radius-xs);
+						border-bottom: unset;
+						margin-bottom: 2px;
+					}
+				}
+				.ctaContainer_d9246e {
+					visibility: hidden;
+					height: 0px;
+				}
+			}
+		}
+	}
+}
+
+html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__4177a:before {
+	content: "Get Game";
+	font-family: var(--font-display);
+	font-size: 12px;
+	line-height: 1.3333333333333333;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: var(--text-default) !important;
+}
+
 /* staging panel */
 .devBanner__56d75 {
 	order: 999;
