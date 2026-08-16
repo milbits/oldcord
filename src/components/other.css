@@ -2212,6 +2212,9 @@ https://github.com/XYZenix/DTM-16
 						svg path {
 							fill: var(--icon-subtle);
 						}
+						&:hover {
+							background: var(--background-surface-higher);
+						}
 					}
 				}
 				order: 2;
