@@ -2197,6 +2197,9 @@ https://github.com/XYZenix/DTM-16
 						border-bottom: unset;
 						margin-bottom: 2px;
 						height: 42px;
+						.link_ceab1a:hover {
+							background: unset;
+						}
 						.steamContainer_ceab1a {
 							padding-top: 12px;
 						}
