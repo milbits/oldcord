@@ -227,7 +227,7 @@ html.visual-refresh {
 		color: white;
 	}
 
-	.labelContainer_c1e9c4 {
+	.menu_c1e9c4:not([id="channel-attach"]) .labelContainer_c1e9c4 {
 		.iconContainerLeft_c1e9c4 {
 			order: 1;
 			margin-inline: unset;
