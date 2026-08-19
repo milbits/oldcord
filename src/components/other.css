@@ -1365,84 +1365,203 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	display: none;
 }
 
-/** Game profile */
-.gameProfileModal__8e830 [data-text-variant="heading-md\/bold"] {
-	display: none;
-}
-
-.gameProfileModal__8e830 .heading-xl\/bold_cf4812 {
-	font-weight: 600;
-	font-size: 20px;
-	margin-left: 55px;
-}
-
-.gameProfileModal__8e830 .sectionHeader__8e830:is(.text-xs\/semibold_cf4812, .text-md\/semibold_cf4812, .text-sm\/semibold_cf4812) {
-	text-transform: uppercase !important;
-}
-
-.gameProfileModal__8e830 .text-md\/semibold_cf4812 {
-	color: var(--header-secondary) !important;
-	font-size: 13px;
-	font-weight: 500;
-	display: flex;
-	align-items: center;
-	gap: 8px;
-	&:after {
-		content: "";
-		background: var(--background-modifier-accent);
-		flex: 1;
-		height: 1px;
-		display: block;
+/* game profiles v2 */
+.container__8e830 {
+	.compactBarContainer__8e688 {
+		.overflowMenuContainer__8e688 {
+			> :is(button[aria-describedby], button:last-child), div[aria-describedby] button {
+				border-radius: 325px !important;
+				padding: 2px 8px;
+			}
+		}
+	}
+	.heroContent__8e688 {
+		.heroCoverArt__8e688 {
+			display: none;
+		}
+		.heroDetails__8e688 {
+			margin-top: -13px;
+			[data-text-variant="text-md/normal"] {
+				display: none;
+			}
+		}
+	}
+	[data-text-variant="heading-lg/medium"],
+	h2:is([data-text-variant="heading-sm/semibold"]) {
+		font-family: var(--font-display);
+		font-size: 12px;
+		line-height: 1.3333333333333333;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+		color: var(--text-default) !important;
+	}
+	.twoColumnMainContent__8e830 {
+		.twoColumnLeftSections__8e830 {
+			.container_a1cc72 {
+				.trailerSection_a1cc72 {
+					.videoWrapper_a1cc72 {
+						border-radius: var(--radius-xs);
+					}	
+				}
+				.heroArea_a1cc72 {
+					.heroImage_a1cc72 {
+						border-radius: var(--radius-xs);
+					}
+				}
+				.container__11938 {
+					.thumbnailWrapper_a1cc72, .thumbnail_a1cc72 {
+						border-radius: var(--radius-xs);
+					}
+					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+						transform: scale(1.05) !important;
+					}
+					.thumbnailClickable_a1cc72:not(.thumbnailSelected_a1cc72) .thumbnail_a1cc72 {
+						transform: unset;
+						opacity: 0.6;
+					}
+					.thumbnailClickable_a1cc72:hover .thumbnail_a1cc72 {
+						transform: unset;
+						transition: opacity .3s ease;
+						opacity: 1;
+					}
+					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+						opacity: 1;
+					}
+					.thumbnailSelected_a1cc72 .thumbnailWrapper_a1cc72::after {
+						border-radius: var(--radius-xs);
+						border: 2px solid var(--blurple);
+					    box-shadow: unset;
+					}
+				}
+			}
+			.recentNewsContainer__94d97 {
+				.news__94d97 {
+					border-radius: var(--radius-xs);
+					.timestamp__94d97 {
+						color: var(--text-muted);
+						text-transform: uppercase;
+						font-weight: 600;
+					}
+				}
+			}
+			.container__11938 {
+				.button__11938 button,
+				.thumbnailPlayIcon_a1cc72 button {
+					border-radius: 325px;
+					padding: 2px 8px;
+					min-width: unset;
+				}
+			}
+			.smallCard__250d5,
+			.smallCardItem__02912, 
+			.smallCardItem__02912 .card_abfd90,
+			.card_a02225 {
+				border-radius: var(--radius-xs);
+				border: unset;
+			}
+		}
+	}
+	.twoColumnSidebar__8e830 {
+		.sections__8e830 {
+			.storeLinksContainer__4177a {
+				background: var(--background-surface-higher);
+				border-radius: var(--radius-xs);
+				padding: 10px 20px 10px 20px;
+			}
+			.section__3ae56 {
+				order: 4;
+				.container__3ae56 {
+					background: var(--background-base-lowest);
+					border-radius: var(--radius-xs);
+					
+				}
+			}
+			.section__04bc3 {
+				order: 3;
+				.container__04bc3 {
+					border-radius: var(--radius-xs);
+					.textContainerCondensed__04bc3 {
+						margin-top: 6px;
+					}
+					.description__04bc3 {
+						display: none;
+					}
+				}
+			}
+			.section_ceab1a {
+				margin-top: -40px;
+				.sectionTitle_ceab1a {
+					display: none;
+				}
+				.container_ceab1a {
+					background: unset;
+					border: unset;
+					border-radius: unset;
+					.innerContainer_ceab1a {
+						background: var(--background-base-lowest);
+						border-radius: var(--radius-xs);
+						border-bottom: unset;
+						margin-bottom: 2px;
+						height: 42px;
+						.link_ceab1a:hover {
+							background: unset;
+						}
+						.steamContainer_ceab1a {
+							padding-top: 12px;
+						}
+						.opencriticContainer_ceab1a {
+							padding-top: 5px;
+						}
+						h2 {
+							color: var(--text-subtle) !important;
+						}
+						svg path {
+							fill: var(--icon-subtle);
+						}
+						&:hover {
+							background: var(--background-surface-higher);
+						}
+					}
+				}
+				order: 2;
+			}
+			.section_d9246e {
+				order: 1;
+				.container_d9246e {
+					background: unset;
+					border: unset;
+					border-radius: unset;
+					.detailsRow_d9246e {
+						background: var(--background-base-lowest);
+						border-radius: var(--radius-xs);
+						border-bottom: unset;
+						margin-bottom: 2px;
+					}
+				}
+				.ctaContainer_d9246e {
+					visibility: hidden;
+					height: 0px;
+				}
+			}
+		}
 	}
 }
 
-.gameProfileModal__8e830 .gapSm__8e830.row__8e830 > .text-sm\/semibold_cf4812 {
-	color: var(--header-secondary) !important;
-	font-weight: 500;
-	margin-left: 55px;
-}
-
-.gameProfileModal__8e830 .lineClamp2Plus__4bd52 {
-	max-height: unset;
-}
-
-.gameProfileModal__8e830 .overflowMenu__8e830 {
-	background: none;
-	backdrop-filter: none;
-}
-
-.gameProfileModal__8e830 .sidebar__8e830 {
-	border-left: solid 1px var(--background-modifier-accent);
-}
-
-.gameProfileModal__8e830 .logoWrapper__8e830 {
-	background-color: unset;
-	border-radius: 4px;
-	margin-left: -12px;
-}
-
-.gameProfileModal__8e830 .friends_b37a75.text-xs\/semibold_cf4812 {
-	background: none;
-	font-weight: 400;
-	font-size: 14px;
-}
-
-/* move game icon */
-.gameProfileModal__8e830 .gameIcon__8e830 {
-	position: absolute;
-	margin-top: -32px;
-	width: 48px;
-	height: 48px;
-}
-
-.gameProfileModal__8e830 .platforms__93ebb {
-	transform: scale(1.5);
-	margin-left: 45px;
+html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__4177a:before {
+	content: "Get Game";
+	font-family: var(--font-display);
+	font-size: 12px;
+	line-height: 1.3333333333333333;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: var(--text-default) !important;
 }
 
 /*change x to twitter (bluesky better [follow me @milbit.bsky.social])*/
-.gameProfileModal__8e830
-	.anchor_edefb8
+.container__8e830
+	.linkAnchor__22275
 	path[d="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
 	d: path(
 		"M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"
@@ -2055,201 +2174,6 @@ https://github.com/XYZenix/DTM-16
 
 .theme-light .guildIconExpired_d5f3cd {
 	background-image: url("https://discord.com/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg");
-}
-
-/* game profiles v2 */
-.container__8e830 {
-	.compactBarContainer__8e688 {
-		.overflowMenuContainer__8e688 {
-			> :is(button[aria-describedby], button:last-child), div[aria-describedby] button {
-				border-radius: 325px !important;
-				padding: 2px 8px;
-			}
-		}
-	}
-	.heroContent__8e688 {
-		.heroCoverArt__8e688 {
-			display: none;
-		}
-		.heroDetails__8e688 {
-			[data-text-variant="text-md/normal"] {
-				background: linear-gradient(to right, var(--background-surface-high), transparent);
-				border-radius: var(--radius-xs);
-				padding-inline: 5px;
-			}
-		}
-	}
-	[data-text-variant="heading-lg/medium"],
-	h2:is([data-text-variant="heading-sm/semibold"]) {
-		font-family: var(--font-display);
-		font-size: 12px;
-		line-height: 1.3333333333333333;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.02em;
-		color: var(--text-default) !important;
-	}
-	.twoColumnMainContent__8e830 {
-		.twoColumnLeftSections__8e830 {
-			.container_a1cc72 {
-				.trailerSection_a1cc72 {
-					.videoWrapper_a1cc72 {
-						border-radius: var(--radius-xs);
-					}	
-				}
-				.heroArea_a1cc72 {
-					.heroImage_a1cc72 {
-						border-radius: var(--radius-xs);
-					}
-				}
-				.container__11938 {
-					.thumbnailWrapper_a1cc72, .thumbnail_a1cc72 {
-						border-radius: var(--radius-xs);
-					}
-					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
-						transform: scale(1.05) !important;
-					}
-					.thumbnailClickable_a1cc72:not(.thumbnailSelected_a1cc72) .thumbnail_a1cc72 {
-						transform: unset;
-						opacity: 0.6;
-					}
-					.thumbnailClickable_a1cc72:hover .thumbnail_a1cc72 {
-						transform: unset;
-						transition: opacity .3s ease;
-						opacity: 1;
-					}
-					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
-						opacity: 1;
-					}
-					.thumbnailSelected_a1cc72 .thumbnailWrapper_a1cc72::after {
-						border-radius: var(--radius-xs);
-						border: 2px solid var(--blurple);
-					    box-shadow: unset;
-					}
-				}
-			}
-			.recentNewsContainer__94d97 {
-				.news__94d97 {
-					border-radius: var(--radius-xs);
-					.timestamp__94d97 {
-						color: var(--text-muted);
-						text-transform: uppercase;
-						font-weight: 600;
-					}
-				}
-			}
-			.container__11938 {
-				.button__11938 button,
-				.thumbnailPlayIcon_a1cc72 button {
-					border-radius: 325px;
-					padding: 2px 8px;
-					min-width: unset;
-				}
-			}
-			.smallCard__250d5,
-			.smallCardItem__02912, 
-			.smallCardItem__02912 .card_abfd90,
-			.card_a02225 {
-				border-radius: var(--radius-xs);
-				border: unset;
-			}
-		}
-	}
-	.twoColumnSidebar__8e830 {
-		.sections__8e830 {
-			.storeLinksContainer__4177a {
-				background: var(--background-surface-higher);
-				border-radius: var(--radius-xs);
-				padding: 10px 20px 10px 20px;
-			}
-			.section__3ae56 {
-				order: 4;
-				.container__3ae56 {
-					background: var(--background-base-lowest);
-					border-radius: var(--radius-xs);
-					
-				}
-			}
-			.section__04bc3 {
-				order: 3;
-				.container__04bc3 {
-					border-radius: var(--radius-xs);
-					.textContainerCondensed__04bc3 {
-						margin-top: 6px;
-					}
-					.description__04bc3 {
-						display: none;
-					}
-				}
-			}
-			.section_ceab1a {
-				margin-top: -40px;
-				.sectionTitle_ceab1a {
-					display: none;
-				}
-				.container_ceab1a {
-					background: unset;
-					border: unset;
-					border-radius: unset;
-					.innerContainer_ceab1a {
-						background: var(--background-base-lowest);
-						border-radius: var(--radius-xs);
-						border-bottom: unset;
-						margin-bottom: 2px;
-						height: 42px;
-						.link_ceab1a:hover {
-							background: unset;
-						}
-						.steamContainer_ceab1a {
-							padding-top: 12px;
-						}
-						.opencriticContainer_ceab1a {
-							padding-top: 5px;
-						}
-						h2 {
-							color: var(--text-subtle) !important;
-						}
-						svg path {
-							fill: var(--icon-subtle);
-						}
-						&:hover {
-							background: var(--background-surface-higher);
-						}
-					}
-				}
-				order: 2;
-			}
-			.section_d9246e {
-				order: 1;
-				.container_d9246e {
-					background: unset;
-					border: unset;
-					border-radius: unset;
-					.detailsRow_d9246e {
-						background: var(--background-base-lowest);
-						border-radius: var(--radius-xs);
-						border-bottom: unset;
-						margin-bottom: 2px;
-					}
-				}
-				.ctaContainer_d9246e {
-					visibility: hidden;
-					height: 0px;
-				}
-			}
-		}
-	}
-}
-
-html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__4177a:before {
-	content: "Get Game";
-	font-family: var(--font-display);
-	font-size: 12px;
-	line-height: 1.3333333333333333;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.02em;
-	color: var(--text-default) !important;
 }
 
 /* staging panel */
