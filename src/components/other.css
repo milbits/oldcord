@@ -1381,6 +1381,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		}
 		.heroDetails__8e688 {
 			margin-top: -13px;
+			.gameRankPill__8e688 {
+				order: 2;
+			}
 			[data-text-variant="text-md/normal"] {
 				display: none;
 			}
