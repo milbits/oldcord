@@ -629,7 +629,12 @@ html.visual-refresh {
 	.iconBadgeBottom__9293f {
 		right: 2px;
 		bottom: 0;
+		margin-inline-end: 0;
+		margin-bottom: 0;
 		--custom-icon-offset: unset;
+	}
+	.iconBadgeStyleUnread__9293f {
+		background-color: var(--red)
 	}
 	.navButton__08434 {
 		border-radius: 4px;
