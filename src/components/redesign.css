@@ -1243,6 +1243,7 @@ html.visual-refresh {
 		.searchFilter_bd8186,
 		.searchAnswer_bd8186
 	),
+	.liveNowText_e2d7b8,
 	[data-text-variant="text-xs/bold"] {
 		text-transform: uppercase;
 		font-size: 12px;
