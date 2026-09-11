@@ -2087,6 +2087,7 @@ html.visual-refresh {
 		box-shadow: var(--elevation-low);
 		margin-top: 23px;
 		margin-bottom: -38px;
+		margin-left: -85px;
 		grid-area: channelsList / channelsList / channelsList / page;
 	}
 	.base__5e434:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
