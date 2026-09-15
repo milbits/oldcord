@@ -915,7 +915,12 @@ html.visual-refresh {
 		}
 	}
 	.button_a22cb0 {
-		padding: 2px 16px;
+		&:not(.hasText_a22cb0.hasText_a22cb0) {
+			padding: 2px 8px;
+		}
+		&.hasText_a22cb0.hasText_a22cb0 {
+			padding: 2px 16px;
+		}
 		.buttonChildrenWrapper_a22cb0 {
 			min-width: unset;
 			min-height: unset;
@@ -2674,21 +2679,11 @@ html.visual-refresh {
 	}
 
 	.bd-radio-option {
-		padding: 10px 10px 10px 7px;
-		margin-bottom: 8px;
-		background-color: var(--background-base-lower);
 		border-radius: 3px;
-		.bd-radio-description {
-			color: var(--interactive-text-default);
-		}
 	}
 
 	.bd-radio-option:hover {
-		background-color: var(--background-mod-subtle);
-	}
-
-	.bd-radio-option.bd-radio-selected {
-		background-color: var(--background-mod-strong);
+		background-color: var(--background-base-lowest);
 	}
 
 	.bd-toast {
