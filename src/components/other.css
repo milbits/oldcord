@@ -276,7 +276,7 @@ code {
 	background-size: 20px 20px;
 }
 
-/* Radio */
+/* Radio Buttons */
 .group__64e61 {
   padding: unset;
   gap: var(--space-8);
@@ -346,6 +346,31 @@ code {
 	top: 21px;
 }
 
+/* Radio Bar */
+.slider__4c059 {
+	--grabber-size: 16px !important;
+	--bar-size: 8px !important;
+}
+.slider__4c059 .grabber__4c059 {
+	top: 7px;
+	width: 10px;
+	height: 24px;
+	margin-left: -5px;
+	border-radius: 3px;
+	background-color: var(--white);
+	border: 1px solid var(--border-strong);
+	box-shadow: var(--shadow-border), var(--shadow-ledge), var(--shadow-low);
+}
+.slider__4c059:is(.hasMarks__4c059) .grabber__4c059 {
+	margin-top: 16px;
+}
+:is(#user-context-user-volume, .column__7072d, .categorySubGroup__9f327) .slider__4c059 .grabber__4c059 {
+	margin-top: -7px;
+}
+.sliderBar_ac7648.speaking_ac7648 {
+	background-color: rgb(105, 196, 154);
+}
+
 /* Replace "dont scan" text with how it was before. only for german and english*/
 /*i love lag (i thinb)
 html:is([lang="DE"], [lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] {
@@ -388,7 +413,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 .wrapper__72c38,
-.bioTextArea__6a919 {
+.bioTextArea__6a919,
+.soundButtonSettingContainer__84bad {
 	border-radius: 3px;
 	color: var(--text-default) !important;
 	background-color: var(--input-background-default) !important;
@@ -1814,12 +1840,13 @@ https://github.com/XYZenix/DTM-16
 .themeSelectionContainer__36dee .selectionCircle__36dee,
 .nitroWheel_c5f0dc,
 .borderOverlay__8fea4,
-.container_a1d343 {
+.container_a1d343,
+.newRing__8fea4 {
 	display: none;
 }
 .themeSelection__36dee .iconWrapper__36dee {
-	top: -4.5px;
-	left: 35px;
+	top: 6px;
+	left: 40px;
 	& svg {
 		width: 35px;
 		height: 35px;
