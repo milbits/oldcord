@@ -3066,186 +3066,188 @@ html .bar_c38106 {
 .container__8a031[data-mana-component="layer-modal"] {
 	border: none;
 	max-width: 1080px !important;
-	.panel__6131a {
-		margin: unset;
-	}
-	.content_e9e3ed {
-		gap: var(--space-12);
-	}
-	.contentHeader_e9e3ed {
-		border: unset;
-		padding: 0 var(--space-24) 0 var(--space-30);
-		h1 {
+	.container_abd9a8 {
+		.panel__6131a {
+			margin: unset;
+		}
+		.content_e9e3ed {
+			gap: var(--space-12);
+		}
+		.contentHeader_e9e3ed {
+			border: unset;
+			padding: 0 var(--space-24) 0 var(--space-30);
+			h1 {
+				text-transform: uppercase;
+				font-weight: 600;
+				color: var(--header-primary) !important;
+			}
+		}
+		[data-text-variant="heading-lg/semibold"],
+		.debugTitle_bc4a3e {
 			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 14px;
+			color: var(--header-secondary) !important;
+		}
+		.title__28f6b {
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 14px;
+			color: var(--header-primary) !important;
+		}
+		[data-text-variant="heading-md/semibold"],
+		.displayClientThemesTitle__965a6,
+		.container__5a838:not([data-has-description="true"], [data-disabled]:not([data-layout="vertical"]), [data-layout="horizontal-responsive"]) .labelContainer__5a838 [data-text-variant="text-md/medium"] {
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 12px;
+			color: var(--channels-default) !important;
+		}
+		:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"]) .stack_dbd263:first-of-type [data-text-variant="heading-xl/normal"] {
+			font-size: 16px;
 			font-weight: 600;
 			color: var(--header-primary) !important;
 		}
-	}
-	[data-text-variant="heading-lg/semibold"],
-	.debugTitle_bc4a3e {
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: 14px;
-		color: var(--header-secondary) !important;
-	}
-	.title__28f6b {
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: 14px;
-		color: var(--header-primary) !important;
-	}
-	[data-text-variant="heading-md/semibold"],
-	.displayClientThemesTitle__965a6,
-	.container__5a838:not([data-has-description="true"], [data-disabled]:not([data-layout="vertical"]), [data-layout="horizontal-responsive"]) .labelContainer__5a838 [data-text-variant="text-md/medium"] {
-		font-weight: 600;
-		text-transform: uppercase;
-		font-size: 12px;
-		color: var(--channels-default) !important;
-	}
-	:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"]) .stack_dbd263:first-of-type [data-text-variant="heading-xl/normal"] {
-		font-size: 16px;
-		font-weight: 600;
-		color: var(--header-primary) !important;
-	}
-	.categories__6131a .stack_dbd263 {
-		padding-bottom: var(--space-4) !important;
-	}
-	.itemContent_caf372 {
-		color: var(--interactive-text-default) !important;
-	}
-	.item_caf372:hover .itemContent_caf372 {
-		color: var(--interactive-text-hover) !important;
-	}
-	.active_caf372 .itemContent_caf372 {
-		color: var(--interactive-text-active) !important;
-	}
-	.contentHeader_e9e3ed .buttonChildren_a22cb0 {
-		align-items: center;
-		border-radius: 50%;
-		border-style: solid;
-		border-width: 3px;
-		border-color: var(--text-muted);
-		cursor: pointer;
-		display: flex;
-		flex: 0 0 36px;
-		height: 36px;
-		justify-content: center;
-		width: 36px;
-	}
-	.contentHeader_e9e3ed .icon-only_a22cb0 {
-		align-self: end;
-		border-radius: 50%;
-		width: 42px;
-		height: 40px;
-		.buttonChildrenWrapper_a22cb0 {
-			min-width: 42px;
-			min-height: 40px;
+		.categories__6131a .stack_dbd263 {
+			padding-bottom: var(--space-4) !important;
 		}
-	}
-	.contentHeader_e9e3ed .icon-only_a22cb0:after {
-		position: absolute;
-		content: "ESC";
-		top: 43px;
-		color: #72767d;
-		font-size: 13px;
-		font-weight: var(--font-weight-semibold);
-	}
-	.defaultKeybindGroup_f82450,
-	.card_b2d910,
-	.emptyContainer__88a04,
-	.preview__6b741 {
-		border-radius: 5px;
-		background-color: var(--background-surface-high);
-		border: 1px solid var(--background-surface-higher);
-	}
-	.card_b2d910 {
-		.cardHeader_b2d910,
-		.cardBody_b2d910 {
-			background: unset;
+		.itemContent_caf372 {
+			color: var(--interactive-text-default) !important;
 		}
-	}
-	.activeGame_b53c4e {
-		border-radius: 4px;
-	}
-	.activeGame_b53c4e.notDetected_b53c4e {
-		background-color: var(--text-muted);
-		.lastPlayed_b53c4e {
-			color: var(--text-default);
+		.item_caf372:hover .itemContent_caf372 {
+			color: var(--interactive-text-hover) !important;
 		}
-		.nowPlayingAdd__1f52c {
-			> span {
+		.active_caf372 .itemContent_caf372 {
+			color: var(--interactive-text-active) !important;
+		}
+		.contentHeader_e9e3ed .buttonChildren_a22cb0 {
+			align-items: center;
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 3px;
+			border-color: var(--text-muted);
+			cursor: pointer;
+			display: flex;
+			flex: 0 0 36px;
+			height: 36px;
+			justify-content: center;
+			width: 36px;
+		}
+		.contentHeader_e9e3ed .icon-only_a22cb0 {
+			align-self: end;
+			border-radius: 50%;
+			width: 42px;
+			height: 40px;
+			.buttonChildrenWrapper_a22cb0 {
+				min-width: 42px;
+				min-height: 40px;
+			}
+		}
+		.contentHeader_e9e3ed .icon-only_a22cb0:after {
+			position: absolute;
+			content: "ESC";
+			top: 43px;
+			color: #72767d;
+			font-size: 13px;
+			font-weight: var(--font-weight-semibold);
+		}
+		.defaultKeybindGroup_f82450,
+		.card_b2d910,
+		.emptyContainer__88a04,
+		.preview__6b741 {
+			border-radius: 5px;
+			background-color: var(--background-surface-high);
+			border: 1px solid var(--background-surface-higher);
+		}
+		.card_b2d910 {
+			.cardHeader_b2d910,
+			.cardBody_b2d910 {
+				background: unset;
+			}
+		}
+		.activeGame_b53c4e {
+			border-radius: 4px;
+		}
+		.activeGame_b53c4e.notDetected_b53c4e {
+			background-color: var(--text-muted);
+			.lastPlayed_b53c4e {
 				color: var(--text-default);
 			}
+			.nowPlayingAdd__1f52c {
+				> span {
+					color: var(--text-default);
+				}
+			}
 		}
-	}
-	.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
-		padding: 0 0 0 11px;
-	}
-	.game_b53c4e {
-		background: unset;
-		border-radius: 0;
-		box-shadow: unset;
-		border-bottom: solid 2px var(--background-mod-strong);
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-		span {
+		.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
+			padding: 0 0 0 11px;
+		}
+		.game_b53c4e {
+			background: unset;
+			border-radius: 0;
+			box-shadow: unset;
+			border-bottom: solid 2px var(--background-mod-strong);
+			padding-bottom: 20px;
 			margin-bottom: 20px;
-		}
-	}
-	[data-settings-category-key="camera_category"]+.stack_dbd263 {
-		display: grid;
-		grid-template-areas: "camera preview" "switch preview" "background background";
-		grid-template-columns: 45% 54%;
-		[data-nav-anchor-key="camera_video_preview"] {
-			grid-area: preview;
-			margin-left: 0px;
-			.cameraWrapper__92346 {
-				background: var(--background-surface-high);
-				border: 1px solid var(--background-surface-higher);
-				justify-content: end;
-				[data-mana-component="button"] {
-					margin-bottom: 40px;
-				}
-			}
-			.cameraWrapper__92346:not(:has(.camera__92346)) {
-				&:before {
-					content: url('https://discord.com/assets/aba3ec7874f7f01fe9a8275a3e5c21a0.svg');
-					margin-bottom: 20px;
-				}
+			span {
+				margin-bottom: 20px;
 			}
 		}
-		[data-nav-anchor-key="camera_preview_preference"] {
-			grid-area: switch;
-		}
-		[data-nav-anchor-key="camera_selection_setting"] {
-			grid-area: camera;
-		}
-		[data-nav-anchor-key="camera_background_setting"] {
-			grid-area: background;
-		}
-	}
-	[data-settings-category-key="soundboard_category"]+.stack_dbd263 {
-		.stack_dbd263.baseSettingWrapper__32428 fieldset > .stack_dbd263 {
+		[data-settings-category-key="camera_category"]+.stack_dbd263 {
 			display: grid;
-			grid-template-areas: "server sound";
-			grid-template-columns: 48% 97%;
-			.customizationSection_ace4f5 {
-				margin-bottom: 0;
+			grid-template-areas: "camera preview" "switch preview" "background background";
+			grid-template-columns: 45% 54%;
+			[data-nav-anchor-key="camera_video_preview"] {
+				grid-area: preview;
+				margin-left: 0px;
+				.cameraWrapper__92346 {
+					background: var(--background-surface-high);
+					border: 1px solid var(--background-surface-higher);
+					justify-content: end;
+					[data-mana-component="button"] {
+						margin-bottom: 40px;
+					}
+				}
+				.cameraWrapper__92346:not(:has(.camera__92346)) {
+					&:before {
+						content: url('https://discord.com/assets/aba3ec7874f7f01fe9a8275a3e5c21a0.svg');
+						margin-bottom: 20px;
+					}
+				}
 			}
-			.customizationSection_ace4f5:last-child {
-				margin-top: 16px;
+			[data-nav-anchor-key="camera_preview_preference"] {
+				grid-area: switch;
+			}
+			[data-nav-anchor-key="camera_selection_setting"] {
+				grid-area: camera;
+			}
+			[data-nav-anchor-key="camera_background_setting"] {
+				grid-area: background;
 			}
 		}
-	}
-	.decorationWrapper__6131a {
-		margin-bottom: var(--space-20);
-		position: relative;
-		top: 0;
-		&:before {
-			background-color: unset;
+		[data-settings-category-key="soundboard_category"]+.stack_dbd263 {
+			.stack_dbd263.baseSettingWrapper__32428 fieldset > .stack_dbd263 {
+				display: grid;
+				grid-template-areas: "server sound";
+				grid-template-columns: 48% 97%;
+				.customizationSection_ace4f5 {
+					margin-bottom: 0;
+				}
+				.customizationSection_ace4f5:last-child {
+					margin-top: 16px;
+				}
+			}
 		}
-		.previewTitle__6b741 {
-			display: none;
+		.decorationWrapper__6131a {
+			margin-bottom: var(--space-20);
+			position: relative;
+			top: 0;
+			&:before {
+				background-color: unset;
+			}
+			.previewTitle__6b741 {
+				display: none;
+			}
 		}
 	}
 }
