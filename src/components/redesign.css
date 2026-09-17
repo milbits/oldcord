@@ -2054,8 +2054,8 @@ html.visual-refresh {
 		box-shadow: var(--elevation-low);
 		margin-top: 23px;
 		margin-bottom: -38px;
-		margin-left: -85px;
-		grid-area: channelsList / channelsList / channelsList / page;
+		margin-left: var(--custom-guild-list-width);
+		grid-area: guildsList / guildsList / channelsList / page;
 	}
 	.base__5e434:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
 		top: 89px;
@@ -3124,7 +3124,7 @@ html .bar_c38106 {
 			align-items: center;
 			border-radius: 50%;
 			border-style: solid;
-			border-width: 3px;
+			border-width: 1px;
 			border-color: var(--text-muted);
 			cursor: pointer;
 			display: flex;
