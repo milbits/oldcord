@@ -414,7 +414,8 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 
 .wrapper__72c38,
 .bioTextArea__6a919,
-.soundButtonSettingContainer__84bad {
+.soundButtonSettingContainer__84bad,
+.inputWrapper_f08f8d {
 	border-radius: 3px;
 	color: var(--text-default) !important;
 	background-color: var(--input-background-default) !important;
