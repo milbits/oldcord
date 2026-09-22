@@ -2248,3 +2248,23 @@ https://github.com/XYZenix/DTM-16
 	}
 }
 */
+
+/* crash screen */
+.images-dark .wrapper__61a6b {
+    background-image: url(https://discord.com/assets/069714e321aa543f.svg);
+}
+.images-light .wrapper__61a6b {
+    background-image: url(https://discord.com/assets/069714e321aa543f.svg);
+}
+.illustration__01b8d {
+	margin-bottom: 20px;
+}
+.illustration__01b8d img {
+	display: none;
+}
+.images-dark .illustration__01b8d:before {
+	content: url(https://discord.com/assets/e9baf4b505eb54129f832556ea16538e.svg);
+}
+.images-light .illustration__01b8d:before {
+	content: url(https://discord.com/assets/9c3d15a94528df326eb741af39b9f0a9.svg);
+}
