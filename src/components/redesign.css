@@ -3156,10 +3156,13 @@ html .bar_c38106 {
 		.defaultKeybindGroup_f82450,
 		.card_b2d910,
 		.emptyContainer__88a04,
-		.preview__6b741 {
+		.preview__6b741,
+		.group__0624f,
+		.box_f8c98c {
 			border-radius: 5px;
 			background-color: var(--background-surface-high);
 			border: 1px solid var(--background-surface-higher);
+			box-shadow: unset;
 		}
 		.card_b2d910 {
 			.cardHeader_b2d910,
