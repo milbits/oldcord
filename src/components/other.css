@@ -1169,6 +1169,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .messageGroupWrapper__432f4 .actionButtons__432f4 {
 	align-items: center;
 	gap: unset !important;
+	.buttonContainer__432f4 {
+		background: unset;
+	}
 	.hasText_a22cb0 {
 		background-color: var(--background-surface-high);
 		border: 1px solid var(--border-subtle) !important;
@@ -1176,16 +1179,18 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		min-height: 14px;
 		min-width: 0;
 		width: auto;
+		height: auto;
 		line-height: 14px;
 		margin: unset;
 		margin-inline: 6px 4px;
-		padding: 2px 8px;
+		padding: 2px 8px !important;
 		user-select: none;
 		.lineClamp1__4bd52 {
 			font-size: 11px;
 			font-weight: var(--font-weight-medium);
 		}
 		&:hover {
+			background-color: var(--background-surface-high) !important;
 			color: var(--interactive-text-active);
 		}
 	}
@@ -1193,10 +1198,14 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		background: transparent;
 		color: var(--interactive-text-default);
 		margin: 0;
-		padding: 0;
+		padding: 0 !important;
 		min-height: 0;
 		width: auto;
 		&:hover {
+			background: transparent !important;
+			color: var(--interactive-text-hover);
+		}
+		&:active {
 			color: var(--interactive-text-active);
 		}
 	}
