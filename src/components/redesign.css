@@ -69,10 +69,6 @@ html.platform-osx .title_c38106 {
 :is(html.platform-linux, html.platform-win) .trailing_c38106 {
 	margin-top: 6px !important;
 }
-/* somehow, this seems to be exclusive to web-based clients */
-html.platform-web .attachWrapper__0923f { 
-	bottom: 2px; 
-}
 
 #app-mount .h5_b717a1.eyebrow_b717a1 {
 	text-transform: uppercase !important;
@@ -162,7 +158,7 @@ html.visual-refresh {
 	}
 
 	.panels__5e434 {
-		max-width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+		max-width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 1px);
 		min-width: 240px;
 		display: flex;
 		width: 100%;
@@ -231,6 +227,7 @@ html.visual-refresh {
 		.iconContainerLeft_c1e9c4 {
 			order: 1;
 			margin-inline: unset;
+			margin-left: 8px;
 		}
 		&:has(> .iconContainer_c1e9c4 > :is(.caret_c1e9c4, .checkboxOption__714a9)) .iconContainerLeft_c1e9c4 {
 			display: none;
@@ -632,7 +629,12 @@ html.visual-refresh {
 	.iconBadgeBottom__9293f {
 		right: 2px;
 		bottom: 0;
+		margin-inline-end: 0;
+		margin-bottom: 0;
 		--custom-icon-offset: unset;
+	}
+	.iconBadgeStyleUnread__9293f {
+		background-color: var(--red)
 	}
 	.navButton__08434 {
 		border-radius: 4px;
@@ -913,7 +915,12 @@ html.visual-refresh {
 		}
 	}
 	.button_a22cb0 {
-		padding: 2px 16px;
+		&:not(.hasText_a22cb0.hasText_a22cb0) {
+			padding: 2px 8px;
+		}
+		&.hasText_a22cb0.hasText_a22cb0 {
+			padding: 2px 16px;
+		}
 		.buttonChildrenWrapper_a22cb0 {
 			min-width: unset;
 			min-height: unset;
@@ -1053,6 +1060,7 @@ html.visual-refresh {
 			"titleBar titleBar titleBar"
 			"notice notice notice"
 			"guildsList channelsList page";
+		grid-template-columns: [start] 71px [guildsList-end] calc(var(--custom-guild-sidebar-width) - 72px) [page-start] auto [end];
 		grid-template-rows: [top] 0px [titlebarEnd] min-content [page] 22px [end];
 		--trailingCounter: 1;
 		&:has(.trailing_c38106 > :nth-child(2 of :not(span, .winButtons_c38106))) {
@@ -1246,6 +1254,7 @@ html.visual-refresh {
 		.searchFilter_bd8186,
 		.searchAnswer_bd8186
 	),
+	.liveNowText_e2d7b8,
 	[data-text-variant="text-xs/bold"] {
 		text-transform: uppercase;
 		font-size: 12px;
@@ -1267,10 +1276,8 @@ html.visual-refresh {
 	}
 
 	.eyebrow_b717a1,
-	.container__5a838[data-layout="vertical"] .label__5a838,
 	[data-text-variant="heading-xl/normal"],
 	.fieldTitle_a27e58,
-	.title__28f6b,
 	legend /*of zelda*/ {
 		font-family: var(--font-display);
 		font-size: 12px;
@@ -1328,42 +1335,6 @@ html.visual-refresh {
 		width: 30px !important;
 	}
 
-	/* sliders & bars */
-	.slider_a562c8 {
-		--grabber-size: 16px !important;
-		--bar-size: 4px !important;
-	}
-	.slider_a562c8 .barFill_a562c8 {
-		background-color: var(--background-brand);
-	}
-	.grabber_a562c8 {
-		top: 9px;
-		width: 10px;
-		height: 24px;
-		margin-left: -5px;
-		border-radius: 3px;
-		background-color: var(--white);
-		border: 1px solid var(--border-strong);
-		box-shadow: var(--shadow-border), var(--shadow-ledge), var(--shadow-low);
-	}
-	.slider_a562c8:is(.hasMarks_a562c8) .grabber_a562c8 {
-		margin-top: 16px;
-	}
-	:is(#user-context-user-volume, .column__7072d, .categorySubGroup__9f327) .slider_a562c8 .grabber_a562c8 {
-		margin-top: -7px;
-	}
-	.sliderBar_ac7648.speaking_ac7648 {
-		background-color: rgb(105, 196, 154);
-	}
-	.bar_a562c8 {
-		height: 8px;
-	}
-	/*
-		.radioBar__1bda4 .radioIndicatorGroup__001a7:before {
-			content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 28 28'%3E%3Cpath d='M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z' stroke='' stroke-width='' fill='%2372767d' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
-			position: relative
-		}
-	*/
 	/* chat box */
 	.scrollerSpacer__36d07 {
 		height: 30px;
@@ -1436,6 +1407,7 @@ html.visual-refresh {
 			border-radius: 3px;
 		}
 		.attachWrapper__0923f {
+			bottom: 2px;
 			padding: 6px 0px 6px 6px;
 			position: relative;
 		}
@@ -1495,6 +1467,7 @@ html.visual-refresh {
 		top: unset !important;
 		align-items: center;
 		color: var(--text-default);
+		padding-inline-start: unset;
 		strong {
 			font-weight: var(--font-weight-bold) !important;
 		}
@@ -2083,7 +2056,8 @@ html.visual-refresh {
 		box-shadow: var(--elevation-low);
 		margin-top: 23px;
 		margin-bottom: -38px;
-		grid-area: channelsList / channelsList / channelsList / page;
+		margin-left: var(--custom-guild-list-width);
+		grid-area: guildsList / guildsList / channelsList / page;
 	}
 	.base__5e434:has(.notice__6e2b9, .bd-notice) .trailing_c38106 {
 		top: 89px;
@@ -2669,21 +2643,11 @@ html.visual-refresh {
 	}
 
 	.bd-radio-option {
-		padding: 10px 10px 10px 7px;
-		margin-bottom: 8px;
-		background-color: var(--background-base-lower);
 		border-radius: 3px;
-		.bd-radio-description {
-			color: var(--interactive-text-default);
-		}
 	}
 
 	.bd-radio-option:hover {
-		background-color: var(--background-mod-subtle);
-	}
-
-	.bd-radio-option.bd-radio-selected {
-		background-color: var(--background-mod-strong);
+		background-color: var(--background-base-lowest);
 	}
 
 	.bd-toast {
@@ -3104,102 +3068,192 @@ html .bar_c38106 {
 .container__8a031[data-mana-component="layer-modal"] {
 	border: none;
 	max-width: 1080px !important;
-	.panel__6131a {
-		margin: unset;
-	}
-	.content_e9e3ed {
-		gap: var(--space-12);
-	}
-	.contentHeader_e9e3ed {
-		border: unset;
-		padding: 0 var(--space-24) 0 var(--space-30);
-		h1 {
+	.container_abd9a8 {
+		.panel__6131a {
+			margin: unset;
+		}
+		.content_e9e3ed {
+			gap: var(--space-12);
+		}
+		.contentHeader_e9e3ed {
+			border: unset;
+			padding: 0 var(--space-24) 0 var(--space-30);
+			h1 {
+				text-transform: uppercase;
+				font-weight: 600;
+				color: var(--header-primary) !important;
+			}
+		}
+		[data-text-variant="heading-lg/semibold"],
+		.debugTitle_bc4a3e {
 			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 14px;
+			color: var(--header-secondary) !important;
+		}
+		.title__28f6b {
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 14px;
+			color: var(--header-primary) !important;
+		}
+		[data-text-variant="heading-md/semibold"],
+		.displayClientThemesTitle__965a6,
+		.container__5a838:not([data-has-description="true"], [data-disabled]:not([data-layout="vertical"]), [data-layout="horizontal-responsive"]) .labelContainer__5a838 [data-text-variant="text-md/medium"] {
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 12px;
+			color: var(--channels-default) !important;
+		}
+		:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"]) .stack_dbd263:first-of-type [data-text-variant="heading-xl/normal"] {
+			font-size: 16px;
 			font-weight: 600;
 			color: var(--header-primary) !important;
 		}
-	}
-	[data-text-variant="heading-lg/semibold"],
-	.debugTitle_bc4a3e {
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: 14px;
-		color: var(--header-secondary) !important;
-	}
-	.categories__6131a .stack_dbd263 {
-		padding-bottom: var(--space-4) !important;
-	}
-	.itemContent_caf372 {
-		color: var(--interactive-text-default) !important;
-	}
-	.item_caf372:hover .itemContent_caf372 {
-		color: var(--interactive-text-hover) !important;
-	}
-	.active_caf372 .itemContent_caf372 {
-		color: var(--interactive-text-active) !important;
-	}
-	.contentHeader_e9e3ed .buttonChildren_a22cb0 {
-		align-items: center;
-		border-radius: 50%;
-		border-style: solid;
-		border-width: 3px;
-		border-color: var(--text-muted);
-		cursor: pointer;
-		display: flex;
-		flex: 0 0 36px;
-		height: 36px;
-		justify-content: center;
-		width: 36px;
-	}
-	.contentHeader_e9e3ed .icon-only_a22cb0 {
-		align-self: end;
-		border-radius: 50%;
-		width: 42px;
-		height: 40px;
-		.buttonChildrenWrapper_a22cb0 {
-			min-width: 42px;
-			min-height: 40px;
+		.categories__6131a .stack_dbd263 {
+			padding-bottom: var(--space-4) !important;
 		}
-	}
-	.contentHeader_e9e3ed .icon-only_a22cb0:after {
-		position: absolute;
-		content: "ESC";
-		top: 43px;
-		color: #72767d;
-		font-size: 13px;
-		font-weight: var(--font-weight-semibold);
-	}
-	.defaultKeybindGroup_f82450,
-	.card_b2d910,
-	.emptyContainer__88a04 {
-		border-radius: 5px;
-		background-color: var(--background-surface-high);
-		border: 1px solid var(--background-surface-higher);
-	}
-	.card_b2d910 {
-		.cardHeader_b2d910,
-		.cardBody_b2d910 {
+		.itemContent_caf372 {
+			color: var(--interactive-text-default) !important;
+		}
+		.item_caf372:hover .itemContent_caf372 {
+			color: var(--interactive-text-hover) !important;
+		}
+		.active_caf372 .itemContent_caf372 {
+			color: var(--interactive-text-active) !important;
+		}
+		.contentHeader_e9e3ed .buttonChildren_a22cb0 {
+			align-items: center;
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 1px;
+			border-color: var(--text-muted);
+			cursor: pointer;
+			display: flex;
+			flex: 0 0 36px;
+			height: 36px;
+			justify-content: center;
+			width: 36px;
+		}
+		.contentHeader_e9e3ed .icon-only_a22cb0 {
+			align-self: end;
+			border-radius: 50%;
+			width: 42px;
+			height: 40px;
+			.buttonChildrenWrapper_a22cb0 {
+				min-width: 42px;
+				min-height: 40px;
+			}
+		}
+		.contentHeader_e9e3ed .icon-only_a22cb0:after {
+			position: absolute;
+			content: "ESC";
+			top: 43px;
+			color: #72767d;
+			font-size: 13px;
+			font-weight: var(--font-weight-semibold);
+		}
+		.defaultKeybindGroup_f82450,
+		.card_b2d910,
+		.emptyContainer__88a04,
+		.preview__6b741,
+		.group__0624f,
+		.box_f8c98c {
+			border-radius: 5px;
+			background-color: var(--background-surface-high);
+			border: 1px solid var(--background-surface-higher);
+			box-shadow: unset;
+		}
+		.card_b2d910 {
+			.cardHeader_b2d910,
+			.cardBody_b2d910 {
+				background: unset;
+			}
+		}
+		.activeGame_b53c4e {
+			border-radius: 4px;
+		}
+		.activeGame_b53c4e.notDetected_b53c4e {
+			background-color: var(--text-muted);
+			.lastPlayed_b53c4e {
+				color: var(--text-default);
+			}
+			.nowPlayingAdd__1f52c {
+				> span {
+					color: var(--text-default);
+				}
+			}
+		}
+		.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
+			padding: 0 0 0 11px;
+		}
+		.game_b53c4e {
 			background: unset;
+			border-radius: 0;
+			box-shadow: unset;
+			border-bottom: solid 2px var(--background-mod-strong);
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			span {
+				margin-bottom: 20px;
+			}
 		}
-	}
-	.activeGame_b53c4e {
-		border-radius: 4px;
-	}
-	.activeGame_b53c4e.notDetected_b53c4e {
-		background-color: var(--text-muted);
-		.lastPlayed_b53c4e {
-			color: var(--text-default);
+		[data-settings-category-key="camera_category"]+.stack_dbd263 {
+			display: grid;
+			grid-template-areas: "camera preview" "switch preview" "background background";
+			grid-template-columns: 45% 54%;
+			[data-nav-anchor-key="camera_video_preview"] {
+				grid-area: preview;
+				margin-left: 0px;
+				.cameraWrapper__92346 {
+					background: var(--background-surface-high);
+					border: 1px solid var(--background-surface-higher);
+					justify-content: end;
+					[data-mana-component="button"] {
+						margin-bottom: 40px;
+					}
+				}
+				.cameraWrapper__92346:not(:has(.camera__92346)) {
+					&:before {
+						content: url('https://discord.com/assets/aba3ec7874f7f01fe9a8275a3e5c21a0.svg');
+						margin-bottom: 20px;
+					}
+				}
+			}
+			[data-nav-anchor-key="camera_preview_preference"] {
+				grid-area: switch;
+			}
+			[data-nav-anchor-key="camera_selection_setting"] {
+				grid-area: camera;
+			}
+			[data-nav-anchor-key="camera_background_setting"] {
+				grid-area: background;
+			}
 		}
-	}
-	.container__75920[data-nav-anchor-key="registered_games_add_game_setting"] {
-		padding: 0 0 0 11px;
-	}
-	.game_b53c4e {
-		background: unset;
-		border-radius: 0;
-		box-shadow: unset;
-		border-bottom: solid 2px var(--background-mod-strong);
-		margin-bottom: 0px;
+		[data-settings-category-key="soundboard_category"]+.stack_dbd263 {
+			.stack_dbd263.baseSettingWrapper__32428 fieldset > .stack_dbd263 {
+				display: grid;
+				grid-template-areas: "server sound";
+				grid-template-columns: 48% 97%;
+				.customizationSection_ace4f5 {
+					margin-bottom: 0;
+				}
+				.customizationSection_ace4f5:last-child {
+					margin-top: 16px;
+				}
+			}
+		}
+		.decorationWrapper__6131a {
+			margin-bottom: var(--space-20);
+			position: relative;
+			top: 0;
+			&:before {
+				background-color: unset;
+			}
+			.previewTitle__6b741 {
+				display: none;
+			}
+		}
 	}
 }
 
