@@ -3314,6 +3314,16 @@ html .bar_c38106 {
 	.white__0489e {
 		font-weight: 600;
 	}
+	>:not(:first-child) {
+		padding: 10px;
+		button {
+			background: unset !important;
+			border: 1px solid var(--text-muted) !important;
+			&:hover {
+				border-color: var(--text-strong) !important;
+			}
+		}
+	}
 }
 .popover_d6f39b.experimentContainer_d7bc5d {
 	background-color: var(--background-surface-higher);
