@@ -1350,6 +1350,14 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	text-transform: uppercase;
 }
 
+/* message requests */
+.messageRequestItem_abb9ad {
+	border-radius: 4px;
+	&.selected_f391e3 {
+		background: var(--background-mod-muted);
+	}
+}
+
 /* fix emoji picker sizing */
 .emojiItem_fc7141 {
 	width: 40px !important;
