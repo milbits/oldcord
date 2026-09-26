@@ -3258,7 +3258,7 @@ html .bar_c38106 {
 }
 
 /* stream preview popout */
-:is(.popover_d6f39b.container_d7bc5d, .popover_d6f39b.experimentContainer_d7bc5d > .popover_d6f39b):has(.streamPreviewWrapper__0489e) {
+.container_d7bc5d {
 	background-color: var(--background-surface-higher);
 	padding: unset !important;
 	overflow: unset !important;
@@ -3301,14 +3301,14 @@ html .bar_c38106 {
 	}
 	.hasText_a22cb0 {
 		background: unset;
-		border: 1px solid var(--text-muted);
+		border: 1px solid var(--text-muted) !important;
 		margin-bottom: 10px;
 		transition:
 			color 0.17s ease,
 			background-color 0.17s ease,
 			border-color 0.17s ease;
 		&:hover {
-			border-color: var(--text-strong);
+			border-color: var(--text-strong) !important;
 		}
 	}
 	.white__0489e {
