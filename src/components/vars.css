@@ -674,6 +674,7 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
 	--primary-700: color-mix(in oklab, var(--neutral-89) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+	--header-primary: color-mix(in oklab,var(--neutral-2) 100%,var(--custom-theme-text-color,#000) var(--custom-theme-text-color-amount,0%)) !important;
 	--header-secondary: color-mix(in oklab, var(--neutral-5) 70%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%)) !important;
 	--background-floating: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--primary-660: color-mix(in oklab, var(--neutral-87) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));

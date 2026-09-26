@@ -2571,7 +2571,7 @@ html.visual-refresh {
 	}
 
 	/* BetterDiscord Elements */
-	.bd-button {
+	.bd-button:not(.bd-addon-button) {
 		border-radius: 3px;
 	}
 
