@@ -3258,7 +3258,7 @@ html .bar_c38106 {
 }
 
 /* stream preview popout */
-.container_d7bc5d {
+:is(.container_d7bc5d, .experimentContainer_d7bc5d .popover_d6f39b) {
 	background-color: var(--background-surface-higher);
 	padding: unset !important;
 	overflow: unset !important;
