@@ -115,71 +115,77 @@ code {
 /** Mana Switches */
 
 .container_a28278 {
-	height: 24px;
-	width: 42px;
-	&[data-disabled="true"] {
-		opacity: .5;
-	}
+  display: flex;
+  flex-shrink: 0;
+  height: 24px;
+  width: 42px;
 }
 .switchIndicator_a28278 {
-	display: none;
+  display: none;
 }
 .container_a28278 > span:not(#\#) {
-	display: contents !important;
+  display: contents !important;
 }
 .container_a28278 input[type=checkbox]:not(#\#) {
-	all: unset;
-	opacity: 1;
-	width: 0;
-	appearance: none;
-	position: relative;
-	&:before, &:after {
-	    border-radius: var(--radius-round);
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    transition: .1s ease;
-	}
-	&:before {
-	    background-color: var(--primary-400);
-	    box-shadow: inset 0 1px 1px hsl(var(--black-hsl) / .15);
-	    height: 24px;
-	    width: 42px;
-	}
-	&:checked:before {
-		background-color: var(--brand-500);
-	}
-	&:active:before {
-		background-image: linear-gradient(hsl(var(--black-500-hsl) / .1));
-	}
-	&:after {
-		background: var(--white);
-		box-shadow: 0 2px 4px hsl(var(--black-500-hsl) / .3);
-		height: 18px;
-		left: 3px;
-		top: 3px;
-		width: 18px;
-	}
-	&:active:after {
-		width: 24px;
-	}
-	&:checked:after {
-		transform: translate3d(18px, 0, 0);
-	}
-	&:checked:active:after {
-		left: -3px;
-	}
+  all: unset;
+  appearance: none;
+  opacity: 1;
+  position: relative;
+  width: 0;
+  &:disabled {
+    opacity: .5;
+  }
+  &:before, &:after {
+    border-radius: var(--radius-round);
+    content: "";
+    display: block;
+    position: absolute;
+    transition: .1s ease;
+  }
+  &:before {
+    background-color: var(--primary-400);
+    box-shadow: inset 0 1px 1px hsl(var(--black-hsl) / .15);
+    height: 24px;
+    width: 42px;
+  }
+  &:checked:before {
+    background-color: var(--brand-500);
+  }
+  &:active:before {
+    background-image: linear-gradient(hsl(var(--black-hsl) / .1));
+  }
+  &:after {
+    background-color: var(--white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    box-shadow: 0 2px 4px hsl(var(--black-hsl) / .3);
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    width: 18px;
+  }
+  &:active:after {
+    width: 24px;
+  }
+  &:checked:after {
+    transform: translate3d(18px, 0, 0);
+  }
+  &:checked:active:after {
+    left: -3px;
+  }
+}
+.permissionsForm__16663 input[type=checkbox]:not(#\#):checked:before {
+  background-color: #43b581;
 }
 
-/* change color to green just for the role permissions form */
-.permissionsForm__16663 .container__87bf1 .input__87bf1 {
-	&:checked:before {
-		background: #43b581;
-	}
-
-	&:checked:active:before {
-		background: var(--green-hover);
-	}
+.container_a28278:has(rect + svg) input[type=checkbox]:not(#\#) {
+  &:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='hsl(218.2 calc(var(--saturation-factor, 1) * 4.6%25) 46.9%25)' d='M14.25 4.8075L13.1925 3.75 9 7.9425 4.8075 3.75 3.75 4.8075 7.9425 9 3.75 13.1925 4.8075 14.25 9 10.0575l4.1925 4.1925 1.0575-1.0575L10.0575 9'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  &:checked:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='hsl(227 calc(var(--saturation-factor, 1) * 58.4%25) 65.1%25)' d='M15.75 5.25l-9 9-4.125-4.125 1.0575-1.0575 3.0675 3.06 7.9425-7.935'/%3E%3C/g%3E%3C/svg%3E");
+  }
 }
 
 /* revert channel role permissions (beta), looks kinda bad when zoomed in but i'll try to fix that */
@@ -285,7 +291,11 @@ code {
   background: var(--background-base-lowest);
   border: 1px solid var(--background-surface-higher) !important;
   border-radius: 3px;
-  grid-gap: 10px;
+  column-gap: 8px;
+  display: grid;
+  grid-template-areas: "radioPseudo radioTitle" "radioPseudo radioDesc";
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
   padding: 10px !important;
   position: relative;
   --radio-bar-accent-color: var(--text-default);
@@ -294,6 +304,8 @@ code {
     border: 1px solid var(--primary-400);
     box-sizing: border-box;
     content: "";
+		display: flex;
+    grid-area: radioPseudo;
     flex-shrink: 0;
     height: 24px;
     width: 24px;
@@ -308,7 +320,7 @@ code {
       border-color: currentColor;
     }
     &:after {
-     content: "";
+      content: "";
       position: absolute;
       top: 15px;
       left: 19px;
@@ -322,12 +334,21 @@ code {
       transform: rotate(45deg);
     }
   }
-  > div {
-    justify-content: center !important;
+  > span[data-text-variant] {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    grid-area: radioTitle;
+    line-height: 24px;
   }
 }
 .radioIndicator__64e61, .bd-radio-indicator {
   display: none;
+}
+.description__64e61 {
+  color: var(--legacy-text-muted) !important;
+  grid-area: radioDesc;
+  line-height: 1;
 }
 .label__64e61 [data-text-variant], .bd-radio-label {
   color: inherit;
