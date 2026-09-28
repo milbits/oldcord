@@ -2222,6 +2222,12 @@ https://github.com/XYZenix/DTM-16
 .devBanner__56d75 {
 	order: 999;
 }
+
+/* channel header icon */
+.emptyChannelIcon__00de6 {
+	background-color: var(--background-mod-normal);
+}
+
 /* ban modal 
 .container__8a031:has(.radioGroup__837b7) {
 	.header__8a031 {
