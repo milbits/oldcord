@@ -1081,7 +1081,9 @@ html.visual-refresh {
 	}
 	.base__5e434 .sidebar__5e434 {
 		display: grid;
-		grid-template-areas: "guilds sidebar" "guilds panels";
+		grid-template-areas:
+			"guilds sidebar"
+			"guilds panels";
 		grid-template-columns: [start] min-content [sidebarStart] auto [end];
 		grid-template-rows: [start] 1fr [panelsStart] min-content [end];
 		border-radius: 0;
@@ -3021,6 +3023,7 @@ html .bar_c38106 {
 	.sidebar__5e434 {
 		display: none !important;
 	}
+	.content__5e434 {display: flex}
 }
 
 .spriteContainer__04eed {
