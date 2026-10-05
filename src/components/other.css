@@ -2048,16 +2048,29 @@ https://github.com/XYZenix/DTM-16
 	}
 	.avatarContainer_dca174 {
 		margin-top: 36px;
-		.avatarWrapper_dca174 {
-			background: unset;
-			height: 50px;
+		&> svg {
 			width: 50px;
+			height: 50px;
+		}
+		&> foreignObject {
+			mask: unset;
+		}
+		.avatarWrapper_dca174 {
+			&> svg {
+				 transform: scale(1.09375);
+			}
+			&> foreignObject {
+				mask: unset;
+			}
 		}
 	}
 	.header__6e500 {
 		position: absolute;
 		margin-top: 116px;
 		margin-left: 70px;
+	}
+	.body_dca174 {
+		margin-top: 16px;
 	}
 	.footerContent__083ae {
 		background: unset;
