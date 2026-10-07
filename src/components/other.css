@@ -1423,13 +1423,13 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 			}
 		}
 	}
-	.heroContent__8e688 {
-		.heroCoverArt__8e688 {
+	.heroContent_f651bf {
+		.heroCoverArt_f651bf {
 			display: none;
 		}
-		.heroDetails__8e688 {
+		.heroDetails_f651bf {
 			margin-top: -13px;
-			.gameRankPill__8e688 {
+			.gameRankPill_f651bf {
 				order: 2;
 			}
 			[data-text-variant="text-md/normal"] {
@@ -1447,39 +1447,39 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		letter-spacing: 0.02em;
 		color: var(--text-default) !important;
 	}
-	.twoColumnMainContent__8e830 {
-		.twoColumnLeftSections__8e830 {
-			.container_a1cc72 {
-				.trailerSection_a1cc72 {
-					.videoWrapper_a1cc72 {
+	.twoColumnMainContent__12335 {
+		.sections__0596f {
+			.container__9d8b7 {
+				.trailerSection__9d8b7 {
+					.videoWrapper__9d8b7 {
 						border-radius: var(--radius-xs);
 					}	
 				}
-				.heroArea_a1cc72 {
-					.heroImage_a1cc72 {
+				.heroArea__9d8b7 {
+					.heroImage__9d8b7 {
 						border-radius: var(--radius-xs);
 					}
 				}
 				.container__11938 {
-					.thumbnailWrapper_a1cc72, .thumbnail_a1cc72 {
+					.thumbnailWrapper__9d8b7, .thumbnail__9d8b7 {
 						border-radius: var(--radius-xs);
 					}
-					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+					.thumbnailSelected__9d8b7 .thumbnail__9d8b7 {
 						transform: scale(1.05) !important;
 					}
-					.thumbnailClickable_a1cc72:not(.thumbnailSelected_a1cc72) .thumbnail_a1cc72 {
+					.thumbnailClickable__9d8b7:not(.thumbnailSelected__9d8b7) .thumbnail__9d8b7 {
 						transform: unset;
 						opacity: 0.6;
 					}
-					.thumbnailClickable_a1cc72:hover .thumbnail_a1cc72 {
+					.thumbnailClickable__9d8b7:hover .thumbnail__9d8b7 {
 						transform: unset;
 						transition: opacity .3s ease;
 						opacity: 1;
 					}
-					.thumbnailSelected_a1cc72 .thumbnail_a1cc72 {
+					.thumbnailSelected__9d8b7 .thumbnail__9d8b7 {
 						opacity: 1;
 					}
-					.thumbnailSelected_a1cc72 .thumbnailWrapper_a1cc72::after {
+					.thumbnailSelected__9d8b7 .thumbnailWrapper__9d8b7::after {
 						border-radius: var(--radius-xs);
 						border: 2px solid var(--blurple);
 					    box-shadow: unset;
@@ -1498,7 +1498,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 			}
 			.container__11938 {
 				.button__11938 button,
-				.thumbnailPlayIcon_a1cc72 button {
+				.thumbnailPlayIcon__9d8b7 button {
 					border-radius: 325px;
 					padding: 2px 8px;
 					min-width: unset;
@@ -1507,65 +1507,66 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 			.smallCard__250d5,
 			.smallCardItem__02912, 
 			.smallCardItem__02912 .card_abfd90,
-			.card_a02225 {
+			.card__38ddd,
+			.card_a60893 {
 				border-radius: var(--radius-xs);
 				border: unset;
 			}
 		}
 	}
-	.twoColumnSidebar__8e830 {
-		.sections__8e830 {
-			.storeLinksContainer__4177a {
+	.sidebar__09b2f {
+		.sections_ee608e {
+			.storeLinksContainer__73956 {
 				background: var(--background-surface-higher);
 				border-radius: var(--radius-xs);
 				padding: 10px 20px 10px 20px;
 			}
-			.section__3ae56 {
+			.section_b75d6c {
 				order: 4;
-				.container__3ae56 {
+				.container_b75d6c {
 					background: var(--background-base-lowest);
 					border-radius: var(--radius-xs);
-					.contentContainer__3ae56 {
-						.textContainer__3ae56 [data-text-variant] {
+					.contentContainer_b75d6c {
+						.textContainer_b75d6c [data-text-variant] {
 							text-align: center;
 						}
 					}
 				}
 			}
-			.section__04bc3 {
+			.section_adbbea {
 				order: 3;
-				.container__04bc3 {
+				.container_adbbea {
 					border-radius: var(--radius-xs);
-					.textContainerCondensed__04bc3 {
+					.textContainerCondensed_adbbea {
 						margin-top: 6px;
 					}
-					.description__04bc3 {
+					.description_adbbea {
 						display: none;
 					}
 				}
 			}
-			.section_ceab1a {
+			.section__51891 {
 				margin-top: -40px;
-				.sectionTitle_ceab1a {
+				.sectionTitle__51891 {
 					display: none;
 				}
-				.container_ceab1a {
+				.container__51891 {
 					background: unset;
 					border: unset;
 					border-radius: unset;
-					.innerContainer_ceab1a {
+					.innerContainer__51891 {
 						background: var(--background-base-lowest);
 						border-radius: var(--radius-xs);
 						border-bottom: unset;
 						margin-bottom: 2px;
 						height: 42px;
-						.link_ceab1a:hover {
+						.link__51891:hover {
 							background: unset;
 						}
-						.steamContainer_ceab1a {
+						.steamContainer__51891 {
 							padding-top: 12px;
 						}
-						.opencriticContainer_ceab1a {
+						.opencriticContainer__51891 {
 							padding-top: 5px;
 						}
 						h2 {
@@ -1581,20 +1582,20 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 				}
 				order: 2;
 			}
-			.section_d9246e {
+			.section__29e51 {
 				order: 1;
-				.container_d9246e {
+				.container__29e51 {
 					background: unset;
 					border: unset;
 					border-radius: unset;
-					.detailsRow_d9246e {
+					.detailsRow__29e51 {
 						background: var(--background-base-lowest);
 						border-radius: var(--radius-xs);
 						border-bottom: unset;
 						margin-bottom: 2px;
 					}
 				}
-				.ctaContainer_d9246e {
+				.ctaContainer__29e51 {
 					visibility: hidden;
 					height: 0px;
 				}
@@ -1603,7 +1604,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 
-html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__4177a:before {
+html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__73956:before {
 	content: "Get Game";
 	font-family: var(--font-display);
 	font-size: 12px;
@@ -1616,7 +1617,7 @@ html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__4177a:before {
 
 /*change x to twitter (bluesky better [follow me @milbit.bsky.social])*/
 .container__8e830
-	.linkAnchor__22275
+	.linkAnchor__9e5c1
 	path[d="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
 	d: path(
 		"M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"
