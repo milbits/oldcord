@@ -569,7 +569,9 @@ html.visual-refresh {
 	}
 	/* call background */
 	.root_bfe55a {
-		background: unset;
+		.container__5aa3a > svg {
+			display: none;
+		}
 	}
 
 	/*buttons*/
