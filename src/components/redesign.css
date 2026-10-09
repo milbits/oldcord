@@ -3355,7 +3355,7 @@ html .bar_c38106 {
 }
 
 /* actual garbage */
-.popover_d6f39b:has(div:not(.bodyUserActivity__0489e) > div > .flexColumn__4364d) {
+.popover_d6f39b:has(div:not(.bodyUserActivity__0489e, .thin_d125d2 > div:only-child) > div > .flexColumn__4364d) {
 	background-color: var(--background-surface-higher);
 	.thin_d125d2 {
 		padding: var(--space-md) !important;
