@@ -1250,7 +1250,7 @@ html.visual-refresh {
 		.buttonChildren_a22cb0,
 		.favoriteGameContainer__4e338,
 		.footerContainer__122e4
-	) > [data-text-variant="text-sm/medium"]:not(
+	) > [data-text-variant="experimental/body-sm/medium"]:not(
 		div,
 		.title_b6c092,
 		.text_c9d15c,
@@ -3110,9 +3110,10 @@ html .bar_c38106 {
 			font-size: 12px;
 			color: var(--channels-default) !important;
 		}
-		:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"]) .stack_dbd263:first-of-type [data-text-variant="heading-xl/normal"] {
+		:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"]) .stack_dbd263:first-of-type [data-text-variant="experimental/heading-xl/medium"] {
 			font-size: 16px;
 			font-weight: 600;
+			text-transform: uppercase;
 			color: var(--header-primary) !important;
 		}
 		.categories__6131a .stack_dbd263 {
