@@ -1454,6 +1454,7 @@ html.visual-refresh {
 	}
 	.cooldownText_b21699 {
 		color: var(--font-primary) !important;
+		font-variant-numeric: normal;
 	}
 	.base_b88801 {
 		left: 16px;
@@ -1683,7 +1684,6 @@ html.visual-refresh {
 		background-color: var(--background-accent);
 		opacity: 0.9;
 	}
-	.top__7aaec,
 	.unreadTop__629e4 {
 		top: 0;
 	}

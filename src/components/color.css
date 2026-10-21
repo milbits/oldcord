@@ -444,7 +444,7 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 
 /* revert new unread bar*/
 /*i know this is stupid*/
-.bottom__7aaec {
+.bottom__7aaec, .top__7aaec {
 	display: block;
 	padding: 0 0.5rem;
 }
