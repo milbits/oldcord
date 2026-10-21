@@ -136,11 +136,11 @@ html:not(.custom-theme-background) .theme-light {
 	--__spoiler-background-color--hidden: hsl(225 11.11 75%);
 
 	--background-primary: hsl(225 11.11 95%) !important;
-	--background-secondary: hsl(225 11.11 90%);
-	--background-tertiary: hsl(225 11.11 85%);
+	--background-secondary: hsl(225 16.11 90%);
+	--background-tertiary: hsl(225 18.11 85%);
 	--background-secondary-alt: hsl(225 6.11 80%);
 	--text-default: oklch(0.45 0.02 279);
-	--chat-background-default: hsl(225 11.11 90%);
+	--chat-background-default: hsl(225 25 90%);
 	--primary-630: var(--background-secondary);
 	--primary-660: var(--background-tertiary);
 	--primary-700: var(--background-tertiary);
