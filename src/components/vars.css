@@ -133,26 +133,27 @@ html:not(.custom-theme-background) .theme-dark:not(.theme-darker, .theme-midnigh
 
 html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
-	--__spoiler-background-color--hidden: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 75%);
+	--__spoiler-background-color--hidden: hsl(225 11.11 75%);
 
-	--background-primary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 95%) !important;
-	--background-secondary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90%);
-	--background-tertiary: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 85%);
-	--background-secondary-alt: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 83%);
-	--text-default: oklch(0.42 0.02 279);
-	--chat-background-default: hsl(var(--oldcord-tint) var(--oldcord-tint-intensity) 90.94%);
+	--background-primary: hsl(225 11.11 95%) !important;
+	--background-secondary: hsl(225 11.11 90%);
+	--background-tertiary: hsl(225 11.11 85%);
+	--background-secondary-alt: hsl(225 6.11 80%);
+	--text-default: oklch(0.45 0.02 279);
+	--chat-background-default: hsl(225 11.11 90%);
 	--primary-630: var(--background-secondary);
 	--primary-660: var(--background-tertiary);
 	--primary-700: var(--background-tertiary);
+	--deprecated-card-editable-bg: hsla(225, calc(var(--saturation-factor, 1) * 17%), 15%, 0.1);
 
 	--background-modifier-accent: #06060714;
-	--background-mod-subtle: hsl(calc(var(--oldcord-tint) + 12) 25% 88.5%);
-	--background-mod-muted: hsl(calc(var(--oldcord-tint) + 15) 25% 87%) !important;
-	--background-mod-strong: hsl(calc(var(--oldcord-tint) + 20) 25% 84%);
+	--background-mod-subtle: hsl(225 13.11 88.5%);
+	--background-mod-muted: hsl(225 13.11 87%) !important;
+	--background-mod-strong: hsl(235 13.11 80%);
 
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
-	--background-message-hover: rgba(6, 6, 7, 0.02);
+	--message-background-hover: rgba(6, 6, 7, 0.02);
 	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
 	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
@@ -190,14 +191,12 @@ html:not(.custom-theme-background) .theme-light {
 	--control-text-active-default: var(--white);
 	--badge-background-default: var(--blurple);
 	--badge-background-brand: var(--blurple);
+	--text-link: oklch(0.45 0.3 220);
 
 	--expressive-gradient-nitro-pink-start: transparent !important;
 	--expressive-gradient-nitro-pink-end: transparent !important;
 }
 :root {
-	--oldcord-tint: 210; /* light mode */
-	--oldcord-tint-intensity: 11.11;
-
 	--font-primary: Whitney, "Helvetica Neue", "gg sans", Helvetica, Arial, sans-serif;
 	--font-display: var(--font-primary);
 	--font-headline: var(--font-primary);
@@ -674,7 +673,11 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 		var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
 	) !important;
 	--primary-700: color-mix(in oklab, var(--neutral-89) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
-	--header-primary: color-mix(in oklab,var(--neutral-2) 100%,var(--custom-theme-text-color,#000) var(--custom-theme-text-color-amount,0%)) !important;
+	--header-primary: color-mix(
+		in oklab,
+		var(--neutral-2) 100%,
+		var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%)
+	) !important;
 	--header-secondary: color-mix(in oklab, var(--neutral-5) 70%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%)) !important;
 	--background-floating: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--primary-660: color-mix(in oklab, var(--neutral-87) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));

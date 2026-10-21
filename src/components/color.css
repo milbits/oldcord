@@ -443,16 +443,20 @@ html:not(.custom-theme-background) .icon__2ea32:not(.modeMuted__2ea32 .icon__2ea
 }
 
 /* revert new unread bar*/
+/*i know this is stupid*/
+.bottom__7aaec {
+	display: block;
+	padding: 0 0.5rem;
+}
 .bar__7aaec {
-	padding-left: 71px;
-	margin-top: 8px;
-	width: 146px !important;
-	background-color: var(--background-accent);
-	opacity: 0.9;
+	padding: 0.35em 0em;
+	width: 94%;
+	display: flex;
+	justify-content: center;
 	font-family: var(--font-display);
 	box-shadow: 0 2px 6px hsl(var(--black-500-hsl) / 0.24);
 	&:active {
-		top: 1px;
+		transform: translateY(1px);
 	}
 }
 
