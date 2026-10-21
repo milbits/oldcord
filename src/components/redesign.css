@@ -538,8 +538,7 @@ html.visual-refresh {
 		margin-bottom: unset;
 	}
 	.top_aa8da2 .item_aa8da2.selected_aa8da2 {
-		cursor: default;
-		color: var(--interactive-text-active);
+		color: white;
 	}
 	.top_aa8da2 .item_aa8da2.selected_aa8da2:after,
 	.top_aa8da2 .item_aa8da2:hover:after {
