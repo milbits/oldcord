@@ -9,23 +9,20 @@ By default, it removes profile effects (like banners) and clan tags. See `addons
 > [!IMPORTANT]
 >
 > - **Enable `"Apply theme on other users' profiles"` in `Settings > Appearence` to fix broken profile colors**
-> - **For the old gray colors, use the `"Ash"` theme in `Settings > Appearance`**
->   - Don't use vencord's "Client Theme" plugin, use Discord's own theme picker (with fakenitro if needed)
-> - Disable "display name style" in `Settings > Accessibility` if you don't want the flashy names
-> - UI Density should be on default, i won't support the other 2 options (they still kinda work, though)
-> - If you use BetterFolders, expect half your screen to turn blank every few months
+> - **For the old colors, use the `"Ash"` theme in `Settings > Appearance`**
+>   - Don't use vencord's "Client Theme" plugin; use Discord's own theme picker (with fakenitro if needed)
+> - UI Density should be on default; the other options aren't supported (they still kind of work, though)
+> - Disable "display name style" in `Settings > Accessibility` if you want!
 
-<details> <summary><h3>Light mode</h3></summary>
+<details> <summary><h3>Custom Light mode</h3></summary>
 
-Light mode is CUSTOM, it has higher contrast and slightly darker colors with adjustable tint, keeping it bright while not burning your retinas
+Light mode is custom, with better contrast and darker colors that won't blind you as much! basically if discord actually gave a shit about it. I know this goes against what the theme is trying to do, but who cares, right? :3
 
-It is currently not compatible with ShowEffects, sorry
+ash/darkmode has priority, so lightmode a bit inconsistent.
 
 <img src=https://raw.githubusercontent.com/milbits/oldcord/master/.github/previewLight.webp>
 
-###### preview slightly outdated
-
-Adjust the tint with `--oldcord-tint`, value/number has to be in HSL hue (e.g. 200). You can find it in the theme's `oldcord.theme.css` file.
+###### preview very outdated
 
 </details>
 
@@ -64,31 +61,31 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 ## 😺[Vencord](https://github.com/Vendicated/Vencord)
 
-#### Local method
+#### Online
+
+Paste the following in `Settings > Themes`:
+
+- `https://milbits.github.io/oldcord/src/main.css`
+
+#### Local
 
 1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
 2. Move the file to the Vencord theme folder:
 
 - `Settings > Themes > Open theme folder`
 
-#### Online method
-
-Paste the following in `Settings > Themes`:
-
-- `https://milbits.github.io/oldcord/src/main.css`
-
 ## 🚮[BetterDiscord](https://betterdiscord.app/)
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
-2. Save the file to your BetterDiscord theme folder:
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (Rightclick > "Save As", or open link and press <kbd>Ctrl</kbd> + <kbd>S</kbd>)
+2. Save/move the file to your BetterDiscord theme folder:
 
 - Windows: `%appdata%/BetterDiscord/themes`
-- Linux: `~/.config/BetterDiscord/themes`
+- Linux: `~/.config/BetterDiscord/themes` (flatpak: `~/.var/app/com.discordapp.Discord/config/BetterDiscord/themes/`)
 - MacOS: `/Library/Application\ Support/BetterDiscord/themes/`
 
 ## 🎛️ Other
 
-1. Paste the following at **the top** of the CSS file/window:
+1. Paste this at **the very top** of the CSS file/window:
 
 ```css
 @import url("https://milbits.github.io/oldcord/src/main.css");
