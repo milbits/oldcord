@@ -135,21 +135,25 @@ html:not(.custom-theme-background).theme-light,
 html:not(.custom-theme-background) .theme-light {
 	--__spoiler-background-color--hidden: hsl(225 11.11 75%);
 
-	--background-primary: hsl(225 11.11 95%) !important;
+	--background-primary: hsl(225 21.11 95%) !important;
 	--background-secondary: hsl(225 16.11 90%);
-	--background-tertiary: hsl(225 18.11 85%);
-	--background-secondary-alt: hsl(225 6.11 80%);
+	--background-secondary-alt: hsl(225 14.11 80%);
+	--background-tertiary: hsl(225 18.11 82%);
+	--background-floating: hsl(225 16.11 97%);
 	--text-default: oklch(0.45 0.02 279);
+	--text-strong: oklch(0.39 0.02 279);
 	--chat-background-default: hsl(225 25 90%);
 	--primary-630: var(--background-secondary);
 	--primary-660: var(--background-tertiary);
 	--primary-700: var(--background-tertiary);
-	--deprecated-card-editable-bg: hsla(225, calc(var(--saturation-factor, 1) * 17%), 15%, 0.1);
+
+	--interactive-background-active: hsl(225 19.11 55% / 0.2);
+	--interactive-background-hover: hsl(225 17.11 70% / 0.2);
 
 	--background-modifier-accent: #06060714;
 	--background-mod-subtle: hsl(225 13.11 88.5%);
 	--background-mod-muted: hsl(225 13.11 87%) !important;
-	--background-mod-strong: hsl(235 13.11 80%);
+	--background-mod-strong: hsl(225 18.11 72%);
 
 	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.1);
 	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1) * 96%), 54%, 0.2);
@@ -292,6 +296,8 @@ html:not(.custom-theme-background) .theme-light {
 	--button-positive-background: var(--green);
 	--status-green-600: var(--green);
 	--green-360: var(--green);
+	--green-new-50: var(--green);
+	--control-connected-background-default: var(--green-active);
 	--info-positive-foreground: var(--green);
 	--text-positive: var(--green);
 	--status-positive-background: var(--green);
@@ -320,6 +326,7 @@ html:not(.custom-theme-background) .theme-light {
 	--background-surface-high: var(--background-secondary);
 	--bg-base-secondary: var(--background-secondary);
 	--control-text-active-default: var(--white);
+
 	/* activity colors*/
 	--twitch-dark: hsl(262, calc(var(--saturation-factor, 1) * 47%), 36%);
 	--twitch: hsl(262, calc(var(--saturation-factor, 1) * 47%), 40%);
@@ -631,7 +638,6 @@ html:not(.custom-theme-background) .theme-light {
 	--custom-channel-members-bg: var(--background-secondary) !important;
 	--background-surface-highest: var(--background-primary) !important;
 	--background-surface-higher: var(--background-floating, var(--background-tertiary)) !important;
-	--background-floating: #fff;
 	--button-secondary: hsl(0deg 0% 0% / 10%);
 	--button-secondary-hover: hsl(0deg 0% 0% / 17%);
 }
@@ -694,4 +700,10 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 }
 html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
 	color: var(--channels-default);
+}
+.theme-light {
+	--deprecated-card-editable-bg: hsla(206, calc(var(--saturation-factor, 1) * 15%), 74%, 0.3);
+}
+.theme-dark {
+	--deprecated-card-editable-bg: hsla(216, calc(var(--saturation-factor, 1) * 7%), 15%, 0.3);
 }

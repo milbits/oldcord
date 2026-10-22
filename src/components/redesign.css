@@ -2242,7 +2242,7 @@ html.visual-refresh {
 		}
 		.collapsible__5c0bc {
 			border-radius: var(--radius-sm);
-			margn-bottom: -10px;
+			margin-bottom: -10px;
 		}
 		.messages_d06995,
 		.singleMessage__376cb {
@@ -3029,6 +3029,9 @@ html .bar_c38106 {
 
 .layer__960e4.baseLayer__960e4 {
 	background-color: var(--primary-700);
+	html.custom-theme-background & {
+		background-color: transparent;
+	}
 }
 
 #app-mount .emojiRemove_e7d73e {

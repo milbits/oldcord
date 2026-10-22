@@ -1280,6 +1280,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	gap: 0.8em;
 	& .secondary_a22cb0 {
 		background: var(--red) !important;
+		color: white;
 		&:hover {
 			background: var(--red-hover) !important;
 		}
@@ -1901,7 +1902,7 @@ https://github.com/XYZenix/DTM-16
 		width: 130px;
 		height: 60px;
 		background-size: 130px 100px;
-		border: solid 1px var(--primary-660);
+		border: solid 1px var(--background-tertiary);
 		border-bottom: none;
 		border-radius: 4px 4px 0 0;
 	}
@@ -1909,8 +1910,8 @@ https://github.com/XYZenix/DTM-16
 		content: attr(aria-label);
 		font-weight: 600;
 		font-size: 14px;
-		background: var(--primary-630);
-		border: solid 1px var(--primary-660);
+		background: var(--background-secondary);
+		border: solid 1px var(--background-tertiary);
 		border-radius: 0 0 4px 4px;
 		width: 130px;
 		height: auto;
@@ -1924,7 +1925,7 @@ https://github.com/XYZenix/DTM-16
 	&.selected__36dee:after {
 		background: var(--blurple);
 		border-color: var(--blurple);
-		color: var(--interactive-text-active);
+		color: white;
 	}
 }
 
