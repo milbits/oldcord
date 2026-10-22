@@ -1592,7 +1592,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 						.link__51891:hover {
 							background: unset;
 						}
-						.steamContainer__51891 {
+						.reviewRow__51891 {
 							padding-top: 12px;
 						}
 						.opencriticContainer__51891 {
@@ -1628,6 +1628,28 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 					visibility: hidden;
 					height: 0px;
 				}
+			}
+		}
+	}
+	.section_b1bfc6 {
+		.headerControls_b1bfc6 .container_da75ce {
+			background-color: var(--primary-660);
+			border-radius: 3px;
+			[data-mana-component="toggle-icon-button"] {
+				&[aria-pressed="true"] {
+					background-color: var(--primary-700) !important;
+				}
+			}
+		}
+		.card_b1bfc6, .skeletonCard_b1bfc6, .skeletonListItem_b1bfc6, .container__14a18 {
+			border-radius: 5px;
+            background-color: var(--primary-700);
+            border: unset;
+			&:hover {
+				background-color: var(--background-base-lowest);
+			}
+			.guildIcon_adbbea, .skeletonGuildIcon_adbbea {
+				border: unset;
 			}
 		}
 	}
@@ -2135,18 +2157,35 @@ https://github.com/XYZenix/DTM-16
 .navItemIcon__551b0 {
 	padding-right: 4px;
 }
+.container_a592e1 .scroller__23746 {
+	padding: var(--space-md);
+	.content_b6bcee {
+		max-width: unset;
+	}
+}
+@media (min-width: 1129px) {
+    .container_a592e1 .scroller__23746 {
+        padding: 32px;
+    }
+}
 .container_e9ef78 {
-	padding: 48px 16px 16px 16px;
+	margin-top: var(--custom-channel-header-height);
+	grid-template-rows: unset;
 }
 .content_f0d60d {
-	padding: var(--space-md) var(--space-md);
+	padding: var(--space-md) 0;
 }
 .gradientBackground_e9ef78 {
 	content: url("https://raw.githubusercontent.com/milbits/oldcord/refs/heads/main/.github/thething.svg");
 	opacity: 1 !important;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 8px;
+	max-height: 500px;
 }
 .sectionTitle_f0d60d {
-	padding-inline-start: 16px;
+	padding-inline-start: 0;
 }
 .description_e9ef78 {
 	color: rgba(255, 255, 255, 0.8) !important;
@@ -2159,10 +2198,11 @@ https://github.com/XYZenix/DTM-16
 }
 .textContainer_e9ef78 {
 	text-align: center;
-	padding-top: 100px;
 }
 .content_e9ef78 {
 	flex-direction: column;
+	align-self: center;
+	margin-bottom: 32px;
 }
 
 .guildDetails__4cb8a {
