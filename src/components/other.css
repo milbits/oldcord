@@ -2399,12 +2399,12 @@ https://github.com/XYZenix/DTM-16
 }
 
 /*unfuck lighttheme fontweights*/
-.theme-light .markup__75297 {
+html.theme-light .markup__75297 {
 	font-weight: unset
 }
-.theme-light .username_c19a55 {
+html.theme-light .username_c19a55 {
 	font-weight: 500
 }
-.theme-light strong {
+html.theme-light strong {
 	font-weight: 600
 }
