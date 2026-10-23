@@ -2397,3 +2397,14 @@ https://github.com/XYZenix/DTM-16
 .images-light .illustration__01b8d:before {
 	content: url(https://discord.com/assets/9c3d15a94528df326eb741af39b9f0a9.svg);
 }
+
+/*unfuck lighttheme fontweights*/
+.theme-light .markup__75297 {
+	font-weight: unset
+}
+.theme-light .username_c19a55 {
+	font-weight: 500
+}
+.theme-light strong {
+	font-weight: 600
+}
