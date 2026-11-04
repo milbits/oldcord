@@ -439,7 +439,7 @@ section:has(.clickableContainer__39ec2) {
 .card__39ec2 .heading-sm\/semibold_cf4812 /*game title*/ {
 	color: var(--text-tertiary) !important;
 }
-.card__39ec2 [data-text-variant="text-xs/normal"] /*details*/ {
+.card__39ec2 [data-text-variant="body-xs/normal"] /*details*/ {
 	font-size: 14px;
 	color: var(--text-secondary) !important;
 }
@@ -988,7 +988,7 @@ html.theme-dark .badgeContainer__635ed path {
 	text-transform: uppercase;
 	color: var(--header-secondary) !important;
 }
-#activity-tab .text-xs\/normal_cf4812 {
+#activity-tab .body-xs\/normal_cf4812 {
 	color: var(--text-secondary) !important;
 }
 #activity-tab .heading-sm\/semibold_cf4812 {
@@ -1033,7 +1033,7 @@ html.theme-dark .badgeContainer__635ed path {
 		grid-area: title;
 	}
 	.badgesContainer__635ed,
-	[data-text-variant="text-xs/normal"],
+	[data-text-variant="body-xs/normal"],
 	.container__8e51c {
 		grid-area: details;
 	}
@@ -1049,7 +1049,7 @@ html.theme-dark .badgeContainer__635ed path {
 		fill: var(--text-primary);
 	}
 }
-.user-profile-modal-v2 .card__39ec2:has(.actions__39ec2) :is(.badgesContainer__635ed, [data-text-variant="text-xs/normal"], .container__8e51c) {
+.user-profile-modal-v2 .card__39ec2:has(.actions__39ec2) :is(.badgesContainer__635ed, [data-text-variant="body-xs/normal"], .container__8e51c) {
 	max-width: 220px;
 }
 
@@ -1096,12 +1096,12 @@ html.theme-dark .badgeContainer__635ed path {
 	}
 }
 
-.user-profile-modal-v2 .details__39ec2 [data-text-variant="text-xs/normal"] {
+.user-profile-modal-v2 .details__39ec2 [data-text-variant="body-xs/normal"] {
 	font-size: 14px;
 	color: var(--white) !important;
 }
 
-.section_bf424d [data-text-variant="text-xs/semibold"] {
+.section_bf424d [data-text-variant="body-xs/semibold"] {
 	text-transform: uppercase;
 	color: var(--channels-default) !important;
 	font-weight: 800;
@@ -1153,7 +1153,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /* hide "connections" text */
-.section_bf424d:has(.profileAppConnections__9c3be) [data-text-variant="text-xs/semibold"] {
+.section_bf424d:has(.profileAppConnections__9c3be) [data-text-variant="body-xs/semibold"] {
 	text-indent: -9999px;
 	line-height: 0;
 	display: inline-flex;
@@ -1253,7 +1253,7 @@ html.theme-dark .badgeContainer__635ed path {
 }
 
 /* friend res */
-.user-profile-popout .overlay_c0bea0 > .container__43a4b > .text-sm\/normal_cf4812.defaultColor__4bd52 {
+.user-profile-popout .overlay_c0bea0 > .container__43a4b > .body-sm\/normal_cf4812.defaultColor__4bd52 {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: var(--header-secondary);
@@ -1269,7 +1269,7 @@ html.theme-dark .badgeContainer__635ed path {
 	flex-wrap: unset;
 	align-items: start;
 	padding: 16px 16px 20px 16px;
-	.text-xs\/medium_cf4812 {
+	.body-xs\/medium_cf4812 {
 		font-size: 12px;
 		color: var(--header-secondary);
 		font-weight: 800;
@@ -1299,10 +1299,10 @@ html.theme-dark .badgeContainer__635ed path {
 	}
 	padding: 0 0 10px 0;
 	order: -1;
-	& .text__530ce.text-sm\/normal_cf4812 {
+	& .text__530ce.body-sm\/normal_cf4812 {
 		font-size: 12px !important;
 	}
-	.theme-light & .text__530ce.text-sm\/normal_cf4812 {
+	.theme-light & .text__530ce.body-sm\/normal_cf4812 {
 		color: var(--interactive-text-active) !important;
 	}
 }
@@ -1321,7 +1321,7 @@ html.theme-dark .badgeContainer__635ed path {
 
 /** Bio*/
 
-.descriptionClamp_f5f93a [data-text-variant="text-sm/normal"] {
+.descriptionClamp_f5f93a [data-text-variant="body-sm/normal"] {
 	color: var(--text-default) !important;
 }
 /* add a scrollbar to user bio*/
@@ -1388,7 +1388,7 @@ html.theme-dark .badgeContainer__635ed path {
 	border-radius: 4200px;
 	max-width: 225px !important;
 	height: 22px;
-	[data-text-variant="text-xs/normal"] {
+	[data-text-variant="body-xs/normal"] {
 		font-weight: 500;
 	}
 }
@@ -1454,14 +1454,14 @@ html.theme-dark .badgeContainer__635ed path {
 	.theme-light & {
 		border-color: #b9bbbe;
 	}
-	[data-text-variant="text-xs/medium"] {
+	[data-text-variant="body-xs/medium"] {
 		width: 10px;
 		margin-left: -3px;
 		padding-right: 1px;
 	}
 }
 /* remove "add role" text */
-.addButton_af3987 > [data-text-variant="text-xs/normal"] {
+.addButton_af3987 > [data-text-variant="body-xs/normal"] {
 	display: none;
 }
 
@@ -1823,7 +1823,7 @@ html:is([lang="en-GB"], [lang="en-us"]) .footer__5be3e::after {
 	.clickable_c7ac92 {
 		text-transform: uppercase;
 		justify-content: unset;
-		& .defaultColor__5345c.text-sm\/medium_cf4812 {
+		& .defaultColor__5345c.body-sm\/medium_cf4812 {
 			color: var(--channels-default) !important;
 			font-size: 12px;
 			font-weight: 600;

@@ -46,34 +46,8 @@ code {
 .activityText__5d473 {
 	color: var(--channels-default) !important;
 }
-.peopleListItem_cc6179 .text__19b6d.text-sm\/medium_cf4812 {
+.peopleListItem_cc6179 .text__19b6d.body-sm\/medium_cf4812 {
 	color: var(--header-secondary) !important;
-}
-
-/* style dms correctly */
-.channel__972a0 {
-	.interactiveSelected__972a0 .subText__20a53 [data-text-variant="text-xs\/medium"] {
-		color: var(--interactive-text-active) !important;
-	}
-	&:hover:not(:has(.interactiveSelected__972a0)) .subText__20a53 [data-text-variant="text-xs\/medium"] {
-		color: var(--interactive-text-hover) !important;
-	}
-	&:hover .interactiveSelected__972a0 .name__20a53,
-	.interactiveSelected__972a0 .subText__20a53 {
-		color: var(--interactive-text-active) !important;
-	}
-	& .subText__20a53 [data-text-variant="text-xs\/medium"] {
-		color: var(--channels-default) !important;
-	}
-	&:hover:has(.interactiveSelected__972a0) .interactive_f88cfd {
-		background: var(--background-mod-strong) !important;
-	}
-	&:hover .muted__20a53 {
-		color: var(--interactive-text-hover) !important;
-		& .avatar__20a53 {
-			opacity: 1;
-		}
-	}
 }
 
 /*bot tag*/
@@ -812,7 +786,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.connectContainer__41de9 .text-xs\/normal_ccc5fb {
+.connectContainer__41de9 .body-xs\/normal_ccc5fb {
 	color: var(--interactive-text-hover) !important;
 	font-size: 13px;
 }
@@ -848,7 +822,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	background: none;
 	border: solid 1px #fff3;
 }
-.metadataContainer__41de9 .text-xs\/normal_ccc5fb {
+.metadataContainer__41de9 .body-xs\/normal_ccc5fb {
 	color: #fff !important;
 }
 .metadataContainer__41de9 .metadataRefreshButton__41de9 button {
@@ -880,7 +854,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 .connectionOptionSwitch__41de9 {
 	margin-top: 2px;
 }
-.labelRow__0d850 .title__0d850 .text-sm\/semibold_a5824d {
+.labelRow__0d850 .title__0d850 .body-sm\/semibold_a5824d {
 	font-weight: 500 !important;
 	color: var(--white-500);
 }
@@ -1078,7 +1052,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 }
 
 /* Capitalize titles in settings*/
-.description__6b700.text-sm\/normal_cf4812 {
+.description__6b700.body-sm\/normal_cf4812 {
 	color: var(--text-strong) !important;
 	font-size: 14px;
 	line-height: 20px !important;
@@ -1126,11 +1100,11 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		padding: unset;
 		.pauseText_c38e9f {
 			margin-top: 20px;
-			[data-text-variant="text-md/semibold"] {
+			[data-text-variant="body-md/semibold"] {
 				color: var(--header-primary) !important;
 				font-weight: 500;
 			}
-			[data-text-variant="text-sm/normal"] {
+			[data-text-variant="body-sm/normal"] {
 				color: var(--header-secondary) !important;
 			}
 		}
@@ -1174,7 +1148,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 
 /* pinned messages popout header */
 .titleContainer__432f4 {
-	.text-lg\/semibold_cf4812 {
+	.body-lg\/semibold_cf4812 {
 		font-size: 15px;
 	}
 
@@ -1299,7 +1273,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	}
 }
 
-.text-sm\/medium_cf4812 {
+.body-sm\/medium_cf4812 {
 	line-height: 1.25;
 	font-size: 0.875rem; /*using px is bad practice but its in vanilla lmfao*/
 }
@@ -1312,7 +1286,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-.header__49fc1 .text-md\/medium_cf4812 {
+.header__49fc1 .body-md\/medium_cf4812 {
 	font-size: 12px;
 }
 
@@ -1461,7 +1435,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 			.gameRankPill_f651bf {
 				order: 2;
 			}
-			[data-text-variant="text-md/normal"] {
+			[data-text-variant="body-md/normal"] {
 				display: none;
 			}
 		}
@@ -1875,7 +1849,7 @@ html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__73956:before {
 stolen and modified from 11pixels' dtm16
 https://github.com/XYZenix/DTM-16
 */
-.titleText__67a11.text-md\/medium_cf4812 {
+.titleText__67a11.body-md\/medium_cf4812 {
 	color: var(--header-secondary);
 	font-size: 12px;
 	font-weight: 900;
@@ -2041,7 +2015,7 @@ https://github.com/XYZenix/DTM-16
 	.appDetailsContainer__92059 .appDetailsSection__92059 {
 		border-bottom: unset;
 	}
-	.appDetailsContent__92059 .text-sm\/normal_cf4812 {
+	.appDetailsContent__92059 .body-sm\/normal_cf4812 {
 		font-size: 14px;
 		font-weight: 500;
 	}
