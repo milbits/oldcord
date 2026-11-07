@@ -1,8 +1,5 @@
 # OldCord 🏳️‍🌈🏳️‍⚧️
 
-> [!IMPORTANT]
-> i know that it might be broken for some. all you can do is wait.
-
 A Discord theme that tries to restore its 2020 UI, while preserving most features.
 
 By default, it removes profile effects (like banners) and clan tags. See `addons` below to get them back!

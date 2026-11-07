@@ -1329,7 +1329,7 @@ html.theme-dark .badgeContainer_CTWncy path {
 	display: none;
 }
 .descriptionClamp_BcddaK {
-	-webkit-line-clamp: 190 !important;
+	line-clamp: 190 !important;
 	max-height: 112px;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -1434,10 +1434,10 @@ html.theme-dark .badgeContainer_CTWncy path {
 	background: inherit;
 	border-radius: 50px;
 	border: 0.65px solid transparent;
-	-webkit-mask:
+	mask:
 		linear-gradient(#000, #000) padding-box,
 		linear-gradient(#000, #000);
-	-webkit-mask-composite: xor;
+	mask-composite: xor;
 	opacity: 0.6;
 	content: "";
 	z-index: -1;
