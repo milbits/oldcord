@@ -1,21 +1,21 @@
 .guildTagContainer__63ed3,
-.clanTagChiplet_c19a55,
-.chipletContainerInline__4a25c,
-.chipletContainerInline__10651,
-.chipletContainerInner__10651,
-.clanTag__5d473 {
+.clanTagChiplet_2i8Bfm,
+.chipletContainerInline_k8jyN7,
+.chipletContainerInline_k8jyN7,
+.chipletContainerInner_k8jyN7,
+.clanTag_Iy0c7A {
 	display: unset !important;
 }
 
 .guildTagContainer__63ed3 {
 	border: none;
 }
-.clanTag__5d473,
+.clanTag_Iy0c7A,
 .guildTag__63ed3,
-.clanTag__972a0,
-.clanTagChiplet_c19a55 {
+.clanTag_zln_tS,
+.clanTagChiplet_2i8Bfm {
 	border-radius: 3px;
-	& .tagText__10651 {
+	& .tagText_k8jyN7 {
 		color: var(--text-secondary, var(--header-secondary));
 	}
 	& img {

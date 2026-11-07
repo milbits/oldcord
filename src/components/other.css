@@ -1304,7 +1304,7 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 		border: none;
 	}
 
-	/*& .separator_f84418 {  // hides emoji separator 
+	/*& .separator_f84418 {  // hides emoji separator
 		display: none;
 	}*/
 }
@@ -1616,14 +1616,18 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar__1bda4[style="--radio-bar-acce
 				}
 			}
 		}
-		.card_b1bfc6, .skeletonCard_b1bfc6, .skeletonListItem_b1bfc6, .container__14a18 {
+		.card_b1bfc6,
+		.skeletonCard_b1bfc6,
+		.skeletonListItem_b1bfc6,
+		.container__14a18 {
 			border-radius: 5px;
-            background-color: var(--primary-700);
-            border: unset;
+			background-color: var(--primary-700);
+			border: unset;
 			&:hover {
 				background-color: var(--background-base-lowest);
 			}
-			.guildIcon_adbbea, .skeletonGuildIcon_adbbea {
+			.guildIcon_adbbea,
+			.skeletonGuildIcon_adbbea {
 				border: unset;
 			}
 		}
@@ -1801,7 +1805,9 @@ html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__73956:before {
 		margin-right: -1px;
 	}
 	html:is([lang="en-us"], [lang="en-gb"])
-		&:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
+		&:has(
+			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
+		):before {
 		content: "Watching";
 		font-size: 12px;
 		font-weight: 500;
@@ -1838,7 +1844,9 @@ html:is([lang="en-US"]) .container__8e830 .storeLinksContainer__73956:before {
 		margin-right: -1px;
 	}
 	html[lang="de"]
-		&:has(svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]):before {
+		&:has(
+			svg path[d="M4 3a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H4ZM6 20a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2H6Z"]
+		):before {
 		content: "Schaut ";
 		font-size: 12px;
 		font-weight: 500;
@@ -2139,9 +2147,9 @@ https://github.com/XYZenix/DTM-16
 	}
 }
 @media (min-width: 1129px) {
-    .container_a592e1 .scroller__23746 {
-        padding: 32px;
-    }
+	.container_a592e1 .scroller__23746 {
+		padding: 32px;
+	}
 }
 .container_e9ef78 {
 	margin-top: var(--custom-channel-header-height);
@@ -2307,7 +2315,7 @@ https://github.com/XYZenix/DTM-16
 	background-color: var(--background-mod-normal);
 }
 
-/* ban modal 
+/* ban modal
 .container__8a031:has(.radioGroup__837b7) {
 	.header__8a031 {
 		box-shadow: unset !important;
@@ -2374,11 +2382,11 @@ https://github.com/XYZenix/DTM-16
 
 /*unfuck lighttheme fontweights*/
 html.theme-light .markup__75297 {
-	font-weight: unset
+	font-weight: unset;
 }
 html.theme-light .username_c19a55 {
-	font-weight: 500
+	font-weight: 500;
 }
 html.theme-light strong {
-	font-weight: 600
+	font-weight: 600;
 }
