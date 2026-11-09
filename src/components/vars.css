@@ -347,18 +347,18 @@ html:not(.custom-theme-background) .theme-light {
 	--expressive-gradient-nitro-pink-end: transparent !important;
 }
 
-.cardPrimary_b5dd01 {
+.cardPrimary_qCN-Ri {
 	--__card-accent-color: var(--background-secondary) !important;
 }
 
-.colorDefault__6e2b9,
+.colorDefault_Q02kKo,
 .colorSuccess__6e2b9 {
 	--custom-notice-background: var(--status-positive-background);
 	--custom-notice-text: var(--status-positive-text);
 	--custom-notice-button-hover: var(--status-positive-background);
 }
 
-.colorDanger__6e2b9 {
+.colorDanger_Q02kKo {
 	--custom-notice-background: var(--status-danger-background) !important;
 	--custom-notice-text: var(--status-danger-text) !important;
 	--custom-notice-button-hover: var(--text-danger) !important;
@@ -663,10 +663,10 @@ html.custom-theme-background.theme-light {
 	--background-primary: var(--background-base-low);
 	--background-message-hover: var(--background-gradient-lowest);
 }
-html.custom-theme-background .contentRegionScroller__23e6b {
+html.custom-theme-background .contentRegionScroller_jnk11m {
 	background: var(--background-primary);
 }
-html.custom-theme-background .sidebarRegionScroller__23e6b {
+html.custom-theme-background .sidebarRegionScroller_jnk11m {
 	background: var(--background-secondary);
 }
 
@@ -698,7 +698,7 @@ html.custom-theme-background .sidebarRegionScroller__23e6b {
 	--background-floating: color-mix(in oklab, var(--neutral-100) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 	--chat-background-default: hsl(0 0% 6.7% / 1) !important;
 }
-html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive__972a0 {
+html.theme-dark:not(.theme-darker, .theme-midnight, .custom-theme-background) .interactive_zln_tS {
 	color: var(--channels-default);
 }
 .theme-light {
