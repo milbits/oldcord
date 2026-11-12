@@ -1832,7 +1832,7 @@ html.visual-refresh {
 		}
 	}
 	/* go live modal v2 */
-	.container_dvN-MP.size-xl_dvN-MP:not(:has(.confirmStep_oszuaw, .inviteSplash_4hnqn0, .gameProfile_d100d9)) {
+	.container_dvN-MP.size-xl_dvN-MP:not(:has(.confirmStep_oszuaw, .inviteSplash_4hnqn0, .gameProfile__6c4MX)) {
 		width: 400px;
 	}
 	.container_dvN-MP.size-xl_dvN-MP {
