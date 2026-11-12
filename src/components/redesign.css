@@ -838,7 +838,7 @@ html.visual-refresh {
 			.critical-secondary_F7qvhY,
 			.actionButtons_6bgemo button,
 			.streamPreviewWrapper_1v6-1l button,
-			.followGameButtonActivityFeed__93528
+			.followGameButtonActivityFeed__13Yq9
 		) {
 			border: none !important;
 		}
@@ -904,7 +904,7 @@ html.visual-refresh {
 		font-size: 14px;
 	}
 	.secondary_F7qvhY,
-	:not(.popoutContainer_j9Vvzj) .followGameButtonActivityFeed__93528:not(:disabled) {
+	:not(.popoutContainer_j9Vvzj) .followGameButtonActivityFeed__13Yq9:not(:disabled) {
 		background-color: var(--button-secondary);
 		&:hover {
 			background: var(--button-secondary-hover);
