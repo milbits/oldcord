@@ -1475,10 +1475,24 @@ html.visual-refresh {
 		height: unset;
 	}
 
+	/* embeds */
 	.embedFull_XyW1ZT {
 		border-top: unset;
 		border-right: unset;
 		border-bottom: unset;
+	}
+	
+	/* linked audio embeds */
+	.grid_XyW1ZT:has(> .wrapperAudio_FJ99sr) {
+		padding: unset;
+		overflow: visible;
+		.wrapperAudio_FJ99sr {
+			border-top-left-radius: unset;
+			border-bottom-left-radius: unset;
+		}
+		.audioControls_FJ99sr {
+			margin-top: unset;
+		}
 	}
 
 	.cardPrimary_qCN-Ri {
