@@ -39,7 +39,8 @@ code {
 }
 .eyebrow /*rare NORMAL class??!?!??!?!!*/ {
 	font-weight: 600;
-	text-transform: uppercase;
+	text-transform: uppercase !important;
+	color: var(--header-secondary);
 	font-size: 12px;
 }
 
@@ -1148,10 +1149,9 @@ html:is([lang="en-us"], [lang="en-gb"]) .radioBar_jqZBm0[style="--radio-bar-acce
 
 /* pinned messages popout header */
 .titleContainer_6bgemo {
-	.body-lg\/semibold_cf4812 {
+	[data-text-variant="body-lg/semibold"] {
 		font-size: 15px;
 	}
-
 	& svg {
 		display: none;
 	}

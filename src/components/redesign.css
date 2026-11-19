@@ -549,7 +549,7 @@ html.visual-refresh {
 	}
 
 	/* header text in DMs */
-	.titleWrapper_ybUK7Z > .defaultColor_HtJY5C.body-md\medium_RAOoio {
+	.titleWrapper_ybUK7Z > .defaultColor_HtJY5C.body-md\/medium_RAOoio {
 		text-transform: unset !important;
 	}
 	.topic_pVbL3l {
@@ -900,7 +900,7 @@ html.visual-refresh {
 		min-width: 96px;
 		min-height: 38px;
 	}
-	.buttonChildren_F7qvhY .body-md\medium_RAOoio {
+	.buttonChildren_F7qvhY .body-md\/medium_RAOoio {
 		font-size: 14px;
 	}
 	.secondary_F7qvhY,
@@ -1195,6 +1195,8 @@ html.visual-refresh {
 		),
 	.liveNowText_hVh8FI,
 	.tipTitle_oDjP9R,
+	.header_hm_rAU,
+	.contentTitle_CAMiwx,
 	[data-text-variant="body-xs/bold"] {
 		text-transform: uppercase;
 		font-size: 12px;
@@ -1733,28 +1735,6 @@ html.visual-refresh {
 				box-shadow: var(--elevation-medium), var(--elevation-stroke) !important;
 			}
 		}
-	}
-
-	/* custom status modal */
-	.header_dvN-MP {
-		background-image: url("https://discord.com/assets/7d67842f58b6d155.svg");
-		background-size: 200px 120px;
-		background-position: center bottom;
-		background-repeat: no-repeat;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		padding-top: 120px !important;
-		margin-top: -93px;
-	}
-	.headerTitle_dvN-MP [data-text-variant="heading-lg/semibold"] {
-		display: none;
-	}
-	.profilePreview_5sqtjZ {
-		display: none;
-	}
-	.statusText_CXmngM {
-		color: var(--header-secondary);
 	}
 
 	/* go live modal */
@@ -3082,7 +3062,7 @@ html .bar_3zSH5d {
 		}
 		:is([data-nav-anchor-key$="_category"], [data-nav-anchor-key="motion"])
 			.stack_TWWX0S:first-of-type
-			[data-text-variant="experimental/heading-xl/medium"] {
+			[data-text-variant="heading-xl/medium"] {
 			font-size: 16px;
 			font-weight: 600;
 			text-transform: uppercase;
